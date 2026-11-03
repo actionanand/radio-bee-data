@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/actionanand/radio-bee-data/blob/main/schema/stream.schema.json",
+  "title": "RadioBee stream candidate v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "url",
+    "format",
+    "verificationStatus",
+    "lastVerifiedAt",
+    "sourceId",
+    "rightsStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "format": {
+      "enum": [
+        "mp3",
+        "aac",
+        "hls",
+        "unknown"
+      ]
+    },
+    "verificationStatus": {
+      "enum": [
+        "unverified",
+        "verified",
+        "unavailable"
+      ]
+    },
+    "lastVerifiedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "sourceId": {
+      "type": "string"
+    },
+    "rightsStatus": {
+      "enum": [
+        "unconfirmed",
+        "permission-granted"
+      ]
+    }
+  }
+}

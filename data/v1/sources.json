@@ -1,0 +1,79 @@
+[
+  {
+    "id": "prasar-air-network",
+    "title": "Prasar Bharati — Akashvani Network",
+    "url": "https://prasarbharati.gov.in/en/akashvani-network/",
+    "kind": "official",
+    "notes": "Contains services, streaming-channel names and terrestrial transmitter locations; not proof of an independently playable stream URL."
+  },
+  {
+    "id": "prasar-air-live",
+    "title": "Prasar Bharati — Livestreaming Services",
+    "url": "https://prasarbharati.gov.in/en/livestreaming-services/",
+    "kind": "official",
+    "notes": "Confirms channels streamed via broadcaster services; not a direct stream endpoint."
+  },
+  {
+    "id": "suryan-nagercoil-2026",
+    "title": "AirMedia — Suryan FM 91.9 Nagercoil launch (18 August 2026)",
+    "url": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening-fm-radio-network-with-the-launch-of-suryan-fm-91-9-mhz-in-nagercoil-tamil-nadu",
+    "kind": "trade-press",
+    "notes": "Reports local FM launch; does not establish internet stream URL."
+  },
+  {
+    "id": "shakthi-site",
+    "title": "Shakthi FM official website",
+    "url": "https://shakthifm.com/home.html",
+    "kind": "official",
+    "notes": "Lists 103.9 MHz Colombo and 104.1 MHz Jaffna coverage. Online stream endpoint not extracted."
+  },
+  {
+    "id": "sooriyan-site",
+    "title": "Sooriyan FM official website",
+    "url": "https://www.sooriyanfm.lk/",
+    "kind": "official",
+    "notes": "Confirms Sri Lankan Sooriyan broadcaster, separate from Indian Suryan FM."
+  },
+  {
+    "id": "radio-browser-docs",
+    "title": "Radio Browser open API reference",
+    "url": "https://docs.radio-browser.info/",
+    "kind": "technical",
+    "notes": "Metadata discovery API, stream checks and UUID guidance; its data and uptime are not guaranteed."
+  },
+  {
+    "id": "initial-directory-candidates",
+    "title": "Initial unverified streaming-directory leads",
+    "url": null,
+    "kind": "unverified",
+    "notes": "Legacy research leads only. No rights confirmation, endpoint verification or Play compatibility. Must be reviewed before promoting."
+  },
+  {
+    "id": "asr-site",
+    "title": "ASR Digital Radio website",
+    "url": "https://radio.asrdmm.com/",
+    "kind": "broadcaster-site",
+    "notes": "Website reference only, not a direct stream URL."
+  },
+  {
+    "id": "annai-site",
+    "title": "Annai FM directory page",
+    "url": "https://zeno.fm/radio/annai-fm/",
+    "kind": "directory",
+    "notes": "Directory page only, not a raw stream URL."
+  },
+  {
+    "id": "kumari-site",
+    "title": "Kumari Tamil Media website",
+    "url": "https://radio.kumaritamil.com/",
+    "kind": "broadcaster-site",
+    "notes": "Website reference only, not a direct stream URL."
+  },
+  {
+    "id": "luminous-site",
+    "title": "Luminous Radio official website",
+    "url": "https://www.luminousradio.com/",
+    "kind": "broadcaster-site",
+    "notes": "Website reference only, not a direct stream URL."
+  }
+]

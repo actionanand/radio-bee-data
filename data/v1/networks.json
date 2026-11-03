@@ -1,0 +1,171 @@
+[
+  {
+    "id": "akashvani",
+    "name": "Akashvani (All India Radio)",
+    "aliases": [
+      "AIR",
+      "Prasar Bharati"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "public",
+    "website": "https://prasarbharati.gov.in/en/akashvani-network/"
+  },
+  {
+    "id": "suryan-in",
+    "name": "Suryan FM",
+    "aliases": [
+      "Suryan FM India"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "hello-fm",
+    "name": "Hello FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "mirchi",
+    "name": "Radio Mirchi",
+    "aliases": [
+      "Mirchi"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "radio-city",
+    "name": "Radio City",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "red-fm",
+    "name": "RED FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "big-fm",
+    "name": "BIG FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "fever-fm",
+    "name": "Fever FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "shakthi-lk",
+    "name": "Shakthi FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://shakthifm.com/"
+  },
+  {
+    "id": "sooriyan-lk",
+    "name": "Sooriyan FM (Sri Lanka)",
+    "aliases": [
+      "Sooriyan"
+    ],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.sooriyanfm.lk/"
+  },
+  {
+    "id": "vasantham-lk",
+    "name": "Vasantham FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "slbc",
+    "name": "Sri Lanka Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "public",
+    "website": null
+  },
+  {
+    "id": "asr-digital",
+    "name": "ASR Digital Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radio.asrdmm.com/"
+  },
+  {
+    "id": "annai-fm",
+    "name": "Annai FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://zeno.fm/radio/annai-fm/"
+  },
+  {
+    "id": "kumari-tamil",
+    "name": "Kumari Tamil Media",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radio.kumaritamil.com/"
+  },
+  {
+    "id": "luminous-radio",
+    "name": "Luminous Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.luminousradio.com/"
+  }
+]

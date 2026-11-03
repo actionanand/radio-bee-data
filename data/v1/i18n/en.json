@@ -1,0 +1,49 @@
+{
+  "catalog": {
+    "title": "Radio stations",
+    "networks": "Networks",
+    "stations": "Stations",
+    "countries": "Countries",
+    "states": "States / provinces",
+    "districts": "Districts",
+    "localities": "Cities / localities",
+    "languages": "Broadcast languages",
+    "genres": "Categories",
+    "allStations": "All stations",
+    "availableStreams": "Available streams",
+    "streamUnverified": "Stream not verified",
+    "streamUnavailable": "Stream unavailable",
+    "noStream": "Direct stream not available",
+    "candidate": "Needs review",
+    "reviewed": "Listing reviewed",
+    "listen": "Listen",
+    "source": "Source",
+    "coverage": "Coverage",
+    "search": "Search stations",
+    "noResults": "No stations found",
+    "global": "National / global",
+    "lastVerified": "Last verified"
+  },
+  "categories": {
+    "music": "Music",
+    "news": "News",
+    "general": "General",
+    "talk": "Talk",
+    "devotional": "Devotional",
+    "classical": "Classical",
+    "community": "Community"
+  },
+  "countries": {
+    "IN": "India",
+    "LK": "Sri Lanka"
+  },
+  "regions": {
+    "in-tn": "Tamil Nadu",
+    "in-kl": "Kerala",
+    "in-py": "Puducherry",
+    "lk-wp": "Western Province",
+    "lk-np": "Northern Province",
+    "lk-ep": "Eastern Province",
+    "lk-cp": "Central Province"
+  }
+}

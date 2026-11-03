@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/actionanand/radio-bee-data/blob/main/schema/station.schema.json",
+  "title": "RadioBee station v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "networkId",
+    "countryCode",
+    "regionId",
+    "districtId",
+    "localityId",
+    "broadcastLanguages",
+    "genres",
+    "delivery",
+    "coverage",
+    "listingStatus",
+    "frequencyMHz",
+    "website",
+    "sourceIds",
+    "streams",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "networkId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "countryCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "regionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "districtId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "localityId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "broadcastLanguages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2,3}$"
+      }
+    },
+    "genres": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "delivery": {
+      "enum": [
+        "fm",
+        "am",
+        "online"
+      ]
+    },
+    "coverage": {
+      "enum": [
+        "local",
+        "regional",
+        "national",
+        "global"
+      ]
+    },
+    "listingStatus": {
+      "enum": [
+        "candidate",
+        "reviewed"
+      ]
+    },
+    "frequencyMHz": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 65,
+      "maximum": 110
+    },
+    "website": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "sourceIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "streams": {
+      "type": "array",
+      "items": {
+        "$ref": "stream.schema.json"
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

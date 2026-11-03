@@ -1,0 +1,1988 @@
+[
+  {
+    "id": "air-nagercoil",
+    "name": "Akashvani Nagercoil",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-nagercoil",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-chennai",
+    "name": "Akashvani Chennai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-coimbatore",
+    "name": "Akashvani Coimbatore",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": "in-tn-coimbatore-coimbatore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-madurai",
+    "name": "Akashvani Madurai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-madurai",
+    "localityId": "in-tn-madurai-madurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-tiruchirappalli",
+    "name": "Akashvani Tiruchirappalli",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tiruchirappalli",
+    "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-tirunelveli",
+    "name": "Akashvani Tirunelveli",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tirunelveli",
+    "localityId": "in-tn-tirunelveli-tirunelveli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-kodaikanal",
+    "name": "Akashvani Kodaikanal",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-dindigul",
+    "localityId": "in-tn-dindigul-kodaikanal",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-ooty",
+    "name": "Akashvani Ooty",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-nilgiris",
+    "localityId": "in-tn-nilgiris-ooty",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-thoothukudi",
+    "name": "Akashvani Thoothukudi",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-thoothukudi",
+    "localityId": "in-tn-thoothukudi-thoothukudi",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-vellore",
+    "name": "Akashvani Vellore",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-vellore",
+    "localityId": "in-tn-vellore-vellore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-puducherry",
+    "name": "Akashvani Puducherry",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-puducherry",
+    "localityId": "in-py-puducherry-puducherry",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-karaikal",
+    "name": "Akashvani Karaikal",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-karaikal",
+    "localityId": "in-py-karaikal-karaikal",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+  },
+  {
+    "id": "air-thiruvananthapuram",
+    "name": "Akashvani Thiruvananthapuram",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-kochi",
+    "name": "Akashvani Kochi",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-ernakulam",
+    "localityId": "in-kl-ernakulam-kochi",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-kozhikode",
+    "name": "Akashvani Kozhikode",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-kozhikode",
+    "localityId": "in-kl-kozhikode-kozhikode",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-thrissur",
+    "name": "Akashvani Thrissur",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thrissur",
+    "localityId": "in-kl-thrissur-thrissur",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-kannur",
+    "name": "Akashvani Kannur",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-kannur",
+    "localityId": "in-kl-kannur-kannur",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-devikulam",
+    "name": "Akashvani Devikulam",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-idukki",
+    "localityId": "in-kl-idukki-devikulam",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-network"
+    ],
+    "streams": [],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+  },
+  {
+    "id": "air-bengaluru",
+    "name": "Akashvani Bengaluru",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-ka",
+    "districtId": "in-ka-bengaluru-urban",
+    "localityId": "in-ka-bengaluru-urban-bengaluru",
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+  },
+  {
+    "id": "air-hyderabad",
+    "name": "Akashvani Hyderabad",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tg",
+    "districtId": "in-tg-hyderabad",
+    "localityId": "in-tg-hyderabad-hyderabad",
+    "broadcastLanguages": [
+      "te"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+  },
+  {
+    "id": "air-new-delhi",
+    "name": "Akashvani New Delhi",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-dl",
+    "districtId": "in-dl-new-delhi",
+    "localityId": "in-dl-new-delhi-new-delhi",
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+  },
+  {
+    "id": "air-mumbai",
+    "name": "Akashvani Mumbai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-mh",
+    "districtId": "in-mh-mumbai-city",
+    "localityId": "in-mh-mumbai-city-mumbai",
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+  },
+  {
+    "id": "air-tamil",
+    "name": "Akashvani Tamil",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "regional",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-live"
+    ],
+    "streams": [],
+    "notes": "Named language service, not an assertion that it originates from each Tamil Nadu locality."
+  },
+  {
+    "id": "air-malayalam",
+    "name": "Akashvani Malayalam",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "regional",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-live"
+    ],
+    "streams": [],
+    "notes": null
+  },
+  {
+    "id": "air-vividh-bharati",
+    "name": "Vividh Bharati",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-live"
+    ],
+    "streams": [],
+    "notes": null
+  },
+  {
+    "id": "air-raagam",
+    "name": "Akashvani Raagam",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [],
+    "genres": [
+      "classical"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "prasar-air-live"
+    ],
+    "streams": [],
+    "notes": "Indian classical music service. No spoken broadcast language is asserted; do not infer Sanskrit from the service name."
+  },
+  {
+    "id": "suryan-nagercoil",
+    "name": "Suryan FM Nagercoil",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-nagercoil",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": 91.9,
+    "website": null,
+    "sourceIds": [
+      "suryan-nagercoil-2026"
+    ],
+    "streams": [],
+    "notes": "FM frequency is verified by the cited launch report. Internet endpoint not verified."
+  },
+  {
+    "id": "suryan-chennai",
+    "name": "Suryan FM Chennai",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-coimbatore",
+    "name": "Suryan FM Coimbatore",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": "in-tn-coimbatore-coimbatore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-madurai",
+    "name": "Suryan FM Madurai",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-madurai",
+    "localityId": "in-tn-madurai-madurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-tiruchirappalli",
+    "name": "Suryan FM Tiruchirappalli",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tiruchirappalli",
+    "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-tirunelveli",
+    "name": "Suryan FM Tirunelveli",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tirunelveli",
+    "localityId": "in-tn-tirunelveli-tirunelveli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-thoothukudi",
+    "name": "Suryan FM Thoothukudi",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-thoothukudi",
+    "localityId": "in-tn-thoothukudi-thoothukudi",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-puducherry",
+    "name": "Suryan FM Puducherry",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-puducherry",
+    "localityId": "in-py-puducherry-puducherry",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "suryan-salem",
+    "name": "Suryan FM Salem",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-salem",
+    "localityId": "in-tn-salem-salem",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+  },
+  {
+    "id": "hello-nagercoil",
+    "name": "Hello FM Nagercoil",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-nagercoil",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-chennai",
+    "name": "Hello FM Chennai",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-coimbatore",
+    "name": "Hello FM Coimbatore",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": "in-tn-coimbatore-coimbatore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-madurai",
+    "name": "Hello FM Madurai",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-madurai",
+    "localityId": "in-tn-madurai-madurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-tiruchirappalli",
+    "name": "Hello FM Tiruchirappalli",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tiruchirappalli",
+    "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-tirunelveli",
+    "name": "Hello FM Tirunelveli",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tirunelveli",
+    "localityId": "in-tn-tirunelveli-tirunelveli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-thoothukudi",
+    "name": "Hello FM Thoothukudi",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-thoothukudi",
+    "localityId": "in-tn-thoothukudi-thoothukudi",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-salem",
+    "name": "Hello FM Salem",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-salem",
+    "localityId": "in-tn-salem-salem",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "hello-puducherry",
+    "name": "Hello FM Puducherry",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-puducherry",
+    "localityId": "in-py-puducherry-puducherry",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+  },
+  {
+    "id": "mirchi-chennai",
+    "name": "Radio Mirchi Chennai",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-coimbatore",
+    "name": "Radio Mirchi Coimbatore",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": "in-tn-coimbatore-coimbatore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-madurai",
+    "name": "Radio Mirchi Madurai",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-madurai",
+    "localityId": "in-tn-madurai-madurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-tiruchirappalli",
+    "name": "Radio Mirchi Tiruchirappalli",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tiruchirappalli",
+    "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-tirunelveli",
+    "name": "Radio Mirchi Tirunelveli",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-tirunelveli",
+    "localityId": "in-tn-tirunelveli-tirunelveli",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-thiruvananthapuram",
+    "name": "Radio Mirchi Thiruvananthapuram",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-bengaluru",
+    "name": "Radio Mirchi Bengaluru",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-ka",
+    "districtId": "in-ka-bengaluru-urban",
+    "localityId": "in-ka-bengaluru-urban-bengaluru",
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-mumbai",
+    "name": "Radio Mirchi Mumbai",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-mh",
+    "districtId": "in-mh-mumbai-city",
+    "localityId": "in-mh-mumbai-city-mumbai",
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "mirchi-puducherry",
+    "name": "Radio Mirchi Puducherry",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-puducherry",
+    "localityId": "in-py-puducherry-puducherry",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+  },
+  {
+    "id": "radio-city-chennai",
+    "name": "Radio City Chennai",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "radio-city-coimbatore",
+    "name": "Radio City Coimbatore",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": "in-tn-coimbatore-coimbatore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "radio-city-madurai",
+    "name": "Radio City Madurai",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-madurai",
+    "localityId": "in-tn-madurai-madurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "radio-city-bengaluru",
+    "name": "Radio City Bengaluru",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-ka",
+    "districtId": "in-ka-bengaluru-urban",
+    "localityId": "in-ka-bengaluru-urban-bengaluru",
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "radio-city-mumbai",
+    "name": "Radio City Mumbai",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-mh",
+    "districtId": "in-mh-mumbai-city",
+    "localityId": "in-mh-mumbai-city-mumbai",
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "radio-city-pune",
+    "name": "Radio City Pune",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-mh",
+    "districtId": "in-mh-pune",
+    "localityId": "in-mh-pune-pune",
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; online endpoint unverified."
+  },
+  {
+    "id": "red-erode",
+    "name": "RED FM Erode",
+    "networkId": "red-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-erode",
+    "localityId": "in-tn-erode-erode",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; confirm city availability and actual online feed."
+  },
+  {
+    "id": "red-salem",
+    "name": "RED FM Salem",
+    "networkId": "red-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-salem",
+    "localityId": "in-tn-salem-salem",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; confirm city availability and actual online feed."
+  },
+  {
+    "id": "red-vellore",
+    "name": "RED FM Vellore",
+    "networkId": "red-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-vellore",
+    "localityId": "in-tn-vellore-vellore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; confirm city availability and actual online feed."
+  },
+  {
+    "id": "red-thiruvananthapuram",
+    "name": "RED FM Thiruvananthapuram",
+    "networkId": "red-fm",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; confirm city availability and actual online feed."
+  },
+  {
+    "id": "red-new-delhi",
+    "name": "RED FM New Delhi",
+    "networkId": "red-fm",
+    "countryCode": "IN",
+    "regionId": "in-dl",
+    "districtId": "in-dl-new-delhi",
+    "localityId": "in-dl-new-delhi-new-delhi",
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; confirm city availability and actual online feed."
+  },
+  {
+    "id": "big-chennai",
+    "name": "BIG FM Chennai",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+  },
+  {
+    "id": "big-puducherry",
+    "name": "BIG FM Puducherry",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-py",
+    "districtId": "in-py-puducherry",
+    "localityId": "in-py-puducherry-puducherry",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+  },
+  {
+    "id": "big-bengaluru",
+    "name": "BIG FM Bengaluru",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-ka",
+    "districtId": "in-ka-bengaluru-urban",
+    "localityId": "in-ka-bengaluru-urban-bengaluru",
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+  },
+  {
+    "id": "big-mumbai",
+    "name": "BIG FM Mumbai",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-mh",
+    "districtId": "in-mh-mumbai-city",
+    "localityId": "in-mh-mumbai-city-mumbai",
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+  },
+  {
+    "id": "big-thiruvananthapuram",
+    "name": "BIG FM Thiruvananthapuram",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+  },
+  {
+    "id": "fever-chennai",
+    "name": "Fever FM Chennai",
+    "networkId": "fever-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Discovery only; current frequency/brand and language not confirmed."
+  },
+  {
+    "id": "shakthi-colombo",
+    "name": "Shakthi FM Colombo",
+    "networkId": "shakthi-lk",
+    "countryCode": "LK",
+    "regionId": "lk-wp",
+    "districtId": "lk-wp-colombo",
+    "localityId": "lk-wp-colombo-colombo",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": 103.9,
+    "website": null,
+    "sourceIds": [
+      "shakthi-site"
+    ],
+    "streams": [
+      {
+        "id": "shakthi-candidate",
+        "url": "https://mbc.thestreamtech.com:8086/stream",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "initial-directory-candidates",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official site lists Colombo 103.9 MHz. Candidate web stream not confirmed to be city-specific or authorized."
+  },
+  {
+    "id": "shakthi-jaffna",
+    "name": "Shakthi FM Jaffna",
+    "networkId": "shakthi-lk",
+    "countryCode": "LK",
+    "regionId": "lk-np",
+    "districtId": "lk-np-jaffna",
+    "localityId": "lk-np-jaffna-jaffna",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": 104.1,
+    "website": null,
+    "sourceIds": [
+      "shakthi-site"
+    ],
+    "streams": [],
+    "notes": "Official site lists Jaffna 104.1 MHz. May share network audio; do not duplicate a stream without evidence."
+  },
+  {
+    "id": "sooriyan-srilanka",
+    "name": "Sooriyan FM Sri Lanka",
+    "networkId": "sooriyan-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "sooriyan-site"
+    ],
+    "streams": [
+      {
+        "id": "sooriyan-candidate",
+        "url": "https://radio.lotustechnologieslk.net:8006/",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "initial-directory-candidates",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Coverage national is editorial grouping; stream endpoint unverified."
+  },
+  {
+    "id": "vasantham-srilanka",
+    "name": "Vasantham FM Sri Lanka",
+    "networkId": "vasantham-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [
+      {
+        "id": "vasantham-candidate",
+        "url": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "initial-directory-candidates",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Station and candidate endpoint require current official confirmation."
+  },
+  {
+    "id": "slbc-thendral",
+    "name": "SLBC Thendral",
+    "networkId": "slbc",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Editorial discovery candidate; stream unverified."
+  },
+  {
+    "id": "slbc-tamil-national",
+    "name": "SLBC Tamil National Service",
+    "networkId": "slbc",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Editorial discovery candidate; service name and stream require verification."
+  },
+  {
+    "id": "yaal-fm",
+    "name": "Yaal FM",
+    "networkId": "slbc",
+    "countryCode": "LK",
+    "regionId": "lk-np",
+    "districtId": "lk-np-jaffna",
+    "localityId": "lk-np-jaffna-jaffna",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [],
+    "streams": [],
+    "notes": "Editorial discovery candidate; broadcaster affiliation and current availability require verification."
+  },
+  {
+    "id": "asr-kanyakumari",
+    "name": "ASR Digital Radio",
+    "networkId": "asr-digital",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-thingalnagar",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radio.asrdmm.com/",
+    "sourceIds": [
+      "asr-site"
+    ],
+    "streams": [],
+    "notes": "Website is not a verified direct audio URL; region approximation should be reviewed."
+  },
+  {
+    "id": "annai-kuzhithurai",
+    "name": "Annai FM",
+    "networkId": "annai-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-kuzhithurai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://zeno.fm/radio/annai-fm/",
+    "sourceIds": [
+      "annai-site"
+    ],
+    "streams": [],
+    "notes": null
+  },
+  {
+    "id": "kumari-tamil-kanyakumari",
+    "name": "Kumari Tamil Media",
+    "networkId": "kumari-tamil",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-nagercoil",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radio.kumaritamil.com/",
+    "sourceIds": [
+      "kumari-site"
+    ],
+    "streams": [],
+    "notes": "Nagercoil used for browsing seed; actual originating locality unverified."
+  },
+  {
+    "id": "luminous-radio",
+    "name": "Luminous Radio",
+    "networkId": "luminous-radio",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [
+      "ta",
+      "ml"
+    ],
+    "genres": [
+      "devotional",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.luminousradio.com/",
+    "sourceIds": [
+      "luminous-site"
+    ],
+    "streams": [],
+    "notes": "Confirm actual programme languages and service origin."
+  }
+]

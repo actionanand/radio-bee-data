@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "1.0.0",
+  "publishedOn": "2026-11-03",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ta",
+    "sa"
+  ],
+  "countries": [
+    "IN",
+    "LK"
+  ],
+  "counts": {
+    "networks": 16,
+    "stations": 81,
+    "locations": 89,
+    "streams": 3,
+    "verifiedStreams": 0
+  },
+  "files": {
+    "networks": "networks.json",
+    "stations": "stations.json",
+    "locations": "locations.json",
+    "languages": "languages.json",
+    "categories": "categories.json",
+    "sources": "sources.json"
+  },
+  "localizationRoot": "i18n/",
+  "disclaimer": "Discovery catalogue; unverified stream candidates are NOT production-ready. All station names and frequencies need broadcaster/rights review."
+}
