@@ -1,0 +1,34 @@
+{
+  "reviewedOn": "2026-11-06",
+  "catalogVersion": "1.1.0",
+  "scope": "Provenance review of existing Stage 3A changes; no repeat stream discovery or new playback verification.",
+  "akashvaniLanguageEvidence": {
+    "sourceId": "air-player-2026",
+    "url": "https://akashvani.gov.in/radio/live.php",
+    "basis": "Official station-search cards explicitly list Tamil and English. Channel IDs and stream mappings were inspected in the original investigation. This review reconfirmed the published service names and language labels, not actual programme playback.",
+    "stations": [
+      { "stationId": "air-nagercoil", "officialChannelId": "248", "publishedName": "FM Nagercoil Kumari", "publishedLanguages": ["Tamil", "English"], "broadcastLanguages": ["ta", "en"] },
+      { "stationId": "air-tamil", "officialChannelId": "9", "publishedName": "Akashvani Tamil Nadu", "publishedLanguages": ["Tamil", "English"], "broadcastLanguages": ["ta", "en"] },
+      { "stationId": "air-chennai-rainbow", "officialChannelId": "297", "publishedName": "FM Rainbow Chennai", "publishedLanguages": ["Tamil", "English"], "broadcastLanguages": ["ta", "en"] }
+    ]
+  },
+  "newStationEvidence": [
+    { "stationId": "shakthi-srilanka", "sourceIds": ["shakthi-site", "shakthi-player-2026"], "basis": "Official Shakthi page identifies a Tamil network and island-wide service. The legacy /stream path remains unattributed; it is listed once at network level, not copied into Colombo/Jaffna records. All location levels null." },
+    { "stationId": "air-chennai-rainbow", "sourceIds": ["air-player-2026"], "basis": "Official player explicitly names the Chennai service; local association is published, not inferred from reception. HLS endpoint remains unverified." },
+    { "stationId": "luminous-radio-tamil", "sourceIds": ["luminous-tamil-player-2026", "luminous-identity-2026"], "basis": "Original official player inspection names a separate Tamil channel. Official About Us page identifies Luminous as an Indian multilingual Catholic Internet broadcaster with Tamil programming and a global audience. Country IN, Tamil and devotional grouping supported; city origin is not asserted." }
+  ],
+  "approval": { "technicalVerifiedStreams": 1, "permissionGrantedStreams": 0, "productionEligibleStations": [] },
+  "validation": {
+    "environment": "WSL2 Ubuntu 22.04; Linux Node 24.16.0; npm 11.13.0; existing nvm installation",
+    "commands": [
+      { "command": "npm run validate", "exitCode": 0 },
+      { "command": "npm test", "exitCode": 0, "tests": 32, "passed": 32, "failed": 0, "cancelled": 0, "skipped": 0, "todo": 0 },
+      { "command": "npm run build", "exitCode": 0 }
+    ],
+    "transportSmokeTest": { "url": "https://akashvani.gov.in/radio/live.php", "method": "HEAD", "status": 200, "audioDownloaded": false },
+    "gitDiffCheck": "passed",
+    "reviewedGitChangeFiles": 17,
+    "secretsAndBinaryAudit": "All changed/untracked files are text; no real secrets, raw logs, audio or binary captures found. Reports and dist remain ignored."
+  },
+  "retention": "Editorial metadata only; no audio, raw website logs, credentials, private correspondence or binary captures. Original technical observations remain in 2026-11-06.json; their timestamps are not refreshed by this review."
+}

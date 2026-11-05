@@ -8,7 +8,8 @@
     "districtId": "in-tn-kanyakumari",
     "localityId": "in-tn-kanyakumari-nagercoil",
     "broadcastLanguages": [
-      "ta"
+      "ta",
+      "en"
     ],
     "genres": [
       "general",
@@ -18,12 +19,24 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-player-2026",
+      "prasar-terms-2026"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-nagercoil-hls-candidate",
+        "url": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official player channel 248: FM Nagercoil Kumari. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. City association is explicitly published by Akashvani, not inferred from reception."
   },
   {
     "id": "air-chennai",
@@ -565,14 +578,15 @@
   },
   {
     "id": "air-tamil",
-    "name": "Akashvani Tamil",
+    "name": "Akashvani Tamil Nadu",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
     "districtId": null,
     "localityId": null,
     "broadcastLanguages": [
-      "ta"
+      "ta",
+      "en"
     ],
     "genres": [
       "general",
@@ -582,12 +596,24 @@
     "coverage": "regional",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-live"
+      "prasar-air-live",
+      "air-player-2026",
+      "prasar-terms-2026"
     ],
-    "streams": [],
-    "notes": "Named language service, not an assertion that it originates from each Tamil Nadu locality."
+    "streams": [
+      {
+        "id": "air-tamil-hls-candidate",
+        "url": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official player channel 9: Akashvani Tamil Nadu. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. Regional service; no city origin asserted."
   },
   {
     "id": "air-malayalam",
@@ -1700,18 +1726,8 @@
     "sourceIds": [
       "shakthi-site"
     ],
-    "streams": [
-      {
-        "id": "shakthi-candidate",
-        "url": "https://mbc.thestreamtech.com:8086/stream",
-        "format": "unknown",
-        "verificationStatus": "unverified",
-        "lastVerifiedAt": null,
-        "sourceId": "initial-directory-candidates",
-        "rightsStatus": "unconfirmed"
-      }
-    ],
-    "notes": "Official site lists Colombo 103.9 MHz. Candidate web stream not confirmed to be city-specific or authorized."
+    "streams": [],
+    "notes": "Official site lists Colombo 103.9 MHz. Network online candidate is held once under shakthi-srilanka; no unique Colombo Internet feed established."
   },
   {
     "id": "shakthi-jaffna",
@@ -1757,22 +1773,32 @@
     "coverage": "national",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.sooriyanfm.lk/",
     "sourceIds": [
-      "sooriyan-site"
+      "sooriyan-site",
+      "sooriyan-player-2026"
     ],
     "streams": [
       {
         "id": "sooriyan-candidate",
         "url": "https://radio.lotustechnologieslk.net:8006/",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "initial-directory-candidates",
         "rightsStatus": "unconfirmed"
+      },
+      {
+        "id": "sooriyan-official-candidate",
+        "url": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "sooriyan-player-2026",
+        "rightsStatus": "unconfirmed"
       }
     ],
-    "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Coverage national is editorial grouping; stream endpoint unverified."
+    "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Official player publishes one network feed on port 2020. Legacy port 8006 responds with MP3-like data but exact identity is unconfirmed. Neither endpoint has confirmed RadioBee permission or decoder verification."
   },
   {
     "id": "vasantham-srilanka",
@@ -1791,22 +1817,25 @@
     ],
     "delivery": "fm",
     "coverage": "national",
-    "listingStatus": "candidate",
+    "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.vasanthamfm.lk/",
+    "sourceIds": [
+      "itn-vasantham-identity",
+      "vasantham-player-2026"
+    ],
     "streams": [
       {
         "id": "vasantham-candidate",
         "url": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
-        "format": "unknown",
-        "verificationStatus": "unverified",
-        "lastVerifiedAt": null,
-        "sourceId": "initial-directory-candidates",
+        "format": "mp3",
+        "verificationStatus": "verified",
+        "lastVerifiedAt": "2026-11-05T23:13:09.857Z",
+        "sourceId": "vasantham-player-2026",
         "rightsStatus": "unconfirmed"
       }
     ],
-    "notes": "Station and candidate endpoint require current official confirmation."
+    "notes": "ITN Tamil network service. Exact official endpoint played in the desktop browser for over 24 seconds. Technical verification does not grant RadioBee permission; rights remain unconfirmed. Android and sustained playback not tested. Not a unique local feed."
   },
   {
     "id": "slbc-thendral",
@@ -1901,10 +1930,12 @@
     "frequencyMHz": null,
     "website": "https://radio.asrdmm.com/",
     "sourceIds": [
-      "asr-site"
+      "asr-site",
+      "asr-player-2026",
+      "asr-terms-2026"
     ],
     "streams": [],
-    "notes": "Website is not a verified direct audio URL; region approximation should be reviewed."
+    "notes": "Published HTTPS player endpoint returned 404 twice on 2026-11-06 IST. No stream added; exact originating locality and RadioBee permission remain unconfirmed."
   },
   {
     "id": "annai-kuzhithurai",
@@ -1983,6 +2014,118 @@
       "luminous-site"
     ],
     "streams": [],
-    "notes": "Confirm actual programme languages and service origin."
+    "notes": "Legacy bilingual/local discovery listing; originating locality and combined-language service unverified. The independently named Tamil channel is listed separately as luminous-radio-tamil; do not attach its stream to this local entry."
+  },
+  {
+    "id": "shakthi-srilanka",
+    "name": "Shakthi FM Sri Lanka (online candidate)",
+    "networkId": "shakthi-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://shakthifm.com/",
+    "sourceIds": [
+      "shakthi-site",
+      "shakthi-player-2026"
+    ],
+    "streams": [
+      {
+        "id": "shakthi-candidate",
+        "url": "https://mbc.thestreamtech.com:8086/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "initial-directory-candidates",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "One network-level legacy AAC candidate. Broadcaster website advertises island-wide service; exact /stream endpoint identity and regional programme equivalence remain unconfirmed. Browser direct navigation blocked by client; no RadioBee permission."
+  },
+  {
+    "id": "air-chennai-rainbow",
+    "name": "Akashvani FM Rainbow Chennai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "air-player-2026",
+      "prasar-terms-2026"
+    ],
+    "streams": [
+      {
+        "id": "air-chennai-rainbow-hls-candidate",
+        "url": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Distinct named official live-player channel 297, not a duplicate generic Chennai feed. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed."
+  },
+  {
+    "id": "luminous-radio-tamil",
+    "name": "Luminous Radio Tamil",
+    "networkId": "luminous-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://www.luminousradio.com/radiochannel/luminous-radio-tamil/",
+    "sourceIds": [
+      "luminous-site",
+      "luminous-tamil-player-2026",
+      "luminous-identity-2026"
+    ],
+    "streams": [
+      {
+        "id": "luminous-tamil-candidate",
+        "url": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "luminous-tamil-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official separately named Tamil Internet channel. No city-specific feed or originating locality asserted. Two short MP3-like samples; decoder, client compatibility and RadioBee permission unconfirmed."
   }
 ]

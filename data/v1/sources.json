@@ -23,9 +23,9 @@
   {
     "id": "shakthi-site",
     "title": "Shakthi FM official website",
-    "url": "https://shakthifm.com/home.html",
+    "url": "https://shakthifm.com/",
     "kind": "official",
-    "notes": "Lists 103.9 MHz Colombo and 104.1 MHz Jaffna coverage. Online stream endpoint not extracted."
+    "notes": "Official site lists Colombo 103.9 MHz and Jaffna 104.1 MHz and advertises island-wide service. This is not proof of unique city Internet feeds. See shakthi-player-2026 for player limitations."
   },
   {
     "id": "sooriyan-site",
@@ -75,5 +75,75 @@
     "url": "https://www.luminousradio.com/",
     "kind": "broadcaster-site",
     "notes": "Website reference only, not a direct stream URL."
+  },
+  {
+    "id": "shakthi-player-2026",
+    "title": "Shakthi FM official player configuration",
+    "url": "https://shakthifm.com/scripts.js",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Publishes https://mbc.thestreamtech.com:8086/index.html, not the legacy /stream path. Same host is corroborating evidence only; exact legacy stream identity remains unconfirmed. AAC-like bytes at /stream; no decoder verification or RadioBee use permission."
+  },
+  {
+    "id": "sooriyan-player-2026",
+    "title": "Sooriyan FM official live player",
+    "url": "https://www.sooriyanfm.lk/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Audio source is https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden. MP3-like bytes observed; HTML declares conflicting MIME types, so format is based on sampled bytes. Does not prove legacy port 8006 identity or permission for RadioBee. One network feed, no separate city feeds established."
+  },
+  {
+    "id": "vasantham-player-2026",
+    "title": "Vasantham FM official live player",
+    "url": "https://www.vasanthamfm.lk/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Audio src exactly matches the legacy cp12.serverse.com proxy candidate. Two bounded GETs returned audio/mpeg and MP3-like frames. Official browser playback advanced to 24.464898 seconds, readyState 3, no media error. Android, long-term stability and RadioBee use permission unconfirmed. One network feed; not a unique market feed. All rights reserved footer is not third-party playback permission."
+  },
+  {
+    "id": "itn-vasantham-identity",
+    "title": "ITN broadcaster identity and Vasantham Radio",
+    "url": "https://itn.lk/about-itn/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Identifies Vasantham Radio as an ITN venture for Tamil-speaking audiences. Establishes broadcaster identity, not RadioBee playback permission."
+  },
+  {
+    "id": "air-player-2026",
+    "title": "Akashvani official live-radio channel configuration",
+    "url": "https://akashvani.gov.in/radio/live.php",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Published channels map 248 to FM Nagercoil Kumari, 297 to FM Rainbow Chennai and 9 to Akashvani Tamil Nadu. Official HTTPS HLS URLs tested twice; 302 redirects to HTTPS CloudFront playlists. HLS segments and actual playback not verified. Tamil Nadu service is not duplicated as a city feed. Editorial review reconfirmed the official station cards list Tamil and English for all three channels; these labels support ta/en catalogue tags, not a claim of listening verification."
+  },
+  {
+    "id": "prasar-terms-2026",
+    "title": "Prasar Bharati terms and conditions",
+    "url": "https://prasarbharati.gov.in/en/terms-conditions/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Website material use is limited to personal or educational purposes and restricts transmission/distribution. No confirmed grant for RadioBee stream playback; seek broadcaster clarification and applicable stream terms."
+  },
+  {
+    "id": "luminous-tamil-player-2026",
+    "title": "Luminous Radio Tamil official channel",
+    "url": "https://www.luminousradio.com/radiochannel/luminous-radio-tamil/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Official homepage player labels https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream as Luminous Radio Tamil. MP3-like bytes on two GETs; no Access-Control-Allow-Origin header observed. Separate Tamil service, not a bilingual local Thiruvananthapuram simulcast. Decoding, origin, client compatibility and RadioBee permission remain unconfirmed."
+  },
+  {
+    "id": "asr-player-2026",
+    "title": "ASR Digital Radio published player",
+    "url": "https://radio.asrdmm.com/",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Published HTTPS player URL https://cast1.asurahosting.com/proxy/asrdigit/live returned 404 on two GETs. Older embedded Zeno URLs are HTTP. No working HTTPS stream or exact originating locality confirmed; no stream added."
+  },
+  {
+    "id": "asr-terms-2026",
+    "title": "ASR Digital Radio terms and conditions",
+    "url": "https://radio.asrdmm.com/p/terms-conditions.html",
+    "kind": "official",
+    "notes": "Investigated 2026-11-06 (Asia/Calcutta). Restricts reproducing/redistributing material and framing without written permission. No RadioBee playback grant established."
+  },
+  {
+    "id": "luminous-identity-2026",
+    "title": "Luminous Radio official broadcaster identity",
+    "url": "https://www.luminousradio.com/about-luminous-radio/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06 (Asia/Calcutta). Official About Us page identifies an Indian multilingual Catholic Internet broadcaster, including Tamil programming and international reach. Supports country IN and devotional grouping for the separately named Tamil channel; does not establish a city origin or RadioBee playback permission."
   }
 ]

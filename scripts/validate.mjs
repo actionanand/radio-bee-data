@@ -125,8 +125,12 @@ export function validHttps(raw) {
   if (!isText(raw)) return false;
   try {
     const url = new URL(raw);
-    const h = url.hostname.toLowerCase();
-    return url.protocol === 'https:' && !!h && !url.username && !url.password && !h.endsWith('.local') && !h.endsWith('.internal') && h !== 'localhost' && !/^\d+\.\d+\.\d+\.\d+$/.test(h) && !h.includes(':');
+    const h = url.hostname.toLowerCase().replace(/\.$/, '');
+    const localNames = ['localhost','local','internal','lan','home','home.arpa','onion','invalid'];
+    return url.protocol === 'https:' && h.includes('.') && !url.username && !url.password
+      && !localNames.some(name => h === name || h.endsWith(`.${name}`))
+      && !/^\d+\.\d+\.\d+\.\d+$/.test(h) && !h.includes(':')
+      && !/[\s\u0000-\u001f\u007f]/.test(raw);
   } catch { return false; }
 }
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.0.0",
-  "publishedOn": "2026-11-03",
+  "catalogVersion": "1.1.0",
+  "publishedOn": "2026-11-06",
   "defaultLocale": "en",
   "locales": [
     "en",
@@ -14,10 +14,10 @@
   ],
   "counts": {
     "networks": 16,
-    "stations": 81,
+    "stations": 84,
     "locations": 89,
-    "streams": 3,
-    "verifiedStreams": 0
+    "streams": 8,
+    "verifiedStreams": 1
   },
   "files": {
     "networks": "networks.json",

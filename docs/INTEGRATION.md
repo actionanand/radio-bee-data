@@ -22,7 +22,7 @@ The client repo remains independent: its web build on `main-github` and Android 
 6. UI language is independent of `broadcastLanguages`. Tamil UI should not hide Malayalam stations unless the user selected Tamil broadcast filtering.
 7. Group by `networkId`; sort networks and child stations by localized labels/canonical name as appropriate.
 8. Implement location filters using the parent references in `locations.json`: country → state/province → district → locality. A `null` locality means unspecified; do not infer the listener's district from their network IP.
-9. Only show an enabled Play action for streams **independently approved for production use**. In this initial seed, there are **zero** verified streams; show explanatory disabled states or station websites as external links, not fake Play buttons.
+9. Only show an enabled Play action for streams **independently approved for production use**. In catalogue 1.1.0 there is **one technically verified stream and zero production-eligible streams**. All rights remain unconfirmed. Require both `verificationStatus: "verified"` and `rightsStatus: "permission-granted"`, plus applicable client checks; show explanatory disabled states or station websites as external links while blocked. See [playback investigation](PLAYBACK-SOURCES.md).
 10. Web playback uses HTML audio/hls.js as suitable; Android playback should use an audio-background-capable Media3 bridge. HTTPS, stream codec, geoblocking and CORS can still cause failures. Handle errors without silently deleting stations.
 
 ## Example: filtering a loaded catalogue
@@ -39,6 +39,26 @@ const grouped = Map.groupBy(filtered, station => station.networkId);
 ```
 
 This example intentionally does not make regional services magically local: when a city is selected, national and region-wide services must be shown in a **separate global/network section** if desired, rather than mislabelled as city-based stations.
+
+## Stage 3B: rights-aware stream labels
+
+The client `streamLabel()` must use the same approval predicate as the Play
+button and playback handler. A technically `verified` stream with
+`rightsStatus: "unconfirmed"` must not be labelled **playable**, **available**,
+**ready** or equivalent. Vasantham in catalogue 1.1.0 is the regression case:
+show **Playback permission pending** and keep Play disabled. Technical success
+alone must never enable playback through a label, fallback stream or direct URL.
+
+| Technical status | Rights | Client result |
+| --- | --- | --- |
+| verified | unconfirmed | Playback permission pending; disabled |
+| unverified | either | Verification pending; disabled |
+| unavailable | either | Unavailable; disabled |
+| verified | permission-granted | Eligible for applicable Web/Android checks; enable only if those pass |
+
+Stage 3B must cover these combinations in `streamLabel()`, button state and
+playback-handler tests. The client implementation is outside this data-repo
+change; this is an outstanding compatibility issue, not a completed client fix.
 
 ## Locale handling
 
