@@ -1,9 +1,16 @@
 name: RadioBee stream reachability report
 
 on:
-  schedule:
-    - cron: '17 3 * * 0'
   workflow_dispatch:
+    inputs:
+      scope:
+        type: choice
+        default: all
+        options: [all, kanyakumari, srilanka-tamil, trivandrum-tamil, chennai]
+      mode:
+        type: choice
+        default: quick
+        options: [quick, deep]
 
 permissions:
   contents: read
@@ -20,11 +27,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run validate
-      - run: npm run check:streams
+      - run: npm run audit:streams -- --scope=${{ inputs.scope }} --mode=${{ inputs.mode }}
+        continue-on-error: true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: radiobee-stream-health
-          path: reports/stream-health.json
+          path: reports/stream-audit.*
           if-no-files-found: warn
           retention-days: 30

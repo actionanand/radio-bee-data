@@ -22,7 +22,7 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.suryanfm.in/"
   },
   {
     "id": "hello-fm",
@@ -116,7 +116,7 @@
       "LK"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.vasanthamfm.lk/"
   },
   {
     "id": "slbc",
@@ -167,5 +167,25 @@
     ],
     "kind": "online",
     "website": "https://www.luminousradio.com/"
+  },
+  {
+    "id": "capital-lk",
+    "name": "Capital FM Sri Lanka",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://capitalfm.lk/"
+  },
+  {
+    "id": "club-fm",
+    "name": "Club FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
   }
 ]

@@ -8,7 +8,8 @@
     "districtId": "in-tn-kanyakumari",
     "localityId": "in-tn-kanyakumari-nagercoil",
     "broadcastLanguages": [
-      "ta"
+      "ta",
+      "en"
     ],
     "genres": [
       "general",
@@ -18,12 +19,24 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-player-2026",
+      "prasar-terms-2026"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-nagercoil-hls-candidate",
+        "url": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official player channel 248: FM Nagercoil Kumari. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. City association is explicitly published by Akashvani, not inferred from reception."
   },
   {
     "id": "air-chennai",
@@ -489,7 +502,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "air-hyderabad",
@@ -513,7 +526,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "air-new-delhi",
@@ -537,7 +550,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "air-mumbai",
@@ -561,18 +574,19 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "air-tamil",
-    "name": "Akashvani Tamil",
+    "name": "Akashvani Tamil Nadu",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
     "districtId": null,
     "localityId": null,
     "broadcastLanguages": [
-      "ta"
+      "ta",
+      "en"
     ],
     "genres": [
       "general",
@@ -582,12 +596,24 @@
     "coverage": "regional",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-live"
+      "prasar-air-live",
+      "air-player-2026",
+      "prasar-terms-2026"
     ],
-    "streams": [],
-    "notes": "Named language service, not an assertion that it originates from each Tamil Nadu locality."
+    "streams": [
+      {
+        "id": "air-tamil-hls-candidate",
+        "url": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official player channel 9: Akashvani Tamil Nadu. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. Regional service; no city origin asserted."
   },
   {
     "id": "air-malayalam",
@@ -706,11 +732,14 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 93.5,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities",
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "suryan-coimbatore",
@@ -731,9 +760,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-madurai",
@@ -754,9 +785,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-tiruchirappalli",
@@ -777,9 +810,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-tirunelveli",
@@ -800,9 +835,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-thoothukudi",
@@ -823,9 +860,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-puducherry",
@@ -846,9 +885,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "suryan-salem",
@@ -869,9 +910,11 @@
     "listingStatus": "candidate",
     "frequencyMHz": null,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "suryan-stage4-cities"
+    ],
     "streams": [],
-    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release."
+    "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
   },
   {
     "id": "hello-nagercoil",
@@ -894,7 +937,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "EDITORIAL TODO: independent primary evidence for a Hello FM Nagercoil transmitter is missing. Seed candidate only; no local frequency or Internet stream asserted."
   },
   {
     "id": "hello-chennai",
@@ -913,11 +956,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 106.4,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "hello-coimbatore",
@@ -940,7 +985,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-madurai",
@@ -963,7 +1008,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-tiruchirappalli",
@@ -986,7 +1031,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-tirunelveli",
@@ -1009,7 +1054,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-thoothukudi",
@@ -1032,7 +1077,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-salem",
@@ -1055,7 +1100,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "hello-puducherry",
@@ -1078,7 +1123,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry: station/frequency and individual stream require confirmation."
+    "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-chennai",
@@ -1097,11 +1142,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 98.3,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "mirchi-coimbatore",
@@ -1124,7 +1171,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-madurai",
@@ -1147,7 +1194,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-tiruchirappalli",
@@ -1170,7 +1217,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-tirunelveli",
@@ -1193,7 +1240,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-thiruvananthapuram",
@@ -1212,11 +1259,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 98.3,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
   },
   {
     "id": "mirchi-bengaluru",
@@ -1239,7 +1288,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-mumbai",
@@ -1262,7 +1311,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "mirchi-puducherry",
@@ -1285,7 +1334,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; broadcast language, local service and online stream require verification."
+    "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "radio-city-chennai",
@@ -1304,11 +1353,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 91.1,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "radio-city-coimbatore",
@@ -1331,7 +1382,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "radio-city-madurai",
@@ -1354,7 +1405,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "radio-city-bengaluru",
@@ -1377,7 +1428,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "radio-city-mumbai",
@@ -1400,7 +1451,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "radio-city-pune",
@@ -1423,7 +1474,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; online endpoint unverified."
+    "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "red-erode",
@@ -1446,7 +1497,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; confirm city availability and actual online feed."
+    "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "red-salem",
@@ -1469,7 +1520,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; confirm city availability and actual online feed."
+    "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "red-vellore",
@@ -1492,7 +1543,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; confirm city availability and actual online feed."
+    "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "red-thiruvananthapuram",
@@ -1511,11 +1562,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 93.5,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; confirm city availability and actual online feed."
+    "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
   },
   {
     "id": "red-new-delhi",
@@ -1538,7 +1591,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; confirm city availability and actual online feed."
+    "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "big-chennai",
@@ -1557,11 +1610,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 92.7,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "big-puducherry",
@@ -1584,7 +1639,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "big-bengaluru",
@@ -1607,7 +1662,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "big-mumbai",
@@ -1630,7 +1685,7 @@
     "website": null,
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
   {
     "id": "big-thiruvananthapuram",
@@ -1649,11 +1704,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 92.7,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights."
+    "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
   },
   {
     "id": "fever-chennai",
@@ -1672,11 +1729,13 @@
     "delivery": "fm",
     "coverage": "local",
     "listingStatus": "candidate",
-    "frequencyMHz": null,
+    "frequencyMHz": 91.9,
     "website": null,
-    "sourceIds": [],
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
     "streams": [],
-    "notes": "Discovery only; current frequency/brand and language not confirmed."
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
   },
   {
     "id": "shakthi-colombo",
@@ -1700,18 +1759,8 @@
     "sourceIds": [
       "shakthi-site"
     ],
-    "streams": [
-      {
-        "id": "shakthi-candidate",
-        "url": "https://mbc.thestreamtech.com:8086/stream",
-        "format": "unknown",
-        "verificationStatus": "unverified",
-        "lastVerifiedAt": null,
-        "sourceId": "initial-directory-candidates",
-        "rightsStatus": "unconfirmed"
-      }
-    ],
-    "notes": "Official site lists Colombo 103.9 MHz. Candidate web stream not confirmed to be city-specific or authorized."
+    "streams": [],
+    "notes": "Official site lists Colombo 103.9 MHz. Network online candidate is held once under shakthi-srilanka; no unique Colombo Internet feed established."
   },
   {
     "id": "shakthi-jaffna",
@@ -1757,22 +1806,32 @@
     "coverage": "national",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.sooriyanfm.lk/",
     "sourceIds": [
-      "sooriyan-site"
+      "sooriyan-site",
+      "sooriyan-player-2026"
     ],
     "streams": [
       {
         "id": "sooriyan-candidate",
         "url": "https://radio.lotustechnologieslk.net:8006/",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "initial-directory-candidates",
         "rightsStatus": "unconfirmed"
+      },
+      {
+        "id": "sooriyan-official-candidate",
+        "url": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "sooriyan-player-2026",
+        "rightsStatus": "unconfirmed"
       }
     ],
-    "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Coverage national is editorial grouping; stream endpoint unverified."
+    "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Official player publishes one network feed on port 2020. Legacy port 8006 responds with MP3-like data but exact identity is unconfirmed. Neither endpoint has confirmed RadioBee permission or decoder verification."
   },
   {
     "id": "vasantham-srilanka",
@@ -1791,22 +1850,25 @@
     ],
     "delivery": "fm",
     "coverage": "national",
-    "listingStatus": "candidate",
+    "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.vasanthamfm.lk/",
+    "sourceIds": [
+      "itn-vasantham-identity",
+      "vasantham-player-2026"
+    ],
     "streams": [
       {
         "id": "vasantham-candidate",
         "url": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
-        "format": "unknown",
-        "verificationStatus": "unverified",
-        "lastVerifiedAt": null,
-        "sourceId": "initial-directory-candidates",
+        "format": "mp3",
+        "verificationStatus": "verified",
+        "lastVerifiedAt": "2026-11-05T23:13:09.857Z",
+        "sourceId": "vasantham-player-2026",
         "rightsStatus": "unconfirmed"
       }
     ],
-    "notes": "Station and candidate endpoint require current official confirmation."
+    "notes": "ITN Tamil network service. Exact official endpoint played in the desktop browser for over 24 seconds. Technical verification does not grant RadioBee permission; rights remain unconfirmed. Android and sustained playback not tested. Not a unique local feed."
   },
   {
     "id": "slbc-thendral",
@@ -1827,10 +1889,12 @@
     "coverage": "national",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://slbc.lk/",
+    "sourceIds": [
+      "slbc-stage4-channels"
+    ],
     "streams": [],
-    "notes": "Editorial discovery candidate; stream unverified."
+    "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
   },
   {
     "id": "slbc-tamil-national",
@@ -1851,10 +1915,12 @@
     "coverage": "national",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://slbc.lk/",
+    "sourceIds": [
+      "slbc-stage4-channels"
+    ],
     "streams": [],
-    "notes": "Editorial discovery candidate; service name and stream require verification."
+    "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
   },
   {
     "id": "yaal-fm",
@@ -1875,10 +1941,12 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://slbc.lk/",
+    "sourceIds": [
+      "slbc-stage4-channels"
+    ],
     "streams": [],
-    "notes": "Editorial discovery candidate; broadcaster affiliation and current availability require verification."
+    "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
   },
   {
     "id": "asr-kanyakumari",
@@ -1901,10 +1969,12 @@
     "frequencyMHz": null,
     "website": "https://radio.asrdmm.com/",
     "sourceIds": [
-      "asr-site"
+      "asr-site",
+      "asr-player-2026",
+      "asr-terms-2026"
     ],
     "streams": [],
-    "notes": "Website is not a verified direct audio URL; region approximation should be reviewed."
+    "notes": "Published HTTPS player endpoint returned 404 twice on 2026-11-06 IST. No stream added; exact originating locality and RadioBee permission remain unconfirmed."
   },
   {
     "id": "annai-kuzhithurai",
@@ -1983,6 +2053,241 @@
       "luminous-site"
     ],
     "streams": [],
-    "notes": "Confirm actual programme languages and service origin."
+    "notes": "Legacy bilingual/local discovery listing; originating locality and combined-language service unverified. The independently named Tamil channel is listed separately as luminous-radio-tamil; do not attach its stream to this local entry."
+  },
+  {
+    "id": "shakthi-srilanka",
+    "name": "Shakthi FM Sri Lanka (online candidate)",
+    "networkId": "shakthi-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "national",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://shakthifm.com/",
+    "sourceIds": [
+      "shakthi-site",
+      "shakthi-player-2026"
+    ],
+    "streams": [
+      {
+        "id": "shakthi-candidate",
+        "url": "https://mbc.thestreamtech.com:8086/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "initial-directory-candidates",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "One network-level legacy AAC candidate. Broadcaster website advertises island-wide service; exact /stream endpoint identity and regional programme equivalence remain unconfirmed. Browser direct navigation blocked by client; no RadioBee permission."
+  },
+  {
+    "id": "air-chennai-rainbow",
+    "name": "Akashvani FM Rainbow Chennai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "air-player-2026",
+      "prasar-terms-2026"
+    ],
+    "streams": [
+      {
+        "id": "air-chennai-rainbow-hls-candidate",
+        "url": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Distinct named official live-player channel 297, not a duplicate generic Chennai feed. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed."
+  },
+  {
+    "id": "luminous-radio-tamil",
+    "name": "Luminous Radio Tamil",
+    "networkId": "luminous-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://www.luminousradio.com/radiochannel/luminous-radio-tamil/",
+    "sourceIds": [
+      "luminous-site",
+      "luminous-tamil-player-2026",
+      "luminous-identity-2026"
+    ],
+    "streams": [
+      {
+        "id": "luminous-tamil-candidate",
+        "url": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "luminous-tamil-player-2026",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Official separately named Tamil Internet channel. No city-specific feed or originating locality asserted. Two short MP3-like samples; decoder, client compatibility and RadioBee permission unconfirmed."
+  },
+  {
+    "id": "air-chennai-gold",
+    "name": "Akashvani FM Gold Chennai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "air-stage4-player"
+    ],
+    "streams": [
+      {
+        "id": "air-chennai-gold-hls-candidate",
+        "url": "https://radio.wavespb.com/live/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage4-player",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Distinct official named Chennai service. Location/languages documentary; stream is unverified and permission unconfirmed."
+  },
+  {
+    "id": "air-chennai-vividh-tamil",
+    "name": "Akashvani Vividh Bharati Tamil Chennai",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "air-stage4-player"
+    ],
+    "streams": [
+      {
+        "id": "air-chennai-vividh-tamil-hls-candidate",
+        "url": "https://radio.wavespb.com/live/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage4-player",
+        "rightsStatus": "unconfirmed"
+      }
+    ],
+    "notes": "Distinct official named Chennai service. Location/languages documentary; stream is unverified and permission unconfirmed."
+  },
+  {
+    "id": "capital-srilanka",
+    "name": "Capital FM Sri Lanka",
+    "networkId": "capital-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://capitalfm.lk/",
+    "sourceIds": [
+      "capital-stage4-site"
+    ],
+    "streams": [],
+    "notes": "Documented Sri Lankan Tamil network. Frequencies describe multiple transmitters, so no single frequency or local origin asserted. TODO: broadcaster-authored HTTPS stream and permission."
+  },
+  {
+    "id": "club-thiruvananthapuram",
+    "name": "Club FM Thiruvananthapuram",
+    "networkId": "club-fm",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": "in-kl-thiruvananthapuram",
+    "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "broadcastLanguages": [],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 94.3,
+    "website": null,
+    "sourceIds": [
+      "mib-operational-2026-03"
+    ],
+    "streams": [],
+    "notes": "MIB row 351 confirms Mathrubhumi Club FM transmitter, city and 94.3 MHz. Programme-language evidence still needed; not tagged Tamil or Malayalam by geographic assumption. TODO: official HTTPS stream and permission."
   }
 ]

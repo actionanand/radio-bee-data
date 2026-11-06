@@ -1,0 +1,807 @@
+{
+  "investigatedOn": "2026-11-06",
+  "timezone": "Asia/Calcutta",
+  "limits": "Metadata only. No audio retained. Two bounded GETs per URL; decoder unavailable (FFmpeg ENOENT). No permission established. No automatic approval.",
+  "browserPlayback": {
+    "stationId": "vasantham-srilanka",
+    "streamId": "vasantham-candidate",
+    "recordedAt": "2026-11-05T23:13:09.857Z",
+    "environment": "Codex in-app desktop browser, official Vasantham player",
+    "observedCurrentTimeSeconds": 24.464898,
+    "readyState": 3,
+    "paused": false,
+    "mediaError": null,
+    "android": "not-tested",
+    "audibleIdentity": "not-independently-confirmed; exact endpoint supplied by official broadcaster page",
+    "shakthiDirectNavigation": "ERR_BLOCKED_BY_CLIENT; no security restriction bypassed"
+  },
+  "results": [
+    {
+      "id": "shakthi-legacy",
+      "url": "https://mbc.thestreamtech.com:8086/stream",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.606Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://mbc.thestreamtech.com:8086/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/aacp",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "aac",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:18.501Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://mbc.thestreamtech.com:8086/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/aacp",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "aac",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "sooriyan-legacy",
+      "url": "https://radio.lotustechnologieslk.net:8006/",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.676Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://radio.lotustechnologieslk.net:8006/",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:18.928Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://radio.lotustechnologieslk.net:8006/",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "vasantham",
+      "url": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.678Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:18.266Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "sooriyan-official",
+      "url": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.680Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg; charset=UTF-8",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:18.734Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg; charset=UTF-8",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "asr",
+      "url": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.681Z",
+          "reachability": "failed",
+          "status": 404,
+          "finalUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": null,
+          "corsAllowOrigin": null,
+          "sampledBytes": 0,
+          "stop": "end",
+          "mediaHint": "unknown",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:18.383Z",
+          "reachability": "failed",
+          "status": 404,
+          "finalUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": null,
+          "corsAllowOrigin": null,
+          "sampledBytes": 0,
+          "stop": "end",
+          "mediaHint": "unknown",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "luminous-tamil",
+      "url": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:08:16.682Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": null,
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:08:22.217Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+          "redirects": [],
+          "https": "TLS validated for requested hops",
+          "contentType": "audio/mpeg",
+          "corsAllowOrigin": null,
+          "sampledBytes": 131072,
+          "stop": "byte-limit",
+          "mediaHint": "mp3",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "297",
+      "name": "FM Rainbow Chennai",
+      "url": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:11:10.602Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 370,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:11:11.443Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 370,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Akashvani Tamil Nadu",
+      "url": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:11:11.647Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 370,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:11:11.851Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 370,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    },
+    {
+      "id": "248",
+      "name": "FM Nagercoil Kumari ",
+      "url": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "samples": [
+        {
+          "checkedAt": "2026-11-05T23:11:12.056Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 371,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        },
+        {
+          "checkedAt": "2026-11-05T23:11:12.223Z",
+          "reachability": "reachable",
+          "status": 200,
+          "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+              "to": "https://d1tmej9eu7kw5c.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+            }
+          ],
+          "https": "TLS validated for requested hops",
+          "contentType": "application/vnd.apple.mpegurl",
+          "corsAllowOrigin": "*",
+          "sampledBytes": 371,
+          "stop": "end",
+          "mediaHint": "hls",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "No direct audio sample; playlists require separate bounded segment review."
+          },
+          "broadcasterIdentity": "requires-independent-editorial-evidence",
+          "webCompatibility": "not-tested",
+          "androidCompatibility": "not-tested",
+          "permission": "not-assessed"
+        }
+      ]
+    }
+  ],
+  "finalCliChecks": {
+    "healthCheckedAt": "2026-11-05T23:15:53.431Z",
+    "healthResults": [
+      {
+        "stationId": "air-nagercoil",
+        "streamId": "air-nagercoil-hls-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "air-tamil",
+        "streamId": "air-tamil-hls-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "sooriyan-srilanka",
+        "streamId": "sooriyan-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "sooriyan-srilanka",
+        "streamId": "sooriyan-official-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "vasantham-srilanka",
+        "streamId": "vasantham-candidate",
+        "outcome": "failed",
+        "reason": "fetch failed"
+      },
+      {
+        "stationId": "shakthi-srilanka",
+        "streamId": "shakthi-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "air-chennai-rainbow",
+        "streamId": "air-chennai-rainbow-hls-candidate",
+        "outcome": "reachable",
+        "status": 200
+      },
+      {
+        "stationId": "luminous-radio-tamil",
+        "streamId": "luminous-tamil-candidate",
+        "outcome": "failed",
+        "reason": "fetch failed"
+      }
+    ],
+    "probeCheckedAt": "2026-11-05T23:16:37.880Z",
+    "probeResults": [
+      {
+        "stationId": "air-nagercoil",
+        "streamId": "air-nagercoil-hls-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:05.177Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 371,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:05.685Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 371,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "air-tamil",
+        "streamId": "air-tamil-hls-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:05.790Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 370,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:05.891Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 370,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "sooriyan-srilanka",
+        "streamId": "sooriyan-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:05.981Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:08.511Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "sooriyan-srilanka",
+        "streamId": "sooriyan-official-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:11.019Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:13.304Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "vasantham-srilanka",
+        "streamId": "vasantham-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:15.293Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:17.269Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "shakthi-srilanka",
+        "streamId": "shakthi-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:19.756Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "aac",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:21.666Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "aac",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "air-chennai-rainbow",
+        "streamId": "air-chennai-rainbow-hls-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:26.833Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 370,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:27.224Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "hls",
+            "sampledBytes": 370,
+            "stop": "end",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "No direct audio sample; playlists require separate bounded segment review."
+            }
+          }
+        ]
+      },
+      {
+        "stationId": "luminous-radio-tamil",
+        "streamId": "luminous-tamil-candidate",
+        "samples": [
+          {
+            "checkedAt": "2026-11-05T23:16:27.318Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          },
+          {
+            "checkedAt": "2026-11-05T23:16:32.772Z",
+            "reachability": "reachable",
+            "status": 200,
+            "mediaHint": "mp3",
+            "sampledBytes": 131072,
+            "stop": "byte-limit",
+            "decoding": {
+              "outcome": "not-tested",
+              "reason": "ENOENT",
+              "pcmBytes": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
