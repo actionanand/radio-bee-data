@@ -145,5 +145,40 @@
     "url": "https://www.luminousradio.com/about-luminous-radio/",
     "kind": "official",
     "notes": "Reviewed 2026-11-06 (Asia/Calcutta). Official About Us page identifies an Indian multilingual Catholic Internet broadcaster, including Tamil programming and international reach. Supports country IN and devotional grouping for the separately named Tamil channel; does not establish a city origin or RadioBee playback permission."
+  },
+  {
+    "id": "air-stage4-player",
+    "title": "Akashvani named Chennai channel mapping",
+    "url": "https://akashvani.gov.in/radio/live.php",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Exact published mappings: channel 241 FM Gold Chennai; 242 VB Tamil Chennai. Channel cards list Tamil and English. No playback approval or rights inferred."
+  },
+  {
+    "id": "slbc-stage4-channels",
+    "title": "SLBC official Tamil channel listings",
+    "url": "https://slbc.lk/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Official navigation names Thendral FM, Thamil Sevai and Yaal FM. No safe HTTPS media URL established; historical HTTP/IP streams not imported."
+  },
+  {
+    "id": "capital-stage4-site",
+    "title": "Capital FM Sri Lanka official broadcaster",
+    "url": "https://capitalfm.lk/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Official indexed page identifies Sri Lankan Tamil network and 94.0/103.1 frequencies. Direct request encountered TLS-related 526; no audio URL or locality established."
+  },
+  {
+    "id": "suryan-stage4-cities",
+    "title": "Suryan official network cities",
+    "url": "https://www.suryanfm.in/about-us/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Official navigation independently names Chennai, Coimbatore, Erode, Madurai, Pondicherry, Salem, Tirunelveli, Trichy, Tuticorin, Vellore. No network stream or city simulcast demonstrated."
+  },
+  {
+    "id": "mib-operational-2026-03",
+    "title": "MIB operational private FM channels 30 March 2026",
+    "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Chennai rows 84–89 establish Mirchi 98.3, Fever 91.9, Hello 106.4, Radio City 91.1, BIG 92.7 and Suryan 93.5. Terrestrial licence evidence only; not language, stream or playback permission evidence."
   }
 ]

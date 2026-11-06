@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.1.0",
+  "catalogVersion": "1.2.0",
   "publishedOn": "2026-11-06",
   "defaultLocale": "en",
   "locales": [
@@ -13,10 +13,10 @@
     "LK"
   ],
   "counts": {
-    "networks": 16,
-    "stations": 84,
+    "networks": 18,
+    "stations": 88,
     "locations": 89,
-    "streams": 8,
+    "streams": 10,
     "verifiedStreams": 1
   },
   "files": {

@@ -39,6 +39,8 @@ export function decodeSample(bytes,{command='ffmpeg',timeoutMs=5000}={}) {
     child.on('close',code=>finish({outcome:pcmBytes>0?'decoded':'failed',exitCode:code,pcmBytes,
       codec:diagnostic.match(/Audio:\s*([a-zA-Z0-9_]+)/)?.[1] ?? null,
       sampleRateHz:Number(diagnostic.match(/Audio:[^\n]*?([0-9]+) Hz/)?.[1]) || null,
+      channels:/Audio:[^\n]*stereo/.test(diagnostic)?2:/Audio:[^\n]*mono/.test(diagnostic)?1:null,
+      measuredBitrateKbps:Number(diagnostic.match(/Audio:[^\n]*?,\s*(\d+) kb\/s/)?.[1]) || null,
       completeTwoSeconds:code===0 && pcmBytes>=32000,
       limitation:'A short sample is not sustained playback, audible identity or client compatibility.'}));
     child.stdin.end(bytes);
