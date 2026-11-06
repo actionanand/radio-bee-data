@@ -180,5 +180,54 @@
     "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
     "kind": "official",
     "notes": "Reviewed 2026-11-06. Chennai rows 84–89 establish Mirchi 98.3, Fever 91.9, Hello 106.4, Radio City 91.1, BIG 92.7 and Suryan 93.5. Terrestrial licence evidence only; not language, stream or playback permission evidence."
+  },
+  {
+    "id": "air-stage6-player",
+    "title": "Akashvani official named live channel configurations — Stage 6",
+    "url": "https://akashvani.gov.in/radio/live.php",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Exact channel IDs and named mappings retained in docs/stage6/stations.json. Calicut/Kozhikode, Trissur/Thrissur and Tuticorin/Thoothukudi are place-name aliases; distinct FM variants were not substituted. No audible identity, programme-language, uptime or use approval inferred."
+  },
+  {
+    "id": "stage6-use-review",
+    "title": "Stage 6 direct end-user listening review decisions",
+    "url": null,
+    "kind": "editorial-review",
+    "notes": "Reviewed 2026-11-06. See docs/STAGE6-STREAM-DISCOVERY.md. Public player availability is not a third-party application grant. Direct listening, recording and redistribution remain separately unresolved; no allowed policy is assigned. Existing rightsStatus is untouched."
+  },
+  {
+    "id": "mirchi-stage6-website",
+    "title": "mirchi official broadcaster website review",
+    "url": "https://mirchi.in/stories",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
+  },
+  {
+    "id": "radio-city-stage6-website",
+    "title": "radio-city official broadcaster website review",
+    "url": "https://www.radiocity.in/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
+  },
+  {
+    "id": "big-fm-stage6-website",
+    "title": "big-fm official broadcaster website review",
+    "url": "https://www.bigfmindia.com/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
+  },
+  {
+    "id": "red-fm-stage6-website",
+    "title": "red-fm official broadcaster website review",
+    "url": "https://www.redfmindia.in/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
+  },
+  {
+    "id": "club-fm-stage6-website",
+    "title": "club-fm official broadcaster website review",
+    "url": "https://www.clubfm.in/",
+    "kind": "official",
+    "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
   }
 ]

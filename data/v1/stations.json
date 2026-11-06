@@ -33,7 +33,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Official player channel 248: FM Nagercoil Kumari. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. City association is explicitly published by Akashvani, not inferred from reception."
@@ -57,12 +65,12 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
       "prasar-air-network"
     ],
     "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-coimbatore",
@@ -83,12 +91,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-coimbatore-stage6-hls",
+        "url": "https://radio.wavespb.com/live/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 243: Akashvani Coimbatore. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-madurai",
@@ -109,12 +136,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-madurai-stage6-hls",
+        "url": "https://radio.wavespb.com/live/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 247: Akashvani Madurai. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-tiruchirappalli",
@@ -135,12 +181,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-tiruchirappalli-stage6-hls",
+        "url": "https://radio.wavespb.com/live/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 250: Akashvani Tiruchirapalli. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-tirunelveli",
@@ -161,12 +226,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-tirunelveli-stage6-hls",
+        "url": "https://radio.wavespb.com/live/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 252: Akashvani Tirunelveli. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-kodaikanal",
@@ -187,12 +271,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-kodaikanal-stage6-hls",
+        "url": "https://radio.wavespb.com/live/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 246: Akashvani Kodaikanal. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-ooty",
@@ -213,12 +316,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-ooty-stage6-hls",
+        "url": "https://radio.wavespb.com/live/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 249: Akashvani Ooty. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-thoothukudi",
@@ -239,12 +361,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-thoothukudi-stage6-hls",
+        "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 254: Akashvani Tuticorin. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-vellore",
@@ -265,12 +406,12 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
       "prasar-air-network"
     ],
     "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-puducherry",
@@ -291,12 +432,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-puducherry-stage6-hls",
+        "url": "https://radio.wavespb.com/live/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 216: Akashvani Puducherry. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-karaikal",
@@ -317,12 +477,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed."
+    "streams": [
+      {
+        "id": "air-karaikal-stage6-hls",
+        "url": "https://radio.wavespb.com/live/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 215: Akashvani Karaikal. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-thiruvananthapuram",
@@ -343,12 +522,12 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
       "prasar-air-network"
     ],
     "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-kochi",
@@ -369,12 +548,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "streams": [
+      {
+        "id": "air-kochi-stage6-hls",
+        "url": "https://radio.wavespb.com/live/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Stage 6 exact official player channel 134: Akashvani Kochi. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-kozhikode",
@@ -395,12 +593,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "streams": [
+      {
+        "id": "air-kozhikode-stage6-hls",
+        "url": "https://radio.wavespb.com/live/8321393de70015fc/8321393de70015fc.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Stage 6 exact official player channel 135: Akashvani Calicut. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-thrissur",
@@ -421,12 +638,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "streams": [
+      {
+        "id": "air-thrissur-stage6-hls",
+        "url": "https://radio.wavespb.com/live/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Stage 6 exact official player channel 138: Akashvani Trissur. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-kannur",
@@ -447,12 +683,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "streams": [
+      {
+        "id": "air-kannur-stage6-hls",
+        "url": "https://radio.wavespb.com/live/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Stage 6 exact official player channel 132: Akashvani Kannur. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-devikulam",
@@ -473,12 +728,31 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-network"
+      "prasar-air-network",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Terrestrial station reference. City-specific online feed unconfirmed."
+    "streams": [
+      {
+        "id": "air-devikulam-stage6-hls",
+        "url": "https://radio.wavespb.com/live/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Stage 6 exact official player channel 131: Akashvani Devikulam. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-bengaluru",
@@ -499,10 +773,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-hyderabad",
@@ -523,10 +797,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-new-delhi",
@@ -547,10 +821,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-mumbai",
@@ -571,10 +845,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [],
     "streams": [],
-    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+    "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-tamil",
@@ -610,7 +884,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Official player channel 9: Akashvani Tamil Nadu. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. Regional service; no city origin asserted."
@@ -634,12 +916,12 @@
     "coverage": "regional",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
       "prasar-air-live"
     ],
     "streams": [],
-    "notes": null
+    "notes": "nullOfficial broadcaster player website only; no exact stream assignment implied."
   },
   {
     "id": "air-vividh-bharati",
@@ -660,12 +942,31 @@
     "coverage": "national",
     "listingStatus": "reviewed",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-live"
+      "prasar-air-live",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": null
+    "streams": [
+      {
+        "id": "air-vividh-bharati-stage6-hls",
+        "url": "https://radio.wavespb.com/live/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "nullStage 6 exact official player channel 1: Vividh Bharati. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-raagam",
@@ -683,12 +984,31 @@
     "coverage": "national",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
     "sourceIds": [
-      "prasar-air-live"
+      "prasar-air-live",
+      "air-stage6-player"
     ],
-    "streams": [],
-    "notes": "Indian classical music service. No spoken broadcast language is asserted; do not infer Sanskrit from the service name."
+    "streams": [
+      {
+        "id": "air-raagam-stage6-hls",
+        "url": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air036_Auto.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Indian classical music service. No spoken broadcast language is asserted; do not infer Sanskrit from the service name. Stage 6 exact official player channel 4: Raagam. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "suryan-nagercoil",
@@ -708,7 +1028,7 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": 91.9,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-nagercoil-2026"
     ],
@@ -733,7 +1053,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 93.5,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities",
       "mib-operational-2026-03"
@@ -759,7 +1079,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -784,7 +1104,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -809,7 +1129,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -834,7 +1154,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -859,7 +1179,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -884,7 +1204,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -909,7 +1229,7 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://www.suryanfm.in/",
     "sourceIds": [
       "suryan-stage4-cities"
     ],
@@ -1143,9 +1463,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 98.3,
-    "website": null,
+    "website": "https://mirchi.in/stories",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "mirchi-stage6-website"
     ],
     "streams": [],
     "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
@@ -1168,8 +1489,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1191,8 +1514,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1214,8 +1539,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1237,8 +1564,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1260,9 +1589,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 98.3,
-    "website": null,
+    "website": "https://mirchi.in/stories",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "mirchi-stage6-website"
     ],
     "streams": [],
     "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
@@ -1285,8 +1615,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1308,8 +1640,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1331,8 +1665,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mirchi-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1354,9 +1690,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 91.1,
-    "website": null,
+    "website": "https://www.radiocity.in/",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "radio-city-stage6-website"
     ],
     "streams": [],
     "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
@@ -1379,8 +1716,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "radio-city-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1402,8 +1741,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "radio-city-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1425,8 +1766,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "radio-city-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1448,8 +1791,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "radio-city-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1471,8 +1816,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "radio-city-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1494,8 +1841,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.redfmindia.in/",
+    "sourceIds": [
+      "red-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1517,8 +1866,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.redfmindia.in/",
+    "sourceIds": [
+      "red-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1540,8 +1891,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.redfmindia.in/",
+    "sourceIds": [
+      "red-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1563,9 +1916,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 93.5,
-    "website": null,
+    "website": "https://www.redfmindia.in/",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "red-fm-stage6-website"
     ],
     "streams": [],
     "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
@@ -1588,8 +1942,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.redfmindia.in/",
+    "sourceIds": [
+      "red-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1611,9 +1967,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 92.7,
-    "website": null,
+    "website": "https://www.bigfmindia.com/",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "big-fm-stage6-website"
     ],
     "streams": [],
     "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
@@ -1636,8 +1993,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.bigfmindia.com/",
+    "sourceIds": [
+      "big-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1659,8 +2018,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.bigfmindia.com/",
+    "sourceIds": [
+      "big-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1682,8 +2043,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
-    "sourceIds": [],
+    "website": "https://www.bigfmindia.com/",
+    "sourceIds": [
+      "big-fm-stage6-website"
+    ],
     "streams": [],
     "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
   },
@@ -1705,9 +2068,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 92.7,
-    "website": null,
+    "website": "https://www.bigfmindia.com/",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "big-fm-stage6-website"
     ],
     "streams": [],
     "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
@@ -1755,7 +2119,7 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": 103.9,
-    "website": null,
+    "website": "https://shakthifm.com/",
     "sourceIds": [
       "shakthi-site"
     ],
@@ -1780,7 +2144,7 @@
     "coverage": "local",
     "listingStatus": "reviewed",
     "frequencyMHz": 104.1,
-    "website": null,
+    "website": "https://shakthifm.com/",
     "sourceIds": [
       "shakthi-site"
     ],
@@ -1819,7 +2183,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "initial-directory-candidates",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       },
       {
         "id": "sooriyan-official-candidate",
@@ -1828,7 +2200,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "sooriyan-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Sri Lankan Sooriyan is distinct from Indian Suryan. Official player publishes one network feed on port 2020. Legacy port 8006 responds with MP3-like data but exact identity is unconfirmed. Neither endpoint has confirmed RadioBee permission or decoder verification."
@@ -1865,7 +2245,15 @@
         "verificationStatus": "verified",
         "lastVerifiedAt": "2026-11-05T23:13:09.857Z",
         "sourceId": "vasantham-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "ITN Tamil network service. Exact official endpoint played in the desktop browser for over 24 seconds. Technical verification does not grant RadioBee permission; rights remain unconfirmed. Android and sustained playback not tested. Not a unique local feed."
@@ -2086,7 +2474,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "initial-directory-candidates",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "One network-level legacy AAC candidate. Broadcaster website advertises island-wide service; exact /stream endpoint identity and regional programme equivalence remain unconfirmed. Browser direct navigation blocked by client; no RadioBee permission."
@@ -2124,7 +2520,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Distinct named official live-player channel 297, not a duplicate generic Chennai feed. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed."
@@ -2162,7 +2566,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "luminous-tamil-player-2026",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Official separately named Tamil Internet channel. No city-specific feed or originating locality asserted. Two short MP3-like samples; decoder, client compatibility and RadioBee permission unconfirmed."
@@ -2199,7 +2611,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-stage4-player",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Distinct official named Chennai service. Location/languages documentary; stream is unverified and permission unconfirmed."
@@ -2236,7 +2656,15 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-stage4-player",
-        "rightsStatus": "unconfirmed"
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
       }
     ],
     "notes": "Distinct official named Chennai service. Location/languages documentary; stream is unverified and permission unconfirmed."
@@ -2283,9 +2711,10 @@
     "coverage": "local",
     "listingStatus": "candidate",
     "frequencyMHz": 94.3,
-    "website": null,
+    "website": "https://www.clubfm.in/",
     "sourceIds": [
-      "mib-operational-2026-03"
+      "mib-operational-2026-03",
+      "club-fm-stage6-website"
     ],
     "streams": [],
     "notes": "MIB row 351 confirms Mathrubhumi Club FM transmitter, city and 94.3 MHz. Programme-language evidence still needed; not tagged Tamil or Malayalam by geographic assumption. TODO: official HTTPS stream and permission."

@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {inspectLogo} from './logo-assets.mjs';
+import {policyErrors} from './listening-policy.mjs';
 
 const projectRoot = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -101,6 +102,7 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
     if (item.localityId !== null && (!item.districtId || loc.get(item.localityId)?.parentId !== item.districtId)) fail('locality/district mismatch');
     if (!Array.isArray(item.streams)) { fail('streams must be array'); continue; }
     for (const stream of item.streams) {
+      for(const message of policyErrors(stream,src))fail(`stream ${stream.id}: ${message}`);
       if (!isText(stream.id) || !idPattern.test(stream.id) || streamIds.has(stream.id)) fail('invalid/duplicate stream ID');
       streamIds.add(stream.id);
       if (!validHttps(stream.url)) fail(`stream ${stream.id}: invalid HTTPS URL`);

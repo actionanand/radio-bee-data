@@ -44,7 +44,7 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://mirchi.in/stories"
   },
   {
     "id": "radio-city",
@@ -54,7 +54,7 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.radiocity.in/"
   },
   {
     "id": "red-fm",
@@ -64,7 +64,7 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.redfmindia.in/"
   },
   {
     "id": "big-fm",
@@ -74,7 +74,7 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.bigfmindia.com/"
   },
   {
     "id": "fever-fm",
@@ -126,7 +126,7 @@
       "LK"
     ],
     "kind": "public",
-    "website": null
+    "website": "https://slbc.lk/"
   },
   {
     "id": "asr-digital",
@@ -186,6 +186,6 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": "https://www.clubfm.in/"
   }
 ]

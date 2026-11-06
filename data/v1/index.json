@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.2.0",
+  "catalogVersion": "1.3.0",
   "publishedOn": "2026-11-06",
   "defaultLocale": "en",
   "locales": [
@@ -16,7 +16,7 @@
     "networks": 18,
     "stations": 88,
     "locations": 89,
-    "streams": 10,
+    "streams": 26,
     "verifiedStreams": 1
   },
   "files": {
