@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {inspectLogo} from './logo-assets.mjs';
 
 const projectRoot = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -37,10 +38,15 @@ function checkLocaleShape(english, value, locale, errors, base = '') {
   }
   for (const key of Object.keys(value)) if (!(key in english)) errors.push(`${locale}: unexpected ${base}${key}`);
 }
-export function validateCatalogue(data) {
+export function validateCatalogue(data,{root=projectRoot}={}) {
   const errors = [];
   if (!data || typeof data !== 'object') return ['Catalogue is not an object'];
   const { index, networks, stations, locations, languages, categories, sources, i18n } = data;
+  for(const [kind,items] of [['Network',networks],['Station',stations]])for(const item of items || []) {
+    if(item && Object.hasOwn(item,'logoPath')) {
+      try {inspectLogo(root,item.logoPath);}catch(error){errors.push(`${kind} ${item.id}: logoPath: ${error.message}`);}
+    }
+  }
   const net = ids(networks, 'networks', errors), loc = ids(locations, 'locations', errors), cat = ids(categories, 'categories', errors), src = ids(sources, 'sources', errors), sta = ids(stations, 'stations', errors);
   const codes = new Set();
   if (!Array.isArray(languages)) errors.push('languages must be an array');

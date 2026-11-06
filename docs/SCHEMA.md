@@ -80,6 +80,17 @@ Stations may be locally affiliated FM broadcasters, regional radio services, or 
 
 Do **not** auto-upgrade a stream based solely on the `check:streams` reachability report; manually verify real playback and the intended locality. Do not promote a `verified` stream after a routine weekly HEAD request. A station stream shared across markets is not proof of multiple independent local broadcasts.
 
+## Optional artwork (v1 additive extension)
+
+Station and network records may omit `logoPath` or provide a relative local
+`assets/logos/stations/<slug>.png|webp` or
+`assets/logos/networks/<slug>.png|webp` path. Null and external URLs are invalid.
+Referenced regular files must exist, remain inside the artwork tree without
+symlinks, have matching image headers, be at most 512 pixels per side and 256 KiB.
+Resolve paths against the catalogue v1 base URL. Client selection is station
+artwork, shared network artwork, then bundled fallback. Artwork does not grant
+audio playback rights. See [logo provenance and approval policy](STATION-LOGOS.md).
+
 ## Translations
 
 `data/v1/i18n/en.json`, `ta.json` and `sa.json` have exactly the same nested keys. They translate **catalogue UI labels, categories and selected place names**, not the canonical station records. English is the fallback; client UI selection is separate from broadcast language filtering. The native language names in `languages.json` can be displayed without translation keys.

@@ -47,6 +47,11 @@
         "null"
       ],
       "format": "uri"
+    },
+    "logoPath": {
+      "type": "string",
+      "pattern": "^assets/logos/(stations|networks)/[a-z0-9]+(-[a-z0-9]+)*\\.(webp|png)$",
+      "description": "Optional approved local PNG/WebP artwork, relative to the v1 catalogue base. Omit when unavailable."
     }
   }
 }
