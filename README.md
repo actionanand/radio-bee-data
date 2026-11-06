@@ -4,7 +4,7 @@
 
 This repository is intended to be published as static JSON and consumed by the [RadioBee Angular/Capacitor client](https://github.com/actionanand/radio-bee). It does **not** run a streaming server, mirror copyrighted radio broadcasts, or require a database, API key or hosting subscription for the JSON files.
 
-> **Important first-release limitation:** This is a **curated discovery starter**, not a directory of production-ready playable stations. The seed currently contains **88 station/service entries, 18 networks, 89 geographic locations, and 10 HTTPS stream candidates — 1 technically verified stream, 0 production-eligible streams**. Many entries are explicitly marked `candidate` and need broadcaster-level confirmation. Do **not** enable production playback from `unverified` URLs. A valid station listing or FM frequency does not prove an independently playable Internet stream.
+> **Important first-release limitation:** This is a **curated discovery starter**, not a directory of production-ready playable stations. The seed currently contains **88 station/service entries, 18 networks, 89 geographic locations, and 26 HTTPS stream candidates — 1 technically verified stream, 0 production-eligible streams**. Many entries are explicitly marked `candidate` and need broadcaster-level confirmation. Do **not** enable production playback from `unverified` URLs. A valid station listing or FM frequency does not prove an independently playable Internet stream.
 
 ## What is included
 
@@ -84,7 +84,7 @@ The manual-only **stream-health** workflow checks the catalogue endpoints and up
 - `regionId`, `districtId` and `localityId` reference `locations.json`; leave a level `null` when it is not established.
 - `listingStatus: "reviewed"` means the *listing metadata* has a cited source, **not** that its stream is verified. `candidate` means it needs editorial confirmation.
 - `streams: []` is normal when only a website or FM frequency is known; never use a homepage as though it were direct audio.
-- `stream.verificationStatus` governs technical stream verification separately. One stream passed desktop-browser playback; nine remain `unverified`. All permissions remain `unconfirmed`. Only a **recently verified** HTTPS stream with confirmed RadioBee use permission and applicable client checks should be enabled in production.
+- `stream.verificationStatus` governs technical stream verification separately. One stream passed desktop-browser playback; 25 remain `unverified`. All permissions remain `unconfirmed`. Only a **recently verified** HTTPS stream with confirmed RadioBee use permission and applicable client checks should be enabled in production.
 - `frequencyMHz` is `null` unless a cited FM frequency was available; terrestrial reception is not available through normal Android internet-stream playback.
 - The Sri Lankan **Sooriyan FM** network ID (`sooriyan-lk`) is intentionally different from Indian **Suryan FM** (`suryan-in`).
 - Regional network affiliation does not prove each city has its own unique stream. National channels are not duplicated for every city.
@@ -115,3 +115,5 @@ Editorial sources are stored in `data/v1/sources.json` and linked by station `so
 Code and original catalogue compilation are supplied under the MIT license. Third-party broadcaster names, logos, stream endpoints, music, brand marks and source content remain the property of their respective owners. **No broadcast, recording, rebroadcast or stream redistribution rights are granted by this repository.**
 
 Stage 4: [regional catalogue and on-demand stream audit](docs/STAGE4-STREAM-AUDIT.md). No scheduled or deployment-time network probing.
+
+Stage 6: [full 88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md). Catalogue v1.3.0; zero approved in-app stations.

@@ -91,6 +91,16 @@ Resolve paths against the catalogue v1 base URL. Client selection is station
 artwork, shared network artwork, then bundled fallback. Artwork does not grant
 audio playback rights. See [logo provenance and approval policy](STATION-LOGOS.md).
 
+## Optional direct-listening review (Stage 6)
+
+Stream records may include `directListening` with `status` (`needs-review`,
+`restricted`, `allowed`), `reviewedAt`, `sourceId`, a public review rationale in
+`notes`, and separate `recording` / `redistribution` permission states. All
+current decisions are needs-review. Legacy `rightsStatus` retains its meaning
+and is never automatically upgraded. Existing consumers can ignore the object;
+absence never grants direct-app eligibility. See
+[Stage 6 contract and evidence](STAGE6-STREAM-DISCOVERY.md).
+
 ## Translations
 
 `data/v1/i18n/en.json`, `ta.json` and `sa.json` have exactly the same nested keys. They translate **catalogue UI labels, categories and selected place names**, not the canonical station records. English is the fallback; client UI selection is separate from broadcast language filtering. The native language names in `languages.json` can be displayed without translation keys.

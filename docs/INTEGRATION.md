@@ -2,6 +2,15 @@
 
 Use this as a reference for implementing client-side `RadioDataService`. This repo does **not** modify the client application.
 
+Stage 6 adds optional `stream.directListening` for a future client release.
+It separates reviewed direct end-user listening conditions from legacy
+`rightsStatus` and from recording/redistribution permissions. All current
+policies are `needs-review`, so none enables playback. Old consumers should
+retain their existing conservative gate; new consumers must adopt the
+[documented Stage 6 review contract](STAGE6-STREAM-DISCOVERY.md) explicitly,
+validate data, and check technical freshness, identity and platform support.
+The optional field is not itself a migration or a completed client integration.
+
 ## Proposed data base URL
 
 For GitHub Pages, after the data repository is deployed:
