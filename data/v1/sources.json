@@ -229,5 +229,12 @@
     "url": "https://www.clubfm.in/",
     "kind": "official",
     "notes": "Reviewed 2026-11-06. Broadcaster homepage provenance only, not city-specific programme identity, streaming endpoint or app-use permission."
+  },
+  {
+    "id": "shakthi-player-stage8",
+    "title": "Shakthi FM official player configuration, reviewed 7 November 2026",
+    "kind": "official",
+    "url": "https://shakthifm.com/scripts.js",
+    "notes": "Official website player script publishes STREAM_URL https://mbc.thestreamtech.com:8086/index.html. Bounded GET returned AAC signature, audio/aacp, ICY Shakthi FM and CORS *. No playback decoding or third-party-use permission established. See docs/INTERNET-RADIO-CATALOGUE.md."
   }
 ]

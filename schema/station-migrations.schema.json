@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee station migrations v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "removed"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "removed": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["oldId", "canonicalId", "sourceId", "reason"],
+      "properties": {
+        "oldId": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+        "canonicalId": {"type": ["string", "null"]},
+        "sourceId": {"type": ["string", "null"]},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    }}
+  }
+}

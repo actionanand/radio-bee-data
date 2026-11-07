@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {inspectLogo} from './logo-assets.mjs';
@@ -14,6 +14,7 @@ export function readCatalogue(root = projectRoot) {
   const index = file('index.json');
   const data = Object.fromEntries(['networks', 'stations', 'locations', 'languages', 'categories', 'sources'].map(name => [name, file(`${name}.json`)]));
   data.i18n = Object.fromEntries(['en', 'ta', 'sa'].map(locale => [locale, file(`i18n/${locale}.json`)]));
+  data.stationMigrations=existsSync(path.join(root,'data/v1/station-migrations.json'))?file('station-migrations.json'):undefined;
   return { index, ...data };
 }
 function ids(items, label, errors) {
@@ -76,8 +77,12 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
     }
   }
   const streamIds = new Set();
+  const programmeNames=new Set(),streamOwners=new Map();
   for (const item of stations || []) {
     const fail = message => errors.push(`Station ${item.id}: ${message}`);
+    const programmeKey=`${item.networkId}|${String(item.name).trim().toLowerCase()}`;
+    if(programmeNames.has(programmeKey))fail('duplicate network/programme name');
+    programmeNames.add(programmeKey);
     const network = net.get(item.networkId);
     if (!network) fail('unknown network');
     else if (!network.countryCodes.includes(item.countryCode)) fail('network/country mismatch');
@@ -101,7 +106,9 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
     if (item.districtId !== null && (!item.regionId || loc.get(item.districtId)?.parentId !== item.regionId)) fail('district/region mismatch');
     if (item.localityId !== null && (!item.districtId || loc.get(item.localityId)?.parentId !== item.districtId)) fail('locality/district mismatch');
     if (!Array.isArray(item.streams)) { fail('streams must be array'); continue; }
+    if(!item.streams.length)fail('published internet station requires at least one direct stream candidate');
     for (const stream of item.streams) {
+      try {const key=new URL(stream.url).href;const owner=streamOwners.get(key);if(owner)fail(owner===item.id?'duplicate stream URL within programme':'shared stream URL across station cards; consolidate proven programme identity');streamOwners.set(key,item.id);}catch{}
       for(const message of policyErrors(stream,src))fail(`stream ${stream.id}: ${message}`);
       if (!isText(stream.id) || !idPattern.test(stream.id) || streamIds.has(stream.id)) fail('invalid/duplicate stream ID');
       streamIds.add(stream.id);
@@ -114,6 +121,19 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
       if (stream.verificationStatus === 'unverified' && stream.lastVerifiedAt !== null) fail(`stream ${stream.id}: unverified should have null lastVerifiedAt`);
     }
   }
+  const migrations=data.stationMigrations;
+  if(migrations && (migrations.schemaVersion!==1 || !Array.isArray(migrations.removed)))errors.push('Invalid station migration document');
+  const removedIds=new Set();
+  for(const migration of Array.isArray(migrations?.removed)?migrations.removed:[]) {
+    if(!migration || typeof migration!=='object' || Array.isArray(migration)) {errors.push('Invalid station migration entry');continue;}
+    const keys=['oldId','canonicalId','sourceId','reason'];
+    if(keys.some(k=>!Object.hasOwn(migration,k)) || Object.keys(migration).some(k=>!keys.includes(k)))errors.push('Invalid station migration fields');
+    if(!isText(migration.oldId)||!idPattern.test(migration.oldId)||removedIds.has(migration.oldId)||sta.has(migration.oldId))errors.push('Invalid/duplicate removed station ID');
+    removedIds.add(migration.oldId);
+    if(!isText(migration.reason))errors.push('Station migration requires reason');
+    if(migration.canonicalId!==null&&(!sta.has(migration.canonicalId)||!src.has(migration.sourceId)))errors.push('Canonical station migration requires existing target and provenance');
+    if(migration.canonicalId===null&&migration.sourceId!==null)errors.push('Unavailable station migration must have null provenance');
+  }
   if (!index || index.schemaVersion !== 1 || !isText(index.catalogVersion) || !/^\d{4}-\d{2}-\d{2}$/.test(index.publishedOn)) errors.push('Invalid index metadata');
   if (index?.defaultLocale !== 'en' || JSON.stringify(index?.locales) !== JSON.stringify(['en','ta','sa'])) errors.push('Invalid index locales');
   if (index?.counts) {
@@ -122,6 +142,7 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
   } else errors.push('Index counts missing');
   const targetFiles = ['networks','stations','locations','languages','categories','sources'];
   for (const key of targetFiles) if (index?.files?.[key] !== `${key}.json`) errors.push(`index file ref missing: ${key}`);
+  if(index?.files?.stationMigrations!==undefined && (index.files.stationMigrations!=='station-migrations.json'||!migrations))errors.push('Invalid station migration manifest reference');
   if (!i18n?.en || !i18n?.ta || !i18n?.sa) errors.push('Missing i18n locale');
   else {
     for (const code of ['en','ta','sa']) checkLocaleShape(i18n.en, i18n[code], code, errors);

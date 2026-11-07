@@ -1,0 +1,1821 @@
+{
+  "schemaVersion": 1,
+  "archivedFromCatalogVersion": "1.3.0",
+  "reviewedOn": "2026-11-07",
+  "note": "Not published. Full removed records preserved; null migration targets deliberately do not redirect favourites to unrelated programmes.",
+  "stations": [
+    {
+      "station": {
+        "id": "air-chennai",
+        "name": "Akashvani Chennai",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-network"
+        ],
+        "streams": [],
+        "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-thoothukudi",
+        "name": "Akashvani Thoothukudi",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-thoothukudi",
+        "localityId": "in-tn-thoothukudi-thoothukudi",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "streams": [
+          {
+            "id": "air-thoothukudi-stage6-hls",
+            "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+            "format": "hls",
+            "verificationStatus": "unverified",
+            "lastVerifiedAt": null,
+            "sourceId": "air-stage6-player",
+            "rightsStatus": "unconfirmed",
+            "directListening": {
+              "status": "needs-review",
+              "reviewedAt": "2026-11-06T16:27:52.570Z",
+              "sourceId": "stage6-use-review",
+              "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+              "recording": "unconfirmed",
+              "redistribution": "unconfirmed"
+            }
+          }
+        ],
+        "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 254: Akashvani Tuticorin. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
+      },
+      "reason": "No currently usable direct candidate: HTTP 404"
+    },
+    {
+      "station": {
+        "id": "air-vellore",
+        "name": "Akashvani Vellore",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-vellore",
+        "localityId": "in-tn-vellore-vellore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-network"
+        ],
+        "streams": [],
+        "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-thiruvananthapuram",
+        "name": "Akashvani Thiruvananthapuram",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [
+          "ml"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-network"
+        ],
+        "streams": [],
+        "notes": "Terrestrial station reference. City-specific online feed unconfirmed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-bengaluru",
+        "name": "Akashvani Bengaluru",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-ka",
+        "districtId": "in-ka-bengaluru-urban",
+        "localityId": "in-ka-bengaluru-urban-bengaluru",
+        "broadcastLanguages": [
+          "kn"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-hyderabad",
+        "name": "Akashvani Hyderabad",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-tg",
+        "districtId": "in-tg-hyderabad",
+        "localityId": "in-tg-hyderabad-hyderabad",
+        "broadcastLanguages": [
+          "te"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-new-delhi",
+        "name": "Akashvani New Delhi",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-dl",
+        "districtId": "in-dl-new-delhi",
+        "localityId": "in-dl-new-delhi-new-delhi",
+        "broadcastLanguages": [
+          "hi"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-mumbai",
+        "name": "Akashvani Mumbai",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-mh",
+        "districtId": "in-mh-mumbai-city",
+        "localityId": "in-mh-mumbai-city-mumbai",
+        "broadcastLanguages": [
+          "mr"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry; verify exact channel identity and streaming availability. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed. Official broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "air-malayalam",
+        "name": "Akashvani Malayalam",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": null,
+        "localityId": null,
+        "broadcastLanguages": [
+          "ml"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "online",
+        "coverage": "regional",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-live"
+        ],
+        "streams": [],
+        "notes": "nullOfficial broadcaster player website only; no exact stream assignment implied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-nagercoil",
+        "name": "Suryan FM Nagercoil",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-kanyakumari",
+        "localityId": "in-tn-kanyakumari-nagercoil",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": 91.9,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-nagercoil-2026"
+        ],
+        "streams": [],
+        "notes": "FM frequency is verified by the cited launch report. Internet endpoint not verified."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-chennai",
+        "name": "Suryan FM Chennai",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 93.5,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "mib-operational-2026-03"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-coimbatore",
+        "name": "Suryan FM Coimbatore",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-coimbatore",
+        "localityId": "in-tn-coimbatore-coimbatore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-madurai",
+        "name": "Suryan FM Madurai",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-madurai",
+        "localityId": "in-tn-madurai-madurai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-tiruchirappalli",
+        "name": "Suryan FM Tiruchirappalli",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tiruchirappalli",
+        "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-tirunelveli",
+        "name": "Suryan FM Tirunelveli",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tirunelveli",
+        "localityId": "in-tn-tirunelveli-tirunelveli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-thoothukudi",
+        "name": "Suryan FM Thoothukudi",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-thoothukudi",
+        "localityId": "in-tn-thoothukudi-thoothukudi",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-puducherry",
+        "name": "Suryan FM Puducherry",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-py",
+        "districtId": "in-py-puducherry",
+        "localityId": "in-py-puducherry-puducherry",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "suryan-salem",
+        "name": "Suryan FM Salem",
+        "networkId": "suryan-in",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-salem",
+        "localityId": "in-tn-salem-salem",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.suryanfm.in/",
+        "sourceIds": [
+          "suryan-stage4-cities"
+        ],
+        "streams": [],
+        "notes": "Discovery entry: confirm current market, frequency and distinct city stream before release. Official network-city reference; TODO: independently confirm transmitter details and city-specific Internet feed. No Chennai stream copied."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-nagercoil",
+        "name": "Hello FM Nagercoil",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-kanyakumari",
+        "localityId": "in-tn-kanyakumari-nagercoil",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "EDITORIAL TODO: independent primary evidence for a Hello FM Nagercoil transmitter is missing. Seed candidate only; no local frequency or Internet stream asserted."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-chennai",
+        "name": "Hello FM Chennai",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 106.4,
+        "website": null,
+        "sourceIds": [
+          "mib-operational-2026-03"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-coimbatore",
+        "name": "Hello FM Coimbatore",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-coimbatore",
+        "localityId": "in-tn-coimbatore-coimbatore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-madurai",
+        "name": "Hello FM Madurai",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-madurai",
+        "localityId": "in-tn-madurai-madurai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-tiruchirappalli",
+        "name": "Hello FM Tiruchirappalli",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tiruchirappalli",
+        "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-tirunelveli",
+        "name": "Hello FM Tirunelveli",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tirunelveli",
+        "localityId": "in-tn-tirunelveli-tirunelveli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-thoothukudi",
+        "name": "Hello FM Thoothukudi",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-thoothukudi",
+        "localityId": "in-tn-thoothukudi-thoothukudi",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-salem",
+        "name": "Hello FM Salem",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-salem",
+        "localityId": "in-tn-salem-salem",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "hello-puducherry",
+        "name": "Hello FM Puducherry",
+        "networkId": "hello-fm",
+        "countryCode": "IN",
+        "regionId": "in-py",
+        "districtId": "in-py-puducherry",
+        "localityId": "in-py-puducherry-puducherry",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": null,
+        "sourceIds": [],
+        "streams": [],
+        "notes": "Discovery entry: station/frequency and individual stream require confirmation. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-chennai",
+        "name": "Radio Mirchi Chennai",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 98.3,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-coimbatore",
+        "name": "Radio Mirchi Coimbatore",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-coimbatore",
+        "localityId": "in-tn-coimbatore-coimbatore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-madurai",
+        "name": "Radio Mirchi Madurai",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-madurai",
+        "localityId": "in-tn-madurai-madurai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-tiruchirappalli",
+        "name": "Radio Mirchi Tiruchirappalli",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tiruchirappalli",
+        "localityId": "in-tn-tiruchirappalli-tiruchirappalli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-tirunelveli",
+        "name": "Radio Mirchi Tirunelveli",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-tirunelveli",
+        "localityId": "in-tn-tirunelveli-tirunelveli",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-thiruvananthapuram",
+        "name": "Radio Mirchi Thiruvananthapuram",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [
+          "ml"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 98.3,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-bengaluru",
+        "name": "Radio Mirchi Bengaluru",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-ka",
+        "districtId": "in-ka-bengaluru-urban",
+        "localityId": "in-ka-bengaluru-urban-bengaluru",
+        "broadcastLanguages": [
+          "kn"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-mumbai",
+        "name": "Radio Mirchi Mumbai",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-mh",
+        "districtId": "in-mh-mumbai-city",
+        "localityId": "in-mh-mumbai-city-mumbai",
+        "broadcastLanguages": [
+          "hi"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "mirchi-puducherry",
+        "name": "Radio Mirchi Puducherry",
+        "networkId": "mirchi",
+        "countryCode": "IN",
+        "regionId": "in-py",
+        "districtId": "in-py-puducherry",
+        "localityId": "in-py-puducherry-puducherry",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://mirchi.in/stories",
+        "sourceIds": [
+          "mirchi-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; broadcast language, local service and online stream require verification. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-chennai",
+        "name": "Radio City Chennai",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 91.1,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-coimbatore",
+        "name": "Radio City Coimbatore",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-coimbatore",
+        "localityId": "in-tn-coimbatore-coimbatore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-madurai",
+        "name": "Radio City Madurai",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-madurai",
+        "localityId": "in-tn-madurai-madurai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-bengaluru",
+        "name": "Radio City Bengaluru",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-ka",
+        "districtId": "in-ka-bengaluru-urban",
+        "localityId": "in-ka-bengaluru-urban-bengaluru",
+        "broadcastLanguages": [
+          "kn"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-mumbai",
+        "name": "Radio City Mumbai",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-mh",
+        "districtId": "in-mh-mumbai-city",
+        "localityId": "in-mh-mumbai-city-mumbai",
+        "broadcastLanguages": [
+          "hi"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "radio-city-pune",
+        "name": "Radio City Pune",
+        "networkId": "radio-city",
+        "countryCode": "IN",
+        "regionId": "in-mh",
+        "districtId": "in-mh-pune",
+        "localityId": "in-mh-pune-pune",
+        "broadcastLanguages": [
+          "mr"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.radiocity.in/",
+        "sourceIds": [
+          "radio-city-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; online endpoint unverified. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "red-erode",
+        "name": "RED FM Erode",
+        "networkId": "red-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-erode",
+        "localityId": "in-tn-erode-erode",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.redfmindia.in/",
+        "sourceIds": [
+          "red-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "red-salem",
+        "name": "RED FM Salem",
+        "networkId": "red-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-salem",
+        "localityId": "in-tn-salem-salem",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.redfmindia.in/",
+        "sourceIds": [
+          "red-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "red-vellore",
+        "name": "RED FM Vellore",
+        "networkId": "red-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-vellore",
+        "localityId": "in-tn-vellore-vellore",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.redfmindia.in/",
+        "sourceIds": [
+          "red-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "red-thiruvananthapuram",
+        "name": "RED FM Thiruvananthapuram",
+        "networkId": "red-fm",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [
+          "ml"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 93.5,
+        "website": "https://www.redfmindia.in/",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "red-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "red-new-delhi",
+        "name": "RED FM New Delhi",
+        "networkId": "red-fm",
+        "countryCode": "IN",
+        "regionId": "in-dl",
+        "districtId": "in-dl-new-delhi",
+        "localityId": "in-dl-new-delhi-new-delhi",
+        "broadcastLanguages": [
+          "hi"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.redfmindia.in/",
+        "sourceIds": [
+          "red-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; confirm city availability and actual online feed. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "big-chennai",
+        "name": "BIG FM Chennai",
+        "networkId": "big-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 92.7,
+        "website": "https://www.bigfmindia.com/",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "big-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "big-puducherry",
+        "name": "BIG FM Puducherry",
+        "networkId": "big-fm",
+        "countryCode": "IN",
+        "regionId": "in-py",
+        "districtId": "in-py-puducherry",
+        "localityId": "in-py-puducherry-puducherry",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.bigfmindia.com/",
+        "sourceIds": [
+          "big-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "big-bengaluru",
+        "name": "BIG FM Bengaluru",
+        "networkId": "big-fm",
+        "countryCode": "IN",
+        "regionId": "in-ka",
+        "districtId": "in-ka-bengaluru-urban",
+        "localityId": "in-ka-bengaluru-urban-bengaluru",
+        "broadcastLanguages": [
+          "kn"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.bigfmindia.com/",
+        "sourceIds": [
+          "big-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "big-mumbai",
+        "name": "BIG FM Mumbai",
+        "networkId": "big-fm",
+        "countryCode": "IN",
+        "regionId": "in-mh",
+        "districtId": "in-mh-mumbai-city",
+        "localityId": "in-mh-mumbai-city-mumbai",
+        "broadcastLanguages": [
+          "hi"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.bigfmindia.com/",
+        "sourceIds": [
+          "big-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "Discovery only; this may be a legacy station branding. Check current brand and rights. TODO: independently source this market affiliation; seed is not confirmation of a transmitter or unique online feed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "big-thiruvananthapuram",
+        "name": "BIG FM Thiruvananthapuram",
+        "networkId": "big-fm",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [
+          "ml"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 92.7,
+        "website": "https://www.bigfmindia.com/",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "big-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB operational list 30 March 2026 confirms Thiruvananthapuram transmitter/frequency. Malayalam seed language pending programme review; no Tamil tag, HTTPS relay or usage permission inferred."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "fever-chennai",
+        "name": "Fever FM Chennai",
+        "networkId": "fever-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 91.9,
+        "website": null,
+        "sourceIds": [
+          "mib-operational-2026-03"
+        ],
+        "streams": [],
+        "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "shakthi-colombo",
+        "name": "Shakthi FM Colombo",
+        "networkId": "shakthi-lk",
+        "countryCode": "LK",
+        "regionId": "lk-wp",
+        "districtId": "lk-wp-colombo",
+        "localityId": "lk-wp-colombo-colombo",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": 103.9,
+        "website": "https://shakthifm.com/",
+        "sourceIds": [
+          "shakthi-site"
+        ],
+        "streams": [],
+        "notes": "Official site lists Colombo 103.9 MHz. Network online candidate is held once under shakthi-srilanka; no unique Colombo Internet feed established."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "shakthi-jaffna",
+        "name": "Shakthi FM Jaffna",
+        "networkId": "shakthi-lk",
+        "countryCode": "LK",
+        "regionId": "lk-np",
+        "districtId": "lk-np-jaffna",
+        "localityId": "lk-np-jaffna-jaffna",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": 104.1,
+        "website": "https://shakthifm.com/",
+        "sourceIds": [
+          "shakthi-site"
+        ],
+        "streams": [],
+        "notes": "Official site lists Jaffna 104.1 MHz. May share network audio; do not duplicate a stream without evidence."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "slbc-thendral",
+        "name": "SLBC Thendral",
+        "networkId": "slbc",
+        "countryCode": "LK",
+        "regionId": null,
+        "districtId": null,
+        "localityId": null,
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "online",
+        "coverage": "national",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://slbc.lk/",
+        "sourceIds": [
+          "slbc-stage4-channels"
+        ],
+        "streams": [],
+        "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "slbc-tamil-national",
+        "name": "SLBC Tamil National Service",
+        "networkId": "slbc",
+        "countryCode": "LK",
+        "regionId": null,
+        "districtId": null,
+        "localityId": null,
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "online",
+        "coverage": "national",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://slbc.lk/",
+        "sourceIds": [
+          "slbc-stage4-channels"
+        ],
+        "streams": [],
+        "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "yaal-fm",
+        "name": "Yaal FM",
+        "networkId": "slbc",
+        "countryCode": "LK",
+        "regionId": "lk-np",
+        "districtId": "lk-np-jaffna",
+        "localityId": "lk-np-jaffna-jaffna",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music",
+          "general"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://slbc.lk/",
+        "sourceIds": [
+          "slbc-stage4-channels"
+        ],
+        "streams": [],
+        "notes": "Official SLBC named service. TODO: confirm current programme identity, languages and exact secure Internet feed; never substitute unrelated Yarl branding or historical HTTP/IP streams."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "asr-kanyakumari",
+        "name": "ASR Digital Radio",
+        "networkId": "asr-digital",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-kanyakumari",
+        "localityId": "in-tn-kanyakumari-thingalnagar",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music",
+          "community"
+        ],
+        "delivery": "online",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://radio.asrdmm.com/",
+        "sourceIds": [
+          "asr-site",
+          "asr-player-2026",
+          "asr-terms-2026"
+        ],
+        "streams": [],
+        "notes": "Published HTTPS player endpoint returned 404 twice on 2026-11-06 IST. No stream added; exact originating locality and RadioBee permission remain unconfirmed."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "annai-kuzhithurai",
+        "name": "Annai FM",
+        "networkId": "annai-fm",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-kanyakumari",
+        "localityId": "in-tn-kanyakumari-kuzhithurai",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music",
+          "community"
+        ],
+        "delivery": "online",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://zeno.fm/radio/annai-fm/",
+        "sourceIds": [
+          "annai-site"
+        ],
+        "streams": [],
+        "notes": null
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "kumari-tamil-kanyakumari",
+        "name": "Kumari Tamil Media",
+        "networkId": "kumari-tamil",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-kanyakumari",
+        "localityId": "in-tn-kanyakumari-nagercoil",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music",
+          "community"
+        ],
+        "delivery": "online",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://radio.kumaritamil.com/",
+        "sourceIds": [
+          "kumari-site"
+        ],
+        "streams": [],
+        "notes": "Nagercoil used for browsing seed; actual originating locality unverified."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "luminous-radio",
+        "name": "Luminous Radio",
+        "networkId": "luminous-radio",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [
+          "ta",
+          "ml"
+        ],
+        "genres": [
+          "devotional",
+          "community"
+        ],
+        "delivery": "online",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": null,
+        "website": "https://www.luminousradio.com/",
+        "sourceIds": [
+          "luminous-site"
+        ],
+        "streams": [],
+        "notes": "Legacy bilingual/local discovery listing; originating locality and combined-language service unverified. The independently named Tamil channel is listed separately as luminous-radio-tamil; do not attach its stream to this local entry."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "capital-srilanka",
+        "name": "Capital FM Sri Lanka",
+        "networkId": "capital-lk",
+        "countryCode": "LK",
+        "regionId": null,
+        "districtId": null,
+        "localityId": null,
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "music",
+          "general"
+        ],
+        "delivery": "fm",
+        "coverage": "national",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://capitalfm.lk/",
+        "sourceIds": [
+          "capital-stage4-site"
+        ],
+        "streams": [],
+        "notes": "Documented Sri Lankan Tamil network. Frequencies describe multiple transmitters, so no single frequency or local origin asserted. TODO: broadcaster-authored HTTPS stream and permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "station": {
+        "id": "club-thiruvananthapuram",
+        "name": "Club FM Thiruvananthapuram",
+        "networkId": "club-fm",
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thiruvananthapuram",
+        "localityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+        "broadcastLanguages": [],
+        "genres": [
+          "music"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "candidate",
+        "frequencyMHz": 94.3,
+        "website": "https://www.clubfm.in/",
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "club-fm-stage6-website"
+        ],
+        "streams": [],
+        "notes": "MIB row 351 confirms Mathrubhumi Club FM transmitter, city and 94.3 MHz. Programme-language evidence still needed; not tagged Tamil or Malayalam by geographic assumption. TODO: official HTTPS stream and permission."
+      },
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    }
+  ]
+}

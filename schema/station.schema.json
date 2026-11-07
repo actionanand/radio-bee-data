@@ -121,7 +121,8 @@
       "type": "array",
       "items": {
         "$ref": "stream.schema.json"
-      }
+      },
+      "minItems": 1
     },
     "notes": {
       "type": [

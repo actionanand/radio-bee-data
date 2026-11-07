@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.3.0",
-  "publishedOn": "2026-11-06",
+  "catalogVersion": "1.4.0",
+  "publishedOn": "2026-11-07",
   "defaultLocale": "en",
   "locales": [
     "en",
@@ -14,7 +14,7 @@
   ],
   "counts": {
     "networks": 18,
-    "stations": 88,
+    "stations": 24,
     "locations": 89,
     "streams": 26,
     "verifiedStreams": 1
@@ -25,8 +25,9 @@
     "locations": "locations.json",
     "languages": "languages.json",
     "categories": "categories.json",
-    "sources": "sources.json"
+    "sources": "sources.json",
+    "stationMigrations": "station-migrations.json"
   },
   "localizationRoot": "i18n/",
-  "disclaimer": "Discovery catalogue; unverified stream candidates are NOT production-ready. All station names and frequencies need broadcaster/rights review."
+  "disclaimer": "Internet stream candidates only. Reachability is not playback verification or permission. No current candidate is approved for RadioBee direct listening."
 }

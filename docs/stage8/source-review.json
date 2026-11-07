@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://radio.asrdmm.com/",
+    "status": 200,
+    "leads": [
+      "'url':'https://cast1.asurahosting.com/proxy/asrdigit/live',",
+      "'url':'http://stream.zeno.fm/em8hrkna2k0uv',",
+      "'url':'http://stream.zeno.fm/zdyrvhfkeg8uv',",
+      "'url':'http://stream.zeno.fm/may5dpfkeg8uv',",
+      "'url':'http://stream.zeno.fm/c21059ekeg8uv',"
+    ]
+  },
+  {
+    "url": "https://zeno.fm/radio/annai-fm/",
+    "status": 200
+  },
+  {
+    "url": "https://radio.kumaritamil.com/",
+    "error": "getaddrinfo ENOTFOUND radio.kumaritamil.com"
+  },
+  {
+    "url": "https://www.suryanfm.in/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sooriyanfm.lk/",
+    "status": 200,
+    "leads": [
+      "      <audio id=\"fmAudio\" preload=\"auto\" autoplay>",
+      "        <source src=\"https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden\" type=\"audio/ogg\">",
+      "        <source src=\"https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden\" type=\"audio/mpeg\">"
+    ]
+  },
+  {
+    "url": "https://shakthifm.com/",
+    "status": 200,
+    "leads": [
+      "        <audio id=\"audioPlayer\" preload=\"none\" crossorigin=\"anonymous\"></audio>"
+    ]
+  }
+]

@@ -4,7 +4,7 @@
 
 This repository is intended to be published as static JSON and consumed by the [RadioBee Angular/Capacitor client](https://github.com/actionanand/radio-bee). It does **not** run a streaming server, mirror copyrighted radio broadcasts, or require a database, API key or hosting subscription for the JSON files.
 
-> **Important first-release limitation:** This is a **curated discovery starter**, not a directory of production-ready playable stations. The seed currently contains **88 station/service entries, 18 networks, 89 geographic locations, and 26 HTTPS stream candidates — 1 technically verified stream, 0 production-eligible streams**. Many entries are explicitly marked `candidate` and need broadcaster-level confirmation. Do **not** enable production playback from `unverified` URLs. A valid station listing or FM frequency does not prove an independently playable Internet stream.
+> **Internet-only catalogue 1.4.0:** **24 station/service entries, 18 network identities, 89 geographic locations, and 26 HTTPS stream candidates — 1 historically technically verified stream, 0 production-eligible streams.** All published stations have direct Internet candidates; 64 removed listings are preserved in a non-published research backlog. Reachability does not prove decoded playback or permission. See [the Internet catalogue review](docs/INTERNET-RADIO-CATALOGUE.md).
 
 ## What is included
 
@@ -13,7 +13,8 @@ radio-bee-data/
 ├── data/v1/
 │   ├── index.json              # Manifest, schema/catalog versions, counts
 │   ├── networks.json           # Network identity; Indian Suryan != Sri Lankan Sooriyan
-│   ├── stations.json           # Stable station IDs, regional affiliation, sources, stream leads
+│   ├── stations.json           # Internet station IDs and alternative stream candidates
+│   ├── station-migrations.json # Removed IDs and evidence-based replacement targets
 │   ├── locations.json          # Country → state/province → district → locality
 │   ├── languages.json          # Spoken/broadcast language tags
 │   ├── categories.json         # Genres and categories
@@ -83,7 +84,7 @@ The manual-only **stream-health** workflow checks the catalogue endpoints and up
 - `countryCode` is ISO 3166-1 alpha-2; `broadcastLanguages` are language tags such as `ta`, `ml`, `en`, `sa`. **UI language** is independent from broadcast language.
 - `regionId`, `districtId` and `localityId` reference `locations.json`; leave a level `null` when it is not established.
 - `listingStatus: "reviewed"` means the *listing metadata* has a cited source, **not** that its stream is verified. `candidate` means it needs editorial confirmation.
-- `streams: []` is normal when only a website or FM frequency is known; never use a homepage as though it were direct audio.
+- Published stations require a real direct Internet candidate. Empty-stream records are kept only in the non-published research backlog; never use a homepage as audio.
 - `stream.verificationStatus` governs technical stream verification separately. One stream passed desktop-browser playback; 25 remain `unverified`. All permissions remain `unconfirmed`. Only a **recently verified** HTTPS stream with confirmed RadioBee use permission and applicable client checks should be enabled in production.
 - `frequencyMHz` is `null` unless a cited FM frequency was available; terrestrial reception is not available through normal Android internet-stream playback.
 - The Sri Lankan **Sooriyan FM** network ID (`sooriyan-lk`) is intentionally different from Indian **Suryan FM** (`suryan-in`).
@@ -95,8 +96,8 @@ See the [Stage 3A playback investigation](docs/PLAYBACK-SOURCES.md), [schema](do
 
 1. Add a broadcaster/network first (or reuse its stable network ID).
 2. Add or reuse country/state/district/locality IDs, without inventing locations.
-3. Add the station with a stable ID, original language tags, source IDs and `streams: []` if unverified.
-4. Only add a direct stream URL if it is a real HTTPS audio/playlist endpoint, not a station website. Mark it `unverified` until technical and rights checks are completed.
+3. Preserve a stable ID, supported language tags and source IDs. Keep records without a direct endpoint in the research backlog.
+4. Only add a direct stream URL if it is a real HTTPS audio/playlist endpoint, not a station website. Mark it `unverified` until actual playback is independently checked; review use conditions separately.
 5. Update `data/v1/index.json` counts (and `publishedOn` when releasing changes). Bump `catalogVersion` to communicate data edits; keep `schemaVersion=1` for compatible changes.
 6. Run `npm run validate && npm test && npm run build` and open a pull request.
 
@@ -116,4 +117,4 @@ Code and original catalogue compilation are supplied under the MIT license. Thir
 
 Stage 4: [regional catalogue and on-demand stream audit](docs/STAGE4-STREAM-AUDIT.md). No scheduled or deployment-time network probing.
 
-Stage 6: [full 88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md). Catalogue v1.3.0; zero approved in-app stations.
+Historical Stage 6: [88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md), catalogue v1.3.0. Current Stage 8: [Internet-only catalogue and migration report](docs/INTERNET-RADIO-CATALOGUE.md), catalogue v1.4.0; zero approved in-app stations.
