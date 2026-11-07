@@ -31,7 +31,7 @@ The client repo remains independent: its web build on `main-github` and Android 
 6. UI language is independent of `broadcastLanguages`. Tamil UI should not hide Malayalam stations unless the user selected Tamil broadcast filtering.
 7. Group by `networkId`; sort networks and child stations by localized labels/canonical name as appropriate.
 8. Implement location filters using the parent references in `locations.json`: country → state/province → district → locality. A `null` locality means unspecified; do not infer the listener's district from their network IP.
-9. Only show an enabled Play action for streams **independently approved for production use**. In catalogue 1.1.0 there is **one technically verified stream and zero production-eligible streams**. All rights remain unconfirmed. Require both `verificationStatus: "verified"` and `rightsStatus: "permission-granted"`, plus applicable client checks; show explanatory disabled states or station websites as external links while blocked. See [playback investigation](PLAYBACK-SOURCES.md).
+9. Only show an enabled Play action for streams **independently approved for production use**. In catalogue 1.4.0 there is **one technically verified stream and zero production-eligible streams**. All rights remain unconfirmed. Require both `verificationStatus: "verified"` and `rightsStatus: "permission-granted"`, plus applicable client checks; show explanatory disabled states or station websites as external links while blocked. See [playback investigation](PLAYBACK-SOURCES.md).
 10. Web playback uses HTML audio/hls.js as suitable; Android playback should use an audio-background-capable Media3 bridge. HTTPS, stream codec, geoblocking and CORS can still cause failures. Handle errors without silently deleting stations.
 
 ## Example: filtering a loaded catalogue
@@ -79,3 +79,9 @@ The data bundle has `en`, `ta`, `sa`. The RadioBee client may continue using its
 - Breaking field changes should be published at `/v2/` with a new schema before client migration.
 - Test GitHub Pages CORS, HTTPS and static-host cache behavior from both the Web app origin and Android WebView.
 - Do not make startup block indefinitely on the data host; an offline seed or last-known-good catalogue should remain available.
+
+## Internet-only catalogue migration (1.4.0)
+
+Load the optional `files.stationMigrations` document when supported. Retained IDs remain stable. For a removed favourite, follow `canonicalId` only when non-null and validated; null means unavailable and must not select another city or network service. Keep the saved ID for possible future restoration. The non-published backlog is editorial research and must not be fetched by the client. Current counts are in the manifest, not a fixed 88-station assumption.
+
+Stage 3B/Stage 8 compatibility issue: `streamLabel()` must not describe a technically verified stream as playable or available while use conditions remain unconfirmed. All current `directListening.status` values are `needs-review` and all `rightsStatus` values are `unconfirmed`. No present stream enables playback. This data change does not implement or release the independent client policy proposal.

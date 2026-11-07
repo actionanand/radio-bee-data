@@ -11,8 +11,12 @@
 9. **Record provenance and review time.** Update source notes, add official direct stream source URL, `lastVerifiedAt`, actual permission proof outside public data if necessary, and update editorial `catalogVersion` before deployment.
 10. **Don't leak private data.** No listener accounts, GPS coordinates, contact details, analytics identifiers, tracking pixels or API secrets belong in this public JSON repository.
 
-## Starter-data review status
+## Historical starter-data review status
 
 The initial 81 entries are a browsing/reference seed. The official Akashvani service and terrestrial station listings, the reported August 2026 Suryan Nagercoil launch, and Shakthi/Sooriyan official sites provide evidence for selected listings. Most other network-city combinations are **discovery candidates** and deliberately contain no direct stream URL. Stage 3A investigated the three legacy leads and added official endpoint candidates. Catalogue 1.1.0 has eight stream records: Vasantham passed a short desktop-browser playback test, while seven remain unverified. All eight retain `rightsStatus: unconfirmed`; none is production-eligible. See [PLAYBACK-SOURCES.md](PLAYBACK-SOURCES.md) for source-specific findings, permission blockers and client limitations. This cautious approach enables safe iterative curation without misleading users.
 
 Helpful discovery reference: https://docs.radio-browser.info/ . The API requests a descriptive User-Agent, its stations have globally stable `stationuuid` fields, and availability/data correctness are not guaranteed. If importing from it in a future phase, preserve source identifiers and verify each result before publishing as confirmed.
+
+## Current Internet-only publication (1.4.0)
+
+Publish only stations with a genuine direct HTTPS Internet candidate. Preserve empty-stream or unusable records in the non-published research backlog, retaining all fields and stable IDs for restoration. Routine network failures remain non-mutating diagnostics; removals require editorial review. Stage 8 excludes the already-known AIR Thoothukudi 404 after retest; this is not an automated deletion rule. Keep regional services separate when official player mappings identify distinct services; never infer equivalence from a network name. See [Stage 8 decisions](INTERNET-RADIO-CATALOGUE.md).

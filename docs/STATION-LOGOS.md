@@ -4,7 +4,7 @@ Researched 6 November 2026. Catalogue v1.2.0, schemaVersion 1. This additive opt
 
 ## Approved artwork inventory
 
-**Station logos: 0; network logos: 0; shared-network coverage: 0; fallback: all 88 stations.** No broadcaster binary was approved or published. Included filenames, dimensions, formats, sizes and attribution obligations: none/not applicable (total published artwork bytes 0). Empty .gitkeep placeholders establish the stations/ and networks/ directories; they are not artwork. The client fallback must already be bundled by the client; no replacement branding was generated.
+**Station logos: 0; network logos: 0; shared-network coverage: 0; fallback: all 88 historical Stage 5 stations.** No broadcaster binary was approved or published. Included filenames, dimensions, formats, sizes and attribution obligations: none/not applicable (total published artwork bytes 0). Empty .gitkeep placeholders establish the stations/ and networks/ directories; they are not artwork. The client fallback must already be bundled by the client; no replacement branding was generated.
 
 ## Candidate research — not approved assets
 
@@ -74,3 +74,7 @@ Every following ID has no logoPath; all network children therefore currently use
 ## Validation
 
 Run npm run validate, npm test and npm run build through WSL2 Linux Node. Logo checks are included in ordinary validation, without live network access or new dependencies. The deterministic tests cover station/network optional properties, missing/unsafe references, header/dimension/size limits, symlink escape, legacy data and exact static copying. No streams were probed for this artwork task. Final results are reported in the delivery.
+
+## Stage 8 inventory update — 7 November 2026
+
+The current 24 Internet station cards all use the client fallback. Approved station images: 0; network images: 0; published artwork bytes: 0. The official references above remain research leads; no redistribution grant was established. No broadcaster image was downloaded, fabricated or added in Stage 8. Obtain an explicit suitable license and authenticate each asset before adding PNG/WebP artwork.

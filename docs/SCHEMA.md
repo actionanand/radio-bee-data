@@ -34,7 +34,7 @@ The `state` type includes provinces and union territories, even where a country'
 
 ## Station
 
-A reduced example:
+Historical research-only example (this empty-stream record is excluded from publication):
 
 ```json
 {
@@ -60,7 +60,7 @@ A reduced example:
 
 Stations may be locally affiliated FM broadcasters, regional radio services, or network-level online channels. `delivery` is `fm`, `am` or `online`; do not confuse this with ability to play in the Android app. `coverage` describes editorial grouping (`local`, `regional`, `national`, `global`), not a measured radio propagation footprint. `listingStatus` is `candidate` or `reviewed`.
 
-**Listing ≠ playable stream.** `streams: []` means no suitable direct endpoint has been entered. A reviewed listing can still have zero verified streams.
+**Listing ≠ playable stream.** Published stations must have at least one direct Internet candidate (`streams.minItems: 1`), but may have zero verified or approved streams. Empty-stream records belong only in the non-published backlog. `delivery: fm` describes broadcaster heritage and does not disqualify a valid Internet feed.
 
 ## Stream candidate
 
@@ -108,3 +108,11 @@ absence never grants direct-app eligibility. See
 ## Validation
 
 `npm run validate` checks unique IDs, network relations, country and location hierarchy, categories, language tags, stream URL safety, provenance, counts and translation key parity. The included JSON Schema file documents one station record for external consumers; this repository's dependency-free Node validator provides structural and cross-file validation (not a full general-purpose JSON Schema engine).
+
+## Internet-only publication and migrations (catalogue 1.4.0)
+
+The v1 record shape and retained IDs are unchanged. One card represents one distinct programme; alternate URLs belong in its streams array. Exact shared URLs across station cards and duplicate normalized network/programme names are rejected. These guards cannot recognize every alias or two different URLs carrying identical audio; editorial identity review remains required.
+
+Optional manifest key `files.stationMigrations` points to `station-migrations.json`, an additive document with `schemaVersion: 1` and `removed` entries `{oldId, canonicalId, sourceId, reason}`. A non-null replacement needs an existing canonical station and a source proving programme equivalence. `canonicalId: null` means unavailable, with no automatic favourite reassignment. All 64 current removals have null targets. Legacy clients can ignore this file.
+
+Full removed records are in `docs/research/station-backlog.json`, outside static publication. The static builder copies an explicit file allowlist plus i18n and approved assets. Sources, networks and geography may include unreferenced research identities; they are not station cards. See [review and migration report](INTERNET-RADIO-CATALOGUE.md).

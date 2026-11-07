@@ -7,7 +7,8 @@ const data = readCatalogue();
 const cloned = () => structuredClone(data);
 test('initial catalogue passes every cross-reference and localization check', () => {
   assert.deepEqual(validateCatalogue(data), []);
-  assert.ok(data.stations.length >= 75);
+  assert.ok(data.stations.length > 0);
+  assert.ok(data.stations.every(s=>s.streams.length>0));
   assert.ok(data.networks.some(n => n.id === 'suryan-in'));
   assert.ok(data.networks.some(n => n.id === 'sooriyan-lk'));
   assert.notEqual(data.networks.find(n => n.id === 'suryan-in').id, data.networks.find(n => n.id === 'sooriyan-lk').id);

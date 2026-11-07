@@ -1,0 +1,2173 @@
+{
+  "startedAt": "2026-11-07T17:24:49.433Z",
+  "options": {
+    "scope": "all",
+    "mode": "quick",
+    "includeLeads": false
+  },
+  "results": [
+    {
+      "stationId": "air-nagercoil",
+      "station": "Akashvani Nagercoil",
+      "networkId": "akashvani",
+      "region": "Kanyakumari",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+      "sourceId": "air-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "checkedAt": "2026-11-07T17:24:49.435Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 455,
+      "firstByteLatencyMs": 457,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 368,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072239556.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072247889.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072256220.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072264555.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072272893.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794072281226.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-coimbatore",
+      "station": "Akashvani Coimbatore",
+      "networkId": "akashvani",
+      "region": "Coimbatore",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+      "checkedAt": "2026-11-07T17:24:50.474Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 464,
+      "firstByteLatencyMs": 464,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072240787.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072249123.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072257459.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072265795.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072274132.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/a6eec8ec7d6ee49d/a6eec8ec7d6ee49d-1794072282467.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-madurai",
+      "station": "Akashvani Madurai",
+      "networkId": "akashvani",
+      "region": "Madurai",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+      "checkedAt": "2026-11-07T17:24:51.469Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 404,
+      "firstByteLatencyMs": 405,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072238307.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072246614.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072254952.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072263285.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072271628.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/5c28fdbb318c1f13/5c28fdbb318c1f13-1794072279947.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-tiruchirappalli",
+      "station": "Akashvani Tiruchirappalli",
+      "networkId": "akashvani",
+      "region": "Tiruchirappalli",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+      "checkedAt": "2026-11-07T17:24:52.457Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/bd8f073da8cde368/bd8f073da8cde368.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 945,
+      "firstByteLatencyMs": 945,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072237258.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072245582.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072253933.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072262250.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072270595.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/bd8f073da8cde368/bd8f073da8cde368-1794072278916.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-tirunelveli",
+      "station": "Akashvani Tirunelveli",
+      "networkId": "akashvani",
+      "region": "Tirunelveli",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+      "checkedAt": "2026-11-07T17:24:53.914Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 539,
+      "firstByteLatencyMs": 540,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072237399.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072245729.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072254048.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072262403.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072270742.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/ee7f2a29ab3b6bf9/ee7f2a29ab3b6bf9-1794072279075.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-kodaikanal",
+      "station": "Akashvani Kodaikanal",
+      "networkId": "akashvani",
+      "region": "Dindigul",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+      "checkedAt": "2026-11-07T17:24:55.112Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 425,
+      "firstByteLatencyMs": 425,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072245525.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072253861.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072262155.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072270522.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072278859.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/eef8fc0421c2cc48/eef8fc0421c2cc48-1794072287184.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-ooty",
+      "station": "Akashvani Ooty",
+      "networkId": "akashvani",
+      "region": "Nilgiris",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+      "checkedAt": "2026-11-07T17:24:56.002Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 504,
+      "firstByteLatencyMs": 504,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072246441.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072254742.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072263081.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072271411.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072279771.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e2ac3971fdada7d1/e2ac3971fdada7d1-1794072288101.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-puducherry",
+      "station": "Akashvani Puducherry",
+      "networkId": "akashvani",
+      "region": "Puducherry",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+      "checkedAt": "2026-11-07T17:24:57.106Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/6b93ba50696fddcd/6b93ba50696fddcd.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 502,
+      "firstByteLatencyMs": 502,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072245545.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072253877.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072262211.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072270545.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072278878.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/6b93ba50696fddcd/6b93ba50696fddcd-1794072287212.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-karaikal",
+      "station": "Akashvani Karaikal",
+      "networkId": "akashvani",
+      "region": "Karaikal",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+      "checkedAt": "2026-11-07T17:24:58.145Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/51065e9e2f00e83e/51065e9e2f00e83e.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 614,
+      "firstByteLatencyMs": 615,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072244473.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072252807.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072261145.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072269480.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072277816.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/51065e9e2f00e83e/51065e9e2f00e83e-1794072286150.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-kochi",
+      "station": "Akashvani Kochi",
+      "networkId": "akashvani",
+      "region": "Ernakulam",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+      "checkedAt": "2026-11-07T17:24:59.220Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 431,
+      "firstByteLatencyMs": 431,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072246885.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072255222.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072263529.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072271871.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072280200.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/70400e7510e87cdf/70400e7510e87cdf-1794072288537.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-kozhikode",
+      "station": "Akashvani Kozhikode",
+      "networkId": "akashvani",
+      "region": "Kozhikode",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/8321393de70015fc/8321393de70015fc.m3u8",
+      "checkedAt": "2026-11-07T17:25:00.085Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/8321393de70015fc/8321393de70015fc.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/8321393de70015fc/8321393de70015fc.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 421,
+      "firstByteLatencyMs": 422,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072248190.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072256521.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072264836.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072273191.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072281488.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/8321393de70015fc/8321393de70015fc-1794072289844.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-thrissur",
+      "station": "Akashvani Thrissur",
+      "networkId": "akashvani",
+      "region": "Thrissur",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+      "checkedAt": "2026-11-07T17:25:01.148Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 417,
+      "firstByteLatencyMs": 417,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072244692.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072253026.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072261351.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072269693.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072278017.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/f70fdeca437dc326/f70fdeca437dc326-1794072286375.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-kannur",
+      "station": "Akashvani Kannur",
+      "networkId": "akashvani",
+      "region": "Kannur",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+      "checkedAt": "2026-11-07T17:25:02.044Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 431,
+      "firstByteLatencyMs": 431,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072250529.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072258861.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072267196.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072275536.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072283893.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/b82c91a395fc4a7d/b82c91a395fc4a7d-1794072292206.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-devikulam",
+      "station": "Akashvani Devikulam",
+      "networkId": "akashvani",
+      "region": "Idukki",
+      "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+      "checkedAt": "2026-11-07T17:25:02.946Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+            "to": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/e97acc829da9bf2a/e97acc829da9bf2a.m3u8",
+          "to": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 432,
+      "firstByteLatencyMs": 432,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072250531.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072258854.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072267209.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072275528.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072283844.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1cvqgmbcpg5yn.cloudfront.net/e97acc829da9bf2a/e97acc829da9bf2a-1794072292177.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-tamil",
+      "station": "Akashvani Tamil Nadu",
+      "networkId": "akashvani",
+      "region": "Tamil Nadu",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+      "sourceId": "air-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+      "checkedAt": "2026-11-07T17:25:03.847Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 409,
+      "firstByteLatencyMs": 409,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 371,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072254026.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072262371.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072270690.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072279022.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072287363.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/d533f2af4f49bd6f/d533f2af4f49bd6f-1794072295713.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-vividh-bharati",
+      "station": "Vividh Bharati",
+      "networkId": "akashvani",
+      "region": "IN",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+      "checkedAt": "2026-11-07T17:25:04.721Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 370,
+      "firstByteLatencyMs": 370,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072246230.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072254565.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072262898.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072271231.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072279565.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/146ed6ec6dea5a24/146ed6ec6dea5a24-1794072287898.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-raagam",
+      "station": "Akashvani Raagam",
+      "networkId": "akashvani",
+      "region": "IN",
+      "url": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air036_Auto.m3u8",
+      "sourceId": "air-stage6-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air036_Auto.m3u8",
+      "checkedAt": "2026-11-07T17:25:05.522Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air036_Auto.m3u8",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": null,
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 179,
+      "firstByteLatencyMs": 185,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 245,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [
+          {
+            "url": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air03632kbps.m3u8",
+            "declaredBandwidthBps": 32000,
+            "codecs": "mp4a.40.29,mp4a.40.5"
+          },
+          {
+            "url": "https://d3r9rhourdc02u.cloudfront.net/assets/radio/airbang04/air03664kbps.m3u8",
+            "declaredBandwidthBps": 64000,
+            "codecs": "mp4a.40.29,mp4a.40.5"
+          }
+        ],
+        "segments": [],
+        "targetDurationSeconds": null,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "sooriyan-srilanka",
+      "station": "Sooriyan FM Sri Lanka",
+      "networkId": "sooriyan-lk",
+      "region": "LK",
+      "url": "https://radio.lotustechnologieslk.net:8006/",
+      "sourceId": "initial-directory-candidates",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.lotustechnologieslk.net:8006/",
+      "checkedAt": "2026-11-07T17:25:06.008Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://radio.lotustechnologieslk.net:8006/",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "No Name",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1467,
+      "firstByteLatencyMs": 1493,
+      "continuitySeconds": 0.896,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "sooriyan-srilanka",
+      "station": "Sooriyan FM Sri Lanka",
+      "networkId": "sooriyan-lk",
+      "region": "LK",
+      "url": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+      "sourceId": "sooriyan-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+      "checkedAt": "2026-11-07T17:25:09.832Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg; charset=UTF-8",
+        "finalUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg; charset=UTF-8",
+      "cors": "*",
+      "icyName": "No Name",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1080,
+      "firstByteLatencyMs": 1099,
+      "continuitySeconds": 0.894,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "vasantham-srilanka",
+      "station": "Vasantham FM Sri Lanka",
+      "networkId": "vasantham-lk",
+      "region": "LK",
+      "url": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+      "sourceId": "vasantham-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+      "checkedAt": "2026-11-07T17:25:12.914Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Vasantham FM",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 884,
+      "firstByteLatencyMs": 904,
+      "continuitySeconds": 0.568,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "shakthi-srilanka",
+      "station": "Shakthi FM Sri Lanka",
+      "networkId": "shakthi-lk",
+      "region": "LK",
+      "url": "https://mbc.thestreamtech.com:8086/stream",
+      "sourceId": "initial-directory-candidates",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://mbc.thestreamtech.com:8086/stream",
+      "checkedAt": "2026-11-07T17:25:15.231Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://mbc.thestreamtech.com:8086/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "Shakthi FM",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 1269,
+      "firstByteLatencyMs": 1285,
+      "continuitySeconds": 0.625,
+      "format": "aac",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "shakthi-srilanka",
+      "station": "Shakthi FM Sri Lanka",
+      "networkId": "shakthi-lk",
+      "region": "LK",
+      "url": "https://mbc.thestreamtech.com:8086/index.html",
+      "sourceId": "shakthi-player-stage8",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://mbc.thestreamtech.com:8086/index.html",
+      "checkedAt": "2026-11-07T17:25:18.454Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://mbc.thestreamtech.com:8086/index.html",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "Shakthi FM",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 1128,
+      "firstByteLatencyMs": 1145,
+      "continuitySeconds": 0.65,
+      "format": "aac",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "air-chennai-rainbow",
+      "station": "Akashvani FM Rainbow Chennai",
+      "networkId": "akashvani",
+      "region": "Chennai",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+      "sourceId": "air-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+      "checkedAt": "2026-11-07T17:25:21.431Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 435,
+      "firstByteLatencyMs": 436,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072270603.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072278937.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072287272.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072295611.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072303925.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/b20ff2fc0bb34b3d/b20ff2fc0bb34b3d-1794072312256.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "luminous-radio-tamil",
+      "station": "Luminous Radio Tamil",
+      "networkId": "luminous-radio",
+      "region": "IN",
+      "url": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+      "sourceId": "luminous-tamil-player-2026",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://patmos.cdnstream.com/proxy/luminousradiotamil/?mp=/stream",
+      "checkedAt": "2026-11-07T17:25:22.329Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": null,
+      "icyName": "Stream Name",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1582,
+      "firstByteLatencyMs": 1621,
+      "continuitySeconds": 4.075,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested"
+    },
+    {
+      "stationId": "air-chennai-gold",
+      "station": "Akashvani FM Gold Chennai",
+      "networkId": "akashvani",
+      "region": "Chennai",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+      "sourceId": "air-stage4-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+      "checkedAt": "2026-11-07T17:25:29.284Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/84ad819b3f45dc08/84ad819b3f45dc08.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 431,
+      "firstByteLatencyMs": 431,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 370,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072278939.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072287266.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072295591.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072303925.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072312271.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/84ad819b3f45dc08/84ad819b3f45dc08-1794072320610.ts",
+            "declaredDurationSeconds": 8.334
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    },
+    {
+      "stationId": "air-chennai-vividh-tamil",
+      "station": "Akashvani Vividh Bharati Tamil Chennai",
+      "networkId": "akashvani",
+      "region": "Chennai",
+      "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+      "sourceId": "air-stage4-player",
+      "priority": "P1",
+      "origin": "catalogue",
+      "requestUrl": "https://radio.wavespb.com/live/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+      "checkedAt": "2026-11-07T17:25:30.137Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+            "to": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/f893db91dedcb4ab/f893db91dedcb4ab.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 440,
+      "firstByteLatencyMs": 441,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "playlist-parsed",
+      "sampledBytes": 371,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072274540.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072282864.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072291202.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072299531.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072307864.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d1tmej9eu7kw5c.cloudfront.net/f893db91dedcb4ab/f893db91dedcb4ab-1794072316206.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      }
+    }
+  ],
+  "missing": [],
+  "interrupted": false,
+  "note": "Diagnostics only; no editorial mutation or rights grant. All audio buffers discarded.",
+  "sharedFeeds": [],
+  "finishedAt": "2026-11-07T17:25:31.062Z",
+  "counts": {
+    "pass": 26,
+    "fail": 0,
+    "unknown": 0,
+    "notTested": 0
+  }
+}
