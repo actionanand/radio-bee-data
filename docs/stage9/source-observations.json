@@ -1,0 +1,538 @@
+{
+  "reviewedOn": "2026-11-08",
+  "transport": "Existing safe HTTPS; max 128 KiB and 10 seconds/request, at most five redirects, sequential requests. Repeated pages retained as dated observations.",
+  "pages": [
+    {
+      "id": "suryan-home",
+      "url": "https://www.suryanfm.in/",
+      "checkedAt": "2026-11-08T03:49:20.545Z",
+      "status": 200,
+      "finalUrl": "https://www.suryanfm.in/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "suryan-about",
+      "url": "https://www.suryanfm.in/about-us/",
+      "checkedAt": "2026-11-08T03:49:21.392Z",
+      "status": 200,
+      "finalUrl": "https://www.suryanfm.in/about-us/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "sun-radio",
+      "url": "https://www.sun.in/radio.aspx",
+      "checkedAt": "2026-11-08T03:49:22.084Z",
+      "status": 200,
+      "finalUrl": "https://www.sun.in/radio.aspx",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "hello-home",
+      "url": "https://hellofm.in/",
+      "checkedAt": "2026-11-08T03:49:22.810Z",
+      "status": null,
+      "finalUrl": null,
+      "redirects": [],
+      "contentType": null,
+      "error": "connect ECONNREFUSED 162.215.226.4:443",
+      "truncationPossible": null
+    },
+    {
+      "id": "mirchi-home",
+      "url": "https://mirchi.in/",
+      "checkedAt": "2026-11-08T03:49:24.584Z",
+      "status": 200,
+      "finalUrl": "https://mirchi.in/stories",
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://mirchi.in/",
+          "to": "https://mirchi.in/stories"
+        }
+      ],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "city-home",
+      "url": "https://www.radiocity.in/",
+      "checkedAt": "2026-11-08T03:49:25.845Z",
+      "status": 200,
+      "finalUrl": "https://www.radiocity.in/",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "big-home",
+      "url": "https://bigfmindia.com/",
+      "checkedAt": "2026-11-08T03:49:27.006Z",
+      "status": 200,
+      "finalUrl": "https://www.bigfmindia.com/",
+      "redirects": [
+        {
+          "status": 301,
+          "from": "https://bigfmindia.com/",
+          "to": "https://www.bigfmindia.com/"
+        }
+      ],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "red-home",
+      "url": "https://www.redfmindia.in/",
+      "checkedAt": "2026-11-08T03:49:29.805Z",
+      "status": 200,
+      "finalUrl": "https://www.redfmindia.in/",
+      "redirects": [],
+      "contentType": "text/html",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "asr-home",
+      "url": "https://radio.asrdmm.com/",
+      "checkedAt": "2026-11-08T03:49:31.242Z",
+      "status": 200,
+      "finalUrl": "https://radio.asrdmm.com/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "annai-zeno",
+      "url": "https://zeno.fm/radio/annai-fm/",
+      "checkedAt": "2026-11-08T03:49:32.632Z",
+      "status": 200,
+      "finalUrl": "https://zeno.fm/radio/annai-fm/",
+      "redirects": [],
+      "contentType": "text/html;charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "annai-directory",
+      "url": "https://www.radioindia.in/annai-fm",
+      "checkedAt": "2026-11-08T03:49:34.787Z",
+      "status": 200,
+      "finalUrl": "https://www.radioindia.in/annai-fm",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "asr-directory",
+      "url": "https://www.radioindia.in/asr-digital-radio",
+      "checkedAt": "2026-11-08T03:49:36.332Z",
+      "status": 200,
+      "finalUrl": "https://www.radioindia.in/asr-digital-radio",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "kumari-home",
+      "url": "https://radio.kumaritamil.com/",
+      "checkedAt": "2026-11-08T03:49:37.838Z",
+      "status": null,
+      "finalUrl": null,
+      "redirects": [],
+      "contentType": null,
+      "error": "getaddrinfo ENOTFOUND radio.kumaritamil.com",
+      "truncationPossible": null
+    },
+    {
+      "id": "tamilradios-home",
+      "url": "https://www.tamilradios.com/",
+      "checkedAt": "2026-11-08T03:49:38.406Z",
+      "status": 200,
+      "finalUrl": "https://www.tamilradios.com/",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "tr-mirchi",
+      "url": "https://www.tamilradios.com/radio-mirchi-tamil-fm",
+      "checkedAt": "2026-11-08T03:49:39.196Z",
+      "status": 200,
+      "finalUrl": "https://www.tamilradios.com/radio-mirchi-tamil-fm",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "tr-hello",
+      "url": "https://www.tamilradios.com/hello-fm-tamil-radio",
+      "checkedAt": "2026-11-08T03:49:40.583Z",
+      "status": 200,
+      "finalUrl": "https://www.tamilradios.com/hello-fm-tamil-radio",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "ting-suryan",
+      "url": "https://tingfm.com/radio/25900",
+      "checkedAt": "2026-11-08T03:49:42.740Z",
+      "status": 200,
+      "finalUrl": "https://tingfm.com/radio/25900",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "nagercoil-guide",
+      "url": "https://nagercoilonline.com/services/fmradios/fmradios.php",
+      "checkedAt": "2026-11-08T03:49:45.145Z",
+      "status": 200,
+      "finalUrl": "https://nagercoilonline.com/services/fmradios/fmradios.php",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "melo-local",
+      "url": "https://themelo.in/country/in/tamil-nadu/nagercoil",
+      "checkedAt": "2026-11-08T03:49:46.684Z",
+      "status": 200,
+      "finalUrl": "https://themelo.in/country/in/tamil-nadu/nagercoil",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "annai-mdn",
+      "url": "https://annai-fm.mdn.live/",
+      "checkedAt": "2026-11-08T03:51:44.107Z",
+      "status": 200,
+      "finalUrl": "https://annai-fm.mdn.live/",
+      "redirects": [],
+      "contentType": "text/html;charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "iskcon-home",
+      "url": "https://www.iskconnagercoil.com/",
+      "checkedAt": "2026-11-08T03:51:46.684Z",
+      "status": 200,
+      "finalUrl": "https://www.iskconnagercoil.com/",
+      "redirects": [],
+      "contentType": "text/html",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "iskcon-services",
+      "url": "https://www.iskconnagercoil.com/services",
+      "checkedAt": "2026-11-08T03:51:48.516Z",
+      "status": 200,
+      "finalUrl": "https://www.iskconnagercoil.com/services",
+      "redirects": [],
+      "contentType": "text/html",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "iskcon-melo",
+      "url": "https://themelo.in/s/8432/iskcon-nagercoil-radio",
+      "checkedAt": "2026-11-08T03:51:49.788Z",
+      "status": null,
+      "finalUrl": null,
+      "redirects": [],
+      "contentType": null,
+      "error": "The operation was aborted",
+      "truncationPossible": null
+    },
+    {
+      "id": "asr-about",
+      "url": "https://radio.asrdmm.com/p/about-us.html",
+      "checkedAt": "2026-11-08T03:52:00.150Z",
+      "status": 200,
+      "finalUrl": "https://radio.asrdmm.com/p/about-us.html",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "asr-terms",
+      "url": "https://radio.asrdmm.com/p/terms-conditions.html",
+      "checkedAt": "2026-11-08T03:52:01.421Z",
+      "status": 200,
+      "finalUrl": "https://radio.asrdmm.com/p/terms-conditions.html",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "kumari-directory",
+      "url": "https://www.radioindia.in/kumari-tamil-media-online-radio-kumri-tmilll-miittiyaa-innaiy-vaannnoli",
+      "checkedAt": "2026-11-08T03:52:02.479Z",
+      "status": 200,
+      "finalUrl": "https://www.radioindia.in/kumari-tamil-media-online-radio-kumri-tmilll-miittiyaa-innaiy-vaannnoli",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "annai-directory-config",
+      "url": "https://www.radioindia.in/annai-fm",
+      "checkedAt": "2026-11-08T03:52:03.941Z",
+      "status": 200,
+      "finalUrl": "https://www.radioindia.in/annai-fm",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "asr-directory-config",
+      "url": "https://www.radioindia.in/asr-digital-radio",
+      "checkedAt": "2026-11-08T03:52:05.575Z",
+      "status": 200,
+      "finalUrl": "https://www.radioindia.in/asr-digital-radio",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "chennai-directory",
+      "url": "https://www.onlineradiofm.in/tamil-nadu/chennai",
+      "checkedAt": "2026-11-08T03:52:07.046Z",
+      "status": 200,
+      "finalUrl": "https://www.onlineradiofm.in/tamil-nadu/chennai",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "chennailive-directory",
+      "url": "https://onlineradiofm.in/tamil-nadu/chennai/radio-chennailive",
+      "checkedAt": "2026-11-08T03:52:09.676Z",
+      "status": 200,
+      "finalUrl": "https://onlineradiofm.in/tamil-nadu/chennai/radio-chennailive",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "iskcon-radio",
+      "url": "https://www.iskconnagercoil.com/radio",
+      "checkedAt": "2026-11-08T03:54:14.577Z",
+      "status": 200,
+      "finalUrl": "https://www.iskconnagercoil.com/radio",
+      "redirects": [],
+      "contentType": "text/html",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "iskcon-script",
+      "url": "https://www.iskconnagercoil.com/assets/index-BAeSuM1g.js",
+      "checkedAt": "2026-11-08T03:54:15.530Z",
+      "status": 200,
+      "finalUrl": "https://www.iskconnagercoil.com/assets/index-BAeSuM1g.js",
+      "redirects": [],
+      "contentType": "application/javascript",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "radioindia-player-code",
+      "url": "https://cdn.regional-radios.app-mind.com/static/assets/js/radio-detail-ee90c3b5.js",
+      "checkedAt": "2026-11-08T03:54:17.028Z",
+      "status": 200,
+      "finalUrl": "https://cdn.regional-radios.app-mind.com/static/assets/js/radio-detail-ee90c3b5.js",
+      "redirects": [],
+      "contentType": "application/javascript",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "suryan-launch",
+      "url": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening-fm-radio-network-with-the-launch-of-suryan-fm-91-9-mhz-in-nagercoil-tamil-nadu",
+      "checkedAt": "2026-11-08T03:54:17.824Z",
+      "status": 200,
+      "finalUrl": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening-fm-radio-network-with-the-launch-of-suryan-fm-91-9-mhz-in-nagercoil-tamil-nadu",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "id": "suryan-terms",
+      "url": "https://www.suryanfm.in/terms-of-use/",
+      "checkedAt": "2026-11-08T03:54:18.723Z",
+      "status": 200,
+      "finalUrl": "https://www.suryanfm.in/terms-of-use/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "error": null,
+      "truncationPossible": false
+    },
+    {
+      "id": "mirchi-help",
+      "url": "https://mirchi.in/helpcenter",
+      "checkedAt": "2026-11-08T03:54:19.557Z",
+      "status": 200,
+      "finalUrl": "https://mirchi.in/helpcenter",
+      "redirects": [],
+      "contentType": "text/html; charset=utf-8",
+      "error": null,
+      "truncationPossible": false
+    }
+  ],
+  "directoryConfiguration": {
+    "annai": "encrypted; no decryption attempted",
+    "asr": "encrypted; no decryption attempted",
+    "kumari": "encrypted; no decryption attempted"
+  },
+  "directorySearches": [
+    {
+      "name": "Suryan",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Suryan?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:11.096Z",
+      "status": 200,
+      "returnedRows": 4,
+      "error": null
+    },
+    {
+      "name": "Hello FM",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Hello%20FM?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:12.268Z",
+      "status": 200,
+      "returnedRows": 2,
+      "error": null
+    },
+    {
+      "name": "Mirchi",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Mirchi?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:13.494Z",
+      "status": 200,
+      "returnedRows": 12,
+      "error": null
+    },
+    {
+      "name": "Radio City",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Radio%20City?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:14.907Z",
+      "status": 200,
+      "returnedRows": 12,
+      "error": null
+    },
+    {
+      "name": "BIG FM",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/BIG%20FM?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:16.151Z",
+      "status": 200,
+      "returnedRows": 8,
+      "error": null
+    },
+    {
+      "name": "Annai",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Annai?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:17.231Z",
+      "status": 200,
+      "returnedRows": 0,
+      "error": null
+    },
+    {
+      "name": "ASR",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/ASR?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:18.404Z",
+      "status": 200,
+      "returnedRows": 12,
+      "error": null
+    },
+    {
+      "name": "Kumari",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Kumari?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:19.642Z",
+      "status": 200,
+      "returnedRows": 0,
+      "error": null
+    },
+    {
+      "name": "ISKCON Nagercoil",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/ISKCON%20Nagercoil?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:20.887Z",
+      "status": 200,
+      "returnedRows": 0,
+      "error": null
+    },
+    {
+      "name": "Chennai Live",
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Chennai%20Live?limit=12&hidebroken=false",
+      "checkedAt": "2026-11-08T03:53:21.968Z",
+      "status": 200,
+      "returnedRows": 2,
+      "error": null
+    },
+    {
+      "name": "mirchi-IN",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi&countrycode=IN&limit=20&hidebroken=false",
+      "checkedAt": "2026-11-08T03:54:51.439Z",
+      "status": 200,
+      "returnedRows": 17,
+      "error": null
+    },
+    {
+      "name": "city-IN",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=Radio%20City&countrycode=IN&limit=20&hidebroken=false",
+      "checkedAt": "2026-11-08T03:54:52.285Z",
+      "status": 200,
+      "returnedRows": 1,
+      "error": null
+    },
+    {
+      "name": "asr-digital",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=ASR%20DIGITAL&countrycode=IN&limit=20&hidebroken=false",
+      "checkedAt": "2026-11-08T03:54:53.094Z",
+      "status": 200,
+      "returnedRows": 0,
+      "error": null
+    },
+    {
+      "name": "red-KL",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=Red%20FM&countrycode=IN&limit=20&hidebroken=false",
+      "checkedAt": "2026-11-08T03:54:54.042Z",
+      "status": 200,
+      "returnedRows": 4,
+      "error": null
+    }
+  ],
+  "limitations": [
+    "Bounded HTML can truncate before dynamic player configuration; absence is not proof of no stream.",
+    "TamilRadios automated research stopped when its terms were read.",
+    "No login, geolocation bypass, cipher decryption or unauthorized proxy used."
+  ]
+}
