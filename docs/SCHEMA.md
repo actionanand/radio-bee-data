@@ -116,3 +116,8 @@ The v1 record shape and retained IDs are unchanged. One card represents one dist
 Optional manifest key `files.stationMigrations` points to `station-migrations.json`, an additive document with `schemaVersion: 1` and `removed` entries `{oldId, canonicalId, sourceId, reason}`. A non-null replacement needs an existing canonical station and a source proving programme equivalence. `canonicalId: null` means unavailable, with no automatic favourite reassignment. All 64 current removals have null targets. Legacy clients can ignore this file.
 
 Full removed records are in `docs/research/station-backlog.json`, outside static publication. The static builder copies an explicit file allowlist plus i18n and approved assets. Sources, networks and geography may include unreferenced research identities; they are not station cards. See [review and migration report](INTERNET-RADIO-CATALOGUE.md).
+
+
+## Metadata-only discovery extension (1.5.0)
+
+The optional files.discoveryStations points to discovery-stations.json, a separate metadata-only array using schema/discovery-station.schema.json. It forbids streams and unknown fields; adds aliases, availability, reviewedOn and websiteKind to station identity/geo/language/provenance metadata. Availability is no-direct-stream (no suitable listed URL), temporarily-unavailable (observed access/player failure) or review-pending (technical/use review outstanding), never an authorization grant. stations.json still requires non-empty stream arrays. Added counts: discoveryStations, discoverableStations, stationsWithStreamCandidates and productionEligibleStations; legacy stations/streams counts keep their original meanings. See [the publication contract and expansion review](DISCOVERY-PUBLICATION.md).

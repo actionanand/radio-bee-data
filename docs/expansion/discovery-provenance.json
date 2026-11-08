@@ -1,0 +1,729 @@
+[
+  {
+    "id": "suryan-nagercoil",
+    "name": "Suryan FM Nagercoil",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-nagercoil-2026",
+        "title": "AirMedia — Nagercoil FM launch report (18 August 2026)",
+        "url": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-chennai",
+    "name": "Suryan FM Chennai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-coimbatore",
+    "name": "Suryan FM Coimbatore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-madurai",
+    "name": "Suryan FM Madurai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-tiruchirappalli",
+    "name": "Suryan FM Tiruchirappalli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-tirunelveli",
+    "name": "Suryan FM Tirunelveli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-thoothukudi",
+    "name": "Suryan FM Thoothukudi",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-puducherry",
+    "name": "Suryan FM Puducherry",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-salem",
+    "name": "Suryan FM Salem",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "suryan-stage4-cities",
+        "title": "Suryan official network cities",
+        "url": "https://www.suryanfm.in/about-us/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "hello-nagercoil",
+    "name": "Hello FM Nagercoil",
+    "availability": "review-pending",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "hello-nagercoil-expansion-2025",
+        "title": "DT NEXT — Hello FM announced licensed expansion including Nagercoil (7 October 2025)",
+        "url": "https://www.dtnext.in/news/chennai/hello-fm-celebrates-20-years-expands-reach-to-21-cities-848767"
+      }
+    ]
+  },
+  {
+    "id": "hello-chennai",
+    "name": "Hello FM Chennai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-coimbatore",
+    "name": "Hello FM Coimbatore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-madurai",
+    "name": "Hello FM Madurai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-tiruchirappalli",
+    "name": "Hello FM Tiruchirappalli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-tirunelveli",
+    "name": "Hello FM Tirunelveli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-thoothukudi",
+    "name": "Hello FM Thoothukudi",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-salem",
+    "name": "Hello FM Salem",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-puducherry",
+    "name": "Hello FM Puducherry",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-chennai",
+    "name": "Radio Mirchi Chennai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-coimbatore",
+    "name": "Radio Mirchi Coimbatore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-madurai",
+    "name": "Radio Mirchi Madurai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-tiruchirappalli",
+    "name": "Radio Mirchi Tiruchirappalli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-tirunelveli",
+    "name": "Radio Mirchi Tirunelveli",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "mirchi-thiruvananthapuram",
+    "name": "Radio Mirchi Thiruvananthapuram",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "mirchi-stage6-website",
+        "title": "mirchi official broadcaster website review",
+        "url": "https://mirchi.in/stories"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "radio-city-chennai",
+    "name": "Radio City Chennai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "radio-city-stage6-website",
+        "title": "radio-city official broadcaster website review",
+        "url": "https://www.radiocity.in/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "radio-city-coimbatore",
+    "name": "Radio City Coimbatore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "radio-city-stage6-website",
+        "title": "radio-city official broadcaster website review",
+        "url": "https://www.radiocity.in/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "radio-city-madurai",
+    "name": "Radio City Madurai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "radio-city-stage6-website",
+        "title": "radio-city official broadcaster website review",
+        "url": "https://www.radiocity.in/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "big-chennai",
+    "name": "BIG FM Chennai",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "mib-operational-2026-03",
+        "title": "MIB operational private FM channels 30 March 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "big-fm-stage6-website",
+        "title": "big-fm official broadcaster website review",
+        "url": "https://www.bigfmindia.com/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "big-puducherry",
+    "name": "BIG FM Puducherry",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "big-fm-stage6-website",
+        "title": "big-fm official broadcaster website review",
+        "url": "https://www.bigfmindia.com/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "suryan-erode",
+    "name": "Suryan FM Erode",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "suryan-vellore",
+    "name": "Suryan FM Vellore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      },
+      {
+        "id": "suryan-discovery-cities",
+        "title": "Suryan official city footprint",
+        "url": "https://www.suryanfm.in/about-us/"
+      }
+    ]
+  },
+  {
+    "id": "hello-erode",
+    "name": "Hello FM Erode",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hello-vellore",
+    "name": "Hello FM Vellore",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "annai-kuzhithurai",
+    "name": "Annai FM",
+    "availability": "temporarily-unavailable",
+    "sources": [
+      {
+        "id": "annai-discovery-profile",
+        "title": "Annai FM self-described Parakunnu origin",
+        "url": "https://zeno.fm/radio/annai-fm/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "asr-kanyakumari",
+    "name": "ASR Digital Radio",
+    "availability": "temporarily-unavailable",
+    "sources": [
+      {
+        "id": "asr-channel-family",
+        "title": "ASR official channel family and origin",
+        "url": "https://radio.asrdmm.com/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "kumari-tamil-kanyakumari",
+    "name": "Kumari Tamil Media",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "kumari-site",
+        "title": "Kumari Tamil Media website",
+        "url": "https://radio.kumaritamil.com/"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "air-thoothukudi",
+    "name": "Akashvani Thoothukudi",
+    "availability": "temporarily-unavailable",
+    "sources": [
+      {
+        "id": "prasar-air-network",
+        "title": "Prasar Bharati — Akashvani Network",
+        "url": "https://prasarbharati.gov.in/en/akashvani-network/"
+      },
+      {
+        "id": "air-stage6-player",
+        "title": "Akashvani official named live channel configurations — Stage 6",
+        "url": "https://akashvani.gov.in/radio/live.php"
+      },
+      {
+        "id": "discovery-regional-2026",
+        "title": "Regional service metadata review, 8 November 2026",
+        "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tamilosai-nagercoil",
+    "name": "Tamilosai FM",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "tamilosai-directory",
+        "title": "Tamilosai FM provider directory profile",
+        "url": "https://mytuner-radio.com/radio/tamilosai-fm-474068/"
+      },
+      {
+        "id": "discovery-nagercoil-directory",
+        "title": "Nagercoil station identities and Tamil-language directory evidence",
+        "url": "https://streema.com/radios/Nagercoil"
+      }
+    ]
+  },
+  {
+    "id": "isai-murasu-nagercoil",
+    "name": "Isai Murasu FM",
+    "availability": "no-direct-stream",
+    "sources": [
+      {
+        "id": "isai-murasu-rotary-2024",
+        "title": "Rotary News June 2024: Isai Murasu founder and Nagercoil identity",
+        "url": "https://rotarynewsonline.org/rotary-honours-three-social-trailblazers/"
+      },
+      {
+        "id": "discovery-nagercoil-directory",
+        "title": "Nagercoil station identities and Tamil-language directory evidence",
+        "url": "https://streema.com/radios/Nagercoil"
+      }
+    ]
+  },
+  {
+    "id": "christian-samy-fm",
+    "name": "Christian Samy FM",
+    "availability": "temporarily-unavailable",
+    "sources": [
+      {
+        "id": "christian-samy-provider",
+        "title": "Christian Samy FM broadcaster-hosted provider page",
+        "url": "https://zeno.fm/radio/christian-samy-fm/"
+      },
+      {
+        "id": "asr-channel-family",
+        "title": "ASR official channel family and origin",
+        "url": "https://radio.asrdmm.com/"
+      },
+      {
+        "id": "discovery-nagercoil-directory",
+        "title": "Nagercoil station identities and Tamil-language directory evidence",
+        "url": "https://streema.com/radios/Nagercoil"
+      }
+    ]
+  },
+  {
+    "id": "iskcon-nagercoil",
+    "name": "ISKCON Nagercoil / Vaani Seva",
+    "availability": "review-pending",
+    "sources": [
+      {
+        "id": "iskcon-discovery-player",
+        "title": "ISKCON Nagercoil / Vaani Seva official radio service",
+        "url": "https://www.iskconnagercoil.com/radio"
+      }
+    ]
+  }
+]

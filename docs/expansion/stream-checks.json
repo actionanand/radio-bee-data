@@ -1,0 +1,412 @@
+{
+  "reviewedOn": "2026-11-08",
+  "note": "Bounded research observations only. Not a playback API, approval or retained audio. Stream arrays in stations.json unchanged.",
+  "pages": [
+    {
+      "url": "https://www.tamilosaifm.com/",
+      "checkedAt": "2026-11-08T04:42:44.586Z",
+      "status": null,
+      "error": "getaddrinfo ENOTFOUND www.tamilosaifm.com",
+      "truncationPossible": null
+    },
+    {
+      "url": "https://zeno.fm/radio/christian-samy-fm/",
+      "checkedAt": "2026-11-08T04:42:44.909Z",
+      "status": 200,
+      "error": null,
+      "truncationPossible": true
+    },
+    {
+      "url": "https://radio.asrdmm.com/",
+      "checkedAt": "2026-11-08T04:42:46.707Z",
+      "status": 200,
+      "error": null,
+      "truncationPossible": true
+    }
+  ],
+  "directoryQueries": [
+    {
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Tamilosai?limit=5&hidebroken=false",
+      "checkedAt": "2026-11-08T04:42:48.562Z",
+      "status": 200,
+      "sampledBytes": 2,
+      "note": "Empty JSON result array"
+    },
+    {
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Isai%20Murasu?limit=5&hidebroken=false",
+      "checkedAt": "2026-11-08T04:42:49.485Z",
+      "status": 200,
+      "sampledBytes": 2,
+      "note": "Empty JSON result array"
+    },
+    {
+      "url": "https://de1.api.radio-browser.info/json/stations/byname/Christian%20Samy?limit=5&hidebroken=false",
+      "checkedAt": "2026-11-08T04:42:50.244Z",
+      "status": 200,
+      "sampledBytes": 2,
+      "note": "Empty JSON result array"
+    }
+  ],
+  "audits": [
+    {
+      "id": "air",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+      "requestUrl": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "checkedAt": "2026-11-08T04:42:51.279Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 464,
+      "firstByteLatencyMs": 464,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "segments-retrieved",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112915631.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112923962.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112932295.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112940628.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112948962.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112957300.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      },
+      "segment": {
+        "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794112915631.ts",
+        "bytes": 130702,
+        "httpStatus": 206
+      },
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "id": "sooriyan",
+      "url": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+      "requestUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+      "checkedAt": "2026-11-08T04:42:52.549Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg; charset=UTF-8",
+        "finalUrl": "https://radio.lotustechnologieslk.net:2020/stream/sooriyanfmgarden",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg; charset=UTF-8",
+      "cors": "*",
+      "icyName": "No Name",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1071,
+      "firstByteLatencyMs": 1078,
+      "continuitySeconds": 0.867,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "id": "iskcon",
+      "url": "https://iskconnagercoil.com/webdio",
+      "requestUrl": "https://iskconnagercoil.com/webdio",
+      "checkedAt": "2026-11-08T04:42:55.640Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 400",
+        "status": 400,
+        "contentType": "text/html; charset=utf-8",
+        "finalUrl": "https://iskconnagercoil.com/webdio",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "ISKCON Nagercoil Radio",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 819,
+      "firstByteLatencyMs": 1140,
+      "continuitySeconds": 0.64,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "id": "suryan",
+      "url": "https://tamil.crabdance.com:8002/2",
+      "requestUrl": "https://tamil.crabdance.com:8002/2",
+      "checkedAt": "2026-11-08T04:42:58.371Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "reason": "The operation was aborted"
+        },
+        {
+          "attempt": 2,
+          "status": "failed",
+          "reason": "The operation was aborted"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "status": "down",
+      "failureReason": "Request timeout/aborted (transport deadline)",
+      "partial": true
+    },
+    {
+      "id": "big",
+      "url": "[withheld: query-bearing or authenticated URL]",
+      "requestUrl": "https://stream.zeno.fm/r2gn1pgm4qruv",
+      "checkedAt": "2026-11-08T04:43:21.399Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://stream.zeno.fm/r2gn1pgm4qruv",
+          "to": "[withheld: query-bearing or authenticated URL]"
+        }
+      ],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": null,
+      "icyName": "big fm tamil",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 1679,
+      "firstByteLatencyMs": 1679,
+      "continuitySeconds": 6.993,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "id": "asr",
+      "url": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+      "requestUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+      "checkedAt": "2026-11-08T04:43:33.093Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "attempt": 2,
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "httpStatus": 404,
+      "redirects": [],
+      "tls": "validated",
+      "status": "down",
+      "failureReason": "HTTP 404",
+      "partial": true
+    }
+  ],
+  "browser": {
+    "christianSamy": {
+      "page": "https://zeno.fm/radio/christian-samy-fm/",
+      "tags": [
+        "Tamil",
+        "Religious"
+      ],
+      "observedOn": "2026-11-08",
+      "result": "media-error-4",
+      "playbackUrl": "withheld: query-bearing provider request",
+      "permissions": "unconfirmed"
+    },
+    "iskconPriorStage9": {
+      "result": "two short decoded-playback progress starts, not sustained uptime or human programme identification",
+      "seconds": [
+        3.415027,
+        2.40479
+      ]
+    }
+  },
+  "limits": {
+    "deepEndpointDeadlineMs": 35000,
+    "mediaBytes": 131072,
+    "redirectsPerRequest": 5,
+    "concurrency": 1
+  },
+  "decoder": "not-tested: FFmpeg unavailable; audio/playlist signatures and bounded HLS segments are not audible playback",
+  "remaining": [
+    "No new stream has reviewed RadioBee third-party listening permission.",
+    "HTTP-only historical gist leads not probed/upgraded under existing HTTPS-only protections.",
+    "Annai reusable canonical direct URL remains unconfirmed; no session URL copied.",
+    "Isai Streema page presented bot challenge; no bypass or protected configuration decryption."
+  ]
+}

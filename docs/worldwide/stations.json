@@ -1,0 +1,865 @@
+[
+  {
+    "id": "ibc-tamil-uk",
+    "name": "IBC Tamil Radio",
+    "country": "GB",
+    "countryName": "United Kingdom",
+    "region": [
+      "gb-eng",
+      "England"
+    ],
+    "network": "ibc-tamil",
+    "networkName": "IBC Tamil",
+    "website": "https://radio.ibctamil.com/",
+    "evidence": "https://radio.ibctamil.com/about",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "notes": "London-headquartered Tamil service. Broadcaster describes DAB and online distribution; this record describes the online programme, not an FM frequency. Do not duplicate for overseas audiences. Public stream/embed tools coexist with restrictive website terms; third-party use review remains unresolved.",
+    "sourceId": "world-ibc-tamil-uk-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "gb-eng",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "ibc-tamil-uk-official-trial",
+        "url": "https://hls.cloudrad.io/32dced12/stream.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-ibc-tamil-uk-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.506Z",
+          "sourceId": "ibc-world-use-policy",
+          "notes": "Public stream/embed tools coexist with policy limiting personal use and prohibiting unapproved copying, archiving, redistribution and third-party framing. User requested direct end-user trial listening; this is not a RadioBee grant or permission to frame/rebroadcast content. Third-party app use requires review. Recording/redistribution prohibited.",
+          "recording": "prohibited",
+          "redistribution": "prohibited"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "athavan-uk",
+    "name": "Athavan Radio UK",
+    "country": "GB",
+    "countryName": "United Kingdom",
+    "network": "athavan",
+    "networkName": "Athavan Radio",
+    "website": "https://athavanradio.com/uk/",
+    "evidence": "https://athavanradio.com/uk/",
+    "genres": [
+      "music",
+      "news",
+      "talk"
+    ],
+    "notes": "Official UK-specific Tamil digital service and London Bridge programme. Separate UK page is evidence of programme identity; no Sri Lankan or Canadian feed copied into it.",
+    "sourceId": "world-athavan-uk-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "cmr-tamil-ca",
+    "name": "CMR Tamil HD2",
+    "country": "CA",
+    "countryName": "Canada",
+    "region": [
+      "ca-on",
+      "Ontario"
+    ],
+    "network": "cmr",
+    "networkName": "Canadian Multicultural Radio",
+    "website": "https://cmr24.net/about-us/",
+    "evidence": "https://cmr24.net/about-us/",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "notes": "Toronto-area CJSA Tamil HD2 service, not the multilingual analogue 101.3 FM main channel. Official history identifies a dedicated Tamil HD2 programme. Model online delivery with null frequency; do not copy the generic main-channel stream or a bundled demo MP3.",
+    "sourceId": "world-cmr-tamil-ca-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "ca-on",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "east-fm-ca",
+    "name": "EAST FM 102.7",
+    "country": "CA",
+    "countryName": "Canada",
+    "region": [
+      "ca-on",
+      "Ontario"
+    ],
+    "network": "east-fm",
+    "networkName": "EAST FM",
+    "website": "https://eastfm.ca/main/",
+    "evidence": "https://eastfm.ca/main/schedule.php",
+    "genres": [
+      "music",
+      "community",
+      "talk"
+    ],
+    "delivery": "fm",
+    "frequency": 102.7,
+    "notes": "Toronto multilingual station with substantial scheduled Tamil programming. Language tag identifies Tamil inclusion, not Tamil-only output; official schedule also lists Punjabi, Urdu/Hindi, Farsi, Telugu, Arabic and other languages. One station card; do not split its schedule into multiple broadcasts.",
+    "sourceId": "world-east-fm-ca-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": 102.7,
+    "regionId": "ca-on",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "ctbc-ca",
+    "name": "Canadian Tamil Broadcasting Corporation",
+    "country": "CA",
+    "countryName": "Canada",
+    "region": [
+      "ca-on",
+      "Ontario"
+    ],
+    "network": "ctbc",
+    "networkName": "Canadian Tamil Broadcasting Corporation",
+    "website": "https://www.ctbc.com/",
+    "evidence": "https://www.ctbc.com/",
+    "genres": [
+      "general",
+      "community"
+    ],
+    "aliases": [
+      "CTBC Radio"
+    ],
+    "notes": "Official HTTPS page identifies CTBC Tamil radio; Toronto association corroborated by Canadian community directories. Current site is a small JavaScript shell, so current stream and legal operator identity need further review. Not Canadian Tamil Radio CTR24.",
+    "sourceId": "world-ctbc-ca-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "ca-on",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "ctr-ca",
+    "name": "Canadian Tamil Radio (CTR24)",
+    "country": "CA",
+    "countryName": "Canada",
+    "region": [
+      "ca-on",
+      "Ontario"
+    ],
+    "network": "canadian-tamil-radio",
+    "networkName": "Canadian Tamil Radio",
+    "website": "https://ctr24.com/",
+    "evidence": "https://ctr24.com/",
+    "genres": [
+      "news",
+      "talk",
+      "community"
+    ],
+    "aliases": [
+      "CTR24"
+    ],
+    "notes": "Official site identifies Toronto Tamil radio with Tamil programme schedule and live player. Contact phone is a placeholder, so do not treat every footer field as verified. Distinct from CTBC and CMR; exact legal operator/current feed identity still needs review.",
+    "sourceId": "world-ctr-ca-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "ca-on",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "beats-radio-us",
+    "name": "Beats Radio Tamil",
+    "country": "US",
+    "countryName": "United States",
+    "network": "beats-radio",
+    "networkName": "Beats Radio LLC",
+    "website": "https://www.beats-radio.com/",
+    "evidence": "https://www.beats-radio.com/",
+    "genres": [
+      "music",
+      "general"
+    ],
+    "notes": "US Tamil entertainment Internet station for Tamil Americans. No terrestrial FM frequency or precise US city established. Current broadcaster-linked /player?stream=tamil publishes a secure extensionless live URL; AAC signature and real browser decoding confirmed. Earlier homepage HTTP lead is superseded by this explicit HTTPS player evidence, not a guessed scheme upgrade.",
+    "sourceId": "world-beats-radio-us-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "beats-radio-us-official-trial",
+        "url": "https://www.beats-radio.com/stream/beats-radio-tamil",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-beats-radio-us-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-beats-radio-us-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "american-tamil-radio-us",
+    "name": "American Tamil Radio",
+    "country": "US",
+    "countryName": "United States",
+    "region": [
+      "us-ca",
+      "California"
+    ],
+    "network": "american-tamil-media",
+    "networkName": "American Tamil Media",
+    "website": "https://www.americantamilradio.com/",
+    "evidence": "https://www.tamilmedia.org/",
+    "genres": [
+      "music",
+      "community"
+    ],
+    "notes": "Operator American Tamil Media identifies California registration and explicitly links its radio product. Region denotes organizational base, not an exclusive FM reception area or a verified studio address. Online service; no frequency asserted.",
+    "sourceId": "world-american-tamil-radio-us-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "us-ca",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "american-tamil-radio-us-official-trial",
+        "url": "https://cp11.serverse.com/proxy/hgsmgluv/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-american-tamil-radio-us-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-american-tamil-radio-us-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "atbc-au",
+    "name": "Australian Tamil Broadcasting Corporation",
+    "country": "AU",
+    "countryName": "Australia",
+    "region": [
+      "au-nsw",
+      "New South Wales"
+    ],
+    "network": "atbc",
+    "networkName": "Australian Tamil Broadcasting Corporation",
+    "website": "https://www.atbc.net.au/",
+    "evidence": "https://www.atbc.net.au/",
+    "genres": [
+      "community",
+      "news",
+      "general"
+    ],
+    "aliases": [
+      "ATBC"
+    ],
+    "notes": "Official site identifies Tamil community service, Sydney studios and Sydney/Melbourne towers. One online programme, not separate invented city streams. Official linked HTTP Viastreaming player failed in the browser; secure canonical feed remains unresolved. No FM frequency inferred from tower ownership.",
+    "sourceId": "world-atbc-au-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "au-nsw",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "oli-968-sg",
+    "name": "OLI 968",
+    "country": "SG",
+    "countryName": "Singapore",
+    "network": "mediacorp",
+    "networkName": "Mediacorp",
+    "website": "https://www.melisten.sg/radio/oli-968",
+    "evidence": "https://data.melisten.sg/radio/oli-968",
+    "genres": [
+      "music",
+      "news",
+      "general"
+    ],
+    "delivery": "fm",
+    "frequency": 96.8,
+    "notes": "Mediacorp official station record identifies Tamil programming and publishes standard/premium AAC redirectors. Serves the Indian community with Tamil and non-Tamil time belts; not a claim of uninterrupted Tamil speech. Third-party listening and recording conditions unconfirmed.",
+    "sourceId": "world-oli-968-sg-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": 96.8,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "oli-968-sg-official-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-oli-968-sg-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-oli-968-sg-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "tamil-894-ae",
+    "name": "89.4 Tamil FM",
+    "country": "AE",
+    "countryName": "United Arab Emirates",
+    "region": [
+      "ae-du",
+      "Dubai"
+    ],
+    "network": "tamil-894",
+    "networkName": "89.4 Tamil FM",
+    "website": "https://tamil894fm.com/",
+    "evidence": "https://tamil894fm.com/about-us/",
+    "genres": [
+      "music",
+      "talk",
+      "general"
+    ],
+    "delivery": "fm",
+    "frequency": 89.4,
+    "notes": "Dubai-branded Tamil entertainment station. Official player publishes an Aarenworld stream. Frequency is broadcaster branding; exact transmitter municipality, coverage and legal licensee are not independently established. Third-party listening/recording conditions remain unconfirmed.",
+    "sourceId": "world-tamil-894-ae-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": 89.4,
+    "regionId": "ae-du",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "tamil-894-ae-official-trial",
+        "url": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-tamil-894-ae-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-tamil-894-ae-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "minnal-my",
+    "name": "MINNALfm",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "network": "rtm",
+    "networkName": "Radio Televisyen Malaysia",
+    "kind": "public",
+    "website": "https://radio.rtm.gov.my/station/minnalfm",
+    "evidence": "https://radio.rtm.gov.my/station/minnalfm",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "delivery": "fm",
+    "notes": "Official RTM profile explicitly identifies Tamil music, information and culture. National service with regional frequencies; no single 92.3 frequency assigned nationwide. RTM publishes a StreamTheWorld HLS link. Do not infer RadioBee permission from public availability.",
+    "sourceId": "world-minnal-my-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "minnal-my-official-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-minnal-my-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-minnal-my-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "raaga-my",
+    "name": "RAAGA Malaysia",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "network": "astro-audio",
+    "networkName": "Astro Audio",
+    "website": "https://raaga.my/",
+    "evidence": "https://media2.fishtank.my/media/astroradio/assets/brand-profile/2025/2026/raaga-brand-profile-2026.pdf",
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "notes": "Official Astro Radio 2026 brand profile identifies Malaysian Tamil service with multiple regional FM frequencies. Use one programme card and null frequency; do not present Klang Valley frequency as nationwide. Official station links SYOK live player.",
+    "sourceId": "world-raaga-my-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "thaalam-ch",
+    "name": "Thaalam Radio Switzerland",
+    "country": "CH",
+    "countryName": "Switzerland",
+    "region": [
+      "ch-zh",
+      "Zurich"
+    ],
+    "network": "thaalam-media",
+    "networkName": "Thaalam Media",
+    "website": "https://thaalam.ch/",
+    "evidence": "https://www.thaalam.ch/about-us",
+    "genres": [
+      "music",
+      "community"
+    ],
+    "notes": "Broadcaster describes Swiss Tamil DAB/online service and Zurich contact address. This entry models online delivery, not analogue FM. Do not repeat broadcaster exclusivity/coverage claims as independent regulator findings; no terrestrial frequency asserted.",
+    "sourceId": "world-thaalam-ch-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "ch-zh",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "thaalam-ch-official-trial",
+        "url": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-thaalam-ch-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-thaalam-ch-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "akkini-ch",
+    "name": "Akkini FM",
+    "country": "CH",
+    "countryName": "Switzerland",
+    "region": [
+      "ch-zh",
+      "Zurich"
+    ],
+    "network": "akkini",
+    "networkName": "Akkini FM",
+    "website": "https://akkini.fm/",
+    "evidence": "https://akkini.fm/",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "notes": "Official site describes Tamil Internet radio from Zurich and publishes a Radioca.st feed. FM is a brand name; no analogue FM transmitter or frequency claimed. Operator and cross-border listening/recording conditions need review.",
+    "sourceId": "world-akkini-ch-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "ch-zh",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "akkini-ch-official-trial",
+        "url": "https://akkinifm-unicast2u.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-akkini-ch-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-akkini-ch-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "swiss-tamil-radio-ch",
+    "name": "Swiss Tamil Radio",
+    "country": "CH",
+    "countryName": "Switzerland",
+    "network": "swiss-tamil-radio",
+    "networkName": "Swiss Tamil Radio",
+    "website": "https://swisstamilradio.com/",
+    "evidence": "https://swisstamilradio.com/",
+    "genres": [
+      "music",
+      "news",
+      "general"
+    ],
+    "notes": "Official site identifies online Tamil radio from Switzerland with live control and programme schedule. Precise studio locality and ownership relationship to other Swiss stations are not established; no alias equivalence or stream sharing is assumed.",
+    "sourceId": "world-swiss-tamil-radio-ch-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "etr-de",
+    "name": "European Tamil Radio",
+    "country": "DE",
+    "countryName": "Germany",
+    "region": [
+      "de-nw",
+      "North Rhine-Westphalia"
+    ],
+    "network": "european-tamils-union",
+    "networkName": "European Tamils Union e.V.",
+    "website": "https://etr.fm/",
+    "evidence": "https://etr.fm/imprint",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "aliases": [
+      "ETR"
+    ],
+    "notes": "Official imprint identifies European Tamils Union e.V. and Hamm address; live page provides a distinct live.etr.audio mount. Programme recordings are separate archive material and are not candidate live streams. No FM frequency asserted.",
+    "sourceId": "world-etr-de-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "de-nw",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "etr-de-official-trial",
+        "url": "https://live.etr.audio/listen/stream/s1",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-etr-de-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-etr-de-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "tamil-murasam-no",
+    "name": "Tamil Murasam Norway",
+    "country": "NO",
+    "countryName": "Norway",
+    "region": [
+      "no-oslo",
+      "Oslo"
+    ],
+    "network": "tamil-murasam",
+    "networkName": "Radio Tamil Murasam",
+    "website": "https://tamilmurasam.com/",
+    "evidence": "https://tamilmurasam.com/",
+    "genres": [
+      "news",
+      "talk",
+      "community"
+    ],
+    "notes": "Official site supplies Oslo studio address, Tamil programme schedule and local DAB description. Model online programme with null frequency. Distinct from Isai Murasu Nagercoil, historical Trondheim Tamil Murasu and Singapore Tamil Murasu newspaper.",
+    "sourceId": "world-tamil-murasam-no-2026",
+    "publication": "unverified-trial",
+    "technicalVerification": "unverified",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": "no-oslo",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [
+      {
+        "id": "tamil-murasam-no-official-trial",
+        "url": "https://tamilmurasam.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-tamil-murasam-no-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-tamil-murasam-no-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "decoded-short-session",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Sustained playback, independently heard programme identity, Android device testing and use-condition review."
+  },
+  {
+    "id": "tarana-tamil-nz",
+    "name": "Tarana Tamil",
+    "country": "NZ",
+    "countryName": "New Zealand",
+    "network": "tarana",
+    "networkName": "Radio Tarana",
+    "website": "https://www.rova.nz/radio/tarana-tamil",
+    "evidence": "https://www.rova.nz/radio/tarana-tamil",
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "websiteKind": "provider",
+    "notes": "Authorized rova station profile identifies a dedicated New Zealand Tamil service and community programming. No independent Tamil FM transmitter/frequency established; do not substitute the separate Radio Tarana Hindi AM feed. Account/session flow was not bypassed.",
+    "sourceId": "world-tarana-tamil-nz-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "delivery": "online",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  },
+  {
+    "id": "lotus-fm-za",
+    "name": "Lotus FM",
+    "country": "ZA",
+    "countryName": "South Africa",
+    "network": "sabc",
+    "networkName": "South African Broadcasting Corporation",
+    "kind": "public",
+    "website": "https://www.lotusfm.co.za/lotusfm/",
+    "evidence": "https://www.lotusfm.co.za/lotusfm/shows/in-isai-mazhai/",
+    "genres": [
+      "music",
+      "talk",
+      "community"
+    ],
+    "delivery": "fm",
+    "notes": "Multilingual SABC service with a specifically documented Tamil-language In Isai Mazhai programme; not a 24-hour Tamil station. Official page template exposes a MOTSWEDING stream: identity mismatch, excluded rather than relabelled Lotus. Exact frequencies and full language inventory not asserted here.",
+    "sourceId": "world-lotus-fm-za-2026",
+    "publication": "metadata-only",
+    "technicalVerification": "not-tested",
+    "rightsStatus": "unconfirmed",
+    "directListening": "needs-review",
+    "frequencyMHz": null,
+    "regionId": null,
+    "broadcastLanguages": [
+      "en",
+      "ta",
+      "te"
+    ],
+    "streamCandidates": [],
+    "browserPlayback": "not-tested",
+    "listeningPermission": "unconfirmed",
+    "remainingBlockers": "Canonical working HTTPS live source, actual decoding, identity and use-condition review."
+  }
+]

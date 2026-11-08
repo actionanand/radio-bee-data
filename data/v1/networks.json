@@ -187,5 +187,235 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.clubfm.in/"
+  },
+  {
+    "id": "tamilosai-fm",
+    "name": "Tamilosai FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "isai-murasu",
+    "name": "Isai Murasu FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "iskcon-nagercoil",
+    "name": "ISKCON Nagercoil",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.iskconnagercoil.com/"
+  },
+  {
+    "id": "ibc-tamil",
+    "name": "IBC Tamil",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": "https://radio.ibctamil.com/"
+  },
+  {
+    "id": "athavan",
+    "name": "Athavan Radio",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": "https://athavanradio.com/uk/"
+  },
+  {
+    "id": "cmr",
+    "name": "Canadian Multicultural Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://cmr24.net/about-us/"
+  },
+  {
+    "id": "east-fm",
+    "name": "EAST FM",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "broadcaster",
+    "website": "https://eastfm.ca/main/"
+  },
+  {
+    "id": "ctbc",
+    "name": "Canadian Tamil Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.ctbc.com/"
+  },
+  {
+    "id": "canadian-tamil-radio",
+    "name": "Canadian Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://ctr24.com/"
+  },
+  {
+    "id": "beats-radio",
+    "name": "Beats Radio LLC",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": "https://www.beats-radio.com/"
+  },
+  {
+    "id": "american-tamil-media",
+    "name": "American Tamil Media",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": "https://www.americantamilradio.com/"
+  },
+  {
+    "id": "atbc",
+    "name": "Australian Tamil Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "online",
+    "website": "https://www.atbc.net.au/"
+  },
+  {
+    "id": "mediacorp",
+    "name": "Mediacorp",
+    "aliases": [],
+    "countryCodes": [
+      "SG"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.melisten.sg/radio/oli-968"
+  },
+  {
+    "id": "tamil-894",
+    "name": "89.4 Tamil FM",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "broadcaster",
+    "website": "https://tamil894fm.com/"
+  },
+  {
+    "id": "rtm",
+    "name": "Radio Televisyen Malaysia",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "public",
+    "website": "https://radio.rtm.gov.my/station/minnalfm"
+  },
+  {
+    "id": "astro-audio",
+    "name": "Astro Audio",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "broadcaster",
+    "website": "https://raaga.my/"
+  },
+  {
+    "id": "thaalam-media",
+    "name": "Thaalam Media",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://thaalam.ch/"
+  },
+  {
+    "id": "akkini",
+    "name": "Akkini FM",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://akkini.fm/"
+  },
+  {
+    "id": "swiss-tamil-radio",
+    "name": "Swiss Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://swisstamilradio.com/"
+  },
+  {
+    "id": "european-tamils-union",
+    "name": "European Tamils Union e.V.",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://etr.fm/"
+  },
+  {
+    "id": "tamil-murasam",
+    "name": "Radio Tamil Murasam",
+    "aliases": [],
+    "countryCodes": [
+      "NO"
+    ],
+    "kind": "online",
+    "website": "https://tamilmurasam.com/"
+  },
+  {
+    "id": "tarana",
+    "name": "Radio Tarana",
+    "aliases": [],
+    "countryCodes": [
+      "NZ"
+    ],
+    "kind": "online",
+    "website": "https://www.rova.nz/radio/tarana-tamil"
+  },
+  {
+    "id": "sabc",
+    "name": "South African Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "ZA"
+    ],
+    "kind": "public",
+    "website": "https://www.lotusfm.co.za/lotusfm/"
   }
 ]

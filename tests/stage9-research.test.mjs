@@ -31,7 +31,10 @@ test('pending Stage 9 research preserves archived identities and stays out of pu
  const publishedUrls=new Set(d.stations.flatMap(s=>s.streams.map(x=>x.url)));
  for(const row of evidence.candidates){
   if(row.existingPublished){assert.ok(publishedUrls.has(row.candidateUrl));continue;}
-  if(row.group!=='A'&&row.candidateUrl)assert.equal(publishedUrls.has(row.candidateUrl),false,row.id);
+  if(row.id==='iskcon-official'){
+   const s=d.stations.find(s=>s.id==='iskcon-nagercoil');assert.ok(s);assert.equal(d.discoveryStations.some(s=>s.id==='iskcon-nagercoil'),false);
+   assert.ok(s.sourceIds.includes('iskcon-trial-2026'));assert.equal(s.streams[0].url,row.candidateUrl);assert.equal(s.streams[0].verificationStatus,'unverified');assert.equal(s.streams[0].rightsStatus,'unconfirmed');assert.equal(s.streams[0].directListening.status,'needs-review');
+  }else if(row.group!=='A'&&row.candidateUrl)assert.equal(publishedUrls.has(row.candidateUrl),false,row.id);
   if(row.group!=='A')assert.equal(row.publicationDecision,'research-only');
   for(const url of [row.candidateUrl,row.sourcePage])if(url?.startsWith('http'))assert.equal([...new URL(url).searchParams.keys()].some(k=>/token|signature|^zt$|^zs$|session|lsid/i.test(k)),false,row.id);
  }

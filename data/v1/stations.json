@@ -44,7 +44,12 @@
         }
       }
     ],
-    "notes": "Official player channel 248: FM Nagercoil Kumari. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. City association is explicitly published by Akashvani, not inferred from reception."
+    "notes": "Official player channel 248: FM Nagercoil Kumari. HTTPS HLS playlist reachable; segments, decoding, Web/Android playback and RadioBee permission unconfirmed. City association is explicitly published by Akashvani, not inferred from reception.",
+    "aliases": [
+      "AIR Nagercoil",
+      "Kumari FM",
+      "AIR Nagercoil 101.0"
+    ]
   },
   {
     "id": "air-coimbatore",
@@ -721,7 +726,7 @@
         }
       }
     ],
-    "notes": "nullStage 6 exact official player channel 1: Vividh Bharati. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
+    "notes": "Stage 6 exact official player channel 1: Vividh Bharati. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
   },
   {
     "id": "air-raagam",
@@ -1115,5 +1120,510 @@
       }
     ],
     "notes": "Distinct official named Chennai service. Location/languages documentary; stream is unverified and permission unconfirmed."
+  },
+  {
+    "id": "iskcon-nagercoil",
+    "name": "ISKCON Nagercoil / Vaani Seva",
+    "networkId": "iskcon-nagercoil",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-kanyakumari",
+    "localityId": "in-tn-kanyakumari-puliyurkurichi",
+    "broadcastLanguages": [],
+    "genres": [
+      "devotional",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.iskconnagercoil.com/radio",
+    "sourceIds": [
+      "iskcon-discovery-player",
+      "iskcon-trial-2026"
+    ],
+    "notes": "Official institution/player association and short browser playback established. Programme language not inferred from generic directory Tamil label. No reviewed RadioBee direct-listening, recording or redistribution allowance yet. Follow-up browser decoding advanced 6.110333 seconds during an eight-second bounded listening session. Restored as unverified trial candidate; no Tamil-language or permission claim added.",
+    "aliases": [
+      "Vaani Seva",
+      "ISKCON Nagercoil Radio"
+    ],
+    "streams": [
+      {
+        "id": "iskcon-nagercoil-official-trial",
+        "url": "https://iskconnagercoil.com/webdio",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "iskcon-trial-2026",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:37:04.271Z",
+          "sourceId": "iskcon-trial-2026",
+          "notes": "User requested retention and trial listening for decoded unverified sources. Official institution/player association and short browser MP3 decoding confirmed; programme languages remain unknown. Listening, recording and redistribution conditions unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ibc-tamil-uk",
+    "name": "IBC Tamil Radio",
+    "networkId": "ibc-tamil",
+    "countryCode": "GB",
+    "regionId": "gb-eng",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radio.ibctamil.com/",
+    "sourceIds": [
+      "world-ibc-tamil-uk-2026",
+      "world-ibc-tamil-uk-player",
+      "ibc-world-use-policy"
+    ],
+    "notes": "London-headquartered Tamil service. Broadcaster describes DAB and online distribution; this record describes the online programme, not an FM frequency. Do not duplicate for overseas audiences. Public stream/embed tools coexist with restrictive website terms; third-party use review remains unresolved. Short browser decoded sample 6.639932 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "ibc-tamil-uk-official-trial",
+        "url": "https://hls.cloudrad.io/32dced12/stream.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-ibc-tamil-uk-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.506Z",
+          "sourceId": "ibc-world-use-policy",
+          "notes": "Public stream/embed tools coexist with policy limiting personal use and prohibiting unapproved copying, archiving, redistribution and third-party framing. User requested direct end-user trial listening; this is not a RadioBee grant or permission to frame/rebroadcast content. Third-party app use requires review. Recording/redistribution prohibited.",
+          "recording": "prohibited",
+          "redistribution": "prohibited"
+        }
+      }
+    ]
+  },
+  {
+    "id": "beats-radio-us",
+    "name": "Beats Radio Tamil",
+    "networkId": "beats-radio",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.beats-radio.com/",
+    "sourceIds": [
+      "world-beats-radio-us-2026",
+      "world-beats-radio-us-player"
+    ],
+    "notes": "US Tamil entertainment Internet station for Tamil Americans. No terrestrial FM frequency or precise US city established. Current broadcaster-linked /player?stream=tamil publishes a secure extensionless live URL; AAC signature and real browser decoding confirmed. Earlier homepage HTTP lead is superseded by this explicit HTTPS player evidence, not a guessed scheme upgrade. Short browser decoded sample 15.016741 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "beats-radio-us-official-trial",
+        "url": "https://www.beats-radio.com/stream/beats-radio-tamil",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-beats-radio-us-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-beats-radio-us-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "american-tamil-radio-us",
+    "name": "American Tamil Radio",
+    "networkId": "american-tamil-media",
+    "countryCode": "US",
+    "regionId": "us-ca",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.americantamilradio.com/",
+    "sourceIds": [
+      "world-american-tamil-radio-us-2026",
+      "world-american-tamil-radio-us-player"
+    ],
+    "notes": "Operator American Tamil Media identifies California registration and explicitly links its radio product. Region denotes organizational base, not an exclusive FM reception area or a verified studio address. Online service; no frequency asserted. Short browser decoded sample 35.66958 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "american-tamil-radio-us-official-trial",
+        "url": "https://cp11.serverse.com/proxy/hgsmgluv/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-american-tamil-radio-us-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-american-tamil-radio-us-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "oli-968-sg",
+    "name": "OLI 968",
+    "networkId": "mediacorp",
+    "countryCode": "SG",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": 96.8,
+    "website": "https://www.melisten.sg/radio/oli-968",
+    "sourceIds": [
+      "world-oli-968-sg-2026",
+      "world-oli-968-sg-player"
+    ],
+    "notes": "Mediacorp official station record identifies Tamil programming and publishes standard/premium AAC redirectors. Serves the Indian community with Tamil and non-Tamil time belts; not a claim of uninterrupted Tamil speech. Third-party listening and recording conditions unconfirmed. Short browser decoded sample 5.068306 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "oli-968-sg-official-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-oli-968-sg-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-oli-968-sg-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tamil-894-ae",
+    "name": "89.4 Tamil FM",
+    "networkId": "tamil-894",
+    "countryCode": "AE",
+    "regionId": "ae-du",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "talk",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": 89.4,
+    "website": "https://tamil894fm.com/",
+    "sourceIds": [
+      "world-tamil-894-ae-2026",
+      "world-tamil-894-ae-player"
+    ],
+    "notes": "Dubai-branded Tamil entertainment station. Official player publishes an Aarenworld stream. Frequency is broadcaster branding; exact transmitter municipality, coverage and legal licensee are not independently established. Third-party listening/recording conditions remain unconfirmed. Short browser decoded sample 6.377143 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "tamil-894-ae-official-trial",
+        "url": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-tamil-894-ae-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-tamil-894-ae-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "minnal-my",
+    "name": "MINNALfm",
+    "networkId": "rtm",
+    "countryCode": "MY",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radio.rtm.gov.my/station/minnalfm",
+    "sourceIds": [
+      "world-minnal-my-2026",
+      "world-minnal-my-player"
+    ],
+    "notes": "Official RTM profile explicitly identifies Tamil music, information and culture. National service with regional frequencies; no single 92.3 frequency assigned nationwide. RTM publishes a StreamTheWorld HLS link. Do not infer RadioBee permission from public availability. Short browser decoded sample 11.947937 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "minnal-my-official-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-minnal-my-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-minnal-my-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "thaalam-ch",
+    "name": "Thaalam Radio Switzerland",
+    "networkId": "thaalam-media",
+    "countryCode": "CH",
+    "regionId": "ch-zh",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://thaalam.ch/",
+    "sourceIds": [
+      "world-thaalam-ch-2026",
+      "world-thaalam-ch-player"
+    ],
+    "notes": "Broadcaster describes Swiss Tamil DAB/online service and Zurich contact address. This entry models online delivery, not analogue FM. Do not repeat broadcaster exclusivity/coverage claims as independent regulator findings; no terrestrial frequency asserted. Short browser decoded sample 5.405418 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "thaalam-ch-official-trial",
+        "url": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-thaalam-ch-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-thaalam-ch-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "akkini-ch",
+    "name": "Akkini FM",
+    "networkId": "akkini",
+    "countryCode": "CH",
+    "regionId": "ch-zh",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akkini.fm/",
+    "sourceIds": [
+      "world-akkini-ch-2026",
+      "world-akkini-ch-player"
+    ],
+    "notes": "Official site describes Tamil Internet radio from Zurich and publishes a Radioca.st feed. FM is a brand name; no analogue FM transmitter or frequency claimed. Operator and cross-border listening/recording conditions need review. Short browser decoded sample 5.717428 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "akkini-ch-official-trial",
+        "url": "https://akkinifm-unicast2u.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-akkini-ch-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-akkini-ch-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "etr-de",
+    "name": "European Tamil Radio",
+    "networkId": "european-tamils-union",
+    "countryCode": "DE",
+    "regionId": "de-nw",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://etr.fm/",
+    "sourceIds": [
+      "world-etr-de-2026",
+      "world-etr-de-player"
+    ],
+    "notes": "Official imprint identifies European Tamils Union e.V. and Hamm address; live page provides a distinct live.etr.audio mount. Programme recordings are separate archive material and are not candidate live streams. No FM frequency asserted. Short browser decoded sample 6.028473 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "etr-de-official-trial",
+        "url": "https://live.etr.audio/listen/stream/s1",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-etr-de-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-etr-de-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tamil-murasam-no",
+    "name": "Tamil Murasam Norway",
+    "networkId": "tamil-murasam",
+    "countryCode": "NO",
+    "regionId": "no-oslo",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news",
+      "talk",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://tamilmurasam.com/",
+    "sourceIds": [
+      "world-tamil-murasam-no-2026",
+      "world-tamil-murasam-no-player"
+    ],
+    "notes": "Official site supplies Oslo studio address, Tamil programme schedule and local DAB description. Model online programme with null frequency. Distinct from Isai Murasu Nagercoil, historical Trondheim Tamil Murasu and Singapore Tamil Murasu newspaper. Short browser decoded sample 2.179567 seconds; retained as an unverified trial candidate, not production-approved listening.",
+    "streams": [
+      {
+        "id": "tamil-murasam-no-official-trial",
+        "url": "https://tamilmurasam.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "world-tamil-murasam-no-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-08T05:43:40.507Z",
+          "sourceId": "world-tamil-murasam-no-2026",
+          "notes": "User requested in-app trial access for playable unverified sources. Short browser decoding observed; not sustained station/voice verification or a broadcaster permission grant. Third-party use conditions remain to be reviewed; any express restrictions continue to apply.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

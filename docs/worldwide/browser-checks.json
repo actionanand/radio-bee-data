@@ -1,0 +1,169 @@
+{
+  "reviewedOn": "2026-11-08",
+  "note": "Media-clock/decoder observations, not a claim of human-audible Tamil speech. Official broadcaster metadata establishes Tamil programme association for worldwide stations; no RadioBee permission grant. No broadcast audio saved.",
+  "methods": {
+    "nativeAudit": "35-second endpoint deadline; 128 KiB total sampled media; five redirects per request; one endpoint at a time; DNS/SSRF protections unchanged; FFmpeg missing.",
+    "browserSamples": "Direct fetched samples limited to 256 KiB/15 seconds; partial OLI AAC sample advanced 5.033799 seconds then error 3 at the cut boundary. Direct live retest passed. Samples discarded.",
+    "browserLive": "Local direct-audio checks auto-stop after eight seconds; HLS checks after fifteen seconds. Existing hls.js used without installation. HLS maxBuffer settings are not transfer byte ceilings. Browser direct playback has time limits but not the auditor byte guarantee; no network bypass or relay.",
+    "officialPlayers": "IBC tested with two observations then paused; American Tamil Radio and Beats tested with two observations, then paused and tabs closed. American Tamil Radio maximum observed position 35.808144 seconds. These ordinary browser requests do not have a transferred-byte cap."
+  },
+  "observations": [
+    {
+      "stationId": "ibc-tamil-uk",
+      "url": "https://hls.cloudrad.io/32dced12/stream.m3u8",
+      "format": "hls",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 18.894284,
+      "measuredProgressSeconds": 6.639932,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Official player: observed position advanced 12.254352 to 18.894284, readyState 4, paused false. This is measured progress, not an audible-language assessment."
+    },
+    {
+      "stationId": "oli-968-sg",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+      "format": "aac",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 5.068306,
+      "measuredProgressSeconds": 5.068306,
+      "errorCode": null,
+      "readyState": 3,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "tamil-894-ae",
+      "url": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 6.377143,
+      "measuredProgressSeconds": 6.377143,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "etr-de",
+      "url": "https://live.etr.audio/listen/stream/s1",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 6.028473,
+      "measuredProgressSeconds": 6.028473,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "tamil-murasam-no",
+      "url": "https://tamilmurasam.radioca.st/stream",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 2.179567,
+      "measuredProgressSeconds": 2.179567,
+      "errorCode": null,
+      "readyState": 3,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "thaalam-ch",
+      "url": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 5.405418,
+      "measuredProgressSeconds": 5.405418,
+      "errorCode": null,
+      "readyState": 3,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "akkini-ch",
+      "url": "https://akkinifm-unicast2u.radioca.st/stream",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 5.717428,
+      "measuredProgressSeconds": 5.717428,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Short automatic-stop browser session (8 seconds wall-clock). No direct assessment of audible speech, long-term stability or physical Android playback."
+    },
+    {
+      "stationId": "minnal-my",
+      "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+      "format": "hls",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 11.947937,
+      "measuredProgressSeconds": null,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Final media position in a 15-second wall-clock hls.js session; not necessarily decoded duration because HLS may start at an offset."
+    },
+    {
+      "stationId": "american-tamil-radio-us",
+      "url": "https://cp11.serverse.com/proxy/hgsmgluv/stream",
+      "format": "mp3",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 35.66958,
+      "measuredProgressSeconds": 35.66958,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Official player observed position advancing from 0.138564 to 35.808144, readyState 4, error null; playback stopped and tab closed."
+    },
+    {
+      "stationId": "beats-radio-us",
+      "url": "https://www.beats-radio.com/stream/beats-radio-tamil",
+      "format": "aac",
+      "browser": "Chromium in-app browser on Windows; not physical Android",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 15.016741,
+      "measuredProgressSeconds": 15.016741,
+      "errorCode": null,
+      "readyState": 4,
+      "pausedAtObservation": false,
+      "limitation": "Official native audio player advanced from 0.158504 to 15.175245; native media signature is AAC despite extensionless URL. Playback stopped."
+    },
+    {
+      "stationId": "air-nagercoil",
+      "url": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "format": "hls",
+      "result": "decoded-short-session",
+      "mediaPositionsSeconds": [
+        39.554946,
+        40.20676
+      ],
+      "sessions": 2,
+      "sessionWallClockLimitSeconds": 15,
+      "readyState": 4,
+      "errorCode": null,
+      "limitation": "Positions from separate live sessions are not durations or a cross-session delta. HLS starts at a live-window offset. Original official URL retained without verification-status promotion."
+    },
+    {
+      "stationId": "iskcon-nagercoil",
+      "url": "https://iskconnagercoil.com/webdio",
+      "format": "mp3",
+      "result": "decoded-short-session",
+      "mediaPositionSeconds": 6.110333,
+      "sessionWallClockLimitSeconds": 8,
+      "readyState": 4,
+      "errorCode": null,
+      "programmeLanguage": "unconfirmed",
+      "limitation": "Official institution/player association, not independent audible-language verification. New unverified trial candidate per user request."
+    }
+  ]
+}

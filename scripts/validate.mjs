@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {inspectLogo} from './logo-assets.mjs';
 import {policyErrors} from './listening-policy.mjs';
+import {discoveryErrors} from './discovery-catalogue.mjs';
 
 const projectRoot = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -15,6 +16,7 @@ export function readCatalogue(root = projectRoot) {
   const data = Object.fromEntries(['networks', 'stations', 'locations', 'languages', 'categories', 'sources'].map(name => [name, file(`${name}.json`)]));
   data.i18n = Object.fromEntries(['en', 'ta', 'sa'].map(locale => [locale, file(`i18n/${locale}.json`)]));
   data.stationMigrations=existsSync(path.join(root,'data/v1/station-migrations.json'))?file('station-migrations.json'):undefined;
+  data.discoveryStations=existsSync(path.join(root,'data/v1/discovery-stations.json'))?file('discovery-stations.json'):undefined;
   return { index, ...data };
 }
 function ids(items, label, errors) {
@@ -43,6 +45,7 @@ function checkLocaleShape(english, value, locale, errors, base = '') {
 export function validateCatalogue(data,{root=projectRoot}={}) {
   const errors = [];
   if (!data || typeof data !== 'object') return ['Catalogue is not an object'];
+  errors.push(...discoveryErrors(data,validHttps));
   const { index, networks, stations, locations, languages, categories, sources, i18n } = data;
   for(const [kind,items] of [['Network',networks],['Station',stations]])for(const item of items || []) {
     if(item && Object.hasOwn(item,'logoPath')) {
@@ -80,6 +83,7 @@ export function validateCatalogue(data,{root=projectRoot}={}) {
   const programmeNames=new Set(),streamOwners=new Map();
   for (const item of stations || []) {
     const fail = message => errors.push(`Station ${item.id}: ${message}`);
+    if(item.aliases!==undefined && (!Array.isArray(item.aliases)||item.aliases.some(a=>!isText(a))||new Set(item.aliases).size!==item.aliases.length))fail('invalid station aliases');
     const programmeKey=`${item.networkId}|${String(item.name).trim().toLowerCase()}`;
     if(programmeNames.has(programmeKey))fail('duplicate network/programme name');
     programmeNames.add(programmeKey);
