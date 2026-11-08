@@ -4,7 +4,7 @@
 
 This repository is intended to be published as static JSON and consumed by the [RadioBee Angular/Capacitor client](https://github.com/actionanand/radio-bee). It does **not** run a streaming server, mirror copyrighted radio broadcasts, or require a database, API key or hosting subscription for the JSON files.
 
-> **Internet-only catalogue 1.4.0:** **24 station/service entries, 18 network identities, 89 geographic locations, and 26 HTTPS stream candidates — 1 historically technically verified stream, 0 production-eligible streams.** All published stations have direct Internet candidates; 64 removed listings are preserved in a non-published research backlog. Reachability does not prove decoded playback or permission. See [the Internet catalogue review](docs/INTERNET-RADIO-CATALOGUE.md).
+> **Catalogue 1.6.0:** 85 discoverable stations across 14 countries: 35 stream-candidate records with 37 HTTPS alternatives, plus 50 metadata-only records. Ten worldwide feeds and ISKCON Nagercoil were retained as unverified trial candidates after short browser decoding, at the user's request. Zero approved production-listening stations; no permission grants inferred. See [worldwide findings and app integration](docs/WORLDWIDE-TAMIL.md) and [the additive discovery contract](docs/DISCOVERY-PUBLICATION.md).
 
 ## What is included
 
@@ -84,7 +84,7 @@ The manual-only **stream-health** workflow checks the catalogue endpoints and up
 - `countryCode` is ISO 3166-1 alpha-2; `broadcastLanguages` are language tags such as `ta`, `ml`, `en`, `sa`. **UI language** is independent from broadcast language.
 - `regionId`, `districtId` and `localityId` reference `locations.json`; leave a level `null` when it is not established.
 - `listingStatus: "reviewed"` means the *listing metadata* has a cited source, **not** that its stream is verified. `candidate` means it needs editorial confirmation.
-- Published stations require a real direct Internet candidate. Empty-stream records are kept only in the non-published research backlog; never use a homepage as audio.
+- Playback records in `stations.json` require a real direct Internet candidate. Documented discovery-only metadata belongs in `discovery-stations.json`, which forbids stream fields. Unsupported identities remain in research; never use a homepage as audio.
 - `stream.verificationStatus` governs technical stream verification separately. One stream passed desktop-browser playback; 25 remain `unverified`. All permissions remain `unconfirmed`. Only a **recently verified** HTTPS stream with confirmed RadioBee use permission and applicable client checks should be enabled in production.
 - `frequencyMHz` is `null` unless a cited FM frequency was available; terrestrial reception is not available through normal Android internet-stream playback.
 - The Sri Lankan **Sooriyan FM** network ID (`sooriyan-lk`) is intentionally different from Indian **Suryan FM** (`suryan-in`).
@@ -96,7 +96,7 @@ See the [Stage 3A playback investigation](docs/PLAYBACK-SOURCES.md), [schema](do
 
 1. Add a broadcaster/network first (or reuse its stable network ID).
 2. Add or reuse country/state/district/locality IDs, without inventing locations.
-3. Preserve a stable ID, supported language tags and source IDs. Keep records without a direct endpoint in the research backlog.
+3. Preserve a stable ID, supported language tags and source IDs. Publish supported metadata-only entries through the discovery contract; keep unsubstantiated identities in research.
 4. Only add a direct stream URL if it is a real HTTPS audio/playlist endpoint, not a station website. Mark it `unverified` until actual playback is independently checked; review use conditions separately.
 5. Update `data/v1/index.json` counts (and `publishedOn` when releasing changes). Bump `catalogVersion` to communicate data edits; keep `schemaVersion=1` for compatible changes.
 6. Run `npm run validate && npm test && npm run build` and open a pull request.
@@ -117,6 +117,6 @@ Code and original catalogue compilation are supplied under the MIT license. Thir
 
 Stage 4: [regional catalogue and on-demand stream audit](docs/STAGE4-STREAM-AUDIT.md). No scheduled or deployment-time network probing.
 
-Historical Stage 6: [88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md), catalogue v1.3.0. Current Stage 8: [Internet-only catalogue and migration report](docs/INTERNET-RADIO-CATALOGUE.md), catalogue v1.4.0; zero approved in-app stations.
+Historical Stage 6: [88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md), catalogue v1.3.0. Historical Stage 8: [Internet-only catalogue and migration report](docs/INTERNET-RADIO-CATALOGUE.md), catalogue v1.4.0; zero approved in-app stations.
 
 Stage 9: [Tamil FM and Kanyakumari discovery](docs/stage9/TAMIL-FM-DISCOVERY.md). Research only: 14 broadcaster/brand investigations and 54 service/place cases; no catalogue or version changes. New candidates remain outside publication pending identity, playback and use review.

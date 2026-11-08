@@ -621,5 +621,159 @@
     "type": "locality",
     "parentId": "lk-cp-kandy",
     "countryCode": "LK"
+  },
+  {
+    "id": "in-tn-kanyakumari-parakunnu",
+    "name": "Parakunnu",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-kanyakumari-puliyurkurichi",
+    "name": "Puliyurkurichi",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "GB"
+  },
+  {
+    "id": "gb-eng",
+    "name": "England",
+    "type": "state",
+    "parentId": "gb",
+    "countryCode": "GB"
+  },
+  {
+    "id": "ca",
+    "name": "Canada",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "CA"
+  },
+  {
+    "id": "ca-on",
+    "name": "Ontario",
+    "type": "state",
+    "parentId": "ca",
+    "countryCode": "CA"
+  },
+  {
+    "id": "us",
+    "name": "United States",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "US"
+  },
+  {
+    "id": "us-ca",
+    "name": "California",
+    "type": "state",
+    "parentId": "us",
+    "countryCode": "US"
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-nsw",
+    "name": "New South Wales",
+    "type": "state",
+    "parentId": "au",
+    "countryCode": "AU"
+  },
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "SG"
+  },
+  {
+    "id": "ae",
+    "name": "United Arab Emirates",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "AE"
+  },
+  {
+    "id": "ae-du",
+    "name": "Dubai",
+    "type": "state",
+    "parentId": "ae",
+    "countryCode": "AE"
+  },
+  {
+    "id": "my",
+    "name": "Malaysia",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "MY"
+  },
+  {
+    "id": "ch",
+    "name": "Switzerland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "CH"
+  },
+  {
+    "id": "ch-zh",
+    "name": "Zurich",
+    "type": "state",
+    "parentId": "ch",
+    "countryCode": "CH"
+  },
+  {
+    "id": "de",
+    "name": "Germany",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "DE"
+  },
+  {
+    "id": "de-nw",
+    "name": "North Rhine-Westphalia",
+    "type": "state",
+    "parentId": "de",
+    "countryCode": "DE"
+  },
+  {
+    "id": "no",
+    "name": "Norway",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "NO"
+  },
+  {
+    "id": "no-oslo",
+    "name": "Oslo",
+    "type": "state",
+    "parentId": "no",
+    "countryCode": "NO"
+  },
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "NZ"
+  },
+  {
+    "id": "za",
+    "name": "South Africa",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "ZA"
   }
 ]

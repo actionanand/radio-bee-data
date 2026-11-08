@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.4.0",
-  "publishedOn": "2026-11-07",
+  "catalogVersion": "1.6.0",
+  "publishedOn": "2026-11-08",
   "defaultLocale": "en",
   "locales": [
     "en",
@@ -9,15 +9,31 @@
     "sa"
   ],
   "countries": [
+    "AE",
+    "AU",
+    "CA",
+    "CH",
+    "DE",
+    "GB",
     "IN",
-    "LK"
+    "LK",
+    "MY",
+    "NO",
+    "NZ",
+    "SG",
+    "US",
+    "ZA"
   ],
   "counts": {
-    "networks": 18,
-    "stations": 24,
-    "locations": 89,
-    "streams": 26,
-    "verifiedStreams": 1
+    "networks": 41,
+    "stations": 35,
+    "locations": 111,
+    "streams": 37,
+    "verifiedStreams": 1,
+    "discoveryStations": 50,
+    "discoverableStations": 85,
+    "stationsWithStreamCandidates": 35,
+    "productionEligibleStations": 0
   },
   "files": {
     "networks": "networks.json",
@@ -26,8 +42,9 @@
     "languages": "languages.json",
     "categories": "categories.json",
     "sources": "sources.json",
-    "stationMigrations": "station-migrations.json"
+    "stationMigrations": "station-migrations.json",
+    "discoveryStations": "discovery-stations.json"
   },
   "localizationRoot": "i18n/",
-  "disclaimer": "Internet stream candidates only. Reachability is not playback verification or permission. No current candidate is approved for RadioBee direct listening."
+  "disclaimer": "Separate playback candidates and metadata-only discovery listings. Availability, technical verification and listening/recording permissions remain distinct; no new playback approval is implied."
 }

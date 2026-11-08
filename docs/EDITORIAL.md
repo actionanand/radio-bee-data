@@ -20,3 +20,10 @@ Helpful discovery reference: https://docs.radio-browser.info/ . The API requests
 ## Current Internet-only publication (1.4.0)
 
 Publish only stations with a genuine direct HTTPS Internet candidate. Preserve empty-stream or unusable records in the non-published research backlog, retaining all fields and stable IDs for restoration. Routine network failures remain non-mutating diagnostics; removals require editorial review. Stage 8 excludes the already-known AIR Thoothukudi 404 after retest; this is not an automated deletion rule. Keep regional services separate when official player mappings identify distinct services; never infer equivalence from a network name. See [Stage 8 decisions](INTERNET-RADIO-CATALOGUE.md).
+
+
+## Metadata-only discovery extension (1.5.0)
+
+The separate discovery publication permits cited metadata for documented stations without direct audio. It never permits research URLs, stream arrays or an implied listening grant. Keep unsupported identities in research. The existing non-empty-stream rule continues to govern stations.json. Metadata availability, technical verification, source identity, direct listening, recording and redistribution remain separate decisions. See [the publication contract and expansion review](DISCOVERY-PUBLICATION.md).
+
+Worldwide follow-up (1.6.0): the user authorized in-app trial listening for sources with short real browser decoding even while editorial verification and use review remain incomplete. Keep those streams unverified, retain unconfirmed rights and needs-review use status, document source identity and test limitations, and honor express restrictions. Trial access is separate from production approval and recording/redistribution grants. Metadata-only rows still forbid streams. See [worldwide evidence](WORLDWIDE-TAMIL.md).

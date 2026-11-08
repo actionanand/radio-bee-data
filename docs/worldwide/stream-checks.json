@@ -1,0 +1,1005 @@
+{
+  "reviewedOn": "2026-11-08",
+  "limits": {
+    "endpointDeadlineMs": 35000,
+    "mediaBytes": 131072,
+    "maxRedirects": 5,
+    "concurrency": 1
+  },
+  "note": "Manual diagnostics only; audio bytes discarded. Unverified playable candidates are retained per user request. No permission grants, automatic editorial approval or CI network requirement.",
+  "results": [
+    {
+      "stationId": "ibc-tamil-uk",
+      "url": "https://gra19-eu-icy.clrd.net/32dced12",
+      "source": "https://radio.ibctamil.com/",
+      "requestUrl": "https://icy.cloudrad.io/32dced12",
+      "checkedAt": "2026-11-08T05:28:36.222Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://gra19-eu-icy.clrd.net/32dced12",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://icy.cloudrad.io/32dced12",
+            "to": "https://gra19-eu-icy.clrd.net/32dced12"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://icy.cloudrad.io/32dced12",
+          "to": "https://gra19-eu-icy.clrd.net/32dced12"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "IBCTamil",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1989,
+      "firstByteLatencyMs": 1991,
+      "continuitySeconds": 4.034,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "stationId": "ibc-tamil-uk",
+      "url": "https://gra19-eu-hls.clrd.net/32dced12/stream.m3u8",
+      "source": "https://radio.ibctamil.com/",
+      "requestUrl": "https://hls.cloudrad.io/32dced12/stream.m3u8",
+      "checkedAt": "2026-11-08T05:28:44.320Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://hls.cloudrad.io/32dced12/stream.m3u8",
+          "to": "https://gra19-eu-hls.clrd.net/32dced12/stream.m3u8"
+        }
+      ],
+      "httpStatus": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 1927,
+      "firstByteLatencyMs": 1927,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "segments-retrieved",
+      "sampledBytes": 4393,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115715_3001556.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115716_3001557.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115717_3001558.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115718_3001559.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.96_1794115719_3001560.aac",
+            "declaredDurationSeconds": 0.96
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115720_3001561.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115721_3001562.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115722_3001563.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115723_3001564.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115724_3001565.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115725_3001566.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115726_3001567.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115727_3001568.aac",
+            "declaredDurationSeconds": 1
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115728_3001569.aac",
+            "declaredDurationSeconds": 0.98
+          },
+          {
+            "url": "https://gra19-eu-hls.clrd.net/32dced12/min_1.0_1794115729_3001570.aac",
+            "declaredDurationSeconds": 1
+          }
+        ],
+        "targetDurationSeconds": 1,
+        "encrypted": false,
+        "initializationRequired": false
+      },
+      "variant": {
+        "url": "https://gra19-eu-hls.clrd.net/32dced12/min.m3u8",
+        "declaredBandwidthBps": 17600,
+        "codecs": "mp4a.40.2"
+      },
+      "segment": {
+        "url": "https://gra19-eu-hls.clrd.net/32dced12/min_0.98_1794115715_3001556.aac",
+        "bytes": 3202,
+        "httpStatus": 206
+      },
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#ibc-tamil-uk"
+    },
+    {
+      "stationId": "oli-968-sg",
+      "url": "https://28453.live.streamtheworld.com/OLI968FMAAC.aac",
+      "source": "https://data.melisten.sg/radio/oli-968",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+      "checkedAt": "2026-11-08T05:28:50.420Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "reason": "aborted"
+        },
+        {
+          "attempt": 2,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://28393.live.streamtheworld.com/OLI968FMAAC.aac",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+            "to": "https://28393.live.streamtheworld.com/OLI968FMAAC.aac"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+          "to": "https://28453.live.streamtheworld.com/OLI968FMAAC.aac"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "OLI968FM",
+      "reportedBitrateKbps": 48,
+      "ttfbMs": 1757,
+      "firstByteLatencyMs": 1758,
+      "continuitySeconds": 0,
+      "format": "aac",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#oli-968-sg"
+    },
+    {
+      "stationId": "oli-968-sg",
+      "url": "https://28443.live.streamtheworld.com/OLI968FM_PREM.aac",
+      "source": "https://data.melisten.sg/radio/oli-968",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FM_PREM.aac",
+      "checkedAt": "2026-11-08T05:29:04.438Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://28333.live.streamtheworld.com/OLI968FM_PREM.aac",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FM_PREM.aac",
+            "to": "https://28333.live.streamtheworld.com/OLI968FM_PREM.aac"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FM_PREM.aac",
+          "to": "https://28443.live.streamtheworld.com/OLI968FM_PREM.aac"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "OLI968FM",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 2523,
+      "firstByteLatencyMs": 2523,
+      "continuitySeconds": 6.491,
+      "format": "aac",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      }
+    },
+    {
+      "stationId": "tamil-894-ae",
+      "url": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+      "source": "https://tamil894fm.com/",
+      "requestUrl": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+      "checkedAt": "2026-11-08T05:29:14.601Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "My Station name",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1031,
+      "firstByteLatencyMs": 1049,
+      "continuitySeconds": 0.657,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#tamil-894-ae"
+    },
+    {
+      "stationId": "minnal-my",
+      "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8",
+      "source": "https://radio.rtm.gov.my/station/minnalfm",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+      "checkedAt": "2026-11-08T05:29:17.237Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://22253.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+            "to": "https://22253.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC.m3u8",
+          "to": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/playlist.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 1597,
+      "firstByteLatencyMs": 1597,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "segments-retrieved",
+      "sampledBytes": 82965,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/242e2437-d685-4386-809e-1cc36b229658/0/1.aac",
+            "declaredDurationSeconds": 9.98458
+          },
+          {
+            "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/242e2437-d685-4386-809e-1cc36b229658/0/2.aac",
+            "declaredDurationSeconds": 9.98458
+          },
+          {
+            "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/242e2437-d685-4386-809e-1cc36b229658/0/3.aac",
+            "declaredDurationSeconds": 9.98458
+          }
+        ],
+        "targetDurationSeconds": 10,
+        "encrypted": false,
+        "initializationRequired": false
+      },
+      "variant": {
+        "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/242e2437-d685-4386-809e-1cc36b229658/0/playlist.m3u8",
+        "declaredBandwidthBps": 64000,
+        "codecs": "mp4a.40.5"
+      },
+      "segment": {
+        "url": "https://22243.live.streamtheworld.com/MINNAL_FMAAC/HLS/242e2437-d685-4386-809e-1cc36b229658/0/1.aac",
+        "bytes": 82582,
+        "httpStatus": 200
+      },
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#minnal-my"
+    },
+    {
+      "stationId": "ctr-ca",
+      "url": "https://stream.ctr24.com/live",
+      "source": "https://ctr24.com/",
+      "requestUrl": "https://stream.ctr24.com/live",
+      "checkedAt": "2026-11-08T05:29:21.046Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "attempt": 2,
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 404",
+        "status": 404,
+        "contentType": null,
+        "finalUrl": "https://stream.ctr24.com/live",
+        "redirects": []
+      },
+      "httpStatus": 404,
+      "redirects": [],
+      "tls": "validated",
+      "status": "down",
+      "failureReason": "HTTP 404",
+      "partial": true
+    },
+    {
+      "stationId": "etr-de",
+      "url": "https://live.etr.audio/listen/stream/s1",
+      "source": "https://etr.fm/",
+      "requestUrl": "https://live.etr.audio/listen/stream/s1",
+      "checkedAt": "2026-11-08T05:29:23.953Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://live.etr.audio/listen/stream/s1",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": null,
+      "icyName": "European Tamil Radio",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 808,
+      "firstByteLatencyMs": 808,
+      "continuitySeconds": 2.693,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#etr-de"
+    },
+    {
+      "stationId": "tamil-murasam-no",
+      "url": "https://tamilmurasam.radioca.st/stream",
+      "source": "https://tamilmurasam.com/",
+      "requestUrl": "https://tamilmurasam.radioca.st/stream",
+      "checkedAt": "2026-11-08T05:29:28.731Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 400",
+        "status": 400,
+        "contentType": "text/html; charset=utf-8",
+        "finalUrl": "https://tamilmurasam.radioca.st/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Tamilmurasam",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 1266,
+      "firstByteLatencyMs": 1267,
+      "continuitySeconds": 4.144,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#tamil-murasam-no"
+    },
+    {
+      "stationId": "thaalam-ch",
+      "url": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+      "source": "https://thaalam.ch/",
+      "requestUrl": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+      "checkedAt": "2026-11-08T05:29:35.708Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://thaalamradio.out.airtime.pro/thaalamradio_b",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 1461,
+      "firstByteLatencyMs": 1461,
+      "continuitySeconds": 8.372,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#thaalam-ch"
+    },
+    {
+      "stationId": "akkini-ch",
+      "url": "https://akkinifm-unicast2u.radioca.st/stream",
+      "source": "https://akkini.fm/",
+      "requestUrl": "https://akkinifm-unicast2u.radioca.st/stream",
+      "checkedAt": "2026-11-08T05:29:47.860Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://akkinifm-unicast2u.radioca.st/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Akkini FM",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1014,
+      "firstByteLatencyMs": 1014,
+      "continuitySeconds": 0.391,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#akkini-ch"
+    },
+    {
+      "stationId": "air-nagercoil",
+      "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+      "source": "https://akashvani.gov.in/radio/live.php",
+      "requestUrl": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "checkedAt": "2026-11-08T05:29:50.211Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/vnd.apple.mpegurl",
+        "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+            "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "application/vnd.apple.mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 404,
+      "firstByteLatencyMs": 405,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "segments-retrieved",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115740703.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115749040.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115757376.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115765708.ts",
+            "declaredDurationSeconds": 8.334
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115774041.ts",
+            "declaredDurationSeconds": 8.333
+          },
+          {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115782374.ts",
+            "declaredDurationSeconds": 8.333
+          }
+        ],
+        "targetDurationSeconds": 8,
+        "encrypted": false,
+        "initializationRequired": false
+      },
+      "segment": {
+        "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794115740703.ts",
+        "bytes": 130702,
+        "httpStatus": 206
+      },
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#air-nagercoil"
+    },
+    {
+      "stationId": "iskcon-nagercoil",
+      "url": "https://iskconnagercoil.com/webdio",
+      "source": "https://www.iskconnagercoil.com/radio",
+      "requestUrl": "https://iskconnagercoil.com/webdio",
+      "checkedAt": "2026-11-08T05:29:51.376Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 400",
+        "status": 400,
+        "contentType": "text/html; charset=utf-8",
+        "finalUrl": "https://iskconnagercoil.com/webdio",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "ISKCON Nagercoil Radio",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1057,
+      "firstByteLatencyMs": 1161,
+      "continuitySeconds": 0.897,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#iskcon-nagercoil"
+    },
+    {
+      "stationId": "american-tamil-radio-us",
+      "url": "https://cp11.serverse.com/proxy/hgsmgluv/stream",
+      "source": "https://www.americantamilradio.com/mainradio.php",
+      "requestUrl": "https://cp11.serverse.com/proxy/hgsmgluv/stream",
+      "checkedAt": "2026-11-08T05:42:12.506Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "American Tamil Radio",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 842,
+      "firstByteLatencyMs": 844,
+      "continuitySeconds": 0.58,
+      "format": "mp3",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#american-tamil-radio-us"
+    },
+    {
+      "stationId": "beats-radio-us",
+      "url": "https://n08.radiojar.com/8yx6spzrv4zuv?rj-ttl=5&rj-tok=AAABobm2-0cASqorlhAXwDMsHg",
+      "source": "https://www.beats-radio.com/player?stream=tamil",
+      "requestUrl": "https://www.beats-radio.com/stream/beats-radio-tamil",
+      "checkedAt": "2026-11-08T05:42:14.789Z",
+      "browserPlayback": "decoded-short-session",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": null,
+      "bitrateMethod": "unknown",
+      "sampleRateHz": null,
+      "channels": null,
+      "codec": null,
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Decoder: not-tested ENOENT",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://www.beats-radio.com/stream/beats-radio-tamil",
+          "to": "https://stream.radiojar.com/8yx6spzrv4zuv"
+        },
+        {
+          "status": 302,
+          "from": "https://stream.radiojar.com/8yx6spzrv4zuv",
+          "to": "https://n08.radiojar.com/8yx6spzrv4zuv?rj-ttl=5&rj-tok=AAABobm2-0cASqorlhAXwDMsHg"
+        }
+      ],
+      "httpStatus": 200,
+      "contentType": "audio/aac",
+      "cors": null,
+      "icyName": "8yx6spzrv4zuv",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 2794,
+      "firstByteLatencyMs": 2794,
+      "continuitySeconds": 7.261,
+      "format": "aac",
+      "status": "http-reachable",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "not-tested",
+      "decoding": {
+        "outcome": "not-tested",
+        "reason": "ENOENT",
+        "pcmBytes": 0
+      },
+      "browserEvidence": "browser-checks.json#beats-radio-us"
+    }
+  ]
+}

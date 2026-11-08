@@ -15,10 +15,10 @@
   },
   {
     "id": "suryan-nagercoil-2026",
-    "title": "AirMedia — Suryan FM 91.9 Nagercoil launch (18 August 2026)",
-    "url": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening-fm-radio-network-with-the-launch-of-suryan-fm-91-9-mhz-in-nagercoil-tamil-nadu",
+    "title": "AirMedia — Nagercoil FM launch report (18 August 2026)",
+    "url": "https://www.airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening",
     "kind": "trade-press",
-    "notes": "Reports local FM launch; does not establish internet stream URL."
+    "notes": "Launch identity evidence only. Accessible article says Suryan 93.5 MHz while historical URL/directory references say 91.9; descriptive frequency cleared pending confirmation. Also reports Hello FM test transmissions. No Internet endpoint or use permission established."
   },
   {
     "id": "shakthi-site",
@@ -236,5 +236,299 @@
     "kind": "official",
     "url": "https://shakthifm.com/scripts.js",
     "notes": "Official website player script publishes STREAM_URL https://mbc.thestreamtech.com:8086/index.html. Bounded GET returned AAC signature, audio/aacp, ICY Shakthi FM and CORS *. No playback decoding or third-party-use permission established. See docs/INTERNET-RADIO-CATALOGUE.md."
+  },
+  {
+    "id": "discovery-regional-2026",
+    "title": "Regional service metadata review, 8 November 2026",
+    "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+    "kind": "official",
+    "notes": "Terrestrial service/country/frequency provenance only; not Internet stream or use permission. Suryan current official About page supplies ten-city branding; Nagercoil launch separately sourced. March snapshot cannot refute August launch."
+  },
+  {
+    "id": "isai-murasu-rotary-2024",
+    "title": "Rotary News June 2024: Isai Murasu founder and Nagercoil identity",
+    "url": "https://rotarynewsonline.org/rotary-honours-three-social-trailblazers/",
+    "kind": "independent",
+    "notes": "June 2024 report names Mohammed Askar as founder of Isai Murasu in Nagercoil and describes interviews/information. Does not establish exclusive religious programming, current direct audio or permissions."
+  },
+  {
+    "id": "discovery-nagercoil-directory",
+    "title": "Nagercoil station identities and Tamil-language directory evidence",
+    "url": "https://streema.com/radios/Nagercoil",
+    "kind": "directory",
+    "notes": "Cross-check for Tamilosai, Isai Murasu and Christian Samy; not playback approval. Individual Isai page shows bot challenge; no bypass. Conflicting Isai religious labels are not treated as verified exclusive programming."
+  },
+  {
+    "id": "tamilosai-directory",
+    "title": "Tamilosai FM provider directory profile",
+    "url": "https://mytuner-radio.com/radio/tamilosai-fm-474068/",
+    "kind": "directory",
+    "notes": "Identifies Tamil online programme and historically links tamilosaifm.com, corroborated by Nagercoil directory. Domain currently ENOTFOUND; current official site/stream and use conditions unconfirmed. No unrelated similarly named service substituted."
+  },
+  {
+    "id": "christian-samy-provider",
+    "title": "Christian Samy FM broadcaster-hosted provider page",
+    "url": "https://zeno.fm/radio/christian-samy-fm/",
+    "kind": "provider",
+    "notes": "Provider page returns 200. ASR Digital Radio official website explicitly names ASR DIGITAL CHRISTIAN SAMY FM as a separate devotional channel; assign ASR network, retain distinct channel. No direct endpoint, recording or RadioBee use grant established. Current rendered provider tags confirm Tamil and Religious; startup returned media error 4 on 8 November. Query-bearing playback URL withheld."
+  },
+  {
+    "id": "asr-channel-family",
+    "title": "ASR official channel family and origin",
+    "url": "https://radio.asrdmm.com/",
+    "kind": "official",
+    "notes": "Official site lists ASR Digital Radio and separate Hindu/Christian/Muslim/Samy channels at Thingalnagar, Neyyoor post, Kanyakumari. Christian Samy is represented as an ASR-associated programme, not another ASR general music alias. HTTPS cast candidate returned 404; HTTP mounts are not promoted."
+  },
+  {
+    "id": "annai-discovery-profile",
+    "title": "Annai FM self-described Parakunnu origin",
+    "url": "https://zeno.fm/radio/annai-fm/",
+    "kind": "provider",
+    "notes": "Broadcaster profile explicitly states Tamil/Malayalam Internet radio from Parakunnu near Kuzhithurai, Kanyakumari. Earlier browser startup failed; no canonical direct stream or use allowance confirmed."
+  },
+  {
+    "id": "iskcon-discovery-player",
+    "title": "ISKCON Nagercoil / Vaani Seva official radio service",
+    "url": "https://www.iskconnagercoil.com/radio",
+    "kind": "official",
+    "notes": "Official player associates Vaani Seva with ISKCON Nagercoil; footer places institution in Puliyurkurichi, Kanyakumari. Short browser playback and MP3 transport seen in Stage 9; current bounded recheck recorded separately. Languages/current production origin and third-party listening, recording, redistribution permission remain unconfirmed. No audio URL in discovery metadata."
+  },
+  {
+    "id": "suryan-discovery-cities",
+    "title": "Suryan official city footprint",
+    "url": "https://www.suryanfm.in/about-us/",
+    "kind": "official",
+    "notes": "Current official site names Chennai, Coimbatore, Madurai, Trichy, Tirunelveli, Tuticorin, Pondicherry, Salem, Erode and Vellore. Terrestrial brand evidence only, not city Internet feeds. Older regulator RED labels do not justify extra duplicate brand cards."
+  },
+  {
+    "id": "hello-nagercoil-expansion-2025",
+    "title": "DT NEXT — Hello FM announced licensed expansion including Nagercoil (7 October 2025)",
+    "url": "https://www.dtnext.in/news/chennai/hello-fm-celebrates-20-years-expands-reach-to-21-cities-848767",
+    "kind": "press-report",
+    "notes": "Reports Hello FM expansion announcement explicitly naming Nagercoil. Evidence of intended licensed market identity; not confirmation of current regular transmissions, frequency, Internet stream or usage authorization."
+  },
+  {
+    "id": "world-ibc-tamil-uk-2026",
+    "title": "IBC Tamil Radio official identity and listening source (8 November 2026)",
+    "url": "https://radio.ibctamil.com/about",
+    "kind": "official",
+    "notes": "London-headquartered Tamil service. Broadcaster describes DAB and online distribution; this record describes the online programme, not an FM frequency. Do not duplicate for overseas audiences. Public stream/embed tools coexist with restrictive website terms; third-party use review remains unresolved. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-athavan-uk-2026",
+    "title": "Athavan Radio UK official identity and listening source (8 November 2026)",
+    "url": "https://athavanradio.com/uk/",
+    "kind": "official",
+    "notes": "Official UK-specific Tamil digital service and London Bridge programme. Separate UK page is evidence of programme identity; no Sri Lankan or Canadian feed copied into it. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-cmr-tamil-ca-2026",
+    "title": "CMR Tamil HD2 official identity and listening source (8 November 2026)",
+    "url": "https://cmr24.net/about-us/",
+    "kind": "official",
+    "notes": "Toronto-area CJSA Tamil HD2 service, not the multilingual analogue 101.3 FM main channel. Official history identifies a dedicated Tamil HD2 programme. Model online delivery with null frequency; do not copy the generic main-channel stream or a bundled demo MP3. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-east-fm-ca-2026",
+    "title": "EAST FM 102.7 official identity and listening source (8 November 2026)",
+    "url": "https://eastfm.ca/main/schedule.php",
+    "kind": "official",
+    "notes": "Toronto multilingual station with substantial scheduled Tamil programming. Language tag identifies Tamil inclusion, not Tamil-only output; official schedule also lists Punjabi, Urdu/Hindi, Farsi, Telugu, Arabic and other languages. One station card; do not split its schedule into multiple broadcasts. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-ctbc-ca-2026",
+    "title": "Canadian Tamil Broadcasting Corporation official identity and listening source (8 November 2026)",
+    "url": "https://www.ctbc.com/",
+    "kind": "official",
+    "notes": "Official HTTPS page identifies CTBC Tamil radio; Toronto association corroborated by Canadian community directories. Current site is a small JavaScript shell, so current stream and legal operator identity need further review. Not Canadian Tamil Radio CTR24. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-ctr-ca-2026",
+    "title": "Canadian Tamil Radio (CTR24) official identity and listening source (8 November 2026)",
+    "url": "https://ctr24.com/",
+    "kind": "official",
+    "notes": "Official site identifies Toronto Tamil radio with Tamil programme schedule and live player. Contact phone is a placeholder, so do not treat every footer field as verified. Distinct from CTBC and CMR; exact legal operator/current feed identity still needs review. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-beats-radio-us-2026",
+    "title": "Beats Radio Tamil official identity and listening source (8 November 2026)",
+    "url": "https://www.beats-radio.com/",
+    "kind": "official",
+    "notes": "US Tamil entertainment Internet station for Tamil Americans. No terrestrial FM frequency or precise US city established. Current broadcaster-linked /player?stream=tamil publishes a secure extensionless live URL; AAC signature and real browser decoding confirmed. Earlier homepage HTTP lead is superseded by this explicit HTTPS player evidence, not a guessed scheme upgrade. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-american-tamil-radio-us-2026",
+    "title": "American Tamil Radio official identity and listening source (8 November 2026)",
+    "url": "https://www.tamilmedia.org/",
+    "kind": "official",
+    "notes": "Operator American Tamil Media identifies California registration and explicitly links its radio product. Region denotes organizational base, not an exclusive FM reception area or a verified studio address. Online service; no frequency asserted. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-atbc-au-2026",
+    "title": "Australian Tamil Broadcasting Corporation official identity and listening source (8 November 2026)",
+    "url": "https://www.atbc.net.au/",
+    "kind": "official",
+    "notes": "Official site identifies Tamil community service, Sydney studios and Sydney/Melbourne towers. One online programme, not separate invented city streams. Official linked HTTP Viastreaming player failed in the browser; secure canonical feed remains unresolved. No FM frequency inferred from tower ownership. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-oli-968-sg-2026",
+    "title": "OLI 968 official identity and listening source (8 November 2026)",
+    "url": "https://data.melisten.sg/radio/oli-968",
+    "kind": "official",
+    "notes": "Mediacorp official station record identifies Tamil programming and publishes standard/premium AAC redirectors. Serves the Indian community with Tamil and non-Tamil time belts; not a claim of uninterrupted Tamil speech. Third-party listening and recording conditions unconfirmed. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-tamil-894-ae-2026",
+    "title": "89.4 Tamil FM official identity and listening source (8 November 2026)",
+    "url": "https://tamil894fm.com/about-us/",
+    "kind": "official",
+    "notes": "Dubai-branded Tamil entertainment station. Official player publishes an Aarenworld stream. Frequency is broadcaster branding; exact transmitter municipality, coverage and legal licensee are not independently established. Third-party listening/recording conditions remain unconfirmed. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-minnal-my-2026",
+    "title": "MINNALfm official identity and listening source (8 November 2026)",
+    "url": "https://radio.rtm.gov.my/station/minnalfm",
+    "kind": "official",
+    "notes": "Official RTM profile explicitly identifies Tamil music, information and culture. National service with regional frequencies; no single 92.3 frequency assigned nationwide. RTM publishes a StreamTheWorld HLS link. Do not infer RadioBee permission from public availability. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-raaga-my-2026",
+    "title": "RAAGA Malaysia official identity and listening source (8 November 2026)",
+    "url": "https://media2.fishtank.my/media/astroradio/assets/brand-profile/2025/2026/raaga-brand-profile-2026.pdf",
+    "kind": "official",
+    "notes": "Official Astro Radio 2026 brand profile identifies Malaysian Tamil service with multiple regional FM frequencies. Use one programme card and null frequency; do not present Klang Valley frequency as nationwide. Official station links SYOK live player. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-thaalam-ch-2026",
+    "title": "Thaalam Radio Switzerland official identity and listening source (8 November 2026)",
+    "url": "https://www.thaalam.ch/about-us",
+    "kind": "official",
+    "notes": "Broadcaster describes Swiss Tamil DAB/online service and Zurich contact address. This entry models online delivery, not analogue FM. Do not repeat broadcaster exclusivity/coverage claims as independent regulator findings; no terrestrial frequency asserted. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-akkini-ch-2026",
+    "title": "Akkini FM official identity and listening source (8 November 2026)",
+    "url": "https://akkini.fm/",
+    "kind": "official",
+    "notes": "Official site describes Tamil Internet radio from Zurich and publishes a Radioca.st feed. FM is a brand name; no analogue FM transmitter or frequency claimed. Operator and cross-border listening/recording conditions need review. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-swiss-tamil-radio-ch-2026",
+    "title": "Swiss Tamil Radio official identity and listening source (8 November 2026)",
+    "url": "https://swisstamilradio.com/",
+    "kind": "official",
+    "notes": "Official site identifies online Tamil radio from Switzerland with live control and programme schedule. Precise studio locality and ownership relationship to other Swiss stations are not established; no alias equivalence or stream sharing is assumed. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-etr-de-2026",
+    "title": "European Tamil Radio official identity and listening source (8 November 2026)",
+    "url": "https://etr.fm/imprint",
+    "kind": "official",
+    "notes": "Official imprint identifies European Tamils Union e.V. and Hamm address; live page provides a distinct live.etr.audio mount. Programme recordings are separate archive material and are not candidate live streams. No FM frequency asserted. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-tamil-murasam-no-2026",
+    "title": "Tamil Murasam Norway official identity and listening source (8 November 2026)",
+    "url": "https://tamilmurasam.com/",
+    "kind": "official",
+    "notes": "Official site supplies Oslo studio address, Tamil programme schedule and local DAB description. Model online programme with null frequency. Distinct from Isai Murasu Nagercoil, historical Trondheim Tamil Murasu and Singapore Tamil Murasu newspaper. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-tarana-tamil-nz-2026",
+    "title": "Tarana Tamil official identity and listening source (8 November 2026)",
+    "url": "https://www.rova.nz/radio/tarana-tamil",
+    "kind": "provider",
+    "notes": "Authorized rova station profile identifies a dedicated New Zealand Tamil service and community programming. No independent Tamil FM transmitter/frequency established; do not substitute the separate Radio Tarana Hindi AM feed. Account/session flow was not bypassed. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "world-lotus-fm-za-2026",
+    "title": "Lotus FM official identity and listening source (8 November 2026)",
+    "url": "https://www.lotusfm.co.za/lotusfm/shows/in-isai-mazhai/",
+    "kind": "official",
+    "notes": "Multilingual SABC service with a specifically documented Tamil-language In Isai Mazhai programme; not a 24-hour Tamil station. Official page template exposes a MOTSWEDING stream: identity mismatch, excluded rather than relabelled Lotus. Exact frequencies and full language inventory not asserted here. Metadata review does not establish technical verification or a RadioBee use/recording grant."
+  },
+  {
+    "id": "iskcon-trial-2026",
+    "title": "ISKCON Nagercoil official player and 8 November trial playback",
+    "url": "https://www.iskconnagercoil.com/radio",
+    "kind": "official",
+    "notes": "Official /radio player publishes /webdio. Current native MP3 transport and browser audio decoding passed; language/speech identity and use conditions remain unresolved. User requested trial access without verification or permission promotion. No audio recorded."
+  },
+  {
+    "id": "ibc-world-use-policy",
+    "title": "IBC Tamil published user policy and conflicting embed tools",
+    "url": "https://radio.ibctamil.com/user-policy",
+    "kind": "official",
+    "notes": "Policy limits personal use and prohibits unapproved copying, archiving, redistribution and third-party framing. Official radio homepage separately supplies stream and embed tools. This tension is not a RadioBee permission grant; direct listening needs review. Recording and redistribution are marked prohibited."
+  },
+  {
+    "id": "world-ibc-tamil-uk-player",
+    "title": "IBC Tamil Radio broadcaster-published player configuration",
+    "url": "https://radio.ibctamil.com/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-beats-radio-us-player",
+    "title": "Beats Radio Tamil broadcaster-published player configuration",
+    "url": "https://www.beats-radio.com/player?stream=tamil",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-american-tamil-radio-us-player",
+    "title": "American Tamil Radio broadcaster-published player configuration",
+    "url": "https://www.americantamilradio.com/mainradio.php",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-oli-968-sg-player",
+    "title": "OLI 968 broadcaster-published player configuration",
+    "url": "https://data.melisten.sg/radio/oli-968",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-tamil-894-ae-player",
+    "title": "89.4 Tamil FM broadcaster-published player configuration",
+    "url": "https://tamil894fm.com/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-minnal-my-player",
+    "title": "MINNALfm broadcaster-published player configuration",
+    "url": "https://radio.rtm.gov.my/station/minnalfm",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-thaalam-ch-player",
+    "title": "Thaalam Radio Switzerland broadcaster-published player configuration",
+    "url": "https://thaalam.ch/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-akkini-ch-player",
+    "title": "Akkini FM broadcaster-published player configuration",
+    "url": "https://akkini.fm/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-etr-de-player",
+    "title": "European Tamil Radio broadcaster-published player configuration",
+    "url": "https://etr.fm/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "world-tamil-murasam-no-player",
+    "title": "Tamil Murasam Norway broadcaster-published player configuration",
+    "url": "https://tamilmurasam.com/",
+    "kind": "official",
+    "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
   }
 ]

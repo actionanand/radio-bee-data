@@ -9,10 +9,14 @@ const read=relative=>JSON.parse(readFileSync(new URL(relative,import.meta.url)))
 const backlog=read('../docs/research/station-backlog.json');
 test('Internet catalogue and backlog partition every historical station ID',()=>{
  const d=readCatalogue(), historical=read('../docs/stage6/stations.json').stations.map(s=>s.stationId);
- const all=[...d.stations.map(s=>s.id),...backlog.stations.map(r=>r.station.id)];
+ const retained=d.stations.filter(s=>historical.includes(s.id)).map(s=>s.id);
+ const all=[...retained,...backlog.stations.map(r=>r.station.id).filter(id=>!retained.includes(id))];
  assert.equal(new Set(all).size,all.length);assert.deepEqual(all.sort(),historical.sort());
+ assert.deepEqual(backlog.stations.map(r=>r.station.id).filter(id=>retained.includes(id)),[]);
+ const worldwide=read('../docs/worldwide/stations.json');
+ for(const s of d.stations.filter(s=>!historical.includes(s.id)))assert.ok(worldwide.some(row=>row.id===s.id&&row.publication==='unverified-trial')||(s.id==='iskcon-nagercoil'&&s.sourceIds.includes('iskcon-trial-2026')),s.id);
  assert.ok(d.stations.every(s=>s.streams.length));
- assert.deepEqual(d.stationMigrations.removed.map(m=>m.oldId).sort(),backlog.stations.map(r=>r.station.id).sort());
+ assert.deepEqual(d.stationMigrations.removed.map(m=>m.oldId).sort(),backlog.stations.map(r=>r.station.id).filter(id=>!retained.includes(id)).sort());
  assert.ok(d.stationMigrations.removed.every(m=>m.canonicalId===null));
 });
 test('publication rejects empty streams and same URL on different programme cards',()=>{
