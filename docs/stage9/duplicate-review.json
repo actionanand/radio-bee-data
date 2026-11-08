@@ -1,0 +1,100 @@
+{
+  "reviewedOn": "2026-11-08",
+  "catalogueCardsRemoved": 0,
+  "duplicateDirectoryRowsNotImported": 5,
+  "exactUrlClusters": [
+    {
+      "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8",
+      "records": [
+        {
+          "name": "clubmirchi",
+          "uuid": "58ea504f-f8df-4fd2-8220-cecd462da4ec"
+        },
+        {
+          "name": "clubmirchi",
+          "uuid": "edff40cc-f2f7-47cb-8560-9ab62a9560e9"
+        }
+      ]
+    },
+    {
+      "url": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio",
+      "records": [
+        {
+          "name": "meethimirchi",
+          "uuid": "dd8230be-bc25-4fea-8a73-002ef31f6366"
+        },
+        {
+          "name": "Mirchi Top 20",
+          "uuid": "6b36ba4f-6d29-4272-b3c0-9aeeb64e61ec"
+        },
+        {
+          "name": "Mirchi Top 20",
+          "uuid": "099c32b6-55cb-4c9b-aae1-c0a4d287caa3"
+        },
+        {
+          "name": "mirchitop20",
+          "uuid": "0e2c2465-333c-4c40-b90e-286993b2aae4"
+        }
+      ]
+    },
+    {
+      "url": "http://radios.crabdance.com:8002/1",
+      "records": [
+        {
+          "name": "Suryan FM Chennai",
+          "uuid": "96da3ea1-341b-4471-880b-a7fea6ef9c37"
+        },
+        {
+          "name": "Suryan FM Chennai",
+          "uuid": "8ea488a3-5395-4a57-af28-691104d756cf"
+        }
+      ]
+    }
+  ],
+  "identityCases": [
+    {
+      "names": [
+        "AIR Nagercoil",
+        "Kumari FM",
+        "AIR Nagercoil 101.0"
+      ],
+      "decision": "Retain air-nagercoil only; no new card or migration."
+    },
+    {
+      "names": [
+        "ISKCON Nagercoil Radio",
+        "Vaani Seva"
+      ],
+      "decision": "Official page uses both names for the same player; one future station at most, pending use review."
+    },
+    {
+      "names": [
+        "Annai Kuzhithurai",
+        "Annai Parakunnu"
+      ],
+      "decision": "One broadcaster profile, nearby place descriptors; no separate cards."
+    },
+    {
+      "names": [
+        "Suryan Erode/Salem/Vellore",
+        "RED Erode/Salem/Vellore"
+      ],
+      "decision": "Brand-label discrepancy; transmitter/programme equivalence not independently proven; no aliases or migrations."
+    },
+    {
+      "names": [
+        "Mirchi Top 20",
+        "meethimirchi",
+        "mirchitop20"
+      ],
+      "decision": "Same Uber endpoint; do not assign independent Tamil city feeds."
+    },
+    {
+      "names": [
+        "Suryan Chennai",
+        "Hello Chennai"
+      ],
+      "decision": "Directory assigns crabdance port-8002 mount 3 to both names. Conflict unresolved; no programme identity or broadcaster permission."
+    }
+  ]
+}

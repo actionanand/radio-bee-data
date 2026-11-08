@@ -1,0 +1,1465 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-08",
+  "timezone": "Asia/Calcutta",
+  "baseline": {
+    "catalogVersion": "1.4.0",
+    "stations": 24,
+    "streams": 26,
+    "removedIds": 64
+  },
+  "summary": {
+    "broadcastersInvestigated": 14,
+    "serviceInvestigations": 54,
+    "citySpecificServicesReviewed": 51,
+    "researchHttpsEndpointsAssessed": 7,
+    "researchHttpLeadsNotProbed": 9,
+    "queryBearingBrowserLeadsWithheld": 1,
+    "existingEndpointControls": 1,
+    "newHttpsEndpointsReachable": 3,
+    "ffmpegDecoded": 0,
+    "browserDecodedResearchCandidates": 1,
+    "humanAudibilityConfirmed": 0,
+    "researchOfficialPlayerAssociations": 2,
+    "reachableResearchOfficialPlayerAssociations": 1,
+    "newPublicationEligible": 0,
+    "promisingAwaitingPermissionOrIdentity": 3,
+    "researchHttpsChecksFailed": 4,
+    "groups": {
+      "A": 0,
+      "B": 3,
+      "C": 14
+    }
+  },
+  "definitions": {
+    "groups": "Counts refer to 17 non-published research candidate records: A eligible additions, B technically promising pending review, C failed/insecure/insufficient; existing AIR endpoint is a separate control.",
+    "identity": "Official-player association is documentary evidence, not human identification of the emitted programme.",
+    "unavailable": "Observed failed endpoints, not permanent closure of broadcasters.",
+    "decoding": "Browser HTMLAudio playback progress is separate from FFmpeg decoding and human audibility."
+  },
+  "sources": [
+    {
+      "id": "air-player",
+      "url": "https://akashvani.gov.in/radio/live.php",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Existing named Akashvani service mappings retained from Stage 6; Nagercoil manifest/segment rechecked in Stage 9; no endpoint or use approval change."
+    },
+    {
+      "id": "stage8-review",
+      "url": "https://github.com/actionanand/radio-bee-data/blob/master/docs/INTERNET-RADIO-CATALOGUE.md",
+      "kind": "repository-history",
+      "observedOn": "2026-11-08",
+      "observation": "Stage 8 preserved all archived records and documented Thoothukudi 404. Historical evidence retained; this is not a fresh Stage 9 test of every archived feed."
+    },
+    {
+      "id": "suryan-about",
+      "url": "https://www.suryanfm.in/about-us/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Names ten established city services; web stories and podcasts do not establish continuous Internet simulcasts."
+    },
+    {
+      "id": "sun-radio",
+      "url": "https://www.sun.in/radio.aspx",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Confirms Suryan/RED relationship and localized FM content; no direct city audio mapping established."
+    },
+    {
+      "id": "suryan-launch",
+      "url": "https://airmedia.in/news/radio-listeners-of-kanyakumari-district-listen-listen-keep-on-listening-fm-radio-network-with-the-launch-of-suryan-fm-91-9-mhz-in-nagercoil-tamil-nadu",
+      "kind": "trade-report",
+      "observedOn": "2026-11-08",
+      "observation": "Article explicitly dated 18 August 2026 reports Nagercoil 91.9 MHz, eleventh Suryan station. It is not a Prasar Bharati/AIR source."
+    },
+    {
+      "id": "suryan-social",
+      "url": "https://www.linkedin.com/posts/suryanfm_nagercoil-get-ready-to-tune-in-to-your-city-activity-7494581203463860224-eGfq",
+      "kind": "broadcaster-branded-social",
+      "observedOn": "2026-11-08",
+      "observation": "SuryanFM-branded public post announces Nagercoil 91.9; relative displayed dates do not independently establish the exact launch day or verify account control."
+    },
+    {
+      "id": "mib-march",
+      "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+      "kind": "regulator",
+      "observedOn": "2026-11-08",
+      "observation": "Dated terrestrial permission-holder/frequency list. Predates August; cannot disprove newer Nagercoil launch. Erode/Salem/Vellore RED labels need reconciliation with current Suryan branding."
+    },
+    {
+      "id": "qsl-frequencies",
+      "url": "https://qsl.net/vu2jos/fm/loc.htm",
+      "kind": "specialist-directory",
+      "observedOn": "2026-11-08",
+      "observation": "Lists Nagercoil Hello 91.1 and Suryan 91.9, and Karur Suryan 94.7. These are frequency leads, not Internet audio or current regulator/broadcaster confirmation."
+    },
+    {
+      "id": "ting-suryan",
+      "url": "https://tingfm.com/radio/25900",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Publishes the supplied tamil.crabdance.com:8002/2 HTTPS URL; no independent city or authorization proof."
+    },
+    {
+      "id": "hello-site",
+      "url": "https://hellofm.in/",
+      "kind": "official-domain-lead",
+      "observedOn": "2026-11-08",
+      "observation": "HTTPS connection refused in safe transport. Current Nagercoil 91.1 operations not authoritatively re-established here."
+    },
+    {
+      "id": "mirchi-site",
+      "url": "https://mirchi.in/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Redirects to stories; bounded homepage includes a streaming SDK but no proven Tamil city stream. SDK presence is not an endpoint."
+    },
+    {
+      "id": "mirchi-help",
+      "url": "https://mirchi.in/helpcenter",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Describes stories, music playlists and live streams separately; references Indian stations for listeners outside India. No geography or account controls bypassed."
+    },
+    {
+      "id": "city-site",
+      "url": "https://www.radiocity.in/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Retrieved podcast MP3 references are finite programmes, not live FM streams."
+    },
+    {
+      "id": "city-digital-history",
+      "url": "https://www.radiocity.in/images/uploads/pdf/Radio%20City%20Freedom%20turns%203-%20Press%20Release1436852270.pdf",
+      "kind": "official-historical",
+      "observedOn": "2026-11-08",
+      "observation": "Document itself is dated 2 July 2015 and names Radio City Tamil among web-radio services. Recent crawl date is not publication date; no current live endpoint established."
+    },
+    {
+      "id": "big-site",
+      "url": "https://bigfmindia.com/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Homepage provides programme/interview MP3 files, not proof of a Tamil FM continuous stream."
+    },
+    {
+      "id": "red-site",
+      "url": "https://www.redfmindia.in/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Site reachable; no distinct Tamil local stream established. Kerala service must remain Kerala/Malayalam unless independently evidenced otherwise."
+    },
+    {
+      "id": "chennai-live-owner",
+      "url": "https://www.muthootgroup.com/group-of-companies/media",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Owner identifies English talk/music service and digital transition; contradicts generic directory Tamil/community labels."
+    },
+    {
+      "id": "chennai-live-transition",
+      "url": "https://www.youtube.com/watch?v=pN7DDR5OujU",
+      "kind": "broadcaster-published",
+      "observedOn": "2026-11-08",
+      "observation": "Chennai Live video dated 24 November 2020 describes transition to digital; not evidence of a currently operating FM transmitter."
+    },
+    {
+      "id": "annai-profile",
+      "url": "https://zeno.fm/radio/annai-fm/",
+      "kind": "broadcaster-authored-profile",
+      "observedOn": "2026-11-08",
+      "observation": "Identifies Tamil/Malayalam Internet radio from Parakunnu near Kuzhithurai; current page links annai-fm.mdn.live. Player startup ended with media error 4."
+    },
+    {
+      "id": "annai-website",
+      "url": "https://annai-fm.mdn.live/",
+      "kind": "profile-linked-host",
+      "observedOn": "2026-11-08",
+      "observation": "Reachable Annai-branded provider landing page. Canonical reusable direct URL not established in bounded HTML."
+    },
+    {
+      "id": "annai-directory",
+      "url": "https://www.radioindia.in/annai-fm",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Corroborates Parakunnu/Kuzhithurai; public radio-streams-json is encrypted. No decryption or authenticated metadata requests attempted."
+    },
+    {
+      "id": "asr-site",
+      "url": "https://radio.asrdmm.com/",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Current bounded player HTML lists HTTP Zeno mounts; old officially published HTTPS cast endpoint still 404. No guessed scheme upgrades."
+    },
+    {
+      "id": "asr-about",
+      "url": "https://radio.asrdmm.com/p/about-us.html",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Broadcaster about page reached; keep Monday Market/Neyyoor origin review distinct from directory Nagercoil city grouping."
+    },
+    {
+      "id": "asr-directory",
+      "url": "https://www.radioindia.in/asr-digital-radio",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Lists Monday Market, Neyyoor postal area, Kanyakumari; encrypted stream configuration not decrypted."
+    },
+    {
+      "id": "kumari-site",
+      "url": "https://radio.kumaritamil.com/",
+      "kind": "official-domain-lead",
+      "observedOn": "2026-11-08",
+      "observation": "ENOTFOUND again. Service migration not established; do not invent a new domain."
+    },
+    {
+      "id": "kumari-directory",
+      "url": "https://www.radioindia.in/kumari-tamil-media-online-radio-kumri-tmilll-miittiyaa-innaiy-vaannnoli",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Still links old broadcaster domain; encrypted stream configuration not decrypted."
+    },
+    {
+      "id": "iskcon-official",
+      "url": "https://www.iskconnagercoil.com/radio",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Official Vaani Seva player uses https://iskconnagercoil.com/webdio. Two in-app-browser HTML-audio startups advanced to 3.415027s and 2.404790s without media errors. Footer locates institution at Puliyurkurichi, Kanyakumari; exact transmitter terminology is inapplicable."
+    },
+    {
+      "id": "iskcon-services",
+      "url": "https://www.iskconnagercoil.com/services",
+      "kind": "official",
+      "observedOn": "2026-11-08",
+      "observation": "Advertises online radio; broadcaster association independently corroborates directory lead. Content schedule is multi-language/unspecified; Tamil-only claim not inferred from a directory."
+    },
+    {
+      "id": "iskcon-directory",
+      "url": "https://themelo.in/s/8432/iskcon-nagercoil-radio",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Directory labels Tamil and Nagercoil; native request timed out. Language/origin details require official evidence, not directory assertion alone."
+    },
+    {
+      "id": "local-guide",
+      "url": "https://nagercoilonline.com/services/fmradios/fmradios.php",
+      "kind": "local-directory",
+      "observedOn": "2026-11-08",
+      "observation": "Lists Internet players for many networks; availability to local listeners is not origin. Includes insecure crabdance and unknown HTTPS alternative."
+    },
+    {
+      "id": "tamilradios",
+      "url": "https://www.tamilradios.com/",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Popular/live/AIR categories and supplied Hello/Mirchi pages reviewed before discovering explicit automation prohibition. Stopped further automated access; no stream URLs copied from this portal."
+    },
+    {
+      "id": "tamilradios-terms",
+      "url": "https://www.tamilradios.com/terms",
+      "kind": "service-terms",
+      "observedOn": "2026-11-08",
+      "observation": "Prohibits automated bots/scrapers/crawlers without written consent. Also prohibits unpermitted audio recording/redistribution. Further automated inspection stopped."
+    },
+    {
+      "id": "suryan-terms",
+      "url": "https://www.suryanfm.in/terms-of-use/",
+      "kind": "official-terms",
+      "observedOn": "2026-11-08",
+      "observation": "Personal noncommercial access license; ownership/use/deep-linking restrictions. No third-party RadioBee direct-play allowance established; do not treat as blanket permission."
+    },
+    {
+      "id": "zeno-terms",
+      "url": "https://zeno.fm/terms/",
+      "kind": "provider-terms",
+      "observedOn": "2026-11-08",
+      "observation": "Terms page version dated 27 October 2026 reviewed. Provider hosting/public listening does not establish broadcaster rights for RadioBee embedding, recording or redistribution."
+    },
+    {
+      "id": "asr-terms",
+      "url": "https://radio.asrdmm.com/p/terms-conditions.html",
+      "kind": "official-terms",
+      "observedOn": "2026-11-08",
+      "observation": "Page retrieved; no explicit RadioBee third-party playback, recording or redistribution grant established."
+    },
+    {
+      "id": "radio-browser",
+      "url": "https://docs.radio-browser.info/",
+      "kind": "directory-api",
+      "observedOn": "2026-11-08",
+      "observation": "Ten bounded name queries plus four country-filtered queries, at most 12/20 rows each. Limits and inconsistent country labels prevent claims of exhaustive coverage."
+    },
+    {
+      "id": "online-radio-fm",
+      "url": "https://www.onlineradiofm.in/tamil-nadu/chennai",
+      "kind": "directory",
+      "observedOn": "2026-11-08",
+      "observation": "Cross-checks regional listings; Chennai Live source is HTTP and directory wraps it with an unrelated proxy. Proxy not used or republished."
+    },
+    {
+      "id": "luminous-tamil",
+      "url": "https://www.luminousradio.com/radiochannel/luminous-radio-tamil/",
+      "kind": "official-prior-stage",
+      "observedOn": "2026-11-08",
+      "observation": "Existing separately named Tamil Internet service; retains global/unspecified origin. Prior-stage provenance retained, not a new Stage 9 city-origin verification."
+    },
+    {
+      "id": "nanjil-lead",
+      "url": "https://www.reddit.com/r/kanyakumari/comments/1iob7if",
+      "kind": "owner-claim-lead",
+      "observedOn": "2026-11-08",
+      "observation": "Search-indexed launch post claims Tamil/English online channels; posting in Kanyakumari subreddit does not prove origin. Full page unavailable; no direct URL or station added."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "suryan-ting",
+      "stationId": "suryan-chennai",
+      "existingPublished": false,
+      "candidateUrl": "https://tamil.crabdance.com:8002/2",
+      "sourcePage": "https://tingfm.com/radio/25900",
+      "sourceIds": [
+        "ting-suryan",
+        "suryan-terms"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "suryan-ting",
+          "stationId": "suryan-chennai",
+          "url": "https://tamil.crabdance.com:8002/2",
+          "source": "https://tingfm.com/radio/25900",
+          "association": "Directory labels network; Chennai programme not independently proven",
+          "requestUrl": "https://tamil.crabdance.com:8002/2",
+          "checkedAt": "2026-11-08T03:55:48.703Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "The operation was aborted"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "The operation was aborted"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "timeout"
+          },
+          "status": "down",
+          "failureReason": "Request timeout/aborted (transport deadline)",
+          "partial": true
+        },
+        "repeat": {
+          "id": "suryan-ting",
+          "stationId": "suryan-chennai",
+          "url": "https://tamil.crabdance.com:8002/2",
+          "source": "https://tingfm.com/radio/25900",
+          "requestUrl": "https://tamil.crabdance.com:8002/2",
+          "checkedAt": "2026-11-08T03:58:14.403Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "The operation was aborted"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "The operation was aborted"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "timeout"
+          },
+          "status": "down",
+          "failureReason": "Request timeout/aborted (transport deadline)",
+          "partial": true
+        }
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "crabdance-guide",
+      "stationId": "suryan-research-network",
+      "existingPublished": false,
+      "candidateUrl": "https://radios.crabdance.com:8002/1",
+      "sourcePage": "https://nagercoilonline.com/services/fmradios/fmradios.php",
+      "sourceIds": [
+        "local-guide"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "crabdance-guide",
+          "stationId": "suryan-research-network",
+          "url": "https://radios.crabdance.com:8002/1",
+          "source": "https://nagercoilonline.com/services/fmradios/fmradios.php",
+          "association": "Directory alternate; content and programme unconfirmed",
+          "requestUrl": "https://radios.crabdance.com:8002/1",
+          "checkedAt": "2026-11-08T03:56:11.721Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+          },
+          "status": "down",
+          "failureReason": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+          "partial": true
+        },
+        "repeat": null
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "asr-official",
+      "stationId": "asr-kanyakumari",
+      "existingPublished": false,
+      "candidateUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+      "sourcePage": "https://radio.asrdmm.com/",
+      "sourceIds": [
+        "asr-site",
+        "asr-terms"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "asr-official",
+          "stationId": "asr-kanyakumari",
+          "url": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "source": "https://radio.asrdmm.com/",
+          "association": "Previously published official player endpoint; current hosting must be rechecked",
+          "requestUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "checkedAt": "2026-11-08T03:56:13.080Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "HTTP 404"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "HTTP 404"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+          },
+          "httpStatus": 404,
+          "redirects": [],
+          "tls": "validated",
+          "status": "down",
+          "failureReason": "HTTP 404",
+          "partial": true
+        },
+        "repeat": {
+          "id": "asr-official",
+          "stationId": "asr-kanyakumari",
+          "url": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "source": "https://radio.asrdmm.com/",
+          "requestUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+          "checkedAt": "2026-11-08T03:58:11.826Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "HTTP 404"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "HTTP 404"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+          },
+          "httpStatus": 404,
+          "redirects": [],
+          "tls": "validated",
+          "status": "down",
+          "failureReason": "HTTP 404",
+          "partial": true
+        }
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "big-tamil-directory",
+      "stationId": "big-chennai",
+      "existingPublished": false,
+      "candidateUrl": "https://stream.zeno.fm/r2gn1pgm4qruv",
+      "sourcePage": "https://de1.api.radio-browser.info/json/stations/byname/BIG%20FM?limit=12&hidebroken=false",
+      "sourceIds": [
+        "radio-browser",
+        "big-site",
+        "zeno-terms"
+      ],
+      "group": "B",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "big-tamil-directory",
+          "stationId": "big-chennai",
+          "url": "[withheld: query-bearing or authenticated URL]",
+          "source": "https://de1.api.radio-browser.info/json/stations/byname/BIG%20FM?limit=12&hidebroken=false",
+          "association": "Directory Tamil label only; live Chennai FM and owner unproven",
+          "requestUrl": "https://stream.zeno.fm/r2gn1pgm4qruv",
+          "checkedAt": "2026-11-08T03:56:16.863Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "HEAD/fallback failed but GET succeeded; method-dependent result",
+            "Decoder: not-tested ENOENT",
+            "CORS header absent; actual browser compatibility untested",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "timeout"
+          },
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://stream.zeno.fm/r2gn1pgm4qruv",
+              "to": "[withheld: query-bearing or authenticated URL]"
+            }
+          ],
+          "httpStatus": 200,
+          "contentType": "audio/mpeg",
+          "cors": null,
+          "icyName": "big fm tamil",
+          "reportedBitrateKbps": 64,
+          "ttfbMs": 1703,
+          "firstByteLatencyMs": 1703,
+          "continuitySeconds": 6.424,
+          "format": "mp3",
+          "status": "http-reachable",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        },
+        "repeat": {
+          "id": "big-tamil-directory",
+          "stationId": "big-chennai",
+          "url": "[withheld: query-bearing or authenticated URL]",
+          "source": "https://de1.api.radio-browser.info/json/stations/byname/BIG%20FM?limit=12&hidebroken=false",
+          "requestUrl": "https://stream.zeno.fm/r2gn1pgm4qruv",
+          "checkedAt": "2026-11-08T03:58:01.128Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "HEAD/fallback failed but GET succeeded; method-dependent result",
+            "Decoder: not-tested ENOENT",
+            "CORS header absent; actual browser compatibility untested",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "timeout"
+          },
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://stream.zeno.fm/r2gn1pgm4qruv",
+              "to": "[withheld: query-bearing or authenticated URL]"
+            }
+          ],
+          "httpStatus": 200,
+          "contentType": "audio/mpeg",
+          "cors": null,
+          "icyName": "big fm tamil",
+          "reportedBitrateKbps": 64,
+          "ttfbMs": 1670,
+          "firstByteLatencyMs": 1670,
+          "continuitySeconds": 6.009,
+          "format": "mp3",
+          "status": "http-reachable",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        }
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "clubmirchi-directory",
+      "stationId": "mirchi-digital-research",
+      "existingPublished": false,
+      "candidateUrl": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8",
+      "sourcePage": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi&countrycode=IN&limit=20&hidebroken=false",
+      "sourceIds": [
+        "radio-browser",
+        "mirchi-help"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "clubmirchi-directory",
+          "stationId": "mirchi-digital-research",
+          "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI64kbps.m3u8",
+          "source": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi&countrycode=IN&limit=20&hidebroken=false",
+          "association": "Club Mirchi digital lead; not a Tamil city FM identity",
+          "requestUrl": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8",
+          "checkedAt": "2026-11-08T03:56:28.000Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "reachable",
+            "status": 200,
+            "contentType": "application/x-mpegURL",
+            "finalUrl": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8",
+            "redirects": []
+          },
+          "redirects": [],
+          "httpStatus": 404,
+          "contentType": "application/x-mpegURL",
+          "cors": "*",
+          "icyName": null,
+          "reportedBitrateKbps": null,
+          "ttfbMs": 186,
+          "firstByteLatencyMs": 186,
+          "continuitySeconds": 0,
+          "format": "hls",
+          "status": "down",
+          "sampledBytes": 245,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "hls": {
+            "variants": [
+              {
+                "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI64kbps.m3u8",
+                "declaredBandwidthBps": 64000,
+                "codecs": "mp4a.40.29,mp4a.40.5"
+              },
+              {
+                "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI96kbps.m3u8",
+                "declaredBandwidthBps": 96000,
+                "codecs": "mp4a.40.29,mp4a.40.5"
+              }
+            ],
+            "segments": [],
+            "targetDurationSeconds": null,
+            "encrypted": false,
+            "initializationRequired": false
+          },
+          "variant": {
+            "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI64kbps.m3u8",
+            "declaredBandwidthBps": 64000,
+            "codecs": "mp4a.40.29,mp4a.40.5"
+          },
+          "failureReason": "HTTP 404",
+          "partial": true
+        },
+        "repeat": null,
+        "otherPublishedVariant": {
+          "id": "clubmirchi-other-published-variant",
+          "stationId": "mirchi-digital-research",
+          "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI96kbps.m3u8",
+          "source": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI_Auto.m3u8",
+          "requestUrl": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI96kbps.m3u8",
+          "checkedAt": "2026-11-08T04:09:25.667Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "failed",
+              "reason": "HTTP 404"
+            },
+            {
+              "attempt": 2,
+              "status": "failed",
+              "reason": "HTTP 404"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "HTTP 404",
+            "status": 404,
+            "contentType": "application/x-mpegURL",
+            "finalUrl": "https://mirchiplaylive.akamaized.net/hls/live/2036929-b/MUM/CLUBMI96kbps.m3u8",
+            "redirects": []
+          },
+          "httpStatus": 404,
+          "redirects": [],
+          "tls": "validated",
+          "status": "down",
+          "failureReason": "HTTP 404",
+          "partial": true
+        }
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "mirchi-uber-directory",
+      "stationId": "mirchi-digital-research",
+      "existingPublished": false,
+      "candidateUrl": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio",
+      "sourcePage": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi&countrycode=IN&limit=20&hidebroken=false",
+      "sourceIds": [
+        "radio-browser",
+        "mirchi-help"
+      ],
+      "group": "B",
+      "sourceIdentity": "unconfirmed",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "mirchi-uber-directory",
+          "stationId": "mirchi-digital-research",
+          "url": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio",
+          "source": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi&countrycode=IN&limit=20&hidebroken=false",
+          "association": "Shared by several directory labels; owner/identity not established",
+          "requestUrl": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio",
+          "checkedAt": "2026-11-08T03:56:31.420Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "Decoder: not-tested ENOENT",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "reachable",
+            "status": 200,
+            "contentType": "audio/mpeg",
+            "finalUrl": "https://drive.uber.radio/uber/bollywoodnow/icecast.audio",
+            "redirects": []
+          },
+          "redirects": [],
+          "httpStatus": 200,
+          "contentType": "audio/mpeg",
+          "cors": "*",
+          "icyName": "uber/bollywoodnow",
+          "reportedBitrateKbps": 128,
+          "ttfbMs": 480,
+          "firstByteLatencyMs": 480,
+          "continuitySeconds": 0.331,
+          "format": "mp3",
+          "status": "http-reachable",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        },
+        "repeat": null
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "iskcon-official",
+      "stationId": "iskcon-nagercoil-research",
+      "existingPublished": false,
+      "candidateUrl": "https://iskconnagercoil.com/webdio",
+      "sourcePage": "https://www.iskconnagercoil.com/radio",
+      "sourceIds": [
+        "iskcon-official",
+        "iskcon-services"
+      ],
+      "group": "B",
+      "sourceIdentity": "official-player-associated",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "first": {
+          "id": "iskcon-official",
+          "stationId": "iskcon-nagercoil-research",
+          "url": "https://iskconnagercoil.com/webdio",
+          "source": "https://www.iskconnagercoil.com/radio",
+          "association": "Official player currentSrc observed with browser playback progress",
+          "requestUrl": "https://iskconnagercoil.com/webdio",
+          "checkedAt": "2026-11-08T03:56:34.851Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "HEAD/fallback failed but GET succeeded; method-dependent result",
+            "Decoder: not-tested ENOENT",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "HTTP 400",
+            "status": 400,
+            "contentType": "text/html; charset=utf-8",
+            "finalUrl": "https://iskconnagercoil.com/webdio",
+            "redirects": []
+          },
+          "redirects": [],
+          "httpStatus": 200,
+          "contentType": "audio/mpeg",
+          "cors": "*",
+          "icyName": "ISKCON Nagercoil Radio",
+          "reportedBitrateKbps": 128,
+          "ttfbMs": 807,
+          "firstByteLatencyMs": 1017,
+          "continuitySeconds": 0.604,
+          "format": "mp3",
+          "status": "http-reachable",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        },
+        "repeat": {
+          "id": "iskcon-official",
+          "stationId": "iskcon-nagercoil-research",
+          "url": "https://iskconnagercoil.com/webdio",
+          "source": "https://www.iskconnagercoil.com/radio",
+          "requestUrl": "https://iskconnagercoil.com/webdio",
+          "checkedAt": "2026-11-08T03:57:58.960Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "HEAD/fallback failed but GET succeeded; method-dependent result",
+            "Decoder: not-tested ENOENT",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "failed",
+            "reason": "HTTP 400",
+            "status": 400,
+            "contentType": "text/html; charset=utf-8",
+            "finalUrl": "https://iskconnagercoil.com/webdio",
+            "redirects": []
+          },
+          "redirects": [],
+          "httpStatus": 200,
+          "contentType": "audio/mpeg",
+          "cors": "*",
+          "icyName": "ISKCON Nagercoil Radio",
+          "reportedBitrateKbps": 128,
+          "ttfbMs": 756,
+          "firstByteLatencyMs": 957,
+          "continuitySeconds": 0.598,
+          "format": "mp3",
+          "status": "http-reachable",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        }
+      },
+      "browserPlayback": {
+        "result": "decoded-playback-progress",
+        "browser": "ChatGPT in-app browser; Chrome product/native Android not separately tested",
+        "trials": [
+          {
+            "timeLabel": "2026-11-08T06:53:43; page clock timezone not independently established",
+            "currentTime": 3.415027,
+            "readyState": 4,
+            "paused": false,
+            "error": null
+          },
+          {
+            "timeLabel": "2026-11-08T06:57:09; page clock timezone not independently established",
+            "currentTime": 2.40479,
+            "readyState": 3,
+            "paused": false,
+            "error": null
+          }
+        ],
+        "humanAudibility": "not-attested",
+        "limitation": "Two short fresh starts; no uptime guarantee, language confirmation or use grant."
+      },
+      "nextAction": "Obtain reviewed third-party use allowance; verify language, long-run continuity and Chrome/Android."
+    },
+    {
+      "id": "air-nagercoil-control",
+      "stationId": "air-nagercoil",
+      "existingPublished": true,
+      "candidateUrl": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+      "sourcePage": "https://akashvani.gov.in/radio/live.php",
+      "sourceIds": [
+        "air-player"
+      ],
+      "group": "B",
+      "sourceIdentity": "official-player-associated",
+      "programmeIdentityLimitation": "No human programme/announcement identification or full regional simulcast comparison.",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "retain-existing-unchanged",
+      "technical": {
+        "first": {
+          "id": "air-nagercoil-control",
+          "stationId": "air-nagercoil",
+          "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+          "source": "https://akashvani.gov.in/radio/live.php",
+          "association": "Existing official named service, retained endpoint",
+          "requestUrl": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+          "checkedAt": "2026-11-08T03:56:37.119Z",
+          "browserPlayback": "not-tested",
+          "identity": "unconfirmed",
+          "permission": "unconfirmed",
+          "measuredBitrateKbps": null,
+          "bitrateMethod": "unknown",
+          "sampleRateHz": null,
+          "channels": null,
+          "codec": null,
+          "qualityObservations": [
+            "Decoder: not-tested ENOENT",
+            "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+          ],
+          "attempts": [
+            {
+              "attempt": 1,
+              "status": "http-reachable"
+            }
+          ],
+          "head": {
+            "outcome": "reachable",
+            "status": 200,
+            "contentType": "application/vnd.apple.mpegurl",
+            "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+            "redirects": [
+              {
+                "status": 302,
+                "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+                "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+              }
+            ]
+          },
+          "redirects": [
+            {
+              "status": 302,
+              "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+              "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+            }
+          ],
+          "httpStatus": 206,
+          "contentType": "application/vnd.apple.mpegurl",
+          "cors": "*",
+          "icyName": null,
+          "reportedBitrateKbps": null,
+          "ttfbMs": 400,
+          "firstByteLatencyMs": 400,
+          "continuitySeconds": 0,
+          "format": "hls",
+          "status": "segments-retrieved",
+          "sampledBytes": 131072,
+          "tls": "validated",
+          "sampleDecodeResult": "not-tested",
+          "hls": {
+            "variants": [],
+            "segments": [
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110140547.ts",
+                "declaredDurationSeconds": 8.334
+              },
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110148882.ts",
+                "declaredDurationSeconds": 8.333
+              },
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110157219.ts",
+                "declaredDurationSeconds": 8.333
+              },
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110165554.ts",
+                "declaredDurationSeconds": 8.334
+              },
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110173888.ts",
+                "declaredDurationSeconds": 8.333
+              },
+              {
+                "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110182221.ts",
+                "declaredDurationSeconds": 8.333
+              }
+            ],
+            "targetDurationSeconds": 8,
+            "encrypted": false,
+            "initializationRequired": false
+          },
+          "segment": {
+            "url": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009-1794110140547.ts",
+            "bytes": 130702,
+            "httpStatus": 206
+          },
+          "decoding": {
+            "outcome": "not-tested",
+            "reason": "ENOENT",
+            "pcmBytes": 0
+          }
+        },
+        "repeat": null
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Confirm broadcaster/current programme association and applicable use terms; resolve transport failures before publication."
+    },
+    {
+      "id": "annai-browser",
+      "stationId": "annai-kuzhithurai",
+      "existingPublished": false,
+      "candidateUrl": null,
+      "urlWithheldReason": "Official player requested a query-bearing Zeno URL; no session identifier or guessed stripped URL is retained.",
+      "host": "stream.zeno.fm",
+      "mount": "xuqoqfdtjcquv",
+      "sourcePage": "https://zeno.fm/radio/annai-fm/",
+      "sourceIds": [
+        "annai-profile",
+        "annai-website",
+        "annai-directory",
+        "zeno-terms"
+      ],
+      "group": "C",
+      "sourceIdentity": "official-player-associated",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "browser-startup-failed",
+        "observedAt": "2026-11-08T03:50:20.190Z",
+        "mediaError": 4
+      },
+      "browserPlayback": {
+        "result": "failed-media-error-4",
+        "humanAudibility": "not-attested"
+      },
+      "nextAction": "Ask broadcaster for canonical reusable HTTPS URL, resolve startup error, then review hosting/use terms. Do not decrypt directory config."
+    },
+    {
+      "id": "suryan-http-1",
+      "stationId": "suryan-chennai",
+      "existingPublished": false,
+      "candidateUrl": "http://radios.crabdance.com:8002/1",
+      "sourcePage": "https://docs.radio-browser.info/",
+      "sourceIds": [
+        "radio-browser",
+        "online-radio-fm"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "suryan-http-2",
+      "stationId": "suryan-chennai",
+      "existingPublished": false,
+      "candidateUrl": "http://radios.crabdance.com:8002/2",
+      "sourcePage": "https://docs.radio-browser.info/",
+      "sourceIds": [
+        "radio-browser",
+        "online-radio-fm"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "suryan-hello-http-3",
+      "stationId": "hello-chennai",
+      "existingPublished": false,
+      "candidateUrl": "http://radios.crabdance.com:8002/3",
+      "sourcePage": "https://docs.radio-browser.info/",
+      "sourceIds": [
+        "radio-browser",
+        "online-radio-fm"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "city-http-5",
+      "stationId": "radio-city-chennai",
+      "existingPublished": false,
+      "candidateUrl": "http://radios.crabdance.com:8002/5",
+      "sourcePage": "https://docs.radio-browser.info/",
+      "sourceIds": [
+        "radio-browser",
+        "online-radio-fm"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "chennai-live-http",
+      "stationId": null,
+      "existingPublished": false,
+      "candidateUrl": "http://c2.radioboss.fm:8332/stream",
+      "sourcePage": "https://docs.radio-browser.info/",
+      "sourceIds": [
+        "radio-browser",
+        "online-radio-fm"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "asr-http-em8hrkna2k0uv",
+      "stationId": "asr-kanyakumari",
+      "existingPublished": false,
+      "candidateUrl": "http://stream.zeno.fm/em8hrkna2k0uv",
+      "sourcePage": "https://radio.asrdmm.com/",
+      "sourceIds": [
+        "asr-site"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "asr-http-zdyrvhfkeg8uv",
+      "stationId": "asr-kanyakumari",
+      "existingPublished": false,
+      "candidateUrl": "http://stream.zeno.fm/zdyrvhfkeg8uv",
+      "sourcePage": "https://radio.asrdmm.com/",
+      "sourceIds": [
+        "asr-site"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "asr-http-may5dpfkeg8uv",
+      "stationId": "asr-kanyakumari",
+      "existingPublished": false,
+      "candidateUrl": "http://stream.zeno.fm/may5dpfkeg8uv",
+      "sourcePage": "https://radio.asrdmm.com/",
+      "sourceIds": [
+        "asr-site"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    },
+    {
+      "id": "asr-http-c21059ekeg8uv",
+      "stationId": "asr-kanyakumari",
+      "existingPublished": false,
+      "candidateUrl": "http://stream.zeno.fm/c21059ekeg8uv",
+      "sourcePage": "https://radio.asrdmm.com/",
+      "sourceIds": [
+        "asr-site"
+      ],
+      "group": "C",
+      "sourceIdentity": "unconfirmed",
+      "directListening": "needs-review",
+      "recording": "unconfirmed",
+      "redistribution": "unconfirmed",
+      "publicationDecision": "research-only",
+      "technical": {
+        "result": "not-probed-insecure-http",
+        "reason": "Not eligible for HTTPS-only catalogue. No scheme substitution or third-party proxy used."
+      },
+      "browserPlayback": {
+        "result": "not-tested"
+      },
+      "nextAction": "Obtain broadcaster-controlled HTTPS endpoint and programme/permission evidence. Cross-labelled crabdance mount 3 is not a proven regional simulcast."
+    }
+  ]
+}

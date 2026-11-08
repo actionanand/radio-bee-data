@@ -1,0 +1,1549 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-11-08",
+  "note": "Research cases, not claims that every terrestrial service currently exists. No publication/migration edits.",
+  "stations": [
+    {
+      "researchId": "suryan-chennai",
+      "stationId": "suryan-chennai",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-chennai",
+      "legacyLocalityId": "in-tn-chennai-chennai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 93.5,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [
+        "suryan-ting",
+        "suryan-http-1",
+        "suryan-http-2"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-coimbatore",
+      "stationId": "suryan-coimbatore",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Coimbatore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-coimbatore",
+      "legacyLocalityId": "in-tn-coimbatore-coimbatore",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-nagercoil",
+      "stationId": "suryan-nagercoil",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Nagercoil",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-nagercoil",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 91.9,
+      "reportedFrequencyMHz": 91.9,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-launch",
+        "suryan-social",
+        "qsl-frequencies"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "18 August 2026 trade launch report and broadcaster-branded post corroborate 91.9 MHz terrestrial service; no Internet feed or exact launch-day primary confirmation.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-tirunelveli",
+      "stationId": "suryan-tirunelveli",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Tirunelveli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tirunelveli",
+      "legacyLocalityId": "in-tn-tirunelveli-tirunelveli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-madurai",
+      "stationId": "suryan-madurai",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Madurai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-madurai",
+      "legacyLocalityId": "in-tn-madurai-madurai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-thoothukudi",
+      "stationId": "suryan-thoothukudi",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Thoothukudi",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-thoothukudi",
+      "legacyLocalityId": "in-tn-thoothukudi-thoothukudi",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-tiruchirappalli",
+      "stationId": "suryan-tiruchirappalli",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Tiruchirappalli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tiruchirappalli",
+      "legacyLocalityId": "in-tn-tiruchirappalli-tiruchirappalli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-puducherry",
+      "stationId": "suryan-puducherry",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Puducherry",
+      "country": "IN",
+      "region": "Puducherry",
+      "legacyDistrictId": "in-py-puducherry",
+      "legacyLocalityId": "in-py-puducherry-puducherry",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-salem",
+      "stationId": "suryan-salem",
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Salem",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-salem",
+      "legacyLocalityId": "in-tn-salem-salem",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established. March regulator RED label and current Suryan branding differ; do not create separate brand cards without programme evidence.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-erode",
+      "stationId": null,
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Erode",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established. March regulator RED label and current Suryan branding differ; do not create separate brand cards without programme evidence.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-vellore",
+      "stationId": null,
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Vellore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "fm-service-no-city-internet-feed",
+      "sourceIds": [
+        "suryan-about",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official About/RJ navigation identifies local FM service; no independently mapped city Internet feed established. March regulator RED label and current Suryan branding differ; do not create separate brand cards without programme evidence.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "suryan-in-karur",
+      "stationId": null,
+      "networkId": "suryan-in",
+      "broadcaster": "Suryan FM",
+      "city": "Karur",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": 94.7,
+      "group": "C",
+      "status": "terrestrial-lead-needs-primary-confirmation",
+      "sourceIds": [
+        "qsl-frequencies"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Specialist reference reports 94.7 MHz; no current broadcaster/Internet mapping established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-chennai",
+      "stationId": "hello-chennai",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-chennai",
+      "legacyLocalityId": "in-tn-chennai-chennai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 106.4,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [
+        "suryan-hello-http-3"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-coimbatore",
+      "stationId": "hello-coimbatore",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Coimbatore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-coimbatore",
+      "legacyLocalityId": "in-tn-coimbatore-coimbatore",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-nagercoil",
+      "stationId": "hello-nagercoil",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Nagercoil",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-nagercoil",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": 91.1,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "qsl-frequencies"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Reported 91.1 MHz is a specialist/secondary frequency lead; current official operations not re-established. Archive frequency remains null.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-tirunelveli",
+      "stationId": "hello-tirunelveli",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Tirunelveli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tirunelveli",
+      "legacyLocalityId": "in-tn-tirunelveli-tirunelveli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-madurai",
+      "stationId": "hello-madurai",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Madurai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-madurai",
+      "legacyLocalityId": "in-tn-madurai-madurai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-thoothukudi",
+      "stationId": "hello-thoothukudi",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Thoothukudi",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-thoothukudi",
+      "legacyLocalityId": "in-tn-thoothukudi-thoothukudi",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-tiruchirappalli",
+      "stationId": "hello-tiruchirappalli",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Tiruchirappalli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tiruchirappalli",
+      "legacyLocalityId": "in-tn-tiruchirappalli-tiruchirappalli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-puducherry",
+      "stationId": "hello-puducherry",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Puducherry",
+      "country": "IN",
+      "region": "Puducherry",
+      "legacyDistrictId": "in-py-puducherry",
+      "legacyLocalityId": "in-py-puducherry-puducherry",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-salem",
+      "stationId": "hello-salem",
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Salem",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-salem",
+      "legacyLocalityId": "in-tn-salem-salem",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-erode",
+      "stationId": null,
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Erode",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-vellore",
+      "stationId": null,
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Vellore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "hello-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official-domain HTTPS refused. Existing terrestrial record/dated regulator source does not establish current regional Internet audio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-fm-tiruvannamalai",
+      "stationId": null,
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Tiruvannamalai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "secondary-expansion-lead-unconfirmed",
+      "sourceIds": [
+        "qsl-frequencies"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Secondary expansion claims need current broadcaster/regulator confirmation; no direct feed found.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "hello-fm-vaniyambadi",
+      "stationId": null,
+      "networkId": "hello-fm",
+      "broadcaster": "Hello FM",
+      "city": "Vaniyambadi",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "secondary-expansion-lead-unconfirmed",
+      "sourceIds": [
+        "qsl-frequencies"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Secondary expansion claims need current broadcaster/regulator confirmation; no direct feed found.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-chennai",
+      "stationId": "mirchi-chennai",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-chennai",
+      "legacyLocalityId": "in-tn-chennai-chennai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 98.3,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "No official Tamil city endpoint established. Digital music playlists, Club Mirchi and Uber-branded relays are not evidence of this city broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-coimbatore",
+      "stationId": "mirchi-coimbatore",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Coimbatore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-coimbatore",
+      "legacyLocalityId": "in-tn-coimbatore-coimbatore",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "No official Tamil city endpoint established. Digital music playlists, Club Mirchi and Uber-branded relays are not evidence of this city broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-madurai",
+      "stationId": "mirchi-madurai",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Madurai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-madurai",
+      "legacyLocalityId": "in-tn-madurai-madurai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "No official Tamil city endpoint established. Digital music playlists, Club Mirchi and Uber-branded relays are not evidence of this city broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-tirunelveli",
+      "stationId": "mirchi-tirunelveli",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Tirunelveli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tirunelveli",
+      "legacyLocalityId": "in-tn-tirunelveli-tirunelveli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "No official Tamil city endpoint established. Digital music playlists, Club Mirchi and Uber-branded relays are not evidence of this city broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-tiruchirappalli",
+      "stationId": "mirchi-tiruchirappalli",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Tiruchirappalli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tiruchirappalli",
+      "legacyLocalityId": "in-tn-tiruchirappalli-tiruchirappalli",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "No official Tamil city endpoint established. Digital music playlists, Club Mirchi and Uber-branded relays are not evidence of this city broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-puducherry",
+      "stationId": "mirchi-puducherry",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Puducherry",
+      "country": "IN",
+      "region": "Puducherry",
+      "legacyDistrictId": "in-py-puducherry",
+      "legacyLocalityId": "in-py-puducherry-puducherry",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "local-service-identity-unconfirmed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Archived seed affiliation not independently confirmed; do not assume terrestrial operation or a digital simulcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "mirchi-thiruvananthapuram",
+      "stationId": "mirchi-thiruvananthapuram",
+      "networkId": "mirchi",
+      "broadcaster": "Radio Mirchi",
+      "city": "Thiruvananthapuram",
+      "country": "IN",
+      "region": "Kerala",
+      "legacyDistrictId": "in-kl-thiruvananthapuram",
+      "legacyLocalityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ml"
+      ],
+      "frequencyMHz": 98.3,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "mirchi-site",
+        "mirchi-help",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Distinct Kerala/Malayalam service, not a Tamil Nagercoil station. No exact city feed established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "radio-city-chennai",
+      "stationId": "radio-city-chennai",
+      "networkId": "radio-city",
+      "broadcaster": "Radio City",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-chennai",
+      "legacyLocalityId": "in-tn-chennai-chennai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 91.1,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "city-site",
+        "mib-march"
+      ],
+      "candidateIds": [
+        "city-http-5"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Existing terrestrial identity is separate from historical Radio City Tamil web service; HTTP crabdance relay not approved.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "radio-city-coimbatore",
+      "stationId": "radio-city-coimbatore",
+      "networkId": "radio-city",
+      "broadcaster": "Radio City",
+      "city": "Coimbatore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-coimbatore",
+      "legacyLocalityId": "in-tn-coimbatore-coimbatore",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "city-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Existing terrestrial identity is separate from historical Radio City Tamil web service; HTTP crabdance relay not approved.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "radio-city-madurai",
+      "stationId": "radio-city-madurai",
+      "networkId": "radio-city",
+      "broadcaster": "Radio City",
+      "city": "Madurai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-madurai",
+      "legacyLocalityId": "in-tn-madurai-madurai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "city-site",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Existing terrestrial identity is separate from historical Radio City Tamil web service; HTTP crabdance relay not approved.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "radio-city-unassigned",
+      "stationId": null,
+      "networkId": "radio-city",
+      "broadcaster": "Radio City Tamil digital",
+      "city": "Unassigned",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": false,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "historical-digital-service-no-current-url",
+      "sourceIds": [
+        "city-digital-history",
+        "city-site"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Official 2015 press release supports historical separate web service, not a Chennai simulcast. Current named-page request not accessible in web tool.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "big-chennai",
+      "stationId": "big-chennai",
+      "networkId": "big-fm",
+      "broadcaster": "BIG FM",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-chennai",
+      "legacyLocalityId": "in-tn-chennai-chennai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": 92.7,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "big-site",
+        "mib-march",
+        "radio-browser"
+      ],
+      "candidateIds": [
+        "big-tamil-directory"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Zeno BIG FM Tamil MP3 responds but broadcaster control and city equivalence are unconfirmed; website programme files are not live radio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "big-puducherry",
+      "stationId": "big-puducherry",
+      "networkId": "big-fm",
+      "broadcaster": "BIG FM",
+      "city": "Puducherry",
+      "country": "IN",
+      "region": "Puducherry",
+      "legacyDistrictId": "in-py-puducherry",
+      "legacyLocalityId": "in-py-puducherry-puducherry",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "big-site",
+        "mib-march",
+        "radio-browser"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Zeno BIG FM Tamil MP3 responds but broadcaster control and city equivalence are unconfirmed; website programme files are not live radio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "big-thiruvananthapuram",
+      "stationId": "big-thiruvananthapuram",
+      "networkId": "big-fm",
+      "broadcaster": "BIG FM",
+      "city": "Thiruvananthapuram",
+      "country": "IN",
+      "region": "Kerala",
+      "legacyDistrictId": "in-kl-thiruvananthapuram",
+      "legacyLocalityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ml"
+      ],
+      "frequencyMHz": 92.7,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "no-confirmed-city-internet-feed",
+      "sourceIds": [
+        "big-site",
+        "mib-march",
+        "radio-browser"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Zeno BIG FM Tamil MP3 responds but broadcaster control and city equivalence are unconfirmed; website programme files are not live radio.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "red-thiruvananthapuram",
+      "stationId": "red-thiruvananthapuram",
+      "networkId": "red-fm",
+      "broadcaster": "RED FM",
+      "city": "Thiruvananthapuram",
+      "country": "IN",
+      "region": "Kerala",
+      "legacyDistrictId": "in-kl-thiruvananthapuram",
+      "legacyLocalityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ml"
+      ],
+      "frequencyMHz": 93.5,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "regional-identity-review-needed",
+      "sourceIds": [
+        "red-site",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Kerala service; no new Tamil/local HTTPS mapping established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "red-erode",
+      "stationId": "red-erode",
+      "networkId": "red-fm",
+      "broadcaster": "RED FM",
+      "city": "Erode",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-erode",
+      "legacyLocalityId": "in-tn-erode-erode",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "regional-identity-review-needed",
+      "sourceIds": [
+        "red-site",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Archived RED seed and official current Suryan branding may concern one transmitter; programme equivalence not proven and no migration created.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "red-salem",
+      "stationId": "red-salem",
+      "networkId": "red-fm",
+      "broadcaster": "RED FM",
+      "city": "Salem",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-salem",
+      "legacyLocalityId": "in-tn-salem-salem",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "regional-identity-review-needed",
+      "sourceIds": [
+        "red-site",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Archived RED seed and official current Suryan branding may concern one transmitter; programme equivalence not proven and no migration created.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "red-vellore",
+      "stationId": "red-vellore",
+      "networkId": "red-fm",
+      "broadcaster": "RED FM",
+      "city": "Vellore",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-vellore",
+      "legacyLocalityId": "in-tn-vellore-vellore",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "regional-identity-review-needed",
+      "sourceIds": [
+        "red-site",
+        "sun-radio",
+        "mib-march"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Archived RED seed and official current Suryan branding may concern one transmitter; programme equivalence not proven and no migration created.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "air-nagercoil",
+      "stationId": "air-nagercoil",
+      "networkId": "akashvani",
+      "broadcaster": "Akashvani",
+      "city": "Nagercoil",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-nagercoil",
+      "citySpecific": true,
+      "existingPublished": true,
+      "languages": [
+        "ta",
+        "en"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "B",
+      "status": "existing-official-feed-retained",
+      "sourceIds": [
+        "air-player",
+        "stage8-review"
+      ],
+      "candidateIds": [
+        "air-nagercoil-control"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Existing Kumari feed retrieved manifest and bounded segment again; aliases remain one station.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "air-tirunelveli",
+      "stationId": "air-tirunelveli",
+      "networkId": "akashvani",
+      "broadcaster": "Akashvani",
+      "city": "Tirunelveli",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-tirunelveli",
+      "legacyLocalityId": "in-tn-tirunelveli-tirunelveli",
+      "citySpecific": true,
+      "existingPublished": true,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "B",
+      "status": "existing-separate-official-feed-retained",
+      "sourceIds": [
+        "air-player",
+        "stage8-review"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Retain existing unique official service and stable ID. No new Stage 9 playback/rights promotion.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "air-thoothukudi",
+      "stationId": "air-thoothukudi",
+      "networkId": "akashvani",
+      "broadcaster": "Akashvani",
+      "city": "Thoothukudi",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-thoothukudi",
+      "legacyLocalityId": "in-tn-thoothukudi-thoothukudi",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "prior-404-requires-official-refresh",
+      "sourceIds": [
+        "air-player",
+        "stage8-review"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Stage 8 official candidate 404 retained as historical evidence; no fabricated replacement.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "air-thiruvananthapuram",
+      "stationId": "air-thiruvananthapuram",
+      "networkId": "akashvani",
+      "broadcaster": "Akashvani",
+      "city": "Thiruvananthapuram",
+      "country": "IN",
+      "region": "Kerala",
+      "legacyDistrictId": "in-kl-thiruvananthapuram",
+      "legacyLocalityId": "in-kl-thiruvananthapuram-thiruvananthapuram",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ml"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "named-service-mapping-needed",
+      "sourceIds": [
+        "air-player",
+        "stage8-review"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Keep Malayalam service and Kerala geography distinct. No new Tamil programme mapping established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "annai-kuzhithurai",
+      "stationId": "annai-kuzhithurai",
+      "networkId": "annai-fm",
+      "broadcaster": "Annai FM",
+      "city": "Parakunnu / Kuzhithurai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-kuzhithurai",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta",
+        "ml"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "official-player-startup-failed",
+      "sourceIds": [
+        "annai-profile",
+        "annai-directory",
+        "annai-website"
+      ],
+      "candidateIds": [
+        "annai-browser"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Broadcaster profile identifies Tamil/Malayalam Internet service in Parakunnu near Kuzhithurai; not separate stations for both place names.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "asr-kanyakumari",
+      "stationId": "asr-kanyakumari",
+      "networkId": "asr-digital",
+      "broadcaster": "ASR Digital Radio",
+      "city": "Monday Market / Neyyoor",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-thingalnagar",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "published-https-lead-404",
+      "sourceIds": [
+        "asr-site",
+        "asr-about",
+        "asr-directory",
+        "asr-terms"
+      ],
+      "candidateIds": [
+        "asr-official"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Directory postal origin is Monday Market/Neyyoor area; do not infer Nagercoil urban studio or separate Kanyakumari-town broadcast.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "kumari-tamil-kanyakumari",
+      "stationId": "kumari-tamil-kanyakumari",
+      "networkId": "kumari-tamil",
+      "broadcaster": "Kumari Tamil Media",
+      "city": "Kanyakumari district (locality unknown)",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": "in-tn-kanyakumari",
+      "legacyLocalityId": "in-tn-kanyakumari-nagercoil",
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "official-domain-dns-failure",
+      "sourceIds": [
+        "kumari-site",
+        "kumari-directory"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Old domain ENOTFOUND again; encrypted directory configuration and stale listing do not establish a replacement.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "iskcon-research-puliyurkurichi",
+      "stationId": null,
+      "networkId": "iskcon-research",
+      "broadcaster": "ISKCON Nagercoil / Vaani Seva",
+      "city": "Puliyurkurichi",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "B",
+      "status": "browser-decoded-pending-use-review",
+      "sourceIds": [
+        "iskcon-official",
+        "iskcon-services",
+        "iskcon-directory"
+      ],
+      "candidateIds": [
+        "iskcon-official"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Official radio association, MP3/ICY name and two short browser playback starts established. Official footer places institution in Puliyurkurichi, Kanyakumari. Language and recording/redistribution allowances not established.",
+      "nextAction": "Obtain explicit applicable third-party direct-listening review, confirm programme languages and Chrome/native Android/stability. Use one canonical station if restored/created; Vaani Seva is its programme branding."
+    },
+    {
+      "researchId": "chennai-live-research-chennai",
+      "stationId": null,
+      "networkId": "chennai-live-research",
+      "broadcaster": "Chennai Live",
+      "city": "Chennai",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": true,
+      "existingPublished": false,
+      "languages": [
+        "en"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "digital-transition-http-lead-only",
+      "sourceIds": [
+        "chennai-live-owner",
+        "chennai-live-transition",
+        "online-radio-fm"
+      ],
+      "candidateIds": [
+        "chennai-live-http"
+      ],
+      "observedOn": "2026-11-08",
+      "evidence": "Owner identifies English talk/music and digital transition. Directory Tamil/community/current-FM assertions conflict; HTTP source and unauthorized directory proxy are not eligible.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "luminous-radio-tamil",
+      "stationId": "luminous-radio-tamil",
+      "networkId": "luminous-radio",
+      "broadcaster": "Luminous Radio Tamil",
+      "city": "Unassigned",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": false,
+      "existingPublished": true,
+      "languages": [
+        "ta"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "B",
+      "status": "existing-tamil-channel-origin-unspecified",
+      "sourceIds": [
+        "luminous-tamil"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Existing separate Tamil Internet service, global coverage and null locality retained. Nearby Kerala association is not Kanyakumari origin or a new city feed.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    },
+    {
+      "researchId": "nanjil-research-origin-unconfirmed",
+      "stationId": null,
+      "networkId": "nanjil-research",
+      "broadcaster": "Nanjil Radio",
+      "city": "Origin unconfirmed",
+      "country": "IN",
+      "region": "Tamil Nadu",
+      "legacyDistrictId": null,
+      "legacyLocalityId": null,
+      "citySpecific": false,
+      "existingPublished": false,
+      "languages": [
+        "ta",
+        "en"
+      ],
+      "frequencyMHz": null,
+      "reportedFrequencyMHz": null,
+      "group": "C",
+      "status": "owner-claim-lead-only",
+      "sourceIds": [
+        "nanjil-lead"
+      ],
+      "candidateIds": [],
+      "observedOn": "2026-11-08",
+      "evidence": "Owner-style indexed post advertises Tamil/English channels across several subreddits. No geographic origin or reusable source established.",
+      "nextAction": "Obtain exact broadcaster-associated city/programme HTTPS source, independently check playback and reviewed use conditions; do not restore based on FM frequency."
+    }
+  ]
+}
