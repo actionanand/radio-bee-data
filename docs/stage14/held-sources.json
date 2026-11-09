@@ -1,0 +1,35 @@
+{
+  "restrictions": [
+    {
+      "source": "Zeno public station catalogue",
+      "url": "https://zeno.fm/terms/",
+      "outcome": "Collector stopped; no bulk provider station profiles imported or reproduced",
+      "reason": "Current terms restrict systematic directory/database compilation without written permission and automated extraction. Initial 300-card discovery and 39 detail responses remain ignored local research, not a new publication source.",
+      "licensingContext": "https://help.zeno.fm/en/article/do-i-need-a-music-license-7ckwl4/",
+      "existingCatalogue": "Existing streams unchanged as explicitly required. Separate provider-use review is a follow-up; no silent rights change."
+    },
+    {
+      "source": "SouthRadios own channels",
+      "url": "https://www.southradios.com/tcs",
+      "outcome": "Held; no decryption or platform bypass",
+      "reason": "Express platform/commercial/third-party and intellectual-property restrictions require provider review."
+    },
+    {
+      "source": "Vanavil FM channels",
+      "url": "https://vanavilfm.com/",
+      "outcome": "Held; reused existing restriction evidence",
+      "reason": "Existing research records express third-party website/app permission requirement; no permission obtained."
+    }
+  ],
+  "decodedButHeld": [
+    {
+      "stationId": "vanakkam-reunion-re",
+      "name": "Vanakkam Réunion Radio",
+      "countryLead": "RE",
+      "url": "https://stunnel2.cyber-streaming.com:9100/stream?type=mp3&nocache=",
+      "sourceUrl": "https://www.vanakkamradio.re/indexv3.php",
+      "outcome": "Decoded AAC; excluded from catalogue",
+      "reason": "Publisher documents Tamil cultural association and Bhakti Pâdalgal, but reviewed evidence did not explicitly establish the live programme language. Tamil cultural heritage/recruitment alone is not a Tamil-language playback check; confirm the Tamil programme/schedule before adding."
+    }
+  ]
+}

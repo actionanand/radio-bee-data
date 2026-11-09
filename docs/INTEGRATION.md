@@ -90,3 +90,7 @@ Stage 3B/Stage 8 compatibility issue: `streamLabel()` must not equate technical 
 ## Metadata-only discovery extension (1.5.0)
 
 Fetch the optional discovery payload as part of the same atomic snapshot. Validate against the strict metadata contract before adapting it for display with empty streams. Check station IDs in both arrays before applying legacy playback-removal mappings: metadata-only reappearance does not reassign a favourite or grant a playback target. A true playback restoration removes its metadata-only row and reconciles its old removal entry. Unknown extension manifests remain compatible with older clients, which show only playback-candidate records. See [the publication contract and expansion review](DISCOVERY-PUBLICATION.md).
+
+## Worldwide trial additions (1.9.0)
+
+Stage 14 adds 25 publisher-associated unverified trials using the existing schema and client playback contract. The manifest now counts 117 identities, 71 stream-bearing stations and 74 URLs. Existing stations, stream permissions and artwork are unchanged. Some new services are multilingual with scheduled Tamil programmes; canonical notes describe this limitation. No new technical-verification or listening-use approval is implied. See [the Stage 14 review](STAGE14-GLOBAL-TAMIL-RADIO-EXPANSION.md).

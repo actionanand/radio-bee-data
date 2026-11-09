@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.8.1",
+  "catalogVersion": "1.9.0",
   "publishedOn": "2026-11-09",
   "defaultLocale": "en",
   "locales": [
@@ -11,28 +11,34 @@
   "countries": [
     "AE",
     "AU",
+    "BH",
     "CA",
     "CH",
     "DE",
+    "FR",
     "GB",
+    "IE",
     "IN",
+    "KW",
     "LK",
+    "MU",
     "MY",
     "NO",
     "NZ",
+    "QA",
     "SG",
     "US",
     "ZA"
   ],
   "counts": {
-    "networks": 47,
-    "stations": 46,
-    "locations": 111,
-    "streams": 49,
+    "networks": 71,
+    "stations": 71,
+    "locations": 117,
+    "streams": 74,
     "verifiedStreams": 1,
     "discoveryStations": 46,
-    "discoverableStations": 92,
-    "stationsWithStreamCandidates": 46,
+    "discoverableStations": 117,
+    "stationsWithStreamCandidates": 71,
     "productionEligibleStations": 0
   },
   "files": {

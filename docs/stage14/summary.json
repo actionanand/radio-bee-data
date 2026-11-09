@@ -1,0 +1,54 @@
+{
+  "baseCommit": "9191c539a991c769887b5427484126d657c01851",
+  "baselineVersion": "1.8.1",
+  "catalogVersion": "1.9.0",
+  "before": {
+    "networks": 47,
+    "stations": 46,
+    "locations": 111,
+    "streams": 49,
+    "verifiedStreams": 1,
+    "discoveryStations": 46,
+    "discoverableStations": 92,
+    "stationsWithStreamCandidates": 46,
+    "productionEligibleStations": 0,
+    "countries": 14
+  },
+  "after": {
+    "networks": 71,
+    "stations": 71,
+    "locations": 117,
+    "streams": 74,
+    "verifiedStreams": 1,
+    "discoveryStations": 46,
+    "discoverableStations": 117,
+    "stationsWithStreamCandidates": 71,
+    "productionEligibleStations": 0,
+    "countries": 20
+  },
+  "newStationIdentities": 25,
+  "promotions": 0,
+  "alternativeStreamsAdded": 0,
+  "newCountries": [
+    "BH",
+    "FR",
+    "IE",
+    "KW",
+    "MU",
+    "QA"
+  ],
+  "newStreamsBrowserSustained": 1,
+  "newStreamsBrowserMediaStarted": 2,
+  "newStreamsBrowserUiOnly": 1,
+  "newStreamsAndroidTested": 0,
+  "newProductionEligible": 0,
+  "newUnverifiedTrials": 25,
+  "technicalDecoded": 26,
+  "decodedHeld": [
+    "vanakkam-reunion-re"
+  ],
+  "unverifiedStreamCandidates": {
+    "before": 48,
+    "after": 73
+  }
+}

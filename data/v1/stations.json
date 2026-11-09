@@ -2149,5 +2149,1133 @@
         }
       }
     ]
+  },
+  {
+    "id": "vaagai-tamil-de",
+    "name": "Vaagai Tamil FM",
+    "networkId": "vaagai-tamil",
+    "countryCode": "DE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://vtfm.net/",
+    "sourceIds": [
+      "stage14-vaagai-tamil-de-player"
+    ],
+    "streams": [
+      {
+        "id": "vaagai-tamil-de-mp3-trial",
+        "url": "https://vtfm2020-vtfm.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-vaagai-tamil-de-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher title identifies Tamil radio in Germany; the homepage player publishes this exact Radioca.st live URL. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "a9-radio-ca",
+    "name": "A9 Radio",
+    "networkId": "a9-media",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://a9radio.com/",
+    "sourceIds": [
+      "stage14-a9-radio-ca-player",
+      "stage14-a9-radio-ca-player-context-1",
+      "stage14-a9-radio-ca-player-context-2"
+    ],
+    "streams": [
+      {
+        "id": "a9-radio-ca-mp3-trial",
+        "url": "https://a9radio1-a9media.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-a9-radio-ca-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "A9 publisher website/about page identifies its Canadian Tamil service; current layout/player bundle publishes this exact A9 Media Radioca.st endpoint. Old hits/new hits directory mounts were not imported. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "amudham-fm-in",
+    "name": "Amudham FM",
+    "networkId": "amudham",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.amudhamfm.com/",
+    "sourceIds": [
+      "stage14-amudham-fm-in-player"
+    ],
+    "streams": [
+      {
+        "id": "amudham-fm-in-aac-trial",
+        "url": "https://listen.openstream.co/6789/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-amudham-fm-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher describes its Tamil online service from Thiruvarur, Tamil Nadu; its audio source is this Openstream endpoint. Conflicting generic ICBM coordinate metadata is ignored. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "mauradio-mu",
+    "name": "mauRadio",
+    "networkId": "mauritius-global-diaspora",
+    "countryCode": "MU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mfe",
+      "fr",
+      "en",
+      "bho",
+      "hi",
+      "ta",
+      "mr"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://mauradio.com/",
+    "sourceIds": [
+      "stage14-mauradio-mu-player"
+    ],
+    "streams": [
+      {
+        "id": "mauradio-mu-mp3-trial",
+        "url": "https://radio.mauradio.com/listen/mauradio_/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-mauradio-mu-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher identifies Mauritius/Port Louis and explicitly lists daily Tamil rotation among seven languages. The embedded live audio URL belongs to its radio subdomain. Multilingual, not Tamil-only. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "theophony-tamil-in",
+    "name": "Theophony Tamil Christian Radio",
+    "networkId": "theophony",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://theophony.org/tamil-christian-radio/",
+    "sourceIds": [
+      "stage14-theophony-tamil-in-player",
+      "stage14-theophony-tamil-in-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "theophony-tamil-in-hls-trial",
+        "url": "https://stream.theophony.com/hls/theophony_tamil_radio/live.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-theophony-tamil-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher labels the player THEOPHONY TAMIL CHRISTIAN RADIO. Its public base64 player configuration maps the exact HLS URL. Contact page identifies Bangalore, India; English radio is a different service. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "jei-fm-my",
+    "name": "JEIFM",
+    "networkId": "jeifm",
+    "countryCode": "MY",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://jeifm.com/",
+    "sourceIds": [
+      "stage14-jei-fm-my-player",
+      "stage14-jei-fm-my-player-context-1",
+      "stage14-jei-fm-my-player-context-2"
+    ],
+    "streams": [
+      {
+        "id": "jei-fm-my-mp3-trial",
+        "url": "https://usa3.fastcast4u.com/proxy/jeifm?mp=/1",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-jei-fm-my-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher explicitly describes 24/7 Tamil Internet radio and publishes this exact Fastcast audio source. Malaysia is corroborated by the cited independent directories; no city/frequency is inferred from hosting. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "amen-fm-ca",
+    "name": "Amen FM",
+    "networkId": "amen-fm",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.amenfm.com/",
+    "sourceIds": [
+      "stage14-amen-fm-ca-player"
+    ],
+    "streams": [
+      {
+        "id": "amen-fm-ca-aac-trial",
+        "url": "https://ice7.securenetsystems.net/AMENFM",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-amen-fm-ca-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher identifies its Tamil Christian service and Ontario mailing address. Rendered player data-qtmplayer-file maps the exact SecureNetSystems URL. Its short 105.9 FM weekly slot is not claimed as a continuous FM frequency. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "live-fm-bh",
+    "name": "Live FM 107.2",
+    "networkId": "live-fm",
+    "countryCode": "BH",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi",
+      "ml",
+      "ta",
+      "kn"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": 107.2,
+    "website": "https://www.livefm.bh/",
+    "sourceIds": [
+      "stage14-live-fm-bh-player"
+    ],
+    "streams": [
+      {
+        "id": "live-fm-bh-aac-trial",
+        "url": "https://stream.aiir.com/dbv0rxpwp6ytv",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-live-fm-bh-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher title explicitly lists Hindi, Malayalam, Tamil and Kannada; contact address is in Bahrain. Its player publishes this exact AIIR URL. This is the shared multilingual service, not a separate Tamil-only feed. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "quran-tamil-kw",
+    "name": "Quran in Tamil",
+    "networkId": "edc-kuwait",
+    "countryCode": "KW",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ar",
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/",
+    "sourceIds": [
+      "stage14-quran-tamil-kw-player",
+      "stage14-quran-tamil-kw-player-context-1",
+      "stage14-quran-tamil-kw-player-context-2"
+    ],
+    "streams": [
+      {
+        "id": "quran-tamil-kw-mp3-trial",
+        "url": "https://serverkw.quran-uni.com:8008/;*.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-quran-tamil-kw-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher has a dedicated Quran-in-Tamil radio page containing this exact continuous stream. Its terms identify Al-Najat Charity/Electronic Dawah Committee in Kuwait; country is not inferred from the serverkw hostname. Book copyright guidance is not a radio-use grant. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "sweety-fm-in",
+    "name": "Sweety FM Tamil",
+    "networkId": "sweety-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://sweetyfm.com/",
+    "sourceIds": [
+      "stage14-sweety-fm-in-player"
+    ],
+    "streams": [
+      {
+        "id": "sweety-fm-in-mp3-trial",
+        "url": "https://centova71.instainternet.com/proxy/sweetyfm/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-sweety-fm-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher labels Sweety FM Tamil and Tamil Christian Online Radio and gives Arakkonam, Tamil Nadu, India. Rendered audio element publishes this exact Centova live stream. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "hand-of-jesus-tamil-in",
+    "name": "Hand of Jesus Tamil",
+    "networkId": "hand-of-jesus",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://handofjesus.in/radio-tv/radio/tamil/",
+    "sourceIds": [
+      "stage14-hand-of-jesus-tamil-in-player",
+      "stage14-hand-of-jesus-tamil-in-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "hand-of-jesus-tamil-in-mp3-trial",
+        "url": "https://cast4.my-control-panel.com/proxy/hojtamil/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-hand-of-jesus-tamil-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher navigation reaches the explicit TAMIL radio page; its public player configuration maps hojtamil/stream. The ministry identifies Coonoor, Nilgiris, Tamil Nadu. A wrongly linked homepage language button was not trusted; Gujarati and other language streams were excluded. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "vaanmalar-fm-in",
+    "name": "Vaanmalar FM",
+    "networkId": "christian-media-india",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://vaanmalarfm.in/",
+    "sourceIds": [
+      "stage14-vaanmalar-fm-in-player"
+    ],
+    "streams": [
+      {
+        "id": "vaanmalar-fm-in-mp3-trial",
+        "url": "https://cast4.my-control-panel.com/proxy/vaanmalar2/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-vaanmalar-fm-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher names Vaanmalar FM as 24-hour online Tamil Christian radio, identifies its Chennai office, and publishes this exact live stream. Vaanmalar TV and other-language services were excluded. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "suno-tamil-qa",
+    "name": "Radio Suno Tamil",
+    "networkId": "olive-suno",
+    "countryCode": "QA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://tamil.suno.qa/",
+    "sourceIds": [
+      "stage14-suno-tamil-qa-player"
+    ],
+    "streams": [
+      {
+        "id": "suno-tamil-qa-aac-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_TAMIL_S01AAC.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-suno-tamil-qa-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher operates a specifically named Radio Suno Tamil player from Qatar. Its HTML publishes HTTP playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_TAMIL_S01AAC.aac; the same host/path HTTPS variant was independently tested and decoded. This is not the Malayalam 91.7 FM feed; no FM frequency is assigned. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "tamil-christian-radio-in",
+    "name": "Tamil Christian Radio",
+    "networkId": "voice-of-gospel",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://tamilchristianradio.org/",
+    "sourceIds": [
+      "stage14-tamil-christian-radio-in-player",
+      "stage14-tamil-christian-radio-in-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "tamil-christian-radio-in-mp3-trial",
+        "url": "https://centova71.instainternet.com/proxy/tamilchristianradio?mp=/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-tamil-christian-radio-in-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher identifies Tamil Christian Radio and its Tamil programme schedule, with Chennai contact geography. The public player configuration publishes this exact Centova source. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "good-news-tamil-ca",
+    "name": "Good News FM Tamil",
+    "networkId": "christvision-media",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://goodnewsfm.org/tamil-radio",
+    "sourceIds": [
+      "stage14-good-news-tamil-ca-player",
+      "stage14-good-news-tamil-ca-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "good-news-tamil-ca-mp3-trial",
+        "url": "https://radio.christvisionmedia.com/proxy/tamil/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-good-news-tamil-ca-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher identifies a Canadian multilingual network and a distinct Tamil Radio page. Its public jPlayer configuration maps this exact Christvision Tamil mount. English, Sinhala and Urdu programmes are separate and were not imported. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "3zzz-au",
+    "name": "3ZZZ 92.3FM",
+    "networkId": "3zzz",
+    "countryCode": "AU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "community",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": 92.3,
+    "website": "https://www.3zzz.com.au/",
+    "sourceIds": [
+      "stage14-3zzz-au-player",
+      "stage14-3zzz-au-player-context-1",
+      "stage14-3zzz-au-player-context-2"
+    ],
+    "streams": [
+      {
+        "id": "3zzz-au-aac-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/3ZZZAAC.aac?dist=3zzzwebsite",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-3zzz-au-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher schedule lists Tamil Thursdays 20:00–21:00 Melbourne time. Homepage station selector identifies station=1 as 3ZZZ 92.3FM; its public station-now API publishes this exact AAC URL. A multilingual community feed, not 24-hour Tamil. Unlisted languages remain described in notes. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "4eb-fm-au",
+    "name": "Radio 4EB 98.1 FM",
+    "networkId": "4eb",
+    "countryCode": "AU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "community",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": 98.1,
+    "website": "https://www.4eb.org.au/",
+    "sourceIds": [
+      "stage14-4eb-fm-au-player",
+      "stage14-4eb-fm-au-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "4eb-fm-au-mp3-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB.mp3?dist=4ebwebsite",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-4eb-fm-au-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher Tamil Oli page explicitly places Friday/Sunday Tamil programmes on 98.1 FM. Homepage identifies station=1 as 98.1 FM and its API publishes this exact MP3 feed. The other multilingual programmes are not Tamil-only. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "4eb-global-au",
+    "name": "Radio 4EB Global",
+    "networkId": "4eb",
+    "countryCode": "AU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "community",
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.4eb.org.au/",
+    "sourceIds": [
+      "stage14-4eb-global-au-player",
+      "stage14-4eb-global-au-player-context-1",
+      "stage14-4eb-global-au-player-context-2"
+    ],
+    "streams": [
+      {
+        "id": "4eb-global-au-mp3-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB_GLOBAL.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-4eb-global-au-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher distinguishes the Global digital service from 98.1 FM, with a separate Tamil Oli Global schedule. Homepage station=2 API publishes this exact distinct Global feed; it is not a bitrate/mirror card for the FM channel. Multilingual outside Tamil programme slots. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "5ebi-au",
+    "name": "5EBI 103.1 FM",
+    "networkId": "5ebi",
+    "countryCode": "AU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "en"
+    ],
+    "genres": [
+      "community",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": 103.1,
+    "website": "https://www.5ebi.com.au/",
+    "sourceIds": [
+      "stage14-5ebi-au-player",
+      "stage14-5ebi-au-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "5ebi-au-aac-trial",
+        "url": "https://icecast1.myradio.click/cast2_64k.aacp",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-5ebi-au-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher lists Tamil among its 40+ community languages and identifies Adelaide, South Australia. Official Listen Live/player page publishes cast2_64k.aacp. The first signature sniff misidentified MP3 while FFmpeg identified AAC and produced only 1.902 seconds. A bounded retry confirmed AAC and completed two seconds; multilingual outside scheduled Tamil programmes. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "namathu-fm-fr",
+    "name": "Namathu FM France",
+    "networkId": "namathu-fm",
+    "countryCode": "FR",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://namathufm.fr/",
+    "sourceIds": [
+      "stage14-namathu-fm-fr-player"
+    ],
+    "streams": [
+      {
+        "id": "namathu-fm-fr-mp3-trial",
+        "url": "https://s3.voscast.com:10527/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-namathu-fm-fr-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Current publisher title identifies Namathu FM France/Tamil radio and its rendered/source player publishes this exact Voscast URL. The obsolete .com directory domain fails DNS and was not used as the website. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "otran-vaanoli-ie",
+    "name": "Otran Vaanoli",
+    "networkId": "otran-vaanoli",
+    "countryCode": "IE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://otranvaanoli.com/",
+    "sourceIds": [
+      "stage14-otran-vaanoli-ie-player"
+    ],
+    "streams": [
+      {
+        "id": "otran-vaanoli-ie-mp3-trial",
+        "url": "https://cast.iplayradio.net/listen/otranvaanoli/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-otran-vaanoli-ie-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher labels 24/7 Tamil radio and explicitly publishes Dublin & Global Tamil Diaspora. Both its direct-stream link and downloadable public M3U name this exact iPlayRadio mount. Ireland is publisher-declared, not independently authenticated; Swiss contact number is not treated as a Swiss broadcasting city. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "thuthi-fm-no",
+    "name": "Thuthi FM",
+    "networkId": "tamil-christian-media",
+    "countryCode": "NO",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.thuthi.fm/",
+    "sourceIds": [
+      "stage14-thuthi-fm-no-player",
+      "stage14-thuthi-fm-no-player-context-1",
+      "stage14-thuthi-fm-no-player-context-2",
+      "stage14-thuthi-fm-no-player-context-3"
+    ],
+    "streams": [
+      {
+        "id": "thuthi-fm-no-mp3-trial",
+        "url": "https://streams.radio.co/s790fe269d/listen",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-thuthi-fm-no-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher about page identifies Tamil Christian radio from Norway. Its exact embedded widget aee7e8a links to public station s790fe269d, whose API names Thuthi FM and publishes /listen and /low. Only /listen is retained; /low is a bitrate alternative, not another station. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "radio-plus-indiz-mu",
+    "name": "Radio Plus Indiz",
+    "networkId": "radio-plus",
+    "countryCode": "MU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi",
+      "bho",
+      "ta",
+      "te",
+      "mr"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://live.radioplus.mu/webradio/indiz.html",
+    "sourceIds": [
+      "stage14-radio-plus-indiz-mu-player",
+      "stage14-radio-plus-indiz-mu-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "radio-plus-indiz-mu-mp3-trial",
+        "url": "https://streamer.radio.co/sed5c5a375/listen",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-radio-plus-indiz-mu-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher about page identifies Mauritius and explicitly describes Indiz as multilingual including Tamil. Its dedicated Indiz player publishes this exact Radio.co mount. Main Radio Plus, Hits and Fever were not substituted for Indiz. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "time-fm-toronto-ca",
+    "name": "Time FM Toronto",
+    "networkId": "time-fm",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://timefm.ca/",
+    "sourceIds": [
+      "stage14-time-fm-toronto-ca-player",
+      "stage14-time-fm-toronto-ca-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "time-fm-toronto-ca-mp3-trial",
+        "url": "https://neramfm.com:8000/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-time-fm-toronto-ca-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher identifies Canadian Tamil radio and labels this exact :8000 player as Toronto; :8008 is labelled Montreal. Only the Toronto candidate is retained pending sustained comparative programme checks. No distinct Montreal programme or continuous analogue frequency is inferred. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
+  },
+  {
+    "id": "inbathamil-oli-au",
+    "name": "Inbathamil Oli",
+    "networkId": "inbathamil-oli",
+    "countryCode": "AU",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "talk",
+      "community"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.inbathamil.com/",
+    "sourceIds": [
+      "stage14-inbathamil-oli-au-player",
+      "stage14-inbathamil-oli-au-player-context-1"
+    ],
+    "streams": [
+      {
+        "id": "inbathamil-oli-au-mp3-trial",
+        "url": "https://usa7.fastcast4u.com/proxy/ozmediae?mp=/1",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage14-inbathamil-oli-au-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T17:29:59.209Z",
+          "sourceId": "stage14-use-review",
+          "notes": "Public publisher-linked listening candidate for end-user trial. No RadioBee-specific allowance established. Respect source restrictions. Browser/Android compatibility and sustained availability are separate from a bounded decode; see Stage 14 evidence.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Publisher metadata identifies Tamil radio from Sydney, Australia and embeds Fastcast player ozmediae. That player identifies Inbathamil Oli; its public ?c=all JSON maps the exact usa7 proxy listening URL. The obsolete .com.au lead was not used. Bounded two-second decoding passed on 2026-11-09; not sustained browser playback or use permission. See Stage 14 browser and technical reports."
   }
 ]

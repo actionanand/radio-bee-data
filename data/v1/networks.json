@@ -488,5 +488,245 @@
     ],
     "kind": "online",
     "website": "https://arradiokerala.blogspot.com/"
+  },
+  {
+    "id": "vaagai-tamil",
+    "name": "Vaagai Tamil FM",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://vtfm.net/"
+  },
+  {
+    "id": "a9-media",
+    "name": "A9 Media",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://a9radio.com/"
+  },
+  {
+    "id": "amudham",
+    "name": "Amudham FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.amudhamfm.com/"
+  },
+  {
+    "id": "mauritius-global-diaspora",
+    "name": "Mauritius Global Diaspora",
+    "aliases": [],
+    "countryCodes": [
+      "MU"
+    ],
+    "kind": "online",
+    "website": "https://mauradio.com/"
+  },
+  {
+    "id": "theophony",
+    "name": "Theophony Ministries",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://theophony.org/tamil-christian-radio/"
+  },
+  {
+    "id": "jeifm",
+    "name": "JEIFM",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "online",
+    "website": "https://jeifm.com/"
+  },
+  {
+    "id": "amen-fm",
+    "name": "Amen FM",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.amenfm.com/"
+  },
+  {
+    "id": "live-fm",
+    "name": "Live FM Bahrain",
+    "aliases": [],
+    "countryCodes": [
+      "BH"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.livefm.bh/"
+  },
+  {
+    "id": "edc-kuwait",
+    "name": "Electronic Dawah Committee / Al-Najat Charity",
+    "aliases": [],
+    "countryCodes": [
+      "KW"
+    ],
+    "kind": "online",
+    "website": "https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/"
+  },
+  {
+    "id": "sweety-fm",
+    "name": "Sweety FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://sweetyfm.com/"
+  },
+  {
+    "id": "hand-of-jesus",
+    "name": "Hand of Jesus Ministries",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://handofjesus.in/radio-tv/radio/tamil/"
+  },
+  {
+    "id": "christian-media-india",
+    "name": "Christian Media Centre India",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://vaanmalarfm.in/"
+  },
+  {
+    "id": "olive-suno",
+    "name": "Olive Suno",
+    "aliases": [],
+    "countryCodes": [
+      "QA"
+    ],
+    "kind": "online",
+    "website": "https://tamil.suno.qa/"
+  },
+  {
+    "id": "voice-of-gospel",
+    "name": "Voice of Gospel",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://tamilchristianradio.org/"
+  },
+  {
+    "id": "christvision-media",
+    "name": "Christvision Media Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://goodnewsfm.org/tamil-radio"
+  },
+  {
+    "id": "3zzz",
+    "name": "3ZZZ",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.3zzz.com.au/"
+  },
+  {
+    "id": "4eb",
+    "name": "Radio 4EB",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.4eb.org.au/"
+  },
+  {
+    "id": "5ebi",
+    "name": "Ethnic Broadcasters Inc.",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.5ebi.com.au/"
+  },
+  {
+    "id": "namathu-fm",
+    "name": "Namathu FM",
+    "aliases": [],
+    "countryCodes": [
+      "FR"
+    ],
+    "kind": "online",
+    "website": "https://namathufm.fr/"
+  },
+  {
+    "id": "otran-vaanoli",
+    "name": "Otran Vaanoli",
+    "aliases": [],
+    "countryCodes": [
+      "IE"
+    ],
+    "kind": "online",
+    "website": "https://otranvaanoli.com/"
+  },
+  {
+    "id": "tamil-christian-media",
+    "name": "Tamil Christian Media",
+    "aliases": [],
+    "countryCodes": [
+      "NO"
+    ],
+    "kind": "online",
+    "website": "https://www.thuthi.fm/"
+  },
+  {
+    "id": "radio-plus",
+    "name": "Radio Plus Ltd / Defimedia",
+    "aliases": [],
+    "countryCodes": [
+      "MU"
+    ],
+    "kind": "online",
+    "website": "https://live.radioplus.mu/webradio/indiz.html"
+  },
+  {
+    "id": "time-fm",
+    "name": "Time FM Media",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://timefm.ca/"
+  },
+  {
+    "id": "inbathamil-oli",
+    "name": "Inbathamil Oli",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "online",
+    "website": "https://www.inbathamil.com/"
   }
 ]

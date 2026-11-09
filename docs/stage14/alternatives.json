@@ -1,0 +1,26 @@
+[
+  {
+    "stationId": "thuthi-fm-no",
+    "url": "https://streams.radio.co/s790fe269d/low",
+    "sourceUrl": "https://public.radio.co/api/v2/s790fe269d",
+    "decision": "Published bitrate alternative; not separately probed/added or counted as another programme"
+  },
+  {
+    "stationId": "3zzz-au",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/3ZZZ.mp3?dist=3zzzwebsite",
+    "sourceUrl": "https://www.3zzz.com.au/wp-json/metaradio/v1/stationnow/?station=1",
+    "decision": "Published format alternative; AAC retained, MP3 not probed/added or counted as another programme"
+  },
+  {
+    "stationId": "time-fm-toronto-ca",
+    "url": "https://neramfm.com:8008/stream",
+    "sourceUrl": "https://timefm.ca/",
+    "decision": "Publisher-labelled Montreal feed, not probed or added; comparative distinct-programme evidence and sustained playback needed before deciding whether another station is justified."
+  },
+  {
+    "stationId": null,
+    "name": "Plenty Valley FM",
+    "sourceUrl": "https://www.pvfm.org.au/wp-json/metaradio/v1/stationnow/?station=1",
+    "decision": "Current public player endpoints found; current Tamil schedule not established (only old 2021 schedule retrieved). Not added or re-probed from historical 224 audit."
+  }
+]
