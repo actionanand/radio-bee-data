@@ -15,7 +15,8 @@ Radio Browser returns station names, `stationuuid`, `url`, `url_resolved`, `favi
 From the **radio-bee-data** repository root, copy `radiobee_radio_browser_audit.py` into `scripts/`, then:
 
 ```bash
-python3 -m pip install requests
+# Use WSL2 Linux Node on PATH (existing repository runtime); requests is not used.
+node -p 'process.platform'  # must print linux
 
 # Primary Tamil API plus supplementary Tamil tag, TN / Puducherry state,
 # and regional/name searches. Matches exact names to ./data/v1/.

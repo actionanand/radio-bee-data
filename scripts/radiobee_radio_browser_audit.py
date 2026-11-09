@@ -13,16 +13,14 @@ import ipaddress
 import json
 import re
 import sys
-import time
+import subprocess
 from collections import Counter
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
 
-try:
-    import requests
-except ImportError:
-    sys.exit("Missing requests. Run: python3 -m pip install requests")
+from research_safety import safe_request, spreadsheet_row, spreadsheet_cell
+import base64
+from urllib.parse import urlencode
 
 HOSTS = (
     "de1.api.radio-browser.info",
@@ -60,15 +58,20 @@ def fetch(hosts: list[str], path: str, params: dict) -> list[dict]:
     last = None
     for host in hosts:
         try:
-            r = requests.get(f"https://{host}{path}", params=params, headers=HEADERS, timeout=(5, 13))
-            r.raise_for_status()
-            value = r.json()
-            if not isinstance(value, list):
-                raise ValueError("expected JSON station array")
-            return value
-        except (requests.RequestException, ValueError) as exc:
-            last = exc
-    raise RuntimeError(f"No mirror returned {path}: {last}")
+            rows = []
+            requested = min(int(params.get("limit", 500)), 500)
+            for offset in range(0, requested, 25):
+                query = dict(params, limit=min(25, requested-offset), offset=offset)
+                value = safe_request('api', f"https://{host}{path}?{urlencode(query)}")
+                if not isinstance(value, list):
+                    raise ValueError("expected JSON station array")
+                rows.extend(value)
+                if len(value) < query['limit']:
+                    return rows
+            raise ValueError("500-row safety ceiling reached; narrow the query or use saved JSON")
+        except (subprocess.SubprocessError, OSError, ValueError) as exc:
+            last = type(exc).__name__
+    raise RuntimeError(f"No mirror returned a complete bounded query for {path}: {last}")
 
 
 def jobs(wide: bool) -> list[tuple[str, str, dict]]:
@@ -107,12 +110,15 @@ def pick_url(st: dict) -> str:
 
 
 def is_public_https(url: str) -> bool:
+    """Syntax triage only; DNS/redirect safety is enforced by the Node transport."""
+    if any(c.isspace() or ord(c) < 32 or ord(c) == 127 for c in url):
+        return False
     try:
         p = urlparse(url)
         if p.scheme != "https" or not p.hostname or p.username or p.password:
             return False
         host = p.hostname.rstrip(".").lower()
-        if "." not in host or host == "localhost" or host.endswith((".local", ".localhost", ".internal", ".onion", ".home")):
+        if "." not in host or host == "localhost" or host.endswith((".local", ".localhost", ".internal", ".onion", ".home", ".home.arpa", ".lan", ".invalid")):
             return False
         try:
             # Do not issue probe requests against IP literals from untrusted directory results.
@@ -179,31 +185,20 @@ def probe(row: dict) -> tuple[str, str]:
     if not is_public_https(url):
         return "skipped", "Not public HTTPS (manual review required)"
     try:
-        # No automatic redirects to avoid following an untrusted feed into internal hosts.
-        with requests.get(url, headers={"User-Agent": HEADERS["User-Agent"], "Icy-MetaData": "0"},
-                          stream=True, timeout=(4, 7), allow_redirects=False) as r:
-            if r.status_code in (301, 302, 303, 307, 308):
-                return "redirect", "Redirect not followed; inspect target manually"
-            if r.status_code != 200:
-                return "http-error", f"HTTP {r.status_code}"
-            ct = r.headers.get("Content-Type", "").lower()
-            chunks = r.iter_content(chunk_size=2048)
-            data = next((chunk for chunk in chunks if chunk), b"")[:2048]
-            if not data:
-                return "empty", "HTTP 200 but no data within timeout"
-            if "html" in ct or data.lstrip().lower().startswith((b"<!doctype html", b"<html")):
-                return "html", f"Not audio; Content-Type={ct}"
-            if data.startswith(b"#EXTM3U") or "mpegurl" in ct:
-                return "playlist", "Playlist returned; segments not checked"
-            if data.startswith(b"[playlist]"):
-                return "playlist", "PLS returned; contained streams not checked"
-            if "audio/" in ct or data.startswith((b"ID3", b"OggS", b"fLaC")) or (data[:2] and data[0] == 0xff and data[1] & 0xe0 == 0xe0):
-                return "audio-bytes", "Audio-like response; decoding and station identity NOT verified"
-            return "bytes-unclassified", f"Received {len(data)} bytes; Content-Type={ct or 'unknown'}"
-    except requests.RequestException as exc:
-        return "network-error", str(exc).split("\n")[0][:140]
-    except StopIteration:
-        return "empty", "No stream bytes"
+        sample = safe_request('probe', url)
+        data = base64.b64decode(sample['bytes'], validate=True)
+        ct = sample['contentType'].lower()
+        if not data:
+            return 'empty', 'No bytes in bounded sample'
+        if 'html' in ct or data.lstrip().lower().startswith((b'<!doctype html', b'<html')):
+            return 'html', 'Not direct audio'
+        if data.startswith((b'#EXTM3U', b'[playlist]')) or 'mpegurl' in ct:
+            return 'playlist', 'Playlist only; nested resources not fetched by this probe'
+        if 'audio/' in ct or data.startswith((b'ID3', b'OggS', b'fLaC')) or (len(data)>1 and data[0]==255 and data[1]&224==224):
+            return 'audio-bytes', 'Bounded audio-like bytes; no decoder/identity approval'
+        return 'bytes-unclassified', 'Bounded response; format unconfirmed'
+    except (subprocess.SubprocessError, OSError, ValueError, KeyError):
+        return 'network-error', 'Safe transport rejected or failed; no unsafe fallback'
 
 
 def export(rows: list[dict], prefix: Path) -> None:
@@ -211,8 +206,8 @@ def export(rows: list[dict], prefix: Path) -> None:
     def csv_write(filename: str, data: list[dict]):
         with open(filename, "w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
-            w.writeheader()
-            w.writerows(data)
+            w.writerow({key: spreadsheet_cell(key) for key in CSV_FIELDS})
+            w.writerows(spreadsheet_row(row) for row in data)
     csv_write(str(prefix) + ".csv", rows)
     review = [r for r in rows if r["radiobee_status"] == "discovery-only" or any(term in r["name"].casefold() for term in REVIEW_TERMS)]
     csv_write(str(prefix) + "_priority.csv", review)
@@ -263,17 +258,12 @@ def main() -> int:
             except RuntimeError as exc:
                 print(f"WARNING: {exc}", file=sys.stderr)
         remaining = requests_jobs[1:]
-        if remaining:
-            with ThreadPoolExecutor(max_workers=6) as pool:
-                futures = {pool.submit(fetch, list(HOSTS), path, params): name for name, path, params in remaining}
-                for future in as_completed(futures):
-                    name = futures[future]
-                    try:
-                        values = future.result()
-                        tasks.append((name, values))
-                        print(f"{name}: {len(values)} records")
-                    except RuntimeError as exc:
-                        print(f"WARNING: {name}: {exc}", file=sys.stderr)
+        for name, path, params in remaining:
+            try:
+                values = fetch(list(HOSTS), path, params)
+                tasks.append((name, values))
+            except RuntimeError as exc:
+                print(f"WARNING: {name}: {exc}", file=sys.stderr)
     for name, arr in tasks:
         for st in arr:
             if not isinstance(st, dict) or not st.get("name") or not pick_url(st):

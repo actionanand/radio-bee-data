@@ -9,6 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
+from research_safety import spreadsheet_row
 from urllib.parse import urlsplit
 
 
@@ -70,7 +71,7 @@ def main():
     with (out / 'manifest.csv').open('w', encoding='utf-8', newline='') as file:
         writer = csv.DictWriter(file, fieldnames=['network_id', 'source_url', 'station_uuid', 'identity_confidence', 'usage_status', 'local_file', 'collection_status'])
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(spreadsheet_row(row) for row in rows)
     print(json.dumps({'candidates': len(rows), 'downloaded': sum(bool(r['local_file']) for r in rows), 'approved': 0}))
 
 

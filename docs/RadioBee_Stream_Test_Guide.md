@@ -149,4 +149,4 @@ For each trial, capture:
 - **No audible sound despite `playing`** — Check output volume, sound device, muted tab, and whether the stream is silent. Do not classify the station identity as confirmed.
 - **HLS `.m3u8` fails here** — Use VLC or RadioBee's HLS.js playback path; this Console test is intentionally dependency-free.
 
-**Repository location:** `radio-bee-data/docs/RADIO-STREAM-QUICK-TEST.md`
+**Repository location:** `radio-bee-data/docs/RadioBee_Stream_Test_Guide.md`
