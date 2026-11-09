@@ -13,6 +13,8 @@
 
 # Stage 13 — Tamil FM network stream expansion
 
+> Historical catalogue 1.8.0 report. The subsequent [v1.8.1 Thoothukudi hotfix](HOTFIX-13-AKASHVANI-THOOTHUKUDI.md) returns `air-thoothukudi` to discovery-only after a user-confirmed and independently reproduced 302 → 404 failure. The earlier successful probe and promotion evidence below remain unchanged; the other three promotions are retained.
+
 Prepared 9 November 2026 on `feature/13-tamil-fm-network-expansion`. Fresh HTTPS fetch of remote master matched HEAD **`ac74c8dd4753c018f2387df5ea2957792879280e`**, the merged Stage 12 release. Actual baseline counts matched the user's 92 / 43 / 49 / 46 / 47 figures. Three pre-existing untracked Stage 12 helper files were preserved, not executed or rewritten. No commit, push, PR, merge, deployment, client change, dependency installation or artwork regeneration.
 
 **Four defensible promotions implemented**, including a genuine Tamil Nadu restoration. This is **one below the lower target of five**, and six below ten. No extra identities were invented. Major private-network regional feeds remain unresolved; discovery listings were not filled with a shared Chennai feed or unrelated music channels merely to meet a quota.

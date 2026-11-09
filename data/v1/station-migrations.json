@@ -8,6 +8,12 @@
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
     },
     {
+      "oldId": "air-thoothukudi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "2026-11-09: HTTPS 302 to d1tmej9eu7kw5c.cloudfront.net followed by HTTP 404 text/html; user reproduced in Chrome and WSL2. No identity-confirmed replacement established."
+    },
+    {
       "oldId": "air-vellore",
       "canonicalId": null,
       "sourceId": null,

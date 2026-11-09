@@ -2008,54 +2008,6 @@
     ]
   },
   {
-    "id": "air-thoothukudi",
-    "name": "Akashvani Thoothukudi",
-    "networkId": "akashvani",
-    "countryCode": "IN",
-    "regionId": "in-tn",
-    "districtId": "in-tn-thoothukudi",
-    "localityId": "in-tn-thoothukudi-thoothukudi",
-    "broadcastLanguages": [
-      "ta"
-    ],
-    "genres": [
-      "general",
-      "news"
-    ],
-    "delivery": "fm",
-    "coverage": "local",
-    "listingStatus": "reviewed",
-    "frequencyMHz": null,
-    "website": "https://akashvani.gov.in/radio/live.php",
-    "sourceIds": [
-      "prasar-air-network",
-      "air-stage6-player",
-      "discovery-regional-2026",
-      "stage13-air-thoothukudi-player"
-    ],
-    "notes": "Distinct official Tuticorin/Thoothukudi service. Prior official HLS source returned 404. Previously discovery-only; no substitution with Tirunelveli or another city. Stage 13 (2026-11-09): exact publisher-associated stream passed bounded decoding; unverified trial, rights and direct-listening review remain pending. The prior 404 was historical; restored the archived stream record without altering its verification/rights history.",
-    "aliases": [],
-    "streams": [
-      {
-        "id": "air-thoothukudi-stage6-hls",
-        "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
-        "format": "hls",
-        "verificationStatus": "unverified",
-        "lastVerifiedAt": null,
-        "sourceId": "air-stage6-player",
-        "rightsStatus": "unconfirmed",
-        "directListening": {
-          "status": "needs-review",
-          "reviewedAt": "2026-11-06T16:27:52.570Z",
-          "sourceId": "stage6-use-review",
-          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
-          "recording": "unconfirmed",
-          "redistribution": "unconfirmed"
-        }
-      }
-    ]
-  },
-  {
     "id": "east-fm-ca",
     "name": "EAST FM 102.7",
     "networkId": "east-fm",
