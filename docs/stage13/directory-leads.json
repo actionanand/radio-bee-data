@@ -1,0 +1,220 @@
+{
+  "reviewedOn": "2026-11-09",
+  "note": "Thirteen selected small Radio Browser searches; discovery leads only. Empty result is not proof a service does not stream. Unknown query-bearing media URLs withheld. No 224-feed rerun.",
+  "queries": [
+    {
+      "query": "Hello FM",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Hello%20FM&limit=10&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "Hello Fm",
+          "stationuuid": "9e5d55f9-2b72-4f97-b720-aa68c007f663",
+          "countrycode": "GH",
+          "state": "",
+          "language": "akan",
+          "url": "https://atunwadigital.streamguys1.com/hellofm",
+          "url_resolved": "https://atunwadigital.streamguys1.com/hellofm",
+          "homepage": "https://hellofm.peacefmonline.com/",
+          "codec": "MP3",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "Suryan",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Suryan&limit=10&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "Suryan FM Chennai",
+          "stationuuid": "21f56b66-459e-4113-86d7-d8a8bb36c3a0",
+          "countrycode": "IN",
+          "state": "Tamilnadu",
+          "language": "",
+          "url": "http://radios.crabdance.com:8002/2",
+          "url_resolved": "http://radios.crabdance.com:8002/2",
+          "homepage": "https://www.suryanfm.in/",
+          "codec": "MP3",
+          "hls": 0,
+          "lastcheckok": 1
+        },
+        {
+          "name": "Suryan FM Chennai",
+          "stationuuid": "c7d2d51a-1d3f-46ed-bde9-e65722470109",
+          "countrycode": "IN",
+          "state": "TAMIL NADU",
+          "language": "",
+          "url": "http://radios.crabdance.com:8002/3",
+          "url_resolved": "http://radios.crabdance.com:8002/3",
+          "homepage": "https://www.suryanfm.in/",
+          "codec": "AAC+",
+          "hls": 0,
+          "lastcheckok": 1
+        },
+        {
+          "name": "Suryan FM Chennai",
+          "stationuuid": "8ea488a3-5395-4a57-af28-691104d756cf",
+          "countrycode": "IN",
+          "state": "TAMIL NADU",
+          "language": "",
+          "url": "http://radios.crabdance.com:8002/1",
+          "url_resolved": "http://radios.crabdance.com:8002/1",
+          "homepage": "https://www.suryanfm.in/",
+          "codec": "AAC+",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "Mirchi Tamil",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Mirchi%20Tamil&limit=10&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "Radio City Chennai",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Radio%20City%20Chennai&limit=10&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "Radio City chennai",
+          "stationuuid": "2a2c76f6-f926-4d81-bc3b-d93bf0a22b63",
+          "countrycode": "IN",
+          "state": "TAMIL NADU",
+          "language": "",
+          "url": "http://radios.crabdance.com:8002/5",
+          "url_resolved": "http://radios.crabdance.com:8002/5",
+          "homepage": "https://www.radiocity.in/",
+          "codec": "AAC+",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "big-fm-tamil",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=big-fm-tamil&limit=10&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "big-fm-tamil",
+          "stationuuid": "affabd4d-31ef-4296-9ab8-db55a7debc38",
+          "countrycode": "IN",
+          "state": "",
+          "language": "tamil",
+          "url": "https://stream.zeno.fm/r2gn1pgm4qruv",
+          "url_resolved": "https://stream.zeno.fm/r2gn1pgm4qruv",
+          "homepage": "",
+          "codec": "MP3",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "Annai",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Annai&limit=10&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "Christian Samy",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Christian%20Samy&limit=10&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "Thoothukudi",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Thoothukudi&limit=10&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "Raaga",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=Raaga&countrycode=MY&limit=8&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "Raaga",
+          "stationuuid": "9cea9ca8-d69e-41fc-9031-9ebc751dcdf9",
+          "countrycode": "MY",
+          "state": "",
+          "language": "",
+          "url": "https://n06.rcs.revma.com/1ut6qwtbv4uvv",
+          "url_resolved": "https://n06.rcs.revma.com/1ut6qwtbv4uvv",
+          "homepage": "https://raaga.syok.my/",
+          "codec": "AAC",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "ATBC",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=ATBC&countrycode=AU&limit=8&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "CMR",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=CMR&countrycode=CA&limit=8&hidebroken=false",
+      "error": null,
+      "stations": []
+    },
+    {
+      "query": "EAST",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=EAST&countrycode=CA&limit=8&hidebroken=false",
+      "error": null,
+      "stations": [
+        {
+          "name": "CBC Music Eastern (formerly CBC Radio 2 Toronto)",
+          "stationuuid": "b4bbf2be-d132-43d8-a094-d6fabf82a966",
+          "countrycode": "CA",
+          "state": "",
+          "language": "",
+          "url": "https://cbcradiolive.akamaized.net/hls/live/2041057/ES_R2ETR/master.m3u8",
+          "url_resolved": "https://cbcradiolive.akamaized.net/hls/live/2041057/ES_R2ETR/master.m3u8",
+          "homepage": "[withheld: query-bearing or authenticated URL]",
+          "codec": "AAC",
+          "hls": 1,
+          "lastcheckok": 1
+        },
+        {
+          "name": "CBC Music Eastern (Toronto) MP3 Stream",
+          "stationuuid": "278df5f8-6b73-4254-a8df-07c62e07da8b",
+          "countrycode": "CA",
+          "state": "Ontario",
+          "language": "english",
+          "url": "https://playerservices.streamtheworld.com/pls/CBLFM_CBC.pls",
+          "url_resolved": "https://22983.live.streamtheworld.com/CBLFM_CBC_SC",
+          "homepage": "https://www.cbc.ca/music",
+          "codec": "MP3",
+          "hls": 0,
+          "lastcheckok": 1
+        },
+        {
+          "name": "Seaside FM 105.9 - CFEP-FM - Eastern Passage",
+          "stationuuid": "7772f7a0-42bd-4010-a34a-4c58b2e322ed",
+          "countrycode": "CA",
+          "state": "",
+          "language": "english",
+          "url": "https://seasidefm1059.radioca.st/;",
+          "url_resolved": "https://seasidefm1059.radioca.st/;",
+          "homepage": "",
+          "codec": "MP3",
+          "hls": 0,
+          "lastcheckok": 1
+        }
+      ]
+    },
+    {
+      "query": "CTBC",
+      "sourceUrl": "https://de1.api.radio-browser.info/json/stations/search?name=CTBC&countrycode=CA&limit=8&hidebroken=false",
+      "error": null,
+      "stations": []
+    }
+  ]
+}

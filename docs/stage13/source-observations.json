@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "id": "hello",
+      "url": "https://hellofm.in/",
+      "checkedAt": "2026-11-09T14:43:44.677Z",
+      "status": null,
+      "truncated": false,
+      "error": "connect ECONNREFUSED 162.215.226.4:443"
+    },
+    {
+      "id": "suryan",
+      "url": "https://www.suryanfm.in/about-us/",
+      "checkedAt": "2026-11-09T14:43:45.191Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "mirchi",
+      "url": "https://mirchi.in/helpcenter",
+      "checkedAt": "2026-11-09T14:43:46.078Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "city",
+      "url": "https://www.radiocity.in/",
+      "checkedAt": "2026-11-09T14:43:46.821Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "big",
+      "url": "https://www.bigfmindia.com/",
+      "checkedAt": "2026-11-09T14:43:47.667Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "annai",
+      "url": "https://zeno.fm/radio/annai-fm/",
+      "checkedAt": "2026-11-09T14:43:48.776Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "asr",
+      "url": "https://radio.asrdmm.com/",
+      "checkedAt": "2026-11-09T14:43:50.586Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "samy",
+      "url": "https://zeno.fm/radio/christian-samy-fm/",
+      "checkedAt": "2026-11-09T14:43:53.249Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "athavan",
+      "url": "https://athavanradio.com/uk/",
+      "checkedAt": "2026-11-09T14:43:55.127Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "cmr",
+      "url": "https://cmr24.net/about-us/",
+      "checkedAt": "2026-11-09T14:43:58.281Z",
+      "status": null,
+      "truncated": false,
+      "error": "The operation was aborted"
+    },
+    {
+      "id": "east",
+      "url": "https://eastfm.ca/main/",
+      "checkedAt": "2026-11-09T14:44:08.294Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "ctbc",
+      "url": "https://www.ctbc.com/",
+      "checkedAt": "2026-11-09T14:44:09.990Z",
+      "status": null,
+      "truncated": false,
+      "error": "The operation was aborted"
+    },
+    {
+      "id": "ctr",
+      "url": "https://ctr24.com/",
+      "checkedAt": "2026-11-09T14:44:20.004Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "atbc",
+      "url": "https://www.atbc.net.au/",
+      "checkedAt": "2026-11-09T14:44:22.048Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "raaga",
+      "url": "https://raaga.my/",
+      "checkedAt": "2026-11-09T14:44:23.241Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "id": "swiss",
+      "url": "https://swisstamilradio.com/",
+      "checkedAt": "2026-11-09T14:44:24.642Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "tarana",
+      "url": "https://www.rova.nz/radio/tarana-tamil",
+      "checkedAt": "2026-11-09T14:44:26.201Z",
+      "status": 200,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "id": "lotus",
+      "url": "https://www.lotusfm.co.za/lotusfm/",
+      "checkedAt": "2026-11-09T14:44:27.111Z",
+      "status": 200,
+      "truncated": true,
+      "error": null
+    }
+  ],
+  "additionalPrimaryFindings": [
+    {
+      "url": "https://eastfm.ca/",
+      "evidence": "audioEl src exactly matches accepted endpoint; ON NOW Netru Indru Naalai (Tamil), Toronto 09:00–12:00 observed in browser."
+    },
+    {
+      "url": "https://swisstamilradio.com/",
+      "evidence": "strData.stream exactly https://usa20.fastcast4u.com/swiss, name Swiss Tamil Radio."
+    },
+    {
+      "url": "https://www.lotusfm.co.za/lotusfm/live-player/",
+      "evidence": "Public data-data JSON: outer title Motsweding Live, nested station title Lotus Live Radio, exact LOTUSFMAAC endpoint. Outer template mismatch retained as limitation."
+    },
+    {
+      "url": "https://ctr24-backend.vercel.app/api/settings",
+      "evidence": "Exact public API referenced by current official homepage; stream_url is HTTP numeric-IP source, not accepted."
+    },
+    {
+      "url": "https://akashvani.gov.in/radio/live.php",
+      "evidence": "HTTP 200, truncated at 128 KiB before Tamil Nadu listings. Exact Tuticorin channel 254 mapping reused from Stage 6; not falsely claimed freshly re-extracted."
+    }
+  ]
+}

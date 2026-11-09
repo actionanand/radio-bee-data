@@ -1024,37 +1024,6 @@
     "websiteKind": null
   },
   {
-    "id": "air-thoothukudi",
-    "name": "Akashvani Thoothukudi",
-    "networkId": "akashvani",
-    "countryCode": "IN",
-    "regionId": "in-tn",
-    "districtId": "in-tn-thoothukudi",
-    "localityId": "in-tn-thoothukudi-thoothukudi",
-    "broadcastLanguages": [
-      "ta"
-    ],
-    "genres": [
-      "general",
-      "news"
-    ],
-    "delivery": "fm",
-    "coverage": "local",
-    "listingStatus": "reviewed",
-    "frequencyMHz": null,
-    "website": "https://akashvani.gov.in/radio/live.php",
-    "sourceIds": [
-      "prasar-air-network",
-      "air-stage6-player",
-      "discovery-regional-2026"
-    ],
-    "notes": "Distinct official Tuticorin/Thoothukudi service. Prior official HLS source returned 404. Metadata only; no substitution with Tirunelveli or another city.",
-    "aliases": [],
-    "availability": "temporarily-unavailable",
-    "reviewedOn": "2026-11-08",
-    "websiteKind": "official"
-  },
-  {
     "id": "tamilosai-nagercoil",
     "name": "Tamilosai FM",
     "networkId": "tamilosai-fm",
@@ -1210,36 +1179,6 @@
     "websiteKind": "official"
   },
   {
-    "id": "east-fm-ca",
-    "name": "EAST FM 102.7",
-    "networkId": "east-fm",
-    "countryCode": "CA",
-    "regionId": "ca-on",
-    "districtId": null,
-    "localityId": null,
-    "broadcastLanguages": [
-      "ta"
-    ],
-    "genres": [
-      "music",
-      "community",
-      "talk"
-    ],
-    "delivery": "fm",
-    "coverage": "local",
-    "listingStatus": "candidate",
-    "frequencyMHz": 102.7,
-    "website": "https://eastfm.ca/main/",
-    "sourceIds": [
-      "world-east-fm-ca-2026"
-    ],
-    "notes": "Toronto multilingual station with substantial scheduled Tamil programming. Language tag identifies Tamil inclusion, not Tamil-only output; official schedule also lists Punjabi, Urdu/Hindi, Farsi, Telugu, Arabic and other languages. One station card; do not split its schedule into multiple broadcasts.",
-    "aliases": [],
-    "availability": "review-pending",
-    "reviewedOn": "2026-11-08",
-    "websiteKind": "official"
-  },
-  {
     "id": "ctbc-ca",
     "name": "Canadian Tamil Broadcasting Corporation",
     "networkId": "ctbc",
@@ -1364,36 +1303,6 @@
     "websiteKind": "official"
   },
   {
-    "id": "swiss-tamil-radio-ch",
-    "name": "Swiss Tamil Radio",
-    "networkId": "swiss-tamil-radio",
-    "countryCode": "CH",
-    "regionId": null,
-    "districtId": null,
-    "localityId": null,
-    "broadcastLanguages": [
-      "ta"
-    ],
-    "genres": [
-      "music",
-      "news",
-      "general"
-    ],
-    "delivery": "online",
-    "coverage": "global",
-    "listingStatus": "candidate",
-    "frequencyMHz": null,
-    "website": "https://swisstamilradio.com/",
-    "sourceIds": [
-      "world-swiss-tamil-radio-ch-2026"
-    ],
-    "notes": "Official site identifies online Tamil radio from Switzerland with live control and programme schedule. Precise studio locality and ownership relationship to other Swiss stations are not established; no alias equivalence or stream sharing is assumed.",
-    "aliases": [],
-    "availability": "review-pending",
-    "reviewedOn": "2026-11-08",
-    "websiteKind": "official"
-  },
-  {
     "id": "tarana-tamil-nz",
     "name": "Tarana Tamil",
     "networkId": "tarana",
@@ -1422,37 +1331,5 @@
     "availability": "review-pending",
     "reviewedOn": "2026-11-08",
     "websiteKind": "provider"
-  },
-  {
-    "id": "lotus-fm-za",
-    "name": "Lotus FM",
-    "networkId": "sabc",
-    "countryCode": "ZA",
-    "regionId": null,
-    "districtId": null,
-    "localityId": null,
-    "broadcastLanguages": [
-      "en",
-      "ta",
-      "te"
-    ],
-    "genres": [
-      "music",
-      "talk",
-      "community"
-    ],
-    "delivery": "fm",
-    "coverage": "national",
-    "listingStatus": "candidate",
-    "frequencyMHz": null,
-    "website": "https://www.lotusfm.co.za/lotusfm/",
-    "sourceIds": [
-      "world-lotus-fm-za-2026"
-    ],
-    "notes": "Multilingual SABC service with a specifically documented Tamil-language In Isai Mazhai programme; not a 24-hour Tamil station. Official page template exposes a MOTSWEDING stream: identity mismatch, excluded rather than relabelled Lotus. Exact frequencies and full language inventory not asserted here.",
-    "aliases": [],
-    "availability": "review-pending",
-    "reviewedOn": "2026-11-08",
-    "websiteKind": "official"
   }
 ]

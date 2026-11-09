@@ -1,0 +1,55 @@
+{
+  "reportedOn": "2026-11-09",
+  "source": "User Stage 13 instruction",
+  "claim": "User confirmed Chrome playback for the seven Stage 12 additions and Hello FM Chennai. Duration unspecified; not independent broadcaster authentication or a use/recording/redistribution grant.",
+  "stations": [
+    {
+      "stationId": "shiva-tattvam",
+      "streamUrls": [
+        "https://radio.shaivam.org/listen/shiva-tattvam/radio.mp3"
+      ]
+    },
+    {
+      "stationId": "thiruneriya-thamizhosai",
+      "streamUrls": [
+        "https://radio.shaivam.org/listen/thiruneriya-thamizhosai/radio.mp3"
+      ]
+    },
+    {
+      "stationId": "star-fm-srilanka",
+      "streamUrls": [
+        "https://stream.starfm.lk:12025/stream"
+      ]
+    },
+    {
+      "stationId": "boom-tamil",
+      "streamUrls": [
+        "https://streaming.boomtamil.com/toronto"
+      ]
+    },
+    {
+      "stationId": "tamil-panpalai",
+      "streamUrls": [
+        "https://tamilpanpalai.radioca.st/stream"
+      ]
+    },
+    {
+      "stationId": "aural-radio",
+      "streamUrls": [
+        "https://live.auralradiokerala.in/auralradio/mp3"
+      ]
+    },
+    {
+      "stationId": "ar-radio",
+      "streamUrls": [
+        "https://eu8.fastcast4u.com/proxy/arradio/stream"
+      ]
+    },
+    {
+      "stationId": "hello-chennai",
+      "streamUrls": [
+        "https://listen.openstream.co/4428/audio"
+      ]
+    }
+  ]
+}

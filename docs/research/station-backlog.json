@@ -35,54 +35,6 @@
     },
     {
       "station": {
-        "id": "air-thoothukudi",
-        "name": "Akashvani Thoothukudi",
-        "networkId": "akashvani",
-        "countryCode": "IN",
-        "regionId": "in-tn",
-        "districtId": "in-tn-thoothukudi",
-        "localityId": "in-tn-thoothukudi-thoothukudi",
-        "broadcastLanguages": [
-          "ta"
-        ],
-        "genres": [
-          "general",
-          "news"
-        ],
-        "delivery": "fm",
-        "coverage": "local",
-        "listingStatus": "reviewed",
-        "frequencyMHz": null,
-        "website": "https://akashvani.gov.in/radio/live.php",
-        "sourceIds": [
-          "prasar-air-network",
-          "air-stage6-player"
-        ],
-        "streams": [
-          {
-            "id": "air-thoothukudi-stage6-hls",
-            "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
-            "format": "hls",
-            "verificationStatus": "unverified",
-            "lastVerifiedAt": null,
-            "sourceId": "air-stage6-player",
-            "rightsStatus": "unconfirmed",
-            "directListening": {
-              "status": "needs-review",
-              "reviewedAt": "2026-11-06T16:27:52.570Z",
-              "sourceId": "stage6-use-review",
-              "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
-              "recording": "unconfirmed",
-              "redistribution": "unconfirmed"
-            }
-          }
-        ],
-        "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 254: Akashvani Tuticorin. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
-      },
-      "reason": "No currently usable direct candidate: HTTP 404"
-    },
-    {
-      "station": {
         "id": "air-vellore",
         "name": "Akashvani Vellore",
         "networkId": "akashvani",
