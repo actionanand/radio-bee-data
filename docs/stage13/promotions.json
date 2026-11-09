@@ -1,0 +1,339 @@
+[
+  {
+    "stationId": "air-thoothukudi",
+    "id": "air-thoothukudi",
+    "publication": "unverified-trial",
+    "sourceId": "stage13-air-thoothukudi-player",
+    "sourceUrl": "https://akashvani.gov.in/radio/live.php",
+    "identityReview": "Official Stage 6 channel 254 names Akashvani Tuticorin and maps this exact endpoint. Historical 404 no longer reproduced: current manifest, segment and bounded AAC decoding succeed. Same city programme restored, not Tirunelveli or a network-wide substitution. Current official page is reachable but bounded HTML is truncated before the Tamil Nadu entries; exact named mapping is retained historical evidence.",
+    "programmeScope": "local",
+    "previousDiscoveryIndex": 35,
+    "previousDiscoveryRecord": {
+      "id": "air-thoothukudi",
+      "name": "Akashvani Thoothukudi",
+      "networkId": "akashvani",
+      "countryCode": "IN",
+      "regionId": "in-tn",
+      "districtId": "in-tn-thoothukudi",
+      "localityId": "in-tn-thoothukudi-thoothukudi",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "genres": [
+        "general",
+        "news"
+      ],
+      "delivery": "fm",
+      "coverage": "local",
+      "listingStatus": "reviewed",
+      "frequencyMHz": null,
+      "website": "https://akashvani.gov.in/radio/live.php",
+      "sourceIds": [
+        "prasar-air-network",
+        "air-stage6-player",
+        "discovery-regional-2026"
+      ],
+      "notes": "Distinct official Tuticorin/Thoothukudi service. Prior official HLS source returned 404. Metadata only; no substitution with Tirunelveli or another city.",
+      "aliases": [],
+      "availability": "temporarily-unavailable",
+      "reviewedOn": "2026-11-08",
+      "websiteKind": "official"
+    },
+    "previousMigrationIndex": 1,
+    "previousMigrationRecord": {
+      "oldId": "air-thoothukudi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No currently usable direct candidate: HTTP 404"
+    },
+    "previousBacklogIndex": 1,
+    "previousBacklogRecord": {
+      "station": {
+        "id": "air-thoothukudi",
+        "name": "Akashvani Thoothukudi",
+        "networkId": "akashvani",
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-thoothukudi",
+        "localityId": "in-tn-thoothukudi-thoothukudi",
+        "broadcastLanguages": [
+          "ta"
+        ],
+        "genres": [
+          "general",
+          "news"
+        ],
+        "delivery": "fm",
+        "coverage": "local",
+        "listingStatus": "reviewed",
+        "frequencyMHz": null,
+        "website": "https://akashvani.gov.in/radio/live.php",
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "streams": [
+          {
+            "id": "air-thoothukudi-stage6-hls",
+            "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+            "format": "hls",
+            "verificationStatus": "unverified",
+            "lastVerifiedAt": null,
+            "sourceId": "air-stage6-player",
+            "rightsStatus": "unconfirmed",
+            "directListening": {
+              "status": "needs-review",
+              "reviewedAt": "2026-11-06T16:27:52.570Z",
+              "sourceId": "stage6-use-review",
+              "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+              "recording": "unconfirmed",
+              "redistribution": "unconfirmed"
+            }
+          }
+        ],
+        "notes": "Terrestrial service/location reference. An internet stream for this exact city is not yet confirmed. Stage 6 exact official player channel 254: Akashvani Tuticorin. Named service association; decoding, audible identity and listening-use review pending. Existing language/genre tags not reverified by this mapping."
+      },
+      "reason": "No currently usable direct candidate: HTTP 404"
+    },
+    "streams": [
+      {
+        "id": "air-thoothukudi-stage6-hls",
+        "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-stage6-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "not-tested",
+    "browserObservation": null,
+    "androidPlayback": "not-tested"
+  },
+  {
+    "stationId": "east-fm-ca",
+    "id": "east-fm-ca",
+    "publication": "unverified-trial",
+    "sourceId": "stage13-east-fm-ca-player",
+    "sourceUrl": "https://eastfm.ca/",
+    "identityReview": "Current broadcaster root page audioEl publishes this exact stream and identifies EAST FM 102.7, Toronto, with a Tamil programme schedule. Multilingual local broadcast, not Tamil-only and not eastcoastradio. Old /main/ page did not expose the current player.",
+    "programmeScope": "local",
+    "previousDiscoveryIndex": 41,
+    "previousDiscoveryRecord": {
+      "id": "east-fm-ca",
+      "name": "EAST FM 102.7",
+      "networkId": "east-fm",
+      "countryCode": "CA",
+      "regionId": "ca-on",
+      "districtId": null,
+      "localityId": null,
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "genres": [
+        "music",
+        "community",
+        "talk"
+      ],
+      "delivery": "fm",
+      "coverage": "local",
+      "listingStatus": "candidate",
+      "frequencyMHz": 102.7,
+      "website": "https://eastfm.ca/main/",
+      "sourceIds": [
+        "world-east-fm-ca-2026"
+      ],
+      "notes": "Toronto multilingual station with substantial scheduled Tamil programming. Language tag identifies Tamil inclusion, not Tamil-only output; official schedule also lists Punjabi, Urdu/Hindi, Farsi, Telugu, Arabic and other languages. One station card; do not split its schedule into multiple broadcasts.",
+      "aliases": [],
+      "availability": "review-pending",
+      "reviewedOn": "2026-11-08",
+      "websiteKind": "official"
+    },
+    "previousMigrationIndex": null,
+    "previousMigrationRecord": null,
+    "previousBacklogIndex": null,
+    "previousBacklogRecord": null,
+    "streams": [
+      {
+        "id": "east-fm-ca-stage13-mp3-trial",
+        "url": "https://centova.radioservers.biz/proxy/eastfmc1/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage13-east-fm-ca-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T14:50:02.377Z",
+          "sourceId": "stage13-east-fm-ca-player",
+          "notes": "Publisher-associated direct listening trial. No RadioBee-specific use allowance established; public endpoint and short decoding do not authorize recording or redistribution. Respect express restrictions and retain separate permission review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "browser-playback-progress",
+    "browserObservation": {
+      "engine": "in-app browser; not installed Chrome",
+      "currentTimeSeconds": 6.690075,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "humanAudibility": "not-attested",
+      "independentSpokenIdentity": "not-tested",
+      "stoppedAfterCheck": true
+    },
+    "androidPlayback": "not-tested"
+  },
+  {
+    "stationId": "swiss-tamil-radio-ch",
+    "id": "swiss-tamil-radio-ch",
+    "publication": "unverified-trial",
+    "sourceId": "stage13-swiss-tamil-radio-ch-player",
+    "sourceUrl": "https://swisstamilradio.com/",
+    "identityReview": "Current publisher strData names Swiss Tamil Radio and publishes usa20.fastcast4u.com/swiss. The historical directory usa19 endpoint is not substituted. One Swiss online programme, separate from Thaalam and Akkini.",
+    "programmeScope": "global",
+    "previousDiscoveryIndex": 46,
+    "previousDiscoveryRecord": {
+      "id": "swiss-tamil-radio-ch",
+      "name": "Swiss Tamil Radio",
+      "networkId": "swiss-tamil-radio",
+      "countryCode": "CH",
+      "regionId": null,
+      "districtId": null,
+      "localityId": null,
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "genres": [
+        "music",
+        "news",
+        "general"
+      ],
+      "delivery": "online",
+      "coverage": "global",
+      "listingStatus": "candidate",
+      "frequencyMHz": null,
+      "website": "https://swisstamilradio.com/",
+      "sourceIds": [
+        "world-swiss-tamil-radio-ch-2026"
+      ],
+      "notes": "Official site identifies online Tamil radio from Switzerland with live control and programme schedule. Precise studio locality and ownership relationship to other Swiss stations are not established; no alias equivalence or stream sharing is assumed.",
+      "aliases": [],
+      "availability": "review-pending",
+      "reviewedOn": "2026-11-08",
+      "websiteKind": "official"
+    },
+    "previousMigrationIndex": null,
+    "previousMigrationRecord": null,
+    "previousBacklogIndex": null,
+    "previousBacklogRecord": null,
+    "streams": [
+      {
+        "id": "swiss-tamil-radio-ch-stage13-mp3-trial",
+        "url": "https://usa20.fastcast4u.com/swiss",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage13-swiss-tamil-radio-ch-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T14:47:10.345Z",
+          "sourceId": "stage13-swiss-tamil-radio-ch-player",
+          "notes": "Publisher-associated direct listening trial. No RadioBee-specific use allowance established; public endpoint and short decoding do not authorize recording or redistribution. Respect express restrictions and retain separate permission review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "browser-playback-progress",
+    "browserObservation": {
+      "engine": "in-app browser; not installed Chrome",
+      "currentTimeSeconds": 3.880948,
+      "paused": false,
+      "readyState": 4,
+      "error": null,
+      "humanAudibility": "not-attested",
+      "independentSpokenIdentity": "not-tested",
+      "stoppedAfterCheck": true
+    },
+    "androidPlayback": "not-tested"
+  },
+  {
+    "stationId": "lotus-fm-za",
+    "id": "lotus-fm-za",
+    "publication": "unverified-trial",
+    "sourceId": "stage13-lotus-fm-za-player",
+    "sourceUrl": "https://www.lotusfm.co.za/lotusfm/live-player/",
+    "identityReview": "Official Lotus live-player HTML data-data is base64-encoded plaintext JSON. Nested stations entry explicitly names Lotus Live Radio with this exact LOTUSFMAAC endpoint. Outer widget title says Motsweding Live: retained template inconsistency, not used to select MOTSWEDINGAAC. One South African multilingual scheduled Tamil service, not a 24-hour Tamil channel.",
+    "programmeScope": "national",
+    "previousDiscoveryIndex": 48,
+    "previousDiscoveryRecord": {
+      "id": "lotus-fm-za",
+      "name": "Lotus FM",
+      "networkId": "sabc",
+      "countryCode": "ZA",
+      "regionId": null,
+      "districtId": null,
+      "localityId": null,
+      "broadcastLanguages": [
+        "en",
+        "ta",
+        "te"
+      ],
+      "genres": [
+        "music",
+        "talk",
+        "community"
+      ],
+      "delivery": "fm",
+      "coverage": "national",
+      "listingStatus": "candidate",
+      "frequencyMHz": null,
+      "website": "https://www.lotusfm.co.za/lotusfm/",
+      "sourceIds": [
+        "world-lotus-fm-za-2026"
+      ],
+      "notes": "Multilingual SABC service with a specifically documented Tamil-language In Isai Mazhai programme; not a 24-hour Tamil station. Official page template exposes a MOTSWEDING stream: identity mismatch, excluded rather than relabelled Lotus. Exact frequencies and full language inventory not asserted here.",
+      "aliases": [],
+      "availability": "review-pending",
+      "reviewedOn": "2026-11-08",
+      "websiteKind": "official"
+    },
+    "previousMigrationIndex": null,
+    "previousMigrationRecord": null,
+    "previousBacklogIndex": null,
+    "previousBacklogRecord": null,
+    "streams": [
+      {
+        "id": "lotus-fm-za-stage13-aac-trial",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOTUSFMAAC.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage13-lotus-fm-za-player",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T14:54:13.714Z",
+          "sourceId": "stage13-lotus-fm-za-player",
+          "notes": "Publisher-associated direct listening trial. No RadioBee-specific use allowance established; public endpoint and short decoding do not authorize recording or redistribution. Respect express restrictions and retain separate permission review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "browserPlayback": "not-tested",
+    "browserObservation": null,
+    "androidPlayback": "not-tested"
+  }
+]

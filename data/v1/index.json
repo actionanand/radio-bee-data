@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "1.7.0",
+  "catalogVersion": "1.8.0",
   "publishedOn": "2026-11-09",
   "defaultLocale": "en",
   "locales": [
@@ -26,13 +26,13 @@
   ],
   "counts": {
     "networks": 47,
-    "stations": 43,
+    "stations": 47,
     "locations": 111,
-    "streams": 46,
+    "streams": 50,
     "verifiedStreams": 1,
-    "discoveryStations": 49,
+    "discoveryStations": 45,
     "discoverableStations": 92,
-    "stationsWithStreamCandidates": 43,
+    "stationsWithStreamCandidates": 47,
     "productionEligibleStations": 0
   },
   "files": {

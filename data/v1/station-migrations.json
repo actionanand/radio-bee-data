@@ -8,12 +8,6 @@
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
     },
     {
-      "oldId": "air-thoothukudi",
-      "canonicalId": null,
-      "sourceId": null,
-      "reason": "No currently usable direct candidate: HTTP 404"
-    },
-    {
       "oldId": "air-vellore",
       "canonicalId": null,
       "sourceId": null,

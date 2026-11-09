@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-09",
+  "limits": {
+    "mode": "manual-only deep audit",
+    "mediaBytesPerAudit": 131072,
+    "networkDeadlineMs": 35000,
+    "decoderTimeoutMs": 5000,
+    "requestDeadlineMs": 10000,
+    "maxRedirects": 5,
+    "concurrentAuditRequests": 1,
+    "decoderMaxSeconds": 2,
+    "decoderInput": "pipe-only memory bytes",
+    "savedAudioBytes": 0
+  },
+  "results": [
+    {
+      "stationId": "ctr-ca",
+      "requestUrl": "https://stream.ctr24.com/live",
+      "checkedAt": "2026-11-09T14:47:06.903Z",
+      "status": "down",
+      "httpStatus": 404,
+      "mime": null,
+      "format": null,
+      "cors": null,
+      "redirects": [],
+      "sampledBytes": 0,
+      "decoding": null,
+      "segment": null,
+      "failureReason": "HTTP 404",
+      "browserPlayback": "not-tested",
+      "identityDecision": "not-approved",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "swiss-tamil-radio-ch",
+      "requestUrl": "https://usa20.fastcast4u.com/swiss",
+      "checkedAt": "2026-11-09T14:47:10.345Z",
+      "status": "decoded-sample",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "format": "mp3",
+      "cors": "*",
+      "redirects": [],
+      "sampledBytes": 131072,
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "segment": null,
+      "failureReason": null,
+      "browserPlayback": "browser-playback-progress",
+      "identityDecision": "publisher-associated; independent audible identity untested",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "christian-samy-fm",
+      "requestUrl": "https://stream.zeno.fm/zdyrvhfkeg8uv",
+      "checkedAt": "2026-11-09T14:49:59.671Z",
+      "status": "down",
+      "httpStatus": 401,
+      "mime": null,
+      "format": null,
+      "cors": null,
+      "redirects": [],
+      "sampledBytes": 0,
+      "decoding": null,
+      "segment": null,
+      "failureReason": "HTTP 401",
+      "browserPlayback": "not-tested",
+      "identityDecision": "not-approved",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "east-fm-ca",
+      "requestUrl": "https://centova.radioservers.biz/proxy/eastfmc1/stream",
+      "checkedAt": "2026-11-09T14:50:02.377Z",
+      "status": "decoded-sample",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "format": "mp3",
+      "cors": "*",
+      "redirects": [],
+      "sampledBytes": 131072,
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "segment": null,
+      "failureReason": null,
+      "browserPlayback": "browser-playback-progress",
+      "identityDecision": "publisher-associated; independent audible identity untested",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "asr-kanyakumari",
+      "requestUrl": "https://cast1.asurahosting.com/proxy/asrdigit/live",
+      "checkedAt": "2026-11-09T14:50:06.236Z",
+      "status": "down",
+      "httpStatus": null,
+      "mime": null,
+      "format": null,
+      "cors": null,
+      "redirects": [],
+      "sampledBytes": 0,
+      "decoding": null,
+      "segment": null,
+      "failureReason": "Request timeout/aborted (transport deadline)",
+      "browserPlayback": "not-tested",
+      "identityDecision": "not-approved",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "raaga-my",
+      "requestUrl": "https://n06.rcs.revma.com/1ut6qwtbv4uvv",
+      "checkedAt": "2026-11-09T14:51:45.880Z",
+      "status": "decoded-sample",
+      "httpStatus": 200,
+      "mime": "audio/aac",
+      "format": "aac",
+      "cors": null,
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://n06.rcs.revma.com/1ut6qwtbv4uvv",
+          "to": "[withheld: query-bearing or authenticated URL]"
+        }
+      ],
+      "sampledBytes": 77171,
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 49,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "segment": null,
+      "failureReason": null,
+      "browserPlayback": "not-tested",
+      "identityDecision": "not-approved",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "lotus-fm-za",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOTUSFMAAC.aac",
+      "checkedAt": "2026-11-09T14:54:13.714Z",
+      "status": "decoded-sample",
+      "httpStatus": 206,
+      "mime": "audio/aacp",
+      "format": "aac",
+      "cors": "*",
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOTUSFMAAC.aac",
+          "to": "https://27913.live.streamtheworld.com/LOTUSFMAAC.aac"
+        }
+      ],
+      "sampledBytes": 131072,
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 47,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "segment": null,
+      "failureReason": null,
+      "browserPlayback": "not-tested",
+      "identityDecision": "publisher-associated; independent audible identity untested",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    },
+    {
+      "stationId": "air-thoothukudi",
+      "requestUrl": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+      "checkedAt": "2026-11-09T14:57:22.990Z",
+      "status": "decoded-sample",
+      "httpStatus": 206,
+      "mime": "application/vnd.apple.mpegurl",
+      "format": "hls",
+      "cors": "*",
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+          "to": "https://d1tmej9eu7kw5c.cloudfront.net/2e8cfad789dc692d/2e8cfad789dc692d.m3u8"
+        }
+      ],
+      "sampledBytes": 131072,
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 66,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "segment": {
+        "httpStatus": 206,
+        "bytes": 130702
+      },
+      "failureReason": null,
+      "browserPlayback": "not-tested",
+      "identityDecision": "publisher-associated; independent audible identity untested",
+      "permission": "unconfirmed",
+      "directListening": "needs-review"
+    }
+  ]
+}

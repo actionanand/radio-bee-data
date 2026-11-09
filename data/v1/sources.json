@@ -642,5 +642,33 @@
     "url": "https://listen.openstream.co/4428/audio",
     "kind": "directory",
     "notes": "Stage 12 research reported safe HTTPS redirect, HTTP 200 audio/aacp and a two-second bounded AAC decode at 2026-11-09T13:14:28Z. No repeat playback test performed. No dynamic resolved URL stored. Station and Chennai-only identity are based on listener confirmation and historical community evidence, not an authenticated broadcaster player. Rights, direct listening, recording and redistribution unresolved."
+  },
+  {
+    "id": "stage13-air-thoothukudi-player",
+    "title": "Stage 13 — Akashvani Thoothukudi: publisher association and bounded playback review",
+    "url": "https://akashvani.gov.in/radio/live.php",
+    "kind": "official",
+    "notes": "Official Stage 6 channel 254 names Akashvani Tuticorin and maps this exact endpoint. Historical 404 no longer reproduced: current manifest, segment and bounded AAC decoding succeed. Same city programme restored, not Tirunelveli or a network-wide substitution. Current official page is reachable but bounded HTML is truncated before the Tamil Nadu entries; exact named mapping is retained historical evidence. Technical testing is RadioBee research, not a publisher endorsement or permission. See docs/STAGE13-TAMIL-FM-NETWORK-EXPANSION.md."
+  },
+  {
+    "id": "stage13-east-fm-ca-player",
+    "title": "Stage 13 — EAST FM 102.7: publisher association and bounded playback review",
+    "url": "https://eastfm.ca/",
+    "kind": "official",
+    "notes": "Current broadcaster root page audioEl publishes this exact stream and identifies EAST FM 102.7, Toronto, with a Tamil programme schedule. Multilingual local broadcast, not Tamil-only and not eastcoastradio. Old /main/ page did not expose the current player. Technical testing is RadioBee research, not a publisher endorsement or permission. See docs/STAGE13-TAMIL-FM-NETWORK-EXPANSION.md."
+  },
+  {
+    "id": "stage13-swiss-tamil-radio-ch-player",
+    "title": "Stage 13 — Swiss Tamil Radio: publisher association and bounded playback review",
+    "url": "https://swisstamilradio.com/",
+    "kind": "official",
+    "notes": "Current publisher strData names Swiss Tamil Radio and publishes usa20.fastcast4u.com/swiss. The historical directory usa19 endpoint is not substituted. One Swiss online programme, separate from Thaalam and Akkini. Technical testing is RadioBee research, not a publisher endorsement or permission. See docs/STAGE13-TAMIL-FM-NETWORK-EXPANSION.md."
+  },
+  {
+    "id": "stage13-lotus-fm-za-player",
+    "title": "Stage 13 — Lotus FM: publisher association and bounded playback review",
+    "url": "https://www.lotusfm.co.za/lotusfm/live-player/",
+    "kind": "official",
+    "notes": "Official Lotus live-player HTML data-data is base64-encoded plaintext JSON. Nested stations entry explicitly names Lotus Live Radio with this exact LOTUSFMAAC endpoint. Outer widget title says Motsweding Live: retained template inconsistency, not used to select MOTSWEDINGAAC. One South African multilingual scheduled Tamil service, not a 24-hour Tamil channel. Technical testing is RadioBee research, not a publisher endorsement or permission. See docs/STAGE13-TAMIL-FM-NETWORK-EXPANSION.md."
   }
 ]
