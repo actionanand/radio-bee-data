@@ -775,5 +775,47 @@
     "type": "country",
     "parentId": null,
     "countryCode": "ZA"
+  },
+  {
+    "id": "mu",
+    "name": "Mauritius",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "MU"
+  },
+  {
+    "id": "bh",
+    "name": "Bahrain",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "BH"
+  },
+  {
+    "id": "kw",
+    "name": "Kuwait",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "KW"
+  },
+  {
+    "id": "qa",
+    "name": "Qatar",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "QA"
+  },
+  {
+    "id": "fr",
+    "name": "France",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "FR"
+  },
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "IE"
   }
 ]

@@ -48,5 +48,25 @@
     "code": "ur",
     "name": "Urdu",
     "nativeName": "اردو"
+  },
+  {
+    "code": "fr",
+    "name": "French",
+    "nativeName": "Français"
+  },
+  {
+    "code": "bho",
+    "name": "Bhojpuri",
+    "nativeName": "भोजपुरी"
+  },
+  {
+    "code": "mfe",
+    "name": "Mauritian Creole",
+    "nativeName": "Kreol Morisien"
+  },
+  {
+    "code": "ar",
+    "name": "Arabic",
+    "nativeName": "العربية"
   }
 ]

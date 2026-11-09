@@ -35,7 +35,13 @@
   },
   "countries": {
     "IN": "India",
-    "LK": "Sri Lanka"
+    "LK": "Sri Lanka",
+    "MU": "Mauritius",
+    "BH": "Bahrain",
+    "KW": "Kuwait",
+    "QA": "Qatar",
+    "FR": "France",
+    "IE": "Ireland"
   },
   "regions": {
     "in-tn": "Tamil Nadu",

@@ -1,0 +1,25 @@
+{
+  "priority": [
+    "Obtain provider/broadcaster-specific direct-listening decisions; do not grant recording/redistribution rights from a public URL.",
+    "User/native Chrome sustained playback and pause/restart for all 25 additions; Android checks remain unperformed.",
+    "Confirm Otran publisher-declared Ireland geography independently; confirm JEIFM Malaysia geography directly with publisher.",
+    "Resolve all 46 discovery listings using existing stable IDs; prioritize Kanyakumari/Nagercoil and regional FM feeds, without substituting a shared national feed.",
+    "Ask Zeno for directory/data-use permission before resuming bulk collection; confirm separate broadcaster/provider conditions for any individually sourced stream.",
+    "Confirm Réunion live Tamil-language schedule before catalogue addition.",
+    "Compare Time FM Montreal programme with Toronto; alternative URLs/bitrates never count as new programmes.",
+    "Recover current official players/permissions for inaccessible diaspora sites and SLBC; no IP-only, HTTP, signed-token or expired-CDN URL publication."
+  ],
+  "feasibility": {
+    "currentRadioBrowserRecords": 200,
+    "historicalRadioBrowserRecords": 224,
+    "historicalLiveAuditRepeated": false,
+    "providerCardsInitiallyObserved": 300,
+    "providerDetailResponsesBeforeStop": 39,
+    "providerProfilesPublished": 0,
+    "uniqueNewEndpointsAudited": 26,
+    "networkAuditAttempts": 27,
+    "newTrialIdentities": 25,
+    "target50Met": false,
+    "target100Investigated": "More than 100 directory leads inventoried for feasibility, not 100 independently verified broadcasters. No assertion of exhaustive worldwide coverage."
+  }
+}

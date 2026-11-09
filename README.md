@@ -122,3 +122,5 @@ Stage 4: [regional catalogue and on-demand stream audit](docs/STAGE4-STREAM-AUDI
 Historical Stage 6: [88-station stream discovery and listening-use review](docs/STAGE6-STREAM-DISCOVERY.md), catalogue v1.3.0. Historical Stage 8: [Internet-only catalogue and migration report](docs/INTERNET-RADIO-CATALOGUE.md), catalogue v1.4.0; zero approved in-app stations.
 
 Stage 9: [Tamil FM and Kanyakumari discovery](docs/stage9/TAMIL-FM-DISCOVERY.md). Research only: 14 broadcaster/brand investigations and 54 service/place cases; no catalogue or version changes. New candidates remain outside publication pending identity, playback and use review.
+
+Stage 14: [worldwide Tamil trial expansion](docs/STAGE14-GLOBAL-TAMIL-RADIO-EXPANSION.md), catalogue 1.9.0 review draft: 117 identities, 71 stream-bearing stations, 46 discovery-only records and 74 URLs. The 25 additions are unverified trials; production approval remains zero.

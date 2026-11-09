@@ -1,0 +1,71 @@
+{
+  "verifiedOn": "2026-11-09",
+  "branch": "feature/14-global-tamil-radio-expansion",
+  "head": "9191c539a991c769887b5427484126d657c01851",
+  "environment": {
+    "platform": "linux",
+    "node": "v24.16.0",
+    "nodeExecutable": "/home/actionanand/.nvm/versions/node/v24.16.0/bin/node",
+    "npm": "11.13.0",
+    "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+    "dependenciesChanged": false,
+    "dependenciesReinstalled": false
+  },
+  "commands": [
+    {
+      "command": "npm run validate",
+      "exitCode": 0,
+      "result": "Catalogue valid: references, streams, counts and en/ta/sa locale parity"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 117,
+      "pass": 117,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMs": 3922.043786,
+      "note": "Includes existing Python offline regression subprocess; no live stream probes."
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "Built dist/v1 and dist/index.html; no publication/deployment."
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "note": "Executed using transient core.safecrlf=false only; no Git settings changed."
+    }
+  ],
+  "historicalEvidence": [
+    {
+      "file": "reports/radio_browser_tamil.csv",
+      "beforeSha256": "ba37085a3276fb71da0455e50635d2e76aae1dffe165e9479d00da3461a8b5e0",
+      "afterSha256": "ba37085a3276fb71da0455e50635d2e76aae1dffe165e9479d00da3461a8b5e0",
+      "unchanged": true
+    },
+    {
+      "file": "reports/radio_browser_tamil_ffmpeg.csv",
+      "beforeSha256": "680accdf197a19586e2bd706006ec861e5f2673da3047cc547b46c324d553b43",
+      "afterSha256": "680accdf197a19586e2bd706006ec861e5f2673da3047cc547b46c324d553b43",
+      "unchanged": true
+    }
+  ],
+  "noClientArtworkWorkflowOrDependencyChanges": true,
+  "liveAudits": {
+    "uniqueNewUrls": 26,
+    "endpointAudits": 27,
+    "old224Repeated": false,
+    "audioRecordingsSaved": false
+  },
+  "remainingLimits": [
+    "25 new trials, not the 50+ target",
+    "No new RadioBee-specific permission or production eligibility",
+    "One new sustained controlled-browser media test; native Chrome/Android still require user checks",
+    "Otran geography is publisher-declared; JEIFM Malaysia geography uses independent directory corroboration",
+    "All 46 discovery identities remain unpromoted; exact regional feeds and permission gaps persist"
+  ]
+}

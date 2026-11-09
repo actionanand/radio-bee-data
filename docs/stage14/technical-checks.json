@@ -1,0 +1,1599 @@
+{
+  "runOn": "2026-11-09",
+  "method": "Manual-only auditEndpoint deep: DNS-pinned public HTTPS; 128 KiB aggregate GET media ceiling per candidate; five redirects per request chain; one stream audit at a time; 35 s network deadline plus bounded pipe-only FFmpeg process; 2 s/32000-byte PCM ceiling. HEAD checks have their own bounded request budget. No audio saved.",
+  "editorialEffect": "none; publication requires the separately recorded identity/use review",
+  "results": [
+    {
+      "id": "vaagai-tamil-de",
+      "url": "https://vtfm2020-vtfm.radioca.st/stream",
+      "requestUrl": "https://vtfm2020-vtfm.radioca.st/stream",
+      "checkedAt": "2026-11-09T17:00:05.329Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 96,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://vtfm2020-vtfm.radioca.st/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "vtfm",
+      "reportedBitrateKbps": 96,
+      "ttfbMs": 1287,
+      "firstByteLatencyMs": 1288,
+      "continuitySeconds": 0.965,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 96,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "a9-radio-ca",
+      "url": "https://a9radio1-a9media.radioca.st/stream",
+      "requestUrl": "https://a9radio1-a9media.radioca.st/stream",
+      "checkedAt": "2026-11-09T17:00:10.771Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://a9radio1-a9media.radioca.st/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "A9RADIO",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1260,
+      "firstByteLatencyMs": 1261,
+      "continuitySeconds": 1.032,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "amudham-fm-in",
+      "url": "https://strw3.openstream.co/729?[withheld]",
+      "requestUrl": "https://listen.openstream.co/6789/audio",
+      "checkedAt": "2026-11-09T17:00:14.560Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 63,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://listen.openstream.co/6789/audio",
+          "to": "https://strw3.openstream.co/729?[withheld]"
+        }
+      ],
+      "httpStatus": 200,
+      "contentType": "audio/aacp",
+      "cors": null,
+      "icyName": "MK Stream Tamil",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 3520,
+      "firstByteLatencyMs": 4105,
+      "continuitySeconds": 6.212,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 63,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "mauradio-mu",
+      "url": "https://radio.mauradio.com/listen/mauradio_/radio.mp3",
+      "requestUrl": "https://radio.mauradio.com/listen/mauradio_/radio.mp3",
+      "checkedAt": "2026-11-09T17:00:28.307Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://radio.mauradio.com/listen/mauradio_/radio.mp3",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": null,
+      "icyName": "Mauradio",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 824,
+      "firstByteLatencyMs": 824,
+      "continuitySeconds": 4.139,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "theophony-tamil-in",
+      "url": "https://stream.theophony.com/hls/theophony_tamil_radio/live.m3u8",
+      "requestUrl": "https://stream.theophony.com/hls/theophony_tamil_radio/live.m3u8",
+      "checkedAt": "2026-11-09T17:00:34.755Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 130,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "application/x-mpegurl",
+        "finalUrl": "https://stream.theophony.com/hls/theophony_tamil_radio/live.m3u8",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 206,
+      "contentType": "application/x-mpegurl",
+      "cors": "*",
+      "icyName": null,
+      "reportedBitrateKbps": null,
+      "ttfbMs": 212,
+      "firstByteLatencyMs": 213,
+      "continuitySeconds": 0,
+      "format": "hls",
+      "status": "decoded-sample",
+      "sampledBytes": 108692,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "hls": {
+        "variants": [],
+        "segments": [
+          {
+            "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243619_2864802.ts",
+            "declaredDurationSeconds": 3.96
+          },
+          {
+            "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243623_2864803.ts",
+            "declaredDurationSeconds": 4
+          },
+          {
+            "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243627_2864804.ts",
+            "declaredDurationSeconds": 4
+          },
+          {
+            "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243631_2864805.ts",
+            "declaredDurationSeconds": 3.98
+          },
+          {
+            "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243635_2864806.ts",
+            "declaredDurationSeconds": 4
+          }
+        ],
+        "targetDurationSeconds": 4,
+        "encrypted": false,
+        "initializationRequired": false
+      },
+      "variant": {
+        "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128.m3u8",
+        "declaredBandwidthBps": 140800,
+        "codecs": "mp4a.40.2"
+      },
+      "segment": {
+        "url": "https://stream.theophony.com/hls/theophony_tamil_radio/aac_128_4_1794243619_2864802.ts",
+        "httpStatus": 206
+      },
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 130,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "jei-fm-my",
+      "url": "https://usa3.fastcast4u.com/proxy/jeifm?mp=/1",
+      "requestUrl": "https://usa3.fastcast4u.com/proxy/jeifm?mp=/1",
+      "checkedAt": "2026-11-09T17:03:40.894Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 320,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Indrum Endrumdum Isai Swarangal @ Soul Of Entertainment",
+      "reportedBitrateKbps": 320,
+      "ttfbMs": 1211,
+      "firstByteLatencyMs": 1213,
+      "continuitySeconds": 1.406,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 320,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "amen-fm-ca",
+      "url": "https://ice7.securenetsystems.net/AMENFM",
+      "requestUrl": "https://ice7.securenetsystems.net/AMENFM",
+      "checkedAt": "2026-11-09T17:03:45.206Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 192,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "Amen FM",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 3889,
+      "firstByteLatencyMs": 3890,
+      "continuitySeconds": 2.831,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "measuredBitrateKbps": 192,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "live-fm-bh",
+      "url": "https://stream-15.aiir.com/dbv0rxpwp6ytv?[withheld]",
+      "requestUrl": "https://stream.aiir.com/dbv0rxpwp6ytv",
+      "checkedAt": "2026-11-09T17:03:55.346Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 127,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://stream.aiir.com/dbv0rxpwp6ytv",
+          "to": "https://stream-15.aiir.com/dbv0rxpwp6ytv?[withheld]"
+        }
+      ],
+      "httpStatus": 200,
+      "contentType": "audio/aac",
+      "cors": null,
+      "icyName": "Live FM 107.2",
+      "reportedBitrateKbps": 320,
+      "ttfbMs": 1878,
+      "firstByteLatencyMs": 1878,
+      "continuitySeconds": 0.393,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "measuredBitrateKbps": 127,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "vanakkam-reunion-re",
+      "url": "https://stunnel2.cyber-streaming.com:9100/stream?type=mp3&nocache=",
+      "requestUrl": "https://stunnel2.cyber-streaming.com:9100/stream?type=mp3&nocache=",
+      "checkedAt": "2026-11-09T17:04:01.040Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 97,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 88200,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://stunnel2.cyber-streaming.com:9100/stream?type=mp3&nocache=",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "RADIO VANAKKAM REUNION",
+      "reportedBitrateKbps": 96,
+      "ttfbMs": 906,
+      "firstByteLatencyMs": 907,
+      "continuitySeconds": 0.576,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 88200,
+        "channels": 2,
+        "measuredBitrateKbps": 97,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "quran-tamil-kw",
+      "url": "https://serverkw.quran-uni.com:8008/;*.mp3",
+      "requestUrl": "https://serverkw.quran-uni.com:8008/;*.mp3",
+      "checkedAt": "2026-11-09T17:04:04.798Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://serverkw.quran-uni.com:8008/;*.mp3",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Translation of the Quran in tamil",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1487,
+      "firstByteLatencyMs": 1509,
+      "continuitySeconds": 1.071,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "sweety-fm-in",
+      "url": "https://centova71.instainternet.com/proxy/sweetyfm/stream",
+      "requestUrl": "https://centova71.instainternet.com/proxy/sweetyfm/stream",
+      "checkedAt": "2026-11-09T17:08:13.402Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "128",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 937,
+      "firstByteLatencyMs": 938,
+      "continuitySeconds": 0.621,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "hand-of-jesus-tamil-in",
+      "url": "https://cast4.my-control-panel.com/proxy/hojtamil/stream",
+      "requestUrl": "https://cast4.my-control-panel.com/proxy/hojtamil/stream",
+      "checkedAt": "2026-11-09T17:08:16.230Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 48,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "hojtamil",
+      "reportedBitrateKbps": 48,
+      "ttfbMs": 2337,
+      "firstByteLatencyMs": 2347,
+      "continuitySeconds": 2.165,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 48,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "vaanmalar-fm-in",
+      "url": "https://cast4.my-control-panel.com/proxy/vaanmalar2/stream",
+      "requestUrl": "https://cast4.my-control-panel.com/proxy/vaanmalar2/stream",
+      "checkedAt": "2026-11-09T17:08:22.287Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "vaanmalar2",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 1024,
+      "firstByteLatencyMs": 1034,
+      "continuitySeconds": 0.944,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "suno-tamil-qa",
+      "url": "https://18533.live.streamtheworld.com/RADIO_SUNO_TAMIL_S01AAC.aac",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_TAMIL_S01AAC.aac",
+      "checkedAt": "2026-11-09T17:08:25.771Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 64,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://14613.live.streamtheworld.com/RADIO_SUNO_TAMIL_S01AAC.aac",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_TAMIL_S01AAC.aac",
+            "to": "https://14613.live.streamtheworld.com/RADIO_SUNO_TAMIL_S01AAC.aac"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_TAMIL_S01AAC.aac",
+          "to": "https://18533.live.streamtheworld.com/RADIO_SUNO_TAMIL_S01AAC.aac"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "RADIO_SUNO_TAMIL_S01",
+      "reportedBitrateKbps": 64,
+      "ttfbMs": 4628,
+      "firstByteLatencyMs": 4628,
+      "continuitySeconds": 1.06,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 64,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "tamil-christian-radio-in",
+      "url": "https://centova71.instainternet.com/proxy/tamilchristianradio?mp=/stream",
+      "requestUrl": "https://centova71.instainternet.com/proxy/tamilchristianradio?mp=/stream",
+      "checkedAt": "2026-11-09T17:12:34.832Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 192,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Tamil Christian Radio",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 968,
+      "firstByteLatencyMs": 969,
+      "continuitySeconds": 0.631,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 192,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "good-news-tamil-ca",
+      "url": "https://radio.christvisionmedia.com/proxy/tamil/stream",
+      "requestUrl": "https://radio.christvisionmedia.com/proxy/tamil/stream",
+      "checkedAt": "2026-11-09T17:12:37.759Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 256,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Good News FM - Tamil",
+      "reportedBitrateKbps": 256,
+      "ttfbMs": 1302,
+      "firstByteLatencyMs": 1306,
+      "continuitySeconds": 1.233,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 256,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "3zzz-au",
+      "url": "https://23093.live.streamtheworld.com/3ZZZAAC.aac?dist=3zzzwebsite",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/3ZZZAAC.aac?dist=3zzzwebsite",
+      "checkedAt": "2026-11-09T17:15:45.717Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 130,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/aacp",
+        "finalUrl": "https://28863.live.streamtheworld.com/3ZZZAAC.aac?dist=3zzzwebsite",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/3ZZZAAC.aac?dist=3zzzwebsite",
+            "to": "https://28863.live.streamtheworld.com/3ZZZAAC.aac?dist=3zzzwebsite"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/3ZZZAAC.aac?dist=3zzzwebsite",
+          "to": "https://23093.live.streamtheworld.com/3ZZZAAC.aac?dist=3zzzwebsite"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/aacp",
+      "cors": "*",
+      "icyName": "3ZZZ",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 4829,
+      "firstByteLatencyMs": 4832,
+      "continuitySeconds": 0.893,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 130,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "4eb-fm-au",
+      "url": "https://14533.live.streamtheworld.com/4EB.mp3?dist=4ebwebsite",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB.mp3?dist=4ebwebsite",
+      "checkedAt": "2026-11-09T17:15:54.257Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://28803.live.streamtheworld.com/4EB.mp3?dist=4ebwebsite",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB.mp3?dist=4ebwebsite",
+            "to": "https://28803.live.streamtheworld.com/4EB.mp3?dist=4ebwebsite"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB.mp3?dist=4ebwebsite",
+          "to": "https://14533.live.streamtheworld.com/4EB.mp3?dist=4ebwebsite"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "4EB",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 4537,
+      "firstByteLatencyMs": 4538,
+      "continuitySeconds": 0.699,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "4eb-global-au",
+      "url": "https://28863.live.streamtheworld.com/4EB_GLOBAL.mp3",
+      "requestUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB_GLOBAL.mp3",
+      "checkedAt": "2026-11-09T17:16:02.139Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://23153.live.streamtheworld.com/4EB_GLOBAL.mp3",
+        "redirects": [
+          {
+            "status": 302,
+            "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB_GLOBAL.mp3",
+            "to": "https://23153.live.streamtheworld.com/4EB_GLOBAL.mp3"
+          }
+        ]
+      },
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://playerservices.streamtheworld.com/api/livestream-redirect/4EB_GLOBAL.mp3",
+          "to": "https://28863.live.streamtheworld.com/4EB_GLOBAL.mp3"
+        }
+      ],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "4EB_GLOBAL",
+      "reportedBitrateKbps": 128,
+      "ttfbMs": 2337,
+      "firstByteLatencyMs": 2337,
+      "continuitySeconds": 0.674,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "5ebi-au",
+      "url": "https://icecast1.myradio.click/cast2_64k.aacp",
+      "requestUrl": "https://icecast1.myradio.click/cast2_64k.aacp",
+      "checkedAt": "2026-11-09T17:16:06.951Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 192,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 400",
+        "status": 400,
+        "contentType": "text/html; charset=utf-8",
+        "finalUrl": "https://icecast1.myradio.click/cast2_64k.aacp",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aac",
+      "cors": "*",
+      "icyName": "Icecast Stream 2",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 919,
+      "firstByteLatencyMs": 994,
+      "continuitySeconds": 2.658,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 30432,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 192,
+        "completeTwoSeconds": false,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "namathu-fm-fr",
+      "url": "https://s3.voscast.com:10527/stream",
+      "requestUrl": "https://s3.voscast.com:10527/stream",
+      "checkedAt": "2026-11-09T17:16:12.156Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "socket hang up"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Namathu FM",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 1704,
+      "firstByteLatencyMs": 1937,
+      "continuitySeconds": 1.059,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "otran-vaanoli-ie",
+      "url": "https://cast.iplayradio.net/listen/otranvaanoli/stream",
+      "requestUrl": "https://cast.iplayradio.net/listen/otranvaanoli/stream",
+      "checkedAt": "2026-11-09T17:16:16.838Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 192,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "CORS header absent; actual browser compatibility untested",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://cast.iplayradio.net/listen/otranvaanoli/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 206,
+      "contentType": "audio/mpeg",
+      "cors": null,
+      "icyName": "Otran Vaanoli",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 796,
+      "firstByteLatencyMs": 796,
+      "continuitySeconds": 2.884,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 192,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "thuthi-fm-no",
+      "url": "https://streams.radio.co/s790fe269d/listen",
+      "requestUrl": "https://streams.radio.co/s790fe269d/listen",
+      "checkedAt": "2026-11-09T17:21:23.479Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 192,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://streams.radio.co/s790fe269d/listen",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Thuthi FM",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 2432,
+      "firstByteLatencyMs": 2626,
+      "continuitySeconds": 7.212,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 115357,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 192,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "radio-plus-indiz-mu",
+      "url": "https://streamer.radio.co/sed5c5a375/listen",
+      "requestUrl": "https://streamer.radio.co/sed5c5a375/listen",
+      "checkedAt": "2026-11-09T17:21:36.530Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "timeout"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Radio Plus Indiz",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 3769,
+      "firstByteLatencyMs": 3769,
+      "continuitySeconds": 4.611,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "time-fm-toronto-ca",
+      "url": "https://neramfm.com:8000/stream",
+      "requestUrl": "https://neramfm.com:8000/stream",
+      "checkedAt": "2026-11-09T17:25:34.840Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 128,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 48000,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "reachable",
+        "status": 200,
+        "contentType": "audio/mpeg",
+        "finalUrl": "https://neramfm.com:8000/stream",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "no name",
+      "reportedBitrateKbps": null,
+      "ttfbMs": 2392,
+      "firstByteLatencyMs": 2394,
+      "continuitySeconds": 4.288,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 48000,
+        "channels": 2,
+        "measuredBitrateKbps": 128,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "inbathamil-oli-au",
+      "url": "https://usa7.fastcast4u.com/proxy/ozmediae?mp=/1",
+      "requestUrl": "https://usa7.fastcast4u.com/proxy/ozmediae?mp=/1",
+      "checkedAt": "2026-11-09T17:25:44.690Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 56,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 22050,
+      "channels": 2,
+      "codec": "mp3",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "Parse Error: Expected HTTP/, RTSP/ or ICE/"
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/mpeg",
+      "cors": "*",
+      "icyName": "Inbathamil",
+      "reportedBitrateKbps": 56,
+      "ttfbMs": 1332,
+      "firstByteLatencyMs": 1333,
+      "continuitySeconds": 0.88,
+      "format": "mp3",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "mp3",
+        "sampleRateHz": 22050,
+        "channels": 2,
+        "measuredBitrateKbps": 56,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      },
+      "editorialApproval": "not-granted"
+    },
+    {
+      "id": "5ebi-au",
+      "url": "https://icecast1.myradio.click/cast2_64k.aacp",
+      "requestUrl": "https://icecast1.myradio.click/cast2_64k.aacp",
+      "checkedAt": "2026-11-09T17:29:27.990Z",
+      "browserPlayback": "not-tested",
+      "identity": "unconfirmed",
+      "permission": "unconfirmed",
+      "measuredBitrateKbps": 197,
+      "bitrateMethod": "FFmpeg input codec estimate from bounded sample",
+      "sampleRateHz": 44100,
+      "channels": 2,
+      "codec": "aac",
+      "qualityObservations": [
+        "HEAD/fallback failed but GET succeeded; method-dependent result",
+        "Continuity is observed byte-arrival span, not decoded duration or audio bitrate"
+      ],
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "http-reachable"
+        }
+      ],
+      "head": {
+        "outcome": "failed",
+        "reason": "HTTP 400",
+        "status": 400,
+        "contentType": "text/html; charset=utf-8",
+        "finalUrl": "https://icecast1.myradio.click/cast2_64k.aacp",
+        "redirects": []
+      },
+      "redirects": [],
+      "httpStatus": 200,
+      "contentType": "audio/aac",
+      "cors": "*",
+      "icyName": "Icecast Stream 2",
+      "reportedBitrateKbps": 192,
+      "ttfbMs": 995,
+      "firstByteLatencyMs": 1089,
+      "continuitySeconds": 2.688,
+      "format": "aac",
+      "status": "decoded-sample",
+      "sampledBytes": 131072,
+      "tls": "validated",
+      "sampleDecodeResult": "decoded",
+      "decoding": {
+        "outcome": "decoded",
+        "exitCode": 0,
+        "pcmBytes": 32000,
+        "codec": "aac",
+        "sampleRateHz": 44100,
+        "channels": 2,
+        "measuredBitrateKbps": 197,
+        "completeTwoSeconds": true,
+        "limitation": "A short sample is not sustained playback, audible identity or client compatibility."
+      }
+    }
+  ]
+}

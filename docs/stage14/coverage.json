@@ -1,0 +1,303 @@
+{
+  "countryScope": 27,
+  "countries": [
+    {
+      "countryCode": "IN",
+      "beforeStations": 67,
+      "afterStations": 73,
+      "newTrials": [
+        "amudham-fm-in",
+        "theophony-tamil-in",
+        "sweety-fm-in",
+        "hand-of-jesus-tamil-in",
+        "vaanmalar-fm-in",
+        "tamil-christian-radio-in"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "LK",
+      "beforeStations": 4,
+      "afterStations": 4,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "MY",
+      "beforeStations": 2,
+      "afterStations": 3,
+      "newTrials": [
+        "jei-fm-my"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "SG",
+      "beforeStations": 1,
+      "afterStations": 1,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "CA",
+      "beforeStations": 5,
+      "afterStations": 9,
+      "newTrials": [
+        "a9-radio-ca",
+        "amen-fm-ca",
+        "good-news-tamil-ca",
+        "time-fm-toronto-ca"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "GB",
+      "beforeStations": 2,
+      "afterStations": 2,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "US",
+      "beforeStations": 2,
+      "afterStations": 2,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "AU",
+      "beforeStations": 1,
+      "afterStations": 6,
+      "newTrials": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "inbathamil-oli-au"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "NZ",
+      "beforeStations": 1,
+      "afterStations": 1,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "AE",
+      "beforeStations": 1,
+      "afterStations": 1,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "SA",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "QA",
+      "beforeStations": 0,
+      "afterStations": 1,
+      "newTrials": [
+        "suno-tamil-qa"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "KW",
+      "beforeStations": 0,
+      "afterStations": 1,
+      "newTrials": [
+        "quran-tamil-kw"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "BH",
+      "beforeStations": 0,
+      "afterStations": 1,
+      "newTrials": [
+        "live-fm-bh"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "OM",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "CH",
+      "beforeStations": 3,
+      "afterStations": 3,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "DE",
+      "beforeStations": 1,
+      "afterStations": 2,
+      "newTrials": [
+        "vaagai-tamil-de"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "FR",
+      "beforeStations": 0,
+      "afterStations": 1,
+      "newTrials": [
+        "namathu-fm-fr"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "NO",
+      "beforeStations": 1,
+      "afterStations": 2,
+      "newTrials": [
+        "thuthi-fm-no"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "SE",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "DK",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "NL",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "IT",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "ZA",
+      "beforeStations": 1,
+      "afterStations": 1,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "Existing identities preserved; no additional accepted stream"
+    },
+    {
+      "countryCode": "MU",
+      "beforeStations": 0,
+      "afterStations": 2,
+      "newTrials": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    },
+    {
+      "countryCode": "RE",
+      "beforeStations": 0,
+      "afterStations": 0,
+      "newTrials": [],
+      "directoryQueries": [],
+      "outcome": "No sufficiently established direct stream added; not proof of absence"
+    },
+    {
+      "countryCode": "IE",
+      "beforeStations": 0,
+      "afterStations": 1,
+      "newTrials": [
+        "otran-vaanoli-ie"
+      ],
+      "directoryQueries": [],
+      "outcome": "Publisher-associated trial additions"
+    }
+  ],
+  "indiaTamilNaduTowns": [
+    "Chennai",
+    "Nagercoil",
+    "Kanyakumari",
+    "Tirunelveli",
+    "Thoothukudi",
+    "Madurai",
+    "Coimbatore",
+    "Tiruchirappalli",
+    "Salem",
+    "Erode",
+    "Tiruppur",
+    "Vellore",
+    "Dindigul",
+    "Thanjavur",
+    "Kumbakonam",
+    "Pudukkottai",
+    "Cuddalore",
+    "Villupuram",
+    "Tiruvannamalai",
+    "Dharmapuri",
+    "Hosur",
+    "Krishnagiri",
+    "Ooty",
+    "Kodaikanal",
+    "Karaikal",
+    "Puducherry"
+  ],
+  "kerala": [
+    "Thiruvananthapuram",
+    "Neyyattinkara",
+    "Parassala",
+    "Kollam",
+    "Kochi"
+  ],
+  "sriLanka": [
+    "Colombo",
+    "Jaffna",
+    "Batticaloa",
+    "Trincomalee",
+    "Kilinochchi",
+    "Vavuniya",
+    "Mannar"
+  ],
+  "geographicLimitation": "Broad language/country/town directory searches and publisher survey; not a complete current manual audit of every town. New online stations get no inferred FM frequency or local transmitter geography. Malayalam-only matches excluded. Existing regional-network evidence reused."
+}
