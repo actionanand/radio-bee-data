@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {readCatalogue,validateCatalogue,validHttps} from '../scripts/validate.mjs';
+import {validateCatalogue,validHttps} from '../scripts/validate.mjs';
+import {readStage13Catalogue as readCatalogue,readStage13Backlog} from './catalogue-history.mjs';
 const read=p=>JSON.parse(readFileSync(new URL('../'+p,import.meta.url)));
 const baseline=read('docs/stage13/baseline.json'),promotions=read('docs/stage13/promotions.json');
 const hash=v=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
@@ -41,7 +42,7 @@ test('promotions retain regional identity, original sources and truthful indepen
   for(const x of s.streams){assert.ok(validHttps(x.url));assert.ok(d.sources.some(src=>src.id===x.sourceId));assert.equal(x.verificationStatus,'unverified');assert.equal(x.lastVerifiedAt,null);assert.equal(x.rightsStatus,'unconfirmed');assert.equal(x.directListening.status,'needs-review');assert.equal(x.directListening.recording,'unconfirmed');assert.equal(x.directListening.redistribution,'unconfirmed');}
   assert.equal(d.discoveryStations.some(s=>s.id===p.stationId),false);
  }
- const archive=read('docs/research/station-backlog.json');
+ const archive=readStage13Backlog();
  assert.ok(d.stationMigrations.removed.every(m=>!ids.has(m.oldId)));assert.ok(archive.stations.every(r=>!ids.has(r.station.id)));
  const urls=d.stations.flatMap(s=>s.streams.map(x=>x.url));assert.equal(new Set(urls).size,urls.length);
 });
@@ -51,7 +52,7 @@ test('Thoothukudi restoration reconciles exact archived records and retains hist
  assert.equal(p.previousBacklogRecord.station.id,'air-thoothukudi');
  assert.deepEqual(d.stations.find(s=>s.id===p.stationId).streams,p.previousBacklogRecord.station.streams);
  assert.equal(hash(restored(d.stationMigrations,'removed','previousMigrationIndex','previousMigrationRecord')),baseline.migrationHash);
- assert.equal(hash(restored(read('docs/research/station-backlog.json'),'stations','previousBacklogIndex','previousBacklogRecord')),baseline.backlogHash);
+ assert.equal(hash(restored(readStage13Backlog(),'stations','previousBacklogIndex','previousBacklogRecord')),baseline.backlogHash);
  assert.equal(promotions.filter(p=>p.previousMigrationRecord).length,1);assert.equal(promotions.filter(p=>p.previousBacklogRecord).length,1);
  const invalid=readCatalogue();invalid.stationMigrations.removed.push(p.previousMigrationRecord);
  assert.ok(validateCatalogue(invalid).some(e=>e.includes('removed station ID')));

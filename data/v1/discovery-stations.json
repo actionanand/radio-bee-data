@@ -1024,6 +1024,39 @@
     "websiteKind": null
   },
   {
+    "id": "air-thoothukudi",
+    "name": "Akashvani Thoothukudi",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-thoothukudi",
+    "localityId": "in-tn-thoothukudi-thoothukudi",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "general",
+      "news"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "reviewed",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "prasar-air-network",
+      "air-stage6-player",
+      "discovery-regional-2026",
+      "stage13-air-thoothukudi-player",
+      "hotfix13-thoothukudi-404"
+    ],
+    "notes": "2026-11-09: HTTPS 302 to d1tmej9eu7kw5c.cloudfront.net followed by HTTP 404 text/html; user reproduced in Chrome and WSL2. No identity-confirmed replacement established. Station identity and the historical successful Stage 13 probe remain documented; no substitute city or shared network feed used.",
+    "aliases": [],
+    "availability": "temporarily-unavailable",
+    "reviewedOn": "2026-11-09",
+    "websiteKind": "official"
+  },
+  {
     "id": "tamilosai-nagercoil",
     "name": "Tamilosai FM",
     "networkId": "tamilosai-fm",

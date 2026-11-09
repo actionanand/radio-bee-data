@@ -670,5 +670,12 @@
     "url": "https://www.lotusfm.co.za/lotusfm/live-player/",
     "kind": "official",
     "notes": "Official Lotus live-player HTML data-data is base64-encoded plaintext JSON. Nested stations entry explicitly names Lotus Live Radio with this exact LOTUSFMAAC endpoint. Outer widget title says Motsweding Live: retained template inconsistency, not used to select MOTSWEDINGAAC. One South African multilingual scheduled Tamil service, not a 24-hour Tamil channel. Technical testing is RadioBee research, not a publisher endorsement or permission. See docs/STAGE13-TAMIL-FM-NETWORK-EXPANSION.md."
+  },
+  {
+    "id": "hotfix13-thoothukudi-404",
+    "title": "Akashvani Thoothukudi — confirmed unavailable HLS, 9 November 2026",
+    "url": "https://radio.wavespb.com/live/2e8cfad789dc692d/2e8cfad789dc692d.m3u8",
+    "kind": "technical-review",
+    "notes": "2026-11-09: HTTPS 302 to d1tmej9eu7kw5c.cloudfront.net followed by HTTP 404 text/html; user reproduced in Chrome and WSL2. No identity-confirmed replacement established. Stage 13 short decoding was earlier successful, not sustained Chrome playback. See docs/HOTFIX-13-AKASHVANI-THOOTHUKUDI.md. No client defect or permission grant inferred."
   }
 ]
