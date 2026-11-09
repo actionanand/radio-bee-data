@@ -530,5 +530,12 @@
     "url": "https://tamilmurasam.com/",
     "kind": "official",
     "notes": "This broadcaster-authored page publishes the associated candidate endpoint. Bounded transport and short browser decoding observations are recorded in docs/worldwide. Programme association is separate from sustained audible identity and permission; no grants asserted."
+  },
+  {
+    "id": "air-nagercoil-radio-browser-user-review-2026",
+    "title": "AIR Nagercoil alternative: Radio Browser audit and user listening review",
+    "url": "https://de1.api.radio-browser.info/json/stations/byuuid/28509e6b-a9be-4bda-afb5-1dc88e168d0d",
+    "kind": "editorial",
+    "notes": "Local supplied 224-stream audit reports 4.99 seconds FFmpeg decoding for this exact endpoint. On 9 November 2026 the user explicitly confirmed audible Tamil AIR Nagercoil identity and requested review/integration. Directory alone is not identity evidence; user listening is independent testimony, not broadcaster authentication or permission. No rights grant or recording/redistribution allowance inferred. Original local CSVs remain ignored; see docs/STAGE11-NETWORK-ARTWORK-AND-STREAMS.md."
   }
 ]

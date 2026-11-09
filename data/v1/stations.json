@@ -23,7 +23,8 @@
     "sourceIds": [
       "prasar-air-network",
       "air-player-2026",
-      "prasar-terms-2026"
+      "prasar-terms-2026",
+      "air-nagercoil-radio-browser-user-review-2026"
     ],
     "streams": [
       {
@@ -33,6 +34,23 @@
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "air-player-2026",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-06T16:27:52.570Z",
+          "sourceId": "stage6-use-review",
+          "notes": "Official or legacy stream provenance is separate from third-party in-app use terms. No current RadioBee-specific allowance established; do not override express broadcaster restrictions. See Stage 6 review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      },
+      {
+        "id": "air-nagercoil-bitgravity-hls-trial",
+        "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio129/chunklist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "air-nagercoil-radio-browser-user-review-2026",
         "rightsStatus": "unconfirmed",
         "directListening": {
           "status": "needs-review",

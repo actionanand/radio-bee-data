@@ -1,0 +1,35 @@
+{
+  "checkedOn": "2026-11-09",
+  "note": "Manual bounded reachability only; not fresh decoding or editorial approval. Original 224-stream audit not repeated.",
+  "results": [
+    {
+      "streamId": "air-nagercoil-hls-candidate",
+      "checkedAt": "2026-11-09T11:33:22.388Z",
+      "outcome": "reachable",
+      "status": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalUrl": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8",
+      "redirects": [
+        {
+          "status": 302,
+          "from": "https://radio.wavespb.com/live/10c64309264eb009/10c64309264eb009.m3u8",
+          "to": "https://d3hrxqn1tritdh.cloudfront.net/10c64309264eb009/10c64309264eb009.m3u8"
+        }
+      ]
+    },
+    {
+      "streamId": "air-nagercoil-bitgravity-hls-trial",
+      "checkedAt": "2026-11-09T11:33:22.968Z",
+      "outcome": "reachable",
+      "status": 200,
+      "contentType": "application/vnd.apple.mpegurl",
+      "finalUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio129/chunklist.m3u8",
+      "redirects": []
+    }
+  ],
+  "deployed": {
+    "status": 200,
+    "networks": 41,
+    "logoReferences": 0
+  }
+}

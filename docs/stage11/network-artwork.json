@@ -1,0 +1,248 @@
+[
+  {
+    "networkId": "akashvani",
+    "stations": 21,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "suryan-in",
+    "stations": 11,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "hello-fm",
+    "stations": 11,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "mirchi",
+    "stations": 6,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "radio-city",
+    "stations": 3,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "red-fm",
+    "stations": 0,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "big-fm",
+    "stations": 2,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "fever-fm",
+    "stations": 0,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "shakthi-lk",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "sooriyan-lk",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "vasantham-lk",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "slbc",
+    "stations": 0,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "asr-digital",
+    "stations": 2,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "annai-fm",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "kumari-tamil",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "luminous-radio",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "capital-lk",
+    "stations": 0,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "club-fm",
+    "stations": 0,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "tamilosai-fm",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "isai-murasu",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "iskcon-nagercoil",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "ibc-tamil",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "athavan",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "cmr",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "east-fm",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "ctbc",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "canadian-tamil-radio",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "beats-radio",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "american-tamil-media",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "atbc",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "mediacorp",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "tamil-894",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "rtm",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "astro-audio",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "thaalam-media",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "akkini",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "swiss-tamil-radio",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "european-tamils-union",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "tamil-murasam",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "tarana",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  },
+  {
+    "networkId": "sabc",
+    "stations": 1,
+    "approvedLogo": null,
+    "status": "fallback"
+  }
+]

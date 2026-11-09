@@ -1,5 +1,7 @@
 # Station and network logos
 
+> Stage 11 (9 November 2026): zero approved assets; all 41 current networks and 85 cards retain fallback. Six favicon leads reviewed, five originals held in ignored review storage. See [current artwork and stream review](STAGE11-NETWORK-ARTWORK-AND-STREAMS.md) and [network inventory](stage11/network-artwork.json). Historical inventories below remain dated snapshots.
+
 Researched 6 November 2026. Catalogue v1.2.0, schemaVersion 1. This additive optional metadata change leaves every station, network, frequency, stream URL, verification status and rights status unchanged. No client code was modified.
 
 ## Approved artwork inventory
