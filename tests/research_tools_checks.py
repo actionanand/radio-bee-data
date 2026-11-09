@@ -18,7 +18,10 @@ class ResearchSafetyTests(unittest.TestCase):
     def test_review_logo_manifest_escapes_directory_uuid_without_network(self):
         spec=importlib.util.spec_from_file_location('logo_collector',Path(__file__).resolve().parents[1]/'scripts/collect-logo-candidates.py')
         logos=importlib.util.module_from_spec(spec);spec.loader.exec_module(logos)
-        with tempfile.TemporaryDirectory(dir='reports') as directory:
+        reports_root = Path(__file__).resolve().parents[1] / 'reports'
+        reports_root.mkdir(parents=True, exist_ok=True)
+
+        with tempfile.TemporaryDirectory(dir=reports_root) as directory:
             inp=Path(directory)/'input.csv';out=Path(directory)/'review'
             with inp.open('w',newline='') as f:
                 writer=csv.DictWriter(f,fieldnames=['radiobee_id','countrycode','favicon','stationuuid']);writer.writeheader();writer.writerow({'radiobee_id':'air-nagercoil','countrycode':'IN','favicon':'https://radio.example/logo.png','stationuuid':'=evil'})
