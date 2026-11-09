@@ -537,5 +537,110 @@
     "url": "https://de1.api.radio-browser.info/json/stations/byuuid/28509e6b-a9be-4bda-afb5-1dc88e168d0d",
     "kind": "editorial",
     "notes": "Local supplied 224-stream audit reports 4.99 seconds FFmpeg decoding for this exact endpoint. On 9 November 2026 the user explicitly confirmed audible Tamil AIR Nagercoil identity and requested review/integration. Directory alone is not identity evidence; user listening is independent testimony, not broadcaster authentication or permission. No rights grant or recording/redistribution allowance inferred. Original local CSVs remain ignored; see docs/STAGE11-NETWORK-ARTWORK-AND-STREAMS.md."
+  },
+  {
+    "id": "stage12-shiva-tattvam",
+    "title": "Stage 12 — Shiva Tattvam: publisher and bounded stream review",
+    "url": "https://shaivam.org/radio-shiva-tattvam/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Tamil Shaiva philosophy and discourses; distinct from the music channel. Official named-channel page and same-publisher stream host; India country attribution corroborated by historical Radio Browser listing, no city inferred. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-thiruneriya-thamizhosai",
+    "title": "Stage 12 — Thiruneriya Thamizhosai: publisher and bounded stream review",
+    "url": "https://www.shaivam.org/radio-thiruneriya-thamizhosai/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Official 24/7 Tamil devotional music service, distinct from Shiva Tattvam discourses. India country attribution corroborated by historical Radio Browser listing; no city inferred. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-star-fm-srilanka",
+    "title": "Stage 12 — Star FM Sri Lanka: publisher and bounded stream review",
+    "url": "https://www.starfm.lk/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Tamil online service. Exact endpoint embedded in publisher Live Radio page; do not conflate with other Star-branded broadcasters or infer a terrestrial frequency or local market. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-boom-tamil",
+    "title": "Stage 12 — Boom Tamil: publisher and bounded stream review",
+    "url": "https://www.boomtamil.com/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Exact lowercase stream published by broadcaster player JavaScript. Canada/Ontario attribution from historical Radio Browser lead, corroborated by Toronto-named publisher feed and Canadian editorial coverage; no unique city FM broadcast asserted. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-tamil-panpalai",
+    "title": "Stage 12 — Tamil Panpalai: publisher and bounded stream review",
+    "url": "https://tamilpanpalai.com/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Universal stream from official assets/js/player.js. Country supported by Radio Browser and Radioindia India listing; city left unknown. Other ANZ/AFR mounts are not counted as independent station identities. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-aural-radio",
+    "title": "Stage 12 — Aural Radio Kerala: publisher and bounded stream review",
+    "url": "https://www.auralradiokerala.in/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Multilingual online service, not Tamil-only. Exact stream in official js/player.js; linked publisher Zeno page lists Malayalam, Tamil and Hindi. No city/frequency inferred. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-ar-radio",
+    "title": "Stage 12 — AR Radio Kerala: publisher and bounded stream review",
+    "url": "https://arradiokerala.blogspot.com/",
+    "kind": "official",
+    "notes": "Publisher identity/endpoint evidence only; not permission. Exact endpoint in publisher LISTEN LIVE widget. Tamil inclusion alongside Malayalam/Hindi is directory-corroborated, not audibly confirmed in this sample; no Tamil-only or city-specific claim. Historical Rcast alternative returned HTTP 403 and is excluded. Reviewed 2026-11-09; see docs/stage12/stations.json and docs/STAGE12-TAMIL-RADIO-EXPANSION.md."
+  },
+  {
+    "id": "stage12-shiva-tattvam-metadata",
+    "title": "Stage 12 — shiva-tattvam supporting metadata",
+    "url": "https://de1.api.radio-browser.info/json/stations/byuuid/f8de03cb-35bc-4afa-b068-e3ab82162057",
+    "kind": "directory",
+    "notes": "Historical Radio Browser country attribution: India. Official named Tamil channel establishes programme identity; directory is not permission or independent audio identity proof."
+  },
+  {
+    "id": "stage12-thiruneriya-thamizhosai-metadata",
+    "title": "Stage 12 — thiruneriya-thamizhosai supporting metadata",
+    "url": "https://de1.api.radio-browser.info/json/stations/byuuid/02284416-4930-4a83-9b50-8801ffef26e0",
+    "kind": "directory",
+    "notes": "Historical Radio Browser country attribution: India. No directory city assigned. Official named Tamil channel establishes programme identity."
+  },
+  {
+    "id": "stage12-boom-tamil-metadata",
+    "title": "Stage 12 — boom-tamil supporting metadata",
+    "url": "https://de1.api.radio-browser.info/json/stations/byuuid/3b12d92f-0e75-481c-ba7a-eec5fb8aea52",
+    "kind": "directory",
+    "notes": "Historical Radio Browser Canada/Ontario attribution, corroborated by publisher Toronto mount. No precise studio/locality asserted."
+  },
+  {
+    "id": "stage12-tamil-panpalai-metadata",
+    "title": "Stage 12 — tamil-panpalai supporting metadata",
+    "url": "https://radioindia.org/tamil-panpalai-india/",
+    "kind": "directory",
+    "notes": "India service and matching official website; precise Madurai city claim is deliberately not imported. Exact stream sourced from publisher player.js."
+  },
+  {
+    "id": "stage12-aural-radio-metadata",
+    "title": "Stage 12 — aural-radio supporting metadata",
+    "url": "https://zeno.fm/radio/auralradiokerala/",
+    "kind": "broadcaster",
+    "notes": "Publisher profile linked from official site: India; Malayalam, Tamil and Hindi. No continuous Tamil-language guarantee."
+  },
+  {
+    "id": "stage12-ar-radio-metadata",
+    "title": "Stage 12 — ar-radio supporting metadata",
+    "url": "https://spinnradio.com/station/ar-radio",
+    "kind": "directory",
+    "notes": "Matching operator homepage, Kerala/India and Hindi/Malayalam/Tamil directory metadata. Actual sampled programme language not independently heard. This is a multilingual trial, not a verified Tamil-only service."
+  },
+  {
+    "id": "stage12-hello-chennai-openstream-community-2026",
+    "title": "Stage 12 — Hello FM Chennai Openstream 4428 community and listener identification",
+    "url": "https://gist.github.com/palaniraja/5607053?permalink_comment_id=4659516",
+    "kind": "editorial",
+    "notes": "A September 2023 comment in a Chennai FM stream discussion identifies collection 4428 as Hello FM. On 9 November 2026 the user identified the same feed as Chennai-only. Government MIB list separately confirms Hello FM Chennai 106.4 MHz, NOT stream origin. Evidence is third-party and user testimony; not a broadcaster-authorized embedding or use grant."
+  },
+  {
+    "id": "stage12-hello-chennai-openstream-feed-2026",
+    "title": "Stage 12 — Openstream collection 4428 AAC trial endpoint (Hello FM Chennai reported)",
+    "url": "https://listen.openstream.co/4428/audio",
+    "kind": "directory",
+    "notes": "Stage 12 research reported safe HTTPS redirect, HTTP 200 audio/aacp and a two-second bounded AAC decode at 2026-11-09T13:14:28Z. No repeat playback test performed. No dynamic resolved URL stored. Station and Chennai-only identity are based on listener confirmation and historical community evidence, not an authenticated broadcaster player. Rights, direct listening, recording and redistribution unresolved."
   }
 ]

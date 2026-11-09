@@ -13,7 +13,7 @@ test('Internet catalogue and backlog partition every historical station ID',()=>
  const all=[...retained,...backlog.stations.map(r=>r.station.id).filter(id=>!retained.includes(id))];
  assert.equal(new Set(all).size,all.length);assert.deepEqual(all.sort(),historical.sort());
  assert.deepEqual(backlog.stations.map(r=>r.station.id).filter(id=>retained.includes(id)),[]);
- const worldwide=read('../docs/worldwide/stations.json');
+ const worldwide=[...read('../docs/worldwide/stations.json'),...read('../docs/stage12/stations.json')];
  for(const s of d.stations.filter(s=>!historical.includes(s.id)))assert.ok(worldwide.some(row=>row.id===s.id&&row.publication==='unverified-trial')||(s.id==='iskcon-nagercoil'&&s.sourceIds.includes('iskcon-trial-2026')),s.id);
  assert.ok(d.stations.every(s=>s.streams.length));
  assert.deepEqual(d.stationMigrations.removed.map(m=>m.oldId).sort(),backlog.stations.map(r=>r.station.id).filter(id=>!retained.includes(id)).sort());

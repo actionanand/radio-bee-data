@@ -3,9 +3,9 @@ import assert from "node:assert/strict";
 import { readCatalogue, validateCatalogue } from "../scripts/validate.mjs";
 test("published discovery inventory reconciles regional metadata and worldwide trial candidates", () => {
   const d = readCatalogue();
-  assert.equal(d.discoveryStations.length, 50);
-  assert.equal(d.stations.length, 35);
-  assert.equal(d.stations.flatMap((s) => s.streams).length, 38);
+  assert.equal(d.discoveryStations.length, 49);
+  assert.equal(d.stations.length, 43);
+  assert.equal(d.stations.flatMap((s) => s.streams).length, 46);
   const air = d.stations.find((s) => s.id === "air-nagercoil");
   assert.ok(air.aliases.includes("Kumari FM"));
   assert.equal(

@@ -11,5 +11,6 @@ test('shared network artwork inventory covers both publication arrays without cr
  for(const row of inventory)assert.equal(row.stations,all.filter(s=>s.networkId===row.networkId).length);
  for(const id of ['akashvani','suryan-in','sooriyan-lk','hello-fm','mirchi','radio-city','big-fm']){assert.ok(d.networks.some(n=>n.id===id));for(const s of all.filter(s=>s.networkId===id))assert.equal(s.logoPath,undefined,'No network logo duplicated onto station '+s.id);}
  assert.notEqual(d.networks.find(n=>n.id==='suryan-in').id,d.networks.find(n=>n.id==='sooriyan-lk').id);
- assert.ok(d.networks.every(n=>!n.logoPath),'No unapproved candidate artwork promoted');
+ const original=JSON.parse(readFileSync(new URL('../docs/stage12/artwork.json',import.meta.url)));
+ assert.ok(d.networks.filter(n=>n.logoPath).every(n=>original.some(a=>a.networkId===n.id&&a.path===n.logoPath&&a.officialBranding===false)),'Only reviewed original artwork may replace fallback');
 });

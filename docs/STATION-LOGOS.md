@@ -1,5 +1,7 @@
 # Station and network logos
 
+> Current Stage 12 (9 November 2026): eleven original unbranded RadioBee network illustrations, covering 59 of 92 cards. Zero official broadcaster logos republished. See [current artwork inventory and usage basis](STAGE12-TAMIL-RADIO-EXPANSION.md) and [asset metadata](stage12/artwork.json). All zero-asset figures below are historical snapshots, not the current catalogue.
+
 > Stage 11 (9 November 2026): zero approved assets; all 41 current networks and 85 cards retain fallback. Six favicon leads reviewed, five originals held in ignored review storage. See [current artwork and stream review](STAGE11-NETWORK-ARTWORK-AND-STREAMS.md) and [network inventory](stage11/network-artwork.json). Historical inventories below remain dated snapshots.
 
 Researched 6 November 2026. Catalogue v1.2.0, schemaVersion 1. This additive optional metadata change leaves every station, network, frequency, stream URL, verification status and rights status unchanged. No client code was modified.
