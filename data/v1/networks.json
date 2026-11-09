@@ -10,7 +10,8 @@
       "IN"
     ],
     "kind": "public",
-    "website": "https://prasarbharati.gov.in/en/akashvani-network/"
+    "website": "https://prasarbharati.gov.in/en/akashvani-network/",
+    "logoPath": "assets/logos/networks/akashvani-radio.png"
   },
   {
     "id": "suryan-in",
@@ -22,7 +23,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://www.suryanfm.in/"
+    "website": "https://www.suryanfm.in/",
+    "logoPath": "assets/logos/networks/suryan-in-radio.png"
   },
   {
     "id": "hello-fm",
@@ -32,7 +34,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": null
+    "website": null,
+    "logoPath": "assets/logos/networks/hello-fm-radio.png"
   },
   {
     "id": "mirchi",
@@ -44,7 +47,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://mirchi.in/stories"
+    "website": "https://mirchi.in/stories",
+    "logoPath": "assets/logos/networks/mirchi-radio.png"
   },
   {
     "id": "radio-city",
@@ -54,7 +58,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://www.radiocity.in/"
+    "website": "https://www.radiocity.in/",
+    "logoPath": "assets/logos/networks/radio-city-radio.png"
   },
   {
     "id": "red-fm",
@@ -64,7 +69,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://www.redfmindia.in/"
+    "website": "https://www.redfmindia.in/",
+    "logoPath": "assets/logos/networks/red-fm-radio.png"
   },
   {
     "id": "big-fm",
@@ -74,7 +80,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://www.bigfmindia.com/"
+    "website": "https://www.bigfmindia.com/",
+    "logoPath": "assets/logos/networks/big-fm-radio.png"
   },
   {
     "id": "fever-fm",
@@ -106,7 +113,8 @@
       "LK"
     ],
     "kind": "broadcaster",
-    "website": "https://www.sooriyanfm.lk/"
+    "website": "https://www.sooriyanfm.lk/",
+    "logoPath": "assets/logos/networks/sooriyan-lk-radio.png"
   },
   {
     "id": "vasantham-lk",
@@ -417,5 +425,68 @@
     ],
     "kind": "public",
     "website": "https://www.lotusfm.co.za/lotusfm/"
+  },
+  {
+    "id": "shaivam",
+    "name": "Shaivam.org",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://shaivam.org/",
+    "logoPath": "assets/logos/networks/shaivam-radio.png"
+  },
+  {
+    "id": "star-fm-lk",
+    "name": "Star FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": "https://www.starfm.lk/",
+    "logoPath": "assets/logos/networks/star-fm-lk-radio.png"
+  },
+  {
+    "id": "boom-tamil",
+    "name": "Boom Tamil",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.boomtamil.com/",
+    "logoPath": "assets/logos/networks/boom-tamil-radio.png"
+  },
+  {
+    "id": "tamil-panpalai",
+    "name": "Tamil Panpalai",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://tamilpanpalai.com/"
+  },
+  {
+    "id": "aural-radio",
+    "name": "Aural Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.auralradiokerala.in/"
+  },
+  {
+    "id": "ar-radio",
+    "name": "AR Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://arradiokerala.blogspot.com/"
   }
 ]

@@ -300,35 +300,6 @@
     "websiteKind": null
   },
   {
-    "id": "hello-chennai",
-    "name": "Hello FM Chennai",
-    "networkId": "hello-fm",
-    "countryCode": "IN",
-    "regionId": "in-tn",
-    "districtId": "in-tn-chennai",
-    "localityId": "in-tn-chennai-chennai",
-    "broadcastLanguages": [
-      "ta"
-    ],
-    "genres": [
-      "music"
-    ],
-    "delivery": "fm",
-    "coverage": "local",
-    "listingStatus": "candidate",
-    "frequencyMHz": 106.4,
-    "website": null,
-    "sourceIds": [
-      "mib-operational-2026-03",
-      "discovery-regional-2026"
-    ],
-    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission.",
-    "aliases": [],
-    "availability": "no-direct-stream",
-    "reviewedOn": "2026-11-08",
-    "websiteKind": null
-  },
-  {
     "id": "hello-coimbatore",
     "name": "Hello FM Coimbatore",
     "networkId": "hello-fm",

@@ -1,0 +1,90 @@
+{
+  "stationId": "hello-chennai",
+  "previousDiscoveryIndex": 10,
+  "previousDiscoveryRecord": {
+    "id": "hello-chennai",
+    "name": "Hello FM Chennai",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 106.4,
+    "website": null,
+    "sourceIds": [
+      "mib-operational-2026-03",
+      "discovery-regional-2026"
+    ],
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission.",
+    "aliases": [],
+    "availability": "no-direct-stream",
+    "reviewedOn": "2026-11-08",
+    "websiteKind": null
+  },
+  "existingProgramme": true,
+  "newStationIdentity": false,
+  "candidateUrl": "https://listen.openstream.co/4428/audio",
+  "codec": "aac",
+  "reportedProbe": {
+    "checkedAt": "2026-11-09T13:14:28Z",
+    "status": 200,
+    "contentType": "audio/aacp",
+    "redirectedWithinHttps": true,
+    "completeTwoSecondsDecoded": true,
+    "notes": "From the original Stage 12 report, not an independently repeated test."
+  },
+  "communityEvidence": "https://gist.github.com/palaniraja/5607053?permalink_comment_id=4659516",
+  "regulatorEvidence": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+  "listenerEvidence": "User explicitly identified the Openstream 4428 feed as Chennai-only in Stage 12 follow-up.",
+  "sourceIdentityLimitation": "Community link and user report support the mapping; no authenticated broadcaster player association or independently heard station ID was established.",
+  "usageLimitation": "Unverified trial only. Rights, recording and redistribution remain unconfirmed. Express access restrictions must not be overridden.",
+  "browserPlayback": "not-tested",
+  "androidPlayback": "not-tested",
+  "officialAuthorization": "not-established",
+  "otherHelloRegionsModified": false,
+  "previousMigrationIndex": 19,
+  "previousMigrationRecord": {
+    "oldId": "hello-chennai",
+    "canonicalId": null,
+    "sourceId": null,
+    "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+  },
+  "previousBacklogIndex": 19,
+  "previousBacklogRecord": {
+    "station": {
+      "id": "hello-chennai",
+      "name": "Hello FM Chennai",
+      "networkId": "hello-fm",
+      "countryCode": "IN",
+      "regionId": "in-tn",
+      "districtId": "in-tn-chennai",
+      "localityId": "in-tn-chennai-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "genres": [
+        "music"
+      ],
+      "delivery": "fm",
+      "coverage": "local",
+      "listingStatus": "candidate",
+      "frequencyMHz": 106.4,
+      "website": null,
+      "sourceIds": [
+        "mib-operational-2026-03"
+      ],
+      "streams": [],
+      "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission."
+    },
+    "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+  }
+}

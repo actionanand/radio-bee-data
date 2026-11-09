@@ -10,7 +10,7 @@ test('worldwide Tamil discovery covers the six requested countries and sourced a
   assert.ok(d.index.countries.includes(code));assert.ok(d.locations.some(l=>l.id===code.toLowerCase()&&l.type==='country'));assert.ok(world.some(s=>s.country===code));
  }
  for(const s of world){const published=rows.filter(x=>x.id===s.id);assert.equal(published.length,1,s.id);assert.ok(published[0].broadcastLanguages.includes('ta'));assert.ok(d.sources.some(x=>x.id===s.sourceId&&x.url===s.evidence));assert.equal(published[0].countryCode,s.country);}
- assert.equal(d.index.counts.discoverableStations,85);assert.deepEqual(validateCatalogue(d),[]);
+ assert.equal(d.index.counts.discoverableStations,92);assert.deepEqual(validateCatalogue(d),[]);
 });
 test('digital services and multilingual schedules do not become fabricated analogue FM stations',()=>{
  const d=readCatalogue(),get=id=>[...d.stations,...d.discoveryStations].find(s=>s.id===id);

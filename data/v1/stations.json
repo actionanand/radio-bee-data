@@ -1643,5 +1643,368 @@
         }
       }
     ]
+  },
+  {
+    "id": "shiva-tattvam",
+    "name": "Shiva Tattvam",
+    "networkId": "shaivam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional",
+      "talk"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://shaivam.org/radio-shiva-tattvam/",
+    "sourceIds": [
+      "stage12-shiva-tattvam",
+      "stage12-shiva-tattvam-metadata"
+    ],
+    "streams": [
+      {
+        "id": "shiva-tattvam-mp3-trial",
+        "url": "https://radio.shaivam.org/listen/shiva-tattvam/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-shiva-tattvam",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:14:14.185Z",
+          "sourceId": "stage12-shiva-tattvam",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Tamil Shaiva philosophy and discourses; distinct from the music channel. Official named-channel page and same-publisher stream host; India country attribution corroborated by historical Radio Browser listing, no city inferred."
+  },
+  {
+    "id": "thiruneriya-thamizhosai",
+    "name": "Thiruneriya Thamizhosai",
+    "networkId": "shaivam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional",
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.shaivam.org/radio-thiruneriya-thamizhosai/",
+    "sourceIds": [
+      "stage12-thiruneriya-thamizhosai",
+      "stage12-thiruneriya-thamizhosai-metadata"
+    ],
+    "streams": [
+      {
+        "id": "thiruneriya-thamizhosai-mp3-trial",
+        "url": "https://radio.shaivam.org/listen/thiruneriya-thamizhosai/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-thiruneriya-thamizhosai",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:14:19.535Z",
+          "sourceId": "stage12-thiruneriya-thamizhosai",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Official 24/7 Tamil devotional music service, distinct from Shiva Tattvam discourses. India country attribution corroborated by historical Radio Browser listing; no city inferred."
+  },
+  {
+    "id": "star-fm-srilanka",
+    "name": "Star FM Sri Lanka",
+    "networkId": "star-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.starfm.lk/",
+    "sourceIds": [
+      "stage12-star-fm-srilanka"
+    ],
+    "streams": [
+      {
+        "id": "star-fm-srilanka-mp3-trial",
+        "url": "https://stream.starfm.lk:12025/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-star-fm-srilanka",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:14:24.313Z",
+          "sourceId": "stage12-star-fm-srilanka",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Tamil online service. Exact endpoint embedded in publisher Live Radio page; do not conflate with other Star-branded broadcasters or infer a terrestrial frequency or local market."
+  },
+  {
+    "id": "boom-tamil",
+    "name": "Boom Tamil",
+    "networkId": "boom-tamil",
+    "countryCode": "CA",
+    "regionId": "ca-on",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.boomtamil.com/",
+    "sourceIds": [
+      "stage12-boom-tamil",
+      "stage12-boom-tamil-metadata"
+    ],
+    "streams": [
+      {
+        "id": "boom-tamil-mp3-trial",
+        "url": "https://streaming.boomtamil.com/toronto",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-boom-tamil",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:17:12.592Z",
+          "sourceId": "stage12-boom-tamil",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Exact lowercase stream published by broadcaster player JavaScript. Canada/Ontario attribution from historical Radio Browser lead, corroborated by Toronto-named publisher feed and Canadian editorial coverage; no unique city FM broadcast asserted."
+  },
+  {
+    "id": "tamil-panpalai",
+    "name": "Tamil Panpalai",
+    "networkId": "tamil-panpalai",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://tamilpanpalai.com/",
+    "sourceIds": [
+      "stage12-tamil-panpalai",
+      "stage12-tamil-panpalai-metadata"
+    ],
+    "streams": [
+      {
+        "id": "tamil-panpalai-mp3-trial",
+        "url": "https://tamilpanpalai.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-tamil-panpalai",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:17:13.731Z",
+          "sourceId": "stage12-tamil-panpalai",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Universal stream from official assets/js/player.js. Country supported by Radio Browser and Radioindia India listing; city left unknown. Other ANZ/AFR mounts are not counted as independent station identities."
+  },
+  {
+    "id": "aural-radio",
+    "name": "Aural Radio Kerala",
+    "networkId": "aural-radio",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "ml",
+      "hi"
+    ],
+    "genres": [
+      "music",
+      "talk"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.auralradiokerala.in/",
+    "sourceIds": [
+      "stage12-aural-radio",
+      "stage12-aural-radio-metadata"
+    ],
+    "streams": [
+      {
+        "id": "aural-radio-mp3-trial",
+        "url": "https://live.auralradiokerala.in/auralradio/mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-aural-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:17:18.179Z",
+          "sourceId": "stage12-aural-radio",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Multilingual online service, not Tamil-only. Exact stream in official js/player.js; linked publisher Zeno page lists Malayalam, Tamil and Hindi. No city/frequency inferred."
+  },
+  {
+    "id": "ar-radio",
+    "name": "AR Radio Kerala",
+    "networkId": "ar-radio",
+    "countryCode": "IN",
+    "regionId": "in-kl",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta",
+      "ml",
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://arradiokerala.blogspot.com/",
+    "sourceIds": [
+      "stage12-ar-radio",
+      "stage12-ar-radio-metadata"
+    ],
+    "streams": [
+      {
+        "id": "ar-radio-mp3-trial",
+        "url": "https://eu8.fastcast4u.com/proxy/arradio/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-ar-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:19:17.789Z",
+          "sourceId": "stage12-ar-radio",
+          "notes": "Publisher-associated public listening endpoint; no express RadioBee allowance established. Unverified trial only under the client trial policy. No recording or redistribution authorization inferred; do not override express restrictions.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "notes": "Exact endpoint in publisher LISTEN LIVE widget. Tamil inclusion alongside Malayalam/Hindi is directory-corroborated, not audibly confirmed in this sample; no Tamil-only or city-specific claim. Historical Rcast alternative returned HTTP 403 and is excluded."
+  },
+  {
+    "id": "hello-chennai",
+    "name": "Hello FM Chennai",
+    "networkId": "hello-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 106.4,
+    "website": null,
+    "sourceIds": [
+      "mib-operational-2026-03",
+      "discovery-regional-2026",
+      "stage12-hello-chennai-openstream-community-2026",
+      "stage12-hello-chennai-openstream-feed-2026"
+    ],
+    "notes": "Hello FM Chennai 106.4 MHz transmitter is confirmed by the March 2026 MIB register. The user identified Openstream collection 4428 as the Chennai feed; a 2023 Chennai-radio community report also associates collection 4428 with Hello FM. The endpoint decoded two seconds of AAC in the earlier Stage 12 audit, but broadcaster control, current on-air programme identity, long playback and RadioBee usage permission are not independently confirmed. Unverified Chennai-only Internet trial; no other Hello FM market is assigned this feed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "hello-chennai-openstream-aac-trial",
+        "url": "https://listen.openstream.co/4428/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage12-hello-chennai-openstream-feed-2026",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-09T13:14:28Z",
+          "sourceId": "stage12-hello-chennai-openstream-community-2026",
+          "notes": "Two-second AAC decode and Chennai-only listener identification; community directory association is not broadcaster authentication or permission. Trial subject to the existing RadioBee client policy. Recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

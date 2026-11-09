@@ -1,0 +1,178 @@
+[
+  {
+    "networkId": "akashvani",
+    "path": "assets/logos/networks/akashvani-radio.png",
+    "bytes": 30209,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#143A58",
+      "#297FA6",
+      "#8DE3E8"
+    ]
+  },
+  {
+    "networkId": "hello-fm",
+    "path": "assets/logos/networks/hello-fm-radio.png",
+    "bytes": 31335,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#46264F",
+      "#9861A8",
+      "#F6C6FA"
+    ]
+  },
+  {
+    "networkId": "suryan-in",
+    "path": "assets/logos/networks/suryan-in-radio.png",
+    "bytes": 30460,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#4B3019",
+      "#B86B29",
+      "#FFD88A"
+    ]
+  },
+  {
+    "networkId": "sooriyan-lk",
+    "path": "assets/logos/networks/sooriyan-lk-radio.png",
+    "bytes": 30628,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#233C32",
+      "#438D6C",
+      "#B9EDCB"
+    ]
+  },
+  {
+    "networkId": "mirchi",
+    "path": "assets/logos/networks/mirchi-radio.png",
+    "bytes": 29837,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#492B3A",
+      "#A34C71",
+      "#F8BDD3"
+    ]
+  },
+  {
+    "networkId": "radio-city",
+    "path": "assets/logos/networks/radio-city-radio.png",
+    "bytes": 30666,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#213854",
+      "#4E74B7",
+      "#BCD8FF"
+    ]
+  },
+  {
+    "networkId": "big-fm",
+    "path": "assets/logos/networks/big-fm-radio.png",
+    "bytes": 30952,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#423A20",
+      "#92803A",
+      "#F1E7A3"
+    ]
+  },
+  {
+    "networkId": "red-fm",
+    "path": "assets/logos/networks/red-fm-radio.png",
+    "bytes": 30350,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#492C29",
+      "#AC6259",
+      "#FFD5BD"
+    ]
+  },
+  {
+    "networkId": "shaivam",
+    "path": "assets/logos/networks/shaivam-radio.png",
+    "bytes": 30286,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#293A4C",
+      "#607E98",
+      "#D8E8F7"
+    ]
+  },
+  {
+    "networkId": "star-fm-lk",
+    "path": "assets/logos/networks/star-fm-lk-radio.png",
+    "bytes": 31087,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#30314F",
+      "#7776B4",
+      "#DDDAFF"
+    ]
+  },
+  {
+    "networkId": "boom-tamil",
+    "path": "assets/logos/networks/boom-tamil-radio.png",
+    "bytes": 29426,
+    "width": 512,
+    "height": 512,
+    "officialBranding": false,
+    "usageBasis": "Original unbranded RadioBee illustration; MIT",
+    "generator": "scripts/create-radio-artwork.ps1",
+    "rasterDecode": "System.Drawing full pixel traversal",
+    "palette": [
+      "#234444",
+      "#498D89",
+      "#BEF3E6"
+    ]
+  }
+]
