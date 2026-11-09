@@ -5,7 +5,7 @@ test("published discovery inventory reconciles regional metadata and worldwide t
   const d = readCatalogue();
   assert.equal(d.discoveryStations.length, 50);
   assert.equal(d.stations.length, 35);
-  assert.equal(d.stations.flatMap((s) => s.streams).length, 37);
+  assert.equal(d.stations.flatMap((s) => s.streams).length, 38);
   const air = d.stations.find((s) => s.id === "air-nagercoil");
   assert.ok(air.aliases.includes("Kumari FM"));
   assert.equal(

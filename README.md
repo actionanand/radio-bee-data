@@ -1,5 +1,7 @@
 # RadioBee Data
 
+> Current follow-up: catalogue 1.6.1, 38 URLs across the same 85 stations. AIR Nagercoil gains one user-identified unverified alternative. No broadcaster artwork approved. See [Stage 11 review](docs/STAGE11-NETWORK-ARTWORK-AND-STREAMS.md). Previous expansion snapshots below retain their original counts.
+
 **Versioned, independent station catalogue for RadioBee** — *Stay tuned. Stay buzzing.*
 
 This repository is intended to be published as static JSON and consumed by the [RadioBee Angular/Capacitor client](https://github.com/actionanand/radio-bee). It does **not** run a streaming server, mirror copyrighted radio broadcasts, or require a database, API key or hosting subscription for the JSON files.
