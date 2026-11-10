@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "removed": [
+    {
+      "oldId": "air-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-thoothukudi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "2026-11-09: HTTPS 302 to d1tmej9eu7kw5c.cloudfront.net followed by HTTP 404 text/html; user reproduced in Chrome and WSL2. No identity-confirmed replacement established."
+    },
+    {
+      "oldId": "air-vellore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-thiruvananthapuram",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-bengaluru",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-hyderabad",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-new-delhi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-mumbai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "air-malayalam",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-nagercoil",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-coimbatore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-madurai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-tiruchirappalli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-tirunelveli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-thoothukudi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-puducherry",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "suryan-salem",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-nagercoil",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-coimbatore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-madurai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-tiruchirappalli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-tirunelveli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-thoothukudi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-salem",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "hello-puducherry",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-coimbatore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-madurai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-tiruchirappalli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-tirunelveli",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-thiruvananthapuram",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-bengaluru",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-mumbai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "mirchi-puducherry",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-coimbatore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-madurai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-bengaluru",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-mumbai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "radio-city-pune",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "red-erode",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "red-salem",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "red-vellore",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "red-thiruvananthapuram",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "red-new-delhi",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "big-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "big-puducherry",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "big-bengaluru",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "big-mumbai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "big-thiruvananthapuram",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "fever-chennai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "shakthi-colombo",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "shakthi-jaffna",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "slbc-thendral",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "slbc-tamil-national",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "yaal-fm",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "asr-kanyakumari",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "annai-kuzhithurai",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "kumari-tamil-kanyakumari",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "luminous-radio",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "capital-srilanka",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    },
+    {
+      "oldId": "club-thiruvananthapuram",
+      "canonicalId": null,
+      "sourceId": null,
+      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
+    }
+  ]
+}

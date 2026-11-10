@@ -121,3 +121,18 @@ Full removed records are in `docs/research/station-backlog.json`, outside static
 ## Metadata-only discovery extension (1.5.0)
 
 The optional files.discoveryStations points to discovery-stations.json, a separate metadata-only array using schema/discovery-station.schema.json. It forbids streams and unknown fields; adds aliases, availability, reviewedOn and websiteKind to station identity/geo/language/provenance metadata. Availability is no-direct-stream (no suitable listed URL), temporarily-unavailable (observed access/player failure) or review-pending (technical/use review outstanding), never an authorization grant. stations.json still requires non-empty stream arrays. Added counts: discoveryStations, discoverableStations, stationsWithStreamCandidates and productionEligibleStations; legacy stations/streams counts keep their original meanings. See [the publication contract and expansion review](DISCOVERY-PUBLICATION.md).
+
+## Separate metadata/navigation API v2 (catalogue 2.0.0)
+
+The legacy data/v1 files and schema/ contracts are restored unchanged to catalogue
+1.9.0/schema 1. The enriched data is exclusively in data/v2 with schemaVersion 2,
+catalogVersion 2.0.0 and corresponding schemas under schema/v2/. It supports
+geographyEvidence, languageProfile, programmeThemeIds, flexible locality ancestors,
+network-to-broadcaster relationships and a deterministic browse index.
+
+Manifest extensions files.broadcasters, files.programmeThemes and files.browseIndex
+resolve inside the same version root. Both versions include all required artwork
+and localization. The migration document retains its independent format version 1;
+the v2 browse index carries schemaVersion 2. No stream or permission model changed.
+
+See [API v2 integration](API-V2.md) and [Stage 15 evidence and field contract](STAGE15-METADATA-NAVIGATION-API.md).

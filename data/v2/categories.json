@@ -1,0 +1,30 @@
+[
+  {
+    "id": "music",
+    "name": "Music"
+  },
+  {
+    "id": "news",
+    "name": "News"
+  },
+  {
+    "id": "general",
+    "name": "General"
+  },
+  {
+    "id": "talk",
+    "name": "Talk"
+  },
+  {
+    "id": "devotional",
+    "name": "Devotional"
+  },
+  {
+    "id": "classical",
+    "name": "Classical"
+  },
+  {
+    "id": "community",
+    "name": "Community"
+  }
+]

@@ -1,0 +1,331 @@
+{
+  "catalogVersion": "2.0.0",
+  "schemaVersion": 2,
+  "branch": "feature/15-catalogue-metadata-navigation",
+  "baseCommit": "d32b32c703256e042aa4b2f17dd5823528a8fa59",
+  "stage15Files": [
+    {
+      "status": " M",
+      "path": "README.md"
+    },
+    {
+      "status": " M",
+      "path": "docs/EDITORIAL.md"
+    },
+    {
+      "status": " M",
+      "path": "docs/INTEGRATION.md"
+    },
+    {
+      "status": " M",
+      "path": "docs/SCHEMA.md"
+    },
+    {
+      "status": " M",
+      "path": "package.json"
+    },
+    {
+      "status": " M",
+      "path": "scripts/build-static.mjs"
+    },
+    {
+      "status": " M",
+      "path": "scripts/discovery-catalogue.mjs"
+    },
+    {
+      "status": " M",
+      "path": "scripts/logo-assets.mjs"
+    },
+    {
+      "status": " M",
+      "path": "scripts/validate.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/catalogue-history.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/logo-assets.test.mjs"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/.gitkeep"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/akashvani-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/big-fm-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/boom-tamil-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/hello-fm-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/mirchi-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/radio-city-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/red-fm-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/shaivam-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/sooriyan-lk-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/star-fm-lk-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/networks/suryan-in-radio.png"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/assets/logos/stations/.gitkeep"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/broadcasters.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/browse-index.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/categories.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/discovery-stations.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/i18n/en.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/i18n/sa.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/i18n/ta.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/index.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/languages.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/locations.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/networks.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/programme-themes.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/sources.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/station-migrations.json"
+    },
+    {
+      "status": "??",
+      "path": "data/v2/stations.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/API-V2.md"
+    },
+    {
+      "status": "??",
+      "path": "docs/STAGE15-METADATA-NAVIGATION-API.md"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/baseline.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/changed-files.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/dual-version-verification.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/enriched-snapshot.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/geography.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/groupings.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/languages.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/metadata-audit.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/published-files.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/schema-validation.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/stations.csv"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/stations.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/summary.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/v1-production-baseline.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage15/validation.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/broadcaster.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/browse-index.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/discovery-station.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/index.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/location.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/metadata-definitions.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/network.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/programme-theme.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/station-migrations.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/station.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "schema/v2/stream.schema.json"
+    },
+    {
+      "status": "??",
+      "path": "scripts/catalogue-navigation.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/generate-browse-index.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/metadata-validation.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/validate-v2-json-schemas.mjs"
+    },
+    {
+      "status": "??",
+      "path": "scripts/versioned-publication.mjs"
+    },
+    {
+      "status": "??",
+      "path": "tests/stage15-dual-version.test.mjs"
+    },
+    {
+      "status": "??",
+      "path": "tests/stage15-metadata-navigation.test.mjs"
+    }
+  ],
+  "excludedPreexistingFiles": [
+    {
+      "path": "docs/README-HELLO-CHENNAI-STAGE12.md",
+      "exists": true,
+      "locallyExcluded": true,
+      "modifiedByThisTask": false
+    },
+    {
+      "path": "scripts/apply-hello-chennai-stage12.py",
+      "exists": true,
+      "locallyExcluded": true,
+      "modifiedByThisTask": false
+    },
+    {
+      "path": "scripts/fix-stage12-hello-chennai-migration.py",
+      "exists": true,
+      "locallyExcluded": true,
+      "modifiedByThisTask": false
+    },
+    {
+      "path": "scripts/find_stream_url.py",
+      "exists": true,
+      "locallyExcluded": true,
+      "modifiedByThisTask": false
+    }
+  ],
+  "ignoredWorkingFiles": "reports/stage15 contains temporary offline migration helpers and verification output; excluded from Git and static publication."
+}

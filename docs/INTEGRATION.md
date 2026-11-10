@@ -94,3 +94,19 @@ Fetch the optional discovery payload as part of the same atomic snapshot. Valida
 ## Worldwide trial additions (1.9.0)
 
 Stage 14 adds 25 publisher-associated unverified trials using the existing schema and client playback contract. The manifest now counts 117 identities, 71 stream-bearing stations and 74 URLs. Existing stations, stream permissions and artwork are unchanged. Some new services are multilingual with scheduled Tamil programmes; canonical notes describe this limitation. No new technical-verification or listening-use approval is implied. See [the Stage 14 review](STAGE14-GLOBAL-TAMIL-RADIO-EXPANSION.md).
+
+## Separate API v2 (catalogue 2.0.0)
+
+Existing production Web/Android clients continue using `/v1/`, frozen at merged
+master 1.9.0. The enriched Stage 15 snapshot is separately published under `/v2/`
+with schemaVersion 2, catalogue 2.0.0 and complete local assets/localization.
+Do not parse v2 using a v1 parser or mix their caches. No endpoint changes are made
+in this repository. Stage 16 may use the generated dist/v2 snapshot for local
+development; production switching waits for reviewed deployment and all reference checks.
+
+The optional browse index is a derived acceleration, never the authority for
+station identity, eligibility or on-air language. When absent or stale, use the
+canonical v2 files, not a silently relabelled v1 snapshot.
+
+See [v2 client loading and release instructions](API-V2.md) and
+[the full metadata/navigation contract](STAGE15-METADATA-NAVIGATION-API.md).

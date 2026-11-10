@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee location v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "type",
+    "parentId",
+    "countryCode"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "country",
+        "state",
+        "district",
+        "locality"
+      ]
+    },
+    "parentId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Country: null; state: country; district: state; locality: documented district, state or country. Never create a district to fill a missing level. Cross-record containment is checked by the validator."
+    },
+    "countryCode": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    }
+  }
+}

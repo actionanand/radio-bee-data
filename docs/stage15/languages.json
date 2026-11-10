@@ -1,0 +1,3516 @@
+{
+  "catalogVersion": "2.0.0",
+  "semantics": "Documented supported languages, not UI language or live on-air detection. Multilingual need not identify all languages. Unknown classification is not a single-language assertion.",
+  "classifications": [
+    {
+      "id": "multilingual",
+      "name": "multilingual",
+      "key": "language-classification:multilingual",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-nagercoil",
+        "air-tamil",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "aural-radio",
+        "east-fm-ca",
+        "live-fm-bh",
+        "lotus-fm-za",
+        "mauradio-mu",
+        "quran-tamil-kw",
+        "radio-plus-indiz-mu",
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 19,
+        "streamBearing": 18,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "single-language",
+      "name": "single-language",
+      "key": "language-classification:single-language",
+      "stationIds": [
+        "good-news-tamil-ca",
+        "hand-of-jesus-tamil-in",
+        "inbathamil-oli-au",
+        "jei-fm-my",
+        "shiva-tattvam",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "theophony-tamil-in",
+        "thiruneriya-thamizhosai",
+        "thuthi-fm-no",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 11,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "unknown",
+      "name": "unknown",
+      "key": "language-classification:unknown",
+      "stationIds": [
+        "a9-radio-ca",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-ooty",
+        "air-puducherry",
+        "air-raagam",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati",
+        "akkini-ch",
+        "amen-fm-ca",
+        "american-tamil-radio-us",
+        "amudham-fm-in",
+        "asr-kanyakumari",
+        "atbc-au",
+        "athavan-uk",
+        "beats-radio-us",
+        "big-chennai",
+        "big-puducherry",
+        "boom-tamil",
+        "christian-samy-fm",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "etr-de",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "ibc-tamil-uk",
+        "isai-murasu-nagercoil",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "luminous-radio-tamil",
+        "minnal-my",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "namathu-fm-fr",
+        "oli-968-sg",
+        "otran-vaanoli-ie",
+        "raaga-my",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "shakthi-srilanka",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "suno-tamil-qa",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "swiss-tamil-radio-ch",
+        "tamil-894-ae",
+        "tamil-murasam-no",
+        "tamil-panpalai",
+        "tamilosai-nagercoil",
+        "tarana-tamil-nz",
+        "thaalam-ch",
+        "vaagai-tamil-de",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 87,
+        "streamBearing": 42,
+        "discoveryOnly": 45
+      }
+    }
+  ],
+  "languages": [
+    {
+      "id": "ar",
+      "name": "Arabic",
+      "key": "language:ar",
+      "nativeName": "العربية",
+      "stationIds": [
+        "3zzz-au",
+        "east-fm-ca",
+        "quran-tamil-kw"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "bg",
+      "name": "Bulgarian",
+      "key": "language:bg",
+      "nativeName": "Български",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "bho",
+      "name": "Bhojpuri",
+      "key": "language:bho",
+      "nativeName": "भोजपुरी",
+      "stationIds": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "bn",
+      "name": "Bengali",
+      "key": "language:bn",
+      "nativeName": "বাংলা",
+      "stationIds": [
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "bs",
+      "name": "Bosnian",
+      "key": "language:bs",
+      "nativeName": "Bosanski",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "cmn",
+      "name": "Mandarin Chinese",
+      "key": "language:cmn",
+      "nativeName": "普通话",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "da",
+      "name": "Danish",
+      "key": "language:da",
+      "nativeName": "Dansk",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "key": "language:de",
+      "nativeName": "Deutsch",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "el",
+      "name": "Greek",
+      "key": "language:el",
+      "nativeName": "Ελληνικά",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "key": "language:en",
+      "nativeName": "English",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-nagercoil",
+        "air-tamil",
+        "lotus-fm-za",
+        "mauradio-mu"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 11,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "eo",
+      "name": "Esperanto",
+      "key": "language:eo",
+      "nativeName": "Esperanto",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "key": "language:es",
+      "nativeName": "Español",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "fa",
+      "name": "Persian",
+      "key": "language:fa",
+      "nativeName": "فارسی",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 4,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "fil",
+      "name": "Filipino",
+      "key": "language:fil",
+      "nativeName": "Filipino",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "key": "language:fr",
+      "nativeName": "Français",
+      "stationIds": [
+        "5ebi-au",
+        "mauradio-mu"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "gu",
+      "name": "Gujarati",
+      "key": "language:gu",
+      "nativeName": "ગુજરાતી",
+      "stationIds": [
+        "east-fm-ca",
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "har",
+      "name": "Harari",
+      "key": "language:har",
+      "nativeName": "Harari",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "he",
+      "name": "Hebrew",
+      "key": "language:he",
+      "nativeName": "עברית",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hi",
+      "name": "Hindi",
+      "key": "language:hi",
+      "nativeName": "हिन्दी",
+      "stationIds": [
+        "4eb-global-au",
+        "5ebi-au",
+        "air-vividh-bharati",
+        "ar-radio",
+        "aural-radio",
+        "east-fm-ca",
+        "live-fm-bh",
+        "lotus-fm-za",
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 10,
+        "streamBearing": 10,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hmn",
+      "name": "Hmong",
+      "key": "language:hmn",
+      "nativeName": "Hmong",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hr",
+      "name": "Croatian",
+      "key": "language:hr",
+      "nativeName": "Hrvatski",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hu",
+      "name": "Hungarian",
+      "key": "language:hu",
+      "nativeName": "Magyar",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hy",
+      "name": "Armenian",
+      "key": "language:hy",
+      "nativeName": "Հայերեն",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "id",
+      "name": "Indonesian",
+      "key": "language:id",
+      "nativeName": "Bahasa Indonesia",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "it",
+      "name": "Italian",
+      "key": "language:it",
+      "nativeName": "Italiano",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "key": "language:ja",
+      "nativeName": "日本語",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "km",
+      "name": "Khmer",
+      "key": "language:km",
+      "nativeName": "ខ្មែរ",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "kn",
+      "name": "Kannada",
+      "key": "language:kn",
+      "nativeName": "ಕನ್ನಡ",
+      "stationIds": [
+        "east-fm-ca",
+        "live-fm-bh"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ko",
+      "name": "Korean",
+      "key": "language:ko",
+      "nativeName": "한국어",
+      "stationIds": [
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lo",
+      "name": "Lao",
+      "key": "language:lo",
+      "nativeName": "ລາວ",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lt",
+      "name": "Lithuanian",
+      "key": "language:lt",
+      "nativeName": "Lietuvių",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lv",
+      "name": "Latvian",
+      "key": "language:lv",
+      "nativeName": "Latviešu",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mfe",
+      "name": "Mauritian Creole",
+      "key": "language:mfe",
+      "nativeName": "Kreol Morisien",
+      "stationIds": [
+        "mauradio-mu"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mi",
+      "name": "Māori",
+      "key": "language:mi",
+      "nativeName": "Te reo Māori",
+      "stationIds": [
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mk",
+      "name": "Macedonian",
+      "key": "language:mk",
+      "nativeName": "Македонски",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ml",
+      "name": "Malayalam",
+      "key": "language:ml",
+      "nativeName": "മലയാളം",
+      "stationIds": [
+        "3zzz-au",
+        "air-devikulam",
+        "air-kannur",
+        "air-kochi",
+        "air-kozhikode",
+        "air-thrissur",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "aural-radio",
+        "east-fm-ca",
+        "live-fm-bh",
+        "mirchi-thiruvananthapuram"
+      ],
+      "counts": {
+        "all": 12,
+        "streamBearing": 10,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "mr",
+      "name": "Marathi",
+      "key": "language:mr",
+      "nativeName": "मराठी",
+      "stationIds": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mt",
+      "name": "Maltese",
+      "key": "language:mt",
+      "nativeName": "Malti",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "nl",
+      "name": "Dutch",
+      "key": "language:nl",
+      "nativeName": "Nederlands",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-global-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "pa",
+      "name": "Punjabi",
+      "key": "language:pa",
+      "nativeName": "ਪੰਜਾਬੀ",
+      "stationIds": [
+        "3zzz-au",
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "pl",
+      "name": "Polish",
+      "key": "language:pl",
+      "nativeName": "Polski",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ro",
+      "name": "Romanian",
+      "key": "language:ro",
+      "nativeName": "Română",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ru",
+      "name": "Russian",
+      "key": "language:ru",
+      "nativeName": "Русский",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "rw",
+      "name": "Kinyarwanda",
+      "key": "language:rw",
+      "nativeName": "Ikinyarwanda",
+      "stationIds": [
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sa",
+      "name": "Sanskrit",
+      "key": "language:sa",
+      "nativeName": "संस्कृतम्",
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "si",
+      "name": "Sinhala",
+      "key": "language:si",
+      "nativeName": "සිංහල",
+      "stationIds": [
+        "3zzz-au",
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sk",
+      "name": "Slovak",
+      "key": "language:sk",
+      "nativeName": "Slovenčina",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sl",
+      "name": "Slovenian",
+      "key": "language:sl",
+      "nativeName": "Slovenščina",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sm",
+      "name": "Samoan",
+      "key": "language:sm",
+      "nativeName": "Gagana Sāmoa",
+      "stationIds": [
+        "4eb-global-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sq",
+      "name": "Albanian",
+      "key": "language:sq",
+      "nativeName": "Shqip",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sr",
+      "name": "Serbian",
+      "key": "language:sr",
+      "nativeName": "Српски",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ta",
+      "name": "Tamil",
+      "key": "language:ta",
+      "nativeName": "தமிழ்",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "a9-radio-ca",
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-karaikal",
+        "air-kodaikanal",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "akkini-ch",
+        "amen-fm-ca",
+        "american-tamil-radio-us",
+        "amudham-fm-in",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "asr-kanyakumari",
+        "atbc-au",
+        "athavan-uk",
+        "aural-radio",
+        "beats-radio-us",
+        "big-chennai",
+        "big-puducherry",
+        "boom-tamil",
+        "christian-samy-fm",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "east-fm-ca",
+        "etr-de",
+        "good-news-tamil-ca",
+        "hand-of-jesus-tamil-in",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "ibc-tamil-uk",
+        "inbathamil-oli-au",
+        "isai-murasu-nagercoil",
+        "jei-fm-my",
+        "kumari-tamil-kanyakumari",
+        "live-fm-bh",
+        "lotus-fm-za",
+        "luminous-radio-tamil",
+        "mauradio-mu",
+        "minnal-my",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "namathu-fm-fr",
+        "oli-968-sg",
+        "otran-vaanoli-ie",
+        "quran-tamil-kw",
+        "raaga-my",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "radio-plus-indiz-mu",
+        "shakthi-srilanka",
+        "shiva-tattvam",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "suno-tamil-qa",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "sweety-fm-in",
+        "swiss-tamil-radio-ch",
+        "tamil-894-ae",
+        "tamil-christian-radio-in",
+        "tamil-murasam-no",
+        "tamil-panpalai",
+        "tamilosai-nagercoil",
+        "tarana-tamil-nz",
+        "thaalam-ch",
+        "theophony-tamil-in",
+        "thiruneriya-thamizhosai",
+        "thuthi-fm-no",
+        "time-fm-toronto-ca",
+        "vaagai-tamil-de",
+        "vaanmalar-fm-in",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 108,
+        "streamBearing": 63,
+        "discoveryOnly": 45
+      }
+    },
+    {
+      "id": "te",
+      "name": "Telugu",
+      "key": "language:te",
+      "nativeName": "తెలుగు",
+      "stationIds": [
+        "4eb-global-au",
+        "east-fm-ca",
+        "lotus-fm-za",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 4,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tl",
+      "name": "Tagalog",
+      "key": "language:tl",
+      "nativeName": "Tagalog",
+      "stationIds": [
+        "4eb-global-au",
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "to",
+      "name": "Tongan",
+      "key": "language:to",
+      "nativeName": "Lea fakatonga",
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tr",
+      "name": "Turkish",
+      "key": "language:tr",
+      "nativeName": "Türkçe",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "uk",
+      "name": "Ukrainian",
+      "key": "language:uk",
+      "nativeName": "Українська",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ur",
+      "name": "Urdu",
+      "key": "language:ur",
+      "nativeName": "اردو",
+      "stationIds": [
+        "east-fm-ca",
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "vi",
+      "name": "Vietnamese",
+      "key": "language:vi",
+      "nativeName": "Tiếng Việt",
+      "stationIds": [
+        "3zzz-au",
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "yi",
+      "name": "Yiddish",
+      "key": "language:yi",
+      "nativeName": "ייִדיש",
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "yue",
+      "name": "Cantonese",
+      "key": "language:yue",
+      "nativeName": "粵語",
+      "stationIds": [
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    }
+  ],
+  "stations": [
+    {
+      "stationId": "3zzz-au",
+      "broadcastLanguages": [
+        "ta",
+        "en",
+        "sq",
+        "ar",
+        "hy",
+        "bs",
+        "cmn",
+        "hr",
+        "nl",
+        "eo",
+        "fil",
+        "de",
+        "el",
+        "har",
+        "hmn",
+        "id",
+        "it",
+        "ja",
+        "he",
+        "yi",
+        "lo",
+        "lv",
+        "mk",
+        "ml",
+        "mt",
+        "fa",
+        "pl",
+        "pa",
+        "ro",
+        "ru",
+        "sr",
+        "si",
+        "sl",
+        "es",
+        "tr",
+        "uk",
+        "vi"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-3zzz-shows"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred.",
+        "schedules": [
+          {
+            "id": "3zzz-tamil-thursday",
+            "title": "Tamil",
+            "languages": [
+              "ta"
+            ],
+            "days": [
+              4
+            ],
+            "startLocal": "20:00",
+            "endLocal": "21:00",
+            "timeZone": "Australia/Melbourne",
+            "sourceIds": [
+              "stage15-3zzz-shows"
+            ],
+            "reviewedOn": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "stationId": "4eb-fm-au",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-4eb-tamil"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher establishes more than 50 language groups, but this FM row lists only the two currently documented canonical languages. Do not infer the Global programme languages onto FM.",
+        "schedules": [
+          {
+            "id": "4eb-tamil-friday",
+            "title": "Tamil Oli Friday",
+            "languages": [
+              "ta"
+            ],
+            "days": [
+              5
+            ],
+            "startLocal": "16:00",
+            "endLocal": "17:00",
+            "timeZone": "Australia/Brisbane",
+            "sourceIds": [
+              "stage15-4eb-tamil"
+            ],
+            "reviewedOn": "2026-11-10"
+          },
+          {
+            "id": "4eb-tamil-sunday",
+            "title": "Tamil Oli Sunday",
+            "languages": [
+              "ta"
+            ],
+            "days": [
+              7
+            ],
+            "startLocal": "21:00",
+            "endLocal": "22:00",
+            "timeZone": "Australia/Brisbane",
+            "sourceIds": [
+              "stage15-4eb-tamil"
+            ],
+            "reviewedOn": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "stationId": "4eb-global-au",
+      "broadcastLanguages": [
+        "ta",
+        "en",
+        "mi",
+        "de",
+        "fa",
+        "tl",
+        "id",
+        "nl",
+        "ja",
+        "te",
+        "cmn",
+        "sm",
+        "rw",
+        "yue",
+        "hi"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-4eb-global-guide",
+          "stage15-4eb-tamil"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred.",
+        "schedules": [
+          {
+            "id": "4eb-global-tamil",
+            "title": "Tamil Oli Global",
+            "languages": [
+              "ta"
+            ],
+            "days": [
+              1,
+              3,
+              5,
+              6,
+              7
+            ],
+            "startLocal": "19:00",
+            "endLocal": "20:00",
+            "timeZone": "Australia/Brisbane",
+            "sourceIds": [
+              "stage15-4eb-global-guide"
+            ],
+            "reviewedOn": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "stationId": "5ebi-au",
+      "broadcastLanguages": [
+        "ta",
+        "en",
+        "bs",
+        "bg",
+        "cmn",
+        "hr",
+        "da",
+        "nl",
+        "fil",
+        "fr",
+        "de",
+        "el",
+        "hu",
+        "id",
+        "hi",
+        "it",
+        "km",
+        "lv",
+        "lt",
+        "mk",
+        "mt",
+        "fa",
+        "pl",
+        "ru",
+        "sm",
+        "sr",
+        "sk",
+        "sl",
+        "es",
+        "to",
+        "uk",
+        "vi"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-5ebi-profile"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "a9-radio-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-a9-radio-ca-player",
+          "stage14-a9-radio-ca-player-context-1",
+          "stage14-a9-radio-ca-player-context-2"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-chennai-gold",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "air-stage4-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-chennai-rainbow",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "air-player-2026",
+          "prasar-terms-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-chennai-vividh-tamil",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "air-stage4-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-coimbatore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-devikulam",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-kannur",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-karaikal",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-kochi",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-kodaikanal",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-kozhikode",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-madurai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-nagercoil",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-player-2026",
+          "prasar-terms-2026",
+          "air-nagercoil-radio-browser-user-review-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-ooty",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-puducherry",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-raagam",
+      "broadcastLanguages": [],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "unknown",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-live",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Broadcast language not independently established; no language inferred from institution, genre or UI locale."
+      }
+    },
+    {
+      "stationId": "air-tamil",
+      "broadcastLanguages": [
+        "ta",
+        "en"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-live",
+          "air-player-2026",
+          "prasar-terms-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-thoothukudi",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player",
+          "discovery-regional-2026",
+          "stage13-air-thoothukudi-player",
+          "hotfix13-thoothukudi-404"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-thrissur",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-tiruchirappalli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-tirunelveli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-network",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "air-vividh-bharati",
+      "broadcastLanguages": [
+        "hi"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "prasar-air-live",
+          "air-stage6-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "akkini-ch",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-akkini-ch-2026",
+          "world-akkini-ch-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "amen-fm-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-amen-fm-ca-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "american-tamil-radio-us",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-american-tamil-radio-us-2026",
+          "world-american-tamil-radio-us-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "amudham-fm-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-amudham-fm-in-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "annai-kuzhithurai",
+      "broadcastLanguages": [
+        "ta",
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "annai-discovery-profile",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "ar-radio",
+      "broadcastLanguages": [
+        "ta",
+        "ml",
+        "hi"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "mixed",
+        "coverage": "complete",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-ar-publisher"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher-declared Malayalam/Tamil/Hindi rotation. No primary language or live on-air language inferred."
+      }
+    },
+    {
+      "stationId": "asr-kanyakumari",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "asr-channel-family",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "atbc-au",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-atbc-au-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "athavan-uk",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-athavan-uk-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "aural-radio",
+      "broadcastLanguages": [
+        "ta",
+        "ml",
+        "hi"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "mixed",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage12-aural-radio",
+          "stage12-aural-radio-metadata"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Three previously documented supported languages retained; full inventory and present on-air language not established. No provider bulk collection repeated."
+      }
+    },
+    {
+      "stationId": "beats-radio-us",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-beats-radio-us-2026",
+          "world-beats-radio-us-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "big-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "big-fm-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "big-puducherry",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "big-fm-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "boom-tamil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage12-boom-tamil",
+          "stage12-boom-tamil-metadata"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "christian-samy-fm",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "christian-samy-provider",
+          "asr-channel-family",
+          "discovery-nagercoil-directory"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "cmr-tamil-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-cmr-tamil-ca-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "ctbc-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-ctbc-ca-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "ctr-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-ctr-ca-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "east-fm-ca",
+      "broadcastLanguages": [
+        "ta",
+        "pa",
+        "ur",
+        "hi",
+        "fa",
+        "tl",
+        "te",
+        "ar",
+        "si",
+        "bn",
+        "kn",
+        "gu",
+        "ml",
+        "ko"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-east-schedule"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred.",
+        "schedules": [
+          {
+            "id": "east-tamil-weekday",
+            "title": "Netru Indru Naalai",
+            "languages": [
+              "ta"
+            ],
+            "days": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "startLocal": "09:00",
+            "endLocal": "12:00",
+            "timeZone": "America/Toronto",
+            "sourceIds": [
+              "stage15-east-schedule"
+            ],
+            "reviewedOn": "2026-11-10"
+          }
+        ]
+      }
+    },
+    {
+      "stationId": "etr-de",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-etr-de-2026",
+          "world-etr-de-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "good-news-tamil-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-good-news-tamil-ca-player",
+          "stage14-good-news-tamil-ca-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "hand-of-jesus-tamil-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-hand-of-jesus-tamil-in-player",
+          "stage14-hand-of-jesus-tamil-in-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "hello-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "discovery-regional-2026",
+          "stage12-hello-chennai-openstream-community-2026",
+          "stage12-hello-chennai-openstream-feed-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-coimbatore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-erode",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-madurai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-nagercoil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026",
+          "hello-nagercoil-expansion-2025"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-puducherry",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-salem",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-thoothukudi",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-tiruchirappalli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-tirunelveli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "hello-vellore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "ibc-tamil-uk",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-ibc-tamil-uk-2026",
+          "world-ibc-tamil-uk-player",
+          "ibc-world-use-policy"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "inbathamil-oli-au",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-inbathamil-oli-au-player",
+          "stage14-inbathamil-oli-au-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "isai-murasu-nagercoil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "isai-murasu-rotary-2024",
+          "discovery-nagercoil-directory"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "iskcon-nagercoil",
+      "broadcastLanguages": [],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "unknown",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "iskcon-discovery-player",
+          "iskcon-trial-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Broadcast language not independently established; no language inferred from institution, genre or UI locale."
+      }
+    },
+    {
+      "stationId": "jei-fm-my",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-jei-fm-my-player",
+          "stage14-jei-fm-my-player-context-1",
+          "stage14-jei-fm-my-player-context-2"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "kumari-tamil-kanyakumari",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "kumari-site",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "live-fm-bh",
+      "broadcastLanguages": [
+        "hi",
+        "ml",
+        "ta",
+        "kn"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-live-fm-bh-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Four publisher-documented languages retained; directory-only additional languages not promoted. No primary language or current programme language inferred."
+      }
+    },
+    {
+      "stationId": "lotus-fm-za",
+      "broadcastLanguages": [
+        "en",
+        "ta",
+        "te",
+        "hi",
+        "ur",
+        "gu"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "complete",
+        "primaryLanguage": "en",
+        "sourceIds": [
+          "stage15-lotus-profile"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Official profile names main English plus Tamil/Urdu/Hindi/Telugu/Gujarati shows. Complete refers to this declared set, not real-time audio monitoring."
+      }
+    },
+    {
+      "stationId": "luminous-radio-tamil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "luminous-site",
+          "luminous-tamil-player-2026",
+          "luminous-identity-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mauradio-mu",
+      "broadcastLanguages": [
+        "mfe",
+        "fr",
+        "en",
+        "bho",
+        "hi",
+        "ta",
+        "mr"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "mixed",
+        "coverage": "complete",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-mauradio-mu-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher explicitly declares seven languages in daily music rotation. No single primary language or current song language inferred."
+      }
+    },
+    {
+      "stationId": "minnal-my",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-minnal-my-2026",
+          "world-minnal-my-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-coimbatore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-madurai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-thiruvananthapuram",
+      "broadcastLanguages": [
+        "ml"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-tiruchirappalli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "mirchi-tirunelveli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mirchi-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "namathu-fm-fr",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-namathu-fm-fr-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "oli-968-sg",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-oli-968-sg-2026",
+          "world-oli-968-sg-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "otran-vaanoli-ie",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-otran-vaanoli-ie-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "quran-tamil-kw",
+      "broadcastLanguages": [
+        "ar",
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-quran-tamil-kw-player",
+          "stage14-quran-tamil-kw-player-context-1",
+          "stage14-quran-tamil-kw-player-context-2"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "raaga-my",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-raaga-my-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "radio-city-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "mib-operational-2026-03",
+          "radio-city-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "radio-city-coimbatore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "radio-city-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "radio-city-madurai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "radio-city-stage6-website",
+          "discovery-regional-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "radio-plus-indiz-mu",
+      "broadcastLanguages": [
+        "hi",
+        "bho",
+        "ta",
+        "te",
+        "mr"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "mixed",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-radio-plus-indiz-mu-player",
+          "stage14-radio-plus-indiz-mu-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher lists Hindi/Bhojpuri plus Tamil/Telugu/Marathi. Other languages may occur; coverage partial."
+      }
+    },
+    {
+      "stationId": "shakthi-srilanka",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "shakthi-site",
+          "shakthi-player-2026",
+          "shakthi-player-stage8"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "shiva-tattvam",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage12-shiva-tattvam",
+          "stage12-shiva-tattvam-metadata"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "sooriyan-srilanka",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "sooriyan-site",
+          "sooriyan-player-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "star-fm-srilanka",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage12-star-fm-srilanka"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suno-tamil-qa",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-suno-tamil-qa-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-chennai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "mib-operational-2026-03",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-coimbatore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-erode",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-madurai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-nagercoil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-nagercoil-2026",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-puducherry",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-salem",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-thoothukudi",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-tiruchirappalli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-tirunelveli",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "suryan-stage4-cities",
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "suryan-vellore",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "discovery-regional-2026",
+          "suryan-discovery-cities"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "sweety-fm-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-sweety-fm-in-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "swiss-tamil-radio-ch",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-swiss-tamil-radio-ch-2026",
+          "stage13-swiss-tamil-radio-ch-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "tamil-894-ae",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-tamil-894-ae-2026",
+          "world-tamil-894-ae-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "tamil-christian-radio-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-tamil-christian-radio-in-player",
+          "stage14-tamil-christian-radio-in-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "tamil-murasam-no",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-tamil-murasam-no-2026",
+          "world-tamil-murasam-no-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "tamil-panpalai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage12-tamil-panpalai",
+          "stage12-tamil-panpalai-metadata"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "tamilosai-nagercoil",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "tamilosai-directory",
+          "discovery-nagercoil-directory"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "tarana-tamil-nz",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-tarana-tamil-nz-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "thaalam-ch",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "world-thaalam-ch-2026",
+          "world-thaalam-ch-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "theophony-tamil-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-theophony-tamil-in-player",
+          "stage14-theophony-tamil-in-player-context-1"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "thiruneriya-thamizhosai",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage12-thiruneriya-thamizhosai",
+          "stage12-thiruneriya-thamizhosai-metadata"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "thuthi-fm-no",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-thuthi-fm-no-player",
+          "stage14-thuthi-fm-no-player-context-1",
+          "stage14-thuthi-fm-no-player-context-2",
+          "stage14-thuthi-fm-no-player-context-3"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "time-fm-toronto-ca",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "multilingual",
+        "programmingPattern": "scheduled",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage15-time-profile"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher schedule includes Multilingual Show without naming all its languages. Only documented Tamil stays in broadcastLanguages; multilingual classification does not invent other language tags."
+      }
+    },
+    {
+      "stationId": "vaagai-tamil-de",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "stage14-vaagai-tamil-de-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    },
+    {
+      "stationId": "vaanmalar-fm-in",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "single-language",
+        "programmingPattern": "continuous",
+        "coverage": "partial",
+        "primaryLanguage": "ta",
+        "sourceIds": [
+          "stage14-vaanmalar-fm-in-player"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
+      }
+    },
+    {
+      "stationId": "vasantham-srilanka",
+      "broadcastLanguages": [
+        "ta"
+      ],
+      "languageProfile": {
+        "classification": "unknown",
+        "programmingPattern": "unknown",
+        "coverage": "partial",
+        "primaryLanguage": null,
+        "sourceIds": [
+          "itn-vasantham-identity",
+          "vasantham-player-2026"
+        ],
+        "reviewedOn": "2026-11-10",
+        "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+      }
+    }
+  ]
+}
