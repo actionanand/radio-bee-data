@@ -1,0 +1,163 @@
+{
+  "reviewedOn": "2026-11-11",
+  "catalogVersion": "2.0.0",
+  "schemaVersion": 2,
+  "draft": "2020-12",
+  "engine": {
+    "name": "Ajv",
+    "version": "8.20.0",
+    "formatsVersion": "3.0.1"
+  },
+  "resolution": "Explicit local file retrieval URIs; $id-aware Ajv resource resolution; no network loader",
+  "externalNetworkRequests": 0,
+  "formatAssertions": true,
+  "schemas": [
+    {
+      "file": "broadcaster.schema.json",
+      "sha256": "ed65297765ae3916a1541df103cbeac0334324fa2e178da15b0ad9279bd51063"
+    },
+    {
+      "file": "browse-index.schema.json",
+      "sha256": "50f992ff4654116269b515e248e0fee5c68aa1d95ff53f15fbd141fa42652b6f"
+    },
+    {
+      "file": "discovery-station.schema.json",
+      "sha256": "07f94f5672476bf5746a057258fe0f1b262939596f58ace5e9b6cc56dcb659a2"
+    },
+    {
+      "file": "index.schema.json",
+      "sha256": "4d569d14b9ef49ea21b78acb699a9e592e308ff0dcbb5259bed8fa97b7b062a4"
+    },
+    {
+      "file": "location.schema.json",
+      "sha256": "dd910397ffe06e62d4be199fb05e408520d975979ce2daf2f9eafa0c3453c495"
+    },
+    {
+      "file": "metadata-definitions.schema.json",
+      "sha256": "09577c9444ffa28d41a9662ec335bd91054f3267bc4afdea762962266ea22a11"
+    },
+    {
+      "file": "network.schema.json",
+      "sha256": "d5448a1ea9d619878f835056a5726b6715144e86a5caf1017711cb11c2a2c977"
+    },
+    {
+      "file": "programme-theme.schema.json",
+      "sha256": "9ae2c7a6e1280b13e8aa8ddbb800be87cbb4ff77a2f482f20d70187ca4f083d9"
+    },
+    {
+      "file": "station-migrations.schema.json",
+      "sha256": "391fda6cdfb730e406e8d584b09babf127dbdd666767d8d284d1d5cea681c868"
+    },
+    {
+      "file": "station.schema.json",
+      "sha256": "dd90aace07673c50882605ad608efc69f687ecc6febff787afc7858d425e7a8b"
+    },
+    {
+      "file": "stream.schema.json",
+      "sha256": "3578a6b1535bf5696228328586cb610291b7132f1f4c2be4a3e161eae4cdb346"
+    }
+  ],
+  "dataFiles": [
+    {
+      "file": "broadcasters.json",
+      "sha256": "2ca91df46fc7232e4251b5c6d34aa855dca35741722637978b54b1039e4b179f"
+    },
+    {
+      "file": "browse-index.json",
+      "sha256": "43217c751f216e32576fdf77e04d5f4a3f172ab4ccbf3e8756c89d6802424448"
+    },
+    {
+      "file": "discovery-stations.json",
+      "sha256": "6ded39c5b78dfacdd8e345efaf303e48d5cf0c5869a57f98cdf29df5a9eb4859"
+    },
+    {
+      "file": "index.json",
+      "sha256": "3d3e9a7c67c8943525b7c9325f14fba26d448ab8f3ddfb95c2031f3e58ed1b39"
+    },
+    {
+      "file": "locations.json",
+      "sha256": "f7850a066d0ef5b3b117a560120040aee2b70bbe275337ff7a3c156b4103a7c6"
+    },
+    {
+      "file": "networks.json",
+      "sha256": "41a49763527fc15ad6728b9b6394ab97e062268ad62d9dcd4e2a5030abee83ff"
+    },
+    {
+      "file": "programme-themes.json",
+      "sha256": "6a2df81ec12975b1b9976ccf390906fbe965392519e82a3cac11f42bba5d955d"
+    },
+    {
+      "file": "station-migrations.json",
+      "sha256": "dcefb3af8f1aaa578d7cc08f9bb4debc18a1b641a9e84be02ac420ace16dcbb9"
+    },
+    {
+      "file": "stations.json",
+      "sha256": "2c8e24a504aaf20a3c9b1c03c9b5fc894e2aae165a25d4c9e78029d9e9dacc0b"
+    }
+  ],
+  "results": [
+    {
+      "group": "stations",
+      "file": "stations.json",
+      "schema": "station.schema.json",
+      "records": 71
+    },
+    {
+      "group": "discoveryStations",
+      "file": "discovery-stations.json",
+      "schema": "discovery-station.schema.json",
+      "records": 46
+    },
+    {
+      "group": "locations",
+      "file": "locations.json",
+      "schema": "location.schema.json",
+      "records": 131
+    },
+    {
+      "group": "networks",
+      "file": "networks.json",
+      "schema": "network.schema.json",
+      "records": 71
+    },
+    {
+      "group": "broadcasters",
+      "file": "broadcasters.json",
+      "schema": "broadcaster.schema.json",
+      "records": 10
+    },
+    {
+      "group": "browseIndex",
+      "file": "browse-index.json",
+      "schema": "browse-index.schema.json",
+      "records": 1
+    },
+    {
+      "group": "programmeThemes",
+      "file": "programme-themes.json",
+      "schema": "programme-theme.schema.json",
+      "records": 4
+    },
+    {
+      "group": "manifest",
+      "file": "index.json",
+      "schema": "index.schema.json",
+      "records": 1
+    },
+    {
+      "group": "stationMigrations",
+      "file": "station-migrations.json",
+      "schema": "station-migrations.schema.json",
+      "records": 1
+    },
+    {
+      "group": "streams",
+      "file": "stations.json",
+      "schema": "stream.schema.json",
+      "records": 74
+    }
+  ],
+  "totalRecords": 410,
+  "valid": true,
+  "errors": []
+}

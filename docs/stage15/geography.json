@@ -1,0 +1,3873 @@
+{
+  "catalogVersion": "2.0.0",
+  "semantics": "Known programme/station base, not transmitter footprint, audience location or stream-host location. Optional absent levels are null, never invented.",
+  "coverage": {
+    "country": {
+      "all": 117,
+      "streamBearing": 71,
+      "discoveryOnly": 46
+    },
+    "region": {
+      "all": 90,
+      "streamBearing": 47,
+      "discoveryOnly": 43
+    },
+    "district": {
+      "all": 64,
+      "streamBearing": 25,
+      "discoveryOnly": 39
+    },
+    "locality": {
+      "all": 75,
+      "streamBearing": 34,
+      "discoveryOnly": 41
+    },
+    "countryOnly": {
+      "all": 27,
+      "streamBearing": 24,
+      "discoveryOnly": 3
+    },
+    "lowConfidence": [
+      "jei-fm-my",
+      "otran-vaanoli-ie"
+    ]
+  },
+  "countries": [
+    {
+      "id": "AE",
+      "name": "United Arab Emirates",
+      "key": "country:AE",
+      "locationId": "ae",
+      "stationIds": [
+        "tamil-894-ae"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "AU",
+      "name": "Australia",
+      "key": "country:AU",
+      "locationId": "au",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "atbc-au",
+        "inbathamil-oli-au"
+      ],
+      "counts": {
+        "all": 6,
+        "streamBearing": 5,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "BH",
+      "name": "Bahrain",
+      "key": "country:BH",
+      "locationId": "bh",
+      "stationIds": [
+        "live-fm-bh"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "CA",
+      "name": "Canada",
+      "key": "country:CA",
+      "locationId": "ca",
+      "stationIds": [
+        "a9-radio-ca",
+        "amen-fm-ca",
+        "boom-tamil",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "east-fm-ca",
+        "good-news-tamil-ca",
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 9,
+        "streamBearing": 6,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "CH",
+      "name": "Switzerland",
+      "key": "country:CH",
+      "locationId": "ch",
+      "stationIds": [
+        "akkini-ch",
+        "swiss-tamil-radio-ch",
+        "thaalam-ch"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "key": "country:DE",
+      "locationId": "de",
+      "stationIds": [
+        "etr-de",
+        "vaagai-tamil-de"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "FR",
+      "name": "France",
+      "key": "country:FR",
+      "locationId": "fr",
+      "stationIds": [
+        "namathu-fm-fr"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "GB",
+      "name": "United Kingdom",
+      "key": "country:GB",
+      "locationId": "gb",
+      "stationIds": [
+        "athavan-uk",
+        "ibc-tamil-uk"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 1,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "IE",
+      "name": "Ireland",
+      "key": "country:IE",
+      "locationId": "ie",
+      "stationIds": [
+        "otran-vaanoli-ie"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "key": "country:IN",
+      "locationId": "in",
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-raagam",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati",
+        "amudham-fm-in",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "asr-kanyakumari",
+        "aural-radio",
+        "big-chennai",
+        "big-puducherry",
+        "christian-samy-fm",
+        "hand-of-jesus-tamil-in",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "isai-murasu-nagercoil",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "luminous-radio-tamil",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "shiva-tattvam",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "tamil-panpalai",
+        "tamilosai-nagercoil",
+        "theophony-tamil-in",
+        "thiruneriya-thamizhosai",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 73,
+        "streamBearing": 34,
+        "discoveryOnly": 39
+      }
+    },
+    {
+      "id": "KW",
+      "name": "Kuwait",
+      "key": "country:KW",
+      "locationId": "kw",
+      "stationIds": [
+        "quran-tamil-kw"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "LK",
+      "name": "Sri Lanka",
+      "key": "country:LK",
+      "locationId": "lk",
+      "stationIds": [
+        "shakthi-srilanka",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 4,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "MU",
+      "name": "Mauritius",
+      "key": "country:MU",
+      "locationId": "mu",
+      "stationIds": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "MY",
+      "name": "Malaysia",
+      "key": "country:MY",
+      "locationId": "my",
+      "stationIds": [
+        "jei-fm-my",
+        "minnal-my",
+        "raaga-my"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 2,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "NO",
+      "name": "Norway",
+      "key": "country:NO",
+      "locationId": "no",
+      "stationIds": [
+        "tamil-murasam-no",
+        "thuthi-fm-no"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "NZ",
+      "name": "New Zealand",
+      "key": "country:NZ",
+      "locationId": "nz",
+      "stationIds": [
+        "tarana-tamil-nz"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "QA",
+      "name": "Qatar",
+      "key": "country:QA",
+      "locationId": "qa",
+      "stationIds": [
+        "suno-tamil-qa"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "SG",
+      "name": "Singapore",
+      "key": "country:SG",
+      "locationId": "sg",
+      "stationIds": [
+        "oli-968-sg"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "US",
+      "name": "United States",
+      "key": "country:US",
+      "locationId": "us",
+      "stationIds": [
+        "american-tamil-radio-us",
+        "beats-radio-us"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ZA",
+      "name": "South Africa",
+      "key": "country:ZA",
+      "locationId": "za",
+      "stationIds": [
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "ae",
+      "name": "United Arab Emirates",
+      "key": "location:ae",
+      "type": "country",
+      "countryCode": "AE",
+      "parentId": null,
+      "childIds": [
+        "ae-du"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "tamil-894-ae"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ae-du",
+      "name": "Dubai",
+      "key": "location:ae-du",
+      "type": "state",
+      "countryCode": "AE",
+      "parentId": "ae",
+      "childIds": [],
+      "directStationIds": [
+        "tamil-894-ae"
+      ],
+      "stationIds": [
+        "tamil-894-ae"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au",
+      "name": "Australia",
+      "key": "location:au",
+      "type": "country",
+      "countryCode": "AU",
+      "parentId": null,
+      "childIds": [
+        "au-nsw",
+        "au-qld",
+        "au-sa",
+        "au-vic"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "atbc-au",
+        "inbathamil-oli-au"
+      ],
+      "counts": {
+        "all": 6,
+        "streamBearing": 5,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "au-nsw",
+      "name": "New South Wales",
+      "key": "location:au-nsw",
+      "type": "state",
+      "countryCode": "AU",
+      "parentId": "au",
+      "childIds": [
+        "au-nsw-sydney"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "atbc-au",
+        "inbathamil-oli-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 1,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "au-nsw-sydney",
+      "name": "Sydney",
+      "key": "location:au-nsw-sydney",
+      "type": "locality",
+      "countryCode": "AU",
+      "parentId": "au-nsw",
+      "childIds": [],
+      "directStationIds": [
+        "atbc-au",
+        "inbathamil-oli-au"
+      ],
+      "stationIds": [
+        "atbc-au",
+        "inbathamil-oli-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 1,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "au-qld",
+      "name": "Queensland",
+      "key": "location:au-qld",
+      "type": "state",
+      "countryCode": "AU",
+      "parentId": "au",
+      "childIds": [
+        "au-qld-brisbane"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "4eb-fm-au",
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au-qld-brisbane",
+      "name": "Brisbane",
+      "key": "location:au-qld-brisbane",
+      "type": "locality",
+      "countryCode": "AU",
+      "parentId": "au-qld",
+      "childIds": [],
+      "directStationIds": [
+        "4eb-fm-au",
+        "4eb-global-au"
+      ],
+      "stationIds": [
+        "4eb-fm-au",
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au-sa",
+      "name": "South Australia",
+      "key": "location:au-sa",
+      "type": "state",
+      "countryCode": "AU",
+      "parentId": "au",
+      "childIds": [
+        "au-sa-adelaide"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au-sa-adelaide",
+      "name": "Adelaide",
+      "key": "location:au-sa-adelaide",
+      "type": "locality",
+      "countryCode": "AU",
+      "parentId": "au-sa",
+      "childIds": [],
+      "directStationIds": [
+        "5ebi-au"
+      ],
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au-vic",
+      "name": "Victoria",
+      "key": "location:au-vic",
+      "type": "state",
+      "countryCode": "AU",
+      "parentId": "au",
+      "childIds": [
+        "au-vic-melbourne"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "au-vic-melbourne",
+      "name": "Melbourne",
+      "key": "location:au-vic-melbourne",
+      "type": "locality",
+      "countryCode": "AU",
+      "parentId": "au-vic",
+      "childIds": [],
+      "directStationIds": [
+        "3zzz-au"
+      ],
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "bh",
+      "name": "Bahrain",
+      "key": "location:bh",
+      "type": "country",
+      "countryCode": "BH",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "live-fm-bh"
+      ],
+      "stationIds": [
+        "live-fm-bh"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ca",
+      "name": "Canada",
+      "key": "location:ca",
+      "type": "country",
+      "countryCode": "CA",
+      "parentId": null,
+      "childIds": [
+        "ca-on"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "a9-radio-ca",
+        "amen-fm-ca",
+        "boom-tamil",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "east-fm-ca",
+        "good-news-tamil-ca",
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 9,
+        "streamBearing": 6,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "ca-on",
+      "name": "Ontario",
+      "key": "location:ca-on",
+      "type": "state",
+      "countryCode": "CA",
+      "parentId": "ca",
+      "childIds": [
+        "ca-on-oshawa",
+        "ca-on-scarborough",
+        "ca-on-toronto"
+      ],
+      "directStationIds": [
+        "boom-tamil",
+        "ctbc-ca"
+      ],
+      "stationIds": [
+        "a9-radio-ca",
+        "amen-fm-ca",
+        "boom-tamil",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "east-fm-ca",
+        "good-news-tamil-ca",
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 9,
+        "streamBearing": 6,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "ca-on-oshawa",
+      "name": "Oshawa",
+      "key": "location:ca-on-oshawa",
+      "type": "locality",
+      "countryCode": "CA",
+      "parentId": "ca-on",
+      "childIds": [],
+      "directStationIds": [
+        "amen-fm-ca"
+      ],
+      "stationIds": [
+        "amen-fm-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ca-on-scarborough",
+      "name": "Scarborough",
+      "key": "location:ca-on-scarborough",
+      "type": "locality",
+      "countryCode": "CA",
+      "parentId": "ca-on",
+      "childIds": [],
+      "directStationIds": [
+        "east-fm-ca",
+        "good-news-tamil-ca"
+      ],
+      "stationIds": [
+        "east-fm-ca",
+        "good-news-tamil-ca"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ca-on-toronto",
+      "name": "Toronto",
+      "key": "location:ca-on-toronto",
+      "type": "locality",
+      "countryCode": "CA",
+      "parentId": "ca-on",
+      "childIds": [],
+      "directStationIds": [
+        "a9-radio-ca",
+        "cmr-tamil-ca",
+        "ctr-ca",
+        "time-fm-toronto-ca"
+      ],
+      "stationIds": [
+        "a9-radio-ca",
+        "cmr-tamil-ca",
+        "ctr-ca",
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 2,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "ch",
+      "name": "Switzerland",
+      "key": "location:ch",
+      "type": "country",
+      "countryCode": "CH",
+      "parentId": null,
+      "childIds": [
+        "ch-zh"
+      ],
+      "directStationIds": [
+        "swiss-tamil-radio-ch"
+      ],
+      "stationIds": [
+        "akkini-ch",
+        "swiss-tamil-radio-ch",
+        "thaalam-ch"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ch-zh",
+      "name": "Zurich",
+      "key": "location:ch-zh",
+      "type": "state",
+      "countryCode": "CH",
+      "parentId": "ch",
+      "childIds": [],
+      "directStationIds": [
+        "akkini-ch",
+        "thaalam-ch"
+      ],
+      "stationIds": [
+        "akkini-ch",
+        "thaalam-ch"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "de",
+      "name": "Germany",
+      "key": "location:de",
+      "type": "country",
+      "countryCode": "DE",
+      "parentId": null,
+      "childIds": [
+        "de-nw"
+      ],
+      "directStationIds": [
+        "vaagai-tamil-de"
+      ],
+      "stationIds": [
+        "etr-de",
+        "vaagai-tamil-de"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "de-nw",
+      "name": "North Rhine-Westphalia",
+      "key": "location:de-nw",
+      "type": "state",
+      "countryCode": "DE",
+      "parentId": "de",
+      "childIds": [],
+      "directStationIds": [
+        "etr-de"
+      ],
+      "stationIds": [
+        "etr-de"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "key": "location:fr",
+      "type": "country",
+      "countryCode": "FR",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "namathu-fm-fr"
+      ],
+      "stationIds": [
+        "namathu-fm-fr"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "gb",
+      "name": "United Kingdom",
+      "key": "location:gb",
+      "type": "country",
+      "countryCode": "GB",
+      "parentId": null,
+      "childIds": [
+        "gb-eng"
+      ],
+      "directStationIds": [
+        "athavan-uk"
+      ],
+      "stationIds": [
+        "athavan-uk",
+        "ibc-tamil-uk"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 1,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "gb-eng",
+      "name": "England",
+      "key": "location:gb-eng",
+      "type": "state",
+      "countryCode": "GB",
+      "parentId": "gb",
+      "childIds": [],
+      "directStationIds": [
+        "ibc-tamil-uk"
+      ],
+      "stationIds": [
+        "ibc-tamil-uk"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ie",
+      "name": "Ireland",
+      "key": "location:ie",
+      "type": "country",
+      "countryCode": "IE",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "otran-vaanoli-ie"
+      ],
+      "stationIds": [
+        "otran-vaanoli-ie"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in",
+      "name": "India",
+      "key": "location:in",
+      "type": "country",
+      "countryCode": "IN",
+      "parentId": null,
+      "childIds": [
+        "in-ap",
+        "in-dl",
+        "in-ka",
+        "in-kl",
+        "in-mh",
+        "in-py",
+        "in-tg",
+        "in-tn"
+      ],
+      "directStationIds": [
+        "air-raagam",
+        "air-vividh-bharati",
+        "luminous-radio-tamil",
+        "shiva-tattvam",
+        "tamil-panpalai",
+        "thiruneriya-thamizhosai"
+      ],
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-raagam",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati",
+        "amudham-fm-in",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "asr-kanyakumari",
+        "aural-radio",
+        "big-chennai",
+        "big-puducherry",
+        "christian-samy-fm",
+        "hand-of-jesus-tamil-in",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "isai-murasu-nagercoil",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "luminous-radio-tamil",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "shiva-tattvam",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "tamil-panpalai",
+        "tamilosai-nagercoil",
+        "theophony-tamil-in",
+        "thiruneriya-thamizhosai",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 73,
+        "streamBearing": 34,
+        "discoveryOnly": 39
+      }
+    },
+    {
+      "id": "in-ap",
+      "name": "Andhra Pradesh",
+      "key": "location:in-ap",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-ap-visakhapatnam"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ap-visakhapatnam",
+      "name": "Visakhapatnam",
+      "key": "location:in-ap-visakhapatnam",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-ap",
+      "childIds": [
+        "in-ap-visakhapatnam-visakhapatnam"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ap-visakhapatnam-visakhapatnam",
+      "name": "Visakhapatnam",
+      "key": "location:in-ap-visakhapatnam-visakhapatnam",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-ap-visakhapatnam",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-dl",
+      "name": "Delhi",
+      "key": "location:in-dl",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-dl-new-delhi"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-dl-new-delhi",
+      "name": "New Delhi",
+      "key": "location:in-dl-new-delhi",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-dl",
+      "childIds": [
+        "in-dl-new-delhi-new-delhi"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-dl-new-delhi-new-delhi",
+      "name": "New Delhi",
+      "key": "location:in-dl-new-delhi-new-delhi",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-dl-new-delhi",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ka",
+      "name": "Karnataka",
+      "key": "location:in-ka",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-ka-bengaluru-urban",
+        "in-ka-mysuru"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "theophony-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ka-bengaluru-urban",
+      "name": "Bengaluru Urban",
+      "key": "location:in-ka-bengaluru-urban",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-ka",
+      "childIds": [
+        "in-ka-bengaluru-urban-bengaluru"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "theophony-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ka-bengaluru-urban-bengaluru",
+      "name": "Bengaluru",
+      "key": "location:in-ka-bengaluru-urban-bengaluru",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-ka-bengaluru-urban",
+      "childIds": [],
+      "directStationIds": [
+        "theophony-tamil-in"
+      ],
+      "stationIds": [
+        "theophony-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ka-mysuru",
+      "name": "Mysuru",
+      "key": "location:in-ka-mysuru",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-ka",
+      "childIds": [
+        "in-ka-mysuru-mysuru"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-ka-mysuru-mysuru",
+      "name": "Mysuru",
+      "key": "location:in-ka-mysuru-mysuru",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-ka-mysuru",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl",
+      "name": "Kerala",
+      "key": "location:in-kl",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-kl-alappuzha",
+        "in-kl-ernakulam",
+        "in-kl-idukki",
+        "in-kl-kannur",
+        "in-kl-kozhikode",
+        "in-kl-thiruvananthapuram",
+        "in-kl-thrissur"
+      ],
+      "directStationIds": [
+        "aural-radio"
+      ],
+      "stationIds": [
+        "air-devikulam",
+        "air-kannur",
+        "air-kochi",
+        "air-kozhikode",
+        "air-thrissur",
+        "ar-radio",
+        "aural-radio",
+        "mirchi-thiruvananthapuram"
+      ],
+      "counts": {
+        "all": 8,
+        "streamBearing": 7,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "in-kl-alappuzha",
+      "name": "Alappuzha",
+      "key": "location:in-kl-alappuzha",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-alappuzha-alappuzha"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-alappuzha-alappuzha",
+      "name": "Alappuzha",
+      "key": "location:in-kl-alappuzha-alappuzha",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-alappuzha",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-ernakulam",
+      "name": "Ernakulam",
+      "key": "location:in-kl-ernakulam",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-ernakulam-kochi"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-kochi"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-ernakulam-kochi",
+      "name": "Kochi",
+      "key": "location:in-kl-ernakulam-kochi",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-ernakulam",
+      "childIds": [],
+      "directStationIds": [
+        "air-kochi"
+      ],
+      "stationIds": [
+        "air-kochi"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-idukki",
+      "name": "Idukki",
+      "key": "location:in-kl-idukki",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-idukki-devikulam"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-devikulam"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-idukki-devikulam",
+      "name": "Devikulam",
+      "key": "location:in-kl-idukki-devikulam",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-idukki",
+      "childIds": [],
+      "directStationIds": [
+        "air-devikulam"
+      ],
+      "stationIds": [
+        "air-devikulam"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-kannur",
+      "name": "Kannur",
+      "key": "location:in-kl-kannur",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-kannur-kannur"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-kannur"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-kannur-kannur",
+      "name": "Kannur",
+      "key": "location:in-kl-kannur-kannur",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-kannur",
+      "childIds": [],
+      "directStationIds": [
+        "air-kannur"
+      ],
+      "stationIds": [
+        "air-kannur"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-kozhikode",
+      "name": "Kozhikode",
+      "key": "location:in-kl-kozhikode",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-kozhikode-kozhikode"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-kozhikode"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-kozhikode-kozhikode",
+      "name": "Kozhikode",
+      "key": "location:in-kl-kozhikode-kozhikode",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-kozhikode",
+      "childIds": [],
+      "directStationIds": [
+        "air-kozhikode"
+      ],
+      "stationIds": [
+        "air-kozhikode"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-thiruvananthapuram",
+      "name": "Thiruvananthapuram",
+      "key": "location:in-kl-thiruvananthapuram",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-thiruvananthapuram-thiruvananthapuram"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "mirchi-thiruvananthapuram"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "in-kl-thiruvananthapuram-thiruvananthapuram",
+      "name": "Thiruvananthapuram",
+      "key": "location:in-kl-thiruvananthapuram-thiruvananthapuram",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-thiruvananthapuram",
+      "childIds": [],
+      "directStationIds": [
+        "mirchi-thiruvananthapuram"
+      ],
+      "stationIds": [
+        "mirchi-thiruvananthapuram"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "in-kl-thrissur",
+      "name": "Thrissur",
+      "key": "location:in-kl-thrissur",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-kl",
+      "childIds": [
+        "in-kl-thrissur-thrissur"
+      ],
+      "directStationIds": [
+        "ar-radio"
+      ],
+      "stationIds": [
+        "air-thrissur",
+        "ar-radio"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-kl-thrissur-thrissur",
+      "name": "Thrissur",
+      "key": "location:in-kl-thrissur-thrissur",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-kl-thrissur",
+      "childIds": [],
+      "directStationIds": [
+        "air-thrissur"
+      ],
+      "stationIds": [
+        "air-thrissur"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-mh",
+      "name": "Maharashtra",
+      "key": "location:in-mh",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-mh-mumbai-city",
+        "in-mh-pune"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-mh-mumbai-city",
+      "name": "Mumbai City",
+      "key": "location:in-mh-mumbai-city",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-mh",
+      "childIds": [
+        "in-mh-mumbai-city-mumbai"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-mh-mumbai-city-mumbai",
+      "name": "Mumbai",
+      "key": "location:in-mh-mumbai-city-mumbai",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-mh-mumbai-city",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-mh-pune",
+      "name": "Pune",
+      "key": "location:in-mh-pune",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-mh",
+      "childIds": [
+        "in-mh-pune-pune"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-mh-pune-pune",
+      "name": "Pune",
+      "key": "location:in-mh-pune-pune",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-mh-pune",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-py",
+      "name": "Puducherry",
+      "key": "location:in-py",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-py-karaikal",
+        "in-py-puducherry"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-karaikal",
+        "air-puducherry",
+        "big-puducherry",
+        "hello-puducherry",
+        "suryan-puducherry"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 2,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-py-karaikal",
+      "name": "Karaikal",
+      "key": "location:in-py-karaikal",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-py",
+      "childIds": [
+        "in-py-karaikal-karaikal"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-karaikal"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-py-karaikal-karaikal",
+      "name": "Karaikal",
+      "key": "location:in-py-karaikal-karaikal",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-py-karaikal",
+      "childIds": [],
+      "directStationIds": [
+        "air-karaikal"
+      ],
+      "stationIds": [
+        "air-karaikal"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-py-puducherry",
+      "name": "Puducherry",
+      "key": "location:in-py-puducherry",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-py",
+      "childIds": [
+        "in-py-puducherry-puducherry"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-puducherry",
+        "big-puducherry",
+        "hello-puducherry",
+        "suryan-puducherry"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-py-puducherry-puducherry",
+      "name": "Puducherry",
+      "key": "location:in-py-puducherry-puducherry",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-py-puducherry",
+      "childIds": [],
+      "directStationIds": [
+        "air-puducherry",
+        "big-puducherry",
+        "hello-puducherry",
+        "suryan-puducherry"
+      ],
+      "stationIds": [
+        "air-puducherry",
+        "big-puducherry",
+        "hello-puducherry",
+        "suryan-puducherry"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tg",
+      "name": "Telangana",
+      "key": "location:in-tg",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-tg-hyderabad"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tg-hyderabad",
+      "name": "Hyderabad",
+      "key": "location:in-tg-hyderabad",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tg",
+      "childIds": [
+        "in-tg-hyderabad-hyderabad"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tg-hyderabad-hyderabad",
+      "name": "Hyderabad",
+      "key": "location:in-tg-hyderabad-hyderabad",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tg-hyderabad",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn",
+      "name": "Tamil Nadu",
+      "key": "location:in-tn",
+      "type": "state",
+      "countryCode": "IN",
+      "parentId": "in",
+      "childIds": [
+        "in-tn-chennai",
+        "in-tn-coimbatore",
+        "in-tn-dharmapuri",
+        "in-tn-dindigul",
+        "in-tn-erode",
+        "in-tn-kanyakumari",
+        "in-tn-madurai",
+        "in-tn-nilgiris",
+        "in-tn-ranipet",
+        "in-tn-salem",
+        "in-tn-thanjavur",
+        "in-tn-thoothukudi",
+        "in-tn-tiruchirappalli",
+        "in-tn-tirunelveli",
+        "in-tn-tiruppur",
+        "in-tn-vellore"
+      ],
+      "directStationIds": [
+        "air-tamil",
+        "amudham-fm-in"
+      ],
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-kodaikanal",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "amudham-fm-in",
+        "annai-kuzhithurai",
+        "asr-kanyakumari",
+        "big-chennai",
+        "christian-samy-fm",
+        "hand-of-jesus-tamil-in",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "isai-murasu-nagercoil",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "tamilosai-nagercoil",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 53,
+        "streamBearing": 18,
+        "discoveryOnly": 35
+      }
+    },
+    {
+      "id": "in-tn-chennai",
+      "name": "Chennai",
+      "key": "location:in-tn-chennai",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-chennai-chennai"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "big-chennai",
+        "hello-chennai",
+        "mirchi-chennai",
+        "radio-city-chennai",
+        "suryan-chennai",
+        "tamil-christian-radio-in",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 10,
+        "streamBearing": 6,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-chennai-chennai",
+      "name": "Chennai",
+      "key": "location:in-tn-chennai-chennai",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-chennai",
+      "childIds": [],
+      "directStationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "big-chennai",
+        "hello-chennai",
+        "mirchi-chennai",
+        "radio-city-chennai",
+        "suryan-chennai",
+        "tamil-christian-radio-in",
+        "vaanmalar-fm-in"
+      ],
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "big-chennai",
+        "hello-chennai",
+        "mirchi-chennai",
+        "radio-city-chennai",
+        "suryan-chennai",
+        "tamil-christian-radio-in",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 10,
+        "streamBearing": 6,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-coimbatore",
+      "name": "Coimbatore",
+      "key": "location:in-tn-coimbatore",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-coimbatore-coimbatore"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-coimbatore",
+        "hello-coimbatore",
+        "mirchi-coimbatore",
+        "radio-city-coimbatore",
+        "suryan-coimbatore"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 1,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-coimbatore-coimbatore",
+      "name": "Coimbatore",
+      "key": "location:in-tn-coimbatore-coimbatore",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-coimbatore",
+      "childIds": [],
+      "directStationIds": [
+        "air-coimbatore",
+        "hello-coimbatore",
+        "mirchi-coimbatore",
+        "radio-city-coimbatore",
+        "suryan-coimbatore"
+      ],
+      "stationIds": [
+        "air-coimbatore",
+        "hello-coimbatore",
+        "mirchi-coimbatore",
+        "radio-city-coimbatore",
+        "suryan-coimbatore"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 1,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-dharmapuri",
+      "name": "Dharmapuri",
+      "key": "location:in-tn-dharmapuri",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-dindigul",
+      "name": "Dindigul",
+      "key": "location:in-tn-dindigul",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-dindigul-kodaikanal"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-kodaikanal"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-dindigul-kodaikanal",
+      "name": "Kodaikanal",
+      "key": "location:in-tn-dindigul-kodaikanal",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-dindigul",
+      "childIds": [],
+      "directStationIds": [
+        "air-kodaikanal"
+      ],
+      "stationIds": [
+        "air-kodaikanal"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-erode",
+      "name": "Erode",
+      "key": "location:in-tn-erode",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-erode-erode"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "hello-erode",
+        "suryan-erode"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-erode-erode",
+      "name": "Erode",
+      "key": "location:in-tn-erode-erode",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-erode",
+      "childIds": [],
+      "directStationIds": [
+        "hello-erode",
+        "suryan-erode"
+      ],
+      "stationIds": [
+        "hello-erode",
+        "suryan-erode"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari",
+      "name": "Kanyakumari",
+      "key": "location:in-tn-kanyakumari",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-kanyakumari-kuzhithurai",
+        "in-tn-kanyakumari-nagercoil",
+        "in-tn-kanyakumari-parakunnu",
+        "in-tn-kanyakumari-puliyurkurichi",
+        "in-tn-kanyakumari-thingalnagar"
+      ],
+      "directStationIds": [
+        "kumari-tamil-kanyakumari"
+      ],
+      "stationIds": [
+        "air-nagercoil",
+        "annai-kuzhithurai",
+        "asr-kanyakumari",
+        "christian-samy-fm",
+        "hello-nagercoil",
+        "isai-murasu-nagercoil",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "suryan-nagercoil",
+        "tamilosai-nagercoil"
+      ],
+      "counts": {
+        "all": 10,
+        "streamBearing": 2,
+        "discoveryOnly": 8
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari-kuzhithurai",
+      "name": "Kuzhithurai",
+      "key": "location:in-tn-kanyakumari-kuzhithurai",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-kanyakumari",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari-nagercoil",
+      "name": "Nagercoil",
+      "key": "location:in-tn-kanyakumari-nagercoil",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-kanyakumari",
+      "childIds": [],
+      "directStationIds": [
+        "air-nagercoil",
+        "hello-nagercoil",
+        "isai-murasu-nagercoil",
+        "suryan-nagercoil",
+        "tamilosai-nagercoil"
+      ],
+      "stationIds": [
+        "air-nagercoil",
+        "hello-nagercoil",
+        "isai-murasu-nagercoil",
+        "suryan-nagercoil",
+        "tamilosai-nagercoil"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 1,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari-parakunnu",
+      "name": "Parakunnu",
+      "key": "location:in-tn-kanyakumari-parakunnu",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-kanyakumari",
+      "childIds": [],
+      "directStationIds": [
+        "annai-kuzhithurai"
+      ],
+      "stationIds": [
+        "annai-kuzhithurai"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari-puliyurkurichi",
+      "name": "Puliyurkurichi",
+      "key": "location:in-tn-kanyakumari-puliyurkurichi",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-kanyakumari",
+      "childIds": [],
+      "directStationIds": [
+        "iskcon-nagercoil"
+      ],
+      "stationIds": [
+        "iskcon-nagercoil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-kanyakumari-thingalnagar",
+      "name": "Thingalnagar",
+      "key": "location:in-tn-kanyakumari-thingalnagar",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-kanyakumari",
+      "childIds": [],
+      "directStationIds": [
+        "asr-kanyakumari",
+        "christian-samy-fm"
+      ],
+      "stationIds": [
+        "asr-kanyakumari",
+        "christian-samy-fm"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-madurai",
+      "name": "Madurai",
+      "key": "location:in-tn-madurai",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-madurai-madurai"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-madurai",
+        "hello-madurai",
+        "mirchi-madurai",
+        "radio-city-madurai",
+        "suryan-madurai"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 1,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-madurai-madurai",
+      "name": "Madurai",
+      "key": "location:in-tn-madurai-madurai",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-madurai",
+      "childIds": [],
+      "directStationIds": [
+        "air-madurai",
+        "hello-madurai",
+        "mirchi-madurai",
+        "radio-city-madurai",
+        "suryan-madurai"
+      ],
+      "stationIds": [
+        "air-madurai",
+        "hello-madurai",
+        "mirchi-madurai",
+        "radio-city-madurai",
+        "suryan-madurai"
+      ],
+      "counts": {
+        "all": 5,
+        "streamBearing": 1,
+        "discoveryOnly": 4
+      }
+    },
+    {
+      "id": "in-tn-nilgiris",
+      "name": "Nilgiris",
+      "key": "location:in-tn-nilgiris",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-nilgiris-coonoor",
+        "in-tn-nilgiris-ooty"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-ooty",
+        "hand-of-jesus-tamil-in"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-nilgiris-coonoor",
+      "name": "Coonoor",
+      "key": "location:in-tn-nilgiris-coonoor",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-nilgiris",
+      "childIds": [],
+      "directStationIds": [
+        "hand-of-jesus-tamil-in"
+      ],
+      "stationIds": [
+        "hand-of-jesus-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-nilgiris-ooty",
+      "name": "Ooty",
+      "key": "location:in-tn-nilgiris-ooty",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-nilgiris",
+      "childIds": [],
+      "directStationIds": [
+        "air-ooty"
+      ],
+      "stationIds": [
+        "air-ooty"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-ranipet",
+      "name": "Ranipet",
+      "key": "location:in-tn-ranipet",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-ranipet-arakkonam"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "sweety-fm-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-ranipet-arakkonam",
+      "name": "Arakkonam",
+      "key": "location:in-tn-ranipet-arakkonam",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-ranipet",
+      "childIds": [],
+      "directStationIds": [
+        "sweety-fm-in"
+      ],
+      "stationIds": [
+        "sweety-fm-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-salem",
+      "name": "Salem",
+      "key": "location:in-tn-salem",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-salem-salem"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "hello-salem",
+        "suryan-salem"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-salem-salem",
+      "name": "Salem",
+      "key": "location:in-tn-salem-salem",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-salem",
+      "childIds": [],
+      "directStationIds": [
+        "hello-salem",
+        "suryan-salem"
+      ],
+      "stationIds": [
+        "hello-salem",
+        "suryan-salem"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-thanjavur",
+      "name": "Thanjavur",
+      "key": "location:in-tn-thanjavur",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-thanjavur-thanjavur"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-thanjavur-thanjavur",
+      "name": "Thanjavur",
+      "key": "location:in-tn-thanjavur-thanjavur",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-thanjavur",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-thoothukudi",
+      "name": "Thoothukudi",
+      "key": "location:in-tn-thoothukudi",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-thoothukudi-thoothukudi"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-thoothukudi",
+        "hello-thoothukudi",
+        "suryan-thoothukudi"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 0,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-thoothukudi-thoothukudi",
+      "name": "Thoothukudi",
+      "key": "location:in-tn-thoothukudi-thoothukudi",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-thoothukudi",
+      "childIds": [],
+      "directStationIds": [
+        "air-thoothukudi",
+        "hello-thoothukudi",
+        "suryan-thoothukudi"
+      ],
+      "stationIds": [
+        "air-thoothukudi",
+        "hello-thoothukudi",
+        "suryan-thoothukudi"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 0,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-tiruchirappalli",
+      "name": "Tiruchirappalli",
+      "key": "location:in-tn-tiruchirappalli",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-tiruchirappalli-tiruchirappalli"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-tiruchirappalli",
+        "hello-tiruchirappalli",
+        "mirchi-tiruchirappalli",
+        "suryan-tiruchirappalli"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-tiruchirappalli-tiruchirappalli",
+      "name": "Tiruchirappalli",
+      "key": "location:in-tn-tiruchirappalli-tiruchirappalli",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-tiruchirappalli",
+      "childIds": [],
+      "directStationIds": [
+        "air-tiruchirappalli",
+        "hello-tiruchirappalli",
+        "mirchi-tiruchirappalli",
+        "suryan-tiruchirappalli"
+      ],
+      "stationIds": [
+        "air-tiruchirappalli",
+        "hello-tiruchirappalli",
+        "mirchi-tiruchirappalli",
+        "suryan-tiruchirappalli"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-tirunelveli",
+      "name": "Tirunelveli",
+      "key": "location:in-tn-tirunelveli",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-tirunelveli-tirunelveli"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "air-tirunelveli",
+        "hello-tirunelveli",
+        "mirchi-tirunelveli",
+        "suryan-tirunelveli"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-tirunelveli-tirunelveli",
+      "name": "Tirunelveli",
+      "key": "location:in-tn-tirunelveli-tirunelveli",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-tirunelveli",
+      "childIds": [],
+      "directStationIds": [
+        "air-tirunelveli",
+        "hello-tirunelveli",
+        "mirchi-tirunelveli",
+        "suryan-tirunelveli"
+      ],
+      "stationIds": [
+        "air-tirunelveli",
+        "hello-tirunelveli",
+        "mirchi-tirunelveli",
+        "suryan-tirunelveli"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 1,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "in-tn-tiruppur",
+      "name": "Tiruppur",
+      "key": "location:in-tn-tiruppur",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-tiruppur-tiruppur"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-tiruppur-tiruppur",
+      "name": "Tiruppur",
+      "key": "location:in-tn-tiruppur-tiruppur",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-tiruppur",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "in-tn-vellore",
+      "name": "Vellore",
+      "key": "location:in-tn-vellore",
+      "type": "district",
+      "countryCode": "IN",
+      "parentId": "in-tn",
+      "childIds": [
+        "in-tn-vellore-vellore"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "hello-vellore",
+        "suryan-vellore"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "in-tn-vellore-vellore",
+      "name": "Vellore",
+      "key": "location:in-tn-vellore-vellore",
+      "type": "locality",
+      "countryCode": "IN",
+      "parentId": "in-tn-vellore",
+      "childIds": [],
+      "directStationIds": [
+        "hello-vellore",
+        "suryan-vellore"
+      ],
+      "stationIds": [
+        "hello-vellore",
+        "suryan-vellore"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "kw",
+      "name": "Kuwait",
+      "key": "location:kw",
+      "type": "country",
+      "countryCode": "KW",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "quran-tamil-kw"
+      ],
+      "stationIds": [
+        "quran-tamil-kw"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk",
+      "name": "Sri Lanka",
+      "key": "location:lk",
+      "type": "country",
+      "countryCode": "LK",
+      "parentId": null,
+      "childIds": [
+        "lk-cp",
+        "lk-ep",
+        "lk-np",
+        "lk-wp"
+      ],
+      "directStationIds": [
+        "shakthi-srilanka",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "vasantham-srilanka"
+      ],
+      "stationIds": [
+        "shakthi-srilanka",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 4,
+        "streamBearing": 4,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-cp",
+      "name": "Central Province",
+      "key": "location:lk-cp",
+      "type": "state",
+      "countryCode": "LK",
+      "parentId": "lk",
+      "childIds": [
+        "lk-cp-kandy"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-cp-kandy",
+      "name": "Kandy",
+      "key": "location:lk-cp-kandy",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-cp",
+      "childIds": [
+        "lk-cp-kandy-kandy"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-cp-kandy-kandy",
+      "name": "Kandy",
+      "key": "location:lk-cp-kandy-kandy",
+      "type": "locality",
+      "countryCode": "LK",
+      "parentId": "lk-cp-kandy",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-ep",
+      "name": "Eastern Province",
+      "key": "location:lk-ep",
+      "type": "state",
+      "countryCode": "LK",
+      "parentId": "lk",
+      "childIds": [
+        "lk-ep-batticaloa",
+        "lk-ep-trincomalee"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-ep-batticaloa",
+      "name": "Batticaloa",
+      "key": "location:lk-ep-batticaloa",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-ep",
+      "childIds": [
+        "lk-ep-batticaloa-batticaloa"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-ep-batticaloa-batticaloa",
+      "name": "Batticaloa",
+      "key": "location:lk-ep-batticaloa-batticaloa",
+      "type": "locality",
+      "countryCode": "LK",
+      "parentId": "lk-ep-batticaloa",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-ep-trincomalee",
+      "name": "Trincomalee",
+      "key": "location:lk-ep-trincomalee",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-ep",
+      "childIds": [
+        "lk-ep-trincomalee-trincomalee"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-ep-trincomalee-trincomalee",
+      "name": "Trincomalee",
+      "key": "location:lk-ep-trincomalee-trincomalee",
+      "type": "locality",
+      "countryCode": "LK",
+      "parentId": "lk-ep-trincomalee",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-np",
+      "name": "Northern Province",
+      "key": "location:lk-np",
+      "type": "state",
+      "countryCode": "LK",
+      "parentId": "lk",
+      "childIds": [
+        "lk-np-jaffna",
+        "lk-np-kilinochchi"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-np-jaffna",
+      "name": "Jaffna",
+      "key": "location:lk-np-jaffna",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-np",
+      "childIds": [
+        "lk-np-jaffna-jaffna"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-np-jaffna-jaffna",
+      "name": "Jaffna",
+      "key": "location:lk-np-jaffna-jaffna",
+      "type": "locality",
+      "countryCode": "LK",
+      "parentId": "lk-np-jaffna",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-np-kilinochchi",
+      "name": "Kilinochchi",
+      "key": "location:lk-np-kilinochchi",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-np",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-wp",
+      "name": "Western Province",
+      "key": "location:lk-wp",
+      "type": "state",
+      "countryCode": "LK",
+      "parentId": "lk",
+      "childIds": [
+        "lk-wp-colombo",
+        "lk-wp-gampaha"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-wp-colombo",
+      "name": "Colombo",
+      "key": "location:lk-wp-colombo",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-wp",
+      "childIds": [
+        "lk-wp-colombo-colombo"
+      ],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-wp-colombo-colombo",
+      "name": "Colombo",
+      "key": "location:lk-wp-colombo-colombo",
+      "type": "locality",
+      "countryCode": "LK",
+      "parentId": "lk-wp-colombo",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "lk-wp-gampaha",
+      "name": "Gampaha",
+      "key": "location:lk-wp-gampaha",
+      "type": "district",
+      "countryCode": "LK",
+      "parentId": "lk-wp",
+      "childIds": [],
+      "directStationIds": [],
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mu",
+      "name": "Mauritius",
+      "key": "location:mu",
+      "type": "country",
+      "countryCode": "MU",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "stationIds": [
+        "mauradio-mu",
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "my",
+      "name": "Malaysia",
+      "key": "location:my",
+      "type": "country",
+      "countryCode": "MY",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "jei-fm-my",
+        "minnal-my",
+        "raaga-my"
+      ],
+      "stationIds": [
+        "jei-fm-my",
+        "minnal-my",
+        "raaga-my"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 2,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "no",
+      "name": "Norway",
+      "key": "location:no",
+      "type": "country",
+      "countryCode": "NO",
+      "parentId": null,
+      "childIds": [
+        "no-oslo"
+      ],
+      "directStationIds": [
+        "thuthi-fm-no"
+      ],
+      "stationIds": [
+        "tamil-murasam-no",
+        "thuthi-fm-no"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "no-oslo",
+      "name": "Oslo",
+      "key": "location:no-oslo",
+      "type": "state",
+      "countryCode": "NO",
+      "parentId": "no",
+      "childIds": [],
+      "directStationIds": [
+        "tamil-murasam-no"
+      ],
+      "stationIds": [
+        "tamil-murasam-no"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "nz",
+      "name": "New Zealand",
+      "key": "location:nz",
+      "type": "country",
+      "countryCode": "NZ",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "tarana-tamil-nz"
+      ],
+      "stationIds": [
+        "tarana-tamil-nz"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "qa",
+      "name": "Qatar",
+      "key": "location:qa",
+      "type": "country",
+      "countryCode": "QA",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "suno-tamil-qa"
+      ],
+      "stationIds": [
+        "suno-tamil-qa"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sg",
+      "name": "Singapore",
+      "key": "location:sg",
+      "type": "country",
+      "countryCode": "SG",
+      "parentId": null,
+      "childIds": [],
+      "directStationIds": [
+        "oli-968-sg"
+      ],
+      "stationIds": [
+        "oli-968-sg"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "key": "location:us",
+      "type": "country",
+      "countryCode": "US",
+      "parentId": null,
+      "childIds": [
+        "us-ca"
+      ],
+      "directStationIds": [
+        "beats-radio-us"
+      ],
+      "stationIds": [
+        "american-tamil-radio-us",
+        "beats-radio-us"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "us-ca",
+      "name": "California",
+      "key": "location:us-ca",
+      "type": "state",
+      "countryCode": "US",
+      "parentId": "us",
+      "childIds": [],
+      "directStationIds": [
+        "american-tamil-radio-us"
+      ],
+      "stationIds": [
+        "american-tamil-radio-us"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "za",
+      "name": "South Africa",
+      "key": "location:za",
+      "type": "country",
+      "countryCode": "ZA",
+      "parentId": null,
+      "childIds": [
+        "za-kzn"
+      ],
+      "directStationIds": [],
+      "stationIds": [
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "za-kzn",
+      "name": "KwaZulu-Natal",
+      "key": "location:za-kzn",
+      "type": "state",
+      "countryCode": "ZA",
+      "parentId": "za",
+      "childIds": [],
+      "directStationIds": [
+        "lotus-fm-za"
+      ],
+      "stationIds": [
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "stationId": "3zzz-au",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-vic",
+        "districtId": null,
+        "localityId": "au-vic-melbourne",
+        "ancestorIds": [
+          "au",
+          "au-vic",
+          "au-vic-melbourne"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-3zzz-shows"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Official programme page identifies Melbourne community service. Victoria containment, not tower location."
+        }
+      }
+    },
+    {
+      "stationId": "4eb-fm-au",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-qld",
+        "districtId": null,
+        "localityId": "au-qld-brisbane",
+        "ancestorIds": [
+          "au",
+          "au-qld",
+          "au-qld-brisbane"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-4eb-tamil"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher identifies Brisbane community and Queensland legal association. Programme base, not exclusive FM reception area."
+        }
+      }
+    },
+    {
+      "stationId": "4eb-global-au",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-qld",
+        "districtId": null,
+        "localityId": "au-qld-brisbane",
+        "ancestorIds": [
+          "au",
+          "au-qld",
+          "au-qld-brisbane"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-4eb-tamil"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Same publisher-declared Brisbane base as FM; distinct digital programme is preserved."
+        }
+      }
+    },
+    {
+      "stationId": "5ebi-au",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-sa",
+        "districtId": null,
+        "localityId": "au-sa-adelaide",
+        "ancestorIds": [
+          "au",
+          "au-sa",
+          "au-sa-adelaide"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-5ebi-profile"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher explicitly identifies Adelaide, South Australia."
+        }
+      }
+    },
+    {
+      "stationId": "a9-radio-ca",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-toronto",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-toronto"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-a9-about"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher-declared Toronto, Canada; canonical Ontario containment. No studio address inferred."
+        }
+      }
+    },
+    {
+      "stationId": "amen-fm-ca",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-oshawa",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-oshawa"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-amen-fm-ca-player"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Reuses Stage 14 publisher Ontario/Oshawa mailing-base evidence; not an FM transmitter claim."
+        }
+      }
+    },
+    {
+      "stationId": "ar-radio",
+      "before": {
+        "regionId": "in-kl",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-kl",
+        "districtId": "in-kl-thrissur",
+        "localityId": null,
+        "ancestorIds": [
+          "in",
+          "in-kl",
+          "in-kl-thrissur"
+        ],
+        "evidence": {
+          "confidence": "high",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-ar-publisher",
+            "stage15-ar-user-report"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher explicitly corroborates the user report. District only; locality remains null and FM frequency unchanged."
+        }
+      }
+    },
+    {
+      "stationId": "atbc-au",
+      "before": {
+        "regionId": "au-nsw",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-nsw",
+        "districtId": null,
+        "localityId": "au-nsw-sydney",
+        "ancestorIds": [
+          "au",
+          "au-nsw",
+          "au-nsw-sydney"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "world-atbc-au-2026"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Existing official evidence identifies Sydney studios; Melbourne towers do not create another station."
+        }
+      }
+    },
+    {
+      "stationId": "cmr-tamil-ca",
+      "before": {
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-toronto",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-toronto"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "world-cmr-tamil-ca-2026"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Existing official Toronto-area dedicated HD2 programme evidence reused. This is not the multilingual analogue main channel."
+        }
+      }
+    },
+    {
+      "stationId": "ctr-ca",
+      "before": {
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-toronto",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-toronto"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "world-ctr-ca-2026"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Existing official Toronto programme identification reused; placeholder contact details remain untrusted."
+        }
+      }
+    },
+    {
+      "stationId": "east-fm-ca",
+      "before": {
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-scarborough",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-scarborough"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-east-contact"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Published studio locality Scarborough, Ontario. Do not infer a district or confuse Toronto-area coverage with a Toronto studio address."
+        }
+      }
+    },
+    {
+      "stationId": "good-news-tamil-ca",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-scarborough",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-scarborough"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-good-news-tamil-ca-player-context-1"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Reuses publisher Scarborough, Ontario base. No district manufactured."
+        }
+      }
+    },
+    {
+      "stationId": "hand-of-jesus-tamil-in",
+      "before": {
+        "regionId": "in-tn",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-nilgiris",
+        "localityId": "in-tn-nilgiris-coonoor",
+        "ancestorIds": [
+          "in",
+          "in-tn",
+          "in-tn-nilgiris",
+          "in-tn-nilgiris-coonoor"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-hand-of-jesus-tamil-in-player-context-1"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher ministry description explicitly identifies Coonoor in Nilgiri district."
+        }
+      }
+    },
+    {
+      "stationId": "inbathamil-oli-au",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "AU",
+        "regionId": "au-nsw",
+        "districtId": null,
+        "localityId": "au-nsw-sydney",
+        "ancestorIds": [
+          "au",
+          "au-nsw",
+          "au-nsw-sydney"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-inbathamil-oli-au-player",
+            "stage14-inbathamil-oli-au-player-context-1"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher identifies Sydney, Australia; existing NSW containment. No Ashfield studio address imported from directories."
+        }
+      }
+    },
+    {
+      "stationId": "lotus-fm-za",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "ZA",
+        "regionId": "za-kzn",
+        "districtId": null,
+        "localityId": null,
+        "ancestorIds": [
+          "za",
+          "za-kzn"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-lotus-profile"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Official profile identifies KwaZulu-Natal headquarters. National coverage is unchanged; no district or city inferred."
+        }
+      }
+    },
+    {
+      "stationId": "sweety-fm-in",
+      "before": {
+        "regionId": "in-tn",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-ranipet",
+        "localityId": "in-tn-ranipet-arakkonam",
+        "ancestorIds": [
+          "in",
+          "in-tn",
+          "in-tn-ranipet",
+          "in-tn-ranipet-arakkonam"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-sweety-fm-in-player",
+            "stage15-ranipet-admin"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher Arakkonam base plus current official Ranipet containment; do not assign the obsolete Vellore district."
+        }
+      }
+    },
+    {
+      "stationId": "tamil-christian-radio-in",
+      "before": {
+        "regionId": "in-tn",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "ancestorIds": [
+          "in",
+          "in-tn",
+          "in-tn-chennai",
+          "in-tn-chennai-chennai"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-tamil-christian-radio-in-player-context-1"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Existing publisher Chennai contact evidence reused; no precise studio details stored."
+        }
+      }
+    },
+    {
+      "stationId": "theophony-tamil-in",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-ka",
+        "districtId": "in-ka-bengaluru-urban",
+        "localityId": "in-ka-bengaluru-urban-bengaluru",
+        "ancestorIds": [
+          "in",
+          "in-ka",
+          "in-ka-bengaluru-urban",
+          "in-ka-bengaluru-urban-bengaluru"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-theophony-tamil-in-player-context-1",
+            "stage15-bengaluru-admin"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher Bangalore/India contact plus official Bengaluru Urban/Karnataka containment; no studio address."
+        }
+      }
+    },
+    {
+      "stationId": "time-fm-toronto-ca",
+      "before": {
+        "regionId": null,
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "CA",
+        "regionId": "ca-on",
+        "districtId": null,
+        "localityId": "ca-on-toronto",
+        "ancestorIds": [
+          "ca",
+          "ca-on",
+          "ca-on-toronto"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage15-time-profile",
+            "stage14-time-fm-toronto-ca-player-context-1"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher-labelled Toronto programme; no Montreal substitution or precise studio claimed."
+        }
+      }
+    },
+    {
+      "stationId": "vaanmalar-fm-in",
+      "before": {
+        "regionId": "in-tn",
+        "districtId": null,
+        "localityId": null
+      },
+      "after": {
+        "countryCode": "IN",
+        "regionId": "in-tn",
+        "districtId": "in-tn-chennai",
+        "localityId": "in-tn-chennai-chennai",
+        "ancestorIds": [
+          "in",
+          "in-tn",
+          "in-tn-chennai",
+          "in-tn-chennai-chennai"
+        ],
+        "evidence": {
+          "confidence": "medium",
+          "evidenceType": "publisher",
+          "sourceIds": [
+            "stage14-vaanmalar-fm-in-player"
+          ],
+          "reviewedOn": "2026-11-10",
+          "notes": "Publisher Chennai office; reuse existing canonical district/city overlap records."
+        }
+      }
+    }
+  ]
+}

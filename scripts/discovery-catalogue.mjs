@@ -1,4 +1,5 @@
 // Metadata-only publication: never adapt this validator by manufacturing streams.
+import {stationGeographyErrors} from './metadata-validation.mjs';
 export const discoveryFields = [
   "id",
   "name",
@@ -54,7 +55,7 @@ export function discoveryErrors(data, validHttps) {
     const fail = (m) => errors.push(`Discovery ${row.id}: ${m}`),
       text = (v) => typeof v === "string" && !!v.trim();
     if (
-      Object.keys(row).some((k) => !discoveryFields.includes(k)) ||
+      Object.keys(row).some((k) => !(data.index?.schemaVersion===2?[...discoveryFields,'languageProfile','geographyEvidence','programmeThemeIds']:discoveryFields).includes(k)) ||
       discoveryFields.some((k) => !Object.hasOwn(row, k))
     )
       fail("metadata fields invalid; stream/URL extensions are forbidden");
@@ -83,23 +84,13 @@ export function discoveryErrors(data, validHttps) {
       if (owner && owner !== row.id) fail("duplicate programme alias");
       names.set(k, row.id);
     }
-    let parent = row.countryCode?.toLowerCase();
-    for (const [field, type] of [
-      ["regionId", "state"],
-      ["districtId", "district"],
-      ["localityId", "locality"],
-    ]) {
-      if (row[field] !== null) {
-        const l = locations.get(row[field]);
-        if (
-          !l ||
-          l.type !== type ||
-          l.countryCode !== row.countryCode ||
-          l.parentId !== parent
-        )
-          fail("invalid geographic hierarchy");
+    if(data.index?.schemaVersion===2)for(const message of stationGeographyErrors(row,data.locations))fail('invalid geographic hierarchy: '+message);
+    else {
+      let parent=row.countryCode?.toLowerCase();
+      for(const [field,type]of [['regionId','state'],['districtId','district'],['localityId','locality']]) {
+        if(row[field]!==null){const l=locations.get(row[field]);if(!l||l.type!==type||l.countryCode!==row.countryCode||l.parentId!==parent)fail('invalid geographic hierarchy');}
+        parent=row[field];
       }
-      parent = row[field];
     }
     for (const [field, known, nonempty] of [
       ["broadcastLanguages", languages, false],

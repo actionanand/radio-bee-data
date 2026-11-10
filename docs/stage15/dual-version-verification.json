@@ -1,0 +1,159 @@
+{
+  "reviewedOn": "2026-11-11",
+  "branch": "feature/15-catalogue-metadata-navigation",
+  "baseCommit": "d32b32c703256e042aa4b2f17dd5823528a8fa59",
+  "comparison": "Independent git show <merged-master-commit>:data/v1/<file> byte comparison against source and generated v1; no network or recorded audio.",
+  "v1": {
+    "schemaVersion": 1,
+    "catalogVersion": "1.9.0",
+    "source": "data/v1/",
+    "generated": "dist/v1/",
+    "fileCount": 25,
+    "byteIdenticalFiles": [
+      "assets/logos/networks/.gitkeep",
+      "assets/logos/networks/akashvani-radio.png",
+      "assets/logos/networks/big-fm-radio.png",
+      "assets/logos/networks/boom-tamil-radio.png",
+      "assets/logos/networks/hello-fm-radio.png",
+      "assets/logos/networks/mirchi-radio.png",
+      "assets/logos/networks/radio-city-radio.png",
+      "assets/logos/networks/red-fm-radio.png",
+      "assets/logos/networks/shaivam-radio.png",
+      "assets/logos/networks/sooriyan-lk-radio.png",
+      "assets/logos/networks/star-fm-lk-radio.png",
+      "assets/logos/networks/suryan-in-radio.png",
+      "assets/logos/stations/.gitkeep",
+      "categories.json",
+      "discovery-stations.json",
+      "i18n/en.json",
+      "i18n/sa.json",
+      "i18n/ta.json",
+      "index.json",
+      "languages.json",
+      "locations.json",
+      "networks.json",
+      "sources.json",
+      "station-migrations.json",
+      "stations.json"
+    ],
+    "errors": []
+  },
+  "v2": {
+    "schemaVersion": 2,
+    "catalogVersion": "2.0.0",
+    "source": "data/v2/",
+    "generated": "dist/v2/",
+    "fileCount": 28,
+    "referenceChecks": [
+      {
+        "file": "networks.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "stations.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "locations.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "languages.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "categories.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "sources.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "station-migrations.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "discovery-stations.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "broadcasters.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "programme-themes.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "browse-index.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "i18n/en.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "i18n/ta.json",
+        "exists": true,
+        "byteIdentical": true
+      },
+      {
+        "file": "i18n/sa.json",
+        "exists": true,
+        "byteIdentical": true
+      }
+    ],
+    "counts": {
+      "networks": 71,
+      "stations": 71,
+      "locations": 131,
+      "streams": 74,
+      "verifiedStreams": 1,
+      "discoveryStations": 46,
+      "discoverableStations": 117,
+      "stationsWithStreamCandidates": 71,
+      "productionEligibleStations": 0
+    },
+    "browseIndexSchemaVersion": 2
+  },
+  "schemaValidation": {
+    "report": "schema-validation.json",
+    "draft": "2020-12",
+    "localResources": 11,
+    "recordValidations": 410,
+    "errors": 0,
+    "externalNetworkRequests": 0,
+    "legacyV1SchemasUnchanged": true
+  },
+  "publicationPolicy": {
+    "localizationFiles": [
+      "i18n/en.json",
+      "i18n/ta.json",
+      "i18n/sa.json"
+    ],
+    "artwork": "Only validated canonical logoPath references; deduplicated and sorted",
+    "historicalEmptyPlaceholders": [
+      "assets/logos/networks/.gitkeep",
+      "assets/logos/stations/.gitkeep"
+    ],
+    "recursiveDirectoryCopy": false,
+    "unreferencedRegularFiles": "excluded",
+    "sourceSymlinksAndNonRegularEntries": "rejected before output replacement",
+    "exactGeneratedInventory": true
+  },
+  "deployed": false,
+  "clientModified": false
+}

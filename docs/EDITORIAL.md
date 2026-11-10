@@ -27,3 +27,21 @@ Publish only stations with a genuine direct HTTPS Internet candidate. Preserve e
 The separate discovery publication permits cited metadata for documented stations without direct audio. It never permits research URLs, stream arrays or an implied listening grant. Keep unsupported identities in research. The existing non-empty-stream rule continues to govern stations.json. Metadata availability, technical verification, source identity, direct listening, recording and redistribution remain separate decisions. See [the publication contract and expansion review](DISCOVERY-PUBLICATION.md).
 
 Worldwide follow-up (1.6.0): the user authorized in-app trial listening for sources with short real browser decoding even while editorial verification and use review remain incomplete. Keep those streams unverified, retain unconfirmed rights and needs-review use status, document source identity and test limitations, and honor express restrictions. Trial access is separate from production approval and recording/redistribution grants. Metadata-only rows still forbid streams. See [worldwide evidence](WORLDWIDE-TAMIL.md).
+
+## Metadata/navigation review (API v2 / catalogue 2.0.0)
+
+Keep the legacy v1.9.0 publication unchanged. Enriched Stage 15 edits belong in
+data/v2 only, validated and built alongside v1. No v1-to-v2 schema relabelling is
+permitted. Keep geography IDs separate from evidence/confidence. Use publisher-established base
+locations and known administrative ancestors; missing optional levels stay null.
+Do not infer studio locations or frequencies from names, hosts or coverage. Preserve
+language tags as documented support, with explicit unknown/partial coverage rather
+than assuming exclusivity. A multilingual profile can contain only one individually
+identified language. Schedules need publisher/official evidence, IANA zones and review
+dates; they are not current-on-air claims.
+
+Broadcaster relationships require separate organization evidence and must not merge
+network brands or station programmes. Programme themes describe evidenced content,
+not audience religion or ownership. Preserve before/after values and source IDs in
+the metadata audit. Rebuild optional browse facets after canonical edits and validate
+counts without changing stream eligibility. See [Stage 15 review and contract](STAGE15-METADATA-NAVIGATION-API.md).

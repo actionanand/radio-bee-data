@@ -12,6 +12,7 @@
     "validate": "node scripts/validate.mjs",
     "test": "node --test tests/*.test.mjs",
     "build": "node scripts/build-static.mjs",
+    "generate:browse": "node scripts/generate-browse-index.mjs",
     "check:streams": "node scripts/check-streams.mjs",
     "probe:streams": "node scripts/probe-streams.mjs",
     "ci": "npm run validate && npm test && npm run build",

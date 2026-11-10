@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee generated browse index v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "countScope",
+    "totals",
+    "stationIds",
+    "facets",
+    "availability"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "catalogVersion": {
+      "type": "string"
+    },
+    "countScope": {
+      "type": "string"
+    },
+    "totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "all",
+        "streamBearing",
+        "discoveryOnly"
+      ],
+      "properties": {
+        "all": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "streamBearing": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "discoveryOnly": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "stationIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "facets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "countries",
+        "locations",
+        "languages",
+        "languageClassifications",
+        "networks",
+        "broadcasters",
+        "genres",
+        "themes"
+      ],
+      "properties": {
+        "countries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "locations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "languageClassifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "networks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "broadcasters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "genres": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        },
+        "themes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/facet"
+          }
+        }
+      }
+    },
+    "availability": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/facet"
+      }
+    }
+  },
+  "$defs": {
+    "facet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "key",
+        "stationIds",
+        "counts"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "stationIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "all",
+            "streamBearing",
+            "discoveryOnly"
+          ],
+          "properties": {
+            "all": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "streamBearing": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "discoveryOnly": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "locationId": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "country",
+            "state",
+            "district",
+            "locality"
+          ]
+        },
+        "parentId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "countryCode": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "childIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "directStationIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "nativeName": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "countryCodes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "broadcasterId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sourceIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "networkIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

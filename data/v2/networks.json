@@ -1,0 +1,782 @@
+[
+  {
+    "id": "akashvani",
+    "name": "Akashvani (All India Radio)",
+    "aliases": [
+      "AIR",
+      "Prasar Bharati"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "public",
+    "website": "https://prasarbharati.gov.in/en/akashvani-network/",
+    "logoPath": "assets/logos/networks/akashvani-radio.png",
+    "broadcasterId": "prasar-bharati",
+    "broadcasterSourceIds": [
+      "stage15-prasar-organisation"
+    ],
+    "broadcasterRelationship": "public-broadcaster"
+  },
+  {
+    "id": "suryan-in",
+    "name": "Suryan FM",
+    "aliases": [
+      "Suryan FM India"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.suryanfm.in/",
+    "logoPath": "assets/logos/networks/suryan-in-radio.png",
+    "broadcasterId": "sun-tv-network",
+    "broadcasterSourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "broadcasterRelationship": "licensed-operator"
+  },
+  {
+    "id": "hello-fm",
+    "name": "Hello FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null,
+    "logoPath": "assets/logos/networks/hello-fm-radio.png",
+    "broadcasterId": "malar-publications",
+    "broadcasterSourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "broadcasterRelationship": "licensed-operator"
+  },
+  {
+    "id": "mirchi",
+    "name": "Radio Mirchi",
+    "aliases": [
+      "Mirchi"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://mirchi.in/stories",
+    "logoPath": "assets/logos/networks/mirchi-radio.png",
+    "broadcasterId": "enil",
+    "broadcasterSourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "broadcasterRelationship": "licensed-operator"
+  },
+  {
+    "id": "radio-city",
+    "name": "Radio City",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.radiocity.in/",
+    "logoPath": "assets/logos/networks/radio-city-radio.png",
+    "broadcasterId": "music-broadcast-ltd",
+    "broadcasterSourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "broadcasterRelationship": "licensed-operator"
+  },
+  {
+    "id": "red-fm",
+    "name": "RED FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.redfmindia.in/",
+    "logoPath": "assets/logos/networks/red-fm-radio.png"
+  },
+  {
+    "id": "big-fm",
+    "name": "BIG FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.bigfmindia.com/",
+    "logoPath": "assets/logos/networks/big-fm-radio.png",
+    "broadcasterId": "reliance-broadcast-network",
+    "broadcasterSourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "broadcasterRelationship": "licensed-operator"
+  },
+  {
+    "id": "fever-fm",
+    "name": "Fever FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null
+  },
+  {
+    "id": "shakthi-lk",
+    "name": "Shakthi FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://shakthifm.com/"
+  },
+  {
+    "id": "sooriyan-lk",
+    "name": "Sooriyan FM (Sri Lanka)",
+    "aliases": [
+      "Sooriyan"
+    ],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.sooriyanfm.lk/",
+    "logoPath": "assets/logos/networks/sooriyan-lk-radio.png",
+    "broadcasterId": "asia-broadcasting-corporation",
+    "broadcasterSourceIds": [
+      "stage15-sooriyan-organisation"
+    ],
+    "broadcasterRelationship": "publisher-operator"
+  },
+  {
+    "id": "vasantham-lk",
+    "name": "Vasantham FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.vasanthamfm.lk/",
+    "broadcasterId": "independent-television-network",
+    "broadcasterSourceIds": [
+      "stage15-itn-organisation"
+    ],
+    "broadcasterRelationship": "public-broadcaster"
+  },
+  {
+    "id": "slbc",
+    "name": "Sri Lanka Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "public",
+    "website": "https://slbc.lk/"
+  },
+  {
+    "id": "asr-digital",
+    "name": "ASR Digital Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radio.asrdmm.com/"
+  },
+  {
+    "id": "annai-fm",
+    "name": "Annai FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://zeno.fm/radio/annai-fm/"
+  },
+  {
+    "id": "kumari-tamil",
+    "name": "Kumari Tamil Media",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radio.kumaritamil.com/"
+  },
+  {
+    "id": "luminous-radio",
+    "name": "Luminous Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.luminousradio.com/"
+  },
+  {
+    "id": "capital-lk",
+    "name": "Capital FM Sri Lanka",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "broadcaster",
+    "website": "https://capitalfm.lk/"
+  },
+  {
+    "id": "club-fm",
+    "name": "Club FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.clubfm.in/"
+  },
+  {
+    "id": "tamilosai-fm",
+    "name": "Tamilosai FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "isai-murasu",
+    "name": "Isai Murasu FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "iskcon-nagercoil",
+    "name": "ISKCON Nagercoil",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.iskconnagercoil.com/"
+  },
+  {
+    "id": "ibc-tamil",
+    "name": "IBC Tamil",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": "https://radio.ibctamil.com/"
+  },
+  {
+    "id": "athavan",
+    "name": "Athavan Radio",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": "https://athavanradio.com/uk/"
+  },
+  {
+    "id": "cmr",
+    "name": "Canadian Multicultural Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://cmr24.net/about-us/"
+  },
+  {
+    "id": "east-fm",
+    "name": "EAST FM",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "broadcaster",
+    "website": "https://eastfm.ca/main/"
+  },
+  {
+    "id": "ctbc",
+    "name": "Canadian Tamil Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.ctbc.com/"
+  },
+  {
+    "id": "canadian-tamil-radio",
+    "name": "Canadian Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://ctr24.com/"
+  },
+  {
+    "id": "beats-radio",
+    "name": "Beats Radio LLC",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": "https://www.beats-radio.com/"
+  },
+  {
+    "id": "american-tamil-media",
+    "name": "American Tamil Media",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": "https://www.americantamilradio.com/"
+  },
+  {
+    "id": "atbc",
+    "name": "Australian Tamil Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "online",
+    "website": "https://www.atbc.net.au/"
+  },
+  {
+    "id": "mediacorp",
+    "name": "Mediacorp",
+    "aliases": [],
+    "countryCodes": [
+      "SG"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.melisten.sg/radio/oli-968"
+  },
+  {
+    "id": "tamil-894",
+    "name": "89.4 Tamil FM",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "broadcaster",
+    "website": "https://tamil894fm.com/"
+  },
+  {
+    "id": "rtm",
+    "name": "Radio Televisyen Malaysia",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "public",
+    "website": "https://radio.rtm.gov.my/station/minnalfm"
+  },
+  {
+    "id": "astro-audio",
+    "name": "Astro Audio",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "broadcaster",
+    "website": "https://raaga.my/"
+  },
+  {
+    "id": "thaalam-media",
+    "name": "Thaalam Media",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://thaalam.ch/"
+  },
+  {
+    "id": "akkini",
+    "name": "Akkini FM",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://akkini.fm/"
+  },
+  {
+    "id": "swiss-tamil-radio",
+    "name": "Swiss Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CH"
+    ],
+    "kind": "online",
+    "website": "https://swisstamilradio.com/"
+  },
+  {
+    "id": "european-tamils-union",
+    "name": "European Tamils Union e.V.",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://etr.fm/"
+  },
+  {
+    "id": "tamil-murasam",
+    "name": "Radio Tamil Murasam",
+    "aliases": [],
+    "countryCodes": [
+      "NO"
+    ],
+    "kind": "online",
+    "website": "https://tamilmurasam.com/"
+  },
+  {
+    "id": "tarana",
+    "name": "Radio Tarana",
+    "aliases": [],
+    "countryCodes": [
+      "NZ"
+    ],
+    "kind": "online",
+    "website": "https://www.rova.nz/radio/tarana-tamil"
+  },
+  {
+    "id": "sabc",
+    "name": "South African Broadcasting Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "ZA"
+    ],
+    "kind": "public",
+    "website": "https://www.lotusfm.co.za/lotusfm/",
+    "broadcasterId": "sabc",
+    "broadcasterSourceIds": [
+      "stage15-lotus-profile"
+    ],
+    "broadcasterRelationship": "public-broadcaster"
+  },
+  {
+    "id": "shaivam",
+    "name": "Shaivam.org",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://shaivam.org/",
+    "logoPath": "assets/logos/networks/shaivam-radio.png"
+  },
+  {
+    "id": "star-fm-lk",
+    "name": "Star FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": "https://www.starfm.lk/",
+    "logoPath": "assets/logos/networks/star-fm-lk-radio.png"
+  },
+  {
+    "id": "boom-tamil",
+    "name": "Boom Tamil",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.boomtamil.com/",
+    "logoPath": "assets/logos/networks/boom-tamil-radio.png"
+  },
+  {
+    "id": "tamil-panpalai",
+    "name": "Tamil Panpalai",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://tamilpanpalai.com/"
+  },
+  {
+    "id": "aural-radio",
+    "name": "Aural Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.auralradiokerala.in/"
+  },
+  {
+    "id": "ar-radio",
+    "name": "AR Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://arradiokerala.blogspot.com/"
+  },
+  {
+    "id": "vaagai-tamil",
+    "name": "Vaagai Tamil FM",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://vtfm.net/"
+  },
+  {
+    "id": "a9-media",
+    "name": "A9 Media",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://a9radio.com/"
+  },
+  {
+    "id": "amudham",
+    "name": "Amudham FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.amudhamfm.com/"
+  },
+  {
+    "id": "mauritius-global-diaspora",
+    "name": "Mauritius Global Diaspora",
+    "aliases": [],
+    "countryCodes": [
+      "MU"
+    ],
+    "kind": "online",
+    "website": "https://mauradio.com/"
+  },
+  {
+    "id": "theophony",
+    "name": "Theophony Ministries",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://theophony.org/tamil-christian-radio/"
+  },
+  {
+    "id": "jeifm",
+    "name": "JEIFM",
+    "aliases": [],
+    "countryCodes": [
+      "MY"
+    ],
+    "kind": "online",
+    "website": "https://jeifm.com/"
+  },
+  {
+    "id": "amen-fm",
+    "name": "Amen FM",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://www.amenfm.com/"
+  },
+  {
+    "id": "live-fm",
+    "name": "Live FM Bahrain",
+    "aliases": [],
+    "countryCodes": [
+      "BH"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.livefm.bh/"
+  },
+  {
+    "id": "edc-kuwait",
+    "name": "Electronic Dawah Committee / Al-Najat Charity",
+    "aliases": [],
+    "countryCodes": [
+      "KW"
+    ],
+    "kind": "online",
+    "website": "https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/"
+  },
+  {
+    "id": "sweety-fm",
+    "name": "Sweety FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://sweetyfm.com/"
+  },
+  {
+    "id": "hand-of-jesus",
+    "name": "Hand of Jesus Ministries",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://handofjesus.in/radio-tv/radio/tamil/"
+  },
+  {
+    "id": "christian-media-india",
+    "name": "Christian Media Centre India",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://vaanmalarfm.in/"
+  },
+  {
+    "id": "olive-suno",
+    "name": "Olive Suno",
+    "aliases": [],
+    "countryCodes": [
+      "QA"
+    ],
+    "kind": "online",
+    "website": "https://tamil.suno.qa/"
+  },
+  {
+    "id": "voice-of-gospel",
+    "name": "Voice of Gospel",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://tamilchristianradio.org/"
+  },
+  {
+    "id": "christvision-media",
+    "name": "Christvision Media Corporation",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://goodnewsfm.org/tamil-radio"
+  },
+  {
+    "id": "3zzz",
+    "name": "3ZZZ",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.3zzz.com.au/"
+  },
+  {
+    "id": "4eb",
+    "name": "Radio 4EB",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.4eb.org.au/",
+    "broadcasterId": "ebaq",
+    "broadcasterSourceIds": [
+      "stage15-4eb-tamil"
+    ],
+    "broadcasterRelationship": "publisher-operator"
+  },
+  {
+    "id": "5ebi",
+    "name": "Ethnic Broadcasters Inc.",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.5ebi.com.au/"
+  },
+  {
+    "id": "namathu-fm",
+    "name": "Namathu FM",
+    "aliases": [],
+    "countryCodes": [
+      "FR"
+    ],
+    "kind": "online",
+    "website": "https://namathufm.fr/"
+  },
+  {
+    "id": "otran-vaanoli",
+    "name": "Otran Vaanoli",
+    "aliases": [],
+    "countryCodes": [
+      "IE"
+    ],
+    "kind": "online",
+    "website": "https://otranvaanoli.com/"
+  },
+  {
+    "id": "tamil-christian-media",
+    "name": "Tamil Christian Media",
+    "aliases": [],
+    "countryCodes": [
+      "NO"
+    ],
+    "kind": "online",
+    "website": "https://www.thuthi.fm/"
+  },
+  {
+    "id": "radio-plus",
+    "name": "Radio Plus Ltd / Defimedia",
+    "aliases": [],
+    "countryCodes": [
+      "MU"
+    ],
+    "kind": "online",
+    "website": "https://live.radioplus.mu/webradio/indiz.html"
+  },
+  {
+    "id": "time-fm",
+    "name": "Time FM Media",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://timefm.ca/"
+  },
+  {
+    "id": "inbathamil-oli",
+    "name": "Inbathamil Oli",
+    "aliases": [],
+    "countryCodes": [
+      "AU"
+    ],
+    "kind": "online",
+    "website": "https://www.inbathamil.com/"
+  }
+]

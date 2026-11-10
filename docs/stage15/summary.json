@@ -1,0 +1,69 @@
+{
+  "catalogVersion": "2.0.0",
+  "baselineVersion": "1.9.0",
+  "baseCommit": "d32b32c703256e042aa4b2f17dd5823528a8fa59",
+  "reviewedOn": "2026-11-10",
+  "counts": {
+    "stations": 117,
+    "streamBearing": 71,
+    "discoveryOnly": 46,
+    "streams": 74,
+    "networks": 71,
+    "countries": 20,
+    "locations": 131,
+    "languages": 61,
+    "broadcasters": 10,
+    "programmeThemes": 4
+  },
+  "changes": {
+    "journalEntries": 328,
+    "geographyCorrections": 20,
+    "languageInventoriesExpanded": [
+      "3zzz-au",
+      "4eb-global-au",
+      "5ebi-au",
+      "east-fm-ca",
+      "lotus-fm-za"
+    ],
+    "newLocationRecords": 14,
+    "newLanguages": 47,
+    "newSources": 17,
+    "themedStations": 12,
+    "networkBroadcasterRelationships": 10
+  },
+  "languageClassifications": {
+    "multilingual": {
+      "all": 19,
+      "streamBearing": 18,
+      "discoveryOnly": 1
+    },
+    "single-language": {
+      "all": 11,
+      "streamBearing": 11,
+      "discoveryOnly": 0
+    },
+    "unknown": {
+      "all": 87,
+      "streamBearing": 42,
+      "discoveryOnly": 45
+    }
+  },
+  "publishedFileCount": 54,
+  "apiVersion": 2,
+  "schemaVersion": 2,
+  "legacy": {
+    "schemaVersion": 1,
+    "catalogVersion": "1.9.0",
+    "fileCount": 25,
+    "baseCommit": "d32b32c703256e042aa4b2f17dd5823528a8fa59",
+    "byteIdentical": true
+  },
+  "preMigrationDraft": {
+    "catalogVersion": "1.10.0",
+    "schemaVersion": 1,
+    "evidence": "enriched-snapshot.json",
+    "published": false
+  },
+  "changedFileCount": 74,
+  "v2FileCount": 28
+}

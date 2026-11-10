@@ -1,0 +1,2038 @@
+{
+  "catalogVersion": "2.0.0",
+  "broadcasters": [
+    {
+      "id": "asia-broadcasting-corporation",
+      "name": "Asia Broadcasting Corporation",
+      "key": "broadcaster:asia-broadcasting-corporation",
+      "aliases": [],
+      "sourceIds": [
+        "stage15-sooriyan-organisation"
+      ],
+      "networkIds": [
+        "sooriyan-lk"
+      ],
+      "stationIds": [
+        "sooriyan-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "ebaq",
+      "name": "Ethnic Broadcasting Association of Queensland Limited",
+      "key": "broadcaster:ebaq",
+      "aliases": [
+        "EBAQ"
+      ],
+      "sourceIds": [
+        "stage15-4eb-tamil"
+      ],
+      "networkIds": [
+        "4eb"
+      ],
+      "stationIds": [
+        "4eb-fm-au",
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "enil",
+      "name": "Entertainment Network (India) Limited",
+      "key": "broadcaster:enil",
+      "aliases": [
+        "ENIL"
+      ],
+      "sourceIds": [
+        "stage15-mib-licensees"
+      ],
+      "networkIds": [
+        "mirchi"
+      ],
+      "stationIds": [
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli"
+      ],
+      "counts": {
+        "all": 6,
+        "streamBearing": 0,
+        "discoveryOnly": 6
+      }
+    },
+    {
+      "id": "independent-television-network",
+      "name": "Independent Television Network Limited",
+      "key": "broadcaster:independent-television-network",
+      "aliases": [
+        "ITN"
+      ],
+      "sourceIds": [
+        "stage15-itn-organisation"
+      ],
+      "networkIds": [
+        "vasantham-lk"
+      ],
+      "stationIds": [
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "malar-publications",
+      "name": "Malar Publications Limited",
+      "key": "broadcaster:malar-publications",
+      "aliases": [],
+      "sourceIds": [
+        "stage15-mib-licensees"
+      ],
+      "networkIds": [
+        "hello-fm"
+      ],
+      "stationIds": [
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 1,
+        "discoveryOnly": 10
+      }
+    },
+    {
+      "id": "music-broadcast-ltd",
+      "name": "Music Broadcast Limited",
+      "key": "broadcaster:music-broadcast-ltd",
+      "aliases": [
+        "MBL"
+      ],
+      "sourceIds": [
+        "stage15-mib-licensees"
+      ],
+      "networkIds": [
+        "radio-city"
+      ],
+      "stationIds": [
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 0,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "prasar-bharati",
+      "name": "Prasar Bharati",
+      "key": "broadcaster:prasar-bharati",
+      "aliases": [
+        "AIR public broadcaster"
+      ],
+      "sourceIds": [
+        "stage15-prasar-organisation"
+      ],
+      "networkIds": [
+        "akashvani"
+      ],
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-raagam",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati"
+      ],
+      "counts": {
+        "all": 21,
+        "streamBearing": 20,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "reliance-broadcast-network",
+      "name": "Reliance Broadcast Network Limited",
+      "key": "broadcaster:reliance-broadcast-network",
+      "aliases": [
+        "RBNL"
+      ],
+      "sourceIds": [
+        "stage15-mib-licensees"
+      ],
+      "networkIds": [
+        "big-fm"
+      ],
+      "stationIds": [
+        "big-chennai",
+        "big-puducherry"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "sabc",
+      "name": "South African Broadcasting Corporation",
+      "key": "broadcaster:sabc",
+      "aliases": [
+        "SABC"
+      ],
+      "sourceIds": [
+        "stage15-lotus-profile"
+      ],
+      "networkIds": [
+        "sabc"
+      ],
+      "stationIds": [
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sun-tv-network",
+      "name": "Sun TV Network Limited",
+      "key": "broadcaster:sun-tv-network",
+      "aliases": [
+        "Sun TV Network"
+      ],
+      "sourceIds": [
+        "stage15-mib-licensees"
+      ],
+      "networkIds": [
+        "suryan-in"
+      ],
+      "stationIds": [
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 0,
+        "discoveryOnly": 11
+      }
+    }
+  ],
+  "networks": [
+    {
+      "id": "3zzz",
+      "name": "3ZZZ",
+      "key": "network:3zzz",
+      "aliases": [],
+      "countryCodes": [
+        "AU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "3zzz-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "4eb",
+      "name": "Radio 4EB",
+      "key": "network:4eb",
+      "aliases": [],
+      "countryCodes": [
+        "AU"
+      ],
+      "broadcasterId": "ebaq",
+      "stationIds": [
+        "4eb-fm-au",
+        "4eb-global-au"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "5ebi",
+      "name": "Ethnic Broadcasters Inc.",
+      "key": "network:5ebi",
+      "aliases": [],
+      "countryCodes": [
+        "AU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "5ebi-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "a9-media",
+      "name": "A9 Media",
+      "key": "network:a9-media",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "a9-radio-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "akashvani",
+      "name": "Akashvani (All India Radio)",
+      "key": "network:akashvani",
+      "aliases": [
+        "AIR",
+        "Prasar Bharati"
+      ],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "prasar-bharati",
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-raagam",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati"
+      ],
+      "counts": {
+        "all": 21,
+        "streamBearing": 20,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "akkini",
+      "name": "Akkini FM",
+      "key": "network:akkini",
+      "aliases": [],
+      "countryCodes": [
+        "CH"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "akkini-ch"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "amen-fm",
+      "name": "Amen FM",
+      "key": "network:amen-fm",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "amen-fm-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "american-tamil-media",
+      "name": "American Tamil Media",
+      "key": "network:american-tamil-media",
+      "aliases": [],
+      "countryCodes": [
+        "US"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "american-tamil-radio-us"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "amudham",
+      "name": "Amudham FM",
+      "key": "network:amudham",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "amudham-fm-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "annai-fm",
+      "name": "Annai FM",
+      "key": "network:annai-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "annai-kuzhithurai"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "ar-radio",
+      "name": "AR Radio",
+      "key": "network:ar-radio",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "ar-radio"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "asr-digital",
+      "name": "ASR Digital Radio",
+      "key": "network:asr-digital",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "asr-kanyakumari",
+        "christian-samy-fm"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "astro-audio",
+      "name": "Astro Audio",
+      "key": "network:astro-audio",
+      "aliases": [],
+      "countryCodes": [
+        "MY"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "raaga-my"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "atbc",
+      "name": "Australian Tamil Broadcasting Corporation",
+      "key": "network:atbc",
+      "aliases": [],
+      "countryCodes": [
+        "AU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "atbc-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "athavan",
+      "name": "Athavan Radio",
+      "key": "network:athavan",
+      "aliases": [],
+      "countryCodes": [
+        "GB"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "athavan-uk"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "aural-radio",
+      "name": "Aural Radio",
+      "key": "network:aural-radio",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "aural-radio"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "beats-radio",
+      "name": "Beats Radio LLC",
+      "key": "network:beats-radio",
+      "aliases": [],
+      "countryCodes": [
+        "US"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "beats-radio-us"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "big-fm",
+      "name": "BIG FM",
+      "key": "network:big-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "reliance-broadcast-network",
+      "stationIds": [
+        "big-chennai",
+        "big-puducherry"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 0,
+        "discoveryOnly": 2
+      }
+    },
+    {
+      "id": "boom-tamil",
+      "name": "Boom Tamil",
+      "key": "network:boom-tamil",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "boom-tamil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "canadian-tamil-radio",
+      "name": "Canadian Tamil Radio",
+      "key": "network:canadian-tamil-radio",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "ctr-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "capital-lk",
+      "name": "Capital FM Sri Lanka",
+      "key": "network:capital-lk",
+      "aliases": [],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": null,
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "christian-media-india",
+      "name": "Christian Media Centre India",
+      "key": "network:christian-media-india",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "christvision-media",
+      "name": "Christvision Media Corporation",
+      "key": "network:christvision-media",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "good-news-tamil-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "club-fm",
+      "name": "Club FM",
+      "key": "network:club-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "cmr",
+      "name": "Canadian Multicultural Radio",
+      "key": "network:cmr",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "cmr-tamil-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "ctbc",
+      "name": "Canadian Tamil Broadcasting Corporation",
+      "key": "network:ctbc",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "ctbc-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "east-fm",
+      "name": "EAST FM",
+      "key": "network:east-fm",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "east-fm-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "edc-kuwait",
+      "name": "Electronic Dawah Committee / Al-Najat Charity",
+      "key": "network:edc-kuwait",
+      "aliases": [],
+      "countryCodes": [
+        "KW"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "quran-tamil-kw"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "european-tamils-union",
+      "name": "European Tamils Union e.V.",
+      "key": "network:european-tamils-union",
+      "aliases": [],
+      "countryCodes": [
+        "DE"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "etr-de"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "fever-fm",
+      "name": "Fever FM",
+      "key": "network:fever-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hand-of-jesus",
+      "name": "Hand of Jesus Ministries",
+      "key": "network:hand-of-jesus",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "hand-of-jesus-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hello-fm",
+      "name": "Hello FM",
+      "key": "network:hello-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "malar-publications",
+      "stationIds": [
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 1,
+        "discoveryOnly": 10
+      }
+    },
+    {
+      "id": "ibc-tamil",
+      "name": "IBC Tamil",
+      "key": "network:ibc-tamil",
+      "aliases": [],
+      "countryCodes": [
+        "GB"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "ibc-tamil-uk"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "inbathamil-oli",
+      "name": "Inbathamil Oli",
+      "key": "network:inbathamil-oli",
+      "aliases": [],
+      "countryCodes": [
+        "AU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "inbathamil-oli-au"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "isai-murasu",
+      "name": "Isai Murasu FM",
+      "key": "network:isai-murasu",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "isai-murasu-nagercoil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "iskcon-nagercoil",
+      "name": "ISKCON Nagercoil",
+      "key": "network:iskcon-nagercoil",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "iskcon-nagercoil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "jeifm",
+      "name": "JEIFM",
+      "key": "network:jeifm",
+      "aliases": [],
+      "countryCodes": [
+        "MY"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "jei-fm-my"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "kumari-tamil",
+      "name": "Kumari Tamil Media",
+      "key": "network:kumari-tamil",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "kumari-tamil-kanyakumari"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "live-fm",
+      "name": "Live FM Bahrain",
+      "key": "network:live-fm",
+      "aliases": [],
+      "countryCodes": [
+        "BH"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "live-fm-bh"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "luminous-radio",
+      "name": "Luminous Radio",
+      "key": "network:luminous-radio",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "luminous-radio-tamil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mauritius-global-diaspora",
+      "name": "Mauritius Global Diaspora",
+      "key": "network:mauritius-global-diaspora",
+      "aliases": [],
+      "countryCodes": [
+        "MU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "mauradio-mu"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mediacorp",
+      "name": "Mediacorp",
+      "key": "network:mediacorp",
+      "aliases": [],
+      "countryCodes": [
+        "SG"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "oli-968-sg"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "mirchi",
+      "name": "Radio Mirchi",
+      "key": "network:mirchi",
+      "aliases": [
+        "Mirchi"
+      ],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "enil",
+      "stationIds": [
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli"
+      ],
+      "counts": {
+        "all": 6,
+        "streamBearing": 0,
+        "discoveryOnly": 6
+      }
+    },
+    {
+      "id": "namathu-fm",
+      "name": "Namathu FM",
+      "key": "network:namathu-fm",
+      "aliases": [],
+      "countryCodes": [
+        "FR"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "namathu-fm-fr"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "olive-suno",
+      "name": "Olive Suno",
+      "key": "network:olive-suno",
+      "aliases": [],
+      "countryCodes": [
+        "QA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "suno-tamil-qa"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "otran-vaanoli",
+      "name": "Otran Vaanoli",
+      "key": "network:otran-vaanoli",
+      "aliases": [],
+      "countryCodes": [
+        "IE"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "otran-vaanoli-ie"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "radio-city",
+      "name": "Radio City",
+      "key": "network:radio-city",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "music-broadcast-ltd",
+      "stationIds": [
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 0,
+        "discoveryOnly": 3
+      }
+    },
+    {
+      "id": "radio-plus",
+      "name": "Radio Plus Ltd / Defimedia",
+      "key": "network:radio-plus",
+      "aliases": [],
+      "countryCodes": [
+        "MU"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "radio-plus-indiz-mu"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "red-fm",
+      "name": "RED FM",
+      "key": "network:red-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "rtm",
+      "name": "Radio Televisyen Malaysia",
+      "key": "network:rtm",
+      "aliases": [],
+      "countryCodes": [
+        "MY"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "minnal-my"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sabc",
+      "name": "South African Broadcasting Corporation",
+      "key": "network:sabc",
+      "aliases": [],
+      "countryCodes": [
+        "ZA"
+      ],
+      "broadcasterId": "sabc",
+      "stationIds": [
+        "lotus-fm-za"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "shaivam",
+      "name": "Shaivam.org",
+      "key": "network:shaivam",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "shiva-tattvam",
+        "thiruneriya-thamizhosai"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "shakthi-lk",
+      "name": "Shakthi FM",
+      "key": "network:shakthi-lk",
+      "aliases": [],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "shakthi-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "slbc",
+      "name": "Sri Lanka Broadcasting Corporation",
+      "key": "network:slbc",
+      "aliases": [],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": null,
+      "stationIds": [],
+      "counts": {
+        "all": 0,
+        "streamBearing": 0,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "sooriyan-lk",
+      "name": "Sooriyan FM (Sri Lanka)",
+      "key": "network:sooriyan-lk",
+      "aliases": [
+        "Sooriyan"
+      ],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": "asia-broadcasting-corporation",
+      "stationIds": [
+        "sooriyan-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "star-fm-lk",
+      "name": "Star FM",
+      "key": "network:star-fm-lk",
+      "aliases": [],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "star-fm-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "suryan-in",
+      "name": "Suryan FM",
+      "key": "network:suryan-in",
+      "aliases": [
+        "Suryan FM India"
+      ],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": "sun-tv-network",
+      "stationIds": [
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore"
+      ],
+      "counts": {
+        "all": 11,
+        "streamBearing": 0,
+        "discoveryOnly": 11
+      }
+    },
+    {
+      "id": "sweety-fm",
+      "name": "Sweety FM",
+      "key": "network:sweety-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "sweety-fm-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "swiss-tamil-radio",
+      "name": "Swiss Tamil Radio",
+      "key": "network:swiss-tamil-radio",
+      "aliases": [],
+      "countryCodes": [
+        "CH"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "swiss-tamil-radio-ch"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamil-894",
+      "name": "89.4 Tamil FM",
+      "key": "network:tamil-894",
+      "aliases": [],
+      "countryCodes": [
+        "AE"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tamil-894-ae"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamil-christian-media",
+      "name": "Tamil Christian Media",
+      "key": "network:tamil-christian-media",
+      "aliases": [],
+      "countryCodes": [
+        "NO"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "thuthi-fm-no"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamil-murasam",
+      "name": "Radio Tamil Murasam",
+      "key": "network:tamil-murasam",
+      "aliases": [],
+      "countryCodes": [
+        "NO"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tamil-murasam-no"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamil-panpalai",
+      "name": "Tamil Panpalai",
+      "key": "network:tamil-panpalai",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tamil-panpalai"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamilosai-fm",
+      "name": "Tamilosai FM",
+      "key": "network:tamilosai-fm",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tamilosai-nagercoil"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "tarana",
+      "name": "Radio Tarana",
+      "key": "network:tarana",
+      "aliases": [],
+      "countryCodes": [
+        "NZ"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tarana-tamil-nz"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 0,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "thaalam-media",
+      "name": "Thaalam Media",
+      "key": "network:thaalam-media",
+      "aliases": [],
+      "countryCodes": [
+        "CH"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "thaalam-ch"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "theophony",
+      "name": "Theophony Ministries",
+      "key": "network:theophony",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "theophony-tamil-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "time-fm",
+      "name": "Time FM Media",
+      "key": "network:time-fm",
+      "aliases": [],
+      "countryCodes": [
+        "CA"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "time-fm-toronto-ca"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "vaagai-tamil",
+      "name": "Vaagai Tamil FM",
+      "key": "network:vaagai-tamil",
+      "aliases": [],
+      "countryCodes": [
+        "DE"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "vaagai-tamil-de"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "vasantham-lk",
+      "name": "Vasantham FM",
+      "key": "network:vasantham-lk",
+      "aliases": [],
+      "countryCodes": [
+        "LK"
+      ],
+      "broadcasterId": "independent-television-network",
+      "stationIds": [
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "voice-of-gospel",
+      "name": "Voice of Gospel",
+      "key": "network:voice-of-gospel",
+      "aliases": [],
+      "countryCodes": [
+        "IN"
+      ],
+      "broadcasterId": null,
+      "stationIds": [
+        "tamil-christian-radio-in"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    }
+  ],
+  "networksWithoutReviewedBroadcaster": [
+    "red-fm",
+    "fever-fm",
+    "shakthi-lk",
+    "slbc",
+    "asr-digital",
+    "annai-fm",
+    "kumari-tamil",
+    "luminous-radio",
+    "capital-lk",
+    "club-fm",
+    "tamilosai-fm",
+    "isai-murasu",
+    "iskcon-nagercoil",
+    "ibc-tamil",
+    "athavan",
+    "cmr",
+    "east-fm",
+    "ctbc",
+    "canadian-tamil-radio",
+    "beats-radio",
+    "american-tamil-media",
+    "atbc",
+    "mediacorp",
+    "tamil-894",
+    "rtm",
+    "astro-audio",
+    "thaalam-media",
+    "akkini",
+    "swiss-tamil-radio",
+    "european-tamils-union",
+    "tamil-murasam",
+    "tarana",
+    "shaivam",
+    "star-fm-lk",
+    "boom-tamil",
+    "tamil-panpalai",
+    "aural-radio",
+    "ar-radio",
+    "vaagai-tamil",
+    "a9-media",
+    "amudham",
+    "mauritius-global-diaspora",
+    "theophony",
+    "jeifm",
+    "amen-fm",
+    "live-fm",
+    "edc-kuwait",
+    "sweety-fm",
+    "hand-of-jesus",
+    "christian-media-india",
+    "olive-suno",
+    "voice-of-gospel",
+    "christvision-media",
+    "3zzz",
+    "5ebi",
+    "namathu-fm",
+    "otran-vaanoli",
+    "tamil-christian-media",
+    "radio-plus",
+    "time-fm",
+    "inbathamil-oli"
+  ],
+  "genres": [
+    {
+      "id": "classical",
+      "name": "Classical",
+      "key": "genre:classical",
+      "stationIds": [
+        "air-raagam"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "community",
+      "name": "Community",
+      "key": "genre:community",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "akkini-ch",
+        "american-tamil-radio-us",
+        "annai-kuzhithurai",
+        "asr-kanyakumari",
+        "atbc-au",
+        "cmr-tamil-ca",
+        "ctbc-ca",
+        "ctr-ca",
+        "east-fm-ca",
+        "etr-de",
+        "ibc-tamil-uk",
+        "inbathamil-oli-au",
+        "iskcon-nagercoil",
+        "kumari-tamil-kanyakumari",
+        "lotus-fm-za",
+        "luminous-radio-tamil",
+        "mauradio-mu",
+        "minnal-my",
+        "namathu-fm-fr",
+        "otran-vaanoli-ie",
+        "tamil-murasam-no",
+        "tarana-tamil-nz",
+        "thaalam-ch",
+        "time-fm-toronto-ca",
+        "vaagai-tamil-de"
+      ],
+      "counts": {
+        "all": 29,
+        "streamBearing": 21,
+        "discoveryOnly": 8
+      }
+    },
+    {
+      "id": "devotional",
+      "name": "Devotional",
+      "key": "genre:devotional",
+      "stationIds": [
+        "amen-fm-ca",
+        "christian-samy-fm",
+        "good-news-tamil-ca",
+        "hand-of-jesus-tamil-in",
+        "iskcon-nagercoil",
+        "luminous-radio-tamil",
+        "quran-tamil-kw",
+        "shiva-tattvam",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "theophony-tamil-in",
+        "thiruneriya-thamizhosai",
+        "thuthi-fm-no",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 14,
+        "streamBearing": 13,
+        "discoveryOnly": 1
+      }
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "key": "genre:general",
+      "stationIds": [
+        "3zzz-au",
+        "4eb-fm-au",
+        "4eb-global-au",
+        "5ebi-au",
+        "a9-radio-ca",
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "air-vividh-bharati",
+        "atbc-au",
+        "beats-radio-us",
+        "ctbc-ca",
+        "isai-murasu-nagercoil",
+        "live-fm-bh",
+        "oli-968-sg",
+        "raaga-my",
+        "sooriyan-srilanka",
+        "swiss-tamil-radio-ch",
+        "tamil-894-ae",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 36,
+        "streamBearing": 31,
+        "discoveryOnly": 5
+      }
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "key": "genre:music",
+      "stationIds": [
+        "a9-radio-ca",
+        "air-vividh-bharati",
+        "akkini-ch",
+        "american-tamil-radio-us",
+        "amudham-fm-in",
+        "annai-kuzhithurai",
+        "ar-radio",
+        "asr-kanyakumari",
+        "athavan-uk",
+        "aural-radio",
+        "beats-radio-us",
+        "big-chennai",
+        "big-puducherry",
+        "boom-tamil",
+        "cmr-tamil-ca",
+        "east-fm-ca",
+        "etr-de",
+        "hello-chennai",
+        "hello-coimbatore",
+        "hello-erode",
+        "hello-madurai",
+        "hello-nagercoil",
+        "hello-puducherry",
+        "hello-salem",
+        "hello-thoothukudi",
+        "hello-tiruchirappalli",
+        "hello-tirunelveli",
+        "hello-vellore",
+        "ibc-tamil-uk",
+        "inbathamil-oli-au",
+        "jei-fm-my",
+        "kumari-tamil-kanyakumari",
+        "live-fm-bh",
+        "lotus-fm-za",
+        "mauradio-mu",
+        "minnal-my",
+        "mirchi-chennai",
+        "mirchi-coimbatore",
+        "mirchi-madurai",
+        "mirchi-thiruvananthapuram",
+        "mirchi-tiruchirappalli",
+        "mirchi-tirunelveli",
+        "namathu-fm-fr",
+        "oli-968-sg",
+        "otran-vaanoli-ie",
+        "raaga-my",
+        "radio-city-chennai",
+        "radio-city-coimbatore",
+        "radio-city-madurai",
+        "radio-plus-indiz-mu",
+        "shakthi-srilanka",
+        "sooriyan-srilanka",
+        "star-fm-srilanka",
+        "suno-tamil-qa",
+        "suryan-chennai",
+        "suryan-coimbatore",
+        "suryan-erode",
+        "suryan-madurai",
+        "suryan-nagercoil",
+        "suryan-puducherry",
+        "suryan-salem",
+        "suryan-thoothukudi",
+        "suryan-tiruchirappalli",
+        "suryan-tirunelveli",
+        "suryan-vellore",
+        "swiss-tamil-radio-ch",
+        "tamil-894-ae",
+        "tamil-panpalai",
+        "tamilosai-nagercoil",
+        "tarana-tamil-nz",
+        "thaalam-ch",
+        "thiruneriya-thamizhosai",
+        "time-fm-toronto-ca",
+        "vaagai-tamil-de",
+        "vasantham-srilanka"
+      ],
+      "counts": {
+        "all": 75,
+        "streamBearing": 35,
+        "discoveryOnly": 40
+      }
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "key": "genre:news",
+      "stationIds": [
+        "air-chennai-gold",
+        "air-chennai-rainbow",
+        "air-chennai-vividh-tamil",
+        "air-coimbatore",
+        "air-devikulam",
+        "air-kannur",
+        "air-karaikal",
+        "air-kochi",
+        "air-kodaikanal",
+        "air-kozhikode",
+        "air-madurai",
+        "air-nagercoil",
+        "air-ooty",
+        "air-puducherry",
+        "air-tamil",
+        "air-thoothukudi",
+        "air-thrissur",
+        "air-tiruchirappalli",
+        "air-tirunelveli",
+        "akkini-ch",
+        "atbc-au",
+        "athavan-uk",
+        "boom-tamil",
+        "cmr-tamil-ca",
+        "ctr-ca",
+        "etr-de",
+        "ibc-tamil-uk",
+        "minnal-my",
+        "oli-968-sg",
+        "star-fm-srilanka",
+        "swiss-tamil-radio-ch",
+        "tamil-murasam-no",
+        "tarana-tamil-nz"
+      ],
+      "counts": {
+        "all": 33,
+        "streamBearing": 27,
+        "discoveryOnly": 6
+      }
+    },
+    {
+      "id": "talk",
+      "name": "Talk",
+      "key": "genre:talk",
+      "stationIds": [
+        "athavan-uk",
+        "aural-radio",
+        "ctr-ca",
+        "east-fm-ca",
+        "inbathamil-oli-au",
+        "isai-murasu-nagercoil",
+        "lotus-fm-za",
+        "shiva-tattvam",
+        "tamil-894-ae",
+        "tamil-murasam-no"
+      ],
+      "counts": {
+        "all": 10,
+        "streamBearing": 7,
+        "discoveryOnly": 3
+      }
+    }
+  ],
+  "programmeThemes": [
+    {
+      "id": "christian-devotional",
+      "name": "Christian devotional programming",
+      "description": "Documented programme content; does not classify listeners, ownership or permissions."
+    },
+    {
+      "id": "hindu-devotional",
+      "name": "Hindu devotional programming",
+      "description": "Documented Hindu/Shaiva devotional or philosophical content; not inferred from audience or station name."
+    },
+    {
+      "id": "islamic-religious",
+      "name": "Islamic religious programming",
+      "description": "Documented Quran/religious programme content; not an ownership or audience-religion claim."
+    },
+    {
+      "id": "tamil-devotional-music",
+      "name": "Tamil devotional music",
+      "description": "Documented Tamil devotional music focus; language filtering still uses broadcastLanguages."
+    }
+  ],
+  "themes": [
+    {
+      "id": "christian-devotional",
+      "name": "Christian devotional programming",
+      "key": "theme:christian-devotional",
+      "stationIds": [
+        "amen-fm-ca",
+        "good-news-tamil-ca",
+        "hand-of-jesus-tamil-in",
+        "luminous-radio-tamil",
+        "sweety-fm-in",
+        "tamil-christian-radio-in",
+        "theophony-tamil-in",
+        "thuthi-fm-no",
+        "vaanmalar-fm-in"
+      ],
+      "counts": {
+        "all": 9,
+        "streamBearing": 9,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "hindu-devotional",
+      "name": "Hindu devotional programming",
+      "key": "theme:hindu-devotional",
+      "stationIds": [
+        "shiva-tattvam",
+        "thiruneriya-thamizhosai"
+      ],
+      "counts": {
+        "all": 2,
+        "streamBearing": 2,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "islamic-religious",
+      "name": "Islamic religious programming",
+      "key": "theme:islamic-religious",
+      "stationIds": [
+        "quran-tamil-kw"
+      ],
+      "counts": {
+        "all": 1,
+        "streamBearing": 1,
+        "discoveryOnly": 0
+      }
+    },
+    {
+      "id": "tamil-devotional-music",
+      "name": "Tamil devotional music",
+      "key": "theme:tamil-devotional-music",
+      "stationIds": [
+        "sweety-fm-in",
+        "thiruneriya-thamizhosai",
+        "thuthi-fm-no"
+      ],
+      "counts": {
+        "all": 3,
+        "streamBearing": 3,
+        "discoveryOnly": 0
+      }
+    }
+  ],
+  "contentThemeGaps": [
+    "christian-samy-fm",
+    "iskcon-nagercoil"
+  ]
+}

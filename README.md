@@ -1,6 +1,6 @@
 # RadioBee Data
 
-> Current follow-up: catalogue 1.6.1, 38 URLs across the same 85 stations. AIR Nagercoil gains one user-identified unverified alternative. No broadcaster artwork approved. See [Stage 11 review](docs/STAGE11-NETWORK-ARTWORK-AND-STREAMS.md). Previous expansion snapshots below retain their original counts.
+> **Stable API v1:** catalogue **1.9.0**, schema 1, preserved for existing Web/Android clients. **Proposed API v2:** catalogue **2.0.0**, schema 2, with enriched metadata and navigation. Both retain 117 identities: 71 stream-bearing stations, 46 discovery-only stations and 74 stream URLs. V2 is a local review draft, not a deployment announcement; stream candidates do not imply playback approval or permission. See [the dual-version contract](docs/API-V2.md). Historical expansion snapshots below retain their original counts.
 
 **Versioned, independent station catalogue for RadioBee** — *Stay tuned. Stay buzzing.*
 
@@ -124,3 +124,11 @@ Historical Stage 6: [88-station stream discovery and listening-use review](docs/
 Stage 9: [Tamil FM and Kanyakumari discovery](docs/stage9/TAMIL-FM-DISCOVERY.md). Research only: 14 broadcaster/brand investigations and 54 service/place cases; no catalogue or version changes. New candidates remain outside publication pending identity, playback and use review.
 
 Stage 14: [worldwide Tamil trial expansion](docs/STAGE14-GLOBAL-TAMIL-RADIO-EXPANSION.md), catalogue 1.9.0 review draft: 117 identities, 71 stream-bearing stations, 46 discovery-only records and 74 URLs. The 25 additions are unverified trials; production approval remains zero.
+
+Stage 15: [metadata and navigation API](docs/STAGE15-METADATA-NAVIGATION-API.md),
+API v2 / catalogue 2.0.0 review draft. `/v1/` remains byte-identical to merged-master
+1.9.0 for existing clients. `/v2/` contains all enriched metadata and a generated
+browse index with the same 117 identities and 74 stream objects. Run
+`npm run generate:browse`, then validate, test and build; the build produces both
+versions together. No client endpoint, stream rights or artwork content changes.
+See [the v2 integration and release contract](docs/API-V2.md).

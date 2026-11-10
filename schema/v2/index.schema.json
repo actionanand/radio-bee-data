@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee API v2 manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "publishedOn",
+    "defaultLocale",
+    "locales",
+    "countries",
+    "counts",
+    "files",
+    "localizationRoot",
+    "disclaimer"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "catalogVersion": {
+      "type": "string",
+      "pattern": "^2\\.[0-9]+\\.[0-9]+$"
+    },
+    "publishedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "defaultLocale": {
+      "const": "en"
+    },
+    "locales": {
+      "const": [
+        "en",
+        "ta",
+        "sa"
+      ]
+    },
+    "countries": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "networks",
+        "stations",
+        "locations",
+        "streams",
+        "verifiedStreams",
+        "discoveryStations",
+        "discoverableStations",
+        "stationsWithStreamCandidates",
+        "productionEligibleStations"
+      ],
+      "properties": {
+        "networks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "stations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "locations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "streams": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "verifiedStreams": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "discoveryStations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "discoverableStations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "stationsWithStreamCandidates": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "productionEligibleStations": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "networks",
+        "stations",
+        "locations",
+        "languages",
+        "categories",
+        "sources",
+        "stationMigrations",
+        "discoveryStations"
+      ],
+      "properties": {
+        "networks": {
+          "const": "networks.json"
+        },
+        "stations": {
+          "const": "stations.json"
+        },
+        "locations": {
+          "const": "locations.json"
+        },
+        "languages": {
+          "const": "languages.json"
+        },
+        "categories": {
+          "const": "categories.json"
+        },
+        "sources": {
+          "const": "sources.json"
+        },
+        "stationMigrations": {
+          "const": "station-migrations.json"
+        },
+        "discoveryStations": {
+          "const": "discovery-stations.json"
+        },
+        "broadcasters": {
+          "const": "broadcasters.json"
+        },
+        "programmeThemes": {
+          "const": "programme-themes.json"
+        },
+        "browseIndex": {
+          "const": "browse-index.json"
+        }
+      }
+    },
+    "localizationRoot": {
+      "const": "i18n/"
+    },
+    "disclaimer": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

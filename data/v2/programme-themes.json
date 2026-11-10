@@ -1,0 +1,22 @@
+[
+  {
+    "id": "christian-devotional",
+    "name": "Christian devotional programming",
+    "description": "Documented programme content; does not classify listeners, ownership or permissions."
+  },
+  {
+    "id": "hindu-devotional",
+    "name": "Hindu devotional programming",
+    "description": "Documented Hindu/Shaiva devotional or philosophical content; not inferred from audience or station name."
+  },
+  {
+    "id": "islamic-religious",
+    "name": "Islamic religious programming",
+    "description": "Documented Quran/religious programme content; not an ownership or audience-religion claim."
+  },
+  {
+    "id": "tamil-devotional-music",
+    "name": "Tamil devotional music",
+    "description": "Documented Tamil devotional music focus; language filtering still uses broadcastLanguages."
+  }
+]

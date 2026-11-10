@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prasar-bharati",
+    "name": "Prasar Bharati",
+    "aliases": [
+      "AIR public broadcaster"
+    ],
+    "website": "https://prasarbharati.gov.in/",
+    "sourceIds": [
+      "stage15-prasar-organisation"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "sun-tv-network",
+    "name": "Sun TV Network Limited",
+    "aliases": [
+      "Sun TV Network"
+    ],
+    "website": "https://www.sunnetwork.in/",
+    "sourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "malar-publications",
+    "name": "Malar Publications Limited",
+    "aliases": [],
+    "website": "https://www.hellofm.in/",
+    "sourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "enil",
+    "name": "Entertainment Network (India) Limited",
+    "aliases": [
+      "ENIL"
+    ],
+    "website": "https://www.enil.co.in/",
+    "sourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "music-broadcast-ltd",
+    "name": "Music Broadcast Limited",
+    "aliases": [
+      "MBL"
+    ],
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "reliance-broadcast-network",
+    "name": "Reliance Broadcast Network Limited",
+    "aliases": [
+      "RBNL"
+    ],
+    "website": "https://www.bigfmindia.com/",
+    "sourceIds": [
+      "stage15-mib-licensees"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "asia-broadcasting-corporation",
+    "name": "Asia Broadcasting Corporation",
+    "aliases": [],
+    "website": "https://www.asiabroadcasting.lk/",
+    "sourceIds": [
+      "stage15-sooriyan-organisation"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "independent-television-network",
+    "name": "Independent Television Network Limited",
+    "aliases": [
+      "ITN"
+    ],
+    "website": "https://www.itn.lk/",
+    "sourceIds": [
+      "stage15-itn-organisation"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "sabc",
+    "name": "South African Broadcasting Corporation",
+    "aliases": [
+      "SABC"
+    ],
+    "website": "https://www.sabc.co.za/",
+    "sourceIds": [
+      "stage15-lotus-profile"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "ebaq",
+    "name": "Ethnic Broadcasting Association of Queensland Limited",
+    "aliases": [
+      "EBAQ"
+    ],
+    "website": "https://www.4eb.org.au/",
+    "sourceIds": [
+      "stage15-4eb-tamil"
+    ],
+    "reviewedOn": "2026-11-10",
+    "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  }
+]

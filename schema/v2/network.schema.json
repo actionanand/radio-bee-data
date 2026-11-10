@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee network v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "aliases",
+    "countryCodes",
+    "kind",
+    "website"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "countryCodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "kind": {
+      "enum": [
+        "public",
+        "broadcaster",
+        "online"
+      ]
+    },
+    "website": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "logoPath": {
+      "type": "string",
+      "pattern": "^assets/logos/(stations|networks)/[a-z0-9]+(-[a-z0-9]+)*\\.(webp|png)$",
+      "description": "Optional approved local PNG/WebP artwork, relative to the v1 catalogue base. Omit when unavailable."
+    },
+    "broadcasterId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "broadcasterSourceIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "broadcasterRelationship": {
+      "enum": [
+        "public-broadcaster",
+        "licensed-operator",
+        "publisher-operator"
+      ]
+    }
+  },
+  "dependentRequired": {
+    "broadcasterId": [
+      "broadcasterSourceIds",
+      "broadcasterRelationship"
+    ],
+    "broadcasterSourceIds": [
+      "broadcasterId",
+      "broadcasterRelationship"
+    ],
+    "broadcasterRelationship": [
+      "broadcasterId",
+      "broadcasterSourceIds"
+    ]
+  }
+}

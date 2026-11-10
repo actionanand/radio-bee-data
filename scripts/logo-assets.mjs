@@ -14,9 +14,10 @@ export function imageDimensions(bytes,extension) {
   }
   throw Error('unsupported or invalid PNG/WebP header');
 }
-export function inspectLogo(root,logoPath) {
+export function inspectLogo(root,logoPath,version='v1') {
+  if(!['v1','v2'].includes(version))throw Error('Unsupported API directory');
   if(!validLogoPath(logoPath))throw Error('invalid logoPath; expected assets/logos/stations|networks/<slug>.png|webp');
-  const base=realpathSync(path.join(root,'data/v1'));
+  const base=realpathSync(path.join(root,'data',version));
   let entry=base;
   for(const part of logoPath.split('/')) {
     entry=path.join(entry,part);

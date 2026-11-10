@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "2.0.0",
+  "publishedOn": "2026-11-10",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ta",
+    "sa"
+  ],
+  "countries": [
+    "AE",
+    "AU",
+    "BH",
+    "CA",
+    "CH",
+    "DE",
+    "FR",
+    "GB",
+    "IE",
+    "IN",
+    "KW",
+    "LK",
+    "MU",
+    "MY",
+    "NO",
+    "NZ",
+    "QA",
+    "SG",
+    "US",
+    "ZA"
+  ],
+  "counts": {
+    "networks": 71,
+    "stations": 71,
+    "locations": 131,
+    "streams": 74,
+    "verifiedStreams": 1,
+    "discoveryStations": 46,
+    "discoverableStations": 117,
+    "stationsWithStreamCandidates": 71,
+    "productionEligibleStations": 0
+  },
+  "files": {
+    "networks": "networks.json",
+    "stations": "stations.json",
+    "locations": "locations.json",
+    "languages": "languages.json",
+    "categories": "categories.json",
+    "sources": "sources.json",
+    "stationMigrations": "station-migrations.json",
+    "discoveryStations": "discovery-stations.json",
+    "broadcasters": "broadcasters.json",
+    "programmeThemes": "programme-themes.json",
+    "browseIndex": "browse-index.json"
+  },
+  "localizationRoot": "i18n/",
+  "disclaimer": "Separate playback candidates and metadata-only discovery listings. Availability, technical verification and listening/recording permissions remain distinct; no new playback approval is implied."
+}

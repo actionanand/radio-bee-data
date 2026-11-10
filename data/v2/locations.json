@@ -1,0 +1,919 @@
+[
+  {
+    "id": "in",
+    "name": "India",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "IN"
+  },
+  {
+    "id": "lk",
+    "name": "Sri Lanka",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "LK"
+  },
+  {
+    "id": "in-tn",
+    "name": "Tamil Nadu",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl",
+    "name": "Kerala",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-py",
+    "name": "Puducherry",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ka",
+    "name": "Karnataka",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-mh",
+    "name": "Maharashtra",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-dl",
+    "name": "Delhi",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tg",
+    "name": "Telangana",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ap",
+    "name": "Andhra Pradesh",
+    "type": "state",
+    "parentId": "in",
+    "countryCode": "IN"
+  },
+  {
+    "id": "lk-wp",
+    "name": "Western Province",
+    "type": "state",
+    "parentId": "lk",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-np",
+    "name": "Northern Province",
+    "type": "state",
+    "parentId": "lk",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-ep",
+    "name": "Eastern Province",
+    "type": "state",
+    "parentId": "lk",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-cp",
+    "name": "Central Province",
+    "type": "state",
+    "parentId": "lk",
+    "countryCode": "LK"
+  },
+  {
+    "id": "in-tn-kanyakumari",
+    "name": "Kanyakumari",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-chennai",
+    "name": "Chennai",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-coimbatore",
+    "name": "Coimbatore",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-madurai",
+    "name": "Madurai",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tiruchirappalli",
+    "name": "Tiruchirappalli",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tirunelveli",
+    "name": "Tirunelveli",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-thoothukudi",
+    "name": "Thoothukudi",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-salem",
+    "name": "Salem",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-erode",
+    "name": "Erode",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-vellore",
+    "name": "Vellore",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-dindigul",
+    "name": "Dindigul",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-nilgiris",
+    "name": "Nilgiris",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-thanjavur",
+    "name": "Thanjavur",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tiruppur",
+    "name": "Tiruppur",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-dharmapuri",
+    "name": "Dharmapuri",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-py-puducherry",
+    "name": "Puducherry",
+    "type": "district",
+    "parentId": "in-py",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-py-karaikal",
+    "name": "Karaikal",
+    "type": "district",
+    "parentId": "in-py",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-thiruvananthapuram",
+    "name": "Thiruvananthapuram",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-ernakulam",
+    "name": "Ernakulam",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-kozhikode",
+    "name": "Kozhikode",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-thrissur",
+    "name": "Thrissur",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-kannur",
+    "name": "Kannur",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-idukki",
+    "name": "Idukki",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-alappuzha",
+    "name": "Alappuzha",
+    "type": "district",
+    "parentId": "in-kl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ka-bengaluru-urban",
+    "name": "Bengaluru Urban",
+    "type": "district",
+    "parentId": "in-ka",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ka-mysuru",
+    "name": "Mysuru",
+    "type": "district",
+    "parentId": "in-ka",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-mh-mumbai-city",
+    "name": "Mumbai City",
+    "type": "district",
+    "parentId": "in-mh",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-mh-pune",
+    "name": "Pune",
+    "type": "district",
+    "parentId": "in-mh",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-dl-new-delhi",
+    "name": "New Delhi",
+    "type": "district",
+    "parentId": "in-dl",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tg-hyderabad",
+    "name": "Hyderabad",
+    "type": "district",
+    "parentId": "in-tg",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ap-visakhapatnam",
+    "name": "Visakhapatnam",
+    "type": "district",
+    "parentId": "in-ap",
+    "countryCode": "IN"
+  },
+  {
+    "id": "lk-wp-colombo",
+    "name": "Colombo",
+    "type": "district",
+    "parentId": "lk-wp",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-wp-gampaha",
+    "name": "Gampaha",
+    "type": "district",
+    "parentId": "lk-wp",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-np-jaffna",
+    "name": "Jaffna",
+    "type": "district",
+    "parentId": "lk-np",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-np-kilinochchi",
+    "name": "Kilinochchi",
+    "type": "district",
+    "parentId": "lk-np",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-ep-batticaloa",
+    "name": "Batticaloa",
+    "type": "district",
+    "parentId": "lk-ep",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-ep-trincomalee",
+    "name": "Trincomalee",
+    "type": "district",
+    "parentId": "lk-ep",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-cp-kandy",
+    "name": "Kandy",
+    "type": "district",
+    "parentId": "lk-cp",
+    "countryCode": "LK"
+  },
+  {
+    "id": "in-tn-kanyakumari-nagercoil",
+    "name": "Nagercoil",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-kanyakumari-kuzhithurai",
+    "name": "Kuzhithurai",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-kanyakumari-thingalnagar",
+    "name": "Thingalnagar",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-chennai-chennai",
+    "name": "Chennai",
+    "type": "locality",
+    "parentId": "in-tn-chennai",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-coimbatore-coimbatore",
+    "name": "Coimbatore",
+    "type": "locality",
+    "parentId": "in-tn-coimbatore",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-madurai-madurai",
+    "name": "Madurai",
+    "type": "locality",
+    "parentId": "in-tn-madurai",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tiruchirappalli-tiruchirappalli",
+    "name": "Tiruchirappalli",
+    "type": "locality",
+    "parentId": "in-tn-tiruchirappalli",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tirunelveli-tirunelveli",
+    "name": "Tirunelveli",
+    "type": "locality",
+    "parentId": "in-tn-tirunelveli",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-thoothukudi-thoothukudi",
+    "name": "Thoothukudi",
+    "type": "locality",
+    "parentId": "in-tn-thoothukudi",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-salem-salem",
+    "name": "Salem",
+    "type": "locality",
+    "parentId": "in-tn-salem",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-erode-erode",
+    "name": "Erode",
+    "type": "locality",
+    "parentId": "in-tn-erode",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-vellore-vellore",
+    "name": "Vellore",
+    "type": "locality",
+    "parentId": "in-tn-vellore",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-dindigul-kodaikanal",
+    "name": "Kodaikanal",
+    "type": "locality",
+    "parentId": "in-tn-dindigul",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-nilgiris-ooty",
+    "name": "Ooty",
+    "type": "locality",
+    "parentId": "in-tn-nilgiris",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-thanjavur-thanjavur",
+    "name": "Thanjavur",
+    "type": "locality",
+    "parentId": "in-tn-thanjavur",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-tiruppur-tiruppur",
+    "name": "Tiruppur",
+    "type": "locality",
+    "parentId": "in-tn-tiruppur",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-py-puducherry-puducherry",
+    "name": "Puducherry",
+    "type": "locality",
+    "parentId": "in-py-puducherry",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-py-karaikal-karaikal",
+    "name": "Karaikal",
+    "type": "locality",
+    "parentId": "in-py-karaikal",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-thiruvananthapuram-thiruvananthapuram",
+    "name": "Thiruvananthapuram",
+    "type": "locality",
+    "parentId": "in-kl-thiruvananthapuram",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-ernakulam-kochi",
+    "name": "Kochi",
+    "type": "locality",
+    "parentId": "in-kl-ernakulam",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-kozhikode-kozhikode",
+    "name": "Kozhikode",
+    "type": "locality",
+    "parentId": "in-kl-kozhikode",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-thrissur-thrissur",
+    "name": "Thrissur",
+    "type": "locality",
+    "parentId": "in-kl-thrissur",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-kannur-kannur",
+    "name": "Kannur",
+    "type": "locality",
+    "parentId": "in-kl-kannur",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-idukki-devikulam",
+    "name": "Devikulam",
+    "type": "locality",
+    "parentId": "in-kl-idukki",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-kl-alappuzha-alappuzha",
+    "name": "Alappuzha",
+    "type": "locality",
+    "parentId": "in-kl-alappuzha",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ka-bengaluru-urban-bengaluru",
+    "name": "Bengaluru",
+    "type": "locality",
+    "parentId": "in-ka-bengaluru-urban",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ka-mysuru-mysuru",
+    "name": "Mysuru",
+    "type": "locality",
+    "parentId": "in-ka-mysuru",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-mh-mumbai-city-mumbai",
+    "name": "Mumbai",
+    "type": "locality",
+    "parentId": "in-mh-mumbai-city",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-mh-pune-pune",
+    "name": "Pune",
+    "type": "locality",
+    "parentId": "in-mh-pune",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-dl-new-delhi-new-delhi",
+    "name": "New Delhi",
+    "type": "locality",
+    "parentId": "in-dl-new-delhi",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tg-hyderabad-hyderabad",
+    "name": "Hyderabad",
+    "type": "locality",
+    "parentId": "in-tg-hyderabad",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-ap-visakhapatnam-visakhapatnam",
+    "name": "Visakhapatnam",
+    "type": "locality",
+    "parentId": "in-ap-visakhapatnam",
+    "countryCode": "IN"
+  },
+  {
+    "id": "lk-wp-colombo-colombo",
+    "name": "Colombo",
+    "type": "locality",
+    "parentId": "lk-wp-colombo",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-np-jaffna-jaffna",
+    "name": "Jaffna",
+    "type": "locality",
+    "parentId": "lk-np-jaffna",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-ep-batticaloa-batticaloa",
+    "name": "Batticaloa",
+    "type": "locality",
+    "parentId": "lk-ep-batticaloa",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-ep-trincomalee-trincomalee",
+    "name": "Trincomalee",
+    "type": "locality",
+    "parentId": "lk-ep-trincomalee",
+    "countryCode": "LK"
+  },
+  {
+    "id": "lk-cp-kandy-kandy",
+    "name": "Kandy",
+    "type": "locality",
+    "parentId": "lk-cp-kandy",
+    "countryCode": "LK"
+  },
+  {
+    "id": "in-tn-kanyakumari-parakunnu",
+    "name": "Parakunnu",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-kanyakumari-puliyurkurichi",
+    "name": "Puliyurkurichi",
+    "type": "locality",
+    "parentId": "in-tn-kanyakumari",
+    "countryCode": "IN"
+  },
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "GB"
+  },
+  {
+    "id": "gb-eng",
+    "name": "England",
+    "type": "state",
+    "parentId": "gb",
+    "countryCode": "GB"
+  },
+  {
+    "id": "ca",
+    "name": "Canada",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "CA"
+  },
+  {
+    "id": "ca-on",
+    "name": "Ontario",
+    "type": "state",
+    "parentId": "ca",
+    "countryCode": "CA"
+  },
+  {
+    "id": "us",
+    "name": "United States",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "US"
+  },
+  {
+    "id": "us-ca",
+    "name": "California",
+    "type": "state",
+    "parentId": "us",
+    "countryCode": "US"
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-nsw",
+    "name": "New South Wales",
+    "type": "state",
+    "parentId": "au",
+    "countryCode": "AU"
+  },
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "SG"
+  },
+  {
+    "id": "ae",
+    "name": "United Arab Emirates",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "AE"
+  },
+  {
+    "id": "ae-du",
+    "name": "Dubai",
+    "type": "state",
+    "parentId": "ae",
+    "countryCode": "AE"
+  },
+  {
+    "id": "my",
+    "name": "Malaysia",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "MY"
+  },
+  {
+    "id": "ch",
+    "name": "Switzerland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "CH"
+  },
+  {
+    "id": "ch-zh",
+    "name": "Zurich",
+    "type": "state",
+    "parentId": "ch",
+    "countryCode": "CH"
+  },
+  {
+    "id": "de",
+    "name": "Germany",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "DE"
+  },
+  {
+    "id": "de-nw",
+    "name": "North Rhine-Westphalia",
+    "type": "state",
+    "parentId": "de",
+    "countryCode": "DE"
+  },
+  {
+    "id": "no",
+    "name": "Norway",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "NO"
+  },
+  {
+    "id": "no-oslo",
+    "name": "Oslo",
+    "type": "state",
+    "parentId": "no",
+    "countryCode": "NO"
+  },
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "NZ"
+  },
+  {
+    "id": "za",
+    "name": "South Africa",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "ZA"
+  },
+  {
+    "id": "mu",
+    "name": "Mauritius",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "MU"
+  },
+  {
+    "id": "bh",
+    "name": "Bahrain",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "BH"
+  },
+  {
+    "id": "kw",
+    "name": "Kuwait",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "KW"
+  },
+  {
+    "id": "qa",
+    "name": "Qatar",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "QA"
+  },
+  {
+    "id": "fr",
+    "name": "France",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "FR"
+  },
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "IE"
+  },
+  {
+    "id": "ca-on-toronto",
+    "name": "Toronto",
+    "type": "locality",
+    "parentId": "ca-on",
+    "countryCode": "CA"
+  },
+  {
+    "id": "ca-on-scarborough",
+    "name": "Scarborough",
+    "type": "locality",
+    "parentId": "ca-on",
+    "countryCode": "CA"
+  },
+  {
+    "id": "ca-on-oshawa",
+    "name": "Oshawa",
+    "type": "locality",
+    "parentId": "ca-on",
+    "countryCode": "CA"
+  },
+  {
+    "id": "au-vic",
+    "name": "Victoria",
+    "type": "state",
+    "parentId": "au",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-vic-melbourne",
+    "name": "Melbourne",
+    "type": "locality",
+    "parentId": "au-vic",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-qld",
+    "name": "Queensland",
+    "type": "state",
+    "parentId": "au",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-qld-brisbane",
+    "name": "Brisbane",
+    "type": "locality",
+    "parentId": "au-qld",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-sa",
+    "name": "South Australia",
+    "type": "state",
+    "parentId": "au",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-sa-adelaide",
+    "name": "Adelaide",
+    "type": "locality",
+    "parentId": "au-sa",
+    "countryCode": "AU"
+  },
+  {
+    "id": "au-nsw-sydney",
+    "name": "Sydney",
+    "type": "locality",
+    "parentId": "au-nsw",
+    "countryCode": "AU"
+  },
+  {
+    "id": "za-kzn",
+    "name": "KwaZulu-Natal",
+    "type": "state",
+    "parentId": "za",
+    "countryCode": "ZA"
+  },
+  {
+    "id": "in-tn-ranipet",
+    "name": "Ranipet",
+    "type": "district",
+    "parentId": "in-tn",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-ranipet-arakkonam",
+    "name": "Arakkonam",
+    "type": "locality",
+    "parentId": "in-tn-ranipet",
+    "countryCode": "IN"
+  },
+  {
+    "id": "in-tn-nilgiris-coonoor",
+    "name": "Coonoor",
+    "type": "locality",
+    "parentId": "in-tn-nilgiris",
+    "countryCode": "IN"
+  }
+]

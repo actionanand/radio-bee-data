@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RadioBee stream candidate v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "url",
+    "format",
+    "verificationStatus",
+    "lastVerifiedAt",
+    "sourceId",
+    "rightsStatus"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "format": {
+      "enum": [
+        "mp3",
+        "aac",
+        "hls",
+        "unknown"
+      ]
+    },
+    "verificationStatus": {
+      "enum": [
+        "unverified",
+        "verified",
+        "unavailable"
+      ]
+    },
+    "lastVerifiedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "sourceId": {
+      "type": "string"
+    },
+    "rightsStatus": {
+      "enum": [
+        "unconfirmed",
+        "permission-granted"
+      ]
+    },
+    "directListening": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reviewedAt",
+        "sourceId",
+        "notes",
+        "recording",
+        "redistribution"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "needs-review",
+            "restricted",
+            "allowed"
+          ]
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "recording": {
+          "enum": [
+            "unconfirmed",
+            "prohibited",
+            "permission-granted"
+          ]
+        },
+        "redistribution": {
+          "enum": [
+            "unconfirmed",
+            "prohibited",
+            "permission-granted"
+          ]
+        }
+      }
+    }
+  }
+}
