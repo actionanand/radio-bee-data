@@ -1,0 +1,20 @@
+name: Research — Probe artist radio candidates
+on:
+  push:
+    branches:
+      - feature/26-indian-languages-playable-expansion
+    paths:
+      - docs/stage27/artist-candidates.json
+      - scripts/stage27-probe.py
+      - .github/workflows/stage27-probe.yml
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Decode HTTPS artist streams (research only)
+        run: python3 scripts/stage27-probe.py

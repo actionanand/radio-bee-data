@@ -1288,5 +1288,195 @@
     ],
     "kind": "online",
     "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage26-hello-telugu-in",
+    "name": "Hello Telugu",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-malayalam-in",
+    "name": "Radio Malayalam",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-bol-punjabi-radio-in",
+    "name": "Bol Punjabi Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-mast-marathi-in",
+    "name": "Radio Mast Marathi",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-freefm-uae-sinhala-ae",
+    "name": "Free FM — UAE Sinhala Radio",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-amr-kannada-in",
+    "name": "Radio AMR Kannada",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-kannada-hits-in",
+    "name": "Kannada Hits",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-hindi-gold-radio-in",
+    "name": "Hindi Gold Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-mirchi-dubai-ae",
+    "name": "Radio Mirchi Dubai (directory listing)",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-quarantine-kolkata-in",
+    "name": "Radio Quarantine Kolkata",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage27-80s80s-michael-jackson-de",
+    "name": "80s80s Michael Jackson",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://www.80s80s.de/"
+  },
+  {
+    "id": "stage27-exclusively-michael-jackson-ae",
+    "name": "Exclusively Michael Jackson",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-justin-bieber-ae",
+    "name": "Exclusively Justin Bieber",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-shakira-ae",
+    "name": "Exclusively Shakira",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-one-direction-ae",
+    "name": "Exclusively One Direction",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-adele-ae",
+    "name": "Exclusively Adele",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-ed-sheeran-ae",
+    "name": "Exclusively Ed Sheeran",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-queen-ae",
+    "name": "Exclusively Queen",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-westlife-ae",
+    "name": "Exclusively Westlife",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
   }
 ]

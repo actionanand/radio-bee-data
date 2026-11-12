@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.5.0",
+  "catalogVersion": "2.7.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 125,
-    "streamBearing": 125,
+    "all": 144,
+    "streamBearing": 144,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -13,6 +13,7 @@
     "4eb-global-au",
     "5ebi-au",
     "77h-fm-br",
+    "80s80s-michael-jackson-de",
     "a9-radio-ca",
     "ada-ceylon-fm",
     "air-chennai-gold",
@@ -45,16 +46,28 @@
     "aural-radio",
     "beats-radio-us",
     "big-chennai",
+    "bol-punjabi-radio-in",
     "boom-tamil",
     "divyavani-sanskrit-in",
     "east-fm-ca",
     "etr-de",
     "exa-fm-mexico",
+    "exclusively-adele-ae",
     "exclusively-backstreet-boys-ae",
+    "exclusively-ed-sheeran-ae",
+    "exclusively-justin-bieber-ae",
+    "exclusively-michael-jackson-ae",
+    "exclusively-one-direction-ae",
+    "exclusively-queen-ae",
+    "exclusively-shakira-ae",
     "exclusively-taylor-swift-ae",
+    "exclusively-westlife-ae",
+    "freefm-uae-sinhala-ae",
     "good-news-tamil-ca",
     "hand-of-jesus-tamil-in",
     "hello-chennai",
+    "hello-telugu-in",
+    "hindi-gold-radio-in",
     "ibc-tamil-uk",
     "ilangai-vaanoli",
     "ilayaraja-radio",
@@ -63,6 +76,7 @@
     "iskcon-nagercoil",
     "jazz-radio-blues-fr",
     "jei-fm-my",
+    "kannada-hits-in",
     "kexp-seattle-us",
     "kiss-kiss-italia-it",
     "kodai-city-fm",
@@ -85,16 +99,21 @@
     "pop-fm-dk",
     "quran-tamil-kw",
     "raaga-my",
+    "radio-amr-kannada-in",
     "radio-beat-extra",
     "radio-beat-love",
     "radio-city-chennai",
     "radio-dla-doroslych-pl",
     "radio-jamaica-jm",
+    "radio-malayalam-in",
+    "radio-mast-marathi-in",
     "radio-max-hr",
+    "radio-mirchi-dubai-ae",
     "radio-norge-no",
     "radio-nrj-ua",
     "radio-paloma-de",
     "radio-plus-indiz-mu",
+    "radio-quarantine-kolkata-in",
     "radio-r-lt",
     "radio-roks-ua",
     "realradio-ireland-ie",
@@ -142,13 +161,23 @@
         "key": "country:AE",
         "locationId": "ae",
         "stationIds": [
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
+          "freefm-uae-sinhala-ae",
+          "radio-mirchi-dubai-ae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       },
@@ -240,13 +269,14 @@
         "key": "country:DE",
         "locationId": "de",
         "stationIds": [
+          "80s80s-michael-jackson-de",
           "etr-de",
           "radio-paloma-de",
           "vaagai-tamil-de"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -383,21 +413,29 @@
           "ar-radio",
           "aural-radio",
           "big-chennai",
+          "bol-punjabi-radio-in",
           "divyavani-sanskrit-in",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
+          "hello-telugu-in",
+          "hindi-gold-radio-in",
           "ilayaraja-radio",
           "inbam-fm",
           "iskcon-nagercoil",
+          "kannada-hits-in",
           "kodai-city-fm",
           "kumbakonam-city-fm",
           "luminous-radio-tamil",
           "mahakatha-radio-in",
           "mirchi-chennai",
           "pollachi-fm",
+          "radio-amr-kannada-in",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
+          "radio-malayalam-in",
+          "radio-mast-marathi-in",
+          "radio-quarantine-kolkata-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -414,8 +452,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 54,
-          "streamBearing": 54,
+          "all": 62,
+          "streamBearing": 62,
           "discoveryOnly": 0
         }
       },
@@ -703,17 +741,37 @@
           "ae-du"
         ],
         "directStationIds": [
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
-          "exclusively-taylor-swift-ae"
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
+          "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
+          "freefm-uae-sinhala-ae",
+          "radio-mirchi-dubai-ae"
         ],
         "stationIds": [
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
+          "freefm-uae-sinhala-ae",
+          "radio-mirchi-dubai-ae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       },
@@ -1145,17 +1203,19 @@
           "de-nw"
         ],
         "directStationIds": [
+          "80s80s-michael-jackson-de",
           "radio-paloma-de",
           "vaagai-tamil-de"
         ],
         "stationIds": [
+          "80s80s-michael-jackson-de",
           "etr-de",
           "radio-paloma-de",
           "vaagai-tamil-de"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -1367,10 +1427,18 @@
         "directStationIds": [
           "air-raagam",
           "air-vividh-bharati",
+          "bol-punjabi-radio-in",
           "divyavani-sanskrit-in",
+          "hello-telugu-in",
+          "hindi-gold-radio-in",
           "ilayaraja-radio",
+          "kannada-hits-in",
           "luminous-radio-tamil",
           "mahakatha-radio-in",
+          "radio-amr-kannada-in",
+          "radio-malayalam-in",
+          "radio-mast-marathi-in",
+          "radio-quarantine-kolkata-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -1406,21 +1474,29 @@
           "ar-radio",
           "aural-radio",
           "big-chennai",
+          "bol-punjabi-radio-in",
           "divyavani-sanskrit-in",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
+          "hello-telugu-in",
+          "hindi-gold-radio-in",
           "ilayaraja-radio",
           "inbam-fm",
           "iskcon-nagercoil",
+          "kannada-hits-in",
           "kodai-city-fm",
           "kumbakonam-city-fm",
           "luminous-radio-tamil",
           "mahakatha-radio-in",
           "mirchi-chennai",
           "pollachi-fm",
+          "radio-amr-kannada-in",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
+          "radio-malayalam-in",
+          "radio-mast-marathi-in",
+          "radio-quarantine-kolkata-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -1437,8 +1513,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 54,
-          "streamBearing": 54,
+          "all": 62,
+          "streamBearing": 62,
           "discoveryOnly": 0
         }
       },
@@ -3791,11 +3867,12 @@
         "key": "language:bn",
         "nativeName": "বাংলা",
         "stationIds": [
-          "east-fm-ca"
+          "east-fm-ca",
+          "radio-quarantine-kolkata-in"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -3888,13 +3965,22 @@
           "4eb-fm-au",
           "4eb-global-au",
           "5ebi-au",
+          "80s80s-michael-jackson-de",
           "air-chennai-gold",
           "air-chennai-rainbow",
           "air-chennai-vividh-tamil",
           "air-nagercoil",
           "air-tamil",
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
           "kexp-seattle-us",
           "lotus-fm-za",
           "mahakatha-radio-in",
@@ -3906,8 +3992,8 @@
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 20,
-          "streamBearing": 20,
+          "all": 29,
+          "streamBearing": 29,
           "discoveryOnly": 0
         }
       },
@@ -3934,11 +4020,12 @@
           "3zzz-au",
           "5ebi-au",
           "exa-fm-mexico",
+          "exclusively-shakira-ae",
           "telemetro-radio-pa"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -4060,16 +4147,18 @@
           "ar-radio",
           "aural-radio",
           "east-fm-ca",
+          "hindi-gold-radio-in",
           "live-fm-bh",
           "lotus-fm-za",
           "mahakatha-radio-in",
           "mauradio-mu",
+          "radio-mirchi-dubai-ae",
           "radio-plus-indiz-mu",
           "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 12,
-          "streamBearing": 12,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -4199,12 +4288,14 @@
         "nativeName": "ಕನ್ನಡ",
         "stationIds": [
           "east-fm-ca",
+          "kannada-hits-in",
           "live-fm-bh",
+          "radio-amr-kannada-in",
           "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -4324,11 +4415,12 @@
           "aural-radio",
           "east-fm-ca",
           "live-fm-bh",
+          "radio-malayalam-in",
           "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 11,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       },
@@ -4339,11 +4431,12 @@
         "nativeName": "मराठी",
         "stationIds": [
           "mauradio-mu",
+          "radio-mast-marathi-in",
           "radio-plus-indiz-mu"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -4401,11 +4494,12 @@
         "nativeName": "ਪੰਜਾਬੀ",
         "stationIds": [
           "3zzz-au",
+          "bol-punjabi-radio-in",
           "east-fm-ca"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -4508,11 +4602,12 @@
         "nativeName": "සිංහල",
         "stationIds": [
           "3zzz-au",
-          "east-fm-ca"
+          "east-fm-ca",
+          "freefm-uae-sinhala-ae"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -4709,13 +4804,14 @@
         "stationIds": [
           "4eb-global-au",
           "east-fm-ca",
+          "hello-telugu-in",
           "lotus-fm-za",
           "radio-plus-indiz-mu",
           "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 5,
-          "streamBearing": 5,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -4898,6 +4994,7 @@
         "key": "language-classification:unknown",
         "stationIds": [
           "77h-fm-br",
+          "80s80s-michael-jackson-de",
           "a9-radio-ca",
           "ada-ceylon-fm",
           "air-coimbatore",
@@ -4923,19 +5020,32 @@
           "amudham-fm-in",
           "beats-radio-us",
           "big-chennai",
+          "bol-punjabi-radio-in",
           "boom-tamil",
           "divyavani-sanskrit-in",
           "etr-de",
           "exa-fm-mexico",
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
+          "freefm-uae-sinhala-ae",
           "hello-chennai",
+          "hello-telugu-in",
+          "hindi-gold-radio-in",
           "ibc-tamil-uk",
           "ilangai-vaanoli",
           "ilayaraja-radio",
           "inbam-fm",
           "iskcon-nagercoil",
           "jazz-radio-blues-fr",
+          "kannada-hits-in",
           "kexp-seattle-us",
           "kiss-kiss-italia-it",
           "kodai-city-fm",
@@ -4954,15 +5064,20 @@
           "pollachi-fm",
           "pop-fm-dk",
           "raaga-my",
+          "radio-amr-kannada-in",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
           "radio-dla-doroslych-pl",
           "radio-jamaica-jm",
+          "radio-malayalam-in",
+          "radio-mast-marathi-in",
           "radio-max-hr",
+          "radio-mirchi-dubai-ae",
           "radio-norge-no",
           "radio-nrj-ua",
           "radio-paloma-de",
+          "radio-quarantine-kolkata-in",
           "radio-r-lt",
           "radio-roks-ua",
           "realradio-ireland-ie",
@@ -4995,8 +5110,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 96,
-          "streamBearing": 96,
+          "all": 115,
+          "streamBearing": 115,
           "discoveryOnly": 0
         }
       }
@@ -6906,6 +7021,348 @@
         }
       },
       {
+        "id": "stage26-bol-punjabi-radio-in",
+        "name": "Bol Punjabi Radio",
+        "key": "network:stage26-bol-punjabi-radio-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "bol-punjabi-radio-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-freefm-uae-sinhala-ae",
+        "name": "Free FM — UAE Sinhala Radio",
+        "key": "network:stage26-freefm-uae-sinhala-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "freefm-uae-sinhala-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-hello-telugu-in",
+        "name": "Hello Telugu",
+        "key": "network:stage26-hello-telugu-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "hello-telugu-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-hindi-gold-radio-in",
+        "name": "Hindi Gold Radio",
+        "key": "network:stage26-hindi-gold-radio-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "hindi-gold-radio-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-kannada-hits-in",
+        "name": "Kannada Hits",
+        "key": "network:stage26-kannada-hits-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "kannada-hits-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-radio-amr-kannada-in",
+        "name": "Radio AMR Kannada",
+        "key": "network:stage26-radio-amr-kannada-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-amr-kannada-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-radio-malayalam-in",
+        "name": "Radio Malayalam",
+        "key": "network:stage26-radio-malayalam-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-malayalam-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-radio-mast-marathi-in",
+        "name": "Radio Mast Marathi",
+        "key": "network:stage26-radio-mast-marathi-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-mast-marathi-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-radio-mirchi-dubai-ae",
+        "name": "Radio Mirchi Dubai (directory listing)",
+        "key": "network:stage26-radio-mirchi-dubai-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-mirchi-dubai-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage26-radio-quarantine-kolkata-in",
+        "name": "Radio Quarantine Kolkata",
+        "key": "network:stage26-radio-quarantine-kolkata-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-quarantine-kolkata-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-80s80s-michael-jackson-de",
+        "name": "80s80s Michael Jackson",
+        "key": "network:stage27-80s80s-michael-jackson-de",
+        "aliases": [],
+        "countryCodes": [
+          "DE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "80s80s-michael-jackson-de"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-adele-ae",
+        "name": "Exclusively Adele",
+        "key": "network:stage27-exclusively-adele-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-adele-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-ed-sheeran-ae",
+        "name": "Exclusively Ed Sheeran",
+        "key": "network:stage27-exclusively-ed-sheeran-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-ed-sheeran-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-justin-bieber-ae",
+        "name": "Exclusively Justin Bieber",
+        "key": "network:stage27-exclusively-justin-bieber-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-justin-bieber-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-michael-jackson-ae",
+        "name": "Exclusively Michael Jackson",
+        "key": "network:stage27-exclusively-michael-jackson-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-michael-jackson-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-one-direction-ae",
+        "name": "Exclusively One Direction",
+        "key": "network:stage27-exclusively-one-direction-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-one-direction-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-queen-ae",
+        "name": "Exclusively Queen",
+        "key": "network:stage27-exclusively-queen-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-queen-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-shakira-ae",
+        "name": "Exclusively Shakira",
+        "key": "network:stage27-exclusively-shakira-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-shakira-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage27-exclusively-westlife-ae",
+        "name": "Exclusively Westlife",
+        "key": "network:stage27-exclusively-westlife-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-westlife-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -7437,16 +7894,25 @@
         "name": "Artist & Hits",
         "key": "genre:artist-hits",
         "stationIds": [
+          "80s80s-michael-jackson-de",
+          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-queen-ae",
+          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
+          "exclusively-westlife-ae",
           "ilayaraja-radio",
           "radio-beat-extra",
           "radio-beat-love",
           "tamil-80s-hits"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -7589,11 +8055,15 @@
           "aural-radio",
           "beats-radio-us",
           "big-chennai",
+          "bol-punjabi-radio-in",
           "boom-tamil",
           "east-fm-ca",
           "etr-de",
           "exa-fm-mexico",
+          "freefm-uae-sinhala-ae",
           "hello-chennai",
+          "hello-telugu-in",
+          "hindi-gold-radio-in",
           "ibc-tamil-uk",
           "ilangai-vaanoli",
           "ilayaraja-radio",
@@ -7601,6 +8071,7 @@
           "inbathamil-oli-au",
           "jazz-radio-blues-fr",
           "jei-fm-my",
+          "kannada-hits-in",
           "kexp-seattle-us",
           "kiss-kiss-italia-it",
           "kodai-city-fm",
@@ -7620,15 +8091,20 @@
           "pollachi-fm",
           "pop-fm-dk",
           "raaga-my",
+          "radio-amr-kannada-in",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
           "radio-dla-doroslych-pl",
+          "radio-malayalam-in",
+          "radio-mast-marathi-in",
           "radio-max-hr",
+          "radio-mirchi-dubai-ae",
           "radio-norge-no",
           "radio-nrj-ua",
           "radio-paloma-de",
           "radio-plus-indiz-mu",
+          "radio-quarantine-kolkata-in",
           "radio-r-lt",
           "radio-roks-ua",
           "realradio-ireland-ie",
@@ -7655,8 +8131,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 77,
-          "streamBearing": 77,
+          "all": 87,
+          "streamBearing": 87,
           "discoveryOnly": 0
         }
       },
@@ -7801,6 +8277,7 @@
         "4eb-global-au",
         "5ebi-au",
         "77h-fm-br",
+        "80s80s-michael-jackson-de",
         "a9-radio-ca",
         "ada-ceylon-fm",
         "air-chennai-gold",
@@ -7833,16 +8310,28 @@
         "aural-radio",
         "beats-radio-us",
         "big-chennai",
+        "bol-punjabi-radio-in",
         "boom-tamil",
         "divyavani-sanskrit-in",
         "east-fm-ca",
         "etr-de",
         "exa-fm-mexico",
+        "exclusively-adele-ae",
         "exclusively-backstreet-boys-ae",
+        "exclusively-ed-sheeran-ae",
+        "exclusively-justin-bieber-ae",
+        "exclusively-michael-jackson-ae",
+        "exclusively-one-direction-ae",
+        "exclusively-queen-ae",
+        "exclusively-shakira-ae",
         "exclusively-taylor-swift-ae",
+        "exclusively-westlife-ae",
+        "freefm-uae-sinhala-ae",
         "good-news-tamil-ca",
         "hand-of-jesus-tamil-in",
         "hello-chennai",
+        "hello-telugu-in",
+        "hindi-gold-radio-in",
         "ibc-tamil-uk",
         "ilangai-vaanoli",
         "ilayaraja-radio",
@@ -7851,6 +8340,7 @@
         "iskcon-nagercoil",
         "jazz-radio-blues-fr",
         "jei-fm-my",
+        "kannada-hits-in",
         "kexp-seattle-us",
         "kiss-kiss-italia-it",
         "kodai-city-fm",
@@ -7873,16 +8363,21 @@
         "pop-fm-dk",
         "quran-tamil-kw",
         "raaga-my",
+        "radio-amr-kannada-in",
         "radio-beat-extra",
         "radio-beat-love",
         "radio-city-chennai",
         "radio-dla-doroslych-pl",
         "radio-jamaica-jm",
+        "radio-malayalam-in",
+        "radio-mast-marathi-in",
         "radio-max-hr",
+        "radio-mirchi-dubai-ae",
         "radio-norge-no",
         "radio-nrj-ua",
         "radio-paloma-de",
         "radio-plus-indiz-mu",
+        "radio-quarantine-kolkata-in",
         "radio-r-lt",
         "radio-roks-ua",
         "realradio-ireland-ie",
@@ -7923,8 +8418,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 125,
-        "streamBearing": 125,
+        "all": 144,
+        "streamBearing": 144,
         "discoveryOnly": 0
       }
     },

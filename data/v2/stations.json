@@ -7609,5 +7609,842 @@
         }
       }
     ]
+  },
+  {
+    "id": "hello-telugu-in",
+    "name": "Hello Telugu",
+    "networkId": "stage26-hello-telugu-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "te"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-hello-telugu-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-hello-telugu-in",
+        "url": "https://listen.radioking.com/radio/503281/stream/560701",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-hello-telugu-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-hello-telugu-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-malayalam-in",
+    "name": "Radio Malayalam",
+    "networkId": "stage26-radio-malayalam-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-radio-malayalam-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-radio-malayalam-in",
+        "url": "https://radiomalayalamfm.com/radio/8000/radio.mp3",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-radio-malayalam-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-radio-malayalam-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "bol-punjabi-radio-in",
+    "name": "Bol Punjabi Radio",
+    "networkId": "stage26-bol-punjabi-radio-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "pa"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-bol-punjabi-radio-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-bol-punjabi-radio-in",
+        "url": "https://bolpunjabi-ekamsoftware.radioca.st//stream",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-bol-punjabi-radio-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-bol-punjabi-radio-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-mast-marathi-in",
+    "name": "Radio Mast Marathi",
+    "networkId": "stage26-radio-mast-marathi-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-radio-mast-marathi-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-radio-mast-marathi-in",
+        "url": "https://stream.zeno.fm/8fqvoovoiwtuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-radio-mast-marathi-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-radio-mast-marathi-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "freefm-uae-sinhala-ae",
+    "name": "Free FM — UAE Sinhala Radio",
+    "networkId": "stage26-freefm-uae-sinhala-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-freefm-uae-sinhala-ae"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-freefm-uae-sinhala-ae",
+        "url": "https://stream.zeno.fm/n7u7aog5og6vv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-freefm-uae-sinhala-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-freefm-uae-sinhala-ae",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-amr-kannada-in",
+    "name": "Radio AMR Kannada",
+    "networkId": "stage26-radio-amr-kannada-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-radio-amr-kannada-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-radio-amr-kannada-in",
+        "url": "https://stream.zenolive.com/7g8axtgtsg0uv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-radio-amr-kannada-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-radio-amr-kannada-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kannada-hits-in",
+    "name": "Kannada Hits",
+    "networkId": "stage26-kannada-hits-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-kannada-hits-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-kannada-hits-in",
+        "url": "https://stream.zeno.fm/68snnbug8rhvv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-kannada-hits-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-kannada-hits-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hindi-gold-radio-in",
+    "name": "Hindi Gold Radio",
+    "networkId": "stage26-hindi-gold-radio-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-hindi-gold-radio-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-hindi-gold-radio-in",
+        "url": "https://azuracast.vibesounds.in:8010/radio.mp3",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-hindi-gold-radio-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-hindi-gold-radio-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-mirchi-dubai-ae",
+    "name": "Radio Mirchi Dubai (directory listing)",
+    "networkId": "stage26-radio-mirchi-dubai-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-radio-mirchi-dubai-ae"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-radio-mirchi-dubai-ae",
+        "url": "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-radio-mirchi-dubai-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-radio-mirchi-dubai-ae",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-quarantine-kolkata-in",
+    "name": "Radio Quarantine Kolkata",
+    "networkId": "stage26-radio-quarantine-kolkata-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage26-source-radio-quarantine-kolkata-in"
+    ],
+    "notes": "HTTPS radio stream decoded successfully during a user-requested automated six-second FFmpeg test (GitHub Actions 43299436023). Stream reliability and Android/web playback not proven. Language and broadcaster attribution from external directory require review; listening and recording permissions unconfirmed. Not terrestrial FM.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage26-stream-radio-quarantine-kolkata-in",
+        "url": "https://stream.zeno.fm/krk4kw830tzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage26-source-radio-quarantine-kolkata-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage26-source-radio-quarantine-kolkata-in",
+          "notes": "6s FFmpeg decode PASS in CI run 43299436023; sustained playback, web/Android support and streaming/recording rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "80s80s-michael-jackson-de",
+    "name": "80s80s Michael Jackson",
+    "networkId": "stage27-80s80s-michael-jackson-de",
+    "countryCode": "DE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.80s80s.de/",
+    "sourceIds": [
+      "stage27-source-80s80s-michael-jackson-de"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-80s80s-michael-jackson-de",
+        "url": "https://streams.80s80s.de/mj/mp3-128/streams.80s80s.de/",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-80s80s-michael-jackson-de",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-80s80s-michael-jackson-de",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-michael-jackson-ae",
+    "name": "Exclusively Michael Jackson",
+    "networkId": "stage27-exclusively-michael-jackson-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-michael-jackson-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-michael-jackson-ae",
+        "url": "https://streaming.exclusive.radio/er-app/michaeljackson/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-michael-jackson-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-michael-jackson-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-justin-bieber-ae",
+    "name": "Exclusively Justin Bieber",
+    "networkId": "stage27-exclusively-justin-bieber-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-justin-bieber-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-justin-bieber-ae",
+        "url": "https://streaming.exclusive.radio/er-app/justinbieber/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-justin-bieber-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-justin-bieber-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-shakira-ae",
+    "name": "Exclusively Shakira",
+    "networkId": "stage27-exclusively-shakira-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en",
+      "es"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-shakira-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-shakira-ae",
+        "url": "https://streaming.exclusive.radio/er-app/shakira/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-shakira-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-shakira-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-one-direction-ae",
+    "name": "Exclusively One Direction",
+    "networkId": "stage27-exclusively-one-direction-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-one-direction-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-one-direction-ae",
+        "url": "https://streaming.exclusive.radio/er-app/onedirection/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-one-direction-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-one-direction-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-adele-ae",
+    "name": "Exclusively Adele",
+    "networkId": "stage27-exclusively-adele-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-adele-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-adele-ae",
+        "url": "https://streaming.exclusive.radio/er-app/adele/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-adele-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-adele-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-ed-sheeran-ae",
+    "name": "Exclusively Ed Sheeran",
+    "networkId": "stage27-exclusively-ed-sheeran-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-ed-sheeran-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-ed-sheeran-ae",
+        "url": "https://streaming.exclusive.radio/er-app/edsheeran/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-ed-sheeran-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-ed-sheeran-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-queen-ae",
+    "name": "Exclusively Queen",
+    "networkId": "stage27-exclusively-queen-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-queen-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-queen-ae",
+        "url": "https://streaming.exclusive.radio/er-app/queen/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-queen-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-queen-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-westlife-ae",
+    "name": "Exclusively Westlife",
+    "networkId": "stage27-exclusively-westlife-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-westlife-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-westlife-ae",
+        "url": "https://streaming.exclusive.radio/er-app/westlife/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-westlife-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-westlife-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
