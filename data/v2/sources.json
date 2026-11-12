@@ -1510,5 +1510,61 @@
     "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
     "kind": "directory",
     "notes": "User supplied Radio Browser listing with url_resolved=http://stream.radiosai.net:8010/, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. HTTP-only URL kept as provenance, not as a v2 playback stream. Radio Browser channel names may conflict with broadcaster descriptions."
+  },
+  {
+    "id": "stage24-source-kexp-seattle-us",
+    "title": "Stage 24 English radio candidate: KEXP 90.3 FM",
+    "url": "https://www.kexp.org/streaming-urls/",
+    "kind": "broadcaster",
+    "notes": "Official broadcaster publishes an AAC-LC 160k HTTPS stream for third-party players. No RadioBee-specific permission, continuous playback or codec verification established. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-wnyc-939-us",
+    "title": "Stage 24 English radio candidate: WNYC 93.9 FM",
+    "url": "https://prod.wnyc.org/audio-other-formats/",
+    "kind": "broadcaster",
+    "notes": "Broadcaster-published HTTPS 64kbps MP3 stream. Digital use rights and RadioBee playback unconfirmed. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-wqxr-1059-us",
+    "title": "Stage 24 English radio candidate: WQXR 105.9 FM",
+    "url": "https://prod.wnyc.org/audio-other-formats/",
+    "kind": "broadcaster",
+    "notes": "Broadcaster-published HTTPS 128kbps MP3 stream. English-language presentation and classical repertoire; digital use rights unconfirmed. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-chennai-live-digital-in",
+    "title": "Stage 24 English radio candidate: Chennai Live (Digital)",
+    "url": "https://www.muthootgroup.com/group-of-companies/media",
+    "kind": "publisher-metadata",
+    "notes": "Parent company's current site identifies formerly 104.8 FM as digital talk/music service. Do not assert currently operating 104.8 FM transmitter; no independently verified direct HTTPS URL. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-radio-one-chennai-in",
+    "title": "Stage 24 English radio candidate: Radio One 94.3 Chennai",
+    "url": "https://mib.gov.in/sites/default/files/2025-09/fm_operationalchannels-1.pdf",
+    "kind": "official-register",
+    "notes": "Government operational-FM register lists Radio One 94.3 Chennai; English-language format appears in third-party directories but programme language remains provisional. No station-specific official HTTPS direct playback found. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-voice-of-arunachala-in",
+    "title": "Stage 24 English radio candidate: Voice of Arunachala",
+    "url": "https://www.gururamana.org/Resources/radio-station",
+    "kind": "broadcaster-site",
+    "notes": "Sri Ramanasramam identifies this as an Internet radio service in Tiruvannamalai with devotional reading, talks and music. English language tag provisional; no stable HTTPS audio endpoint independently extracted. Source checked 2026-11-13. Not independently decoded in this review. No direct listening/recording/redistribution approval."
+  },
+  {
+    "id": "stage24-source-exclusively-backstreet-boys-ae",
+    "title": "Stage 24 artist radio: Exclusively Backstreet Boys",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Direct HTTPS candidate listed in a public third-party curated station playlist. No FFmpeg decoding or browser/Android playback testing was performed here, and listening rights are unconfirmed. Dedicated channel identity is playlist-supplied; not a terrestrial FM frequency."
+  },
+  {
+    "id": "stage24-source-exclusively-taylor-swift-ae",
+    "title": "Stage 24 artist radio: Exclusively Taylor Swift",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Direct HTTPS candidate listed in a public third-party curated station playlist. No FFmpeg decoding or browser/Android playback testing was performed here, and listening rights are unconfirmed. Dedicated channel identity is playlist-supplied; not a terrestrial FM frequency."
   }
 ]

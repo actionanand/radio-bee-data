@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.4.0",
+  "catalogVersion": "2.5.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 124,
-    "streamBearing": 120,
-    "discoveryOnly": 4
+    "all": 125,
+    "streamBearing": 125,
+    "discoveryOnly": 0
   },
   "stationIds": [
     "3zzz-au",
@@ -50,6 +50,8 @@
     "east-fm-ca",
     "etr-de",
     "exa-fm-mexico",
+    "exclusively-backstreet-boys-ae",
+    "exclusively-taylor-swift-ae",
     "good-news-tamil-ca",
     "hand-of-jesus-tamil-in",
     "hello-chennai",
@@ -61,6 +63,7 @@
     "iskcon-nagercoil",
     "jazz-radio-blues-fr",
     "jei-fm-my",
+    "kexp-seattle-us",
     "kiss-kiss-italia-it",
     "kodai-city-fm",
     "kumbakonam-city-fm",
@@ -94,10 +97,6 @@
     "radio-plus-indiz-mu",
     "radio-r-lt",
     "radio-roks-ua",
-    "radio-sai-8004-in",
-    "radio-sai-8006-in",
-    "radio-sai-8010-in",
-    "radio-sai-8012-in",
     "realradio-ireland-ie",
     "sanskrit-bharati-radio-in",
     "shaiva-lahari-in",
@@ -131,6 +130,8 @@
     "vaanmalar-fm-in",
     "vasantham-srilanka",
     "vellore-city-fm",
+    "wnyc-939-us",
+    "wqxr-1059-us",
     "znad-wilii-lt"
   ],
   "facets": {
@@ -141,11 +142,13 @@
         "key": "country:AE",
         "locationId": "ae",
         "stationIds": [
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -395,10 +398,6 @@
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -415,9 +414,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 58,
+          "all": 54,
           "streamBearing": 54,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -666,11 +665,14 @@
         "locationId": "us",
         "stationIds": [
           "american-tamil-radio-us",
-          "beats-radio-us"
+          "beats-radio-us",
+          "kexp-seattle-us",
+          "wnyc-939-us",
+          "wqxr-1059-us"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -700,13 +702,18 @@
         "childIds": [
           "ae-du"
         ],
-        "directStationIds": [],
+        "directStationIds": [
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae"
+        ],
         "stationIds": [
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -1364,10 +1371,6 @@
           "ilayaraja-radio",
           "luminous-radio-tamil",
           "mahakatha-radio-in",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -1418,10 +1421,6 @@
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
@@ -1438,9 +1437,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 58,
+          "all": 54,
           "streamBearing": 54,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -3660,15 +3659,21 @@
           "us-ca"
         ],
         "directStationIds": [
-          "beats-radio-us"
+          "beats-radio-us",
+          "kexp-seattle-us",
+          "wnyc-939-us",
+          "wqxr-1059-us"
         ],
         "stationIds": [
           "american-tamil-radio-us",
-          "beats-radio-us"
+          "beats-radio-us",
+          "kexp-seattle-us",
+          "wnyc-939-us",
+          "wqxr-1059-us"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -3888,16 +3893,21 @@
           "air-chennai-vividh-tamil",
           "air-nagercoil",
           "air-tamil",
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae",
+          "kexp-seattle-us",
           "lotus-fm-za",
           "mahakatha-radio-in",
           "mauradio-mu",
           "radio-jamaica-jm",
           "realradio-ireland-ie",
-          "shaiva-lahari-in"
+          "shaiva-lahari-in",
+          "wnyc-939-us",
+          "wqxr-1059-us"
         ],
         "counts": {
-          "all": 15,
-          "streamBearing": 15,
+          "all": 20,
+          "streamBearing": 20,
           "discoveryOnly": 0
         }
       },
@@ -4482,17 +4492,13 @@
         "stationIds": [
           "divyavani-sanskrit-in",
           "mahakatha-radio-in",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 8,
+          "all": 4,
           "streamBearing": 4,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -4921,6 +4927,8 @@
           "divyavani-sanskrit-in",
           "etr-de",
           "exa-fm-mexico",
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae",
           "hello-chennai",
           "ibc-tamil-uk",
           "ilangai-vaanoli",
@@ -4928,6 +4936,7 @@
           "inbam-fm",
           "iskcon-nagercoil",
           "jazz-radio-blues-fr",
+          "kexp-seattle-us",
           "kiss-kiss-italia-it",
           "kodai-city-fm",
           "kumbakonam-city-fm",
@@ -4956,10 +4965,6 @@
           "radio-paloma-de",
           "radio-r-lt",
           "radio-roks-ua",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "realradio-ireland-ie",
           "sanskrit-bharati-radio-in",
           "shaiva-lahari-in",
@@ -4985,12 +4990,14 @@
           "vaanam-fm-hd",
           "vasantham-srilanka",
           "vellore-city-fm",
+          "wnyc-939-us",
+          "wqxr-1059-us",
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 95,
-          "streamBearing": 91,
-          "discoveryOnly": 4
+          "all": 96,
+          "streamBearing": 96,
+          "discoveryOnly": 0
         }
       }
     ],
@@ -6735,16 +6742,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 4,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -6758,6 +6760,144 @@
         "broadcasterId": null,
         "stationIds": [
           "shaiva-lahari-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-arunachala",
+        "name": "Voice of Arunachala",
+        "key": "network:stage24-arunachala",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [],
+        "counts": {
+          "all": 0,
+          "streamBearing": 0,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-chennai-live",
+        "name": "Chennai Live (Digital)",
+        "key": "network:stage24-chennai-live",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [],
+        "counts": {
+          "all": 0,
+          "streamBearing": 0,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-exclusively-backstreet-boys-ae",
+        "name": "Exclusively Backstreet Boys",
+        "key": "network:stage24-exclusively-backstreet-boys-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-backstreet-boys-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-exclusively-taylor-swift-ae",
+        "name": "Exclusively Taylor Swift",
+        "key": "network:stage24-exclusively-taylor-swift-ae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "exclusively-taylor-swift-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-kexp",
+        "name": "KEXP 90.3 FM",
+        "key": "network:stage24-kexp",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "kexp-seattle-us"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-radio-one-chennai",
+        "name": "Radio One 94.3 Chennai",
+        "key": "network:stage24-radio-one-chennai",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [],
+        "counts": {
+          "all": 0,
+          "streamBearing": 0,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-wnyc",
+        "name": "WNYC 93.9 FM",
+        "key": "network:stage24-wnyc",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "wnyc-939-us"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage24-wqxr",
+        "name": "WQXR 105.9 FM",
+        "key": "network:stage24-wqxr",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "wqxr-1059-us"
         ],
         "counts": {
           "all": 1,
@@ -7297,14 +7437,16 @@
         "name": "Artist & Hits",
         "key": "genre:artist-hits",
         "stationIds": [
+          "exclusively-backstreet-boys-ae",
+          "exclusively-taylor-swift-ae",
           "ilayaraja-radio",
           "radio-beat-extra",
           "radio-beat-love",
           "tamil-80s-hits"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -7313,11 +7455,12 @@
         "name": "Classical",
         "key": "genre:classical",
         "stationIds": [
-          "air-raagam"
+          "air-raagam",
+          "wqxr-1059-us"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -7366,10 +7509,6 @@
           "luminous-radio-tamil",
           "mahakatha-radio-in",
           "quran-tamil-kw",
-          "radio-sai-8004-in",
-          "radio-sai-8006-in",
-          "radio-sai-8010-in",
-          "radio-sai-8012-in",
           "shaiva-lahari-in",
           "shiva-tattvam",
           "sweety-fm-in",
@@ -7380,9 +7519,9 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 19,
+          "all": 15,
           "streamBearing": 15,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -7462,6 +7601,7 @@
           "inbathamil-oli-au",
           "jazz-radio-blues-fr",
           "jei-fm-my",
+          "kexp-seattle-us",
           "kiss-kiss-italia-it",
           "kodai-city-fm",
           "kumbakonam-city-fm",
@@ -7515,8 +7655,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 76,
-          "streamBearing": 76,
+          "all": 77,
+          "streamBearing": 77,
           "discoveryOnly": 0
         }
       },
@@ -7551,11 +7691,12 @@
           "oli-968-sg",
           "star-fm-srilanka",
           "swiss-tamil-radio-ch",
-          "tamil-murasam-no"
+          "tamil-murasam-no",
+          "wnyc-939-us"
         ],
         "counts": {
-          "all": 27,
-          "streamBearing": 27,
+          "all": 28,
+          "streamBearing": 28,
           "discoveryOnly": 0
         }
       },
@@ -7573,11 +7714,12 @@
           "shiva-tattvam",
           "sveriges-radio-p1-se",
           "tamil-894-ae",
-          "tamil-murasam-no"
+          "tamil-murasam-no",
+          "wnyc-939-us"
         ],
         "counts": {
-          "all": 10,
-          "streamBearing": 10,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       }
@@ -7696,6 +7838,8 @@
         "east-fm-ca",
         "etr-de",
         "exa-fm-mexico",
+        "exclusively-backstreet-boys-ae",
+        "exclusively-taylor-swift-ae",
         "good-news-tamil-ca",
         "hand-of-jesus-tamil-in",
         "hello-chennai",
@@ -7707,6 +7851,7 @@
         "iskcon-nagercoil",
         "jazz-radio-blues-fr",
         "jei-fm-my",
+        "kexp-seattle-us",
         "kiss-kiss-italia-it",
         "kodai-city-fm",
         "kumbakonam-city-fm",
@@ -7773,11 +7918,13 @@
         "vaanmalar-fm-in",
         "vasantham-srilanka",
         "vellore-city-fm",
+        "wnyc-939-us",
+        "wqxr-1059-us",
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 120,
-        "streamBearing": 120,
+        "all": 125,
+        "streamBearing": 125,
         "discoveryOnly": 0
       }
     },
@@ -7785,16 +7932,11 @@
       "id": "discovery-only",
       "name": "discovery-only",
       "key": "availability:discovery-only",
-      "stationIds": [
-        "radio-sai-8004-in",
-        "radio-sai-8006-in",
-        "radio-sai-8010-in",
-        "radio-sai-8012-in"
-      ],
+      "stationIds": [],
       "counts": {
-        "all": 4,
+        "all": 0,
         "streamBearing": 0,
-        "discoveryOnly": 4
+        "discoveryOnly": 0
       }
     }
   ]
