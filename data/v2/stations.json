@@ -5562,7 +5562,7 @@
     "districtId": null,
     "localityId": null,
     "broadcastLanguages": [
-      "ta"
+      "en"
     ],
     "genres": [
       "music",
@@ -5574,7 +5574,8 @@
     "frequencyMHz": null,
     "website": "https://themelo.in/s/1639/radio-beat-extra",
     "sourceIds": [
-      "stage21-page-radio-beat-extra"
+      "stage21-page-radio-beat-extra",
+      "stage28-radio-beat-extra-english-evidence"
     ],
     "notes": "Unverified user-captured stream lead from https://themelo.in/s/1639/radio-beat-extra. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
     "aliases": [],
@@ -7638,7 +7639,7 @@
       {
         "id": "stage26-stream-hello-telugu-in",
         "url": "https://listen.radioking.com/radio/503281/stream/560701",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-hello-telugu-in",
@@ -7682,7 +7683,7 @@
       {
         "id": "stage26-stream-radio-malayalam-in",
         "url": "https://radiomalayalamfm.com/radio/8000/radio.mp3",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-radio-malayalam-in",
@@ -7726,7 +7727,7 @@
       {
         "id": "stage26-stream-bol-punjabi-radio-in",
         "url": "https://bolpunjabi-ekamsoftware.radioca.st//stream",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-bol-punjabi-radio-in",
@@ -7770,7 +7771,7 @@
       {
         "id": "stage26-stream-radio-mast-marathi-in",
         "url": "https://stream.zeno.fm/8fqvoovoiwtuv",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-radio-mast-marathi-in",
@@ -7814,7 +7815,7 @@
       {
         "id": "stage26-stream-freefm-uae-sinhala-ae",
         "url": "https://stream.zeno.fm/n7u7aog5og6vv",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-freefm-uae-sinhala-ae",
@@ -7858,7 +7859,7 @@
       {
         "id": "stage26-stream-radio-amr-kannada-in",
         "url": "https://stream.zenolive.com/7g8axtgtsg0uv",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-radio-amr-kannada-in",
@@ -7902,7 +7903,7 @@
       {
         "id": "stage26-stream-kannada-hits-in",
         "url": "https://stream.zeno.fm/68snnbug8rhvv",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-kannada-hits-in",
@@ -7946,7 +7947,7 @@
       {
         "id": "stage26-stream-hindi-gold-radio-in",
         "url": "https://azuracast.vibesounds.in:8010/radio.mp3",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-hindi-gold-radio-in",
@@ -7990,7 +7991,7 @@
       {
         "id": "stage26-stream-radio-mirchi-dubai-ae",
         "url": "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-radio-mirchi-dubai-ae",
@@ -8034,7 +8035,7 @@
       {
         "id": "stage26-stream-radio-quarantine-kolkata-in",
         "url": "https://stream.zeno.fm/krk4kw830tzuv",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage26-source-radio-quarantine-kolkata-in",
@@ -8122,7 +8123,7 @@
       {
         "id": "stage27-stream-exclusively-michael-jackson-ae",
         "url": "https://streaming.exclusive.radio/er-app/michaeljackson/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-michael-jackson-ae",
@@ -8166,7 +8167,7 @@
       {
         "id": "stage27-stream-exclusively-justin-bieber-ae",
         "url": "https://streaming.exclusive.radio/er-app/justinbieber/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-justin-bieber-ae",
@@ -8211,7 +8212,7 @@
       {
         "id": "stage27-stream-exclusively-shakira-ae",
         "url": "https://streaming.exclusive.radio/er-app/shakira/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-shakira-ae",
@@ -8255,7 +8256,7 @@
       {
         "id": "stage27-stream-exclusively-one-direction-ae",
         "url": "https://streaming.exclusive.radio/er-app/onedirection/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-one-direction-ae",
@@ -8299,7 +8300,7 @@
       {
         "id": "stage27-stream-exclusively-adele-ae",
         "url": "https://streaming.exclusive.radio/er-app/adele/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-adele-ae",
@@ -8343,7 +8344,7 @@
       {
         "id": "stage27-stream-exclusively-ed-sheeran-ae",
         "url": "https://streaming.exclusive.radio/er-app/edsheeran/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-ed-sheeran-ae",
@@ -8387,7 +8388,7 @@
       {
         "id": "stage27-stream-exclusively-queen-ae",
         "url": "https://streaming.exclusive.radio/er-app/queen/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-queen-ae",
@@ -8431,7 +8432,7 @@
       {
         "id": "stage27-stream-exclusively-westlife-ae",
         "url": "https://streaming.exclusive.radio/er-app/westlife/icecast.audio",
-        "format": "unknown",
+        "format": "mp3",
         "verificationStatus": "unverified",
         "lastVerifiedAt": null,
         "sourceId": "stage27-source-exclusively-westlife-ae",

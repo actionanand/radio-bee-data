@@ -1699,5 +1699,12 @@
     "url": "https://you.radio/station/westlife",
     "kind": "directory",
     "notes": "Source lists https://streaming.exclusive.radio/er-app/westlife/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage28-radio-beat-extra-english-evidence",
+    "title": "Radio Beat Extra — English-language station classification",
+    "url": "https://streema.com/radios/Radio_Beat_Extra",
+    "kind": "directory",
+    "notes": "Streema identifies Radio Beat Extra as English Hit Music Station (English, online only). myTuner describes non-stop English Top 40/Pop/R&B/Electronic/Club. Melo lists language English; independent Radio Beat network has various separate language stations. Accessed 2026-11-13. Language metadata only; no modification to audio stream or rights."
   }
 ]
