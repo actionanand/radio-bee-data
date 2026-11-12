@@ -5375,5 +5375,779 @@
         }
       }
     ]
+  },
+  {
+    "id": "pollachi-fm",
+    "name": "Pollachi FM",
+    "networkId": "stage21-pollachi-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-coimbatore",
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/502/pollachi-fm",
+    "sourceIds": [
+      "stage21-page-pollachi-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/502/pollachi-fm. Melo directory relay: direct-audio response and browser playback NOT confirmed; format provisional. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-pollachi-fm",
+        "url": "https://themelo.in/stream/502",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-pollachi-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-pollachi-fm",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/502/pollachi-fm. No tested sustained decode, broadcaster authorization or reuse permission. Directory proxy, not confirmed audio: fallback may fail.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "inbam-fm",
+    "name": "Inbam FM",
+    "networkId": "stage21-inbam-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/580/inbam-fm",
+    "sourceIds": [
+      "stage21-page-inbam-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/580/inbam-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-inbam-fm",
+        "url": "https://stream.radio.co/sf55ced545/listen",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-inbam-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-inbam-fm",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/580/inbam-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kodai-city-fm",
+    "name": "Kodai City FM",
+    "networkId": "stage21-kodai-city-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-dindigul",
+    "localityId": "in-tn-dindigul-kodaikanal",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/509/kodai-city-fm",
+    "sourceIds": [
+      "stage21-page-kodai-city-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/509/kodai-city-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-kodai-city-fm",
+        "url": "https://listen.openstream.co/6812/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-kodai-city-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-kodai-city-fm",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/509/kodai-city-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-beat-love",
+    "name": "Radio Beat Love",
+    "networkId": "stage21-radio-beat-love",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/479/radio-beat-love",
+    "sourceIds": [
+      "stage21-page-radio-beat-love"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/479/radio-beat-love. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-radio-beat-love",
+        "url": "https://listen.openstream.co/5770/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-radio-beat-love",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-radio-beat-love",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/479/radio-beat-love. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-beat-extra",
+    "name": "Radio Beat Extra",
+    "networkId": "stage21-radio-beat-extra",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/1639/radio-beat-extra",
+    "sourceIds": [
+      "stage21-page-radio-beat-extra"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/1639/radio-beat-extra. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-radio-beat-extra",
+        "url": "https://listen.openstream.co/4172/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-radio-beat-extra",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-radio-beat-extra",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/1639/radio-beat-extra. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "air-dharmapuri",
+    "name": "Akashvani Dharmapuri",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-dharmapuri",
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/649/all-india-radio-air-dharmapuri",
+    "sourceIds": [
+      "stage21-page-air-dharmapuri"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/649/all-india-radio-air-dharmapuri. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-air-dharmapuri",
+        "url": "https://radio.wavespb.com/live/36378083c1be092b/36378083c1be092b.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-air-dharmapuri",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-air-dharmapuri",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/649/all-india-radio-air-dharmapuri. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vaanam-fm-hd",
+    "name": "Vaanam FM HD",
+    "networkId": "stage21-vaanam-fm-hd",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/461/vaanam-fm-hd",
+    "sourceIds": [
+      "stage21-page-vaanam-fm-hd"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/461/vaanam-fm-hd. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-vaanam-fm-hd",
+        "url": "https://fra-ranger01.dedicateware.com:8008/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-vaanam-fm-hd",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-vaanam-fm-hd",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/461/vaanam-fm-hd. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tamil-80s-hits",
+    "name": "80s Tamil Hits",
+    "networkId": "stage21-tamil-80s-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/465/80s-tamil-hits",
+    "sourceIds": [
+      "stage21-page-tamil-80s-hits"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/465/80s-tamil-hits. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-tamil-80s-hits",
+        "url": "https://stream.zeno.fm/48w230kx8vzuv.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-tamil-80s-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-tamil-80s-hits",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/465/80s-tamil-hits. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "amr-radio-ca",
+    "name": "AMR Radio",
+    "networkId": "stage21-amr-radio-ca",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/470/amr-radio",
+    "sourceIds": [
+      "stage21-page-amr-radio-ca"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/470/amr-radio. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-amr-radio-ca",
+        "url": "https://radio.amrlive.ca/listen/tamilfm/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-amr-radio-ca",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-amr-radio-ca",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/470/amr-radio. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "thaalam-in",
+    "name": "Thaalam FM India",
+    "networkId": "stage21-thaalam-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://themelo.in/s/471/thaalam-fm",
+    "sourceIds": [
+      "stage21-page-thaalam-in"
+    ],
+    "notes": "Unverified user-captured stream lead from https://themelo.in/s/471/thaalam-fm. Melo directory relay: direct-audio response and browser playback NOT confirmed; format provisional. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-thaalam-in",
+        "url": "https://themelo.in/stream/471",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-thaalam-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-thaalam-in",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/471/thaalam-fm. No tested sustained decode, broadcaster authorization or reuse permission. Directory proxy, not confirmed audio: fallback may fail.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "slbc-tamil-national-service",
+    "name": "SLBC Tamil National Service FM",
+    "networkId": "slbc",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/slbc-tamil-national-service-fm",
+    "sourceIds": [
+      "stage21-page-slbc-tamil-national-service"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/slbc-tamil-national-service-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-slbc-tamil-national-service",
+        "url": "https://node-13.zeno.fm/xekhrn4zetzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-slbc-tamil-national-service",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-slbc-tamil-national-service",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/slbc-tamil-national-service-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ilangai-vaanoli",
+    "name": "Ilangai Vaanoli",
+    "networkId": "stage21-ilangai-vaanoli",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/ilangai-vaanoli-tamil-radio",
+    "sourceIds": [
+      "stage21-page-ilangai-vaanoli"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/ilangai-vaanoli-tamil-radio. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-ilangai-vaanoli",
+        "url": "https://ilangaivaanoli1.out.airtime.pro/ilangaivaanoli1_a",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-ilangai-vaanoli",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-ilangai-vaanoli",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/ilangai-vaanoli-tamil-radio. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ilayaraja-radio",
+    "name": "Ilaiyaraaja Radio",
+    "networkId": "stage21-ilayaraja-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio",
+    "sourceIds": [
+      "stage21-page-ilayaraja-radio"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-ilayaraja-radio",
+        "url": "https://stream.zenolive.com/pwm9y3eud5zuv.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-ilayaraja-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-ilayaraja-radio",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kumbakonam-city-fm",
+    "name": "Kumbakonam City FM",
+    "networkId": "stage21-kumbakonam-city-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-thanjavur",
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/kumbakonam-city-fm",
+    "sourceIds": [
+      "stage21-page-kumbakonam-city-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/kumbakonam-city-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-kumbakonam-city-fm",
+        "url": "https://stream.zeno.fm/hrao59mmrtiuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-kumbakonam-city-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-kumbakonam-city-fm",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/kumbakonam-city-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ada-ceylon-fm",
+    "name": "ADA Ceylon FM",
+    "networkId": "stage21-ada-ceylon-fm",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/ada-ceylon-fm",
+    "sourceIds": [
+      "stage21-page-ada-ceylon-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/ada-ceylon-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-ada-ceylon-fm",
+        "url": "https://stream.zeno.fm/c32gn1eas2zuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-ada-ceylon-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-ada-ceylon-fm",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/ada-ceylon-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "vellore-city-fm",
+    "name": "Vellore City FM",
+    "networkId": "stage21-vellore-city-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-vellore",
+    "localityId": "in-tn-vellore-vellore",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.radioindialive.com/vellore-city-fm",
+    "sourceIds": [
+      "stage21-page-vellore-city-fm"
+    ],
+    "notes": "Unverified user-captured stream lead from https://www.radioindialive.com/vellore-city-fm. Country and regional metadata beyond source-page naming may be provisional, not proof of transmitter locality. Do not claim official origin, technical verification, or permission for third-party listening/recording.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage21-stream-vellore-city-fm",
+        "url": "https://stream.zeno.fm/g2ehl29dhriuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-vellore-city-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-vellore-city-fm",
+          "notes": "Candidate from clicked player request on https://www.radioindialive.com/vellore-city-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "raaga-my",
+    "name": "RAAGA Malaysia",
+    "networkId": "astro-audio",
+    "countryCode": "MY",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "national",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://raaga.my/",
+    "sourceIds": [
+      "world-raaga-my-2026",
+      "stage21-page-raaga-my"
+    ],
+    "notes": "Official Astro Radio 2026 brand profile identifies Malaysian Tamil service with multiple regional FM frequencies. Use one programme card and null frequency; do not present Klang Valley frequency as nationwide. Official station links SYOK live player. Stage 21 user Playwright-captured Openstream trial candidate; broadcaster association and rights not independently confirmed.",
+    "aliases": [],
+    "geographyEvidence": {
+      "confidence": "medium",
+      "evidenceType": "legacy-catalogue",
+      "sourceIds": [
+        "world-raaga-my-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Existing canonical geography retained from v1.9.0 with inherited source references; country/base attribution may be incomplete and is not transmitter coverage. No missing city inferred."
+    },
+    "languageProfile": {
+      "classification": "unknown",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "world-raaga-my-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+    },
+    "streams": [
+      {
+        "id": "stage21-stream-raaga-my",
+        "url": "https://listen.openstream.co/7044/audio",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage21-page-raaga-my",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:45:00Z",
+          "sourceId": "stage21-page-raaga-my",
+          "notes": "Candidate from clicked player request on https://themelo.in/s/415/raaga-fm. No tested sustained decode, broadcaster authorization or reuse permission. ",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

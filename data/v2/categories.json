@@ -26,5 +26,9 @@
   {
     "id": "community",
     "name": "Community"
+  },
+  {
+    "id": "artist-hits",
+    "name": "Artist & Hits"
   }
 ]

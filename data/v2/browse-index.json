@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.1.1",
+  "catalogVersion": "2.2.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 75,
-    "streamBearing": 75,
+    "all": 92,
+    "streamBearing": 92,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -13,11 +13,13 @@
     "4eb-global-au",
     "5ebi-au",
     "a9-radio-ca",
+    "ada-ceylon-fm",
     "air-chennai-gold",
     "air-chennai-rainbow",
     "air-chennai-vividh-tamil",
     "air-coimbatore",
     "air-devikulam",
+    "air-dharmapuri",
     "air-kannur",
     "air-karaikal",
     "air-kochi",
@@ -36,6 +38,7 @@
     "akkini-ch",
     "amen-fm-ca",
     "american-tamil-radio-us",
+    "amr-radio-ca",
     "amudham-fm-in",
     "ar-radio",
     "aural-radio",
@@ -48,9 +51,14 @@
     "hand-of-jesus-tamil-in",
     "hello-chennai",
     "ibc-tamil-uk",
+    "ilangai-vaanoli",
+    "ilayaraja-radio",
+    "inbam-fm",
     "inbathamil-oli-au",
     "iskcon-nagercoil",
     "jei-fm-my",
+    "kodai-city-fm",
+    "kumbakonam-city-fm",
     "live-fm-bh",
     "lotus-fm-za",
     "luminous-radio-tamil",
@@ -60,29 +68,38 @@
     "namathu-fm-fr",
     "oli-968-sg",
     "otran-vaanoli-ie",
+    "pollachi-fm",
     "quran-tamil-kw",
+    "raaga-my",
+    "radio-beat-extra",
+    "radio-beat-love",
     "radio-city-chennai",
     "radio-plus-indiz-mu",
     "shakthi-srilanka",
     "shiva-tattvam",
+    "slbc-tamil-national-service",
     "sooriyan-srilanka",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suryan-chennai",
     "sweety-fm-in",
     "swiss-tamil-radio-ch",
+    "tamil-80s-hits",
     "tamil-894-ae",
     "tamil-christian-radio-in",
     "tamil-murasam-no",
     "tamil-panpalai",
     "thaalam-ch",
+    "thaalam-in",
     "theophony-tamil-in",
     "thiruneriya-thamizhosai",
     "thuthi-fm-no",
     "time-fm-toronto-ca",
     "vaagai-tamil-de",
+    "vaanam-fm-hd",
     "vaanmalar-fm-in",
-    "vasantham-srilanka"
+    "vasantham-srilanka",
+    "vellore-city-fm"
   ],
   "facets": {
     "countries": [
@@ -140,14 +157,15 @@
         "stationIds": [
           "a9-radio-ca",
           "amen-fm-ca",
+          "amr-radio-ca",
           "boom-tamil",
           "east-fm-ca",
           "good-news-tamil-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -235,6 +253,7 @@
           "air-chennai-vividh-tamil",
           "air-coimbatore",
           "air-devikulam",
+          "air-dharmapuri",
           "air-kannur",
           "air-karaikal",
           "air-kochi",
@@ -256,22 +275,33 @@
           "big-chennai",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
+          "ilayaraja-radio",
+          "inbam-fm",
           "iskcon-nagercoil",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "luminous-radio-tamil",
           "mirchi-chennai",
+          "pollachi-fm",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "shiva-tattvam",
           "suryan-chennai",
           "sweety-fm-in",
+          "tamil-80s-hits",
           "tamil-christian-radio-in",
           "tamil-panpalai",
+          "thaalam-in",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
-          "vaanmalar-fm-in"
+          "vaanam-fm-hd",
+          "vaanmalar-fm-in",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 38,
-          "streamBearing": 38,
+          "all": 50,
+          "streamBearing": 50,
           "discoveryOnly": 0
         }
       },
@@ -295,14 +325,17 @@
         "key": "country:LK",
         "locationId": "lk",
         "stationIds": [
+          "ada-ceylon-fm",
+          "ilangai-vaanoli",
           "shakthi-srilanka",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -328,11 +361,12 @@
         "locationId": "my",
         "stationIds": [
           "jei-fm-my",
-          "minnal-my"
+          "minnal-my",
+          "raaga-my"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -670,18 +704,21 @@
         "childIds": [
           "ca-on"
         ],
-        "directStationIds": [],
+        "directStationIds": [
+          "amr-radio-ca"
+        ],
         "stationIds": [
           "a9-radio-ca",
           "amen-fm-ca",
+          "amr-radio-ca",
           "boom-tamil",
           "east-fm-ca",
           "good-news-tamil-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -967,10 +1004,14 @@
         "directStationIds": [
           "air-raagam",
           "air-vividh-bharati",
+          "ilayaraja-radio",
           "luminous-radio-tamil",
           "shiva-tattvam",
+          "tamil-80s-hits",
           "tamil-panpalai",
-          "thiruneriya-thamizhosai"
+          "thaalam-in",
+          "thiruneriya-thamizhosai",
+          "vaanam-fm-hd"
         ],
         "stationIds": [
           "air-chennai-gold",
@@ -978,6 +1019,7 @@
           "air-chennai-vividh-tamil",
           "air-coimbatore",
           "air-devikulam",
+          "air-dharmapuri",
           "air-kannur",
           "air-karaikal",
           "air-kochi",
@@ -999,22 +1041,33 @@
           "big-chennai",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
+          "ilayaraja-radio",
+          "inbam-fm",
           "iskcon-nagercoil",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "luminous-radio-tamil",
           "mirchi-chennai",
+          "pollachi-fm",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "shiva-tattvam",
           "suryan-chennai",
           "sweety-fm-in",
+          "tamil-80s-hits",
           "tamil-christian-radio-in",
           "tamil-panpalai",
+          "thaalam-in",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
-          "vaanmalar-fm-in"
+          "vaanam-fm-hd",
+          "vaanmalar-fm-in",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 38,
-          "streamBearing": 38,
+          "all": 50,
+          "streamBearing": 50,
           "discoveryOnly": 0
         }
       },
@@ -1790,13 +1843,17 @@
         ],
         "directStationIds": [
           "air-tamil",
-          "amudham-fm-in"
+          "amudham-fm-in",
+          "inbam-fm",
+          "radio-beat-extra",
+          "radio-beat-love"
         ],
         "stationIds": [
           "air-chennai-gold",
           "air-chennai-rainbow",
           "air-chennai-vividh-tamil",
           "air-coimbatore",
+          "air-dharmapuri",
           "air-kodaikanal",
           "air-madurai",
           "air-nagercoil",
@@ -1808,17 +1865,24 @@
           "big-chennai",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
+          "inbam-fm",
           "iskcon-nagercoil",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "mirchi-chennai",
+          "pollachi-fm",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-christian-radio-in",
-          "vaanmalar-fm-in"
+          "vaanmalar-fm-in",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 22,
-          "streamBearing": 22,
+          "all": 30,
+          "streamBearing": 30,
           "discoveryOnly": 0
         }
       },
@@ -1899,13 +1963,16 @@
         "childIds": [
           "in-tn-coimbatore-coimbatore"
         ],
-        "directStationIds": [],
+        "directStationIds": [
+          "pollachi-fm"
+        ],
         "stationIds": [
-          "air-coimbatore"
+          "air-coimbatore",
+          "pollachi-fm"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -1937,11 +2004,15 @@
         "countryCode": "IN",
         "parentId": "in-tn",
         "childIds": [],
-        "directStationIds": [],
-        "stationIds": [],
+        "directStationIds": [
+          "air-dharmapuri"
+        ],
+        "stationIds": [
+          "air-dharmapuri"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -1957,11 +2028,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-kodaikanal"
+          "air-kodaikanal",
+          "kodai-city-fm"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -1974,14 +2046,16 @@
         "parentId": "in-tn-dindigul",
         "childIds": [],
         "directStationIds": [
-          "air-kodaikanal"
+          "air-kodaikanal",
+          "kodai-city-fm"
         ],
         "stationIds": [
-          "air-kodaikanal"
+          "air-kodaikanal",
+          "kodai-city-fm"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -2318,11 +2392,15 @@
         "childIds": [
           "in-tn-thanjavur-thanjavur"
         ],
-        "directStationIds": [],
-        "stationIds": [],
+        "directStationIds": [
+          "kumbakonam-city-fm"
+        ],
+        "stationIds": [
+          "kumbakonam-city-fm"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -2501,10 +2579,12 @@
           "in-tn-vellore-vellore"
         ],
         "directStationIds": [],
-        "stationIds": [],
+        "stationIds": [
+          "vellore-city-fm"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -2516,11 +2596,15 @@
         "countryCode": "IN",
         "parentId": "in-tn-vellore",
         "childIds": [],
-        "directStationIds": [],
-        "stationIds": [],
+        "directStationIds": [
+          "vellore-city-fm"
+        ],
+        "stationIds": [
+          "vellore-city-fm"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -2558,20 +2642,26 @@
           "lk-wp"
         ],
         "directStationIds": [
+          "ada-ceylon-fm",
+          "ilangai-vaanoli",
           "shakthi-srilanka",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "stationIds": [
+          "ada-ceylon-fm",
+          "ilangai-vaanoli",
           "shakthi-srilanka",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -2884,15 +2974,17 @@
         "childIds": [],
         "directStationIds": [
           "jei-fm-my",
-          "minnal-my"
+          "minnal-my",
+          "raaga-my"
         ],
         "stationIds": [
           "jei-fm-my",
-          "minnal-my"
+          "minnal-my",
+          "raaga-my"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -3866,10 +3958,12 @@
           "4eb-global-au",
           "5ebi-au",
           "a9-radio-ca",
+          "ada-ceylon-fm",
           "air-chennai-gold",
           "air-chennai-rainbow",
           "air-chennai-vividh-tamil",
           "air-coimbatore",
+          "air-dharmapuri",
           "air-karaikal",
           "air-kodaikanal",
           "air-madurai",
@@ -3882,6 +3976,7 @@
           "akkini-ch",
           "amen-fm-ca",
           "american-tamil-radio-us",
+          "amr-radio-ca",
           "amudham-fm-in",
           "ar-radio",
           "aural-radio",
@@ -3894,8 +3989,13 @@
           "hand-of-jesus-tamil-in",
           "hello-chennai",
           "ibc-tamil-uk",
+          "ilangai-vaanoli",
+          "ilayaraja-radio",
+          "inbam-fm",
           "inbathamil-oli-au",
           "jei-fm-my",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "live-fm-bh",
           "lotus-fm-za",
           "luminous-radio-tamil",
@@ -3905,33 +4005,42 @@
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
+          "pollachi-fm",
           "quran-tamil-kw",
+          "raaga-my",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "radio-plus-indiz-mu",
           "shakthi-srilanka",
           "shiva-tattvam",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
           "sweety-fm-in",
           "swiss-tamil-radio-ch",
+          "tamil-80s-hits",
           "tamil-894-ae",
           "tamil-christian-radio-in",
           "tamil-murasam-no",
           "tamil-panpalai",
           "thaalam-ch",
+          "thaalam-in",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
           "thuthi-fm-no",
           "time-fm-toronto-ca",
           "vaagai-tamil-de",
+          "vaanam-fm-hd",
           "vaanmalar-fm-in",
-          "vasantham-srilanka"
+          "vasantham-srilanka",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 67,
-          "streamBearing": 67,
+          "all": 84,
+          "streamBearing": 84,
           "discoveryOnly": 0
         }
       },
@@ -4129,8 +4238,10 @@
         "key": "language-classification:unknown",
         "stationIds": [
           "a9-radio-ca",
+          "ada-ceylon-fm",
           "air-coimbatore",
           "air-devikulam",
+          "air-dharmapuri",
           "air-kannur",
           "air-karaikal",
           "air-kochi",
@@ -4147,6 +4258,7 @@
           "akkini-ch",
           "amen-fm-ca",
           "american-tamil-radio-us",
+          "amr-radio-ca",
           "amudham-fm-in",
           "beats-radio-us",
           "big-chennai",
@@ -4154,30 +4266,44 @@
           "etr-de",
           "hello-chennai",
           "ibc-tamil-uk",
+          "ilangai-vaanoli",
+          "ilayaraja-radio",
+          "inbam-fm",
           "iskcon-nagercoil",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "luminous-radio-tamil",
           "minnal-my",
           "mirchi-chennai",
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
+          "pollachi-fm",
+          "raaga-my",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "shakthi-srilanka",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
           "swiss-tamil-radio-ch",
+          "tamil-80s-hits",
           "tamil-894-ae",
           "tamil-murasam-no",
           "tamil-panpalai",
           "thaalam-ch",
+          "thaalam-in",
           "vaagai-tamil-de",
-          "vasantham-srilanka"
+          "vaanam-fm-hd",
+          "vasantham-srilanka",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 46,
-          "streamBearing": 46,
+          "all": 63,
+          "streamBearing": 63,
           "discoveryOnly": 0
         }
       }
@@ -4274,6 +4400,7 @@
           "air-chennai-vividh-tamil",
           "air-coimbatore",
           "air-devikulam",
+          "air-dharmapuri",
           "air-kannur",
           "air-karaikal",
           "air-kochi",
@@ -4291,8 +4418,8 @@
           "air-vividh-bharati"
         ],
         "counts": {
-          "all": 20,
-          "streamBearing": 20,
+          "all": 21,
+          "streamBearing": 21,
           "discoveryOnly": 0
         }
       },
@@ -4427,10 +4554,12 @@
           "MY"
         ],
         "broadcasterId": null,
-        "stationIds": [],
+        "stationIds": [
+          "raaga-my"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -5144,10 +5273,12 @@
           "LK"
         ],
         "broadcasterId": null,
-        "stationIds": [],
+        "stationIds": [
+          "slbc-tamil-national-service"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -5164,6 +5295,258 @@
         "broadcasterId": "asia-broadcasting-corporation",
         "stationIds": [
           "sooriyan-srilanka"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-ada-ceylon-fm",
+        "name": "ADA Ceylon FM",
+        "key": "network:stage21-ada-ceylon-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "ada-ceylon-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-amr-radio-ca",
+        "name": "AMR Radio",
+        "key": "network:stage21-amr-radio-ca",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "amr-radio-ca"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-ilangai-vaanoli",
+        "name": "Ilangai Vaanoli",
+        "key": "network:stage21-ilangai-vaanoli",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "ilangai-vaanoli"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-ilayaraja-radio",
+        "name": "Ilaiyaraaja Radio",
+        "key": "network:stage21-ilayaraja-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "ilayaraja-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-inbam-fm",
+        "name": "Inbam FM",
+        "key": "network:stage21-inbam-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "inbam-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-kodai-city-fm",
+        "name": "Kodai City FM",
+        "key": "network:stage21-kodai-city-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "kodai-city-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-kumbakonam-city-fm",
+        "name": "Kumbakonam City FM",
+        "key": "network:stage21-kumbakonam-city-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "kumbakonam-city-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-pollachi-fm",
+        "name": "Pollachi FM",
+        "key": "network:stage21-pollachi-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "pollachi-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-radio-beat-extra",
+        "name": "Radio Beat Extra",
+        "key": "network:stage21-radio-beat-extra",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-beat-extra"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-radio-beat-love",
+        "name": "Radio Beat Love",
+        "key": "network:stage21-radio-beat-love",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-beat-love"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-tamil-80s-hits",
+        "name": "80s Tamil Hits",
+        "key": "network:stage21-tamil-80s-hits",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "tamil-80s-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-thaalam-in",
+        "name": "Thaalam FM India",
+        "key": "network:stage21-thaalam-in",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "thaalam-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-vaanam-fm-hd",
+        "name": "Vaanam FM HD",
+        "key": "network:stage21-vaanam-fm-hd",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "vaanam-fm-hd"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage21-vellore-city-fm",
+        "name": "Vellore City FM",
+        "key": "network:stage21-vellore-city-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "vellore-city-fm"
         ],
         "counts": {
           "all": 1,
@@ -5607,6 +5990,7 @@
           "air-chennai-vividh-tamil",
           "air-coimbatore",
           "air-devikulam",
+          "air-dharmapuri",
           "air-kannur",
           "air-karaikal",
           "air-kochi",
@@ -5624,8 +6008,8 @@
           "air-vividh-bharati"
         ],
         "counts": {
-          "all": 20,
-          "streamBearing": 20,
+          "all": 21,
+          "streamBearing": 21,
           "discoveryOnly": 0
         }
       },
@@ -5697,6 +6081,22 @@
       }
     ],
     "genres": [
+      {
+        "id": "artist-hits",
+        "name": "Artist & Hits",
+        "key": "genre:artist-hits",
+        "stationIds": [
+          "ilayaraja-radio",
+          "radio-beat-extra",
+          "radio-beat-love",
+          "tamil-80s-hits"
+        ],
+        "counts": {
+          "all": 4,
+          "streamBearing": 4,
+          "discoveryOnly": 0
+        }
+      },
       {
         "id": "classical",
         "name": "Classical",
@@ -5800,14 +6200,15 @@
           "beats-radio-us",
           "live-fm-bh",
           "oli-968-sg",
+          "raaga-my",
           "sooriyan-srilanka",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 32,
+          "streamBearing": 32,
           "discoveryOnly": 0
         }
       },
@@ -5817,9 +6218,12 @@
         "key": "genre:music",
         "stationIds": [
           "a9-radio-ca",
+          "ada-ceylon-fm",
+          "air-dharmapuri",
           "air-vividh-bharati",
           "akkini-ch",
           "american-tamil-radio-us",
+          "amr-radio-ca",
           "amudham-fm-in",
           "ar-radio",
           "aural-radio",
@@ -5830,8 +6234,13 @@
           "etr-de",
           "hello-chennai",
           "ibc-tamil-uk",
+          "ilangai-vaanoli",
+          "ilayaraja-radio",
+          "inbam-fm",
           "inbathamil-oli-au",
           "jei-fm-my",
+          "kodai-city-fm",
+          "kumbakonam-city-fm",
           "live-fm-bh",
           "lotus-fm-za",
           "mauradio-mu",
@@ -5840,25 +6249,34 @@
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
+          "pollachi-fm",
+          "raaga-my",
+          "radio-beat-extra",
+          "radio-beat-love",
           "radio-city-chennai",
           "radio-plus-indiz-mu",
           "shakthi-srilanka",
+          "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
           "swiss-tamil-radio-ch",
+          "tamil-80s-hits",
           "tamil-894-ae",
           "tamil-panpalai",
           "thaalam-ch",
+          "thaalam-in",
           "thiruneriya-thamizhosai",
           "time-fm-toronto-ca",
           "vaagai-tamil-de",
-          "vasantham-srilanka"
+          "vaanam-fm-hd",
+          "vasantham-srilanka",
+          "vellore-city-fm"
         ],
         "counts": {
-          "all": 39,
-          "streamBearing": 39,
+          "all": 56,
+          "streamBearing": 56,
           "discoveryOnly": 0
         }
       },
@@ -5998,11 +6416,13 @@
         "4eb-global-au",
         "5ebi-au",
         "a9-radio-ca",
+        "ada-ceylon-fm",
         "air-chennai-gold",
         "air-chennai-rainbow",
         "air-chennai-vividh-tamil",
         "air-coimbatore",
         "air-devikulam",
+        "air-dharmapuri",
         "air-kannur",
         "air-karaikal",
         "air-kochi",
@@ -6021,6 +6441,7 @@
         "akkini-ch",
         "amen-fm-ca",
         "american-tamil-radio-us",
+        "amr-radio-ca",
         "amudham-fm-in",
         "ar-radio",
         "aural-radio",
@@ -6033,9 +6454,14 @@
         "hand-of-jesus-tamil-in",
         "hello-chennai",
         "ibc-tamil-uk",
+        "ilangai-vaanoli",
+        "ilayaraja-radio",
+        "inbam-fm",
         "inbathamil-oli-au",
         "iskcon-nagercoil",
         "jei-fm-my",
+        "kodai-city-fm",
+        "kumbakonam-city-fm",
         "live-fm-bh",
         "lotus-fm-za",
         "luminous-radio-tamil",
@@ -6045,33 +6471,42 @@
         "namathu-fm-fr",
         "oli-968-sg",
         "otran-vaanoli-ie",
+        "pollachi-fm",
         "quran-tamil-kw",
+        "raaga-my",
+        "radio-beat-extra",
+        "radio-beat-love",
         "radio-city-chennai",
         "radio-plus-indiz-mu",
         "shakthi-srilanka",
         "shiva-tattvam",
+        "slbc-tamil-national-service",
         "sooriyan-srilanka",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suryan-chennai",
         "sweety-fm-in",
         "swiss-tamil-radio-ch",
+        "tamil-80s-hits",
         "tamil-894-ae",
         "tamil-christian-radio-in",
         "tamil-murasam-no",
         "tamil-panpalai",
         "thaalam-ch",
+        "thaalam-in",
         "theophony-tamil-in",
         "thiruneriya-thamizhosai",
         "thuthi-fm-no",
         "time-fm-toronto-ca",
         "vaagai-tamil-de",
+        "vaanam-fm-hd",
         "vaanmalar-fm-in",
-        "vasantham-srilanka"
+        "vasantham-srilanka",
+        "vellore-city-fm"
       ],
       "counts": {
-        "all": 75,
-        "streamBearing": 75,
+        "all": 92,
+        "streamBearing": 92,
         "discoveryOnly": 0
       }
     },

@@ -778,5 +778,145 @@
     ],
     "kind": "online",
     "website": "https://www.inbathamil.com/"
+  },
+  {
+    "id": "stage21-pollachi-fm",
+    "name": "Pollachi FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-inbam-fm",
+    "name": "Inbam FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-kodai-city-fm",
+    "name": "Kodai City FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-radio-beat-love",
+    "name": "Radio Beat Love",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-radio-beat-extra",
+    "name": "Radio Beat Extra",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-vaanam-fm-hd",
+    "name": "Vaanam FM HD",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-tamil-80s-hits",
+    "name": "80s Tamil Hits",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-amr-radio-ca",
+    "name": "AMR Radio",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-thaalam-in",
+    "name": "Thaalam FM India",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-ilangai-vaanoli",
+    "name": "Ilangai Vaanoli",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-ilayaraja-radio",
+    "name": "Ilaiyaraaja Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-kumbakonam-city-fm",
+    "name": "Kumbakonam City FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-ada-ceylon-fm",
+    "name": "ADA Ceylon FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage21-vellore-city-fm",
+    "name": "Vellore City FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]
