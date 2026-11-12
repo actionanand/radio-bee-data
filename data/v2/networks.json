@@ -1288,5 +1288,105 @@
     ],
     "kind": "online",
     "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage26-hello-telugu-in",
+    "name": "Hello Telugu",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-malayalam-in",
+    "name": "Radio Malayalam",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-bol-punjabi-radio-in",
+    "name": "Bol Punjabi Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-mast-marathi-in",
+    "name": "Radio Mast Marathi",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-freefm-uae-sinhala-ae",
+    "name": "Free FM — UAE Sinhala Radio",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-amr-kannada-in",
+    "name": "Radio AMR Kannada",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-kannada-hits-in",
+    "name": "Kannada Hits",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-hindi-gold-radio-in",
+    "name": "Hindi Gold Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-mirchi-dubai-ae",
+    "name": "Radio Mirchi Dubai (directory listing)",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage26-radio-quarantine-kolkata-in",
+    "name": "Radio Quarantine Kolkata",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]

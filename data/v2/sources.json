@@ -1566,5 +1566,75 @@
     "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
     "kind": "directory",
     "notes": "Direct HTTPS candidate listed in a public third-party curated station playlist. No FFmpeg decoding or browser/Android playback testing was performed here, and listening rights are unconfirmed. Dedicated channel identity is playlist-supplied; not a terrestrial FM frequency."
+  },
+  {
+    "id": "stage26-source-hello-telugu-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Hello Telugu",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://listen.radioking.com/radio/503281/stream/560701. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-radio-malayalam-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Radio Malayalam",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://radiomalayalamfm.com/radio/8000/radio.mp3. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-bol-punjabi-radio-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Bol Punjabi Radio",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://bolpunjabi-ekamsoftware.radioca.st//stream. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-radio-mast-marathi-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Radio Mast Marathi",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://stream.zeno.fm/8fqvoovoiwtuv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-freefm-uae-sinhala-ae",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Free FM — UAE Sinhala Radio",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://stream.zeno.fm/n7u7aog5og6vv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. Directory labels the station UAE Sinhala Radio; UAE country assignment reflects directory claim, not geolocation proof. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-radio-amr-kannada-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Radio AMR Kannada",
+    "url": "https://72fm.com/station/73eba1fd-3bf7-48e7-9289-18084ee342e9",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://stream.zenolive.com/7g8axtgtsg0uv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-kannada-hits-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Kannada Hits",
+    "url": "https://72fm.com/station/7bfa32e7-a239-4f59-904a-fcf602b06404",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://stream.zeno.fm/68snnbug8rhvv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-hindi-gold-radio-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Hindi Gold Radio",
+    "url": "https://72fm.com/station/7dd71b85-139b-4362-81b1-4206133a517c",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://azuracast.vibesounds.in:8010/radio.mp3. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-radio-mirchi-dubai-ae",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Radio Mirchi Dubai (directory listing)",
+    "url": "https://72fm.com/station/cdd3b5a0-47f6-46d5-8209-b78e8b10ff6e",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://eu8.fastcast4u.com/proxy/clyedupq/stream. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. Directory name 'Radio Mirchi Hindi' differs from another listing 'Radio Mirchi Dubai'; station attribution needs confirmation. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage26-source-radio-quarantine-kolkata-in",
+    "title": "Stage 26 FFmpeg-passed multilingual trial: Radio Quarantine Kolkata",
+    "url": "https://72fm.com/station/3e86e3b4-cdaf-4c6f-be93-4674b94aab6d",
+    "kind": "directory",
+    "notes": "Third-party directory source for https://stream.zeno.fm/krk4kw830tzuv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
   }
 ]
