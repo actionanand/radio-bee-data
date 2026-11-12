@@ -2288,5 +2288,25 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage29-network-stage29-news7-tamil-tv-audio",
+    "name": "News7 Tamil — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage29-network-stage29-polimer-news-tv-audio",
+    "name": "Polimer News — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]

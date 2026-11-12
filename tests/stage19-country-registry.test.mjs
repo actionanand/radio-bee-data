@@ -5,7 +5,7 @@ import {readCatalogue, validateCatalogue} from '../scripts/validate.mjs';
 test('v2 manifest includes countries referenced by networks and locations even when there is no playable station',()=>{
   const d=readCatalogue(undefined,'v2');
   const countries=new Set(d.index.countries);
-  assert.equal(d.index.catalogVersion,'2.8.0');
+  assert.equal(d.index.catalogVersion,'2.8.1');
   assert.ok(!d.stations.some(station=>station.countryCode==='NZ'));
   assert.ok(d.networks.some(network=>network.countryCodes.includes('NZ')));
   assert.ok(d.locations.some(location=>location.countryCode==='NZ'));
@@ -27,9 +27,9 @@ test('v2 validator rejects a country registry omission even when no station is p
 
 test('country registry fix does not republish no-stream FM listings',()=>{
   const d=readCatalogue(undefined,'v2');
-  assert.equal(d.stations.length,225);
+  assert.equal(d.stations.length,227);
   assert.equal(d.discoveryStations.length,0);
   assert.equal(d.stations.filter(station=>station.delivery==='fm').length,56);
   assert.ok(d.stations.every(station=>station.streams.length>0));
-  assert.equal(d.index.counts.streams,229);
+  assert.equal(d.index.counts.streams,231);
 });

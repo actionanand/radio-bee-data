@@ -19,9 +19,9 @@ const sampleLanguages=[
 ];
 test('Stage 22 keeps dedicated Sanskrit online trial stations and supports accurate filters',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.0');
- assert.equal(d.stations.length,225);
- assert.equal(d.stations.flatMap(s=>s.streams).length,229);
+ assert.equal(d.index.catalogVersion,'2.8.1');
+ assert.equal(d.stations.length,227);
+ assert.equal(d.stations.flatMap(s=>s.streams).length,231);
  assert.equal(d.discoveryStations.length,0);
  for(const [id,url] of expectedSanskrit) {
   const s=d.stations.find(s=>s.id===id);
@@ -58,7 +58,7 @@ test('Stage 22 maintains all previous IDs and URL uniqueness, no unsupported rig
  assert.ok(d.stations.every(s=>s.streams.length));
  const urls=d.stations.flatMap(s=>s.streams.map(u=>u.url));
  assert.equal(new Set(urls).size,urls.length);
- assert.equal(d.index.counts.streams,229);
+ assert.equal(d.index.counts.streams,231);
 });
 test('Stage 22 manifest includes every network country and all known location references',()=>{
  const d=readCatalogue(undefined,'v2');
