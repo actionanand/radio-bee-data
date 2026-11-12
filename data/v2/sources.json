@@ -1167,5 +1167,124 @@
     "url": "https://radios.crabdance.com:8002/5",
     "kind": "directory",
     "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
+  },
+  {
+    "id": "stage21-page-pollachi-fm",
+    "title": "Stage 21 browser-playback capture: Pollachi FM",
+    "url": "https://themelo.in/s/502/pollachi-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://themelo.in/stream/502. Melo /stream relay has NOT been confirmed to return durable direct audio; format tentative. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-inbam-fm",
+    "title": "Stage 21 browser-playback capture: Inbam FM",
+    "url": "https://themelo.in/s/580/inbam-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.radio.co/sf55ced545/listen. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-kodai-city-fm",
+    "title": "Stage 21 browser-playback capture: Kodai City FM",
+    "url": "https://themelo.in/s/509/kodai-city-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://listen.openstream.co/6812/audio. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-radio-beat-love",
+    "title": "Stage 21 browser-playback capture: Radio Beat Love",
+    "url": "https://themelo.in/s/479/radio-beat-love",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://listen.openstream.co/5770/audio. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-radio-beat-extra",
+    "title": "Stage 21 browser-playback capture: Radio Beat Extra",
+    "url": "https://themelo.in/s/1639/radio-beat-extra",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://listen.openstream.co/4172/audio. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-air-dharmapuri",
+    "title": "Stage 21 browser-playback capture: Akashvani Dharmapuri",
+    "url": "https://themelo.in/s/649/all-india-radio-air-dharmapuri",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://radio.wavespb.com/live/36378083c1be092b/36378083c1be092b.m3u8. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-vaanam-fm-hd",
+    "title": "Stage 21 browser-playback capture: Vaanam FM HD",
+    "url": "https://themelo.in/s/461/vaanam-fm-hd",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://fra-ranger01.dedicateware.com:8008/stream. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-tamil-80s-hits",
+    "title": "Stage 21 browser-playback capture: 80s Tamil Hits",
+    "url": "https://themelo.in/s/465/80s-tamil-hits",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.zeno.fm/48w230kx8vzuv.aac. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-amr-radio-ca",
+    "title": "Stage 21 browser-playback capture: AMR Radio",
+    "url": "https://themelo.in/s/470/amr-radio",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://radio.amrlive.ca/listen/tamilfm/radio.mp3. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-thaalam-in",
+    "title": "Stage 21 browser-playback capture: Thaalam FM India",
+    "url": "https://themelo.in/s/471/thaalam-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://themelo.in/stream/471. Melo /stream relay has NOT been confirmed to return durable direct audio; format tentative. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-slbc-tamil-national-service",
+    "title": "Stage 21 browser-playback capture: SLBC Tamil National Service FM",
+    "url": "https://www.radioindialive.com/slbc-tamil-national-service-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://node-13.zeno.fm/xekhrn4zetzuv. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-ilangai-vaanoli",
+    "title": "Stage 21 browser-playback capture: Ilangai Vaanoli",
+    "url": "https://www.radioindialive.com/ilangai-vaanoli-tamil-radio",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://ilangaivaanoli1.out.airtime.pro/ilangaivaanoli1_a. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-ilayaraja-radio",
+    "title": "Stage 21 browser-playback capture: Ilaiyaraaja Radio",
+    "url": "https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.zenolive.com/pwm9y3eud5zuv.aac. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-kumbakonam-city-fm",
+    "title": "Stage 21 browser-playback capture: Kumbakonam City FM",
+    "url": "https://www.radioindialive.com/kumbakonam-city-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.zeno.fm/hrao59mmrtiuv. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-ada-ceylon-fm",
+    "title": "Stage 21 browser-playback capture: ADA Ceylon FM",
+    "url": "https://www.radioindialive.com/ada-ceylon-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.zeno.fm/c32gn1eas2zuv. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-vellore-city-fm",
+    "title": "Stage 21 browser-playback capture: Vellore City FM",
+    "url": "https://www.radioindialive.com/vellore-city-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://stream.zeno.fm/g2ehl29dhriuv. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage21-page-raaga-my",
+    "title": "Stage 21 browser-playback capture: RAAGA Malaysia",
+    "url": "https://themelo.in/s/415/raaga-fm",
+    "kind": "directory",
+    "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://listen.openstream.co/7044/audio. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
   }
 ]

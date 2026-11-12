@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.1.1",
+  "catalogVersion": "2.2.0",
   "publishedOn": "2026-11-13",
   "defaultLocale": "en",
   "locales": [
@@ -31,14 +31,14 @@
     "ZA"
   ],
   "counts": {
-    "networks": 71,
-    "stations": 75,
+    "networks": 85,
+    "stations": 92,
     "locations": 131,
-    "streams": 79,
+    "streams": 96,
     "verifiedStreams": 1,
     "discoveryStations": 0,
-    "discoverableStations": 75,
-    "stationsWithStreamCandidates": 75,
+    "discoverableStations": 92,
+    "stationsWithStreamCandidates": 92,
     "productionEligibleStations": 0
   },
   "files": {
