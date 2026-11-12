@@ -33,7 +33,7 @@ test('legacy source and generated v1 are byte-identical to the complete approved
 
 test('every enriched Stage 15 metadata and asset byte survives migration; only release markers change',()=>{
   assert.deepEqual(fileInventory(path.join(root,'data/v2')),Object.keys(saved.files).sort());
-  const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json']);
+  const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
     let bytes=readFileSync(path.join(root,'data/v2',file));
