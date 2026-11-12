@@ -47,7 +47,7 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
 
 test('every v2 manifest, locale and artwork reference resolves to an identical self-contained published file',t=>{
   const temporary=fixture(t),dest=buildStatic(temporary,{requireV2:true,preserveV1:true}),d=readCatalogue(temporary,'v2');
-  assert.equal(d.index.schemaVersion,2);assert.equal(d.index.catalogVersion,'2.8.2');
+  assert.equal(d.index.schemaVersion,2);assert.equal(d.index.catalogVersion,'2.8.3');
   for(const file of ['index.json',...Object.values(d.index.files),...d.index.locales.map(locale=>d.index.localizationRoot+locale+'.json')])assert.deepEqual(readFileSync(path.join(dest,'v2',file)),readFileSync(path.join(temporary,'data/v2',file)),file);
   for(const row of [...d.networks,...d.stations,...d.discoveryStations])if(row.logoPath)assert.deepEqual(readFileSync(path.join(dest,'v2',row.logoPath)),readFileSync(path.join(temporary,'data/v2',row.logoPath)));
   assert.equal(d.stationMigrations.schemaVersion,1,'migration document retains its independent format version');
