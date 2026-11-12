@@ -8049,5 +8049,402 @@
         }
       }
     ]
+  },
+  {
+    "id": "80s80s-michael-jackson-de",
+    "name": "80s80s Michael Jackson",
+    "networkId": "stage27-80s80s-michael-jackson-de",
+    "countryCode": "DE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.80s80s.de/",
+    "sourceIds": [
+      "stage27-source-80s80s-michael-jackson-de"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-80s80s-michael-jackson-de",
+        "url": "https://streams.80s80s.de/mj/mp3-128/streams.80s80s.de/",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-80s80s-michael-jackson-de",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-80s80s-michael-jackson-de",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-michael-jackson-ae",
+    "name": "Exclusively Michael Jackson",
+    "networkId": "stage27-exclusively-michael-jackson-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-michael-jackson-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-michael-jackson-ae",
+        "url": "https://streaming.exclusive.radio/er-app/michaeljackson/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-michael-jackson-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-michael-jackson-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-justin-bieber-ae",
+    "name": "Exclusively Justin Bieber",
+    "networkId": "stage27-exclusively-justin-bieber-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-justin-bieber-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-justin-bieber-ae",
+        "url": "https://streaming.exclusive.radio/er-app/justinbieber/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-justin-bieber-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-justin-bieber-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-shakira-ae",
+    "name": "Exclusively Shakira",
+    "networkId": "stage27-exclusively-shakira-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en",
+      "es"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-shakira-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-shakira-ae",
+        "url": "https://streaming.exclusive.radio/er-app/shakira/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-shakira-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-shakira-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-one-direction-ae",
+    "name": "Exclusively One Direction",
+    "networkId": "stage27-exclusively-one-direction-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-one-direction-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-one-direction-ae",
+        "url": "https://streaming.exclusive.radio/er-app/onedirection/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-one-direction-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-one-direction-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-adele-ae",
+    "name": "Exclusively Adele",
+    "networkId": "stage27-exclusively-adele-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-adele-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-adele-ae",
+        "url": "https://streaming.exclusive.radio/er-app/adele/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-adele-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-adele-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-ed-sheeran-ae",
+    "name": "Exclusively Ed Sheeran",
+    "networkId": "stage27-exclusively-ed-sheeran-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-ed-sheeran-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-ed-sheeran-ae",
+        "url": "https://streaming.exclusive.radio/er-app/edsheeran/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-ed-sheeran-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-ed-sheeran-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-queen-ae",
+    "name": "Exclusively Queen",
+    "networkId": "stage27-exclusively-queen-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-queen-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-queen-ae",
+        "url": "https://streaming.exclusive.radio/er-app/queen/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-queen-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-queen-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-westlife-ae",
+    "name": "Exclusively Westlife",
+    "networkId": "stage27-exclusively-westlife-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage27-source-exclusively-westlife-ae"
+    ],
+    "notes": "Artist-specific radio stream, six seconds of audio successfully decoded in GitHub Actions run 43300320633. Trial candidate, unverified for Android/browser, persistent availability, precise programme language and rights. No FM transmitter claimed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage27-stream-exclusively-westlife-ae",
+        "url": "https://streaming.exclusive.radio/er-app/westlife/icecast.audio",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage27-source-exclusively-westlife-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage27-source-exclusively-westlife-ae",
+          "notes": "FFmpeg 6-second PASS, CI run 43300320633. Browser/Android playback, rights, recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

@@ -1388,5 +1388,95 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage27-80s80s-michael-jackson-de",
+    "name": "80s80s Michael Jackson",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": "https://www.80s80s.de/"
+  },
+  {
+    "id": "stage27-exclusively-michael-jackson-ae",
+    "name": "Exclusively Michael Jackson",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-justin-bieber-ae",
+    "name": "Exclusively Justin Bieber",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-shakira-ae",
+    "name": "Exclusively Shakira",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-one-direction-ae",
+    "name": "Exclusively One Direction",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-adele-ae",
+    "name": "Exclusively Adele",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-ed-sheeran-ae",
+    "name": "Exclusively Ed Sheeran",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-queen-ae",
+    "name": "Exclusively Queen",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage27-exclusively-westlife-ae",
+    "name": "Exclusively Westlife",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
   }
 ]

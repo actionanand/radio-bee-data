@@ -9,10 +9,10 @@ const held=JSON.parse(readFileSync(new URL('../docs/stage18/held-discovery-stati
 test('Stage 18 publishes only stations with at least one HTTPS URL, no metadata-only cards',()=>{
  const d=readCatalogue(undefined,'v2');
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
- assert.equal(d.index.catalogVersion,'2.6.0');
- assert.equal(d.stations.length,135);assert.equal(d.discoveryStations.length,0);
+ assert.equal(d.index.catalogVersion,'2.7.0');
+ assert.equal(d.stations.length,144);assert.equal(d.discoveryStations.length,0);
  assert.equal(d.stations.filter(s=>s.delivery==='fm').length,56);
- assert.equal(d.stations.flatMap(s=>s.streams).length,139);
+ assert.equal(d.stations.flatMap(s=>s.streams).length,148);
  assert.ok(d.stations.every(s=>s.streams.length>0&&s.streams.every(x=>x.url.startsWith('https://'))));
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
  assert.equal(d.index.counts.productionEligibleStations,0);

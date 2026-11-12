@@ -1636,5 +1636,68 @@
     "url": "https://72fm.com/station/3e86e3b4-cdaf-4c6f-be93-4674b94aab6d",
     "kind": "directory",
     "notes": "Third-party directory source for https://stream.zeno.fm/krk4kw830tzuv. GitHub Actions run 43299436023 reported successful 6-second audio decoding using FFmpeg on 2026-11-13. This limited technical test does not independently validate station identity, broadcaster affiliation, on-air language, persistent playback, Android/browser playback, rights or recording/redistribution permission."
+  },
+  {
+    "id": "stage27-source-80s80s-michael-jackson-de",
+    "title": "Stage 27 FFmpeg-decoded artist radio: 80s80s Michael Jackson",
+    "url": "https://streams.80s80s.de/",
+    "kind": "directory",
+    "notes": "Source lists https://streams.80s80s.de/mj/mp3-128/streams.80s80s.de/. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-michael-jackson-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Michael Jackson",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/michaeljackson/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-justin-bieber-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Justin Bieber",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/justinbieber/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-shakira-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Shakira",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/shakira/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-one-direction-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively One Direction",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/onedirection/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-adele-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Adele",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/adele/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-ed-sheeran-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Ed Sheeran",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/edsheeran/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-queen-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Queen",
+    "url": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/queen/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
+  },
+  {
+    "id": "stage27-source-exclusively-westlife-ae",
+    "title": "Stage 27 FFmpeg-decoded artist radio: Exclusively Westlife",
+    "url": "https://you.radio/station/westlife",
+    "kind": "directory",
+    "notes": "Source lists https://streaming.exclusive.radio/er-app/westlife/icecast.audio. GitHub Actions [43300320633] successfully decoded 6s via FFmpeg on 2026-11-13. Dedicated channel name inferred from curated playlist or publisher address. Country and programme-language metadata provisional, particularly for multilingual Shakira. RadioBee web and Android playback, channel identity, stability, rebroadcast permission, recording and redistribution NOT proven."
   }
 ]
