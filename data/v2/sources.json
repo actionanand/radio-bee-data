@@ -1468,5 +1468,47 @@
     "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
     "kind": "directory",
     "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage23-source-mahakatha-radio-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Mahakatha Radio",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=https://mahakatharadio.com/api/station/live.mp3, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. "
+  },
+  {
+    "id": "stage23-source-shaiva-lahari-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Shaiva Lahari",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=https://radio.shaivam.org/listen/shaiva-lahari/radio.mp3, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. "
+  },
+  {
+    "id": "stage23-source-radio-sai-8006-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Radio Sai — 8006 (directory: Gayathri Mantra)",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=http://stream.radiosai.net:8006/, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. HTTP-only URL kept as provenance, not as a v2 playback stream. Radio Browser channel names may conflict with broadcaster descriptions."
+  },
+  {
+    "id": "stage23-source-radio-sai-8004-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Radio Sai — 8004 (directory: Sai Gayathri)",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=http://stream.radiosai.net:8004/, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. HTTP-only URL kept as provenance, not as a v2 playback stream. Radio Browser channel names may conflict with broadcaster descriptions."
+  },
+  {
+    "id": "stage23-source-radio-sai-8012-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Radio Sai — 8012 (directory: Shiva Panchakshari)",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=http://stream.radiosai.net:8012/, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. HTTP-only URL kept as provenance, not as a v2 playback stream. Radio Browser channel names may conflict with broadcaster descriptions."
+  },
+  {
+    "id": "stage23-source-radio-sai-8010-in",
+    "title": "Stage 23 Radio Browser Sanskrit candidate: Radio Sai — 8010 (directory: Vedam)",
+    "url": "https://de1.api.radio-browser.info/json/stations/bylanguage/sanskrit?hidebroken=true",
+    "kind": "directory",
+    "notes": "User supplied Radio Browser listing with url_resolved=http://stream.radiosai.net:8010/, lastcheckok=1 and MP3 codec. User ran FFmpeg 8-second decode successfully on WSL2 (6/6). This is user-reported technical testing, not independently reproduced. Broadcaster identity, exact programme language, sustained availability, browser compatibility, listening/recording rights and redistribution are NOT confirmed. HTTP-only URL kept as provenance, not as a v2 playback stream. Radio Browser channel names may conflict with broadcaster descriptions."
   }
 ]

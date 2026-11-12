@@ -1178,5 +1178,35 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage23-mahakatha-radio",
+    "name": "Mahakatha Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://mahakatharadio.com/"
+  },
+  {
+    "id": "stage23-shaiva-lahari",
+    "name": "Shaiva Lahari",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://shaivam.org/"
+  },
+  {
+    "id": "stage23-radio-sai",
+    "name": "Radio Sai",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.radiosai.org/"
   }
 ]
