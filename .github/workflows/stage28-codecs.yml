@@ -1,0 +1,20 @@
+name: Research — Detect playback codecs for RadioBee
+on:
+  push:
+    branches:
+      - feature/26-indian-languages-playable-expansion
+    paths:
+      - docs/stage28/codec-candidates.json
+      - scripts/stage28-codecs.py
+      - .github/workflows/stage28-codecs.yml
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFprobe
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Inspect stream codecs (research only)
+        run: python3 scripts/stage28-codecs.py
