@@ -2385,5 +2385,12 @@
     "url": "https://tingfm.com/radio/22882",
     "kind": "directory",
     "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-suryan-chennai-tamil-crabdance-primary",
+    "title": "Suryan FM 93.5 — Tamil CrabDance HTTPS mount (primary trial)",
+    "url": "https://tingfm.com/radio/25900",
+    "kind": "directory",
+    "notes": "13 Nov 2026: directory lists https://tamil.crabdance.com:8002/2 as Suryan FM 93.5. User reports that it is not playing yet and plans another check after 06:00 IST. Chennai programme identity, codec, TLS validation, client playback and listening/recording/rebroadcast rights are NOT independently verified; treat as primary unverified trial followed by existing listener-confirmed Chennai alternative."
   }
 ]

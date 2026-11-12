@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.2",
+  "catalogVersion": "2.8.3",
   "publishedOn": "2026-11-13",
   "defaultLocale": "en",
   "locales": [
@@ -48,7 +48,7 @@
     "networks": 237,
     "stations": 240,
     "locations": 147,
-    "streams": 244,
+    "streams": 245,
     "verifiedStreams": 1,
     "discoveryStations": 0,
     "discoverableStations": 240,

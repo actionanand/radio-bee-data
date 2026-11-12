@@ -5184,9 +5184,10 @@
       "mib-operational-2026-03",
       "discovery-regional-2026",
       "suryan-discovery-cities",
-      "stage18-crabdance-chennai-2"
+      "stage18-crabdance-chennai-2",
+      "stage33-suryan-chennai-tamil-crabdance-primary"
     ],
-    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 2 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 2 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed. 13 Nov 2026: added the separate tamil.crabdance.com:8002/2 primary trial at listener request, with existing radios.crabdance.com:8002/2 as second/fallback URL. The primary was currently unavailable to listener; both candidates remain unverified and usage permissions unconfirmed. City-specific equivalence of primary not independently established.",
     "aliases": [],
     "geographyEvidence": {
       "confidence": "medium",
@@ -5215,6 +5216,23 @@
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
     },
     "streams": [
+      {
+        "id": "stage33-suryan-chennai-tamil-crabdance-trial",
+        "url": "https://tamil.crabdance.com:8002/2",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage33-suryan-chennai-tamil-crabdance-primary",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage33-suryan-chennai-tamil-crabdance-primary",
+          "notes": "Primary attempt per user; currently reported not playing. Listed as Suryan FM 93.5 but Chennai-specific origin not confirmed. MP3 is provisional; do not mark verified without decoding. The existing radios.crabdance.com Chennai mount remains the ordered fallback.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      },
       {
         "id": "stage18-chennai-trial-2",
         "url": "https://radios.crabdance.com:8002/2",
