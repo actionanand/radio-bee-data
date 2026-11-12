@@ -6,7 +6,7 @@ const rows=[["hello-telugu-in","te","IN","https://listen.radioking.com/radio/503
 test('Stage 26 adds only decoded HTTPS research candidates and preserves zero discovery cards',()=>{
  const d=readCatalogue(undefined,'v2');
  assert.equal(d.index.catalogVersion,'2.8.0');
- assert.equal(d.stations.length,225);assert.equal(d.index.counts.streams,229);assert.deepEqual(d.discoveryStations,[]);
+ assert.equal(d.stations.length,227);assert.equal(d.index.counts.streams,231);assert.deepEqual(d.discoveryStations,[]);
  for(const [id,language,country,url] of rows){const s=d.stations.find(x=>x.id===id);assert.ok(s,id);assert.deepEqual(s.broadcastLanguages,[language]);assert.equal(s.countryCode,country);assert.equal(s.streams.length,1);assert.equal(s.streams[0].url,url);assert.ok(url.startsWith('https://'));assert.equal(s.streams[0].verificationStatus,'unverified');assert.equal(s.streams[0].rightsStatus,'unconfirmed');assert.equal(s.streams[0].directListening.status,'needs-review');}
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });

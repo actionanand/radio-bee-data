@@ -3,8 +3,8 @@
   "catalogVersion": "2.8.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 225,
-    "streamBearing": 225,
+    "all": 227,
+    "streamBearing": 227,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -168,9 +168,11 @@
     "stage29-mgr-sivaji-radio",
     "stage29-ms-viswanathan-hits",
     "stage29-na-muthukumar-hits",
+    "stage29-news7-tamil-tv-audio",
     "stage29-oli-saaral-fm",
     "stage29-om-sakthi-fm",
     "stage29-pasumai-90-4-fm",
+    "stage29-polimer-news-tv-audio",
     "stage29-rajini-radio",
     "stage29-retro-tamil-fm",
     "stage29-rj-tamil-fm",
@@ -565,9 +567,11 @@
           "stage29-mgr-sivaji-radio",
           "stage29-ms-viswanathan-hits",
           "stage29-na-muthukumar-hits",
+          "stage29-news7-tamil-tv-audio",
           "stage29-oli-saaral-fm",
           "stage29-om-sakthi-fm",
           "stage29-pasumai-90-4-fm",
+          "stage29-polimer-news-tv-audio",
           "stage29-rajini-radio",
           "stage29-retro-tamil-fm",
           "stage29-rj-tamil-fm",
@@ -613,8 +617,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 139,
-          "streamBearing": 139,
+          "all": 141,
+          "streamBearing": 141,
           "discoveryOnly": 0
         }
       },
@@ -1652,9 +1656,11 @@
           "stage29-mgr-sivaji-radio",
           "stage29-ms-viswanathan-hits",
           "stage29-na-muthukumar-hits",
+          "stage29-news7-tamil-tv-audio",
           "stage29-oli-saaral-fm",
           "stage29-om-sakthi-fm",
           "stage29-pasumai-90-4-fm",
+          "stage29-polimer-news-tv-audio",
           "stage29-rajini-radio",
           "stage29-retro-tamil-fm",
           "stage29-rj-tamil-fm",
@@ -1787,9 +1793,11 @@
           "stage29-mgr-sivaji-radio",
           "stage29-ms-viswanathan-hits",
           "stage29-na-muthukumar-hits",
+          "stage29-news7-tamil-tv-audio",
           "stage29-oli-saaral-fm",
           "stage29-om-sakthi-fm",
           "stage29-pasumai-90-4-fm",
+          "stage29-polimer-news-tv-audio",
           "stage29-rajini-radio",
           "stage29-retro-tamil-fm",
           "stage29-rj-tamil-fm",
@@ -1835,8 +1843,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 139,
-          "streamBearing": 139,
+          "all": 141,
+          "streamBearing": 141,
           "discoveryOnly": 0
         }
       },
@@ -5135,9 +5143,11 @@
           "stage29-mgr-sivaji-radio",
           "stage29-ms-viswanathan-hits",
           "stage29-na-muthukumar-hits",
+          "stage29-news7-tamil-tv-audio",
           "stage29-oli-saaral-fm",
           "stage29-om-sakthi-fm",
           "stage29-pasumai-90-4-fm",
+          "stage29-polimer-news-tv-audio",
           "stage29-rajini-radio",
           "stage29-retro-tamil-fm",
           "stage29-rj-tamil-fm",
@@ -5196,8 +5206,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 164,
-          "streamBearing": 164,
+          "all": 166,
+          "streamBearing": 166,
           "discoveryOnly": 0
         }
       },
@@ -5536,9 +5546,11 @@
           "stage29-mgr-sivaji-radio",
           "stage29-ms-viswanathan-hits",
           "stage29-na-muthukumar-hits",
+          "stage29-news7-tamil-tv-audio",
           "stage29-oli-saaral-fm",
           "stage29-om-sakthi-fm",
           "stage29-pasumai-90-4-fm",
+          "stage29-polimer-news-tv-audio",
           "stage29-rajini-radio",
           "stage29-retro-tamil-fm",
           "stage29-rj-tamil-fm",
@@ -5596,8 +5608,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 196,
-          "streamBearing": 196,
+          "all": 198,
+          "streamBearing": 198,
           "discoveryOnly": 0
         }
       }
@@ -9037,6 +9049,42 @@
         }
       },
       {
+        "id": "stage29-network-stage29-news7-tamil-tv-audio",
+        "name": "News7 Tamil — TV News Audio",
+        "key": "network:stage29-network-stage29-news7-tamil-tv-audio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage29-news7-tamil-tv-audio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage29-network-stage29-polimer-news-tv-audio",
+        "name": "Polimer News — TV News Audio",
+        "key": "network:stage29-network-stage29-polimer-news-tv-audio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage29-polimer-news-tv-audio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "stage29-network-tamil-kadavul-murugan-fm",
         "name": "Tamil Kadavul Murugan",
         "key": "network:stage29-network-tamil-kadavul-murugan-fm",
@@ -10188,6 +10236,8 @@
           "ibc-tamil-uk",
           "minnal-my",
           "oli-968-sg",
+          "stage29-news7-tamil-tv-audio",
+          "stage29-polimer-news-tv-audio",
           "stage29-top-news-thamizh-fm",
           "stage29-yazh-news",
           "star-fm-srilanka",
@@ -10196,8 +10246,8 @@
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 30,
-          "streamBearing": 30,
+          "all": 32,
+          "streamBearing": 32,
           "discoveryOnly": 0
         }
       },
@@ -10457,9 +10507,11 @@
         "stage29-mgr-sivaji-radio",
         "stage29-ms-viswanathan-hits",
         "stage29-na-muthukumar-hits",
+        "stage29-news7-tamil-tv-audio",
         "stage29-oli-saaral-fm",
         "stage29-om-sakthi-fm",
         "stage29-pasumai-90-4-fm",
+        "stage29-polimer-news-tv-audio",
         "stage29-rajini-radio",
         "stage29-retro-tamil-fm",
         "stage29-rj-tamil-fm",
@@ -10524,8 +10576,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 225,
-        "streamBearing": 225,
+        "all": 227,
+        "streamBearing": 227,
         "discoveryOnly": 0
       }
     },

@@ -2,7 +2,7 @@
 
 The user's 101 supplied references contained 99 distinct station-page slugs. The two repeated links were Pasumai FM 90.4 and Ilayaraja Voice FM. After excluding already-catalogued, repeated, mismatched, HTTP-only and video references, 82 distinct HTTPS streams were probed using FFmpeg and FFprobe in [CI run 43308964538](https://github.com/actionanand/radio-bee-data/actions/runs/43308964538). **81 passed**, **Imai FM timed out and was excluded**.
 
-The update adds 81 stream-bearing candidate stations (+81 URLs) with confirmed audio codecs. Catalogue v2.8.0 has 225 stations, 229 streams and zero discovery-only entries; it preserves all previous 144 stations/148 URLs and leaves v1 unchanged.
+The update adds 81 stream-bearing candidate stations (+81 URLs) with confirmed audio codecs. Catalogue v2.8.0 has 227 stations, 231 streams and zero discovery-only entries; it preserves all previous 144 stations/148 URLs and leaves v1 unchanged.
 
 Broadcast identity, country metadata, actual in-app playback and copyright permissions require separate verification. All new streams remain unverified and rights-unconfirmed; no recording or redistribution approvals. New genres: {"music":37,"artist-hits":25,"news":2,"devotional":17}.
 
@@ -89,3 +89,7 @@ Broadcast identity, country metadata, actual in-app playback and copyright permi
 | Kanal Music | IN | mp3 | https://stream.zeno.fm/yy5bpv2vk2zuv |
 | Kandhakapookkal Radio | IN | mp3 | https://stream.zenolive.com/050irbonp6auv |
 | Krishna FM | IN | mp3 | https://stream.zeno.fm/gdpufetpuy8uv |
+
+## Live TV news audio
+
+**News7 Tamil** and **Polimer News** were added by their actual HLS channel identities rather than the misleading TamilRadios `sun-news-live` page title. In [run 43310487366](https://github.com/actionanand/radio-bee-data/actions/runs/43310487366), FFprobe detected H.264 video and AAC audio for both, and FFmpeg successfully decoded six seconds of each audio track. The app uses an audio-element HLS player; playback of a video-bearing playlist in RadioBee still needs device/browser verification. These are trial `news` entries, with all permissions unconfirmed.

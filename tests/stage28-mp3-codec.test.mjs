@@ -6,8 +6,8 @@ const expected = [{"id":"hello-telugu-in","url":"https://listen.radioking.com/ra
 test('Stage 28 codec results unblock playable metadata without approving rights',()=>{
  const d=readCatalogue(undefined,'v2');
  assert.equal(d.index.catalogVersion,'2.8.0');
- assert.equal(d.stations.length,225);
- assert.equal(d.stations.flatMap(s=>s.streams).length,229);
+ assert.equal(d.stations.length,227);
+ assert.equal(d.stations.flatMap(s=>s.streams).length,231);
  assert.equal(d.discoveryStations.length,0);
  const map=new Map(d.stations.map(s=>[s.id,s]));
  for(const {id,url} of expected){
