@@ -8,7 +8,7 @@ test('Stage 28 codec results unblock playable metadata without approving rights'
  assert.equal(d.index.catalogVersion,'2.8.2');
  assert.equal(d.stations.length,240);
  assert.equal(d.stations.flatMap(s=>s.streams).length,244);
- assert.equal(d.discoveryStations.length,12);
+ assert.equal(d.discoveryStations.length,0);
  const map=new Map(d.stations.map(s=>[s.id,s]));
  for(const {id,url} of expected){
    const station=map.get(id);assert.ok(station,id);

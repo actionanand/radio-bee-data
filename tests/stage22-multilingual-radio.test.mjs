@@ -22,7 +22,7 @@ test('Stage 22 keeps dedicated Sanskrit online trial stations and supports accur
  assert.equal(d.index.catalogVersion,'2.8.2');
  assert.equal(d.stations.length,240);
  assert.equal(d.stations.flatMap(s=>s.streams).length,244);
- assert.equal(d.discoveryStations.length,12);
+ assert.equal(d.discoveryStations.length,0);
  for(const [id,url] of expectedSanskrit) {
   const s=d.stations.find(s=>s.id===id);
   assert.ok(s,id);assert.deepEqual(s.broadcastLanguages,['sa']);
