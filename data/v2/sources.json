@@ -2371,5 +2371,26 @@
     "url": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/",
     "kind": "third-party",
     "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage33-red-canada-official",
+    "title": "RED FM Canada — CKYR Calgary",
+    "url": "https://redfm.ca/",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-red-calgary-stream",
+    "title": "TingFM — CKYR secure stream endpoint",
+    "url": "https://tingfm.com/radio/22882",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-suryan-chennai-tamil-crabdance-primary",
+    "title": "Suryan FM 93.5 — Tamil CrabDance HTTPS mount (primary trial)",
+    "url": "https://tingfm.com/radio/25900",
+    "kind": "directory",
+    "notes": "13 Nov 2026: directory lists https://tamil.crabdance.com:8002/2 as Suryan FM 93.5. User reports that it is not playing yet and plans another check after 06:00 IST. Chennai programme identity, codec, TLS validation, client playback and listening/recording/rebroadcast rights are NOT independently verified; treat as primary unverified trial followed by existing listener-confirmed Chennai alternative."
   }
 ]

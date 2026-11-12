@@ -2428,5 +2428,15 @@
     ],
     "kind": "online",
     "website": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/"
+  },
+  {
+    "id": "stage33-red-fm-canada",
+    "name": "RED FM Canada",
+    "aliases": [],
+    "countryCodes": [
+      "CA"
+    ],
+    "kind": "online",
+    "website": "https://redfm.ca/"
   }
 ]

@@ -19,9 +19,9 @@ const sampleLanguages=[
 ];
 test('Stage 22 keeps dedicated Sanskrit online trial stations and supports accurate filters',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.1');
- assert.equal(d.stations.length,239);
- assert.equal(d.stations.flatMap(s=>s.streams).length,243);
+ assert.equal(d.index.catalogVersion,'2.8.3');
+ assert.equal(d.stations.length,240);
+ assert.equal(d.stations.flatMap(s=>s.streams).length,245);
  assert.equal(d.discoveryStations.length,0);
  for(const [id,url] of expectedSanskrit) {
   const s=d.stations.find(s=>s.id===id);
@@ -53,12 +53,12 @@ test('Stage 22 maintains all previous IDs and URL uniqueness, no unsupported rig
  for(const id of oldIds)assert.ok(d.stations.some(s=>s.id===id),id);
  assert.equal(d.stations.find(s=>s.id==='thaalam-in').streams[0].url,'https://themelo.in/stream/471');
  assert.equal(d.stations.find(s=>s.id==='thaalam-ch').streams[0].url,'https://thaalamradio.out.airtime.pro/thaalamradio_b');
- assert.equal(d.stations.filter(s=>s.delivery==='fm').length,56);
+ assert.equal(d.stations.filter(s=>s.delivery==='fm').length,57);
  assert.equal(d.index.counts.productionEligibleStations,0);
  assert.ok(d.stations.every(s=>s.streams.length));
  const urls=d.stations.flatMap(s=>s.streams.map(u=>u.url));
  assert.equal(new Set(urls).size,urls.length);
- assert.equal(d.index.counts.streams,243);
+ assert.equal(d.index.counts.streams,245);
 });
 test('Stage 22 manifest includes every network country and all known location references',()=>{
  const d=readCatalogue(undefined,'v2');

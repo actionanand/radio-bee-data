@@ -1013,5 +1013,19 @@
     "type": "country",
     "parentId": null,
     "countryCode": "BR"
+  },
+  {
+    "id": "ca-ab",
+    "name": "Alberta",
+    "type": "state",
+    "parentId": "ca",
+    "countryCode": "CA"
+  },
+  {
+    "id": "ca-ab-calgary",
+    "name": "Calgary",
+    "type": "locality",
+    "parentId": "ca-ab",
+    "countryCode": "CA"
   }
 ]

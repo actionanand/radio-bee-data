@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.1",
+  "catalogVersion": "2.8.3",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 239,
-    "streamBearing": 239,
+    "all": 240,
+    "streamBearing": 240,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -220,6 +220,7 @@
     "stage32-sgpc-gurbani",
     "stage32-siyatha-fm",
     "stage32-vividh-bharati-bengaluru",
+    "stage33-red-fm-calgary",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -335,11 +336,12 @@
           "east-fm-ca",
           "good-news-tamil-ca",
           "stage29-agaram-tamil-radio",
+          "stage33-red-fm-calgary",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 9,
+          "streamBearing": 9,
           "discoveryOnly": 0
         }
       },
@@ -1223,6 +1225,7 @@
         "countryCode": "CA",
         "parentId": null,
         "childIds": [
+          "ca-ab",
           "ca-on"
         ],
         "directStationIds": [
@@ -1237,11 +1240,52 @@
           "east-fm-ca",
           "good-news-tamil-ca",
           "stage29-agaram-tamil-radio",
+          "stage33-red-fm-calgary",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 9,
+          "streamBearing": 9,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "ca-ab",
+        "name": "Alberta",
+        "key": "location:ca-ab",
+        "type": "state",
+        "countryCode": "CA",
+        "parentId": "ca",
+        "childIds": [
+          "ca-ab-calgary"
+        ],
+        "directStationIds": [],
+        "stationIds": [
+          "stage33-red-fm-calgary"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "ca-ab-calgary",
+        "name": "Calgary",
+        "key": "location:ca-ab-calgary",
+        "type": "locality",
+        "countryCode": "CA",
+        "parentId": "ca-ab",
+        "childIds": [],
+        "directStationIds": [
+          "stage33-red-fm-calgary"
+        ],
+        "stationIds": [
+          "stage33-red-fm-calgary"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -4536,11 +4580,12 @@
           "radio-mirchi-dubai-ae",
           "radio-plus-indiz-mu",
           "shaiva-lahari-in",
-          "stage32-retro-bollywood-90s"
+          "stage32-retro-bollywood-90s",
+          "stage33-red-fm-calgary"
         ],
         "counts": {
-          "all": 15,
-          "streamBearing": 15,
+          "all": 16,
+          "streamBearing": 16,
           "discoveryOnly": 0
         }
       },
@@ -4897,11 +4942,12 @@
           "3zzz-au",
           "bol-punjabi-radio-in",
           "east-fm-ca",
-          "stage32-sgpc-gurbani"
+          "stage32-sgpc-gurbani",
+          "stage33-red-fm-calgary"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -5671,6 +5717,7 @@
           "stage32-sgpc-gurbani",
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
+          "stage33-red-fm-calgary",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -5693,8 +5740,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 210,
-          "streamBearing": 210,
+          "all": 211,
+          "streamBearing": 211,
           "discoveryOnly": 0
         }
       }
@@ -9656,6 +9703,24 @@
         }
       },
       {
+        "id": "stage33-red-fm-canada",
+        "name": "RED FM Canada",
+        "key": "network:stage33-red-fm-canada",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage33-red-fm-calgary"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -10499,6 +10564,7 @@
           "stage32-retro-bollywood-90s",
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
+          "stage33-red-fm-calgary",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -10517,8 +10583,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 132,
-          "streamBearing": 132,
+          "all": 133,
+          "streamBearing": 133,
           "discoveryOnly": 0
         }
       },
@@ -10576,14 +10642,15 @@
           "lotus-fm-za",
           "sanskrit-bharati-radio-in",
           "shiva-tattvam",
+          "stage33-red-fm-calgary",
           "sveriges-radio-p1-se",
           "tamil-894-ae",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 11,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       }
@@ -10872,6 +10939,7 @@
         "stage32-sgpc-gurbani",
         "stage32-siyatha-fm",
         "stage32-vividh-bharati-bengaluru",
+        "stage33-red-fm-calgary",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -10901,8 +10969,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 239,
-        "streamBearing": 239,
+        "all": 240,
+        "streamBearing": 240,
         "discoveryOnly": 0
       }
     },
