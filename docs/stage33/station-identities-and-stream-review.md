@@ -1,29 +1,27 @@
-# Stage 33 — Streema, Suryan cities, Radio Beat, Mirchi and RED FM
+# Stage 33 — Direct-stream candidates only
 
-Added **12 discovery-only, correctly named radio stations** (not playable), plus **one new unverified HTTPS AAC direct-stream candidate** for CKYR RED FM Calgary. Retained all existing 239 playable-candidate stations and 243 stream URLs. All additions have sourceIds and independent locations where known.
+Stage 33's 12 discovery-only stations have been removed from the **published v2 station catalogues** because RadioBee must only list stations that have direct audio URL candidates.
 
-## Discovery-only (no direct HTTPS audio validated)
+- Published stream-bearing stations: **240** (239 unchanged prior candidates + one RED FM Calgary candidate)
+- Direct HTTPS stream URL candidates: **244**
+- Discovery-only stations: **0**
+- Stream verification and in-app playback **not established** by this change; the one new Calgary stream remains `unverified`.
+- No TV-news channels were introduced.
 
-- Suryan FM Madurai (IN) — stage33-suryan-madurai
-- Suryan FM Puducherry (IN) — stage33-suryan-puducherry
-- Suryan FM Tirunelveli (IN) — stage33-suryan-tirunelveli
-- Suryan FM Tiruchirappalli (IN) — stage33-suryan-tiruchirappalli
-- Suryan FM Coimbatore (IN) — stage33-suryan-coimbatore
-- Radio Beat Retro (IN) — stage33-beat-retro
-- Radio Beat Malayalam (IN) — stage33-beat-malayalam
-- Tamil Comedy Radio (IN) — stage33-tamil-comedy-radio
-- Southradios Tamil Lite Radio (IN) — stage33-southradios-tamil-lite
-- Radio Mirchi Delhi 98.3 (IN) — stage33-mirchi-delhi
-- Red FM Delhi 93.5 (IN) — stage33-red-delhi
-- Mirchi FM Fiji (FBC) (FJ) — stage33-fbc-mirchi-fiji
+## Research leads — NOT published as stations or streams
 
-## Direct stream candidate
+These are historical or directory-listed URLs supplied by the user or found in web directories. Some use insecure HTTP, may be inactive, may be a playlist, or may be incorrectly attributed. No city-specific Suryan stream is established.
 
-- RED FM Calgary 106.7 (CKYR), Canada: `https://ice10.securenetsystems.net/CKYR` (directory-listed AAC, not FFmpeg confirmed). The supplied `http://14013.live.streamtheworld.com/CKYRFM_SC` and `http://playerservices.streamtheworld.com/pls/CKYRFM.pls` refer to that **same CKYR station**, not independent stations.
+- **Radio Beat Retro:** `http://5.63.151.52:7142/stream`
+- **Radio Beat Malayalam:** `http://malayalam.radiobeat.in`
+- **Tamil Comedy Radio:** `http://tamilcomedy.gomaly.com:7010`
+- **Southradios Tamil Lite:** `http://212.83.138.48:8348/;`
+- **Suryan FM 93.5 (unspecified city):** `https://tamil.crabdance.com:8002/2`
+- **Mirchi 98.3 (city/origin unconfirmed):** `http://peridot.streamguys.com:7150/Mirchi`
+- **RED FM Calgary CKYR (HTTP):** `http://14013.live.streamtheworld.com/CKYRFM_SC`
+- **RED FM Calgary CKYR (HTTPS candidate):** `https://ice10.securenetsystems.net/CKYR`
+- **RED FM Calgary CKYR (playlist, not direct stream):** `http://playerservices.streamtheworld.com/pls/CKYRFM.pls`
 
-## Exclusions and identity protection
+The 12 removed discoveries were: Suryan FM Madurai; Suryan FM Puducherry; Suryan FM Tirunelveli; Suryan FM Tiruchirappalli; Suryan FM Coimbatore; Radio Beat Retro; Radio Beat Malayalam; Tamil Comedy Radio; Southradios Tamil Lite Radio; Radio Mirchi Delhi 98.3; Red FM Delhi 93.5; Mirchi FM Fiji (FBC).
 
-- `http://peridot.streamguys.com:7150/Mirchi` refers to **FBC Mirchi FM Fiji**, not Indian Radio Mirchi. It is HTTP-only, so store identity as discovery only; do not change the scheme speculatively.
-- RadioIndia's Mirchi 98.3 directory does not demonstrate a Delhi-specific direct stream; Chennai remains unchanged in the existing catalogue.
-- Five Suryan regional stations have separate identities but no unique, confirmed city-specific internet streams; do not reuse Chennai's stream.
-- No TV news stations reintroduced. No rights/recording/rebroadcast permissions asserted.
+A station should only return to `data/v2/stations.json` when a non-duplicate HTTPS direct stream candidate has been credibly associated with its exact identity. Discovery-only records must not be added. Existing candidates are not guaranteed playable until actual FFprobe/FFmpeg and client tests succeed.

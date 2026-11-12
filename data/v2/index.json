@@ -19,7 +19,6 @@
     "DK",
     "EG",
     "FI",
-    "FJ",
     "FR",
     "GB",
     "HR",
@@ -46,13 +45,13 @@
     "ZA"
   ],
   "counts": {
-    "networks": 242,
+    "networks": 237,
     "stations": 240,
-    "locations": 148,
+    "locations": 147,
     "streams": 244,
     "verifiedStreams": 1,
-    "discoveryStations": 12,
-    "discoverableStations": 252,
+    "discoveryStations": 0,
+    "discoverableStations": 240,
     "stationsWithStreamCandidates": 240,
     "productionEligibleStations": 0
   },

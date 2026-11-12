@@ -1015,13 +1015,6 @@
     "countryCode": "BR"
   },
   {
-    "id": "fj",
-    "name": "Fiji",
-    "type": "country",
-    "parentId": null,
-    "countryCode": "FJ"
-  },
-  {
     "id": "ca-ab",
     "name": "Alberta",
     "type": "state",

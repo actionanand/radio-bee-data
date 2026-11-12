@@ -2430,46 +2430,6 @@
     "website": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/"
   },
   {
-    "id": "stage33-radio-beat",
-    "name": "Radio Beat",
-    "aliases": [],
-    "countryCodes": [
-      "IN"
-    ],
-    "kind": "online",
-    "website": "https://radiobeat.in/"
-  },
-  {
-    "id": "stage33-tamil-comedy",
-    "name": "Tamil Comedy Radio",
-    "aliases": [],
-    "countryCodes": [
-      "IN"
-    ],
-    "kind": "online",
-    "website": null
-  },
-  {
-    "id": "stage33-southradios",
-    "name": "SouthRadios",
-    "aliases": [],
-    "countryCodes": [
-      "IN"
-    ],
-    "kind": "online",
-    "website": "https://preview.southradios.net/"
-  },
-  {
-    "id": "stage33-red-fm-india",
-    "name": "Red FM India",
-    "aliases": [],
-    "countryCodes": [
-      "IN"
-    ],
-    "kind": "online",
-    "website": "https://redfmindia.in/"
-  },
-  {
     "id": "stage33-red-fm-canada",
     "name": "RED FM Canada",
     "aliases": [],
@@ -2478,15 +2438,5 @@
     ],
     "kind": "online",
     "website": "https://redfm.ca/"
-  },
-  {
-    "id": "stage33-fbc-mirchi-fiji",
-    "name": "Mirchi FM Fiji (FBC)",
-    "aliases": [],
-    "countryCodes": [
-      "FJ"
-    ],
-    "kind": "online",
-    "website": "https://www.fbcnews.com.fj/about/"
   }
 ]

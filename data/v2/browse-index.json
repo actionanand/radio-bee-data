@@ -3,9 +3,9 @@
   "catalogVersion": "2.8.2",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 252,
+    "all": 240,
     "streamBearing": 240,
-    "discoveryOnly": 12
+    "discoveryOnly": 0
   },
   "stationIds": [
     "3zzz-au",
@@ -220,19 +220,7 @@
     "stage32-sgpc-gurbani",
     "stage32-siyatha-fm",
     "stage32-vividh-bharati-bengaluru",
-    "stage33-beat-malayalam",
-    "stage33-beat-retro",
-    "stage33-fbc-mirchi-fiji",
-    "stage33-mirchi-delhi",
-    "stage33-red-delhi",
     "stage33-red-fm-calgary",
-    "stage33-southradios-tamil-lite",
-    "stage33-suryan-coimbatore",
-    "stage33-suryan-madurai",
-    "stage33-suryan-puducherry",
-    "stage33-suryan-tiruchirappalli",
-    "stage33-suryan-tirunelveli",
-    "stage33-tamil-comedy-radio",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -433,20 +421,6 @@
           "all": 2,
           "streamBearing": 2,
           "discoveryOnly": 0
-        }
-      },
-      {
-        "id": "FJ",
-        "name": "Fiji",
-        "key": "country:FJ",
-        "locationId": "fj",
-        "stationIds": [
-          "stage33-fbc-mirchi-fiji"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
         }
       },
       {
@@ -653,17 +627,6 @@
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
           "stage32-vividh-bharati-bengaluru",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
-          "stage33-tamil-comedy-radio",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -677,9 +640,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 161,
+          "all": 150,
           "streamBearing": 150,
-          "discoveryOnly": 11
+          "discoveryOnly": 0
         }
       },
       {
@@ -970,18 +933,18 @@
           "ae-du"
         ],
         "directStationIds": [
-          "exclusively-adele-ae",
           "exclusively-backstreet-boys-ae",
-          "exclusively-ed-sheeran-ae",
-          "exclusively-justin-bieber-ae",
-          "exclusively-michael-jackson-ae",
-          "exclusively-one-direction-ae",
-          "exclusively-queen-ae",
-          "exclusively-shakira-ae",
           "exclusively-taylor-swift-ae",
-          "exclusively-westlife-ae",
           "freefm-uae-sinhala-ae",
-          "radio-mirchi-dubai-ae"
+          "radio-mirchi-dubai-ae",
+          "exclusively-michael-jackson-ae",
+          "exclusively-justin-bieber-ae",
+          "exclusively-shakira-ae",
+          "exclusively-one-direction-ae",
+          "exclusively-adele-ae",
+          "exclusively-ed-sheeran-ae",
+          "exclusively-queen-ae",
+          "exclusively-westlife-ae"
         ],
         "stationIds": [
           "exclusively-adele-ae",
@@ -1452,8 +1415,8 @@
         "parentId": "ch",
         "childIds": [],
         "directStationIds": [
-          "akkini-ch",
-          "thaalam-ch"
+          "thaalam-ch",
+          "akkini-ch"
         ],
         "stationIds": [
           "akkini-ch",
@@ -1476,10 +1439,10 @@
           "de-nw"
         ],
         "directStationIds": [
-          "80s80s-michael-jackson-de",
+          "vaagai-tamil-de",
           "radio-paloma-de",
-          "stage29-thenral-world-radio",
-          "vaagai-tamil-de"
+          "80s80s-michael-jackson-de",
+          "stage29-thenral-world-radio"
         ],
         "stationIds": [
           "80s80s-michael-jackson-de",
@@ -1523,8 +1486,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "myrock-dk",
-          "pop-fm-dk"
+          "pop-fm-dk",
+          "myrock-dk"
         ],
         "stationIds": [
           "myrock-dk",
@@ -1579,26 +1542,6 @@
         }
       },
       {
-        "id": "fj",
-        "name": "Fiji",
-        "key": "location:fj",
-        "type": "country",
-        "countryCode": "FJ",
-        "parentId": null,
-        "childIds": [],
-        "directStationIds": [
-          "stage33-fbc-mirchi-fiji"
-        ],
-        "stationIds": [
-          "stage33-fbc-mirchi-fiji"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
         "id": "fr",
         "name": "France",
         "key": "location:fr",
@@ -1607,8 +1550,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "jazz-radio-blues-fr",
           "namathu-fm-fr",
+          "jazz-radio-blues-fr",
           "stage29-trt-tamil-oli"
         ],
         "stationIds": [
@@ -1722,116 +1665,116 @@
           "in-tn"
         ],
         "directStationIds": [
-          "air-raagam",
           "air-vividh-bharati",
-          "bol-punjabi-radio-in",
-          "divyavani-sanskrit-in",
-          "hello-telugu-in",
-          "hindi-gold-radio-in",
-          "ilayaraja-radio",
-          "kannada-hits-in",
+          "air-raagam",
           "luminous-radio-tamil",
-          "mahakatha-radio-in",
-          "radio-amr-kannada-in",
-          "radio-malayalam-in",
-          "radio-mast-marathi-in",
-          "radio-quarantine-kolkata-in",
-          "sanskrit-bharati-radio-in",
-          "shaiva-lahari-in",
           "shiva-tattvam",
+          "thiruneriya-thamizhosai",
+          "tamil-panpalai",
+          "vaanam-fm-hd",
+          "tamil-80s-hits",
+          "thaalam-in",
+          "ilayaraja-radio",
+          "divyavani-sanskrit-in",
+          "sanskrit-bharati-radio-in",
+          "mahakatha-radio-in",
+          "shaiva-lahari-in",
+          "hello-telugu-in",
+          "radio-malayalam-in",
+          "bol-punjabi-radio-in",
+          "radio-mast-marathi-in",
+          "radio-amr-kannada-in",
+          "kannada-hits-in",
+          "hindi-gold-radio-in",
+          "radio-quarantine-kolkata-in",
+          "stage29-clubhouse-tamil-90s-2k-vibes",
+          "stage29-jipmer-radio",
+          "stage29-kodai-aruvi-fm",
+          "stage29-saamanthi-fm",
+          "stage29-tamil-mellisai-fm",
+          "stage29-madhuram-radio",
+          "stage29-tuticorin-radio",
+          "stage29-dindigul-radio",
+          "stage29-vaalai-fm",
+          "stage29-jayam-fm-7-1",
+          "stage29-retro-tamil-fm",
+          "stage29-oli-saaral-fm",
+          "stage29-pasumai-90-4-fm",
+          "stage29-tiruvannamalai-city-fm",
+          "stage29-rockfort-radio",
+          "stage29-i-tamil-media-fm",
+          "stage29-covai-city-fm",
+          "stage29-ss-tamil-radio",
+          "stage29-rj-tamil-fm",
           "stage29-100-love-radio",
           "stage29-100-new-songs",
           "stage29-100-sad-songs",
-          "stage29-aadhi-sivan-fm",
-          "stage29-aanmeega-sudar",
+          "stage29-tamil-ragam",
           "stage29-airtamil-90s",
-          "stage29-arrahman-classic",
-          "stage29-arrahman-classic-hits",
-          "stage29-ayngaran-radio",
           "stage29-captain-fm",
-          "stage29-clubhouse-tamil-90s-2k-vibes",
-          "stage29-covai-city-fm",
-          "stage29-deva-radio",
-          "stage29-dharisanam-fm",
-          "stage29-dindigul-radio",
-          "stage29-guru-raghavendra-radio",
-          "stage29-harris-jayaraj-radio",
-          "stage29-i-tamil-media-fm",
-          "stage29-ilayaraja-voice-fm",
-          "stage29-imman-radio",
-          "stage29-isai-manam",
-          "stage29-jayam-fm-7-1",
-          "stage29-jipmer-radio",
-          "stage29-jp-chandrababu-hits",
           "stage29-kaadhal-fm",
+          "stage29-love-songs-tamil",
+          "stage29-love-bites-mohan-songs",
+          "stage29-loveda-fm",
+          "stage29-sad-songs-fm",
+          "stage29-rocker-radio-tamil-gold-70s-90s",
+          "stage29-mgr-sivaji-radio",
+          "stage29-spb-online-radio",
+          "stage29-harris-jayaraj-radio",
+          "stage29-ks-chitra-radio",
+          "stage29-deva-radio",
+          "stage29-kj-yesudas-radio",
+          "stage29-tms-radio",
+          "stage29-s-janaki-radio",
+          "stage29-mano-radio",
+          "stage29-spb-old-hits-fm",
+          "stage29-ilayaraja-voice-fm",
+          "stage29-top-news-thamizh-fm",
+          "stage29-santhosh-narayanan-radio",
+          "stage29-arrahman-classic",
+          "stage29-makkal-thilagam-mgr",
+          "stage29-ms-viswanathan-hits",
+          "stage29-simbu-hits",
+          "stage29-maestro-hits",
+          "stage29-yuvan-shankar-raja-ysr",
+          "stage29-arrahman-classic-hits",
+          "stage29-rajini-radio",
+          "stage29-na-muthukumar-hits",
+          "stage29-imman-radio",
+          "stage29-thaman-hits",
+          "stage29-jp-chandrababu-hits",
+          "stage29-vijay-tamil-radio",
+          "stage29-isai-manam",
+          "stage29-tamil-kadavul-murugan-fm",
+          "stage29-shaivam-radio",
+          "stage29-ayngaran-radio",
+          "stage29-aadhi-sivan-fm",
+          "stage29-om-sakthi-fm",
+          "stage29-ss-devotional-radio",
+          "stage29-guru-raghavendra-radio",
+          "stage29-vishnu-fm",
+          "stage29-saranam-ayyappa-fm",
+          "stage29-sai-fm-radio",
+          "stage29-aanmeega-sudar",
+          "stage29-sivasubramaniyam-ayyappan-songs-fm",
+          "stage29-sree-kurumba-fm",
+          "stage29-dharisanam-fm",
+          "stage29-singampunari-fm",
           "stage29-kalai-fm",
           "stage29-kanal-music",
           "stage29-kandhakapookkal-radio",
-          "stage29-kj-yesudas-radio",
-          "stage29-kodai-aruvi-fm",
           "stage29-krishna-fm",
-          "stage29-ks-chitra-radio",
-          "stage29-love-bites-mohan-songs",
-          "stage29-love-songs-tamil",
-          "stage29-loveda-fm",
-          "stage29-madhuram-radio",
-          "stage29-maestro-hits",
-          "stage29-makkal-thilagam-mgr",
-          "stage29-mano-radio",
-          "stage29-mgr-sivaji-radio",
-          "stage29-ms-viswanathan-hits",
-          "stage29-na-muthukumar-hits",
-          "stage29-oli-saaral-fm",
-          "stage29-om-sakthi-fm",
-          "stage29-pasumai-90-4-fm",
-          "stage29-rajini-radio",
-          "stage29-retro-tamil-fm",
-          "stage29-rj-tamil-fm",
-          "stage29-rocker-radio-tamil-gold-70s-90s",
-          "stage29-rockfort-radio",
-          "stage29-s-janaki-radio",
-          "stage29-saamanthi-fm",
-          "stage29-sad-songs-fm",
-          "stage29-sai-fm-radio",
-          "stage29-santhosh-narayanan-radio",
-          "stage29-saranam-ayyappa-fm",
-          "stage29-shaivam-radio",
-          "stage29-simbu-hits",
-          "stage29-singampunari-fm",
-          "stage29-sivasubramaniyam-ayyappan-songs-fm",
-          "stage29-spb-old-hits-fm",
-          "stage29-spb-online-radio",
-          "stage29-sree-kurumba-fm",
-          "stage29-ss-devotional-radio",
-          "stage29-ss-tamil-radio",
-          "stage29-tamil-kadavul-murugan-fm",
-          "stage29-tamil-mellisai-fm",
-          "stage29-tamil-ragam",
-          "stage29-thaman-hits",
-          "stage29-tiruvannamalai-city-fm",
-          "stage29-tms-radio",
-          "stage29-top-news-thamizh-fm",
-          "stage29-tuticorin-radio",
-          "stage29-vaalai-fm",
-          "stage29-vijay-tamil-radio",
-          "stage29-vishnu-fm",
-          "stage29-yuvan-shankar-raja-ysr",
-          "stage32-air-telugu-online",
-          "stage32-ap9-fm",
+          "stage32-vividh-bharati-bengaluru",
           "stage32-bhakti-sangeet",
-          "stage32-digital-malayali",
-          "stage32-dnyaneshwari",
+          "stage32-ap9-fm",
+          "stage32-air-telugu-online",
           "stage32-fm-rainbow-vijayawada",
-          "stage32-malayalam-bhakthi",
-          "stage32-radio-choklate",
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
-          "stage32-vividh-bharati-bengaluru",
-          "tamil-80s-hits",
-          "tamil-panpalai",
-          "thaalam-in",
-          "thiruneriya-thamizhosai",
-          "vaanam-fm-hd"
+          "stage32-malayalam-bhakthi",
+          "stage32-digital-malayali",
+          "stage32-radio-choklate",
+          "stage32-dnyaneshwari"
         ],
         "stationIds": [
           "air-chennai-gold",
@@ -1973,17 +1916,6 @@
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
           "stage32-vividh-bharati-bengaluru",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
-          "stage33-tamil-comedy-radio",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -1997,9 +1929,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 161,
+          "all": 150,
           "streamBearing": 150,
-          "discoveryOnly": 11
+          "discoveryOnly": 0
         }
       },
       {
@@ -2065,14 +1997,11 @@
           "in-dl-new-delhi"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2086,14 +2015,11 @@
           "in-dl-new-delhi-new-delhi"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2104,18 +2030,12 @@
         "countryCode": "IN",
         "parentId": "in-dl-new-delhi",
         "childIds": [],
-        "directStationIds": [
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi"
-        ],
-        "stationIds": [
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2619,13 +2539,12 @@
         "directStationIds": [],
         "stationIds": [
           "air-karaikal",
-          "air-puducherry",
-          "stage33-suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 3,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -2680,13 +2599,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-puducherry",
-          "stage33-suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -2698,17 +2616,15 @@
         "parentId": "in-py-puducherry",
         "childIds": [],
         "directStationIds": [
-          "air-puducherry",
-          "stage33-suryan-puducherry"
+          "air-puducherry"
         ],
         "stationIds": [
-          "air-puducherry",
-          "stage33-suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -2792,8 +2708,8 @@
           "air-tamil",
           "amudham-fm-in",
           "inbam-fm",
-          "radio-beat-extra",
-          "radio-beat-love"
+          "radio-beat-love",
+          "radio-beat-extra"
         ],
         "stationIds": [
           "air-chennai-gold",
@@ -2821,14 +2737,6 @@
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
-          "stage33-tamil-comedy-radio",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-christian-radio-in",
@@ -2836,9 +2744,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 38,
+          "all": 30,
           "streamBearing": 30,
-          "discoveryOnly": 8
+          "discoveryOnly": 0
         }
       },
       {
@@ -2860,18 +2768,14 @@
           "hello-chennai",
           "mirchi-chennai",
           "radio-city-chennai",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-southradios-tamil-lite",
-          "stage33-tamil-comedy-radio",
           "suryan-chennai",
           "tamil-christian-radio-in",
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 14,
+          "all": 10,
           "streamBearing": 10,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2883,20 +2787,16 @@
         "parentId": "in-tn-chennai",
         "childIds": [],
         "directStationIds": [
-          "air-chennai-gold",
           "air-chennai-rainbow",
+          "air-chennai-gold",
           "air-chennai-vividh-tamil",
-          "big-chennai",
           "hello-chennai",
-          "mirchi-chennai",
-          "radio-city-chennai",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-southradios-tamil-lite",
-          "stage33-tamil-comedy-radio",
-          "suryan-chennai",
+          "vaanmalar-fm-in",
           "tamil-christian-radio-in",
-          "vaanmalar-fm-in"
+          "mirchi-chennai",
+          "suryan-chennai",
+          "big-chennai",
+          "radio-city-chennai"
         ],
         "stationIds": [
           "air-chennai-gold",
@@ -2906,18 +2806,14 @@
           "hello-chennai",
           "mirchi-chennai",
           "radio-city-chennai",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-southradios-tamil-lite",
-          "stage33-tamil-comedy-radio",
           "suryan-chennai",
           "tamil-christian-radio-in",
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 14,
+          "all": 10,
           "streamBearing": 10,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2935,13 +2831,12 @@
         ],
         "stationIds": [
           "air-coimbatore",
-          "pollachi-fm",
-          "stage33-suryan-coimbatore"
+          "pollachi-fm"
         ],
         "counts": {
-          "all": 3,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -2953,17 +2848,15 @@
         "parentId": "in-tn-coimbatore",
         "childIds": [],
         "directStationIds": [
-          "air-coimbatore",
-          "stage33-suryan-coimbatore"
+          "air-coimbatore"
         ],
         "stationIds": [
-          "air-coimbatore",
-          "stage33-suryan-coimbatore"
+          "air-coimbatore"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3188,13 +3081,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-madurai",
-          "stage33-suryan-madurai"
+          "air-madurai"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3206,17 +3098,15 @@
         "parentId": "in-tn-madurai",
         "childIds": [],
         "directStationIds": [
-          "air-madurai",
-          "stage33-suryan-madurai"
+          "air-madurai"
         ],
         "stationIds": [
-          "air-madurai",
-          "stage33-suryan-madurai"
+          "air-madurai"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3439,13 +3329,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-tiruchirappalli",
-          "stage33-suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3457,17 +3346,15 @@
         "parentId": "in-tn-tiruchirappalli",
         "childIds": [],
         "directStationIds": [
-          "air-tiruchirappalli",
-          "stage33-suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "stationIds": [
-          "air-tiruchirappalli",
-          "stage33-suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3482,13 +3369,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-tirunelveli",
-          "stage33-suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3500,17 +3386,15 @@
         "parentId": "in-tn-tirunelveli",
         "childIds": [],
         "directStationIds": [
-          "air-tirunelveli",
-          "stage33-suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "stationIds": [
-          "air-tirunelveli",
-          "stage33-suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3661,17 +3545,17 @@
           "lk-wp"
         ],
         "directStationIds": [
-          "ada-ceylon-fm",
-          "ilangai-vaanoli",
-          "shakthi-srilanka",
-          "slbc-tamil-national-service",
           "sooriyan-srilanka",
-          "stage29-yazh-news",
-          "stage32-neth-fm",
-          "stage32-ran-fm",
-          "stage32-siyatha-fm",
+          "vasantham-srilanka",
+          "shakthi-srilanka",
           "star-fm-srilanka",
-          "vasantham-srilanka"
+          "slbc-tamil-national-service",
+          "ilangai-vaanoli",
+          "ada-ceylon-fm",
+          "stage29-yazh-news",
+          "stage32-ran-fm",
+          "stage32-neth-fm",
+          "stage32-siyatha-fm"
         ],
         "stationIds": [
           "ada-ceylon-fm",
@@ -4042,8 +3926,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "jei-fm-my",
           "minnal-my",
+          "jei-fm-my",
           "raaga-my"
         ],
         "stationIds": [
@@ -4066,8 +3950,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "slam-nl",
-          "stad-den-haag-nl"
+          "stad-den-haag-nl",
+          "slam-nl"
         ],
         "stationIds": [
           "slam-nl",
@@ -4090,8 +3974,8 @@
           "no-oslo"
         ],
         "directStationIds": [
-          "radio-norge-no",
-          "thuthi-fm-no"
+          "thuthi-fm-no",
+          "radio-norge-no"
         ],
         "stationIds": [
           "radio-norge-no",
@@ -4209,8 +4093,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "pirate-rock-se",
-          "sveriges-radio-p1-se"
+          "sveriges-radio-p1-se",
+          "pirate-rock-se"
         ],
         "stationIds": [
           "pirate-rock-se",
@@ -4251,8 +4135,8 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
-          "radio-nrj-ua",
-          "radio-roks-ua"
+          "radio-roks-ua",
+          "radio-nrj-ua"
         ],
         "stationIds": [
           "radio-nrj-ua",
@@ -4697,15 +4581,12 @@
           "radio-plus-indiz-mu",
           "shaiva-lahari-in",
           "stage32-retro-bollywood-90s",
-          "stage33-fbc-mirchi-fiji",
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi",
           "stage33-red-fm-calgary"
         ],
         "counts": {
-          "all": 19,
+          "all": 16,
           "streamBearing": 16,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -4966,13 +4847,12 @@
           "radio-malayalam-in",
           "shaiva-lahari-in",
           "stage32-digital-malayali",
-          "stage32-malayalam-bhakthi",
-          "stage33-beat-malayalam"
+          "stage32-malayalam-bhakthi"
         ],
         "counts": {
-          "all": 15,
+          "all": 14,
           "streamBearing": 14,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5419,14 +5299,6 @@
           "stage29-vishnu-fm",
           "stage29-yazh-news",
           "stage29-yuvan-shankar-raja-ysr",
-          "stage33-beat-retro",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
-          "stage33-tamil-comedy-radio",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
@@ -5450,9 +5322,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 172,
+          "all": 164,
           "streamBearing": 164,
-          "discoveryOnly": 8
+          "discoveryOnly": 0
         }
       },
       {
@@ -5845,19 +5717,7 @@
           "stage32-sgpc-gurbani",
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-fbc-mirchi-fiji",
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi",
           "stage33-red-fm-calgary",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
-          "stage33-tamil-comedy-radio",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -5880,9 +5740,9 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 223,
+          "all": 211,
           "streamBearing": 211,
-          "discoveryOnly": 12
+          "discoveryOnly": 0
         }
       }
     ],
@@ -6655,13 +6515,12 @@
         ],
         "broadcasterId": "enil",
         "stationIds": [
-          "mirchi-chennai",
-          "stage33-mirchi-delhi"
+          "mirchi-chennai"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -9844,43 +9703,6 @@
         }
       },
       {
-        "id": "stage33-fbc-mirchi-fiji",
-        "name": "Mirchi FM Fiji (FBC)",
-        "key": "network:stage33-fbc-mirchi-fiji",
-        "aliases": [],
-        "countryCodes": [
-          "FJ"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage33-fbc-mirchi-fiji"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
-        "id": "stage33-radio-beat",
-        "name": "Radio Beat",
-        "key": "network:stage33-radio-beat",
-        "aliases": [],
-        "countryCodes": [
-          "IN"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage33-beat-malayalam",
-          "stage33-beat-retro"
-        ],
-        "counts": {
-          "all": 2,
-          "streamBearing": 0,
-          "discoveryOnly": 2
-        }
-      },
-      {
         "id": "stage33-red-fm-canada",
         "name": "RED FM Canada",
         "key": "network:stage33-red-fm-canada",
@@ -9896,60 +9718,6 @@
           "all": 1,
           "streamBearing": 1,
           "discoveryOnly": 0
-        }
-      },
-      {
-        "id": "stage33-red-fm-india",
-        "name": "Red FM India",
-        "key": "network:stage33-red-fm-india",
-        "aliases": [],
-        "countryCodes": [
-          "IN"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage33-red-delhi"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
-        "id": "stage33-southradios",
-        "name": "SouthRadios",
-        "key": "network:stage33-southradios",
-        "aliases": [],
-        "countryCodes": [
-          "IN"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage33-southradios-tamil-lite"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
-        "id": "stage33-tamil-comedy",
-        "name": "Tamil Comedy Radio",
-        "key": "network:stage33-tamil-comedy",
-        "aliases": [],
-        "countryCodes": [
-          "IN"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage33-tamil-comedy-radio"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
         }
       },
       {
@@ -9982,17 +9750,12 @@
         ],
         "broadcasterId": "sun-tv-network",
         "stationIds": [
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
           "suryan-chennai"
         ],
         "counts": {
-          "all": 6,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 5
+          "discoveryOnly": 0
         }
       },
       {
@@ -10302,13 +10065,12 @@
           "mirchi"
         ],
         "stationIds": [
-          "mirchi-chennai",
-          "stage33-mirchi-delhi"
+          "mirchi-chennai"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -10475,17 +10237,12 @@
           "suryan-in"
         ],
         "stationIds": [
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
           "suryan-chennai"
         ],
         "counts": {
-          "all": 6,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 5
+          "discoveryOnly": 0
         }
       }
     ],
@@ -10674,7 +10431,6 @@
           "sooriyan-srilanka",
           "stage32-fm-rainbow-vijayawada",
           "stage32-neth-fm",
-          "stage33-tamil-comedy-radio",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "telemetro-radio-pa",
@@ -10682,9 +10438,9 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 38,
+          "all": 37,
           "streamBearing": 37,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -10808,18 +10564,7 @@
           "stage32-retro-bollywood-90s",
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
-          "stage33-beat-malayalam",
-          "stage33-beat-retro",
-          "stage33-fbc-mirchi-fiji",
-          "stage33-mirchi-delhi",
-          "stage33-red-delhi",
           "stage33-red-fm-calgary",
-          "stage33-southradios-tamil-lite",
-          "stage33-suryan-coimbatore",
-          "stage33-suryan-madurai",
-          "stage33-suryan-puducherry",
-          "stage33-suryan-tiruchirappalli",
-          "stage33-suryan-tirunelveli",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -10838,9 +10583,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 144,
+          "all": 133,
           "streamBearing": 133,
-          "discoveryOnly": 11
+          "discoveryOnly": 0
         }
       },
       {
@@ -11233,24 +10978,11 @@
       "id": "discovery-only",
       "name": "discovery-only",
       "key": "availability:discovery-only",
-      "stationIds": [
-        "stage33-beat-malayalam",
-        "stage33-beat-retro",
-        "stage33-fbc-mirchi-fiji",
-        "stage33-mirchi-delhi",
-        "stage33-red-delhi",
-        "stage33-southradios-tamil-lite",
-        "stage33-suryan-coimbatore",
-        "stage33-suryan-madurai",
-        "stage33-suryan-puducherry",
-        "stage33-suryan-tiruchirappalli",
-        "stage33-suryan-tirunelveli",
-        "stage33-tamil-comedy-radio"
-      ],
+      "stationIds": [],
       "counts": {
-        "all": 12,
+        "all": 0,
         "streamBearing": 0,
-        "discoveryOnly": 12
+        "discoveryOnly": 0
       }
     }
   ]
