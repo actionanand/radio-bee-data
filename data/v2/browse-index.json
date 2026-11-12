@@ -840,18 +840,6 @@
         }
       },
       {
-        "id": "NZ",
-        "name": "New Zealand",
-        "key": "country:NZ",
-        "locationId": "nz",
-        "stationIds": [],
-        "counts": {
-          "all": 0,
-          "streamBearing": 0,
-          "discoveryOnly": 0
-        }
-      },
-      {
         "id": "PA",
         "name": "Panama",
         "key": "country:PA",
