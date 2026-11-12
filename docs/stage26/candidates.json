@@ -187,5 +187,47 @@
     "country": "CA",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2180174_SC",
     "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio AMR Kannada",
+    "language": "kn",
+    "country": "IN",
+    "url": "https://stream.zenolive.com/7g8axtgtsg0uv",
+    "source": "https://72fm.com/station/73eba1fd-3bf7-48e7-9289-18084ee342e9"
+  },
+  {
+    "name": "Kannada Hits",
+    "language": "kn",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/68snnbug8rhvv",
+    "source": "https://72fm.com/station/7bfa32e7-a239-4f59-904a-fcf602b06404"
+  },
+  {
+    "name": "Hindi Gold Radio",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://azuracast.vibesounds.in:8010/radio.mp3",
+    "source": "https://72fm.com/station/7dd71b85-139b-4362-81b1-4206133a517c"
+  },
+  {
+    "name": "Radio Mirchi Hindi Directory",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
+    "source": "https://72fm.com/station/cdd3b5a0-47f6-46d5-8209-b78e8b10ff6e"
+  },
+  {
+    "name": "AIR Assamese",
+    "language": "as",
+    "country": "IN",
+    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio133/chunklist.m3u8",
+    "source": "https://tingfm.com/radio/26005"
+  },
+  {
+    "name": "Radio Quarantine Kolkata",
+    "language": "bn",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/krk4kw830tzuv",
+    "source": "https://72fm.com/station/3e86e3b4-cdaf-4c6f-be93-4674b94aab6d"
   }
 ]
