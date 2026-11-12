@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Radio City Kannada",
+    "language": "kn",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/m3q5v4dvyc9uv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u"
+  },
+  {
+    "name": "Radio City Kannada Official Candidate",
+    "language": "kn",
+    "country": "IN",
+    "url": "https://prclive4.listenon.in/Kannada",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio Girmit",
+    "language": "kn",
+    "country": "IN",
+    "url": "https://stream.radiojar.com/vpzg366xaseuv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Swara Madhuri Telugu",
+    "language": "te",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/zman3kqfzeruv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Hello Telugu",
+    "language": "te",
+    "country": "IN",
+    "url": "https://listen.radioking.com/radio/503281/stream/560701",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Radio Mirchi Tapaka Telugu",
+    "language": "te",
+    "country": "IN",
+    "url": "https://mirchitapakahd-lh.akamaihd.net/i/mirchitapakahdlive_1_1@322572/master.m3u8",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u"
+  },
+  {
+    "name": "Radio Telugu FM",
+    "language": "te",
+    "country": "IN",
+    "url": "https://stream.zenolive.com/yc3meeygey5tv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio Malayalam",
+    "language": "ml",
+    "country": "IN",
+    "url": "https://radiomalayalamfm.com/radio/8000/radio.mp3",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u"
+  },
+  {
+    "name": "FM Ragam Malayalam",
+    "language": "ml",
+    "country": "IN",
+    "url": "https://azuracloud.mydnsweb.com/radio/8030/radio.mp3",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u"
+  },
+  {
+    "name": "Knpinfotech Malayalam Radio",
+    "language": "ml",
+    "country": "IN",
+    "url": "https://radio.111google.com/stream/1/",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Bol Punjabi Radio",
+    "language": "pa",
+    "country": "IN",
+    "url": "https://bolpunjabi-ekamsoftware.radioca.st//stream",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Punjabi Songs Radio",
+    "language": "pa",
+    "country": "IN",
+    "url": "https://s2.radio.co/sbb640c97c/listen",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Bollywood Punjabi Radio",
+    "language": "pa",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/1k0y9f0cm0quv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Odia Radio",
+    "language": "or",
+    "country": "IN",
+    "url": "https://radio.mycast.in/radio/8000/radio.mp3",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Radio Mast Marathi",
+    "language": "mr",
+    "country": "IN",
+    "url": "https://stream.zeno.fm/8fqvoovoiwtuv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Sheetal Sangeet Gujarati",
+    "language": "gu",
+    "country": "IN",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3603688_SC",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio City Hindi",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://prclive4.listenon.in/Hindi",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio Hindi International",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://stream.bongonet.net/proxy/rhi?mp=/stream/1/",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Meethi Mirchi Hindi",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929/MUM/MEETHI64kbps.m3u8",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/allradio.net/India.m3u"
+  },
+  {
+    "name": "Sport Flashes Bangla Radio",
+    "language": "bn",
+    "country": "IN",
+    "url": "https://radioindia.net/radio/bangla-sports/icecast.audio",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Hiru FM Sinhala",
+    "language": "si",
+    "country": "LK",
+    "url": "https://radio.lotustechnologieslk.net:2020/stream/1/",
+    "source": "https://www.freqtrail.com/stations/LK"
+  },
+  {
+    "name": "Shaa FM Sinhala",
+    "language": "si",
+    "country": "LK",
+    "url": "https://radio.lotustechnologieslk.net:2020/shaafmgarden",
+    "source": "https://www.freqtrail.com/stations/LK"
+  },
+  {
+    "name": "Free FM Sinhala",
+    "language": "si",
+    "country": "LK",
+    "url": "https://stream.zeno.fm/n7u7aog5og6vv",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/indian.m3u"
+  },
+  {
+    "name": "Sinhala Rangiri Sri Lanka",
+    "language": "si",
+    "country": "LK",
+    "url": "https://stream.zeno.fm/4u1p4kz3g0quv",
+    "source": "https://www.freqtrail.com/stations/LK"
+  },
+  {
+    "name": "Telugu Christian Radio",
+    "language": "te",
+    "country": "IN",
+    "url": "https://eu2.fastcast4u.com/proxy/teluguchristainradio?mp=/stream/1/",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Hindi Christian Music Radio",
+    "language": "hi",
+    "country": "IN",
+    "url": "https://eu2.fastcast4u.com/proxy/hindiradio?mp=/stream/1/",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  },
+  {
+    "name": "Radio Spice Punjabi",
+    "language": "pa",
+    "country": "CA",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R2180174_SC",
+    "source": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/radio_matik/india.m3u"
+  }
+]
