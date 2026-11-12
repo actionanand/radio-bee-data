@@ -52,7 +52,21 @@
     "KW": "Kuwait",
     "QA": "Qatar",
     "FR": "France",
-    "IE": "Ireland"
+    "IE": "Ireland",
+    "FI": "Finland",
+    "LT": "Lithuania",
+    "DK": "Denmark",
+    "NL": "Netherlands",
+    "IT": "Italy",
+    "MX": "Mexico",
+    "SE": "Sweden",
+    "PL": "Poland",
+    "HR": "Croatia",
+    "EG": "Egypt",
+    "UA": "Ukraine",
+    "JM": "Jamaica",
+    "PA": "Panama",
+    "BR": "Brazil"
   },
   "regions": {
     "in-tn": "Tamil Nadu",

@@ -1286,5 +1286,187 @@
     "url": "https://themelo.in/s/415/raaga-fm",
     "kind": "directory",
     "notes": "User's 12 November 2026 WSL2 F12 Playwright capture linked this page to https://listen.openstream.co/7044/audio. No independent decoded playback, broadcaster origin/identity authentication, TLS integrity check or RadioBee permission established. Capture is a candidate only."
+  },
+  {
+    "id": "stage22-source-divyavani-sanskrit-in",
+    "title": "Stage 22 stream candidate Divyavani Sanskrit Radio",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u. Stream: https://divyavani.radioca.st/stream. Sanskrit-language internet broadcaster, described by Sanskrit Documents; playlist has direct HTTPS MP3 endpoint. No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-sanskrit-bharati-radio-in",
+    "title": "Stage 22 stream candidate Radio Sanskrit Bharati",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u. Stream: https://stream.zeno.fm/c0adewsyw8quv. Dedicated Sanskrit station name and HTTPS Zeno URL in curated playlist; schedule and sustained language identity not independently decoded. No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-paloma-de",
+    "title": "Stage 22 stream candidate Radio Paloma",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://pool.radiopaloma.de/RADIOPALOMA.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-norge-no",
+    "title": "Stage 22 stream candidate Radio Norge",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://live-bauerno.sharp-stream.com/radionorge_no_mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-realradio-ireland-ie",
+    "title": "Stage 22 stream candidate RealRadio Ireland",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.zeno.fm/6g19fr9psnhvv.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-nostalgia-fi",
+    "title": "Stage 22 stream candidate Nostalgia Finland",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.bauermedia.fi/nostalgia/nostalgia_128.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-suomipop-fi",
+    "title": "Stage 22 stream candidate SuomiPop",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://digitacdn.akamaized.net/hls/live/629243/radiosuomipop/master.m3u8.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-r-lt",
+    "title": "Stage 22 stream candidate Radio-R Lithuania",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream1.rusradio.lt/rrb128.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-znad-wilii-lt",
+    "title": "Stage 22 stream candidate Znad Wilii",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://plays.zw.lt/zw128.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-pop-fm-dk",
+    "title": "Stage 22 stream candidate Pop FM Denmark",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://live-bauerdk.sharp-stream.com/popfm128.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-myrock-dk",
+    "title": "Stage 22 stream candidate MyRock Denmark",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://live-bauerdk.sharp-stream.com/myrock.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-stad-den-haag-nl",
+    "title": "Stage 22 stream candidate Radio Stad Den Haag",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.radiostaddenhaag.com/stream/1/.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-slam-nl",
+    "title": "Stage 22 stream candidate SLAM! Netherlands",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://25233.live.streamtheworld.com/SLAM_MP3_SC.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-kiss-kiss-italia-it",
+    "title": "Stage 22 stream candidate Radio Kiss Kiss Italia",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://ice06.fluidstream.net/KKItalia.aac.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-exa-fm-mexico",
+    "title": "Stage 22 stream candidate Exa FM Mexico",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://27033.live.streamtheworld.com/XHEXA_SC.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-sveriges-radio-p1-se",
+    "title": "Stage 22 stream candidate Sveriges Radio P1",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://http-live.sr.se/p1-mp3-192.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-pirate-rock-se",
+    "title": "Stage 22 stream candidate Pirate Rock Sweden",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.piraterock.se:8100/webradio.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-dla-doroslych-pl",
+    "title": "Stage 22 stream candidate Radio dla Dorosłych",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://s3.slotex.pl:7586/stream.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-max-hr",
+    "title": "Stage 22 stream candidate Radio Max Croatia",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://azuracast.novi-net.net/radio/8010/radiomax.aac.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-nagham-fm-eg",
+    "title": "Stage 22 stream candidate Nagham FM Egypt",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://ahmsamir.radioca.st/stream.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-roks-ua",
+    "title": "Stage 22 stream candidate Radio ROKS Ukraine",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://online.radioroks.ua/RadioROKS.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-nrj-ua",
+    "title": "Stage 22 stream candidate Radio NRJ Ukraine",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://cast.radiogroup.com.ua/nrj.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-radio-jamaica-jm",
+    "title": "Stage 22 stream candidate Radio Jamaica",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.zeno.fm/ebqnzkvyv9duv.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-telemetro-radio-pa",
+    "title": "Stage 22 stream candidate Telemetro Radio Panama",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/5eed1f402a71ff071938abc2.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-77h-fm-br",
+    "title": "Stage 22 stream candidate 77H FM Guarujá SP",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://stream.zeno.fm/wc7imbfxq9cvv.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+  },
+  {
+    "id": "stage22-source-jazz-radio-blues-fr",
+    "title": "Stage 22 stream candidate Jazz Radio Blues France",
+    "url": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "kind": "directory",
+    "notes": "Candidate station and HTTPS URL found in https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt. Stream: https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3.  No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
   }
 ]

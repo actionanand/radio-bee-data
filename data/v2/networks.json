@@ -918,5 +918,265 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage22-divyavani-sanskrit-in",
+    "name": "Divyavani Sanskrit Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-sanskrit-bharati-radio-in",
+    "name": "Radio Sanskrit Bharati",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-paloma-de",
+    "name": "Radio Paloma",
+    "aliases": [],
+    "countryCodes": [
+      "DE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-norge-no",
+    "name": "Radio Norge",
+    "aliases": [],
+    "countryCodes": [
+      "NO"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-realradio-ireland-ie",
+    "name": "RealRadio Ireland",
+    "aliases": [],
+    "countryCodes": [
+      "IE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-nostalgia-fi",
+    "name": "Nostalgia Finland",
+    "aliases": [],
+    "countryCodes": [
+      "FI"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-suomipop-fi",
+    "name": "SuomiPop",
+    "aliases": [],
+    "countryCodes": [
+      "FI"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-r-lt",
+    "name": "Radio-R Lithuania",
+    "aliases": [],
+    "countryCodes": [
+      "LT"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-znad-wilii-lt",
+    "name": "Znad Wilii",
+    "aliases": [],
+    "countryCodes": [
+      "LT"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-pop-fm-dk",
+    "name": "Pop FM Denmark",
+    "aliases": [],
+    "countryCodes": [
+      "DK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-myrock-dk",
+    "name": "MyRock Denmark",
+    "aliases": [],
+    "countryCodes": [
+      "DK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-stad-den-haag-nl",
+    "name": "Radio Stad Den Haag",
+    "aliases": [],
+    "countryCodes": [
+      "NL"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-slam-nl",
+    "name": "SLAM! Netherlands",
+    "aliases": [],
+    "countryCodes": [
+      "NL"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-kiss-kiss-italia-it",
+    "name": "Radio Kiss Kiss Italia",
+    "aliases": [],
+    "countryCodes": [
+      "IT"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-exa-fm-mexico",
+    "name": "Exa FM Mexico",
+    "aliases": [],
+    "countryCodes": [
+      "MX"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-sveriges-radio-p1-se",
+    "name": "Sveriges Radio P1",
+    "aliases": [],
+    "countryCodes": [
+      "SE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-pirate-rock-se",
+    "name": "Pirate Rock Sweden",
+    "aliases": [],
+    "countryCodes": [
+      "SE"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-dla-doroslych-pl",
+    "name": "Radio dla Dorosłych",
+    "aliases": [],
+    "countryCodes": [
+      "PL"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-max-hr",
+    "name": "Radio Max Croatia",
+    "aliases": [],
+    "countryCodes": [
+      "HR"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-nagham-fm-eg",
+    "name": "Nagham FM Egypt",
+    "aliases": [],
+    "countryCodes": [
+      "EG"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-roks-ua",
+    "name": "Radio ROKS Ukraine",
+    "aliases": [],
+    "countryCodes": [
+      "UA"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-nrj-ua",
+    "name": "Radio NRJ Ukraine",
+    "aliases": [],
+    "countryCodes": [
+      "UA"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-radio-jamaica-jm",
+    "name": "Radio Jamaica",
+    "aliases": [],
+    "countryCodes": [
+      "JM"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-telemetro-radio-pa",
+    "name": "Telemetro Radio Panama",
+    "aliases": [],
+    "countryCodes": [
+      "PA"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-77h-fm-br",
+    "name": "77H FM Guarujá SP",
+    "aliases": [],
+    "countryCodes": [
+      "BR"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage22-jazz-radio-blues-fr",
+    "name": "Jazz Radio Blues France",
+    "aliases": [],
+    "countryCodes": [
+      "FR"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]

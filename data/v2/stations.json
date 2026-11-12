@@ -6149,5 +6149,1149 @@
         }
       }
     ]
+  },
+  {
+    "id": "divyavani-sanskrit-in",
+    "name": "Divyavani Sanskrit Radio",
+    "networkId": "stage22-divyavani-sanskrit-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "sa"
+    ],
+    "genres": [
+      "talk"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u",
+    "sourceIds": [
+      "stage22-source-divyavani-sanskrit-in"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u. Sanskrit-language internet broadcaster, described by Sanskrit Documents; playlist has direct HTTPS MP3 endpoint. Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-divyavani-sanskrit-in",
+        "url": "https://divyavani.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-divyavani-sanskrit-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-divyavani-sanskrit-in",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sanskrit-bharati-radio-in",
+    "name": "Radio Sanskrit Bharati",
+    "networkId": "stage22-sanskrit-bharati-radio-in",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "sa"
+    ],
+    "genres": [
+      "talk"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u",
+    "sourceIds": [
+      "stage22-source-sanskrit-bharati-radio-in"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u. Dedicated Sanskrit station name and HTTPS Zeno URL in curated playlist; schedule and sustained language identity not independently decoded. Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-sanskrit-bharati-radio-in",
+        "url": "https://stream.zeno.fm/c0adewsyw8quv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-sanskrit-bharati-radio-in",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-sanskrit-bharati-radio-in",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-paloma-de",
+    "name": "Radio Paloma",
+    "networkId": "stage22-radio-paloma-de",
+    "countryCode": "DE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "de"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-paloma-de"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-paloma-de",
+        "url": "https://pool.radiopaloma.de/RADIOPALOMA.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-paloma-de",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-paloma-de",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-norge-no",
+    "name": "Radio Norge",
+    "networkId": "stage22-radio-norge-no",
+    "countryCode": "NO",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "no"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-norge-no"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-norge-no",
+        "url": "https://live-bauerno.sharp-stream.com/radionorge_no_mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-norge-no",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-norge-no",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "realradio-ireland-ie",
+    "name": "RealRadio Ireland",
+    "networkId": "stage22-realradio-ireland-ie",
+    "countryCode": "IE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-realradio-ireland-ie"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-realradio-ireland-ie",
+        "url": "https://stream.zeno.fm/6g19fr9psnhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-realradio-ireland-ie",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-realradio-ireland-ie",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nostalgia-fi",
+    "name": "Nostalgia Finland",
+    "networkId": "stage22-nostalgia-fi",
+    "countryCode": "FI",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "fi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-nostalgia-fi"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-nostalgia-fi",
+        "url": "https://stream.bauermedia.fi/nostalgia/nostalgia_128.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-nostalgia-fi",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-nostalgia-fi",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "suomipop-fi",
+    "name": "SuomiPop",
+    "networkId": "stage22-suomipop-fi",
+    "countryCode": "FI",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "fi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-suomipop-fi"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-suomipop-fi",
+        "url": "https://digitacdn.akamaized.net/hls/live/629243/radiosuomipop/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-suomipop-fi",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-suomipop-fi",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-r-lt",
+    "name": "Radio-R Lithuania",
+    "networkId": "stage22-radio-r-lt",
+    "countryCode": "LT",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ru"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-r-lt"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-r-lt",
+        "url": "https://stream1.rusradio.lt/rrb128.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-r-lt",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-r-lt",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "znad-wilii-lt",
+    "name": "Znad Wilii",
+    "networkId": "stage22-znad-wilii-lt",
+    "countryCode": "LT",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "pl"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-znad-wilii-lt"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-znad-wilii-lt",
+        "url": "https://plays.zw.lt/zw128",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-znad-wilii-lt",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-znad-wilii-lt",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pop-fm-dk",
+    "name": "Pop FM Denmark",
+    "networkId": "stage22-pop-fm-dk",
+    "countryCode": "DK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "da"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-pop-fm-dk"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-pop-fm-dk",
+        "url": "https://live-bauerdk.sharp-stream.com/popfm128.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-pop-fm-dk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-pop-fm-dk",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "myrock-dk",
+    "name": "MyRock Denmark",
+    "networkId": "stage22-myrock-dk",
+    "countryCode": "DK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "da"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-myrock-dk"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-myrock-dk",
+        "url": "https://live-bauerdk.sharp-stream.com/myrock.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-myrock-dk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-myrock-dk",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stad-den-haag-nl",
+    "name": "Radio Stad Den Haag",
+    "networkId": "stage22-stad-den-haag-nl",
+    "countryCode": "NL",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "nl"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-stad-den-haag-nl"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-stad-den-haag-nl",
+        "url": "https://stream.radiostaddenhaag.com/stream/1/",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-stad-den-haag-nl",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-stad-den-haag-nl",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "slam-nl",
+    "name": "SLAM! Netherlands",
+    "networkId": "stage22-slam-nl",
+    "countryCode": "NL",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "nl"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-slam-nl"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-slam-nl",
+        "url": "https://25233.live.streamtheworld.com/SLAM_MP3_SC",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-slam-nl",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-slam-nl",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kiss-kiss-italia-it",
+    "name": "Radio Kiss Kiss Italia",
+    "networkId": "stage22-kiss-kiss-italia-it",
+    "countryCode": "IT",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "it"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-kiss-kiss-italia-it"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-kiss-kiss-italia-it",
+        "url": "https://ice06.fluidstream.net/KKItalia.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-kiss-kiss-italia-it",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-kiss-kiss-italia-it",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exa-fm-mexico",
+    "name": "Exa FM Mexico",
+    "networkId": "stage22-exa-fm-mexico",
+    "countryCode": "MX",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "es"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-exa-fm-mexico"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-exa-fm-mexico",
+        "url": "https://27033.live.streamtheworld.com/XHEXA_SC",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-exa-fm-mexico",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-exa-fm-mexico",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sveriges-radio-p1-se",
+    "name": "Sveriges Radio P1",
+    "networkId": "stage22-sveriges-radio-p1-se",
+    "countryCode": "SE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "sv"
+    ],
+    "genres": [
+      "talk"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-sveriges-radio-p1-se"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-sveriges-radio-p1-se",
+        "url": "https://http-live.sr.se/p1-mp3-192",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-sveriges-radio-p1-se",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-sveriges-radio-p1-se",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pirate-rock-se",
+    "name": "Pirate Rock Sweden",
+    "networkId": "stage22-pirate-rock-se",
+    "countryCode": "SE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "sv"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-pirate-rock-se"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-pirate-rock-se",
+        "url": "https://stream.piraterock.se:8100/webradio",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-pirate-rock-se",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-pirate-rock-se",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-dla-doroslych-pl",
+    "name": "Radio dla Dorosłych",
+    "networkId": "stage22-radio-dla-doroslych-pl",
+    "countryCode": "PL",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "pl"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-dla-doroslych-pl"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-dla-doroslych-pl",
+        "url": "https://s3.slotex.pl:7586/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-dla-doroslych-pl",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-dla-doroslych-pl",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-max-hr",
+    "name": "Radio Max Croatia",
+    "networkId": "stage22-radio-max-hr",
+    "countryCode": "HR",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hr"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-max-hr"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-max-hr",
+        "url": "https://azuracast.novi-net.net/radio/8010/radiomax.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-max-hr",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-max-hr",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nagham-fm-eg",
+    "name": "Nagham FM Egypt",
+    "networkId": "stage22-nagham-fm-eg",
+    "countryCode": "EG",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ar"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-nagham-fm-eg"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-nagham-fm-eg",
+        "url": "https://ahmsamir.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-nagham-fm-eg",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-nagham-fm-eg",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-roks-ua",
+    "name": "Radio ROKS Ukraine",
+    "networkId": "stage22-radio-roks-ua",
+    "countryCode": "UA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "uk"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-roks-ua"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-roks-ua",
+        "url": "https://online.radioroks.ua/RadioROKS",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-roks-ua",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-roks-ua",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-nrj-ua",
+    "name": "Radio NRJ Ukraine",
+    "networkId": "stage22-radio-nrj-ua",
+    "countryCode": "UA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "uk"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-nrj-ua"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-nrj-ua",
+        "url": "https://cast.radiogroup.com.ua/nrj",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-nrj-ua",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-nrj-ua",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-jamaica-jm",
+    "name": "Radio Jamaica",
+    "networkId": "stage22-radio-jamaica-jm",
+    "countryCode": "JM",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-radio-jamaica-jm"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-radio-jamaica-jm",
+        "url": "https://stream.zeno.fm/ebqnzkvyv9duv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-radio-jamaica-jm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-radio-jamaica-jm",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "telemetro-radio-pa",
+    "name": "Telemetro Radio Panama",
+    "networkId": "stage22-telemetro-radio-pa",
+    "countryCode": "PA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "es"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-telemetro-radio-pa"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-telemetro-radio-pa",
+        "url": "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/5eed1f402a71ff071938abc2",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-telemetro-radio-pa",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-telemetro-radio-pa",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "77h-fm-br",
+    "name": "77H FM Guarujá SP",
+    "networkId": "stage22-77h-fm-br",
+    "countryCode": "BR",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "pt"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-77h-fm-br"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-77h-fm-br",
+        "url": "https://stream.zeno.fm/wc7imbfxq9cvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-77h-fm-br",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-77h-fm-br",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jazz-radio-blues-fr",
+    "name": "Jazz Radio Blues France",
+    "networkId": "stage22-jazz-radio-blues-fr",
+    "countryCode": "FR",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "fr"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt",
+    "sourceIds": [
+      "stage22-source-jazz-radio-blues-fr"
+    ],
+    "notes": "HTTPS stream candidate from https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt.  Delivery=FM follows publisher/directory name only and does not verify a transmitter or region. Language association is provisional where not supported by independently observed speech. All usage permissions, TLS/browser compatibility and sustained playback are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage22-stream-jazz-radio-blues-fr",
+        "url": "https://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage22-source-jazz-radio-blues-fr",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage22-source-jazz-radio-blues-fr",
+          "notes": "Station-specific HTTPS candidate from third-party playlist; sustained decoded playback and rights were not tested. Format inferred from URL or playlist and is provisional.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

@@ -915,5 +915,103 @@
     "type": "locality",
     "parentId": "in-tn-nilgiris",
     "countryCode": "IN"
+  },
+  {
+    "id": "fi",
+    "name": "Finland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "FI"
+  },
+  {
+    "id": "lt",
+    "name": "Lithuania",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "LT"
+  },
+  {
+    "id": "dk",
+    "name": "Denmark",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "DK"
+  },
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "NL"
+  },
+  {
+    "id": "it",
+    "name": "Italy",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "IT"
+  },
+  {
+    "id": "mx",
+    "name": "Mexico",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "MX"
+  },
+  {
+    "id": "se",
+    "name": "Sweden",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "SE"
+  },
+  {
+    "id": "pl",
+    "name": "Poland",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "PL"
+  },
+  {
+    "id": "hr",
+    "name": "Croatia",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "HR"
+  },
+  {
+    "id": "eg",
+    "name": "Egypt",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "EG"
+  },
+  {
+    "id": "ua",
+    "name": "Ukraine",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "UA"
+  },
+  {
+    "id": "jm",
+    "name": "Jamaica",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "JM"
+  },
+  {
+    "id": "pa",
+    "name": "Panama",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "PA"
+  },
+  {
+    "id": "br",
+    "name": "Brazil",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "BR"
   }
 ]
