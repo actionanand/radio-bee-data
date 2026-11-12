@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.1.0",
-  "publishedOn": "2026-11-12",
+  "catalogVersion": "2.1.1",
+  "publishedOn": "2026-11-13",
   "defaultLocale": "en",
   "locales": [
     "en",
@@ -24,6 +24,7 @@
     "MU",
     "MY",
     "NO",
+    "NZ",
     "QA",
     "SG",
     "US",

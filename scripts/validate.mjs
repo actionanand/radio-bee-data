@@ -160,7 +160,15 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
     const files={networks:'networks.json',stations:'stations.json',locations:'locations.json',languages:'languages.json',categories:'categories.json',sources:'sources.json',stationMigrations:'station-migrations.json',discoveryStations:'discovery-stations.json',broadcasters:'broadcasters.json',programmeThemes:'programme-themes.json',browseIndex:'browse-index.json'};
     const optional=['broadcasters','programmeThemes','browseIndex'];
     if(!index.files||Object.keys(index.files).some(key=>!Object.hasOwn(files,key))||Object.entries(files).some(([key,file])=>(!optional.includes(key)||index.files?.[key]!==undefined)&&index.files?.[key]!==file))errors.push('Invalid or incomplete v2 manifest references');
-    const countries=[...new Set([...(stations??[]),...(data.discoveryStations??[])].map(s=>s.countryCode))].sort();
+    // v2 manifest declares every country used by its referenced registries, not
+    // just countries with a playable station. Clients validate network and
+    // location records before displaying the station directory.
+    const countries=[...new Set([
+      ...(networks??[]).flatMap(n=>n.countryCodes??[]),
+      ...(locations??[]).map(l=>l.countryCode),
+      ...(stations??[]).map(s=>s.countryCode),
+      ...(data.discoveryStations??[]).map(s=>s.countryCode),
+    ])].sort();
     if(JSON.stringify(index.countries)!==JSON.stringify(countries))errors.push('Invalid v2 manifest country inventory');
   }
   if (index?.defaultLocale !== 'en' || JSON.stringify(index?.locales) !== JSON.stringify(['en','ta','sa'])) errors.push('Invalid index locales');
