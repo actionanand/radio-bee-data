@@ -2308,5 +2308,175 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage31-network-news18-tamil-nadu",
+    "name": "News18 Tamil Nadu — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-thanthi-tv",
+    "name": "Thanthi TV — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-puthiya-thalaimurai",
+    "name": "Puthiya Thalaimurai — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-news-tamil-24x7",
+    "name": "News Tamil 24x7 — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-sathiyam-tv",
+    "name": "Sathiyam TV — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-kalaignar-seithigal",
+    "name": "Kalaignar Seithigal — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-tamil-janam",
+    "name": "Tamil Janam — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-cnn-news18",
+    "name": "CNN-News18 — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-india-today",
+    "name": "India Today — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-ndtv-24x7",
+    "name": "NDTV 24x7 — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-ndtv-profit",
+    "name": "NDTV Profit — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-wion",
+    "name": "WION — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-republic-tv",
+    "name": "Republic TV — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-dd-india",
+    "name": "DD India — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-cnbc-tv18",
+    "name": "CNBC TV18 — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-mirror-now",
+    "name": "Mirror Now — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage31-network-newsx",
+    "name": "NewsX — TV News Audio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]

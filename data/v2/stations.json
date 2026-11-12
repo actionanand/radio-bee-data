@@ -12099,5 +12099,753 @@
         }
       }
     ]
+  },
+  {
+    "id": "stage31-news18-tamil-nadu",
+    "name": "News18 Tamil Nadu — TV News Audio",
+    "networkId": "stage31-network-news18-tamil-nadu",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-news18-tamil-nadu"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-news18-tamil-nadu",
+        "url": "https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-news18-tamil-nadu",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-news18-tamil-nadu",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-thanthi-tv",
+    "name": "Thanthi TV — TV News Audio",
+    "networkId": "stage31-network-thanthi-tv",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-thanthi-tv"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-thanthi-tv",
+        "url": "https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-thanthi-tv",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-thanthi-tv",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-puthiya-thalaimurai",
+    "name": "Puthiya Thalaimurai — TV News Audio",
+    "networkId": "stage31-network-puthiya-thalaimurai",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-puthiya-thalaimurai"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-puthiya-thalaimurai",
+        "url": "https://cdn.pishow.tv/ott/live/1261/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-puthiya-thalaimurai",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-puthiya-thalaimurai",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-news-tamil-24x7",
+    "name": "News Tamil 24x7 — TV News Audio",
+    "networkId": "stage31-network-news-tamil-24x7",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-news-tamil-24x7"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-news-tamil-24x7",
+        "url": "https://vglivessai.akamaized.net/ptnr-yupptv/title-News_Tamil/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/bc657abd-5bf5-4526-9038-d42bbb9ca249/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-news-tamil-24x7",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-news-tamil-24x7",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-sathiyam-tv",
+    "name": "Sathiyam TV — TV News Audio",
+    "networkId": "stage31-network-sathiyam-tv",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-sathiyam-tv"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-sathiyam-tv",
+        "url": "https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-sathiyam-tv",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-sathiyam-tv",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-kalaignar-seithigal",
+    "name": "Kalaignar Seithigal — TV News Audio",
+    "networkId": "stage31-network-kalaignar-seithigal",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-kalaignar-seithigal"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-kalaignar-seithigal",
+        "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/KalaignarSeithigal.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-kalaignar-seithigal",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-kalaignar-seithigal",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-tamil-janam",
+    "name": "Tamil Janam — TV News Audio",
+    "networkId": "stage31-network-tamil-janam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-tamil-janam"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-tamil-janam",
+        "url": "https://mumt01.tangotv.in/O5aw8Zn3JANAMTVTAMIL/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-tamil-janam",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-tamil-janam",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-cnn-news18",
+    "name": "CNN-News18 — TV News Audio",
+    "networkId": "stage31-network-cnn-news18",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-cnn-news18"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-cnn-news18",
+        "url": "https://n18syndication.akamaized.net/bpk-tv/CNN_News18_NW18_MOB/output01/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-cnn-news18",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-cnn-news18",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-india-today",
+    "name": "India Today — TV News Audio",
+    "networkId": "stage31-network-india-today",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-india-today"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-india-today",
+        "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-india-today",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-india-today",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-ndtv-24x7",
+    "name": "NDTV 24x7 — TV News Audio",
+    "networkId": "stage31-network-ndtv-24x7",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-ndtv-24x7"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-ndtv-24x7",
+        "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-ndtv-24x7",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-ndtv-24x7",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-ndtv-profit",
+    "name": "NDTV Profit — TV News Audio",
+    "networkId": "stage31-network-ndtv-profit",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-ndtv-profit"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-ndtv-profit",
+        "url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-ndtv-profit",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-ndtv-profit",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-wion",
+    "name": "WION — TV News Audio",
+    "networkId": "stage31-network-wion",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-wion"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-wion",
+        "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-wion",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-wion",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-republic-tv",
+    "name": "Republic TV — TV News Audio",
+    "networkId": "stage31-network-republic-tv",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-republic-tv"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-republic-tv",
+        "url": "https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-republic-tv",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-republic-tv",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-dd-india",
+    "name": "DD India — TV News Audio",
+    "networkId": "stage31-network-dd-india",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-dd-india"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-dd-india",
+        "url": "https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-dd-india",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-dd-india",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-cnbc-tv18",
+    "name": "CNBC TV18 — TV News Audio",
+    "networkId": "stage31-network-cnbc-tv18",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-cnbc-tv18"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-cnbc-tv18",
+        "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-cnbc-tv18",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-cnbc-tv18",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-mirror-now",
+    "name": "Mirror Now — TV News Audio",
+    "networkId": "stage31-network-mirror-now",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-mirror-now"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-mirror-now",
+        "url": "https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-mirror-now",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-mirror-now",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage31-newsx",
+    "name": "NewsX — TV News Audio",
+    "networkId": "stage31-network-newsx",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage31-source-newsx"
+    ],
+    "notes": "Live TV news HLS carrying H.264 video and AAC audio. Its audio track decoded for six seconds in GitHub Actions 43311926400. RadioBee HTMLAudioElement/hls.js playback on web/Android, continued availability, source identity, and reuse/recording rights remain unconfirmed. Do not misrepresent video-containing playlist as audio-only broadcaster source.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage31-stream-newsx",
+        "url": "https://cdn.pishow.tv/ott/live/1765/master.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage31-source-newsx",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage31-source-newsx",
+          "notes": "FFprobe H.264 video/AAC audio and FFmpeg 6s audio track PASS (run 43311926400); web/Android player compatibility, broadcaster approval, recording and redistribution remain unverified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

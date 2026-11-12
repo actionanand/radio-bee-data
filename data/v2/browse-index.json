@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.1",
+  "catalogVersion": "2.9.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 227,
-    "streamBearing": 227,
+    "all": 244,
+    "streamBearing": 244,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -208,6 +208,23 @@
     "stage29-vishnu-fm",
     "stage29-yazh-news",
     "stage29-yuvan-shankar-raja-ysr",
+    "stage31-cnbc-tv18",
+    "stage31-cnn-news18",
+    "stage31-dd-india",
+    "stage31-india-today",
+    "stage31-kalaignar-seithigal",
+    "stage31-mirror-now",
+    "stage31-ndtv-24x7",
+    "stage31-ndtv-profit",
+    "stage31-news-tamil-24x7",
+    "stage31-news18-tamil-nadu",
+    "stage31-newsx",
+    "stage31-puthiya-thalaimurai",
+    "stage31-republic-tv",
+    "stage31-sathiyam-tv",
+    "stage31-tamil-janam",
+    "stage31-thanthi-tv",
+    "stage31-wion",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -604,6 +621,23 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-kalaignar-seithigal",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-newsx",
+          "stage31-puthiya-thalaimurai",
+          "stage31-republic-tv",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
+          "stage31-wion",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -617,8 +651,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 141,
-          "streamBearing": 141,
+          "all": 158,
+          "streamBearing": 158,
           "discoveryOnly": 0
         }
       },
@@ -1693,6 +1727,23 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-kalaignar-seithigal",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-newsx",
+          "stage31-puthiya-thalaimurai",
+          "stage31-republic-tv",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
+          "stage31-wion",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -1830,6 +1881,23 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-kalaignar-seithigal",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-newsx",
+          "stage31-puthiya-thalaimurai",
+          "stage31-republic-tv",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
+          "stage31-wion",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -1843,8 +1911,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 141,
-          "streamBearing": 141,
+          "all": 158,
+          "streamBearing": 158,
           "discoveryOnly": 0
         }
       },
@@ -4321,12 +4389,22 @@
           "radio-jamaica-jm",
           "realradio-ireland-ie",
           "shaiva-lahari-in",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-newsx",
+          "stage31-republic-tv",
+          "stage31-wion",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 30,
-          "streamBearing": 30,
+          "all": 40,
+          "streamBearing": 40,
           "discoveryOnly": 0
         }
       },
@@ -5183,6 +5261,13 @@
           "stage29-vishnu-fm",
           "stage29-yazh-news",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage31-kalaignar-seithigal",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-puthiya-thalaimurai",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
@@ -5206,8 +5291,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 166,
-          "streamBearing": 166,
+          "all": 173,
+          "streamBearing": 173,
           "discoveryOnly": 0
         }
       },
@@ -5586,6 +5671,23 @@
           "stage29-vishnu-fm",
           "stage29-yazh-news",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-kalaignar-seithigal",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-newsx",
+          "stage31-puthiya-thalaimurai",
+          "stage31-republic-tv",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
+          "stage31-wion",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -5608,8 +5710,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 198,
-          "streamBearing": 198,
+          "all": 215,
+          "streamBearing": 215,
           "discoveryOnly": 0
         }
       }
@@ -9355,6 +9457,312 @@
         }
       },
       {
+        "id": "stage31-network-cnbc-tv18",
+        "name": "CNBC TV18 — TV News Audio",
+        "key": "network:stage31-network-cnbc-tv18",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-cnbc-tv18"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-cnn-news18",
+        "name": "CNN-News18 — TV News Audio",
+        "key": "network:stage31-network-cnn-news18",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-cnn-news18"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-dd-india",
+        "name": "DD India — TV News Audio",
+        "key": "network:stage31-network-dd-india",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-dd-india"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-india-today",
+        "name": "India Today — TV News Audio",
+        "key": "network:stage31-network-india-today",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-india-today"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-kalaignar-seithigal",
+        "name": "Kalaignar Seithigal — TV News Audio",
+        "key": "network:stage31-network-kalaignar-seithigal",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-kalaignar-seithigal"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-mirror-now",
+        "name": "Mirror Now — TV News Audio",
+        "key": "network:stage31-network-mirror-now",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-mirror-now"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-ndtv-24x7",
+        "name": "NDTV 24x7 — TV News Audio",
+        "key": "network:stage31-network-ndtv-24x7",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-ndtv-24x7"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-ndtv-profit",
+        "name": "NDTV Profit — TV News Audio",
+        "key": "network:stage31-network-ndtv-profit",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-ndtv-profit"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-news-tamil-24x7",
+        "name": "News Tamil 24x7 — TV News Audio",
+        "key": "network:stage31-network-news-tamil-24x7",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-news-tamil-24x7"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-news18-tamil-nadu",
+        "name": "News18 Tamil Nadu — TV News Audio",
+        "key": "network:stage31-network-news18-tamil-nadu",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-news18-tamil-nadu"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-newsx",
+        "name": "NewsX — TV News Audio",
+        "key": "network:stage31-network-newsx",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-newsx"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-puthiya-thalaimurai",
+        "name": "Puthiya Thalaimurai — TV News Audio",
+        "key": "network:stage31-network-puthiya-thalaimurai",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-puthiya-thalaimurai"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-republic-tv",
+        "name": "Republic TV — TV News Audio",
+        "key": "network:stage31-network-republic-tv",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-republic-tv"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-sathiyam-tv",
+        "name": "Sathiyam TV — TV News Audio",
+        "key": "network:stage31-network-sathiyam-tv",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-sathiyam-tv"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-tamil-janam",
+        "name": "Tamil Janam — TV News Audio",
+        "key": "network:stage31-network-tamil-janam",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-tamil-janam"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-thanthi-tv",
+        "name": "Thanthi TV — TV News Audio",
+        "key": "network:stage31-network-thanthi-tv",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-thanthi-tv"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage31-network-wion",
+        "name": "WION — TV News Audio",
+        "key": "network:stage31-network-wion",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage31-wion"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -10240,14 +10648,31 @@
           "stage29-polimer-news-tv-audio",
           "stage29-top-news-thamizh-fm",
           "stage29-yazh-news",
+          "stage31-cnbc-tv18",
+          "stage31-cnn-news18",
+          "stage31-dd-india",
+          "stage31-india-today",
+          "stage31-kalaignar-seithigal",
+          "stage31-mirror-now",
+          "stage31-ndtv-24x7",
+          "stage31-ndtv-profit",
+          "stage31-news-tamil-24x7",
+          "stage31-news18-tamil-nadu",
+          "stage31-newsx",
+          "stage31-puthiya-thalaimurai",
+          "stage31-republic-tv",
+          "stage31-sathiyam-tv",
+          "stage31-tamil-janam",
+          "stage31-thanthi-tv",
+          "stage31-wion",
           "star-fm-srilanka",
           "swiss-tamil-radio-ch",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 32,
-          "streamBearing": 32,
+          "all": 49,
+          "streamBearing": 49,
           "discoveryOnly": 0
         }
       },
@@ -10547,6 +10972,23 @@
         "stage29-vishnu-fm",
         "stage29-yazh-news",
         "stage29-yuvan-shankar-raja-ysr",
+        "stage31-cnbc-tv18",
+        "stage31-cnn-news18",
+        "stage31-dd-india",
+        "stage31-india-today",
+        "stage31-kalaignar-seithigal",
+        "stage31-mirror-now",
+        "stage31-ndtv-24x7",
+        "stage31-ndtv-profit",
+        "stage31-news-tamil-24x7",
+        "stage31-news18-tamil-nadu",
+        "stage31-newsx",
+        "stage31-puthiya-thalaimurai",
+        "stage31-republic-tv",
+        "stage31-sathiyam-tv",
+        "stage31-tamil-janam",
+        "stage31-thanthi-tv",
+        "stage31-wion",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -10576,8 +11018,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 227,
-        "streamBearing": 227,
+        "all": 244,
+        "streamBearing": 244,
         "discoveryOnly": 0
       }
     },
