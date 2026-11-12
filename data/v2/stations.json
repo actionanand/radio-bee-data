@@ -8447,5 +8447,3569 @@
         }
       }
     ]
+  },
+  {
+    "id": "stage29-thenral-world-radio",
+    "name": "Thenral World Radio",
+    "networkId": "stage29-network-thenral-world-radio",
+    "countryCode": "DE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-thenral-world-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-thenral-world-radio",
+        "url": "https://thenralw.radioca.st/LiveStream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-thenral-world-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-thenral-world-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-agaram-tamil-radio",
+    "name": "Agaram Tamil Radio",
+    "networkId": "stage29-network-agaram-tamil-radio",
+    "countryCode": "CA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-agaram-tamil-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-agaram-tamil-radio",
+        "url": "https://stream.zeno.fm/ynuoddjfosluv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-agaram-tamil-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-agaram-tamil-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-clubhouse-tamil-90s-2k-vibes",
+    "name": "Clubhouse Tamil 90s & 2K Vibes",
+    "networkId": "stage29-network-clubhouse-tamil-90s-2k-vibes",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-clubhouse-tamil-90s-2k-vibes"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-clubhouse-tamil-90s-2k-vibes",
+        "url": "https://liveradio.swaggerbeat.com:8100/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-clubhouse-tamil-90s-2k-vibes",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-clubhouse-tamil-90s-2k-vibes",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-jipmer-radio",
+    "name": "Jipmer Radio",
+    "networkId": "stage29-network-jipmer-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-jipmer-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-jipmer-radio",
+        "url": "https://d1d1ao70vmf9ux.cloudfront.net/jipmer.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-jipmer-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-jipmer-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kodai-aruvi-fm",
+    "name": "Kodai Aruvi FM",
+    "networkId": "stage29-network-kodai-aruvi-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kodai-aruvi-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kodai-aruvi-fm",
+        "url": "https://cast6.asurahosting.com/proxy/kodaiaruvifm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kodai-aruvi-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kodai-aruvi-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-saamanthi-fm",
+    "name": "Saamanthi FM",
+    "networkId": "stage29-network-saamanthi-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-saamanthi-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-saamanthi-fm",
+        "url": "https://cast6.asurahosting.com/proxy/saamanthifm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-saamanthi-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-saamanthi-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tamil-mellisai-fm",
+    "name": "Tamil Mellisai FM",
+    "networkId": "stage29-network-tamil-mellisai-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tamil-mellisai-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tamil-mellisai-fm",
+        "url": "https://stream.zeno.fm/e9hsbbbey4zuv",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tamil-mellisai-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tamil-mellisai-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-madhuram-radio",
+    "name": "Madhuram Radio",
+    "networkId": "stage29-network-madhuram-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-madhuram-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-madhuram-radio",
+        "url": "https://cast6.asurahosting.com/proxy/madhuramradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-madhuram-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-madhuram-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tuticorin-radio",
+    "name": "Tuticorin Radio",
+    "networkId": "stage29-network-tuticorin-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tuticorin-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tuticorin-radio",
+        "url": "https://cast6.asurahosting.com/proxy/tuticorinradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tuticorin-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tuticorin-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-dindigul-radio",
+    "name": "Dindigul Radio",
+    "networkId": "stage29-network-dindigul-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-dindigul-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-dindigul-radio",
+        "url": "https://cast6.asurahosting.com/proxy/dglradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-dindigul-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-dindigul-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-vaalai-fm",
+    "name": "Vaalai FM",
+    "networkId": "stage29-network-vaalai-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-vaalai-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-vaalai-fm",
+        "url": "https://cast6.asurahosting.com/proxy/vaalaifm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-vaalai-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-vaalai-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-jayam-fm-7-1",
+    "name": "Jayam FM 7.1",
+    "networkId": "stage29-network-jayam-fm-7-1",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-jayam-fm-7-1"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-jayam-fm-7-1",
+        "url": "https://jayamfm-prabak78.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-jayam-fm-7-1",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-jayam-fm-7-1",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-retro-tamil-fm",
+    "name": "Retro Tamil FM",
+    "networkId": "stage29-network-retro-tamil-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-retro-tamil-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-retro-tamil-fm",
+        "url": "https://cast6.asurahosting.com/proxy/retrotamil/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-retro-tamil-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-retro-tamil-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-oli-saaral-fm",
+    "name": "Oli Saaral FM",
+    "networkId": "stage29-network-oli-saaral-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-oli-saaral-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-oli-saaral-fm",
+        "url": "https://cast6.asurahosting.com/proxy/olisaaral/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-oli-saaral-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-oli-saaral-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-trt-tamil-oli",
+    "name": "TRT Tamil Oli",
+    "networkId": "stage29-network-trt-tamil-oli",
+    "countryCode": "FR",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-trt-tamil-oli"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-trt-tamil-oli",
+        "url": "https://radio13.pro-fhi.net:19236/stream.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-trt-tamil-oli",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-trt-tamil-oli",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-pasumai-90-4-fm",
+    "name": "Pasumai FM 90.4",
+    "networkId": "stage29-network-pasumai-90-4-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-pasumai-90-4-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-pasumai-90-4-fm",
+        "url": "https://cast6.asurahosting.com/proxy/pasumaifm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-pasumai-90-4-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-pasumai-90-4-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tiruvannamalai-city-fm",
+    "name": "Tiruvannamalai City FM",
+    "networkId": "stage29-network-tiruvannamalai-city-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tiruvannamalai-city-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tiruvannamalai-city-fm",
+        "url": "https://cast6.asurahosting.com/proxy/tirucityfm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tiruvannamalai-city-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tiruvannamalai-city-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-rockfort-radio",
+    "name": "Rockfort Radio",
+    "networkId": "stage29-network-rockfort-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-rockfort-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-rockfort-radio",
+        "url": "https://cast6.asurahosting.com/proxy/rockfortradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-rockfort-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-rockfort-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-i-tamil-media-fm",
+    "name": "I Tamil Media FM",
+    "networkId": "stage29-network-i-tamil-media-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-i-tamil-media-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-i-tamil-media-fm",
+        "url": "https://streams.radio.co/s937ac5492/listen",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-i-tamil-media-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-i-tamil-media-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-covai-city-fm",
+    "name": "Covai City FM",
+    "networkId": "stage29-network-covai-city-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-covai-city-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-covai-city-fm",
+        "url": "https://cast6.asurahosting.com/proxy/ccfm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-covai-city-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-covai-city-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ss-tamil-radio",
+    "name": "SS Tamil Radio",
+    "networkId": "stage29-network-ss-tamil-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ss-tamil-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ss-tamil-radio",
+        "url": "https://cast6.asurahosting.com/proxy/sstamilradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ss-tamil-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ss-tamil-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-rj-tamil-fm",
+    "name": "Rj Tamil FM",
+    "networkId": "stage29-network-rj-tamil-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-rj-tamil-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-rj-tamil-fm",
+        "url": "https://cast6.asurahosting.com/proxy/rjtamil/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-rj-tamil-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-rj-tamil-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-100-love-radio",
+    "name": "100% Love Radio",
+    "networkId": "stage29-network-100-love-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-100-love-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-100-love-radio",
+        "url": "https://stream.zeno.fm/48kgynhuutzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-100-love-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-100-love-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-100-new-songs",
+    "name": "100% New Songs",
+    "networkId": "stage29-network-100-new-songs",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-100-new-songs"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-100-new-songs",
+        "url": "https://stream.zeno.fm/8hx0ftvm0wzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-100-new-songs",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-100-new-songs",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-100-sad-songs",
+    "name": "100% Sad Songs",
+    "networkId": "stage29-network-100-sad-songs",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-100-sad-songs"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-100-sad-songs",
+        "url": "https://stream.zeno.fm/ven997gqvtzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-100-sad-songs",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-100-sad-songs",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tamil-ragam",
+    "name": "Tamil Ragam",
+    "networkId": "stage29-network-tamil-ragam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tamil-ragam"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tamil-ragam",
+        "url": "https://cast4.asurahosting.com/proxy/neville/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tamil-ragam",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tamil-ragam",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-airtamil-90s",
+    "name": "AirTamil 90s",
+    "networkId": "stage29-network-airtamil-90s",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-airtamil-90s"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-airtamil-90s",
+        "url": "https://stream.zeno.fm/06ar0cnafwzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-airtamil-90s",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-airtamil-90s",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-captain-fm",
+    "name": "Captain FM",
+    "networkId": "stage29-network-captain-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-captain-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-captain-fm",
+        "url": "https://stream.zeno.fm/ae0r72huttzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-captain-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-captain-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kaadhal-fm",
+    "name": "Kaadhal FM",
+    "networkId": "stage29-network-kaadhal-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kaadhal-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kaadhal-fm",
+        "url": "https://stream.zeno.fm/sc3uzmkd0xhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kaadhal-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kaadhal-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-love-songs-tamil",
+    "name": "Love Songs Tamil",
+    "networkId": "stage29-network-love-songs-tamil",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-love-songs-tamil"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-love-songs-tamil",
+        "url": "https://stream.zeno.fm/027dtnhuutzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-love-songs-tamil",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-love-songs-tamil",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-love-bites-mohan-songs",
+    "name": "Love bites Mohan songs",
+    "networkId": "stage29-network-love-bites-mohan-songs",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-love-bites-mohan-songs"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-love-bites-mohan-songs",
+        "url": "https://stream.zeno.fm/uhgvxy3yr2nuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-love-bites-mohan-songs",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-love-bites-mohan-songs",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-loveda-fm",
+    "name": "LoveDa FM",
+    "networkId": "stage29-network-loveda-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-loveda-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-loveda-fm",
+        "url": "https://stream.zeno.fm/nmdrk7ah7yzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-loveda-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-loveda-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-sad-songs-fm",
+    "name": "Sad Songs FM",
+    "networkId": "stage29-network-sad-songs-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-sad-songs-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-sad-songs-fm",
+        "url": "https://stream.zeno.fm/xbmq57gqvtzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-sad-songs-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-sad-songs-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-rocker-radio-tamil-gold-70s-90s",
+    "name": "Rocker Radio Tamil Gold 70s 90s",
+    "networkId": "stage29-network-rocker-radio-tamil-gold-70s-90s",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-rocker-radio-tamil-gold-70s-90s"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-rocker-radio-tamil-gold-70s-90s",
+        "url": "https://stream.zenolive.com/sr40tbbq2nhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-rocker-radio-tamil-gold-70s-90s",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-rocker-radio-tamil-gold-70s-90s",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-mgr-sivaji-radio",
+    "name": "MGR & Sivaji Radio",
+    "networkId": "stage29-network-mgr-sivaji-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-mgr-sivaji-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-mgr-sivaji-radio",
+        "url": "https://stream.zeno.fm/pq4yq4qri9yvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-mgr-sivaji-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-mgr-sivaji-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-spb-online-radio",
+    "name": "SPB Online Radio",
+    "networkId": "stage29-network-spb-online-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-spb-online-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-spb-online-radio",
+        "url": "https://stream-159.zeno.fm/9adkzdcqi4jvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-spb-online-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-spb-online-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-harris-jayaraj-radio",
+    "name": "Harris Jayaraj Radio",
+    "networkId": "stage29-network-harris-jayaraj-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-harris-jayaraj-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-harris-jayaraj-radio",
+        "url": "https://stream-158.zeno.fm/0bhsthssutzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-harris-jayaraj-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-harris-jayaraj-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ks-chitra-radio",
+    "name": "KS Chitra Radio",
+    "networkId": "stage29-network-ks-chitra-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ks-chitra-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ks-chitra-radio",
+        "url": "https://stream.zeno.fm/aad4e51qz7zuv",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ks-chitra-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ks-chitra-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-deva-radio",
+    "name": "Deva Radio",
+    "networkId": "stage29-network-deva-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-deva-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-deva-radio",
+        "url": "https://stream.zeno.fm/ijpae65onobuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-deva-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-deva-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kj-yesudas-radio",
+    "name": "K. J. Yesudas Radio",
+    "networkId": "stage29-network-kj-yesudas-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kj-yesudas-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kj-yesudas-radio",
+        "url": "https://stream.zeno.fm/trtwuyqdmrgtv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kj-yesudas-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kj-yesudas-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tms-radio",
+    "name": "TMS Radio",
+    "networkId": "stage29-network-tms-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tms-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tms-radio",
+        "url": "https://stream.zeno.fm/qvonezatdxytv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tms-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tms-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-s-janaki-radio",
+    "name": "S. Janaki Radio",
+    "networkId": "stage29-network-s-janaki-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-s-janaki-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-s-janaki-radio",
+        "url": "https://stream.zeno.fm/nnhhfe4bv1uuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-s-janaki-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-s-janaki-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-mano-radio",
+    "name": "Mano Radio",
+    "networkId": "stage29-network-mano-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-mano-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-mano-radio",
+        "url": "https://stream.zeno.fm/maokuvdskhnuv",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-mano-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-mano-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-spb-old-hits-fm",
+    "name": "SPB Old Hits",
+    "networkId": "stage29-network-spb-old-hits-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-spb-old-hits-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-spb-old-hits-fm",
+        "url": "https://stream.zeno.fm/lgukkevrihmvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-spb-old-hits-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-spb-old-hits-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ilayaraja-voice-fm",
+    "name": "IlayaRaja Voice",
+    "networkId": "stage29-network-ilayaraja-voice-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ilayaraja-voice-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ilayaraja-voice-fm",
+        "url": "https://stream.zeno.fm/qfd4vokvu3dvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ilayaraja-voice-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ilayaraja-voice-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-top-news-thamizh-fm",
+    "name": "Top News Thamizh FM",
+    "networkId": "stage29-network-top-news-thamizh-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-top-news-thamizh-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-top-news-thamizh-fm",
+        "url": "https://stream.zeno.fm/0z336oe9ivauv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-top-news-thamizh-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-top-news-thamizh-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-santhosh-narayanan-radio",
+    "name": "Santhosh Narayanan Radio",
+    "networkId": "stage29-network-santhosh-narayanan-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-santhosh-narayanan-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-santhosh-narayanan-radio",
+        "url": "https://stream.zeno.fm/wkqvzsg1238uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-santhosh-narayanan-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-santhosh-narayanan-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-arrahman-classic",
+    "name": "ARRahman Classic",
+    "networkId": "stage29-network-arrahman-classic",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-arrahman-classic"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-arrahman-classic",
+        "url": "https://stream.zeno.fm/ttisib8fr6kuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-arrahman-classic",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-arrahman-classic",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-makkal-thilagam-mgr",
+    "name": "Makkal Thilagam MGR",
+    "networkId": "stage29-network-makkal-thilagam-mgr",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-makkal-thilagam-mgr"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-makkal-thilagam-mgr",
+        "url": "https://stream.zeno.fm/qqeac1w55qzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-makkal-thilagam-mgr",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-makkal-thilagam-mgr",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ms-viswanathan-hits",
+    "name": "MS Viswanathan Hits",
+    "networkId": "stage29-network-ms-viswanathan-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ms-viswanathan-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ms-viswanathan-hits",
+        "url": "https://stream.zeno.fm/mxihfpmksk8uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ms-viswanathan-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ms-viswanathan-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-simbu-hits",
+    "name": "Simbu Hits",
+    "networkId": "stage29-network-simbu-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-simbu-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-simbu-hits",
+        "url": "https://stream.zeno.fm/01p3nvuq538uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-simbu-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-simbu-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-maestro-hits",
+    "name": "Maestro Hits",
+    "networkId": "stage29-network-maestro-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-maestro-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-maestro-hits",
+        "url": "https://stream.zenolive.com/zngnvwy9bm8uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-maestro-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-maestro-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-yuvan-shankar-raja-ysr",
+    "name": "Yuvan Shankar Raja YSR",
+    "networkId": "stage29-network-yuvan-shankar-raja-ysr",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-yuvan-shankar-raja-ysr"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-yuvan-shankar-raja-ysr",
+        "url": "https://stream.zeno.fm/bni50mpqxjeuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-yuvan-shankar-raja-ysr",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-yuvan-shankar-raja-ysr",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-arrahman-classic-hits",
+    "name": "ARRahman Classic Hits",
+    "networkId": "stage29-network-arrahman-classic-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-arrahman-classic-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-arrahman-classic-hits",
+        "url": "https://stream.zeno.fm/j3cntml3iulvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-arrahman-classic-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-arrahman-classic-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-rajini-radio",
+    "name": "Rajini Radio",
+    "networkId": "stage29-network-rajini-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-rajini-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-rajini-radio",
+        "url": "https://stream.zeno.fm/g20bs7hu0uhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-rajini-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-rajini-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-na-muthukumar-hits",
+    "name": "Na Muthukumar Hits",
+    "networkId": "stage29-network-na-muthukumar-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-na-muthukumar-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-na-muthukumar-hits",
+        "url": "https://stream-172.zeno.fm/v7d1g1hvfy8uv?",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-na-muthukumar-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-na-muthukumar-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-imman-radio",
+    "name": "Imman Radio",
+    "networkId": "stage29-network-imman-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-imman-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-imman-radio",
+        "url": "https://stream.zeno.fm/6apkrxlnxudtv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-imman-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-imman-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-thaman-hits",
+    "name": "Thaman Hits",
+    "networkId": "stage29-network-thaman-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-thaman-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-thaman-hits",
+        "url": "https://stream.zenolive.com/tqhegaztqfhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-thaman-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-thaman-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-jp-chandrababu-hits",
+    "name": "JP Chandrababu Hits",
+    "networkId": "stage29-network-jp-chandrababu-hits",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-jp-chandrababu-hits"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-jp-chandrababu-hits",
+        "url": "https://stream.zeno.fm/knuruqv62d0uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-jp-chandrababu-hits",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-jp-chandrababu-hits",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-vijay-tamil-radio",
+    "name": "Vijay FM Radio",
+    "networkId": "stage29-network-vijay-tamil-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-vijay-tamil-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-vijay-tamil-radio",
+        "url": "https://vijayfm-prabak78.radioca.st/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-vijay-tamil-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-vijay-tamil-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-isai-manam",
+    "name": "Isai Manam",
+    "networkId": "stage29-network-isai-manam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-isai-manam"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-isai-manam",
+        "url": "https://stream.zeno.fm/iqpqyzwsinxtv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-isai-manam",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-isai-manam",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-tamil-kadavul-murugan-fm",
+    "name": "Tamil Kadavul Murugan",
+    "networkId": "stage29-network-tamil-kadavul-murugan-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-tamil-kadavul-murugan-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-tamil-kadavul-murugan-fm",
+        "url": "https://cast6.asurahosting.com/proxy/tkmradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-tamil-kadavul-murugan-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-tamil-kadavul-murugan-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-shaivam-radio",
+    "name": "Shaivam Radio",
+    "networkId": "stage29-network-shaivam-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-shaivam-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-shaivam-radio",
+        "url": "https://samcloud.spacial.com/api/listen?sid=107848",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-shaivam-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-shaivam-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ayngaran-radio",
+    "name": "Ayngaran Radio",
+    "networkId": "stage29-network-ayngaran-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ayngaran-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ayngaran-radio",
+        "url": "https://cast6.asurahosting.com/proxy/ayngaranradio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ayngaran-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ayngaran-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-aadhi-sivan-fm",
+    "name": "Aadhi Sivan FM",
+    "networkId": "stage29-network-aadhi-sivan-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-aadhi-sivan-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-aadhi-sivan-fm",
+        "url": "https://cast6.asurahosting.com/proxy/aadhisivam/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-aadhi-sivan-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-aadhi-sivan-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-om-sakthi-fm",
+    "name": "Om Sakthi FM",
+    "networkId": "stage29-network-om-sakthi-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-om-sakthi-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-om-sakthi-fm",
+        "url": "https://cast6.asurahosting.com/proxy/omsakthifm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-om-sakthi-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-om-sakthi-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-ss-devotional-radio",
+    "name": "SS Devotional Radio",
+    "networkId": "stage29-network-ss-devotional-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-ss-devotional-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-ss-devotional-radio",
+        "url": "https://cast6.asurahosting.com/proxy/ssdevotional/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-ss-devotional-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-ss-devotional-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-guru-raghavendra-radio",
+    "name": "Guru Raghavendra Radio",
+    "networkId": "stage29-network-guru-raghavendra-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-guru-raghavendra-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-guru-raghavendra-radio",
+        "url": "https://cast5.asurahosting.com/proxy/gururayar/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-guru-raghavendra-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-guru-raghavendra-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-vishnu-fm",
+    "name": "Vishnu FM",
+    "networkId": "stage29-network-vishnu-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-vishnu-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-vishnu-fm",
+        "url": "https://cast6.asurahosting.com/proxy/vishnufm/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-vishnu-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-vishnu-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-saranam-ayyappa-fm",
+    "name": "Saranam Ayyappa FM",
+    "networkId": "stage29-network-saranam-ayyappa-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-saranam-ayyappa-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-saranam-ayyappa-fm",
+        "url": "https://cast6.asurahosting.com/proxy/saranamayyappa/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-saranam-ayyappa-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-saranam-ayyappa-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-sai-fm-radio",
+    "name": "Sai Radio",
+    "networkId": "stage29-network-sai-fm-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-sai-fm-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-sai-fm-radio",
+        "url": "https://cast6.asurahosting.com/proxy/sairadio/stream",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-sai-fm-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-sai-fm-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-aanmeega-sudar",
+    "name": "Aanmeega Sudar",
+    "networkId": "stage29-network-aanmeega-sudar",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-aanmeega-sudar"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-aanmeega-sudar",
+        "url": "https://stream.zeno.fm/ymkr7th4f2zuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-aanmeega-sudar",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-aanmeega-sudar",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-sivasubramaniyam-ayyappan-songs-fm",
+    "name": "Sivasubramaniyam Ayyappan FM",
+    "networkId": "stage29-network-sivasubramaniyam-ayyappan-songs-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-sivasubramaniyam-ayyappan-songs-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-sivasubramaniyam-ayyappan-songs-fm",
+        "url": "https://stream.zeno.fm/zesshz81ry8uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-sivasubramaniyam-ayyappan-songs-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-sivasubramaniyam-ayyappan-songs-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-sree-kurumba-fm",
+    "name": "Sree Kurumba FM",
+    "networkId": "stage29-network-sree-kurumba-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-sree-kurumba-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-sree-kurumba-fm",
+        "url": "https://stream.zeno.fm/b35ge5nuv7guv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-sree-kurumba-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-sree-kurumba-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-dharisanam-fm",
+    "name": "Dharisanam FM",
+    "networkId": "stage29-network-dharisanam-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-dharisanam-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-dharisanam-fm",
+        "url": "https://stream.zeno.fm/b741tfumhm8uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-dharisanam-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-dharisanam-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-singampunari-fm",
+    "name": "Singampunari FM",
+    "networkId": "stage29-network-singampunari-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-singampunari-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-singampunari-fm",
+        "url": "https://stream.zeno.fm/imeknggtwattv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-singampunari-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-singampunari-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-yazh-news",
+    "name": "Yazh News",
+    "networkId": "stage29-network-yazh-news",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-yazh-news"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-yazh-news",
+        "url": "https://stream.zeno.fm/zek2rcdrua0uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-yazh-news",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-yazh-news",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kalai-fm",
+    "name": "Kalai FM",
+    "networkId": "stage29-network-kalai-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kalai-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kalai-fm",
+        "url": "https://stream.zeno.fm/2vghnwshsqzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kalai-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kalai-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kanal-music",
+    "name": "Kanal Music",
+    "networkId": "stage29-network-kanal-music",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kanal-music"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kanal-music",
+        "url": "https://stream.zeno.fm/yy5bpv2vk2zuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kanal-music",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kanal-music",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-kandhakapookkal-radio",
+    "name": "Kandhakapookkal Radio",
+    "networkId": "stage29-network-kandhakapookkal-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-kandhakapookkal-radio"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-kandhakapookkal-radio",
+        "url": "https://stream.zenolive.com/050irbonp6auv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-kandhakapookkal-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-kandhakapookkal-radio",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage29-krishna-fm",
+    "name": "Krishna FM",
+    "networkId": "stage29-network-krishna-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage29-source-krishna-fm"
+    ],
+    "notes": "HTTPS audio decoded in 7-second FFmpeg trial and FFprobe codec inspection (run 43308964538). Broadcaster, location, ongoing uptime and RadioBee Android/Web playback need independent checks. Neither broadcasting rights nor recording/redistribution is approved.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage29-stream-krishna-fm",
+        "url": "https://stream.zeno.fm/gdpufetpuy8uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage29-source-krishna-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage29-source-krishna-fm",
+          "notes": "7-second decode and FFprobe PASS in CI; actual browser/Android playback, continuous uptime, rights and permission not established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

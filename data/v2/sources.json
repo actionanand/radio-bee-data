@@ -1706,5 +1706,572 @@
     "url": "https://streema.com/radios/Radio_Beat_Extra",
     "kind": "directory",
     "notes": "Streema identifies Radio Beat Extra as English Hit Music Station (English, online only). myTuner describes non-stop English Top 40/Pop/R&B/Electronic/Club. Melo lists language English; independent Radio Beat network has various separate language stations. Accessed 2026-11-13. Language metadata only; no modification to audio stream or rights."
+  },
+  {
+    "id": "stage29-source-thenral-world-radio",
+    "title": "Stage 29 Tamil radio directory lead: Thenral World Radio",
+    "url": "https://www.tamilradios.com/thenral-world-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://thenralw.radioca.st/LiveStream to Thenral World Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-agaram-tamil-radio",
+    "title": "Stage 29 Tamil radio directory lead: Agaram Tamil Radio",
+    "url": "https://www.tamilradios.com/agaram-tamil-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ynuoddjfosluv to Agaram Tamil Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-clubhouse-tamil-90s-2k-vibes",
+    "title": "Stage 29 Tamil radio directory lead: Clubhouse Tamil 90s & 2K Vibes",
+    "url": "https://www.tamilradios.com/clubhouse-tamil-90s-2k-vibes",
+    "kind": "directory",
+    "notes": "User-provided directory links https://liveradio.swaggerbeat.com:8100/stream to Clubhouse Tamil 90s & 2K Vibes; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-jipmer-radio",
+    "title": "Stage 29 Tamil radio directory lead: Jipmer Radio",
+    "url": "https://www.tamilradios.com/jipmer-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://d1d1ao70vmf9ux.cloudfront.net/jipmer.m3u8 to Jipmer Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kodai-aruvi-fm",
+    "title": "Stage 29 Tamil radio directory lead: Kodai Aruvi FM",
+    "url": "https://www.tamilradios.com/kodai-aruvi-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/kodaiaruvifm/stream to Kodai Aruvi FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-saamanthi-fm",
+    "title": "Stage 29 Tamil radio directory lead: Saamanthi FM",
+    "url": "https://www.tamilradios.com/saamanthi-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/saamanthifm/stream to Saamanthi FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tamil-mellisai-fm",
+    "title": "Stage 29 Tamil radio directory lead: Tamil Mellisai FM",
+    "url": "https://www.tamilradios.com/tamil-mellisai-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/e9hsbbbey4zuv to Tamil Mellisai FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-madhuram-radio",
+    "title": "Stage 29 Tamil radio directory lead: Madhuram Radio",
+    "url": "https://www.tamilradios.com/madhuram-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/madhuramradio/stream to Madhuram Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tuticorin-radio",
+    "title": "Stage 29 Tamil radio directory lead: Tuticorin Radio",
+    "url": "https://www.tamilradios.com/tuticorin-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/tuticorinradio/stream to Tuticorin Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-dindigul-radio",
+    "title": "Stage 29 Tamil radio directory lead: Dindigul Radio",
+    "url": "https://www.tamilradios.com/dindigul-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/dglradio/stream to Dindigul Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-vaalai-fm",
+    "title": "Stage 29 Tamil radio directory lead: Vaalai FM",
+    "url": "https://www.tamilradios.com/vaalai-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/vaalaifm/stream to Vaalai FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-jayam-fm-7-1",
+    "title": "Stage 29 Tamil radio directory lead: Jayam FM 7.1",
+    "url": "https://www.tamilradios.com/jayam-fm-7-1",
+    "kind": "directory",
+    "notes": "User-provided directory links https://jayamfm-prabak78.radioca.st/stream to Jayam FM 7.1; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-retro-tamil-fm",
+    "title": "Stage 29 Tamil radio directory lead: Retro Tamil FM",
+    "url": "https://www.tamilradios.com/retro-tamil-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/retrotamil/stream to Retro Tamil FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-oli-saaral-fm",
+    "title": "Stage 29 Tamil radio directory lead: Oli Saaral FM",
+    "url": "https://www.tamilradios.com/oli-saaral-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/olisaaral/stream to Oli Saaral FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-trt-tamil-oli",
+    "title": "Stage 29 Tamil radio directory lead: TRT Tamil Oli",
+    "url": "https://www.tamilradios.com/trt-tamil-oli",
+    "kind": "directory",
+    "notes": "User-provided directory links https://radio13.pro-fhi.net:19236/stream.mp3 to TRT Tamil Oli; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-pasumai-90-4-fm",
+    "title": "Stage 29 Tamil radio directory lead: Pasumai FM 90.4",
+    "url": "https://www.tamilradios.com/pasumai-90-4-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/pasumaifm/stream to Pasumai FM 90.4; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tiruvannamalai-city-fm",
+    "title": "Stage 29 Tamil radio directory lead: Tiruvannamalai City FM",
+    "url": "https://www.tamilradios.com/tiruvannamalai-city-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/tirucityfm/stream to Tiruvannamalai City FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-rockfort-radio",
+    "title": "Stage 29 Tamil radio directory lead: Rockfort Radio",
+    "url": "https://www.tamilradios.com/rockfort-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/rockfortradio/stream to Rockfort Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-i-tamil-media-fm",
+    "title": "Stage 29 Tamil radio directory lead: I Tamil Media FM",
+    "url": "https://www.tamilradios.com/i-tamil-media-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://streams.radio.co/s937ac5492/listen to I Tamil Media FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-covai-city-fm",
+    "title": "Stage 29 Tamil radio directory lead: Covai City FM",
+    "url": "https://www.tamilradios.com/covai-city-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/ccfm/stream to Covai City FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ss-tamil-radio",
+    "title": "Stage 29 Tamil radio directory lead: SS Tamil Radio",
+    "url": "https://www.tamilradios.com/ss-tamil-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/sstamilradio/stream to SS Tamil Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-rj-tamil-fm",
+    "title": "Stage 29 Tamil radio directory lead: Rj Tamil FM",
+    "url": "https://www.tamilradios.com/rj-tamil-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/rjtamil/stream to Rj Tamil FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-100-love-radio",
+    "title": "Stage 29 Tamil radio directory lead: 100% Love Radio",
+    "url": "https://www.tamilradios.com/100-love-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/48kgynhuutzuv to 100% Love Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-100-new-songs",
+    "title": "Stage 29 Tamil radio directory lead: 100% New Songs",
+    "url": "https://www.tamilradios.com/100-new-songs",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/8hx0ftvm0wzuv to 100% New Songs; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-100-sad-songs",
+    "title": "Stage 29 Tamil radio directory lead: 100% Sad Songs",
+    "url": "https://www.tamilradios.com/100-sad-songs",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ven997gqvtzuv to 100% Sad Songs; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tamil-ragam",
+    "title": "Stage 29 Tamil radio directory lead: Tamil Ragam",
+    "url": "https://www.tamilradios.com/tamil-ragam",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast4.asurahosting.com/proxy/neville/stream to Tamil Ragam; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-airtamil-90s",
+    "title": "Stage 29 Tamil radio directory lead: AirTamil 90s",
+    "url": "https://www.tamilradios.com/airtamil-90s",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/06ar0cnafwzuv to AirTamil 90s; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-captain-fm",
+    "title": "Stage 29 Tamil radio directory lead: Captain FM",
+    "url": "https://www.tamilradios.com/captain-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ae0r72huttzuv to Captain FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kaadhal-fm",
+    "title": "Stage 29 Tamil radio directory lead: Kaadhal FM",
+    "url": "https://www.tamilradios.com/kaadhal-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/sc3uzmkd0xhvv to Kaadhal FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-love-songs-tamil",
+    "title": "Stage 29 Tamil radio directory lead: Love Songs Tamil",
+    "url": "https://www.tamilradios.com/love-songs-tamil",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/027dtnhuutzuv to Love Songs Tamil; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-love-bites-mohan-songs",
+    "title": "Stage 29 Tamil radio directory lead: Love bites Mohan songs",
+    "url": "https://www.tamilradios.com/love-bites-mohan-songs",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/uhgvxy3yr2nuv to Love bites Mohan songs; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-loveda-fm",
+    "title": "Stage 29 Tamil radio directory lead: LoveDa FM",
+    "url": "https://www.tamilradios.com/loveda-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/nmdrk7ah7yzuv to LoveDa FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-sad-songs-fm",
+    "title": "Stage 29 Tamil radio directory lead: Sad Songs FM",
+    "url": "https://www.tamilradios.com/sad-songs-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/xbmq57gqvtzuv to Sad Songs FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-rocker-radio-tamil-gold-70s-90s",
+    "title": "Stage 29 Tamil radio directory lead: Rocker Radio Tamil Gold 70s 90s",
+    "url": "https://www.tamilradios.com/rocker-radio-tamil-gold-70s-90s",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zenolive.com/sr40tbbq2nhvv to Rocker Radio Tamil Gold 70s 90s; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-mgr-sivaji-radio",
+    "title": "Stage 29 Tamil radio directory lead: MGR & Sivaji Radio",
+    "url": "https://www.tamilradios.com/mgr-sivaji-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/pq4yq4qri9yvv to MGR & Sivaji Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-spb-online-radio",
+    "title": "Stage 29 Tamil radio directory lead: SPB Online Radio",
+    "url": "https://www.tamilradios.com/spb-online-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream-159.zeno.fm/9adkzdcqi4jvv to SPB Online Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-harris-jayaraj-radio",
+    "title": "Stage 29 Tamil radio directory lead: Harris Jayaraj Radio",
+    "url": "https://www.tamilradios.com/harris-jayaraj-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream-158.zeno.fm/0bhsthssutzuv to Harris Jayaraj Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ks-chitra-radio",
+    "title": "Stage 29 Tamil radio directory lead: KS Chitra Radio",
+    "url": "https://www.tamilradios.com/ks-chitra-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/aad4e51qz7zuv to KS Chitra Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-deva-radio",
+    "title": "Stage 29 Tamil radio directory lead: Deva Radio",
+    "url": "https://www.tamilradios.com/deva-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ijpae65onobuv to Deva Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kj-yesudas-radio",
+    "title": "Stage 29 Tamil radio directory lead: K. J. Yesudas Radio",
+    "url": "https://www.tamilradios.com/kj-yesudas-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/trtwuyqdmrgtv to K. J. Yesudas Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tms-radio",
+    "title": "Stage 29 Tamil radio directory lead: TMS Radio",
+    "url": "https://www.tamilradios.com/tms-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/qvonezatdxytv to TMS Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-s-janaki-radio",
+    "title": "Stage 29 Tamil radio directory lead: S. Janaki Radio",
+    "url": "https://www.tamilradios.com/s-janaki-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/nnhhfe4bv1uuv to S. Janaki Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-mano-radio",
+    "title": "Stage 29 Tamil radio directory lead: Mano Radio",
+    "url": "https://www.tamilradios.com/mano-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/maokuvdskhnuv to Mano Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-spb-old-hits-fm",
+    "title": "Stage 29 Tamil radio directory lead: SPB Old Hits",
+    "url": "https://www.tamilradios.com/spb-old-hits-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/lgukkevrihmvv to SPB Old Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ilayaraja-voice-fm",
+    "title": "Stage 29 Tamil radio directory lead: IlayaRaja Voice",
+    "url": "https://www.tamilradios.com/ilayaraja-voice-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/qfd4vokvu3dvv to IlayaRaja Voice; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-top-news-thamizh-fm",
+    "title": "Stage 29 Tamil radio directory lead: Top News Thamizh FM",
+    "url": "https://www.tamilradios.com/top-news-thamizh-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/0z336oe9ivauv to Top News Thamizh FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-santhosh-narayanan-radio",
+    "title": "Stage 29 Tamil radio directory lead: Santhosh Narayanan Radio",
+    "url": "https://www.tamilradios.com/santhosh-narayanan-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/wkqvzsg1238uv to Santhosh Narayanan Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-arrahman-classic",
+    "title": "Stage 29 Tamil radio directory lead: ARRahman Classic",
+    "url": "https://www.tamilradios.com/arrahman-classic",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ttisib8fr6kuv to ARRahman Classic; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-makkal-thilagam-mgr",
+    "title": "Stage 29 Tamil radio directory lead: Makkal Thilagam MGR",
+    "url": "https://www.tamilradios.com/makkal-thilagam-mgr",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/qqeac1w55qzuv to Makkal Thilagam MGR; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ms-viswanathan-hits",
+    "title": "Stage 29 Tamil radio directory lead: MS Viswanathan Hits",
+    "url": "https://www.tamilradios.com/ms-viswanathan-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/mxihfpmksk8uv to MS Viswanathan Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-simbu-hits",
+    "title": "Stage 29 Tamil radio directory lead: Simbu Hits",
+    "url": "https://www.tamilradios.com/simbu-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/01p3nvuq538uv to Simbu Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-maestro-hits",
+    "title": "Stage 29 Tamil radio directory lead: Maestro Hits",
+    "url": "https://www.tamilradios.com/maestro-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zenolive.com/zngnvwy9bm8uv to Maestro Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-yuvan-shankar-raja-ysr",
+    "title": "Stage 29 Tamil radio directory lead: Yuvan Shankar Raja YSR",
+    "url": "https://www.tamilradios.com/yuvan-shankar-raja-ysr",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/bni50mpqxjeuv to Yuvan Shankar Raja YSR; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-arrahman-classic-hits",
+    "title": "Stage 29 Tamil radio directory lead: ARRahman Classic Hits",
+    "url": "https://www.tamilradios.com/arrahman-classic-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/j3cntml3iulvv to ARRahman Classic Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-rajini-radio",
+    "title": "Stage 29 Tamil radio directory lead: Rajini Radio",
+    "url": "https://www.tamilradios.com/rajini-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/g20bs7hu0uhvv to Rajini Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-na-muthukumar-hits",
+    "title": "Stage 29 Tamil radio directory lead: Na Muthukumar Hits",
+    "url": "https://www.tamilradios.com/na-muthukumar-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream-172.zeno.fm/v7d1g1hvfy8uv? to Na Muthukumar Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-imman-radio",
+    "title": "Stage 29 Tamil radio directory lead: Imman Radio",
+    "url": "https://www.tamilradios.com/imman-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/6apkrxlnxudtv to Imman Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-thaman-hits",
+    "title": "Stage 29 Tamil radio directory lead: Thaman Hits",
+    "url": "https://www.tamilradios.com/thaman-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zenolive.com/tqhegaztqfhvv to Thaman Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-jp-chandrababu-hits",
+    "title": "Stage 29 Tamil radio directory lead: JP Chandrababu Hits",
+    "url": "https://www.tamilradios.com/jp-chandrababu-hits",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/knuruqv62d0uv to JP Chandrababu Hits; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-vijay-tamil-radio",
+    "title": "Stage 29 Tamil radio directory lead: Vijay FM Radio",
+    "url": "https://www.tamilradios.com/vijay-tamil-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://vijayfm-prabak78.radioca.st/stream to Vijay FM Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-isai-manam",
+    "title": "Stage 29 Tamil radio directory lead: Isai Manam",
+    "url": "https://www.tamilradios.com/isai-manam",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/iqpqyzwsinxtv to Isai Manam; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-tamil-kadavul-murugan-fm",
+    "title": "Stage 29 Tamil radio directory lead: Tamil Kadavul Murugan",
+    "url": "https://www.tamilradios.com/tamil-kadavul-murugan-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/tkmradio/stream to Tamil Kadavul Murugan; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-shaivam-radio",
+    "title": "Stage 29 Tamil radio directory lead: Shaivam Radio",
+    "url": "https://www.tamilradios.com/shaivam-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://samcloud.spacial.com/api/listen?sid=107848 to Shaivam Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ayngaran-radio",
+    "title": "Stage 29 Tamil radio directory lead: Ayngaran Radio",
+    "url": "https://www.tamilradios.com/ayngaran-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/ayngaranradio/stream to Ayngaran Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-aadhi-sivan-fm",
+    "title": "Stage 29 Tamil radio directory lead: Aadhi Sivan FM",
+    "url": "https://www.tamilradios.com/aadhi-sivan-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/aadhisivam/stream to Aadhi Sivan FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-om-sakthi-fm",
+    "title": "Stage 29 Tamil radio directory lead: Om Sakthi FM",
+    "url": "https://www.tamilradios.com/om-sakthi-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/omsakthifm/stream to Om Sakthi FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-ss-devotional-radio",
+    "title": "Stage 29 Tamil radio directory lead: SS Devotional Radio",
+    "url": "https://www.tamilradios.com/ss-devotional-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/ssdevotional/stream to SS Devotional Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-guru-raghavendra-radio",
+    "title": "Stage 29 Tamil radio directory lead: Guru Raghavendra Radio",
+    "url": "https://www.tamilradios.com/guru-raghavendra-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast5.asurahosting.com/proxy/gururayar/stream to Guru Raghavendra Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-vishnu-fm",
+    "title": "Stage 29 Tamil radio directory lead: Vishnu FM",
+    "url": "https://www.tamilradios.com/vishnu-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/vishnufm/stream to Vishnu FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-saranam-ayyappa-fm",
+    "title": "Stage 29 Tamil radio directory lead: Saranam Ayyappa FM",
+    "url": "https://www.tamilradios.com/saranam-ayyappa-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/saranamayyappa/stream to Saranam Ayyappa FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-sai-fm-radio",
+    "title": "Stage 29 Tamil radio directory lead: Sai Radio",
+    "url": "https://www.tamilradios.com/sai-fm-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://cast6.asurahosting.com/proxy/sairadio/stream to Sai Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-aanmeega-sudar",
+    "title": "Stage 29 Tamil radio directory lead: Aanmeega Sudar",
+    "url": "https://www.tamilradios.com/aanmeega-sudar",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/ymkr7th4f2zuv to Aanmeega Sudar; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-sivasubramaniyam-ayyappan-songs-fm",
+    "title": "Stage 29 Tamil radio directory lead: Sivasubramaniyam Ayyappan FM",
+    "url": "https://www.tamilradios.com/sivasubramaniyam-ayyappan-songs-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/zesshz81ry8uv to Sivasubramaniyam Ayyappan FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-sree-kurumba-fm",
+    "title": "Stage 29 Tamil radio directory lead: Sree Kurumba FM",
+    "url": "https://www.tamilradios.com/sree-kurumba-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/b35ge5nuv7guv to Sree Kurumba FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-dharisanam-fm",
+    "title": "Stage 29 Tamil radio directory lead: Dharisanam FM",
+    "url": "https://www.tamilradios.com/dharisanam-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/b741tfumhm8uv to Dharisanam FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-singampunari-fm",
+    "title": "Stage 29 Tamil radio directory lead: Singampunari FM",
+    "url": "https://www.tamilradios.com/singampunari-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/imeknggtwattv to Singampunari FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-yazh-news",
+    "title": "Stage 29 Tamil radio directory lead: Yazh News",
+    "url": "https://www.tamilradios.com/yazh-news",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/zek2rcdrua0uv to Yazh News; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kalai-fm",
+    "title": "Stage 29 Tamil radio directory lead: Kalai FM",
+    "url": "https://www.tamilradios.com/kalai-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/2vghnwshsqzuv to Kalai FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kanal-music",
+    "title": "Stage 29 Tamil radio directory lead: Kanal Music",
+    "url": "https://www.tamilradios.com/kanal-music",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/yy5bpv2vk2zuv to Kanal Music; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-kandhakapookkal-radio",
+    "title": "Stage 29 Tamil radio directory lead: Kandhakapookkal Radio",
+    "url": "https://www.tamilradios.com/kandhakapookkal-radio",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zenolive.com/050irbonp6auv to Kandhakapookkal Radio; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage29-source-krishna-fm",
+    "title": "Stage 29 Tamil radio directory lead: Krishna FM",
+    "url": "https://www.tamilradios.com/krishna-fm",
+    "kind": "directory",
+    "notes": "User-provided directory links https://stream.zeno.fm/gdpufetpuy8uv to Krishna FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
   }
 ]
