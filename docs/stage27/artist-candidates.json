@@ -1,0 +1,93 @@
+[
+  {
+    "name": "80s80s Michael Jackson",
+    "language": "en",
+    "country": "DE",
+    "url": "https://streams.80s80s.de/mj/mp3-128/streams.80s80s.de/",
+    "source": "https://streams.80s80s.de/"
+  },
+  {
+    "name": "Exclusively Michael Jackson",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/michaeljackson/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Justin Bieber",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/justinbieber/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Shakira",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/shakira/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively One Direction",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/onedirection/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Adele",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/adele/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Ed Sheeran",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/edsheeran/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Queen",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/queen/icecast.audio",
+    "source": "https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py"
+  },
+  {
+    "name": "Exclusively Westlife",
+    "language": "en",
+    "country": "AE",
+    "url": "https://streaming.exclusive.radio/er-app/westlife/icecast.audio",
+    "source": "https://you.radio/station/westlife"
+  },
+  {
+    "name": "Ilaiyaraaja Radio HTTPS trial",
+    "language": "ta",
+    "country": "IN",
+    "url": "https://212.83.138.48:8324/stream",
+    "source": "https://gist.github.com/Mani-RRI/a81dc2e71152a0a01ef83105202d5fb5"
+  },
+  {
+    "name": "AR Rahman Radio HTTPS trial",
+    "language": "ta",
+    "country": "IN",
+    "url": "https://212.83.138.48:8328/stream",
+    "source": "https://gist.github.com/Mani-RRI/a81dc2e71152a0a01ef83105202d5fb5"
+  },
+  {
+    "name": "Kamal Haasan Hits HTTPS trial",
+    "language": "ta",
+    "country": "IN",
+    "url": "https://prclive1.listenon.in:8836/",
+    "source": "https://gist.github.com/Mani-RRI/a81dc2e71152a0a01ef83105202d5fb5"
+  },
+  {
+    "name": "SPB Hits HTTPS trial",
+    "language": "ta",
+    "country": "IN",
+    "url": "https://prclive1.listenon.in:8837/",
+    "source": "https://gist.github.com/Mani-RRI/a81dc2e71152a0a01ef83105202d5fb5"
+  }
+]
