@@ -45,14 +45,14 @@
     "ZA"
   ],
   "counts": {
-    "networks": 120,
-    "stations": 123,
+    "networks": 122,
+    "stations": 125,
     "locations": 145,
-    "streams": 127,
+    "streams": 129,
     "verifiedStreams": 1,
-    "discoveryStations": 7,
-    "discoverableStations": 130,
-    "stationsWithStreamCandidates": 123,
+    "discoveryStations": 0,
+    "discoverableStations": 125,
+    "stationsWithStreamCandidates": 125,
     "productionEligibleStations": 0
   },
   "files": {

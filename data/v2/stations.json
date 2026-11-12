@@ -7521,5 +7521,93 @@
         }
       }
     ]
+  },
+  {
+    "id": "exclusively-backstreet-boys-ae",
+    "name": "Exclusively Backstreet Boys",
+    "networkId": "stage24-exclusively-backstreet-boys-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage24-source-exclusively-backstreet-boys-ae"
+    ],
+    "notes": "Artist-specific internet radio candidate; English song catalogue. Source list contains direct HTTPS stream but sustained decoding, broadcaster identity, RadioBee compatibility and permissions are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage24-stream-exclusively-backstreet-boys-ae",
+        "url": "https://streaming.exclusive.radio/er-app/backstreetboys/icecast.audio",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage24-source-exclusively-backstreet-boys-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage24-source-exclusively-backstreet-boys-ae",
+          "notes": "Trial-only HTTPS URL from curated source; no independent decode or listening rights verified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "exclusively-taylor-swift-ae",
+    "name": "Exclusively Taylor Swift",
+    "networkId": "stage24-exclusively-taylor-swift-ae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://play.exclusive.radio/",
+    "sourceIds": [
+      "stage24-source-exclusively-taylor-swift-ae"
+    ],
+    "notes": "Artist-specific internet radio candidate; English song catalogue. Source list contains direct HTTPS stream but sustained decoding, broadcaster identity, RadioBee compatibility and permissions are unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage24-stream-exclusively-taylor-swift-ae",
+        "url": "https://streaming.exclusive.radio/er-app/taylorswift/icecast.audio",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage24-source-exclusively-taylor-swift-ae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage24-source-exclusively-taylor-swift-ae",
+          "notes": "Trial-only HTTPS URL from curated source; no independent decode or listening rights verified.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

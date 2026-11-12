@@ -1268,5 +1268,25 @@
     ],
     "kind": "online",
     "website": "https://www.gururamana.org/Resources/radio-station"
+  },
+  {
+    "id": "stage24-exclusively-backstreet-boys-ae",
+    "name": "Exclusively Backstreet Boys",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
+  },
+  {
+    "id": "stage24-exclusively-taylor-swift-ae",
+    "name": "Exclusively Taylor Swift",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "online",
+    "website": "https://play.exclusive.radio/"
   }
 ]

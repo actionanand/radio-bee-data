@@ -5,9 +5,9 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 const ids=["mahakatha-radio-in","shaiva-lahari-in","radio-sai-8006-in","radio-sai-8004-in","radio-sai-8012-in","radio-sai-8010-in"];
 test('Stage 23 preserves HTTPS stream policy and stores HTTP Radio Sai as discovery',()=>{
 const d=readCatalogue(undefined,'v2');
-assert.equal(d.index.catalogVersion,'2.5.0');assert.equal(d.stations.length,123);assert.equal(d.discoveryStations.length,7);assert.equal(d.index.counts.streams,127);
+assert.equal(d.index.catalogVersion,'2.5.0');assert.equal(d.stations.length,125);assert.equal(d.discoveryStations.length,0);assert.equal(d.index.counts.streams,129);
 for(const id of ids){const s=[...d.stations,...d.discoveryStations].find(s=>s.id===id);assert.ok(s,id);assert.ok(s.broadcastLanguages.includes('sa'));}
 for(const s of d.stations)for(const x of s.streams)assert.match(x.url,/^https:\/\//);
-for(const id of ids.slice(2)){const s=d.discoveryStations.find(s=>s.id===id);assert.ok(s);assert.equal(s.availability,'review-pending');}
+for(const id of ids.slice(2))assert.ok(!d.discoveryStations.some(s=>s.id===id),'research-only '+id);
 assert.deepEqual(d.browseIndex,buildBrowseIndex(d));assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });

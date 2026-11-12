@@ -1,16 +1,11 @@
-# Stage 24 — English-language radio discovery (v2.5.0)
+# Stage 24 — English & artist radio (v2.5.0)
 
-Research updated 2026-11-13. Prioritize Tamil Nadu local candidates while adding US stations with direct broadcaster-published HTTPS links. All additions are unverified and no rights grants inferred.
+RadioBee user policy: public catalogue contains only stations with a direct HTTPS playback URL. Accordingly the seven former discovery-only entries (four Radio Sai HTTP streams and three Tamil Nadu research leads) are removed from the published v2 station/discovery inventory; their sources remain for research and prior history stays unchanged. **Having a URL is not confirmation of working playback or permission.** All trial streams remain explicitly unverified.
 
-| Station | Country | Kind | Stream or official source |
-|---|---|---|---|
-| KEXP 90.3 FM | US | HTTPS trial | https://kexp.streamguys1.com/kexp160.aac |
-| WNYC 93.9 FM | US | HTTPS trial | https://fm939.wnyc.org/wnycfm |
-| WQXR 105.9 FM | US | HTTPS trial | https://stream.wqxr.org/wqxr |
-| Chennai Live (Digital) | IN | Metadata-only discovery | https://www.muthootgroup.com/group-of-companies/media |
-| Radio One 94.3 Chennai | IN | Metadata-only discovery | https://mib.gov.in/sites/default/files/2025-09/fm_operationalchannels-1.pdf |
-| Voice of Arunachala | IN | Metadata-only discovery | https://www.gururamana.org/Resources/radio-station |
+New stream candidates in this branch: KEXP (USA), WNYC (USA), WQXR (USA), Exclusively Backstreet Boys (UAE), Exclusively Taylor Swift (UAE). Published 80s80s Michael Jackson (Germany) and Exclusively Michael Jackson (UAE) URLs were evaluated as further candidates but are **not** included in this round; use tests before expanding.
 
-Existing stations and streams unchanged; +3 stream-bearing stations, +3 metadata-only discoveries, +3 HTTPS URLs. Total: 123 stream-bearing, 7 discovery, 130 visible stations, 127 stream URLs. The prior Radio Sai discoveries are preserved.
+Westlife has a published dedicated station page https://you.radio/station/westlife but no independently confirmed stable direct HTTPS playback URL. Keep as research-only. Other promising artist feeds (Adele, Queen, Ed Sheeran, One Direction) are listed at https://github.com/Axel-Erfurt/ExclusiveRadio/blob/master/exclusiveList2.py; must be probed before importing.
 
-**Limitations:** KEXP/WNYC/WQXR HTTPS URLs are broadcaster-published but have not been independently audio-decoded; Android/Web playback remains untested. ChennaiLive is now described as digital-only by its parent group; avoid unverified current 104.8 FM claim. Radio One Chennai frequency is supported by India's FM register but English-only classification not verified. Voice of Arunachala is described by its institution as online radio; direct URL is still pending. Do not enable recording or redistribution from this research.
+Tamil Nadu research leads: Chennai Live, Radio One 94.3 Chennai, Voice of Arunachala. Bengaluru leads: Indigo 91.9 and Radio One. No direct HTTPS stream independently validated for these; they are not published as station cards. Official Akashvani player labels Delhi FM Gold/Rainbow **Hindi**, therefore do not misrepresent them as English-only stations.
+
+Totals: 125 stations, 0 discovery-only, 129 HTTPS stream URLs. Existing stream-bearing records preserved. No v1 changes. No new listening, recording, or redistribution permissions inferred.
