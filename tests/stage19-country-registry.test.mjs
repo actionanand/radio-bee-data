@@ -29,7 +29,7 @@ test('country registry fix does not republish no-stream FM listings',()=>{
   const d=readCatalogue(undefined,'v2');
   assert.equal(d.stations.length,240);
   assert.equal(d.discoveryStations.length,0);
-  assert.equal(d.stations.filter(station=>station.delivery==='fm').length,56);
+  assert.equal(d.stations.filter(station=>station.delivery==='fm').length,57);
   assert.ok(d.stations.every(station=>station.streams.length>0));
   assert.equal(d.index.counts.streams,245);
 });

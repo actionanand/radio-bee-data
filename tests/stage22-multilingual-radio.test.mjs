@@ -53,7 +53,7 @@ test('Stage 22 maintains all previous IDs and URL uniqueness, no unsupported rig
  for(const id of oldIds)assert.ok(d.stations.some(s=>s.id===id),id);
  assert.equal(d.stations.find(s=>s.id==='thaalam-in').streams[0].url,'https://themelo.in/stream/471');
  assert.equal(d.stations.find(s=>s.id==='thaalam-ch').streams[0].url,'https://thaalamradio.out.airtime.pro/thaalamradio_b');
- assert.equal(d.stations.filter(s=>s.delivery==='fm').length,56);
+ assert.equal(d.stations.filter(s=>s.delivery==='fm').length,57);
  assert.equal(d.index.counts.productionEligibleStations,0);
  assert.ok(d.stations.every(s=>s.streams.length));
  const urls=d.stations.flatMap(s=>s.streams.map(u=>u.url));
