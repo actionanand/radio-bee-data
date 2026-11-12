@@ -10616,15 +10616,11 @@
         "key": "theme:hindu-devotional",
         "stationIds": [
           "shiva-tattvam",
-          "stage32-bhakti-sangeet",
-          "stage32-dnyaneshwari",
-          "stage32-malayalam-bhakthi",
-          "stage32-sgpc-gurbani",
           "thiruneriya-thamizhosai"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
