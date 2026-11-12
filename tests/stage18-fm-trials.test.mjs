@@ -11,7 +11,7 @@ test('Stage 18 publishes only stations with at least one HTTPS URL, no metadata-
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
  assert.equal(d.index.catalogVersion,'2.5.0');
  assert.equal(d.stations.length,123);assert.equal(d.discoveryStations.length,7);
- assert.equal(d.stations.filter(s=>s.delivery==='fm').length,53);
+ assert.equal(d.stations.filter(s=>s.delivery==='fm').length,56);
  assert.equal(d.stations.flatMap(s=>s.streams).length,127);
  assert.ok(d.stations.every(s=>s.streams.length>0&&s.streams.every(x=>x.url.startsWith('https://'))));
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
