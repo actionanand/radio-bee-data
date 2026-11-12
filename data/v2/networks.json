@@ -2288,5 +2288,145 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage32-vividh-bharati-bengaluru",
+    "name": "Vividh Bharati Bengaluru",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-bhakti-sangeet",
+    "name": "Bhakti Sangeet",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-ap9-fm",
+    "name": "AP9 FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://onlineradiofm.in/stations/ap-9-fm-telugu"
+  },
+  {
+    "id": "stage32-air-telugu-online",
+    "name": "Air Telugu (Mintone)",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://mintone.app/"
+  },
+  {
+    "id": "stage32-fm-rainbow-vijayawada",
+    "name": "FM Rainbow Vijayawada",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://akashvani.gov.in/radio/live.php"
+  },
+  {
+    "id": "stage32-retro-bollywood-90s",
+    "name": "Radio Retro Bollywood 90s",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radioretrobollywood.com/"
+  },
+  {
+    "id": "stage32-sgpc-gurbani",
+    "name": "Live Gurbani — Sri Darbar Sahib (SGPC)",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://www.sgpc.net/"
+  },
+  {
+    "id": "stage32-ran-fm",
+    "name": "Ran FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-neth-fm",
+    "name": "NETH FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-siyatha-fm",
+    "name": "Siyatha FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-malayalam-bhakthi",
+    "name": "Malayalam Bhakthi Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage32-digital-malayali",
+    "name": "Radio Digital Malayali",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radio.digitalmalayali.in/"
+  },
+  {
+    "id": "stage32-radio-choklate",
+    "name": "Radio Choklate 104 FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://radiochoklateonline.com/"
+  },
+  {
+    "id": "stage32-dnyaneshwari",
+    "name": "Dnyaneshwari Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/"
   }
 ]

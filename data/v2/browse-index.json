@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.0",
+  "catalogVersion": "2.8.1",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 225,
-    "streamBearing": 225,
+    "all": 239,
+    "streamBearing": 239,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -206,6 +206,20 @@
     "stage29-vishnu-fm",
     "stage29-yazh-news",
     "stage29-yuvan-shankar-raja-ysr",
+    "stage32-air-telugu-online",
+    "stage32-ap9-fm",
+    "stage32-bhakti-sangeet",
+    "stage32-digital-malayali",
+    "stage32-dnyaneshwari",
+    "stage32-fm-rainbow-vijayawada",
+    "stage32-malayalam-bhakthi",
+    "stage32-neth-fm",
+    "stage32-radio-choklate",
+    "stage32-ran-fm",
+    "stage32-retro-bollywood-90s",
+    "stage32-sgpc-gurbani",
+    "stage32-siyatha-fm",
+    "stage32-vividh-bharati-bengaluru",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -600,6 +614,17 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-bhakti-sangeet",
+          "stage32-digital-malayali",
+          "stage32-dnyaneshwari",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-malayalam-bhakthi",
+          "stage32-radio-choklate",
+          "stage32-retro-bollywood-90s",
+          "stage32-sgpc-gurbani",
+          "stage32-vividh-bharati-bengaluru",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -613,8 +638,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 139,
-          "streamBearing": 139,
+          "all": 150,
+          "streamBearing": 150,
           "discoveryOnly": 0
         }
       },
@@ -672,12 +697,15 @@
           "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "stage29-yazh-news",
+          "stage32-neth-fm",
+          "stage32-ran-fm",
+          "stage32-siyatha-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -1687,6 +1715,17 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-bhakti-sangeet",
+          "stage32-digital-malayali",
+          "stage32-dnyaneshwari",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-malayalam-bhakthi",
+          "stage32-radio-choklate",
+          "stage32-retro-bollywood-90s",
+          "stage32-sgpc-gurbani",
+          "stage32-vividh-bharati-bengaluru",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -1822,6 +1861,17 @@
           "stage29-vijay-tamil-radio",
           "stage29-vishnu-fm",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-bhakti-sangeet",
+          "stage32-digital-malayali",
+          "stage32-dnyaneshwari",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-malayalam-bhakthi",
+          "stage32-radio-choklate",
+          "stage32-retro-bollywood-90s",
+          "stage32-sgpc-gurbani",
+          "stage32-vividh-bharati-bengaluru",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -1835,8 +1885,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 139,
-          "streamBearing": 139,
+          "all": 150,
+          "streamBearing": 150,
           "discoveryOnly": 0
         }
       },
@@ -3457,6 +3507,9 @@
           "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "stage29-yazh-news",
+          "stage32-neth-fm",
+          "stage32-ran-fm",
+          "stage32-siyatha-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
@@ -3467,12 +3520,15 @@
           "slbc-tamil-national-service",
           "sooriyan-srilanka",
           "stage29-yazh-news",
+          "stage32-neth-fm",
+          "stage32-ran-fm",
+          "stage32-siyatha-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -4479,11 +4535,12 @@
           "mauradio-mu",
           "radio-mirchi-dubai-ae",
           "radio-plus-indiz-mu",
-          "shaiva-lahari-in"
+          "shaiva-lahari-in",
+          "stage32-retro-bollywood-90s"
         ],
         "counts": {
-          "all": 14,
-          "streamBearing": 14,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -4616,11 +4673,13 @@
           "kannada-hits-in",
           "live-fm-bh",
           "radio-amr-kannada-in",
-          "shaiva-lahari-in"
+          "shaiva-lahari-in",
+          "stage32-bhakti-sangeet",
+          "stage32-vividh-bharati-bengaluru"
         ],
         "counts": {
-          "all": 5,
-          "streamBearing": 5,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -4741,11 +4800,13 @@
           "east-fm-ca",
           "live-fm-bh",
           "radio-malayalam-in",
-          "shaiva-lahari-in"
+          "shaiva-lahari-in",
+          "stage32-digital-malayali",
+          "stage32-malayalam-bhakthi"
         ],
         "counts": {
-          "all": 12,
-          "streamBearing": 12,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -4757,11 +4818,12 @@
         "stationIds": [
           "mauradio-mu",
           "radio-mast-marathi-in",
-          "radio-plus-indiz-mu"
+          "radio-plus-indiz-mu",
+          "stage32-dnyaneshwari"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -4813,6 +4875,20 @@
         }
       },
       {
+        "id": "or",
+        "name": "Odia",
+        "key": "language:or",
+        "nativeName": "ଓଡ଼ିଆ",
+        "stationIds": [
+          "stage32-radio-choklate"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "pa",
         "name": "Punjabi",
         "key": "language:pa",
@@ -4820,11 +4896,12 @@
         "stationIds": [
           "3zzz-au",
           "bol-punjabi-radio-in",
-          "east-fm-ca"
+          "east-fm-ca",
+          "stage32-sgpc-gurbani"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -4928,11 +5005,14 @@
         "stationIds": [
           "3zzz-au",
           "east-fm-ca",
-          "freefm-uae-sinhala-ae"
+          "freefm-uae-sinhala-ae",
+          "stage32-neth-fm",
+          "stage32-ran-fm",
+          "stage32-siyatha-fm"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -5212,11 +5292,14 @@
           "hello-telugu-in",
           "lotus-fm-za",
           "radio-plus-indiz-mu",
-          "shaiva-lahari-in"
+          "shaiva-lahari-in",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-fm-rainbow-vijayawada"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 9,
+          "streamBearing": 9,
           "discoveryOnly": 0
         }
       },
@@ -5574,6 +5657,20 @@
           "stage29-vishnu-fm",
           "stage29-yazh-news",
           "stage29-yuvan-shankar-raja-ysr",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-bhakti-sangeet",
+          "stage32-digital-malayali",
+          "stage32-dnyaneshwari",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-malayalam-bhakthi",
+          "stage32-neth-fm",
+          "stage32-radio-choklate",
+          "stage32-ran-fm",
+          "stage32-retro-bollywood-90s",
+          "stage32-sgpc-gurbani",
+          "stage32-siyatha-fm",
+          "stage32-vividh-bharati-bengaluru",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -5596,8 +5693,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 196,
-          "streamBearing": 196,
+          "all": 210,
+          "streamBearing": 210,
           "discoveryOnly": 0
         }
       }
@@ -9307,6 +9404,258 @@
         }
       },
       {
+        "id": "stage32-air-telugu-online",
+        "name": "Air Telugu (Mintone)",
+        "key": "network:stage32-air-telugu-online",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-air-telugu-online"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-ap9-fm",
+        "name": "AP9 FM",
+        "key": "network:stage32-ap9-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-ap9-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-bhakti-sangeet",
+        "name": "Bhakti Sangeet",
+        "key": "network:stage32-bhakti-sangeet",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-bhakti-sangeet"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-digital-malayali",
+        "name": "Radio Digital Malayali",
+        "key": "network:stage32-digital-malayali",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-digital-malayali"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-dnyaneshwari",
+        "name": "Dnyaneshwari Radio",
+        "key": "network:stage32-dnyaneshwari",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-dnyaneshwari"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-fm-rainbow-vijayawada",
+        "name": "FM Rainbow Vijayawada",
+        "key": "network:stage32-fm-rainbow-vijayawada",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-fm-rainbow-vijayawada"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-malayalam-bhakthi",
+        "name": "Malayalam Bhakthi Radio",
+        "key": "network:stage32-malayalam-bhakthi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-malayalam-bhakthi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-neth-fm",
+        "name": "NETH FM",
+        "key": "network:stage32-neth-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-neth-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-radio-choklate",
+        "name": "Radio Choklate 104 FM",
+        "key": "network:stage32-radio-choklate",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-radio-choklate"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-ran-fm",
+        "name": "Ran FM",
+        "key": "network:stage32-ran-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-ran-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-retro-bollywood-90s",
+        "name": "Radio Retro Bollywood 90s",
+        "key": "network:stage32-retro-bollywood-90s",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-retro-bollywood-90s"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-sgpc-gurbani",
+        "name": "Live Gurbani — Sri Darbar Sahib (SGPC)",
+        "key": "network:stage32-sgpc-gurbani",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-sgpc-gurbani"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-siyatha-fm",
+        "name": "Siyatha FM",
+        "key": "network:stage32-siyatha-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-siyatha-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage32-vividh-bharati-bengaluru",
+        "name": "Vividh Bharati Bengaluru",
+        "key": "network:stage32-vividh-bharati-bengaluru",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage32-vividh-bharati-bengaluru"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -9963,6 +10312,10 @@
           "stage29-ss-devotional-radio",
           "stage29-tamil-kadavul-murugan-fm",
           "stage29-vishnu-fm",
+          "stage32-bhakti-sangeet",
+          "stage32-dnyaneshwari",
+          "stage32-malayalam-bhakthi",
+          "stage32-sgpc-gurbani",
           "sweety-fm-in",
           "tamil-christian-radio-in",
           "theophony-tamil-in",
@@ -9971,8 +10324,8 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 32,
-          "streamBearing": 32,
+          "all": 36,
+          "streamBearing": 36,
           "discoveryOnly": 0
         }
       },
@@ -10011,6 +10364,8 @@
           "raaga-my",
           "radio-jamaica-jm",
           "sooriyan-srilanka",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-neth-fm",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "telemetro-radio-pa",
@@ -10018,8 +10373,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 35,
-          "streamBearing": 35,
+          "all": 37,
+          "streamBearing": 37,
           "discoveryOnly": 0
         }
       },
@@ -10136,6 +10491,14 @@
           "stage29-trt-tamil-oli",
           "stage29-tuticorin-radio",
           "stage29-vaalai-fm",
+          "stage32-air-telugu-online",
+          "stage32-ap9-fm",
+          "stage32-digital-malayali",
+          "stage32-radio-choklate",
+          "stage32-ran-fm",
+          "stage32-retro-bollywood-90s",
+          "stage32-siyatha-fm",
+          "stage32-vividh-bharati-bengaluru",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -10154,8 +10517,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 124,
-          "streamBearing": 124,
+          "all": 132,
+          "streamBearing": 132,
           "discoveryOnly": 0
         }
       },
@@ -10253,11 +10616,15 @@
         "key": "theme:hindu-devotional",
         "stationIds": [
           "shiva-tattvam",
+          "stage32-bhakti-sangeet",
+          "stage32-dnyaneshwari",
+          "stage32-malayalam-bhakthi",
+          "stage32-sgpc-gurbani",
           "thiruneriya-thamizhosai"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -10495,6 +10862,20 @@
         "stage29-vishnu-fm",
         "stage29-yazh-news",
         "stage29-yuvan-shankar-raja-ysr",
+        "stage32-air-telugu-online",
+        "stage32-ap9-fm",
+        "stage32-bhakti-sangeet",
+        "stage32-digital-malayali",
+        "stage32-dnyaneshwari",
+        "stage32-fm-rainbow-vijayawada",
+        "stage32-malayalam-bhakthi",
+        "stage32-neth-fm",
+        "stage32-radio-choklate",
+        "stage32-ran-fm",
+        "stage32-retro-bollywood-90s",
+        "stage32-sgpc-gurbani",
+        "stage32-siyatha-fm",
+        "stage32-vividh-bharati-bengaluru",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -10524,8 +10905,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 225,
-        "streamBearing": 225,
+        "all": 239,
+        "streamBearing": 239,
         "discoveryOnly": 0
       }
     },

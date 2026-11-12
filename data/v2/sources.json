@@ -2273,5 +2273,103 @@
     "url": "https://www.tamilradios.com/krishna-fm",
     "kind": "directory",
     "notes": "User-provided directory links https://stream.zeno.fm/gdpufetpuy8uv to Krishna FM; technical FFmpeg audio decoding and FFprobe codec checks passed in GitHub Actions run 43308964538 on 2026-11-13. Directory identity and broadcasting country are provisional. No in-app playback guarantee, broadcaster authorisation or permission for recording/redistribution inferred."
+  },
+  {
+    "id": "stage32-source-vividh-bharati-bengaluru",
+    "title": "Stage 32 candidate Vividh Bharati Bengaluru",
+    "url": "https://72fm.com/station/ad1abfce-9ac9-4187-88e9-d6be60344f25",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-bhakti-sangeet",
+    "title": "Stage 32 candidate Bhakti Sangeet",
+    "url": "https://github.com/tayyabios6/khan/blob/main/0z22e30.json",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-ap9-fm",
+    "title": "Stage 32 candidate AP9 FM",
+    "url": "https://72fm.com/station/b20ffe1c-edfa-4178-b4a8-268b5a5c13bf",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-air-telugu-online",
+    "title": "Stage 32 candidate Air Telugu (Mintone)",
+    "url": "https://72fm.com/station/003e39e9-aee0-4941-951e-0b8441f647a6",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-fm-rainbow-vijayawada",
+    "title": "Stage 32 candidate FM Rainbow Vijayawada",
+    "url": "https://gist.github.com/HemanthJabalpuri/9d251c1f2efda96e83d553ff79173042",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-retro-bollywood-90s",
+    "title": "Stage 32 candidate Radio Retro Bollywood 90s",
+    "url": "https://72fm.com/station/6560f39b-7a31-4f77-abf1-8cb9528c51c0",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-sgpc-gurbani",
+    "title": "Stage 32 candidate Live Gurbani — Sri Darbar Sahib (SGPC)",
+    "url": "https://www.rcast.net/dir/urban/page2",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-ran-fm",
+    "title": "Stage 32 candidate Ran FM",
+    "url": "https://www.freqtrail.com/stations/LK",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-neth-fm",
+    "title": "Stage 32 candidate NETH FM",
+    "url": "https://www.freqtrail.com/stations/LK",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-siyatha-fm",
+    "title": "Stage 32 candidate Siyatha FM",
+    "url": "https://www.freqtrail.com/stations/LK",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-malayalam-bhakthi",
+    "title": "Stage 32 candidate Malayalam Bhakthi Radio",
+    "url": "https://72fm.com/station/777fe585-7b88-46e6-85e4-35d126fdddd5",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-digital-malayali",
+    "title": "Stage 32 candidate Radio Digital Malayali",
+    "url": "https://www.freqtrail.com/stations/IN",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-radio-choklate",
+    "title": "Stage 32 candidate Radio Choklate 104 FM",
+    "url": "https://radiochoklateonline.com/live-url/",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage32-source-dnyaneshwari",
+    "title": "Stage 32 candidate Dnyaneshwari Radio",
+    "url": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/",
+    "kind": "third-party",
+    "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
   }
 ]

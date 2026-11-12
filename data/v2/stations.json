@@ -12011,5 +12011,621 @@
         }
       }
     ]
+  },
+  {
+    "id": "stage32-vividh-bharati-bengaluru",
+    "name": "Vividh Bharati Bengaluru",
+    "networkId": "stage32-vividh-bharati-bengaluru",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-vividh-bharati-bengaluru"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-vividh-bharati-bengaluru",
+        "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio026/hlspbaudio026_Auto.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-vividh-bharati-bengaluru",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-vividh-bharati-bengaluru",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-bhakti-sangeet",
+    "name": "Bhakti Sangeet",
+    "networkId": "stage32-bhakti-sangeet",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-bhakti-sangeet"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-bhakti-sangeet",
+        "url": "https://stream.zeno.fm/ut3kgm1vsa0uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-bhakti-sangeet",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-bhakti-sangeet",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-ap9-fm",
+    "name": "AP9 FM",
+    "networkId": "stage32-ap9-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "te"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://onlineradiofm.in/stations/ap-9-fm-telugu",
+    "sourceIds": [
+      "stage32-source-ap9-fm"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-ap9-fm",
+        "url": "https://stream.ap9fm.in/radio/8000/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-ap9-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-ap9-fm",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-air-telugu-online",
+    "name": "Air Telugu (Mintone)",
+    "networkId": "stage32-air-telugu-online",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "te"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://mintone.app/",
+    "sourceIds": [
+      "stage32-source-air-telugu-online"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-air-telugu-online",
+        "url": "https://stream-151.zeno.fm/7kbt507d3qzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-air-telugu-online",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-air-telugu-online",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-fm-rainbow-vijayawada",
+    "name": "FM Rainbow Vijayawada",
+    "networkId": "stage32-fm-rainbow-vijayawada",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "te"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage32-source-fm-rainbow-vijayawada"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-fm-rainbow-vijayawada",
+        "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio174/chunklist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-fm-rainbow-vijayawada",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-fm-rainbow-vijayawada",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-retro-bollywood-90s",
+    "name": "Radio Retro Bollywood 90s",
+    "networkId": "stage32-retro-bollywood-90s",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radioretrobollywood.com/",
+    "sourceIds": [
+      "stage32-source-retro-bollywood-90s"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-retro-bollywood-90s",
+        "url": "https://stream-143.zeno.fm/fdgs82xkzhhvv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-retro-bollywood-90s",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-retro-bollywood-90s",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-sgpc-gurbani",
+    "name": "Live Gurbani — Sri Darbar Sahib (SGPC)",
+    "networkId": "stage32-sgpc-gurbani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "pa"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.sgpc.net/",
+    "sourceIds": [
+      "stage32-source-sgpc-gurbani"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-sgpc-gurbani",
+        "url": "https://live.sgpc.net:8443/;stream.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-sgpc-gurbani",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-sgpc-gurbani",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-ran-fm",
+    "name": "Ran FM",
+    "networkId": "stage32-ran-fm",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-ran-fm"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-ran-fm",
+        "url": "https://a3.asurahosting.com/listen/ranfm/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-ran-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-ran-fm",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-neth-fm",
+    "name": "NETH FM",
+    "networkId": "stage32-neth-fm",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-neth-fm"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-neth-fm",
+        "url": "https://cp11.serverse.com/proxy/nethfm/stream",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-neth-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-neth-fm",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-siyatha-fm",
+    "name": "Siyatha FM",
+    "networkId": "stage32-siyatha-fm",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-siyatha-fm"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-siyatha-fm",
+        "url": "https://srv01.onlineradio.voaplus.com/siyathafm",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-siyatha-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-siyatha-fm",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-malayalam-bhakthi",
+    "name": "Malayalam Bhakthi Radio",
+    "networkId": "stage32-malayalam-bhakthi",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage32-source-malayalam-bhakthi"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-malayalam-bhakthi",
+        "url": "https://stream.zeno.fm/08e1vkshcc9uv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-malayalam-bhakthi",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-malayalam-bhakthi",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-digital-malayali",
+    "name": "Radio Digital Malayali",
+    "networkId": "stage32-digital-malayali",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radio.digitalmalayali.in/",
+    "sourceIds": [
+      "stage32-source-digital-malayali"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-digital-malayali",
+        "url": "https://radio.digitalmalayali.in/listen/stream/radio.mp3",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-digital-malayali",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-digital-malayali",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-radio-choklate",
+    "name": "Radio Choklate 104 FM",
+    "networkId": "stage32-radio-choklate",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "or"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://radiochoklateonline.com/",
+    "sourceIds": [
+      "stage32-source-radio-choklate"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-radio-choklate",
+        "url": "https://stream.zeno.fm/cuxmkpgdceruv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-radio-choklate",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-radio-choklate",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage32-dnyaneshwari",
+    "name": "Dnyaneshwari Radio",
+    "networkId": "stage32-dnyaneshwari",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/",
+    "sourceIds": [
+      "stage32-source-dnyaneshwari"
+    ],
+    "notes": "Stage 32 direct HTTPS candidate. Station identity, continuous playback, permissions and device support remain unverified. No public radio licence inferred.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage32-stream-dnyaneshwari",
+        "url": "https://stream.zeno.fm/qvssvt2r8druv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage32-source-dnyaneshwari",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage32-source-dnyaneshwari",
+          "notes": "No live FFmpeg decode or RadioBee device playback test conducted. Streaming, recording and redistribution rights unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
