@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.1",
+  "catalogVersion": "2.8.2",
   "publishedOn": "2026-11-13",
   "defaultLocale": "en",
   "locales": [
@@ -19,6 +19,7 @@
     "DK",
     "EG",
     "FI",
+    "FJ",
     "FR",
     "GB",
     "HR",
@@ -45,14 +46,14 @@
     "ZA"
   ],
   "counts": {
-    "networks": 236,
-    "stations": 239,
-    "locations": 145,
-    "streams": 243,
+    "networks": 242,
+    "stations": 240,
+    "locations": 148,
+    "streams": 244,
     "verifiedStreams": 1,
-    "discoveryStations": 0,
-    "discoverableStations": 239,
-    "stationsWithStreamCandidates": 239,
+    "discoveryStations": 12,
+    "discoverableStations": 252,
+    "stationsWithStreamCandidates": 240,
     "productionEligibleStations": 0
   },
   "files": {

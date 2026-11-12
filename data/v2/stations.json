@@ -12627,5 +12627,54 @@
         }
       }
     ]
+  },
+  {
+    "id": "stage33-red-fm-calgary",
+    "name": "RED FM Calgary 106.7",
+    "networkId": "stage33-red-fm-canada",
+    "countryCode": "CA",
+    "regionId": "ca-ab",
+    "districtId": null,
+    "localityId": "ca-ab-calgary",
+    "broadcastLanguages": [
+      "hi",
+      "pa"
+    ],
+    "genres": [
+      "music",
+      "talk"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 106.7,
+    "website": "https://calgary.redfm.ca/",
+    "sourceIds": [
+      "stage33-red-canada-official",
+      "stage33-red-calgary-stream"
+    ],
+    "notes": "Station identity is CKYR Calgary, Canadian RED FM, NOT India's Red FM. Directory advertises HTTPS AAC stream, but direct FFmpeg decoding, RadioBee Android/Web playback and all usage rights remain unverified. Provided HTTP CKYRFM_SC and .pls references are alternate leads, not extra stations.",
+    "aliases": [
+      "CKYR-FM"
+    ],
+    "streams": [
+      {
+        "id": "stage33-red-fm-calgary-aac",
+        "url": "https://ice10.securenetsystems.net/CKYR",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage33-red-calgary-stream",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage33-red-calgary-stream",
+          "notes": "Candidate HTTPS AAC URL from station directory, not yet independently decoded and not licensed for republishing/recording.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]

@@ -2371,5 +2371,131 @@
     "url": "https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/",
     "kind": "third-party",
     "notes": "Direct stream reference; actual playability, broadcaster permission and naming require confirmation."
+  },
+  {
+    "id": "stage33-streema-suryan-madurai",
+    "title": "Streema — Suryan FM Madurai",
+    "url": "https://streema.com/radios/suriyan_fm_93.5",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-suryan-puducherry",
+    "title": "Streema — Suryan FM Puducherry",
+    "url": "https://streema.com/radios/Surian_fm",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-suryan-tirunelveli",
+    "title": "Streema — Suryan FM Tirunelveli",
+    "url": "https://streema.com/radios/Suryan_FM_2",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-suryan-tiruchirappalli",
+    "title": "Streema — Suryan FM Tiruchirappalli",
+    "url": "https://streema.com/radios/Suryan_FM",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-suryan-coimbatore",
+    "title": "Streema — Suryan FM Coimbatore",
+    "url": "https://streema.com/radios/Suryan_FM_3",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-beat-retro",
+    "title": "Streema — Radio Beat Retro",
+    "url": "https://streema.com/radios/Radio_Beat_Retro",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-beat-malayalam",
+    "title": "Streema — Radio Beat Malayalam",
+    "url": "https://streema.com/radios/Radio_Beat_Radio_Beat_Malayalam",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-radio-beat-official",
+    "title": "Radio Beat — official station lineup",
+    "url": "https://radiobeat.in/",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-tamil-comedy",
+    "title": "Streema — Tamil Comedy Radio",
+    "url": "https://streema.com/radios/Tamil_Comedy_Radio",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-streema-southradios",
+    "title": "Streema — Southradios Tamil Lite",
+    "url": "https://streema.com/radios/Southradios_Tamil_Lite_Radio",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-southradios-official",
+    "title": "SouthRadios — station lineup",
+    "url": "https://preview.southradios.net/",
+    "kind": "provider",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-mib-fm-march-2026",
+    "title": "India MIB — 390 operational FM stations, 30 March 2026",
+    "url": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-mirchi-directory",
+    "title": "RadioIndia — Mirchi 98.3 FM",
+    "url": "https://www.radioindia.in/radio-mirchi-983-fm",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-red-delhi-official",
+    "title": "Red FM Delhi — official website",
+    "url": "https://redfmindia.in/",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-red-canada-official",
+    "title": "RED FM Canada — CKYR Calgary",
+    "url": "https://redfm.ca/",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-red-calgary-stream",
+    "title": "TingFM — CKYR secure stream endpoint",
+    "url": "https://tingfm.com/radio/22882",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-fbc-mirchi-fiji",
+    "title": "Fiji Broadcasting Corporation — Mirchi FM identity",
+    "url": "https://www.fbcnews.com.fj/about/",
+    "kind": "official",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
+  },
+  {
+    "id": "stage33-mirchi-fiji-old-stream",
+    "title": "FBC Mirchi Fiji — old HTTP stream index",
+    "url": "https://www.davidsaks.com/sitebuildercontent/sitebuilderfiles/radiostationurllist.pdf",
+    "kind": "directory",
+    "notes": "Stage 33 identity or endpoint reference only; neither playback availability nor third-party listening, recording or redistribution permission is established."
   }
 ]
