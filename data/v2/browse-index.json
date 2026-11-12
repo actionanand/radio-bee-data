@@ -3985,6 +3985,7 @@
           "lotus-fm-za",
           "mahakatha-radio-in",
           "mauradio-mu",
+          "radio-beat-extra",
           "radio-jamaica-jm",
           "realradio-ireland-ie",
           "shaiva-lahari-in",
@@ -3992,8 +3993,8 @@
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 29,
-          "streamBearing": 29,
+          "all": 30,
+          "streamBearing": 30,
           "discoveryOnly": 0
         }
       },
@@ -4760,7 +4761,6 @@
           "pollachi-fm",
           "quran-tamil-kw",
           "raaga-my",
-          "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
           "radio-plus-indiz-mu",
@@ -4791,8 +4791,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 84,
-          "streamBearing": 84,
+          "all": 83,
+          "streamBearing": 83,
           "discoveryOnly": 0
         }
       },

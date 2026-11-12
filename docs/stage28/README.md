@@ -28,3 +28,7 @@ Passing FFprobe/FFmpeg does **not** itself establish Chrome/Android actual playb
 | exclusively-ed-sheeran-ae | MP3 |
 | exclusively-queen-ae | MP3 |
 | exclusively-westlife-ae | MP3 |
+
+## Radio Beat Extra — language correction
+
+Radio Beat Extra is the separate English-hit-music channel of the multilingual Radio Beat network. Corrected `radio-beat-extra` from `broadcastLanguages: ["ta"]` to `["en"]`, and updated the v2 browse-index language facets (English +1, Tamil −1). Sources: [Streema](https://streema.com/radios/Radio_Beat_Extra), [myTuner](https://mytuner-radio.com/radio/radio-beat-extra-466494/), [Melo](https://themelo.in/s/1639/radio-beat-extra). Audio URL, codec, network, location, IDs and usage-rights metadata are unchanged; Radio Beat Love remains Tamil.

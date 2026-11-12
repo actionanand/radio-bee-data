@@ -24,3 +24,19 @@ test('Stage 28 codec results unblock playable metadata without approving rights'
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });
+
+test('Radio Beat Extra appears under English, not Tamil, while retaining its original stream and permissions',()=>{
+ const d=readCatalogue(undefined,'v2');
+ const s=d.stations.find(s=>s.id==='radio-beat-extra');
+ assert.ok(s);
+ assert.deepEqual(s.broadcastLanguages,['en']);
+ assert.equal(s.streams[0].url,'https://listen.openstream.co/4172/audio');
+ assert.equal(s.streams[0].verificationStatus,'unverified');
+ assert.equal(s.streams[0].rightsStatus,'unconfirmed');
+ const en=d.browseIndex.facets.languages.find(x=>x.id==='en');
+ const ta=d.browseIndex.facets.languages.find(x=>x.id==='ta');
+ assert.ok(en.stationIds.includes(s.id));
+ assert.ok(!ta.stationIds.includes(s.id));
+ assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
+ assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
+});
