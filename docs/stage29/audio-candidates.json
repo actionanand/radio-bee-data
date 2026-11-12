@@ -1,0 +1,576 @@
+[
+  {
+    "slug": "thenral-world-radio",
+    "name": "Thenral World Radio",
+    "url": "https://thenralw.radioca.st/LiveStream",
+    "source": "https://www.tamilradios.com/thenral-world-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "agaram-tamil-radio",
+    "name": "Agaram Tamil Radio",
+    "url": "https://stream.zeno.fm/ynuoddjfosluv",
+    "source": "https://www.tamilradios.com/agaram-tamil-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "clubhouse-tamil-90s-2k-vibes",
+    "name": "Clubhouse Tamil 90s & 2K Vibes",
+    "url": "https://liveradio.swaggerbeat.com:8100/stream",
+    "source": "https://www.tamilradios.com/clubhouse-tamil-90s-2k-vibes",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "jipmer-radio",
+    "name": "Jipmer Radio",
+    "url": "https://d1d1ao70vmf9ux.cloudfront.net/jipmer.m3u8",
+    "source": "https://www.tamilradios.com/jipmer-radio",
+    "formatHint": "hls"
+  },
+  {
+    "slug": "kodai-aruvi-fm",
+    "name": "Kodai Aruvi FM",
+    "url": "https://cast6.asurahosting.com/proxy/kodaiaruvifm/stream",
+    "source": "https://www.tamilradios.com/kodai-aruvi-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "saamanthi-fm",
+    "name": "Saamanthi FM",
+    "url": "https://cast6.asurahosting.com/proxy/saamanthifm/stream",
+    "source": "https://www.tamilradios.com/saamanthi-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tamil-mellisai-fm",
+    "name": "Tamil Mellisai FM",
+    "url": "https://stream.zeno.fm/e9hsbbbey4zuv",
+    "source": "https://www.tamilradios.com/tamil-mellisai-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "madhuram-radio",
+    "name": "Madhuram Radio",
+    "url": "https://cast6.asurahosting.com/proxy/madhuramradio/stream",
+    "source": "https://www.tamilradios.com/madhuram-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tuticorin-radio",
+    "name": "Tuticorin Radio",
+    "url": "https://cast6.asurahosting.com/proxy/tuticorinradio/stream",
+    "source": "https://www.tamilradios.com/tuticorin-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "dindigul-radio",
+    "name": "Dindigul Radio",
+    "url": "https://cast6.asurahosting.com/proxy/dglradio/stream",
+    "source": "https://www.tamilradios.com/dindigul-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "vaalai-fm",
+    "name": "Vaalai FM",
+    "url": "https://cast6.asurahosting.com/proxy/vaalaifm/stream",
+    "source": "https://www.tamilradios.com/vaalai-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "jayam-fm-7-1",
+    "name": "Jayam FM 7.1",
+    "url": "https://jayamfm-prabak78.radioca.st/stream",
+    "source": "https://www.tamilradios.com/jayam-fm-7-1",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "retro-tamil-fm",
+    "name": "Retro Tamil FM",
+    "url": "https://cast6.asurahosting.com/proxy/retrotamil/stream",
+    "source": "https://www.tamilradios.com/retro-tamil-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "oli-saaral-fm",
+    "name": "Oli Saaral FM",
+    "url": "https://cast6.asurahosting.com/proxy/olisaaral/stream",
+    "source": "https://www.tamilradios.com/oli-saaral-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "trt-tamil-oli",
+    "name": "TRT Tamil Oli",
+    "url": "https://radio13.pro-fhi.net:19236/stream.mp3",
+    "source": "https://www.tamilradios.com/trt-tamil-oli",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "pasumai-90-4-fm",
+    "name": "Pasumai FM 90.4",
+    "url": "https://cast6.asurahosting.com/proxy/pasumaifm/stream",
+    "source": "https://www.tamilradios.com/pasumai-90-4-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tiruvannamalai-city-fm",
+    "name": "Tiruvannamalai City FM",
+    "url": "https://cast6.asurahosting.com/proxy/tirucityfm/stream",
+    "source": "https://www.tamilradios.com/tiruvannamalai-city-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "rockfort-radio",
+    "name": "Rockfort Radio",
+    "url": "https://cast6.asurahosting.com/proxy/rockfortradio/stream",
+    "source": "https://www.tamilradios.com/rockfort-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "i-tamil-media-fm",
+    "name": "I Tamil Media FM",
+    "url": "https://streams.radio.co/s937ac5492/listen",
+    "source": "https://www.tamilradios.com/i-tamil-media-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "covai-city-fm",
+    "name": "Covai City FM",
+    "url": "https://cast6.asurahosting.com/proxy/ccfm/stream",
+    "source": "https://www.tamilradios.com/covai-city-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ss-tamil-radio",
+    "name": "SS Tamil Radio",
+    "url": "https://cast6.asurahosting.com/proxy/sstamilradio/stream",
+    "source": "https://www.tamilradios.com/ss-tamil-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "imai-fm",
+    "name": "Imai FM",
+    "url": "https://centova71.instainternet.com/proxy/imaifmradio?mp=/stream",
+    "source": "https://www.tamilradios.com/imai-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "rj-tamil-fm",
+    "name": "Rj Tamil FM",
+    "url": "https://cast6.asurahosting.com/proxy/rjtamil/stream",
+    "source": "https://www.tamilradios.com/rj-tamil-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "100-love-radio",
+    "name": "100% Love Radio",
+    "url": "https://stream.zeno.fm/48kgynhuutzuv",
+    "source": "https://www.tamilradios.com/100-love-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "100-new-songs",
+    "name": "100% New Songs",
+    "url": "https://stream.zeno.fm/8hx0ftvm0wzuv",
+    "source": "https://www.tamilradios.com/100-new-songs",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "100-sad-songs",
+    "name": "100% Sad Songs",
+    "url": "https://stream.zeno.fm/ven997gqvtzuv",
+    "source": "https://www.tamilradios.com/100-sad-songs",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tamil-ragam",
+    "name": "Tamil Ragam",
+    "url": "https://cast4.asurahosting.com/proxy/neville/stream",
+    "source": "https://www.tamilradios.com/tamil-ragam",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "airtamil-90s",
+    "name": "AirTamil 90s",
+    "url": "https://stream.zeno.fm/06ar0cnafwzuv",
+    "source": "https://www.tamilradios.com/airtamil-90s",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "captain-fm",
+    "name": "Captain FM",
+    "url": "https://stream.zeno.fm/ae0r72huttzuv",
+    "source": "https://www.tamilradios.com/captain-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "kaadhal-fm",
+    "name": "Kaadhal FM",
+    "url": "https://stream.zeno.fm/sc3uzmkd0xhvv",
+    "source": "https://www.tamilradios.com/kaadhal-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "love-songs-tamil",
+    "name": "Love Songs Tamil",
+    "url": "https://stream.zeno.fm/027dtnhuutzuv",
+    "source": "https://www.tamilradios.com/love-songs-tamil",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "love-bites-mohan-songs",
+    "name": "Love bites Mohan songs",
+    "url": "https://stream.zeno.fm/uhgvxy3yr2nuv",
+    "source": "https://www.tamilradios.com/love-bites-mohan-songs",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "loveda-fm",
+    "name": "LoveDa FM",
+    "url": "https://stream.zeno.fm/nmdrk7ah7yzuv",
+    "source": "https://www.tamilradios.com/loveda-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "sad-songs-fm",
+    "name": "Sad Songs FM",
+    "url": "https://stream.zeno.fm/xbmq57gqvtzuv",
+    "source": "https://www.tamilradios.com/sad-songs-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "rocker-radio-tamil-gold-70s-90s",
+    "name": "Rocker Radio Tamil Gold 70s 90s",
+    "url": "https://stream.zenolive.com/sr40tbbq2nhvv",
+    "source": "https://www.tamilradios.com/rocker-radio-tamil-gold-70s-90s",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "mgr-sivaji-radio",
+    "name": "MGR & Sivaji Radio",
+    "url": "https://stream.zeno.fm/pq4yq4qri9yvv",
+    "source": "https://www.tamilradios.com/mgr-sivaji-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "spb-online-radio",
+    "name": "SPB Online Radio",
+    "url": "https://stream-159.zeno.fm/9adkzdcqi4jvv",
+    "source": "https://www.tamilradios.com/spb-online-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "harris-jayaraj-radio",
+    "name": "Harris Jayaraj Radio",
+    "url": "https://stream-158.zeno.fm/0bhsthssutzuv",
+    "source": "https://www.tamilradios.com/harris-jayaraj-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ks-chitra-radio",
+    "name": "KS Chitra Radio",
+    "url": "https://stream.zeno.fm/aad4e51qz7zuv",
+    "source": "https://www.tamilradios.com/ks-chitra-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "deva-radio",
+    "name": "Deva Radio",
+    "url": "https://stream.zeno.fm/ijpae65onobuv",
+    "source": "https://www.tamilradios.com/deva-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "kj-yesudas-radio",
+    "name": "K. J. Yesudas Radio",
+    "url": "https://stream.zeno.fm/trtwuyqdmrgtv",
+    "source": "https://www.tamilradios.com/kj-yesudas-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tms-radio",
+    "name": "TMS Radio",
+    "url": "https://stream.zeno.fm/qvonezatdxytv",
+    "source": "https://www.tamilradios.com/tms-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "s-janaki-radio",
+    "name": "S. Janaki Radio",
+    "url": "https://stream.zeno.fm/nnhhfe4bv1uuv",
+    "source": "https://www.tamilradios.com/s-janaki-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "mano-radio",
+    "name": "Mano Radio",
+    "url": "https://stream.zeno.fm/maokuvdskhnuv",
+    "source": "https://www.tamilradios.com/mano-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "spb-old-hits-fm",
+    "name": "SPB Old Hits",
+    "url": "https://stream.zeno.fm/lgukkevrihmvv",
+    "source": "https://www.tamilradios.com/spb-old-hits-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ilayaraja-voice-fm",
+    "name": "IlayaRaja Voice",
+    "url": "https://stream.zeno.fm/qfd4vokvu3dvv",
+    "source": "https://www.tamilradios.com/ilayaraja-voice-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "top-news-thamizh-fm",
+    "name": "Top News Thamizh FM",
+    "url": "https://stream.zeno.fm/0z336oe9ivauv",
+    "source": "https://www.tamilradios.com/top-news-thamizh-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "santhosh-narayanan-radio",
+    "name": "Santhosh Narayanan Radio",
+    "url": "https://stream.zeno.fm/wkqvzsg1238uv",
+    "source": "https://www.tamilradios.com/santhosh-narayanan-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "arrahman-classic",
+    "name": "ARRahman Classic",
+    "url": "https://stream.zeno.fm/ttisib8fr6kuv",
+    "source": "https://www.tamilradios.com/arrahman-classic",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "makkal-thilagam-mgr",
+    "name": "Makkal Thilagam MGR",
+    "url": "https://stream.zeno.fm/qqeac1w55qzuv",
+    "source": "https://www.tamilradios.com/makkal-thilagam-mgr",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ms-viswanathan-hits",
+    "name": "MS Viswanathan Hits",
+    "url": "https://stream.zeno.fm/mxihfpmksk8uv",
+    "source": "https://www.tamilradios.com/ms-viswanathan-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "simbu-hits",
+    "name": "Simbu Hits",
+    "url": "https://stream.zeno.fm/01p3nvuq538uv",
+    "source": "https://www.tamilradios.com/simbu-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "maestro-hits",
+    "name": "Maestro Hits",
+    "url": "https://stream.zenolive.com/zngnvwy9bm8uv",
+    "source": "https://www.tamilradios.com/maestro-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "yuvan-shankar-raja-ysr",
+    "name": "Yuvan Shankar Raja YSR",
+    "url": "https://stream.zeno.fm/bni50mpqxjeuv",
+    "source": "https://www.tamilradios.com/yuvan-shankar-raja-ysr",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "arrahman-classic-hits",
+    "name": "ARRahman Classic Hits",
+    "url": "https://stream.zeno.fm/j3cntml3iulvv",
+    "source": "https://www.tamilradios.com/arrahman-classic-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "rajini-radio",
+    "name": "Rajini Radio",
+    "url": "https://stream.zeno.fm/g20bs7hu0uhvv",
+    "source": "https://www.tamilradios.com/rajini-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "na-muthukumar-hits",
+    "name": "Na Muthukumar Hits",
+    "url": "https://stream-172.zeno.fm/v7d1g1hvfy8uv?",
+    "source": "https://www.tamilradios.com/na-muthukumar-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "imman-radio",
+    "name": "Imman Radio",
+    "url": "https://stream.zeno.fm/6apkrxlnxudtv",
+    "source": "https://www.tamilradios.com/imman-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "thaman-hits",
+    "name": "Thaman Hits",
+    "url": "https://stream.zenolive.com/tqhegaztqfhvv",
+    "source": "https://www.tamilradios.com/thaman-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "jp-chandrababu-hits",
+    "name": "JP Chandrababu Hits",
+    "url": "https://stream.zeno.fm/knuruqv62d0uv",
+    "source": "https://www.tamilradios.com/jp-chandrababu-hits",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "vijay-tamil-radio",
+    "name": "Vijay FM Radio",
+    "url": "https://vijayfm-prabak78.radioca.st/stream",
+    "source": "https://www.tamilradios.com/vijay-tamil-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "isai-manam",
+    "name": "Isai Manam",
+    "url": "https://stream.zeno.fm/iqpqyzwsinxtv",
+    "source": "https://www.tamilradios.com/isai-manam",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "tamil-kadavul-murugan-fm",
+    "name": "Tamil Kadavul Murugan",
+    "url": "https://cast6.asurahosting.com/proxy/tkmradio/stream",
+    "source": "https://www.tamilradios.com/tamil-kadavul-murugan-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "shaivam-radio",
+    "name": "Shaivam Radio",
+    "url": "https://samcloud.spacial.com/api/listen?sid=107848",
+    "source": "https://www.tamilradios.com/shaivam-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ayngaran-radio",
+    "name": "Ayngaran Radio",
+    "url": "https://cast6.asurahosting.com/proxy/ayngaranradio/stream",
+    "source": "https://www.tamilradios.com/ayngaran-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "aadhi-sivan-fm",
+    "name": "Aadhi Sivan FM",
+    "url": "https://cast6.asurahosting.com/proxy/aadhisivam/stream",
+    "source": "https://www.tamilradios.com/aadhi-sivan-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "om-sakthi-fm",
+    "name": "Om Sakthi FM",
+    "url": "https://cast6.asurahosting.com/proxy/omsakthifm/stream",
+    "source": "https://www.tamilradios.com/om-sakthi-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "ss-devotional-radio",
+    "name": "SS Devotional Radio",
+    "url": "https://cast6.asurahosting.com/proxy/ssdevotional/stream",
+    "source": "https://www.tamilradios.com/ss-devotional-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "guru-raghavendra-radio",
+    "name": "Guru Raghavendra Radio",
+    "url": "https://cast5.asurahosting.com/proxy/gururayar/stream",
+    "source": "https://www.tamilradios.com/guru-raghavendra-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "vishnu-fm",
+    "name": "Vishnu FM",
+    "url": "https://cast6.asurahosting.com/proxy/vishnufm/stream",
+    "source": "https://www.tamilradios.com/vishnu-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "saranam-ayyappa-fm",
+    "name": "Saranam Ayyappa FM",
+    "url": "https://cast6.asurahosting.com/proxy/saranamayyappa/stream",
+    "source": "https://www.tamilradios.com/saranam-ayyappa-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "sai-fm-radio",
+    "name": "Sai Radio",
+    "url": "https://cast6.asurahosting.com/proxy/sairadio/stream",
+    "source": "https://www.tamilradios.com/sai-fm-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "aanmeega-sudar",
+    "name": "Aanmeega Sudar",
+    "url": "https://stream.zeno.fm/ymkr7th4f2zuv",
+    "source": "https://www.tamilradios.com/aanmeega-sudar",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "sivasubramaniyam-ayyappan-songs-fm",
+    "name": "Sivasubramaniyam Ayyappan FM",
+    "url": "https://stream.zeno.fm/zesshz81ry8uv",
+    "source": "https://www.tamilradios.com/sivasubramaniyam-ayyappan-songs-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "sree-kurumba-fm",
+    "name": "Sree Kurumba FM",
+    "url": "https://stream.zeno.fm/b35ge5nuv7guv",
+    "source": "https://www.tamilradios.com/sree-kurumba-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "dharisanam-fm",
+    "name": "Dharisanam FM",
+    "url": "https://stream.zeno.fm/b741tfumhm8uv",
+    "source": "https://www.tamilradios.com/dharisanam-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "singampunari-fm",
+    "name": "Singampunari FM",
+    "url": "https://stream.zeno.fm/imeknggtwattv",
+    "source": "https://www.tamilradios.com/singampunari-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "yazh-news",
+    "name": "Yazh News",
+    "url": "https://stream.zeno.fm/zek2rcdrua0uv",
+    "source": "https://www.tamilradios.com/yazh-news",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "kalai-fm",
+    "name": "Kalai FM",
+    "url": "https://stream.zeno.fm/2vghnwshsqzuv",
+    "source": "https://www.tamilradios.com/kalai-fm",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "kanal-music",
+    "name": "Kanal Music",
+    "url": "https://stream.zeno.fm/yy5bpv2vk2zuv",
+    "source": "https://www.tamilradios.com/kanal-music",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "kandhakapookkal-radio",
+    "name": "Kandhakapookkal Radio",
+    "url": "https://stream.zenolive.com/050irbonp6auv",
+    "source": "https://www.tamilradios.com/kandhakapookkal-radio",
+    "formatHint": "unknown"
+  },
+  {
+    "slug": "krishna-fm",
+    "name": "Krishna FM",
+    "url": "https://stream.zeno.fm/gdpufetpuy8uv",
+    "source": "https://www.tamilradios.com/krishna-fm",
+    "formatHint": "unknown"
+  }
+]
