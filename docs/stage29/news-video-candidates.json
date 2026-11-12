@@ -1,0 +1,22 @@
+[
+  {
+    "name": "News7 Tamil",
+    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/news7_nim_https/240122/news7/playlist.m3u8",
+    "page": "https://www.tamilradios.com/sun-news-live"
+  },
+  {
+    "name": "Polimer News",
+    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/polimernews_nim_https/110322/polimernews/playlist.m3u8",
+    "page": "https://www.tamilradios.com/polimer-news-live"
+  },
+  {
+    "name": "Polimer News alternative",
+    "url": "https://live-cf-polimernews.dailyhunt.in/master.m3u8",
+    "page": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u"
+  },
+  {
+    "name": "Polimer News alternative Yupp",
+    "url": "https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8",
+    "page": "https://github.com/iptv-org/iptv/blob/master/streams/in.m3u"
+  }
+]
