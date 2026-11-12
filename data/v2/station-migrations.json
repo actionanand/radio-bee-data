@@ -62,12 +62,6 @@
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
     },
     {
-      "oldId": "suryan-chennai",
-      "canonicalId": null,
-      "sourceId": null,
-      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
-    },
-    {
       "oldId": "suryan-coimbatore",
       "canonicalId": null,
       "sourceId": null,
@@ -158,12 +152,6 @@
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
     },
     {
-      "oldId": "mirchi-chennai",
-      "canonicalId": null,
-      "sourceId": null,
-      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
-    },
-    {
       "oldId": "mirchi-coimbatore",
       "canonicalId": null,
       "sourceId": null,
@@ -207,12 +195,6 @@
     },
     {
       "oldId": "mirchi-puducherry",
-      "canonicalId": null,
-      "sourceId": null,
-      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
-    },
-    {
-      "oldId": "radio-city-chennai",
       "canonicalId": null,
       "sourceId": null,
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
@@ -273,12 +255,6 @@
     },
     {
       "oldId": "red-new-delhi",
-      "canonicalId": null,
-      "sourceId": null,
-      "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."
-    },
-    {
-      "oldId": "big-chennai",
       "canonicalId": null,
       "sourceId": null,
       "reason": "No direct Internet audio URL established; physical FM/AM metadata is research only."

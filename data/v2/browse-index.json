@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.0.0",
+  "catalogVersion": "2.1.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 117,
-    "streamBearing": 71,
-    "discoveryOnly": 46
+    "all": 75,
+    "streamBearing": 75,
+    "discoveryOnly": 0
   },
   "stationIds": [
     "3zzz-au",
@@ -29,7 +29,6 @@
     "air-puducherry",
     "air-raagam",
     "air-tamil",
-    "air-thoothukudi",
     "air-thrissur",
     "air-tiruchirappalli",
     "air-tirunelveli",
@@ -38,60 +37,31 @@
     "amen-fm-ca",
     "american-tamil-radio-us",
     "amudham-fm-in",
-    "annai-kuzhithurai",
     "ar-radio",
-    "asr-kanyakumari",
-    "atbc-au",
-    "athavan-uk",
     "aural-radio",
     "beats-radio-us",
     "big-chennai",
-    "big-puducherry",
     "boom-tamil",
-    "christian-samy-fm",
-    "cmr-tamil-ca",
-    "ctbc-ca",
-    "ctr-ca",
     "east-fm-ca",
     "etr-de",
     "good-news-tamil-ca",
     "hand-of-jesus-tamil-in",
     "hello-chennai",
-    "hello-coimbatore",
-    "hello-erode",
-    "hello-madurai",
-    "hello-nagercoil",
-    "hello-puducherry",
-    "hello-salem",
-    "hello-thoothukudi",
-    "hello-tiruchirappalli",
-    "hello-tirunelveli",
-    "hello-vellore",
     "ibc-tamil-uk",
     "inbathamil-oli-au",
-    "isai-murasu-nagercoil",
     "iskcon-nagercoil",
     "jei-fm-my",
-    "kumari-tamil-kanyakumari",
     "live-fm-bh",
     "lotus-fm-za",
     "luminous-radio-tamil",
     "mauradio-mu",
     "minnal-my",
     "mirchi-chennai",
-    "mirchi-coimbatore",
-    "mirchi-madurai",
-    "mirchi-thiruvananthapuram",
-    "mirchi-tiruchirappalli",
-    "mirchi-tirunelveli",
     "namathu-fm-fr",
     "oli-968-sg",
     "otran-vaanoli-ie",
     "quran-tamil-kw",
-    "raaga-my",
     "radio-city-chennai",
-    "radio-city-coimbatore",
-    "radio-city-madurai",
     "radio-plus-indiz-mu",
     "shakthi-srilanka",
     "shiva-tattvam",
@@ -99,24 +69,12 @@
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suryan-chennai",
-    "suryan-coimbatore",
-    "suryan-erode",
-    "suryan-madurai",
-    "suryan-nagercoil",
-    "suryan-puducherry",
-    "suryan-salem",
-    "suryan-thoothukudi",
-    "suryan-tiruchirappalli",
-    "suryan-tirunelveli",
-    "suryan-vellore",
     "sweety-fm-in",
     "swiss-tamil-radio-ch",
     "tamil-894-ae",
     "tamil-christian-radio-in",
     "tamil-murasam-no",
     "tamil-panpalai",
-    "tamilosai-nagercoil",
-    "tarana-tamil-nz",
     "thaalam-ch",
     "theophony-tamil-in",
     "thiruneriya-thamizhosai",
@@ -152,13 +110,12 @@
           "4eb-fm-au",
           "4eb-global-au",
           "5ebi-au",
-          "atbc-au",
           "inbathamil-oli-au"
         ],
         "counts": {
-          "all": 6,
+          "all": 5,
           "streamBearing": 5,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -184,17 +141,14 @@
           "a9-radio-ca",
           "amen-fm-ca",
           "boom-tamil",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "east-fm-ca",
           "good-news-tamil-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 9,
+          "all": 6,
           "streamBearing": 6,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -248,13 +202,12 @@
         "key": "country:GB",
         "locationId": "gb",
         "stationIds": [
-          "athavan-uk",
           "ibc-tamil-uk"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -293,68 +246,33 @@
           "air-puducherry",
           "air-raagam",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
           "amudham-fm-in",
-          "annai-kuzhithurai",
           "ar-radio",
-          "asr-kanyakumari",
           "aural-radio",
           "big-chennai",
-          "big-puducherry",
-          "christian-samy-fm",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
-          "isai-murasu-nagercoil",
           "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
           "luminous-radio-tamil",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "shiva-tattvam",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "sweety-fm-in",
           "tamil-christian-radio-in",
           "tamil-panpalai",
-          "tamilosai-nagercoil",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 73,
-          "streamBearing": 34,
-          "discoveryOnly": 39
+          "all": 38,
+          "streamBearing": 38,
+          "discoveryOnly": 0
         }
       },
       {
@@ -410,13 +328,12 @@
         "locationId": "my",
         "stationIds": [
           "jei-fm-my",
-          "minnal-my",
-          "raaga-my"
+          "minnal-my"
         ],
         "counts": {
-          "all": 3,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -432,20 +349,6 @@
           "all": 2,
           "streamBearing": 2,
           "discoveryOnly": 0
-        }
-      },
-      {
-        "id": "NZ",
-        "name": "New Zealand",
-        "key": "country:NZ",
-        "locationId": "nz",
-        "stationIds": [
-          "tarana-tamil-nz"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
         }
       },
       {
@@ -566,13 +469,12 @@
           "4eb-fm-au",
           "4eb-global-au",
           "5ebi-au",
-          "atbc-au",
           "inbathamil-oli-au"
         ],
         "counts": {
-          "all": 6,
+          "all": 5,
           "streamBearing": 5,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -587,13 +489,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "atbc-au",
           "inbathamil-oli-au"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -605,17 +506,15 @@
         "parentId": "au-nsw",
         "childIds": [],
         "directStationIds": [
-          "atbc-au",
           "inbathamil-oli-au"
         ],
         "stationIds": [
-          "atbc-au",
           "inbathamil-oli-au"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -776,17 +675,14 @@
           "a9-radio-ca",
           "amen-fm-ca",
           "boom-tamil",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "east-fm-ca",
           "good-news-tamil-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 9,
+          "all": 6,
           "streamBearing": 6,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -802,24 +698,20 @@
           "ca-on-toronto"
         ],
         "directStationIds": [
-          "boom-tamil",
-          "ctbc-ca"
+          "boom-tamil"
         ],
         "stationIds": [
           "a9-radio-ca",
           "amen-fm-ca",
           "boom-tamil",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "east-fm-ca",
           "good-news-tamil-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 9,
+          "all": 6,
           "streamBearing": 6,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -874,20 +766,16 @@
         "childIds": [],
         "directStationIds": [
           "a9-radio-ca",
-          "cmr-tamil-ca",
-          "ctr-ca",
           "time-fm-toronto-ca"
         ],
         "stationIds": [
           "a9-radio-ca",
-          "cmr-tamil-ca",
-          "ctr-ca",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 4,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -1009,17 +897,14 @@
         "childIds": [
           "gb-eng"
         ],
-        "directStationIds": [
-          "athavan-uk"
-        ],
+        "directStationIds": [],
         "stationIds": [
-          "athavan-uk",
           "ibc-tamil-uk"
         ],
         "counts": {
-          "all": 2,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -1104,68 +989,33 @@
           "air-puducherry",
           "air-raagam",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
           "amudham-fm-in",
-          "annai-kuzhithurai",
           "ar-radio",
-          "asr-kanyakumari",
           "aural-radio",
           "big-chennai",
-          "big-puducherry",
-          "christian-samy-fm",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
-          "isai-murasu-nagercoil",
           "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
           "luminous-radio-tamil",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "shiva-tattvam",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "sweety-fm-in",
           "tamil-christian-radio-in",
           "tamil-panpalai",
-          "tamilosai-nagercoil",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 73,
-          "streamBearing": 34,
-          "discoveryOnly": 39
+          "all": 38,
+          "streamBearing": 38,
+          "discoveryOnly": 0
         }
       },
       {
@@ -1393,13 +1243,12 @@
           "air-kozhikode",
           "air-thrissur",
           "ar-radio",
-          "aural-radio",
-          "mirchi-thiruvananthapuram"
+          "aural-radio"
         ],
         "counts": {
-          "all": 8,
+          "all": 7,
           "streamBearing": 7,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -1607,13 +1456,11 @@
           "in-kl-thiruvananthapuram-thiruvananthapuram"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "mirchi-thiruvananthapuram"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -1624,16 +1471,12 @@
         "countryCode": "IN",
         "parentId": "in-kl-thiruvananthapuram",
         "childIds": [],
-        "directStationIds": [
-          "mirchi-thiruvananthapuram"
-        ],
-        "stationIds": [
-          "mirchi-thiruvananthapuram"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -1780,15 +1623,12 @@
         "directStationIds": [],
         "stationIds": [
           "air-karaikal",
-          "air-puducherry",
-          "big-puducherry",
-          "hello-puducherry",
-          "suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 5,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -1843,15 +1683,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-puducherry",
-          "big-puducherry",
-          "hello-puducherry",
-          "suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -1863,21 +1700,15 @@
         "parentId": "in-py-puducherry",
         "childIds": [],
         "directStationIds": [
-          "air-puducherry",
-          "big-puducherry",
-          "hello-puducherry",
-          "suryan-puducherry"
+          "air-puducherry"
         ],
         "stationIds": [
-          "air-puducherry",
-          "big-puducherry",
-          "hello-puducherry",
-          "suryan-puducherry"
+          "air-puducherry"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -1971,55 +1802,24 @@
           "air-nagercoil",
           "air-ooty",
           "air-tamil",
-          "air-thoothukudi",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "amudham-fm-in",
-          "annai-kuzhithurai",
-          "asr-kanyakumari",
           "big-chennai",
-          "christian-samy-fm",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
-          "isai-murasu-nagercoil",
           "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "sweety-fm-in",
           "tamil-christian-radio-in",
-          "tamilosai-nagercoil",
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 53,
-          "streamBearing": 18,
-          "discoveryOnly": 35
+          "all": 22,
+          "streamBearing": 22,
+          "discoveryOnly": 0
         }
       },
       {
@@ -2047,8 +1847,8 @@
         ],
         "counts": {
           "all": 10,
-          "streamBearing": 6,
-          "discoveryOnly": 4
+          "streamBearing": 10,
+          "discoveryOnly": 0
         }
       },
       {
@@ -2085,8 +1885,8 @@
         ],
         "counts": {
           "all": 10,
-          "streamBearing": 6,
-          "discoveryOnly": 4
+          "streamBearing": 10,
+          "discoveryOnly": 0
         }
       },
       {
@@ -2101,16 +1901,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-coimbatore",
-          "hello-coimbatore",
-          "mirchi-coimbatore",
-          "radio-city-coimbatore",
-          "suryan-coimbatore"
+          "air-coimbatore"
         ],
         "counts": {
-          "all": 5,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2122,23 +1918,15 @@
         "parentId": "in-tn-coimbatore",
         "childIds": [],
         "directStationIds": [
-          "air-coimbatore",
-          "hello-coimbatore",
-          "mirchi-coimbatore",
-          "radio-city-coimbatore",
-          "suryan-coimbatore"
+          "air-coimbatore"
         ],
         "stationIds": [
-          "air-coimbatore",
-          "hello-coimbatore",
-          "mirchi-coimbatore",
-          "radio-city-coimbatore",
-          "suryan-coimbatore"
+          "air-coimbatore"
         ],
         "counts": {
-          "all": 5,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2208,14 +1996,11 @@
           "in-tn-erode-erode"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "hello-erode",
-          "suryan-erode"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2226,18 +2011,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-erode",
         "childIds": [],
-        "directStationIds": [
-          "hello-erode",
-          "suryan-erode"
-        ],
-        "stationIds": [
-          "hello-erode",
-          "suryan-erode"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2254,25 +2033,15 @@
           "in-tn-kanyakumari-puliyurkurichi",
           "in-tn-kanyakumari-thingalnagar"
         ],
-        "directStationIds": [
-          "kumari-tamil-kanyakumari"
-        ],
+        "directStationIds": [],
         "stationIds": [
           "air-nagercoil",
-          "annai-kuzhithurai",
-          "asr-kanyakumari",
-          "christian-samy-fm",
-          "hello-nagercoil",
-          "isai-murasu-nagercoil",
-          "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
-          "suryan-nagercoil",
-          "tamilosai-nagercoil"
+          "iskcon-nagercoil"
         ],
         "counts": {
-          "all": 10,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 8
+          "discoveryOnly": 0
         }
       },
       {
@@ -2300,23 +2069,15 @@
         "parentId": "in-tn-kanyakumari",
         "childIds": [],
         "directStationIds": [
-          "air-nagercoil",
-          "hello-nagercoil",
-          "isai-murasu-nagercoil",
-          "suryan-nagercoil",
-          "tamilosai-nagercoil"
+          "air-nagercoil"
         ],
         "stationIds": [
-          "air-nagercoil",
-          "hello-nagercoil",
-          "isai-murasu-nagercoil",
-          "suryan-nagercoil",
-          "tamilosai-nagercoil"
+          "air-nagercoil"
         ],
         "counts": {
-          "all": 5,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2327,16 +2088,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-kanyakumari",
         "childIds": [],
-        "directStationIds": [
-          "annai-kuzhithurai"
-        ],
-        "stationIds": [
-          "annai-kuzhithurai"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -2367,18 +2124,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-kanyakumari",
         "childIds": [],
-        "directStationIds": [
-          "asr-kanyakumari",
-          "christian-samy-fm"
-        ],
-        "stationIds": [
-          "asr-kanyakumari",
-          "christian-samy-fm"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2393,16 +2144,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-madurai",
-          "hello-madurai",
-          "mirchi-madurai",
-          "radio-city-madurai",
-          "suryan-madurai"
+          "air-madurai"
         ],
         "counts": {
-          "all": 5,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2414,23 +2161,15 @@
         "parentId": "in-tn-madurai",
         "childIds": [],
         "directStationIds": [
-          "air-madurai",
-          "hello-madurai",
-          "mirchi-madurai",
-          "radio-city-madurai",
-          "suryan-madurai"
+          "air-madurai"
         ],
         "stationIds": [
-          "air-madurai",
-          "hello-madurai",
-          "mirchi-madurai",
-          "radio-city-madurai",
-          "suryan-madurai"
+          "air-madurai"
         ],
         "counts": {
-          "all": 5,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 4
+          "discoveryOnly": 0
         }
       },
       {
@@ -2546,14 +2285,11 @@
           "in-tn-salem-salem"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "hello-salem",
-          "suryan-salem"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2564,18 +2300,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-salem",
         "childIds": [],
-        "directStationIds": [
-          "hello-salem",
-          "suryan-salem"
-        ],
-        "stationIds": [
-          "hello-salem",
-          "suryan-salem"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2623,15 +2353,11 @@
           "in-tn-thoothukudi-thoothukudi"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "air-thoothukudi",
-          "hello-thoothukudi",
-          "suryan-thoothukudi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 3,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2642,20 +2368,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-thoothukudi",
         "childIds": [],
-        "directStationIds": [
-          "air-thoothukudi",
-          "hello-thoothukudi",
-          "suryan-thoothukudi"
-        ],
-        "stationIds": [
-          "air-thoothukudi",
-          "hello-thoothukudi",
-          "suryan-thoothukudi"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 3,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2670,15 +2388,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-tiruchirappalli",
-          "hello-tiruchirappalli",
-          "mirchi-tiruchirappalli",
-          "suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2690,21 +2405,15 @@
         "parentId": "in-tn-tiruchirappalli",
         "childIds": [],
         "directStationIds": [
-          "air-tiruchirappalli",
-          "hello-tiruchirappalli",
-          "mirchi-tiruchirappalli",
-          "suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "stationIds": [
-          "air-tiruchirappalli",
-          "hello-tiruchirappalli",
-          "mirchi-tiruchirappalli",
-          "suryan-tiruchirappalli"
+          "air-tiruchirappalli"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2719,15 +2428,12 @@
         ],
         "directStationIds": [],
         "stationIds": [
-          "air-tirunelveli",
-          "hello-tirunelveli",
-          "mirchi-tirunelveli",
-          "suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2739,21 +2445,15 @@
         "parentId": "in-tn-tirunelveli",
         "childIds": [],
         "directStationIds": [
-          "air-tirunelveli",
-          "hello-tirunelveli",
-          "mirchi-tirunelveli",
-          "suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "stationIds": [
-          "air-tirunelveli",
-          "hello-tirunelveli",
-          "mirchi-tirunelveli",
-          "suryan-tirunelveli"
+          "air-tirunelveli"
         ],
         "counts": {
-          "all": 4,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -2801,14 +2501,11 @@
           "in-tn-vellore-vellore"
         ],
         "directStationIds": [],
-        "stationIds": [
-          "hello-vellore",
-          "suryan-vellore"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2819,18 +2516,12 @@
         "countryCode": "IN",
         "parentId": "in-tn-vellore",
         "childIds": [],
-        "directStationIds": [
-          "hello-vellore",
-          "suryan-vellore"
-        ],
-        "stationIds": [
-          "hello-vellore",
-          "suryan-vellore"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -3193,18 +2884,16 @@
         "childIds": [],
         "directStationIds": [
           "jei-fm-my",
-          "minnal-my",
-          "raaga-my"
+          "minnal-my"
         ],
         "stationIds": [
           "jei-fm-my",
-          "minnal-my",
-          "raaga-my"
+          "minnal-my"
         ],
         "counts": {
-          "all": 3,
+          "all": 2,
           "streamBearing": 2,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3258,16 +2947,12 @@
         "countryCode": "NZ",
         "parentId": null,
         "childIds": [],
-        "directStationIds": [
-          "tarana-tamil-nz"
-        ],
-        "stationIds": [
-          "tarana-tamil-nz"
-        ],
+        "directStationIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3940,17 +3625,15 @@
           "air-kochi",
           "air-kozhikode",
           "air-thrissur",
-          "annai-kuzhithurai",
           "ar-radio",
           "aural-radio",
           "east-fm-ca",
-          "live-fm-bh",
-          "mirchi-thiruvananthapuram"
+          "live-fm-bh"
         ],
         "counts": {
-          "all": 12,
+          "all": 10,
           "streamBearing": 10,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -4194,65 +3877,36 @@
           "air-ooty",
           "air-puducherry",
           "air-tamil",
-          "air-thoothukudi",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "akkini-ch",
           "amen-fm-ca",
           "american-tamil-radio-us",
           "amudham-fm-in",
-          "annai-kuzhithurai",
           "ar-radio",
-          "asr-kanyakumari",
-          "atbc-au",
-          "athavan-uk",
           "aural-radio",
           "beats-radio-us",
           "big-chennai",
-          "big-puducherry",
           "boom-tamil",
-          "christian-samy-fm",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "east-fm-ca",
           "etr-de",
           "good-news-tamil-ca",
           "hand-of-jesus-tamil-in",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
           "ibc-tamil-uk",
           "inbathamil-oli-au",
-          "isai-murasu-nagercoil",
           "jei-fm-my",
-          "kumari-tamil-kanyakumari",
           "live-fm-bh",
           "lotus-fm-za",
           "luminous-radio-tamil",
           "mauradio-mu",
           "minnal-my",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
           "quran-tamil-kw",
-          "raaga-my",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "radio-plus-indiz-mu",
           "shakthi-srilanka",
           "shiva-tattvam",
@@ -4260,24 +3914,12 @@
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "sweety-fm-in",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "tamil-christian-radio-in",
           "tamil-murasam-no",
           "tamil-panpalai",
-          "tamilosai-nagercoil",
-          "tarana-tamil-nz",
           "thaalam-ch",
           "theophony-tamil-in",
           "thiruneriya-thamizhosai",
@@ -4288,9 +3930,9 @@
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 108,
-          "streamBearing": 63,
-          "discoveryOnly": 45
+          "all": 67,
+          "streamBearing": 67,
+          "discoveryOnly": 0
         }
       },
       {
@@ -4442,7 +4084,6 @@
           "air-chennai-vividh-tamil",
           "air-nagercoil",
           "air-tamil",
-          "annai-kuzhithurai",
           "ar-radio",
           "aural-radio",
           "east-fm-ca",
@@ -4454,9 +4095,9 @@
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 19,
+          "all": 18,
           "streamBearing": 18,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4499,7 +4140,6 @@
           "air-ooty",
           "air-puducherry",
           "air-raagam",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
@@ -4508,77 +4148,37 @@
           "amen-fm-ca",
           "american-tamil-radio-us",
           "amudham-fm-in",
-          "asr-kanyakumari",
-          "atbc-au",
-          "athavan-uk",
           "beats-radio-us",
           "big-chennai",
-          "big-puducherry",
           "boom-tamil",
-          "christian-samy-fm",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "etr-de",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
           "ibc-tamil-uk",
-          "isai-murasu-nagercoil",
           "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
           "luminous-radio-tamil",
           "minnal-my",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
-          "raaga-my",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "shakthi-srilanka",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "tamil-murasam-no",
           "tamil-panpalai",
-          "tamilosai-nagercoil",
-          "tarana-tamil-nz",
           "thaalam-ch",
           "vaagai-tamil-de",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 87,
-          "streamBearing": 42,
-          "discoveryOnly": 45
+          "all": 46,
+          "streamBearing": 46,
+          "discoveryOnly": 0
         }
       }
     ],
@@ -4685,16 +4285,15 @@
           "air-puducherry",
           "air-raagam",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati"
         ],
         "counts": {
-          "all": 21,
+          "all": 20,
           "streamBearing": 20,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4778,13 +4377,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "annai-kuzhithurai"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4814,14 +4411,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "asr-kanyakumari",
-          "christian-samy-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 2,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -4833,13 +4427,11 @@
           "MY"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "raaga-my"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4851,13 +4443,11 @@
           "AU"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "atbc-au"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4869,13 +4459,11 @@
           "GB"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "athavan-uk"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -4924,13 +4512,12 @@
         ],
         "broadcasterId": "reliance-broadcast-network",
         "stationIds": [
-          "big-chennai",
-          "big-puducherry"
+          "big-chennai"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 0,
-          "discoveryOnly": 2
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -4960,13 +4547,11 @@
           "CA"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "ctr-ca"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5046,13 +4631,11 @@
           "CA"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "cmr-tamil-ca"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5064,13 +4647,11 @@
           "CA"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "ctbc-ca"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5171,22 +4752,12 @@
         ],
         "broadcasterId": "malar-publications",
         "stationIds": [
-          "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore"
+          "hello-chennai"
         ],
         "counts": {
-          "all": 11,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 10
+          "discoveryOnly": 0
         }
       },
       {
@@ -5234,13 +4805,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "isai-murasu-nagercoil"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5288,13 +4857,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "kumari-tamil-kanyakumari"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5381,17 +4948,12 @@
         ],
         "broadcasterId": "enil",
         "stationIds": [
-          "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli"
+          "mirchi-chennai"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 0,
-          "discoveryOnly": 6
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -5458,14 +5020,12 @@
         ],
         "broadcasterId": "music-broadcast-ltd",
         "stationIds": [
-          "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai"
+          "radio-city-chennai"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 0,
-          "discoveryOnly": 3
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -5641,22 +5201,12 @@
         ],
         "broadcasterId": "sun-tv-network",
         "stationIds": [
-          "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore"
+          "suryan-chennai"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 0,
-          "discoveryOnly": 11
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -5776,13 +5326,11 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "tamilosai-nagercoil"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5794,13 +5342,11 @@
           "NZ"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "tarana-tamil-nz"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
+          "all": 0,
           "streamBearing": 0,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -5970,17 +5516,12 @@
           "mirchi"
         ],
         "stationIds": [
-          "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli"
+          "mirchi-chennai"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 0,
-          "discoveryOnly": 6
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -6017,22 +5558,12 @@
           "hello-fm"
         ],
         "stationIds": [
-          "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore"
+          "hello-chennai"
         ],
         "counts": {
-          "all": 11,
+          "all": 1,
           "streamBearing": 1,
-          "discoveryOnly": 10
+          "discoveryOnly": 0
         }
       },
       {
@@ -6049,14 +5580,12 @@
           "radio-city"
         ],
         "stationIds": [
-          "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai"
+          "radio-city-chennai"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 0,
-          "discoveryOnly": 3
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -6089,16 +5618,15 @@
           "air-puducherry",
           "air-raagam",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati"
         ],
         "counts": {
-          "all": 21,
+          "all": 20,
           "streamBearing": 20,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -6115,13 +5643,12 @@
           "big-fm"
         ],
         "stationIds": [
-          "big-chennai",
-          "big-puducherry"
+          "big-chennai"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 0,
-          "discoveryOnly": 2
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       },
       {
@@ -6160,22 +5687,12 @@
           "suryan-in"
         ],
         "stationIds": [
-          "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore"
+          "suryan-chennai"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 0,
-          "discoveryOnly": 11
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
         }
       }
     ],
@@ -6204,18 +5721,11 @@
           "5ebi-au",
           "akkini-ch",
           "american-tamil-radio-us",
-          "annai-kuzhithurai",
-          "asr-kanyakumari",
-          "atbc-au",
-          "cmr-tamil-ca",
-          "ctbc-ca",
-          "ctr-ca",
           "east-fm-ca",
           "etr-de",
           "ibc-tamil-uk",
           "inbathamil-oli-au",
           "iskcon-nagercoil",
-          "kumari-tamil-kanyakumari",
           "lotus-fm-za",
           "luminous-radio-tamil",
           "mauradio-mu",
@@ -6223,15 +5733,14 @@
           "namathu-fm-fr",
           "otran-vaanoli-ie",
           "tamil-murasam-no",
-          "tarana-tamil-nz",
           "thaalam-ch",
           "time-fm-toronto-ca",
           "vaagai-tamil-de"
         ],
         "counts": {
-          "all": 29,
+          "all": 21,
           "streamBearing": 21,
-          "discoveryOnly": 8
+          "discoveryOnly": 0
         }
       },
       {
@@ -6240,7 +5749,6 @@
         "key": "genre:devotional",
         "stationIds": [
           "amen-fm-ca",
-          "christian-samy-fm",
           "good-news-tamil-ca",
           "hand-of-jesus-tamil-in",
           "iskcon-nagercoil",
@@ -6255,9 +5763,9 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 14,
+          "all": 13,
           "streamBearing": 13,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -6285,27 +5793,22 @@
           "air-ooty",
           "air-puducherry",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
-          "atbc-au",
           "beats-radio-us",
-          "ctbc-ca",
-          "isai-murasu-nagercoil",
           "live-fm-bh",
           "oli-968-sg",
-          "raaga-my",
           "sooriyan-srilanka",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 36,
+          "all": 31,
           "streamBearing": 31,
-          "discoveryOnly": 5
+          "discoveryOnly": 0
         }
       },
       {
@@ -6318,71 +5821,35 @@
           "akkini-ch",
           "american-tamil-radio-us",
           "amudham-fm-in",
-          "annai-kuzhithurai",
           "ar-radio",
-          "asr-kanyakumari",
-          "athavan-uk",
           "aural-radio",
           "beats-radio-us",
           "big-chennai",
-          "big-puducherry",
           "boom-tamil",
-          "cmr-tamil-ca",
           "east-fm-ca",
           "etr-de",
           "hello-chennai",
-          "hello-coimbatore",
-          "hello-erode",
-          "hello-madurai",
-          "hello-nagercoil",
-          "hello-puducherry",
-          "hello-salem",
-          "hello-thoothukudi",
-          "hello-tiruchirappalli",
-          "hello-tirunelveli",
-          "hello-vellore",
           "ibc-tamil-uk",
           "inbathamil-oli-au",
           "jei-fm-my",
-          "kumari-tamil-kanyakumari",
           "live-fm-bh",
           "lotus-fm-za",
           "mauradio-mu",
           "minnal-my",
           "mirchi-chennai",
-          "mirchi-coimbatore",
-          "mirchi-madurai",
-          "mirchi-thiruvananthapuram",
-          "mirchi-tiruchirappalli",
-          "mirchi-tirunelveli",
           "namathu-fm-fr",
           "oli-968-sg",
           "otran-vaanoli-ie",
-          "raaga-my",
           "radio-city-chennai",
-          "radio-city-coimbatore",
-          "radio-city-madurai",
           "radio-plus-indiz-mu",
           "shakthi-srilanka",
           "sooriyan-srilanka",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
-          "suryan-coimbatore",
-          "suryan-erode",
-          "suryan-madurai",
-          "suryan-nagercoil",
-          "suryan-puducherry",
-          "suryan-salem",
-          "suryan-thoothukudi",
-          "suryan-tiruchirappalli",
-          "suryan-tirunelveli",
-          "suryan-vellore",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "tamil-panpalai",
-          "tamilosai-nagercoil",
-          "tarana-tamil-nz",
           "thaalam-ch",
           "thiruneriya-thamizhosai",
           "time-fm-toronto-ca",
@@ -6390,9 +5857,9 @@
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 75,
-          "streamBearing": 35,
-          "discoveryOnly": 40
+          "all": 39,
+          "streamBearing": 39,
+          "discoveryOnly": 0
         }
       },
       {
@@ -6415,29 +5882,23 @@
           "air-ooty",
           "air-puducherry",
           "air-tamil",
-          "air-thoothukudi",
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
           "akkini-ch",
-          "atbc-au",
-          "athavan-uk",
           "boom-tamil",
-          "cmr-tamil-ca",
-          "ctr-ca",
           "etr-de",
           "ibc-tamil-uk",
           "minnal-my",
           "oli-968-sg",
           "star-fm-srilanka",
           "swiss-tamil-radio-ch",
-          "tamil-murasam-no",
-          "tarana-tamil-nz"
+          "tamil-murasam-no"
         ],
         "counts": {
-          "all": 33,
+          "all": 27,
           "streamBearing": 27,
-          "discoveryOnly": 6
+          "discoveryOnly": 0
         }
       },
       {
@@ -6445,21 +5906,18 @@
         "name": "Talk",
         "key": "genre:talk",
         "stationIds": [
-          "athavan-uk",
           "aural-radio",
-          "ctr-ca",
           "east-fm-ca",
           "inbathamil-oli-au",
-          "isai-murasu-nagercoil",
           "lotus-fm-za",
           "shiva-tattvam",
           "tamil-894-ae",
           "tamil-murasam-no"
         ],
         "counts": {
-          "all": 10,
+          "all": 7,
           "streamBearing": 7,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       }
     ],
@@ -6567,6 +6025,7 @@
         "ar-radio",
         "aural-radio",
         "beats-radio-us",
+        "big-chennai",
         "boom-tamil",
         "east-fm-ca",
         "etr-de",
@@ -6582,16 +6041,19 @@
         "luminous-radio-tamil",
         "mauradio-mu",
         "minnal-my",
+        "mirchi-chennai",
         "namathu-fm-fr",
         "oli-968-sg",
         "otran-vaanoli-ie",
         "quran-tamil-kw",
+        "radio-city-chennai",
         "radio-plus-indiz-mu",
         "shakthi-srilanka",
         "shiva-tattvam",
         "sooriyan-srilanka",
         "star-fm-srilanka",
         "suno-tamil-qa",
+        "suryan-chennai",
         "sweety-fm-in",
         "swiss-tamil-radio-ch",
         "tamil-894-ae",
@@ -6608,8 +6070,8 @@
         "vasantham-srilanka"
       ],
       "counts": {
-        "all": 71,
-        "streamBearing": 71,
+        "all": 75,
+        "streamBearing": 75,
         "discoveryOnly": 0
       }
     },
@@ -6617,58 +6079,11 @@
       "id": "discovery-only",
       "name": "discovery-only",
       "key": "availability:discovery-only",
-      "stationIds": [
-        "air-thoothukudi",
-        "annai-kuzhithurai",
-        "asr-kanyakumari",
-        "atbc-au",
-        "athavan-uk",
-        "big-chennai",
-        "big-puducherry",
-        "christian-samy-fm",
-        "cmr-tamil-ca",
-        "ctbc-ca",
-        "ctr-ca",
-        "hello-coimbatore",
-        "hello-erode",
-        "hello-madurai",
-        "hello-nagercoil",
-        "hello-puducherry",
-        "hello-salem",
-        "hello-thoothukudi",
-        "hello-tiruchirappalli",
-        "hello-tirunelveli",
-        "hello-vellore",
-        "isai-murasu-nagercoil",
-        "kumari-tamil-kanyakumari",
-        "mirchi-chennai",
-        "mirchi-coimbatore",
-        "mirchi-madurai",
-        "mirchi-thiruvananthapuram",
-        "mirchi-tiruchirappalli",
-        "mirchi-tirunelveli",
-        "raaga-my",
-        "radio-city-chennai",
-        "radio-city-coimbatore",
-        "radio-city-madurai",
-        "suryan-chennai",
-        "suryan-coimbatore",
-        "suryan-erode",
-        "suryan-madurai",
-        "suryan-nagercoil",
-        "suryan-puducherry",
-        "suryan-salem",
-        "suryan-thoothukudi",
-        "suryan-tiruchirappalli",
-        "suryan-tirunelveli",
-        "suryan-vellore",
-        "tamilosai-nagercoil",
-        "tarana-tamil-nz"
-      ],
+      "stationIds": [],
       "counts": {
-        "all": 46,
+        "all": 0,
         "streamBearing": 0,
-        "discoveryOnly": 46
+        "discoveryOnly": 0
       }
     }
   ]

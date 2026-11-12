@@ -1132,5 +1132,40 @@
     "url": null,
     "kind": "user-report",
     "notes": "Stage 15 review, 2026-11-10. User reports Thrissur, Kerala. Independently corroborated by the current publisher page; no private address or permission document stored."
+  },
+  {
+    "id": "stage18-crabdance-chennai-1",
+    "title": "CrabDance Chennai FM 1: mirchi-chennai",
+    "url": "https://radios.crabdance.com:8002/1",
+    "kind": "directory",
+    "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
+  },
+  {
+    "id": "stage18-crabdance-chennai-2",
+    "title": "CrabDance Chennai FM 2: suryan-chennai",
+    "url": "https://radios.crabdance.com:8002/2",
+    "kind": "directory",
+    "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
+  },
+  {
+    "id": "stage18-crabdance-chennai-3",
+    "title": "CrabDance Chennai FM 3: hello-chennai",
+    "url": "https://radios.crabdance.com:8002/3",
+    "kind": "directory",
+    "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
+  },
+  {
+    "id": "stage18-crabdance-chennai-4",
+    "title": "CrabDance Chennai FM 4: big-chennai",
+    "url": "https://radios.crabdance.com:8002/4",
+    "kind": "directory",
+    "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
+  },
+  {
+    "id": "stage18-crabdance-chennai-5",
+    "title": "CrabDance Chennai FM 5: radio-city-chennai",
+    "url": "https://radios.crabdance.com:8002/5",
+    "kind": "directory",
+    "notes": "User identified exact Chennai station on 12 November 2026 by listening. FFprobe detected audio format. Server TLS certificate chain incomplete (strict HTTPS trust failure), RadioBee playback compatibility and broadcaster rights unconfirmed. Not broadcaster-authorized proof."
   }
 ]
