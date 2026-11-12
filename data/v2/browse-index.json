@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.3.0",
+  "catalogVersion": "2.4.0",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 118,
-    "streamBearing": 118,
-    "discoveryOnly": 0
+    "all": 124,
+    "streamBearing": 120,
+    "discoveryOnly": 4
   },
   "stationIds": [
     "3zzz-au",
@@ -67,6 +67,7 @@
     "live-fm-bh",
     "lotus-fm-za",
     "luminous-radio-tamil",
+    "mahakatha-radio-in",
     "mauradio-mu",
     "minnal-my",
     "mirchi-chennai",
@@ -93,8 +94,13 @@
     "radio-plus-indiz-mu",
     "radio-r-lt",
     "radio-roks-ua",
+    "radio-sai-8004-in",
+    "radio-sai-8006-in",
+    "radio-sai-8010-in",
+    "radio-sai-8012-in",
     "realradio-ireland-ie",
     "sanskrit-bharati-radio-in",
+    "shaiva-lahari-in",
     "shakthi-srilanka",
     "shiva-tattvam",
     "slam-nl",
@@ -383,12 +389,18 @@
           "kodai-city-fm",
           "kumbakonam-city-fm",
           "luminous-radio-tamil",
+          "mahakatha-radio-in",
           "mirchi-chennai",
           "pollachi-fm",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
+          "shaiva-lahari-in",
           "shiva-tattvam",
           "suryan-chennai",
           "sweety-fm-in",
@@ -403,9 +415,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 52,
-          "streamBearing": 52,
-          "discoveryOnly": 0
+          "all": 58,
+          "streamBearing": 54,
+          "discoveryOnly": 4
         }
       },
       {
@@ -1351,7 +1363,13 @@
           "divyavani-sanskrit-in",
           "ilayaraja-radio",
           "luminous-radio-tamil",
+          "mahakatha-radio-in",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
+          "shaiva-lahari-in",
           "shiva-tattvam",
           "tamil-80s-hits",
           "tamil-panpalai",
@@ -1394,12 +1412,18 @@
           "kodai-city-fm",
           "kumbakonam-city-fm",
           "luminous-radio-tamil",
+          "mahakatha-radio-in",
           "mirchi-chennai",
           "pollachi-fm",
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
           "sanskrit-bharati-radio-in",
+          "shaiva-lahari-in",
           "shiva-tattvam",
           "suryan-chennai",
           "sweety-fm-in",
@@ -1414,9 +1438,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 52,
-          "streamBearing": 52,
-          "discoveryOnly": 0
+          "all": 58,
+          "streamBearing": 54,
+          "discoveryOnly": 4
         }
       },
       {
@@ -3865,13 +3889,15 @@
           "air-nagercoil",
           "air-tamil",
           "lotus-fm-za",
+          "mahakatha-radio-in",
           "mauradio-mu",
           "radio-jamaica-jm",
-          "realradio-ireland-ie"
+          "realradio-ireland-ie",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -4026,12 +4052,14 @@
           "east-fm-ca",
           "live-fm-bh",
           "lotus-fm-za",
+          "mahakatha-radio-in",
           "mauradio-mu",
-          "radio-plus-indiz-mu"
+          "radio-plus-indiz-mu",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 10,
-          "streamBearing": 10,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       },
@@ -4161,11 +4189,12 @@
         "nativeName": "ಕನ್ನಡ",
         "stationIds": [
           "east-fm-ca",
-          "live-fm-bh"
+          "live-fm-bh",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -4284,11 +4313,12 @@
           "ar-radio",
           "aural-radio",
           "east-fm-ca",
-          "live-fm-bh"
+          "live-fm-bh",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 10,
-          "streamBearing": 10,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -4451,12 +4481,18 @@
         "nativeName": "संस्कृतम्",
         "stationIds": [
           "divyavani-sanskrit-in",
-          "sanskrit-bharati-radio-in"
+          "mahakatha-radio-in",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
+          "sanskrit-bharati-radio-in",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
-          "discoveryOnly": 0
+          "all": 8,
+          "streamBearing": 4,
+          "discoveryOnly": 4
         }
       },
       {
@@ -4668,11 +4704,12 @@
           "4eb-global-au",
           "east-fm-ca",
           "lotus-fm-za",
-          "radio-plus-indiz-mu"
+          "radio-plus-indiz-mu",
+          "shaiva-lahari-in"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -4895,6 +4932,7 @@
           "kodai-city-fm",
           "kumbakonam-city-fm",
           "luminous-radio-tamil",
+          "mahakatha-radio-in",
           "minnal-my",
           "mirchi-chennai",
           "myrock-dk",
@@ -4918,8 +4956,13 @@
           "radio-paloma-de",
           "radio-r-lt",
           "radio-roks-ua",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
           "realradio-ireland-ie",
           "sanskrit-bharati-radio-in",
+          "shaiva-lahari-in",
           "shakthi-srilanka",
           "slam-nl",
           "slbc-tamil-national-service",
@@ -4945,9 +4988,9 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 89,
-          "streamBearing": 89,
-          "discoveryOnly": 0
+          "all": 95,
+          "streamBearing": 91,
+          "discoveryOnly": 4
         }
       }
     ],
@@ -6666,6 +6709,63 @@
         }
       },
       {
+        "id": "stage23-mahakatha-radio",
+        "name": "Mahakatha Radio",
+        "key": "network:stage23-mahakatha-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "mahakatha-radio-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage23-radio-sai",
+        "name": "Radio Sai",
+        "key": "network:stage23-radio-sai",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in"
+        ],
+        "counts": {
+          "all": 4,
+          "streamBearing": 0,
+          "discoveryOnly": 4
+        }
+      },
+      {
+        "id": "stage23-shaiva-lahari",
+        "name": "Shaiva Lahari",
+        "key": "network:stage23-shaiva-lahari",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "shaiva-lahari-in"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -7264,7 +7364,13 @@
           "hand-of-jesus-tamil-in",
           "iskcon-nagercoil",
           "luminous-radio-tamil",
+          "mahakatha-radio-in",
           "quran-tamil-kw",
+          "radio-sai-8004-in",
+          "radio-sai-8006-in",
+          "radio-sai-8010-in",
+          "radio-sai-8012-in",
+          "shaiva-lahari-in",
           "shiva-tattvam",
           "sweety-fm-in",
           "tamil-christian-radio-in",
@@ -7274,9 +7380,9 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
-          "discoveryOnly": 0
+          "all": 19,
+          "streamBearing": 15,
+          "discoveryOnly": 4
         }
       },
       {
@@ -7607,6 +7713,7 @@
         "live-fm-bh",
         "lotus-fm-za",
         "luminous-radio-tamil",
+        "mahakatha-radio-in",
         "mauradio-mu",
         "minnal-my",
         "mirchi-chennai",
@@ -7635,6 +7742,7 @@
         "radio-roks-ua",
         "realradio-ireland-ie",
         "sanskrit-bharati-radio-in",
+        "shaiva-lahari-in",
         "shakthi-srilanka",
         "shiva-tattvam",
         "slam-nl",
@@ -7668,8 +7776,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 118,
-        "streamBearing": 118,
+        "all": 120,
+        "streamBearing": 120,
         "discoveryOnly": 0
       }
     },
@@ -7677,11 +7785,16 @@
       "id": "discovery-only",
       "name": "discovery-only",
       "key": "availability:discovery-only",
-      "stationIds": [],
+      "stationIds": [
+        "radio-sai-8004-in",
+        "radio-sai-8006-in",
+        "radio-sai-8010-in",
+        "radio-sai-8012-in"
+      ],
       "counts": {
-        "all": 0,
+        "all": 4,
         "streamBearing": 0,
-        "discoveryOnly": 0
+        "discoveryOnly": 4
       }
     }
   ]
