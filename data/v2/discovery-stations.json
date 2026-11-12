@@ -110,5 +110,90 @@
     "availability": "review-pending",
     "reviewedOn": "2026-11-13",
     "websiteKind": "official"
+  },
+  {
+    "id": "chennai-live-digital-in",
+    "name": "Chennai Live (Digital)",
+    "networkId": "stage24-chennai-live",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "talk",
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.chennailive.fm/",
+    "sourceIds": [
+      "stage24-source-chennai-live-digital-in"
+    ],
+    "notes": "Parent company's current site identifies formerly 104.8 FM as digital talk/music service. Do not assert currently operating 104.8 FM transmitter; no independently verified direct HTTPS URL.",
+    "aliases": [],
+    "availability": "review-pending",
+    "reviewedOn": "2026-11-13",
+    "websiteKind": "official"
+  },
+  {
+    "id": "radio-one-chennai-in",
+    "name": "Radio One 94.3 Chennai",
+    "networkId": "stage24-radio-one-chennai",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 94.3,
+    "website": null,
+    "sourceIds": [
+      "stage24-source-radio-one-chennai-in"
+    ],
+    "notes": "Government operational-FM register lists Radio One 94.3 Chennai; English-language format appears in third-party directories but programme language remains provisional. No station-specific official HTTPS direct playback found.",
+    "aliases": [],
+    "availability": "review-pending",
+    "reviewedOn": "2026-11-13",
+    "websiteKind": null
+  },
+  {
+    "id": "voice-of-arunachala-in",
+    "name": "Voice of Arunachala",
+    "networkId": "stage24-arunachala",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "regional",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.gururamana.org/Resources/radio-station",
+    "sourceIds": [
+      "stage24-source-voice-of-arunachala-in"
+    ],
+    "notes": "Sri Ramanasramam identifies this as an Internet radio service in Tiruvannamalai with devotional reading, talks and music. English language tag provisional; no stable HTTPS audio endpoint independently extracted.",
+    "aliases": [],
+    "availability": "review-pending",
+    "reviewedOn": "2026-11-13",
+    "websiteKind": "official"
   }
 ]

@@ -7388,5 +7388,138 @@
         }
       }
     ]
+  },
+  {
+    "id": "kexp-seattle-us",
+    "name": "KEXP 90.3 FM",
+    "networkId": "stage24-kexp",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.kexp.org/",
+    "sourceIds": [
+      "stage24-source-kexp-seattle-us"
+    ],
+    "notes": "Official broadcaster publishes an AAC-LC 160k HTTPS stream for third-party players. No RadioBee-specific permission, continuous playback or codec verification established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage24-stream-kexp-seattle-us",
+        "url": "https://kexp.streamguys1.com/kexp160.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage24-source-kexp-seattle-us",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage24-source-kexp-seattle-us",
+          "notes": "Broadcaster-published HTTPS direct stream candidate; not decoded or tested in RadioBee, and usage rights remain unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wnyc-939-us",
+    "name": "WNYC 93.9 FM",
+    "networkId": "stage24-wnyc",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news",
+      "talk"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.wnyc.org/",
+    "sourceIds": [
+      "stage24-source-wnyc-939-us"
+    ],
+    "notes": "Broadcaster-published HTTPS 64kbps MP3 stream. Digital use rights and RadioBee playback unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage24-stream-wnyc-939-us",
+        "url": "https://fm939.wnyc.org/wnycfm",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage24-source-wnyc-939-us",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage24-source-wnyc-939-us",
+          "notes": "Broadcaster-published HTTPS direct stream candidate; not decoded or tested in RadioBee, and usage rights remain unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wqxr-1059-us",
+    "name": "WQXR 105.9 FM",
+    "networkId": "stage24-wqxr",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "classical"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.wqxr.org/",
+    "sourceIds": [
+      "stage24-source-wqxr-1059-us"
+    ],
+    "notes": "Broadcaster-published HTTPS 128kbps MP3 stream. English-language presentation and classical repertoire; digital use rights unconfirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage24-stream-wqxr-1059-us",
+        "url": "https://stream.wqxr.org/wqxr",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage24-source-wqxr-1059-us",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-13T00:00:00Z",
+          "sourceId": "stage24-source-wqxr-1059-us",
+          "notes": "Broadcaster-published HTTPS direct stream candidate; not decoded or tested in RadioBee, and usage rights remain unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
