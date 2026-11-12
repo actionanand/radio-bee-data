@@ -303,5 +303,25 @@
     "code": "yue",
     "name": "Cantonese",
     "nativeName": "粵語"
+  },
+  {
+    "code": "no",
+    "name": "Norwegian",
+    "nativeName": "Norsk"
+  },
+  {
+    "code": "fi",
+    "name": "Finnish",
+    "nativeName": "Suomi"
+  },
+  {
+    "code": "sv",
+    "name": "Swedish",
+    "nativeName": "Svenska"
+  },
+  {
+    "code": "pt",
+    "name": "Portuguese",
+    "nativeName": "Português"
   }
 ]
