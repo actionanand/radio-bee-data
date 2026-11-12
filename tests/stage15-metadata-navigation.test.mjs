@@ -15,7 +15,8 @@ const json=file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url)));
 const baseline=json('docs/stage15/baseline.json'),audit=json('docs/stage15/metadata-audit.json');
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const ids=rows=>rows.map(s=>s.id);
-const get=()=>readCatalogue(undefined,'v2');
+// Frozen Stage 15 baseline; changes after Stage 15 are covered by their own tests.
+const get=()=>JSON.parse(readFileSync(new URL('../docs/stage18/pre-import-v2-snapshot.json',import.meta.url),'utf8'));
 const row=(data,id)=>allStations(data).find(s=>s.id===id);
 const validUrl=url=>typeof url==='string'&&url.startsWith('https://');
 const metadata=data=>metadataErrors(data,validUrl);

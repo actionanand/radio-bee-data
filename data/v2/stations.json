@@ -2924,9 +2924,10 @@
       "mib-operational-2026-03",
       "discovery-regional-2026",
       "stage12-hello-chennai-openstream-community-2026",
-      "stage12-hello-chennai-openstream-feed-2026"
+      "stage12-hello-chennai-openstream-feed-2026",
+      "stage18-crabdance-chennai-3"
     ],
-    "notes": "Hello FM Chennai 106.4 MHz transmitter is confirmed by the March 2026 MIB register. The user identified Openstream collection 4428 as the Chennai feed; a 2023 Chennai-radio community report also associates collection 4428 with Hello FM. The endpoint decoded two seconds of AAC in the earlier Stage 12 audit, but broadcaster control, current on-air programme identity, long playback and RadioBee usage permission are not independently confirmed. Unverified Chennai-only Internet trial; no other Hello FM market is assigned this feed.",
+    "notes": "Hello FM Chennai 106.4 MHz transmitter is confirmed by the March 2026 MIB register. The user identified Openstream collection 4428 as the Chennai feed; a 2023 Chennai-radio community report also associates collection 4428 with Hello FM. The endpoint decoded two seconds of AAC in the earlier Stage 12 audit, but broadcaster control, current on-air programme identity, long playback and RadioBee usage permission are not independently confirmed. Unverified Chennai-only Internet trial; no other Hello FM market is assigned this feed. Listener-mapped third-party CrabDance HTTPS trial mount 3 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
     "aliases": [],
     "streams": [
       {
@@ -2942,6 +2943,23 @@
           "reviewedAt": "2026-11-09T13:14:28Z",
           "sourceId": "stage12-hello-chennai-openstream-community-2026",
           "notes": "Two-second AAC decode and Chennai-only listener identification; community directory association is not broadcaster authentication or permission. Trial subject to the existing RadioBee client policy. Recording and redistribution not approved.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      },
+      {
+        "id": "stage18-chennai-trial-3",
+        "url": "https://radios.crabdance.com:8002/3",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage18-crabdance-chennai-3",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-12T17:40:00Z",
+          "sourceId": "stage18-crabdance-chennai-3",
+          "notes": "Chennai programme identified by user; TLS full chain unavailable; broadcaster-controlled stream, RadioBee listening, recording and redistribution permission unconfirmed.",
           "recording": "unconfirmed",
           "redistribution": "unconfirmed"
         }
@@ -5070,5 +5088,292 @@
       "reviewedOn": "2026-11-10",
       "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
     }
+  },
+  {
+    "id": "mirchi-chennai",
+    "name": "Radio Mirchi Chennai",
+    "networkId": "mirchi",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 98.3,
+    "website": "https://mirchi.in/stories",
+    "sourceIds": [
+      "mib-operational-2026-03",
+      "mirchi-stage6-website",
+      "discovery-regional-2026",
+      "stage18-crabdance-chennai-1"
+    ],
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 1 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
+    "aliases": [],
+    "geographyEvidence": {
+      "confidence": "medium",
+      "evidenceType": "legacy-catalogue",
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "mirchi-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Existing canonical geography retained from v1.9.0 with inherited source references; country/base attribution may be incomplete and is not transmitter coverage. No missing city inferred."
+    },
+    "languageProfile": {
+      "classification": "unknown",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "mirchi-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+    },
+    "streams": [
+      {
+        "id": "stage18-chennai-trial-1",
+        "url": "https://radios.crabdance.com:8002/1",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage18-crabdance-chennai-1",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-12T17:40:00Z",
+          "sourceId": "stage18-crabdance-chennai-1",
+          "notes": "Chennai programme identified by user; TLS full chain unavailable; broadcaster-controlled stream, RadioBee listening, recording and redistribution permission unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "suryan-chennai",
+    "name": "Suryan FM Chennai",
+    "networkId": "suryan-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 93.5,
+    "website": "https://www.suryanfm.in/",
+    "sourceIds": [
+      "suryan-stage4-cities",
+      "mib-operational-2026-03",
+      "discovery-regional-2026",
+      "suryan-discovery-cities",
+      "stage18-crabdance-chennai-2"
+    ],
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 2 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
+    "aliases": [],
+    "geographyEvidence": {
+      "confidence": "medium",
+      "evidenceType": "legacy-catalogue",
+      "sourceIds": [
+        "suryan-stage4-cities",
+        "mib-operational-2026-03",
+        "discovery-regional-2026",
+        "suryan-discovery-cities"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Existing canonical geography retained from v1.9.0 with inherited source references; country/base attribution may be incomplete and is not transmitter coverage. No missing city inferred."
+    },
+    "languageProfile": {
+      "classification": "unknown",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "suryan-stage4-cities",
+        "mib-operational-2026-03",
+        "discovery-regional-2026",
+        "suryan-discovery-cities"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+    },
+    "streams": [
+      {
+        "id": "stage18-chennai-trial-2",
+        "url": "https://radios.crabdance.com:8002/2",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage18-crabdance-chennai-2",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-12T17:40:00Z",
+          "sourceId": "stage18-crabdance-chennai-2",
+          "notes": "Chennai programme identified by user; TLS full chain unavailable; broadcaster-controlled stream, RadioBee listening, recording and redistribution permission unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "big-chennai",
+    "name": "BIG FM Chennai",
+    "networkId": "big-fm",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 92.7,
+    "website": "https://www.bigfmindia.com/",
+    "sourceIds": [
+      "mib-operational-2026-03",
+      "big-fm-stage6-website",
+      "discovery-regional-2026",
+      "stage18-crabdance-chennai-4"
+    ],
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 4 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
+    "aliases": [],
+    "geographyEvidence": {
+      "confidence": "medium",
+      "evidenceType": "legacy-catalogue",
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "big-fm-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Existing canonical geography retained from v1.9.0 with inherited source references; country/base attribution may be incomplete and is not transmitter coverage. No missing city inferred."
+    },
+    "languageProfile": {
+      "classification": "unknown",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "big-fm-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+    },
+    "streams": [
+      {
+        "id": "stage18-chennai-trial-4",
+        "url": "https://radios.crabdance.com:8002/4",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage18-crabdance-chennai-4",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-12T17:40:00Z",
+          "sourceId": "stage18-crabdance-chennai-4",
+          "notes": "Chennai programme identified by user; TLS full chain unavailable; broadcaster-controlled stream, RadioBee listening, recording and redistribution permission unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "radio-city-chennai",
+    "name": "Radio City Chennai",
+    "networkId": "radio-city",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": "in-tn-chennai",
+    "localityId": "in-tn-chennai-chennai",
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 91.1,
+    "website": "https://www.radiocity.in/",
+    "sourceIds": [
+      "mib-operational-2026-03",
+      "radio-city-stage6-website",
+      "discovery-regional-2026",
+      "stage18-crabdance-chennai-5"
+    ],
+    "notes": "MIB 30 March 2026 operational list supports this Chennai transmitter and frequency. Broadcast-language tags remain seed metadata pending programme review. TODO: official city-specific HTTPS stream; licence does not establish Internet relay permission. Listener-mapped third-party CrabDance HTTPS trial mount 5 on 12 November 2026. TLS incomplete; not technically verified, use rights unconfirmed.",
+    "aliases": [],
+    "geographyEvidence": {
+      "confidence": "medium",
+      "evidenceType": "legacy-catalogue",
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "radio-city-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Existing canonical geography retained from v1.9.0 with inherited source references; country/base attribution may be incomplete and is not transmitter coverage. No missing city inferred."
+    },
+    "languageProfile": {
+      "classification": "unknown",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "mib-operational-2026-03",
+        "radio-city-stage6-website",
+        "discovery-regional-2026"
+      ],
+      "reviewedOn": "2026-11-10",
+      "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
+    },
+    "streams": [
+      {
+        "id": "stage18-chennai-trial-5",
+        "url": "https://radios.crabdance.com:8002/5",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage18-crabdance-chennai-5",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-12T17:40:00Z",
+          "sourceId": "stage18-crabdance-chennai-5",
+          "notes": "Chennai programme identified by user; TLS full chain unavailable; broadcaster-controlled stream, RadioBee listening, recording and redistribution permission unconfirmed.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
