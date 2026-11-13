@@ -14,6 +14,7 @@ import {buildStatic} from '../scripts/build-static.mjs';
 const json=file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url)));
 const baseline=json('docs/stage15/baseline.json'),audit=json('docs/stage15/metadata-audit.json');
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
+const expectedPublished=[...json('docs/stage15/published-files.json').files,'v2/artists.json'].sort();
 const ids=rows=>rows.map(s=>s.id);
 // Frozen Stage 15 baseline; changes after Stage 15 are covered by their own tests.
 const get=()=>JSON.parse(readFileSync(new URL('../docs/stage18/pre-import-v2-snapshot.json',import.meta.url),'utf8'));
@@ -212,6 +213,6 @@ test('all 117 station audit rows and grouped research reports match the canonica
 
 test('published-file inventory is exact and approved artwork bytes remain unchanged',()=>temporary(root=>{
   const dest=buildStatic(root),walk=dir=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.relative(dest,path.join(dir,e.name)).split(path.sep).join('/')]);
-  const files=walk(dest).sort();assert.deepEqual(files,json('docs/stage15/published-files.json').files);
+  const files=walk(dest).sort();assert.deepEqual(files,expectedPublished);
   for(const file of files.filter(f=>/^v[12]\/assets\//.test(f)))assert.deepEqual(readFileSync(path.join(dest,file)),readFileSync(new URL('../data/'+file,import.meta.url)));
 }));

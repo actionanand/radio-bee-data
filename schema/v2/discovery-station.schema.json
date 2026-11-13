@@ -158,6 +158,12 @@
     "geographyEvidence": {
       "$ref": "metadata-definitions.schema.json#/$defs/geographyEvidence"
     },
+    "artistIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+    },
     "programmeThemeIds": {
       "type": "array",
       "uniqueItems": true,

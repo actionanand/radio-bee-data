@@ -9,7 +9,7 @@ const held=JSON.parse(readFileSync(new URL('../docs/stage18/held-discovery-stati
 test('Stage 18 publishes only stations with at least one HTTPS URL, no metadata-only cards',()=>{
  const d=readCatalogue(undefined,'v2');
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
- assert.equal(d.index.catalogVersion,'2.8.3');
+ assert.equal(d.index.catalogVersion,'2.8.4');
  assert.equal(d.stations.length,240);assert.equal(d.discoveryStations.length,0);
  assert.equal(d.stations.filter(s=>s.delivery==='fm').length,57);
  assert.equal(d.stations.flatMap(s=>s.streams).length,245);

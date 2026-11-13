@@ -21,7 +21,7 @@ export function readCatalogue(root = projectRoot, version = 'v1') {
   data.i18n = Object.fromEntries(['en', 'ta', 'sa'].map(locale => [locale, file(`i18n/${locale}.json`)]));
   data.stationMigrations=existsSync(path.join(base,'station-migrations.json'))?file('station-migrations.json'):undefined;
   data.discoveryStations=existsSync(path.join(base,'discovery-stations.json'))?file('discovery-stations.json'):undefined;
-  for(const [key,name]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json']])
+  for(const [key,name]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']])
     if(index.files?.[key]!==undefined && existsSync(path.join(base,name)))data[key]=file(name);
   return { index, ...data };
 }
@@ -157,8 +157,8 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
     if(!index.counts||typeof index.counts!=='object'||Array.isArray(index.counts)||countKeys.some(key=>!Number.isInteger(index.counts[key])||index.counts[key]<0)||Object.keys(index.counts).some(key=>!countKeys.includes(key)))errors.push('Invalid v2 manifest count fields');
     if(typeof index.publishedOn!=='string'||!Number.isFinite(Date.parse(index.publishedOn))||new Date(index.publishedOn).toISOString().slice(0,10)!==index.publishedOn)errors.push('Invalid v2 publication date');
     if(!/^2\.\d+\.\d+$/.test(index.catalogVersion)||index.localizationRoot!=='i18n/')errors.push('Invalid v2 catalogue version/localization root');
-    const files={networks:'networks.json',stations:'stations.json',locations:'locations.json',languages:'languages.json',categories:'categories.json',sources:'sources.json',stationMigrations:'station-migrations.json',discoveryStations:'discovery-stations.json',broadcasters:'broadcasters.json',programmeThemes:'programme-themes.json',browseIndex:'browse-index.json'};
-    const optional=['broadcasters','programmeThemes','browseIndex'];
+    const files={networks:'networks.json',stations:'stations.json',locations:'locations.json',languages:'languages.json',categories:'categories.json',sources:'sources.json',stationMigrations:'station-migrations.json',discoveryStations:'discovery-stations.json',broadcasters:'broadcasters.json',programmeThemes:'programme-themes.json',browseIndex:'browse-index.json',artists:'artists.json'};
+    const optional=['broadcasters','programmeThemes','browseIndex','artists'];
     if(!index.files||Object.keys(index.files).some(key=>!Object.hasOwn(files,key))||Object.entries(files).some(([key,file])=>(!optional.includes(key)||index.files?.[key]!==undefined)&&index.files?.[key]!==file))errors.push('Invalid or incomplete v2 manifest references');
     // v2 manifest declares every country used by its referenced registries, not
     // just countries with a playable station. Clients validate network and

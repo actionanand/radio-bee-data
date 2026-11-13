@@ -10,7 +10,7 @@ const localizationFiles=['i18n/en.json','i18n/ta.json','i18n/sa.json'];
 const historicalPlaceholders=['assets/logos/networks/.gitkeep','assets/logos/stations/.gitkeep'];
 function publicationFiles(root,version,data) {
   const files=['index.json','stations.json','networks.json','sources.json','locations.json','languages.json','categories.json',...localizationFiles,...historicalPlaceholders];
-  for(const [key,file]of [['stationMigrations','station-migrations.json'],['discoveryStations','discovery-stations.json'],...(version==='v2'?[['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json']]:[])])if(data.index.files[key])files.push(file);
+  for(const [key,file]of [['stationMigrations','station-migrations.json'],['discoveryStations','discovery-stations.json'],...(version==='v2'?[['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']]:[])])if(data.index.files[key])files.push(file);
   for(const row of [...data.networks,...data.stations,...(data.discoveryStations??[])])if(Object.hasOwn(row,'logoPath'))files.push(inspectLogo(root,row.logoPath,version).path);
   return [...new Set(files)].sort();
 }

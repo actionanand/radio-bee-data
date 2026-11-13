@@ -20,12 +20,17 @@ export function stationGeographyErrors(station,locations) {
 
 export function metadataErrors(data,validHttps) {
  const errors=[],sources=new Set((data.sources??[]).map(s=>s.id)),sourceMap=new Map((data.sources??[]).map(s=>[s.id,s])),languages=new Set((data.languages??[]).map(l=>l.code));
- const broadcasters=data.broadcasters===undefined?[]:data.broadcasters,themes=data.programmeThemes===undefined?[]:data.programmeThemes;
- for(const [field,file]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json']]) {
+ const broadcasters=data.broadcasters===undefined?[]:data.broadcasters,themes=data.programmeThemes===undefined?[]:data.programmeThemes,artists=data.artists===undefined?[]:data.artists;
+ for(const [field,file]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']]) {
    if(data.index?.files?.[field]!==undefined && (data.index.files[field]!==file || data[field]===undefined)) errors.push('Invalid '+field+' manifest reference');
    if(data[field]!==undefined && data.index?.files?.[field]!==file) errors.push(field+' requires manifest reference');
  }
- const broadIds=new Set(),themeIds=new Set();
+ const broadIds=new Set(),themeIds=new Set(),artistIds=new Set();
+ if(!Array.isArray(artists))errors.push('artists must be an array');
+ for(const a of Array.isArray(artists)?artists:[]){
+   if(!shape(a,['id','name','aliases'])||!id(a.id)||artistIds.has(a.id)||!text(a.name)||!Array.isArray(a.aliases)||a.aliases.some(v=>!text(v))||new Set(a.aliases).size!==a.aliases.length)errors.push('Invalid artist record');
+   if(a&&typeof a==='object')artistIds.add(a.id);
+ }
  if(!Array.isArray(broadcasters))errors.push('broadcasters must be an array');
  for(const b of Array.isArray(broadcasters)?broadcasters:[]) {
    if(!shape(b,['id','name','aliases','website','sourceIds','reviewedOn','notes'])||!id(b.id)||broadIds.has(b.id)||!text(b.name)||!Array.isArray(b.aliases)||b.aliases.some(a=>!text(a))||new Set(b.aliases).size!==b.aliases.length||!validHttps(b.website)||!list(b.sourceIds,sources,{nonempty:true})||!date(b.reviewedOn)||!text(b.notes))errors.push('Invalid broadcaster record');
@@ -44,6 +49,7 @@ export function metadataErrors(data,validHttps) {
    const fail=m=>errors.push('Metadata '+s.id+': '+m);
    if(!Array.isArray(s.broadcastLanguages)||!Array.isArray(s.genres))continue;
    if(new Set(s.broadcastLanguages).size!==s.broadcastLanguages.length||new Set(s.genres).size!==s.genres.length)fail('duplicate language/category');
+   if(s.artistIds!==undefined && (!list(s.artistIds,artistIds,{nonempty:true})||!s.genres.includes('artist-hits')))fail('invalid artist membership');
    if(s.programmeThemeIds!==undefined && (!list(s.programmeThemeIds,themeIds)||s.programmeThemeIds.length&&!s.genres.includes('devotional')))fail('invalid devotional theme membership');
    if(s.geographyEvidence!==undefined) {
      const g=s.geographyEvidence;
