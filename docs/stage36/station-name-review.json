@@ -1,0 +1,2505 @@
+{
+  "catalogVersion": "2.8.5",
+  "schemaVersion": 2,
+  "reviewedOn": "2026-11-13",
+  "baseCommit": "4a93371798bf9d353c516fcb436d0f9514e15a4b",
+  "totalStations": 240,
+  "streamUrls": 245,
+  "method": "All canonical names reviewed; editorial transliteration of brands/proper names, conventional local place names and translated descriptive qualifiers. Original English retained where local spelling is uncertain. No broadcaster-authenticated translations claimed.",
+  "coverage": {
+    "ta": {
+      "dictionaryEntries": 240,
+      "localScript": 224,
+      "englishFallbacks": 16
+    },
+    "sa": {
+      "dictionaryEntries": 240,
+      "localScript": 224,
+      "englishFallbacks": 16
+    }
+  },
+  "manualReview": [
+    {
+      "stationId": "aural-radio",
+      "name": "Aural Radio Kerala",
+      "reason": "Publisher-preferred pronunciation and Tamil/Devanagari spelling of Aural need confirmation."
+    },
+    {
+      "stationId": "mauradio-mu",
+      "name": "mauRadio",
+      "reason": "Stylized mauRadio brand pronunciation and word boundary need confirmation."
+    },
+    {
+      "stationId": "jei-fm-my",
+      "name": "JEIFM",
+      "reason": "JEIFM acronym expansion/pronunciation is not established; preserve original brand."
+    },
+    {
+      "stationId": "otran-vaanoli-ie",
+      "name": "Otran Vaanoli",
+      "reason": "Tamil consonant and vowel spelling of Otran is ambiguous from Latin text."
+    },
+    {
+      "stationId": "radio-norge-no",
+      "name": "Radio Norge",
+      "reason": "Norwegian brand pronunciation needs native/local-script review."
+    },
+    {
+      "stationId": "suomipop-fi",
+      "name": "SuomiPop",
+      "reason": "Finnish compound brand needs native/local-script review."
+    },
+    {
+      "stationId": "znad-wilii-lt",
+      "name": "Znad Wilii",
+      "reason": "Polish brand pronunciation and Lithuanian place association require review."
+    },
+    {
+      "stationId": "stad-den-haag-nl",
+      "name": "Radio Stad Den Haag",
+      "reason": "Dutch brand/place pronunciation needs native/local-script review."
+    },
+    {
+      "stationId": "sveriges-radio-p1-se",
+      "name": "Sveriges Radio P1",
+      "reason": "Swedish brand pronunciation needs native/local-script review; preserve P1."
+    },
+    {
+      "stationId": "radio-dla-doroslych-pl",
+      "name": "Radio dla Dorosłych",
+      "reason": "Polish consonant clusters and diacritics need native/local-script review."
+    },
+    {
+      "stationId": "nagham-fm-eg",
+      "name": "Nagham FM Egypt",
+      "reason": "Arabic brand consonant/vowel representation needs native/local-script review."
+    },
+    {
+      "stationId": "77h-fm-br",
+      "name": "77H FM Guarujá SP",
+      "reason": "Brazilian Guarujá pronunciation needs review; retain exact 77H and SP identifiers."
+    },
+    {
+      "stationId": "stage29-vaalai-fm",
+      "name": "Vaalai FM",
+      "reason": "Vaalai has several possible Tamil consonant/vowel spellings; do not guess."
+    },
+    {
+      "stationId": "stage29-sree-kurumba-fm",
+      "name": "Sree Kurumba FM",
+      "reason": "Publisher-preferred spelling of the Kurumba proper name needs confirmation."
+    },
+    {
+      "stationId": "stage29-kanal-music",
+      "name": "Kanal Music",
+      "reason": "Kanal can represent distinct Tamil words; do not choose a meaning/spelling without confirmation."
+    },
+    {
+      "stationId": "stage29-kandhakapookkal-radio",
+      "name": "Kandhakapookkal Radio",
+      "reason": "Publisher-preferred compound consonant/vowel spelling needs confirmation."
+    }
+  ],
+  "stations": [
+    {
+      "stationId": "air-nagercoil",
+      "canonicalName": "Akashvani Nagercoil",
+      "ta": "ஆகாஷவாணி நாகர்கோவில்",
+      "sa": "आकाशवाणी नागरकोविल्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-coimbatore",
+      "canonicalName": "Akashvani Coimbatore",
+      "ta": "ஆகாஷவாணி கோயம்புத்தூர்",
+      "sa": "आकाशवाणी कोयम्बत्तूर्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-madurai",
+      "canonicalName": "Akashvani Madurai",
+      "ta": "ஆகாஷவாணி மதுரை",
+      "sa": "आकाशवाणी मदुरै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-tiruchirappalli",
+      "canonicalName": "Akashvani Tiruchirappalli",
+      "ta": "ஆகாஷவாணி திருச்சிராப்பள்ளி",
+      "sa": "आकाशवाणी तिरुच्चिराप्पळ्ळि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-tirunelveli",
+      "canonicalName": "Akashvani Tirunelveli",
+      "ta": "ஆகாஷவாணி திருநெல்வேலி",
+      "sa": "आकाशवाणी तिरुनेल्वेली",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-kodaikanal",
+      "canonicalName": "Akashvani Kodaikanal",
+      "ta": "ஆகாஷவாணி கொடைக்கானல்",
+      "sa": "आकाशवाणी कोडैक्कानल्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-ooty",
+      "canonicalName": "Akashvani Ooty",
+      "ta": "ஆகாஷவாணி ஊட்டி",
+      "sa": "आकाशवाणी ऊटी",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-puducherry",
+      "canonicalName": "Akashvani Puducherry",
+      "ta": "ஆகாஷவாணி புதுச்சேரி",
+      "sa": "आकाशवाणी पुदुच्चेरी",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-karaikal",
+      "canonicalName": "Akashvani Karaikal",
+      "ta": "ஆகாஷவாணி காரைக்கால்",
+      "sa": "आकाशवाणी कारैक्काल्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-kochi",
+      "canonicalName": "Akashvani Kochi",
+      "ta": "ஆகாஷவாணி கொச்சி",
+      "sa": "आकाशवाणी कोच्चि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-kozhikode",
+      "canonicalName": "Akashvani Kozhikode",
+      "ta": "ஆகாஷவாணி கோழிக்கோடு",
+      "sa": "आकाशवाणी कोळिक्कोड्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-thrissur",
+      "canonicalName": "Akashvani Thrissur",
+      "ta": "ஆகாஷவாணி திருச்சூர்",
+      "sa": "आकाशवाणी तृश्शूर्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-kannur",
+      "canonicalName": "Akashvani Kannur",
+      "ta": "ஆகாஷவாணி கண்ணூர்",
+      "sa": "आकाशवाणी कण्णूर्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-devikulam",
+      "canonicalName": "Akashvani Devikulam",
+      "ta": "ஆகாஷவாணி தேவிகுளம்",
+      "sa": "आकाशवाणी देविकुलम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-tamil",
+      "canonicalName": "Akashvani Tamil Nadu",
+      "ta": "ஆகாஷவாணி தமிழ்நாடு",
+      "sa": "आकाशवाणी तमिळ्नाडु",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-vividh-bharati",
+      "canonicalName": "Vividh Bharati",
+      "ta": "விவித் பாரதி",
+      "sa": "विविध भारती",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-raagam",
+      "canonicalName": "Akashvani Raagam",
+      "ta": "ஆகாஷவாணி ராகம்",
+      "sa": "आकाशवाणी रागम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "sooriyan-srilanka",
+      "canonicalName": "Sooriyan FM Sri Lanka",
+      "ta": "சூரியன் எஃப்.எம். இலங்கை",
+      "sa": "सूरियन् एफएम् श्रीलङ्का",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "vasantham-srilanka",
+      "canonicalName": "Vasantham FM Sri Lanka",
+      "ta": "வசந்தம் எஃப்.எம். இலங்கை",
+      "sa": "वसन्तम् एफएम् श्रीलङ्का",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "shakthi-srilanka",
+      "canonicalName": "Shakthi FM Sri Lanka",
+      "ta": "சக்தி எஃப்.எம். இலங்கை",
+      "sa": "शक्ति एफएम् श्रीलङ्का",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-chennai-rainbow",
+      "canonicalName": "Akashvani FM Rainbow Chennai",
+      "ta": "ஆகாஷவாணி எஃப்.எம். ரெயின்போ சென்னை",
+      "sa": "आकाशवाणी एफएम् रेनबो चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "luminous-radio-tamil",
+      "canonicalName": "Luminous Radio Tamil",
+      "ta": "லூமினஸ் ரேடியோ தமிழ்",
+      "sa": "ल्यूमिनस् रेडियो तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-chennai-gold",
+      "canonicalName": "Akashvani FM Gold Chennai",
+      "ta": "ஆகாஷவாணி எஃப்.எம். கோல்டு சென்னை",
+      "sa": "आकाशवाणी एफएम् गोल्ड् चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-chennai-vividh-tamil",
+      "canonicalName": "Akashvani Vividh Bharati Tamil Chennai",
+      "ta": "ஆகாஷவாணி விவித் பாரதி தமிழ் சென்னை",
+      "sa": "आकाशवाणी विविध भारती तमिळ् चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "iskcon-nagercoil",
+      "canonicalName": "ISKCON Nagercoil / Vaani Seva",
+      "ta": "இஸ்கான் நாகர்கோவில் / வாணி சேவா",
+      "sa": "इस्कॉन नागरकोविल् / वाणी सेवा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "ibc-tamil-uk",
+      "canonicalName": "IBC Tamil Radio",
+      "ta": "ஐ.பி.சி. தமிழ் ரேடியோ",
+      "sa": "आई.बी.सी. तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "beats-radio-us",
+      "canonicalName": "Beats Radio Tamil",
+      "ta": "பீட்ஸ் ரேடியோ தமிழ்",
+      "sa": "बीट्स् रेडियो तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "american-tamil-radio-us",
+      "canonicalName": "American Tamil Radio",
+      "ta": "அமெரிக்கன் தமிழ் ரேடியோ",
+      "sa": "अमेरिकन् तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "oli-968-sg",
+      "canonicalName": "OLI 968",
+      "ta": "ஒலி 968",
+      "sa": "ओलि 968",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "tamil-894-ae",
+      "canonicalName": "89.4 Tamil FM",
+      "ta": "89.4 தமிழ் எஃப்.எம்.",
+      "sa": "89.4 तमिळ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "minnal-my",
+      "canonicalName": "MINNALfm",
+      "ta": "மின்னல் எஃப்.எம்.",
+      "sa": "मिन्नल् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "thaalam-ch",
+      "canonicalName": "Thaalam Radio Switzerland",
+      "ta": "தாளம் ரேடியோ சுவிட்சர்லாந்து",
+      "sa": "ताळम् रेडियो स्विट्ज़रलैण्ड्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "akkini-ch",
+      "canonicalName": "Akkini FM",
+      "ta": "அக்கினி எஃப்.எம்.",
+      "sa": "अक्किनि एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "etr-de",
+      "canonicalName": "European Tamil Radio",
+      "ta": "யூரோப்பியன் தமிழ் ரேடியோ",
+      "sa": "यूरोपियन् तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "tamil-murasam-no",
+      "canonicalName": "Tamil Murasam Norway",
+      "ta": "தமிழ் முரசம் நார்வே",
+      "sa": "तमिळ् मुरसम् नॉर्वे",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "shiva-tattvam",
+      "canonicalName": "Shiva Tattvam",
+      "ta": "சிவ தத்துவம்",
+      "sa": "शिव तत्त्वम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "thiruneriya-thamizhosai",
+      "canonicalName": "Thiruneriya Thamizhosai",
+      "ta": "திருநெறிய தமிழோசை",
+      "sa": "तिरुनेरिय तमिळोसै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "star-fm-srilanka",
+      "canonicalName": "Star FM Sri Lanka",
+      "ta": "ஸ்டார் எஃப்.எம். இலங்கை",
+      "sa": "स्टार् एफएम् श्रीलङ्का",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "boom-tamil",
+      "canonicalName": "Boom Tamil",
+      "ta": "பூம் தமிழ்",
+      "sa": "बूम् तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "tamil-panpalai",
+      "canonicalName": "Tamil Panpalai",
+      "ta": "தமிழ் பண்பலை",
+      "sa": "तमिळ् पण्बलै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "aural-radio",
+      "canonicalName": "Aural Radio Kerala",
+      "ta": "Aural Radio Kerala",
+      "sa": "Aural Radio Kerala",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Publisher-preferred pronunciation and Tamil/Devanagari spelling of Aural need confirmation."
+    },
+    {
+      "stationId": "ar-radio",
+      "canonicalName": "AR Radio Kerala",
+      "ta": "ஏ.ஆர். ரேடியோ கேரளா",
+      "sa": "ए.आर्. रेडियो केरलम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "hello-chennai",
+      "canonicalName": "Hello FM Chennai",
+      "ta": "ஹலோ எஃப்.எம். சென்னை",
+      "sa": "हेलो एफएम् चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "east-fm-ca",
+      "canonicalName": "EAST FM 102.7",
+      "ta": "ஈஸ்ட் எஃப்.எம். 102.7",
+      "sa": "ईस्ट् एफएम् 102.7",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "swiss-tamil-radio-ch",
+      "canonicalName": "Swiss Tamil Radio",
+      "ta": "ஸ்விஸ் தமிழ் ரேடியோ",
+      "sa": "स्विस् तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "lotus-fm-za",
+      "canonicalName": "Lotus FM",
+      "ta": "லோட்டஸ் எஃப்.எம்.",
+      "sa": "लोटस् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "vaagai-tamil-de",
+      "canonicalName": "Vaagai Tamil FM",
+      "ta": "வாகை தமிழ் எஃப்.எம்.",
+      "sa": "वागै तमिळ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "a9-radio-ca",
+      "canonicalName": "A9 Radio",
+      "ta": "A9 ரேடியோ",
+      "sa": "A9 रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "amudham-fm-in",
+      "canonicalName": "Amudham FM",
+      "ta": "அமுதம் எஃப்.எம்.",
+      "sa": "अमुदम् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "mauradio-mu",
+      "canonicalName": "mauRadio",
+      "ta": "mauRadio",
+      "sa": "mauRadio",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Stylized mauRadio brand pronunciation and word boundary need confirmation."
+    },
+    {
+      "stationId": "theophony-tamil-in",
+      "canonicalName": "Theophony Tamil Christian Radio",
+      "ta": "தியோஃபனி தமிழ் கிறிஸ்தவ ரேடியோ",
+      "sa": "थियोफ़नी तमिळ् क्रिश्चियन् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "jei-fm-my",
+      "canonicalName": "JEIFM",
+      "ta": "JEIFM",
+      "sa": "JEIFM",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "JEIFM acronym expansion/pronunciation is not established; preserve original brand."
+    },
+    {
+      "stationId": "amen-fm-ca",
+      "canonicalName": "Amen FM",
+      "ta": "ஆமென் எஃப்.எம்.",
+      "sa": "आमेन् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "live-fm-bh",
+      "canonicalName": "Live FM 107.2",
+      "ta": "லைவ் எஃப்.எம். 107.2",
+      "sa": "लाइव् एफएम् 107.2",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "quran-tamil-kw",
+      "canonicalName": "Quran in Tamil",
+      "ta": "தமிழில் குர்ஆன்",
+      "sa": "तमिळ् भाषायां कुरआन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "sweety-fm-in",
+      "canonicalName": "Sweety FM Tamil",
+      "ta": "ஸ்வீட்டி எஃப்.எம். தமிழ்",
+      "sa": "स्वीटी एफएम् तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "hand-of-jesus-tamil-in",
+      "canonicalName": "Hand of Jesus Tamil",
+      "ta": "ஹேண்ட் ஆஃப் ஜீசஸ் தமிழ்",
+      "sa": "हैण्ड् ऑफ़् जीसस् तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "vaanmalar-fm-in",
+      "canonicalName": "Vaanmalar FM",
+      "ta": "வான்மலர் எஃப்.எம்.",
+      "sa": "वान्मलर् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "suno-tamil-qa",
+      "canonicalName": "Radio Suno Tamil",
+      "ta": "ரேடியோ சுனோ தமிழ்",
+      "sa": "रेडियो सुनो तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "tamil-christian-radio-in",
+      "canonicalName": "Tamil Christian Radio",
+      "ta": "தமிழ் கிறிஸ்தவ ரேடியோ",
+      "sa": "तमिळ् क्रिश्चियन् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "good-news-tamil-ca",
+      "canonicalName": "Good News FM Tamil",
+      "ta": "குட் நியூஸ் எஃப்.எம். தமிழ்",
+      "sa": "गुड् न्यूज़् एफएम् तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "3zzz-au",
+      "canonicalName": "3ZZZ 92.3FM",
+      "ta": "3ZZZ 92.3 எஃப்.எம்.",
+      "sa": "3ZZZ 92.3 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "4eb-fm-au",
+      "canonicalName": "Radio 4EB 98.1 FM",
+      "ta": "ரேடியோ 4EB 98.1 எஃப்.எம்.",
+      "sa": "रेडियो 4EB 98.1 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "4eb-global-au",
+      "canonicalName": "Radio 4EB Global",
+      "ta": "ரேடியோ 4EB குளோபல்",
+      "sa": "रेडियो 4EB ग्लोबल्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "5ebi-au",
+      "canonicalName": "5EBI 103.1 FM",
+      "ta": "5EBI 103.1 எஃப்.எம்.",
+      "sa": "5EBI 103.1 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "namathu-fm-fr",
+      "canonicalName": "Namathu FM France",
+      "ta": "நமது எஃப்.எம். பிரான்ஸ்",
+      "sa": "नमदु एफएम् फ़्रान्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "otran-vaanoli-ie",
+      "canonicalName": "Otran Vaanoli",
+      "ta": "Otran Vaanoli",
+      "sa": "Otran Vaanoli",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Tamil consonant and vowel spelling of Otran is ambiguous from Latin text."
+    },
+    {
+      "stationId": "thuthi-fm-no",
+      "canonicalName": "Thuthi FM",
+      "ta": "துதி எஃப்.எம்.",
+      "sa": "तुदि एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-plus-indiz-mu",
+      "canonicalName": "Radio Plus Indiz",
+      "ta": "ரேடியோ பிளஸ் இண்டிஸ்",
+      "sa": "रेडियो प्लस् इण्डिज़्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "time-fm-toronto-ca",
+      "canonicalName": "Time FM Toronto",
+      "ta": "டைம் எஃப்.எம். டொரான்டோ",
+      "sa": "टाइम् एफएम् टोरॉन्टो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "inbathamil-oli-au",
+      "canonicalName": "Inbathamil Oli",
+      "ta": "இன்பத்தமிழ் ஒலி",
+      "sa": "इन्बत्तमिळ् ओलि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "mirchi-chennai",
+      "canonicalName": "Radio Mirchi Chennai",
+      "ta": "ரேடியோ மிர்ச்சி சென்னை",
+      "sa": "रेडियो मिर्ची चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "suryan-chennai",
+      "canonicalName": "Suryan FM Chennai",
+      "ta": "சூரியன் எஃப்.எம். சென்னை",
+      "sa": "सूरियन् एफएम् चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "big-chennai",
+      "canonicalName": "BIG FM Chennai",
+      "ta": "பிக் எஃப்.எம். சென்னை",
+      "sa": "बिग् एफएम् चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-city-chennai",
+      "canonicalName": "Radio City Chennai",
+      "ta": "ரேடியோ சிட்டி சென்னை",
+      "sa": "रेडियो सिटी चेन्नै",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "pollachi-fm",
+      "canonicalName": "Pollachi FM",
+      "ta": "பொள்ளாச்சி எஃப்.எம்.",
+      "sa": "पोळ्ळाच्चि एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "inbam-fm",
+      "canonicalName": "Inbam FM",
+      "ta": "இன்பம் எஃப்.எம்.",
+      "sa": "इन्बम् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "kodai-city-fm",
+      "canonicalName": "Kodai City FM",
+      "ta": "கொடை சிட்டி எஃப்.எம்.",
+      "sa": "कोडै सिटी एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-beat-love",
+      "canonicalName": "Radio Beat Love",
+      "ta": "ரேடியோ பீட் லவ்",
+      "sa": "रेडियो बीट् लव्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-beat-extra",
+      "canonicalName": "Radio Beat Extra",
+      "ta": "ரேடியோ பீட் எக்ஸ்ட்ரா",
+      "sa": "रेडियो बीट् एक्स्ट्रा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "air-dharmapuri",
+      "canonicalName": "Akashvani Dharmapuri",
+      "ta": "ஆகாஷவாணி தர்மபுரி",
+      "sa": "आकाशवाणी धर्मपुरी",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "vaanam-fm-hd",
+      "canonicalName": "Vaanam FM HD",
+      "ta": "வானம் எஃப்.எம். HD",
+      "sa": "वानम् एफएम् HD",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "tamil-80s-hits",
+      "canonicalName": "80s Tamil Hits",
+      "ta": "80s தமிழ் ஹிட்ஸ்",
+      "sa": "80s तमिळ् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "amr-radio-ca",
+      "canonicalName": "AMR Radio",
+      "ta": "AMR ரேடியோ",
+      "sa": "AMR रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "thaalam-in",
+      "canonicalName": "Thaalam FM India",
+      "ta": "தாளம் எஃப்.எம். இந்தியா",
+      "sa": "ताळम् एफएम् इण्डिया",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "slbc-tamil-national-service",
+      "canonicalName": "SLBC Tamil National Service FM",
+      "ta": "SLBC தமிழ் நேஷனல் சர்வீஸ் எஃப்.எம்.",
+      "sa": "SLBC तमिळ् नैशनल् सर्विस् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "ilangai-vaanoli",
+      "canonicalName": "Ilangai Vaanoli",
+      "ta": "இலங்கை வானொலி",
+      "sa": "इलङ्गै वानोलि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "ilayaraja-radio",
+      "canonicalName": "Ilaiyaraaja Radio",
+      "ta": "இளையராஜா ரேடியோ",
+      "sa": "इलैयाराजा रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "kumbakonam-city-fm",
+      "canonicalName": "Kumbakonam City FM",
+      "ta": "கும்பகோணம் சிட்டி எஃப்.எம்.",
+      "sa": "कुम्भकोणम् सिटी एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "ada-ceylon-fm",
+      "canonicalName": "ADA Ceylon FM",
+      "ta": "ADA சிலோன் எஃப்.எம்.",
+      "sa": "ADA सीलोन एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "vellore-city-fm",
+      "canonicalName": "Vellore City FM",
+      "ta": "வேலூர் சிட்டி எஃப்.எம்.",
+      "sa": "वेलूर् सिटी एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "raaga-my",
+      "canonicalName": "RAAGA Malaysia",
+      "ta": "ராகா மலேசியா",
+      "sa": "रागा मलेशिया",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "divyavani-sanskrit-in",
+      "canonicalName": "Divyavani Sanskrit Radio",
+      "ta": "திவ்யவாணி சமஸ்கிருத ரேடியோ",
+      "sa": "दिव्यवाणी संस्कृत रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "sanskrit-bharati-radio-in",
+      "canonicalName": "Radio Sanskrit Bharati",
+      "ta": "ரேடியோ சமஸ்கிருத பாரதி",
+      "sa": "रेडियो संस्कृत भारती",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-paloma-de",
+      "canonicalName": "Radio Paloma",
+      "ta": "ரேடியோ பாலோமா",
+      "sa": "रेडियो पालोमा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-norge-no",
+      "canonicalName": "Radio Norge",
+      "ta": "Radio Norge",
+      "sa": "Radio Norge",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Norwegian brand pronunciation needs native/local-script review."
+    },
+    {
+      "stationId": "realradio-ireland-ie",
+      "canonicalName": "RealRadio Ireland",
+      "ta": "ரியல் ரேடியோ அயர்லாந்து",
+      "sa": "रियल् रेडियो आयरलैण्ड्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "nostalgia-fi",
+      "canonicalName": "Nostalgia Finland",
+      "ta": "நாஸ்டால்ஜியா பின்லாந்து",
+      "sa": "नॉस्टैल्जिया फ़िनलैण्ड्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "suomipop-fi",
+      "canonicalName": "SuomiPop",
+      "ta": "SuomiPop",
+      "sa": "SuomiPop",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Finnish compound brand needs native/local-script review."
+    },
+    {
+      "stationId": "radio-r-lt",
+      "canonicalName": "Radio-R Lithuania",
+      "ta": "ரேடியோ-R லிதுவேனியா",
+      "sa": "रेडियो-R लिथुआनिया",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "znad-wilii-lt",
+      "canonicalName": "Znad Wilii",
+      "ta": "Znad Wilii",
+      "sa": "Znad Wilii",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Polish brand pronunciation and Lithuanian place association require review."
+    },
+    {
+      "stationId": "pop-fm-dk",
+      "canonicalName": "Pop FM Denmark",
+      "ta": "பாப் எஃப்.எம். டென்மார்க்",
+      "sa": "पॉप् एफएम् डेनमार्क्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "myrock-dk",
+      "canonicalName": "MyRock Denmark",
+      "ta": "மைராக் டென்மார்க்",
+      "sa": "माइरॉक् डेनमार्क्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stad-den-haag-nl",
+      "canonicalName": "Radio Stad Den Haag",
+      "ta": "Radio Stad Den Haag",
+      "sa": "Radio Stad Den Haag",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Dutch brand/place pronunciation needs native/local-script review."
+    },
+    {
+      "stationId": "slam-nl",
+      "canonicalName": "SLAM! Netherlands",
+      "ta": "ஸ்லாம்! நெதர்லாந்து",
+      "sa": "स्लैम! नेदरलैण्ड्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "kiss-kiss-italia-it",
+      "canonicalName": "Radio Kiss Kiss Italia",
+      "ta": "ரேடியோ கிஸ் கிஸ் இத்தாலியா",
+      "sa": "रेडियो किस् किस् इटालिया",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exa-fm-mexico",
+      "canonicalName": "Exa FM Mexico",
+      "ta": "எக்ஸா எஃப்.எம். மெக்சிகோ",
+      "sa": "एक्सा एफएम् मेक्सिको",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "sveriges-radio-p1-se",
+      "canonicalName": "Sveriges Radio P1",
+      "ta": "Sveriges Radio P1",
+      "sa": "Sveriges Radio P1",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Swedish brand pronunciation needs native/local-script review; preserve P1."
+    },
+    {
+      "stationId": "pirate-rock-se",
+      "canonicalName": "Pirate Rock Sweden",
+      "ta": "பைரட் ராக் ஸ்வீடன்",
+      "sa": "पाइरेट् रॉक् स्वीडन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-dla-doroslych-pl",
+      "canonicalName": "Radio dla Dorosłych",
+      "ta": "Radio dla Dorosłych",
+      "sa": "Radio dla Dorosłych",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Polish consonant clusters and diacritics need native/local-script review."
+    },
+    {
+      "stationId": "radio-max-hr",
+      "canonicalName": "Radio Max Croatia",
+      "ta": "ரேடியோ மேக்ஸ் குரோஷியா",
+      "sa": "रेडियो मैक्स् क्रोएशिया",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "nagham-fm-eg",
+      "canonicalName": "Nagham FM Egypt",
+      "ta": "Nagham FM Egypt",
+      "sa": "Nagham FM Egypt",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Arabic brand consonant/vowel representation needs native/local-script review."
+    },
+    {
+      "stationId": "radio-roks-ua",
+      "canonicalName": "Radio ROKS Ukraine",
+      "ta": "ரேடியோ ROKS உக்ரைன்",
+      "sa": "रेडियो ROKS यूक्रेन",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-nrj-ua",
+      "canonicalName": "Radio NRJ Ukraine",
+      "ta": "ரேடியோ NRJ உக்ரைன்",
+      "sa": "रेडियो NRJ यूक्रेन",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-jamaica-jm",
+      "canonicalName": "Radio Jamaica",
+      "ta": "ரேடியோ ஜமைக்கா",
+      "sa": "रेडियो जमैका",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "telemetro-radio-pa",
+      "canonicalName": "Telemetro Radio Panama",
+      "ta": "டெலிமெட்ரோ ரேடியோ பனாமா",
+      "sa": "टेलेमेट्रो रेडियो पनामा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "77h-fm-br",
+      "canonicalName": "77H FM Guarujá SP",
+      "ta": "77H FM Guarujá SP",
+      "sa": "77H FM Guarujá SP",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Brazilian Guarujá pronunciation needs review; retain exact 77H and SP identifiers."
+    },
+    {
+      "stationId": "jazz-radio-blues-fr",
+      "canonicalName": "Jazz Radio Blues France",
+      "ta": "ஜாஸ் ரேடியோ ப்ளூஸ் பிரான்ஸ்",
+      "sa": "जैज़् रेडियो ब्लूज़् फ़्रान्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "mahakatha-radio-in",
+      "canonicalName": "Mahakatha Radio",
+      "ta": "மஹாகதா ரேடியோ",
+      "sa": "महाकथा रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "shaiva-lahari-in",
+      "canonicalName": "Shaiva Lahari",
+      "ta": "சைவ லஹரி",
+      "sa": "शैव लहरी",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "kexp-seattle-us",
+      "canonicalName": "KEXP 90.3 FM",
+      "ta": "KEXP 90.3 எஃப்.எம்.",
+      "sa": "KEXP 90.3 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "wnyc-939-us",
+      "canonicalName": "WNYC 93.9 FM",
+      "ta": "WNYC 93.9 எஃப்.எம்.",
+      "sa": "WNYC 93.9 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "wqxr-1059-us",
+      "canonicalName": "WQXR 105.9 FM",
+      "ta": "WQXR 105.9 எஃப்.எம்.",
+      "sa": "WQXR 105.9 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-backstreet-boys-ae",
+      "canonicalName": "Exclusively Backstreet Boys",
+      "ta": "எக்ஸ்க்ளூசிவ்லி பேக்ஸ்ட்ரீட் பாய்ஸ்",
+      "sa": "एक्सक्लूसिव्ली बैकस्ट्रीट् बॉयज़्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-taylor-swift-ae",
+      "canonicalName": "Exclusively Taylor Swift",
+      "ta": "எக்ஸ்க்ளூசிவ்லி டெய்லர் ஸ்விஃப்ட்",
+      "sa": "एक्सक्लूसिव्ली टेलर् स्विफ़्ट्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "hello-telugu-in",
+      "canonicalName": "Hello Telugu",
+      "ta": "ஹலோ தெலுங்கு",
+      "sa": "हेलो तेलुगु",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-malayalam-in",
+      "canonicalName": "Radio Malayalam",
+      "ta": "ரேடியோ மலையாளம்",
+      "sa": "रेडियो मलयाळम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "bol-punjabi-radio-in",
+      "canonicalName": "Bol Punjabi Radio",
+      "ta": "போல் பஞ்சாபி ரேடியோ",
+      "sa": "बोल् पञ्जाबी रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-mast-marathi-in",
+      "canonicalName": "Radio Mast Marathi",
+      "ta": "ரேடியோ மஸ்த் மராத்தி",
+      "sa": "रेडियो मस्त् मराठी",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "freefm-uae-sinhala-ae",
+      "canonicalName": "Free FM — UAE Sinhala Radio",
+      "ta": "ஃப்ரீ எஃப்.எம். — UAE சிங்கள ரேடியோ",
+      "sa": "फ़्री एफएम् — UAE सिंहल रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-amr-kannada-in",
+      "canonicalName": "Radio AMR Kannada",
+      "ta": "ரேடியோ AMR கன்னடம்",
+      "sa": "रेडियो AMR कन्नड",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "kannada-hits-in",
+      "canonicalName": "Kannada Hits",
+      "ta": "கன்னட ஹிட்ஸ்",
+      "sa": "कन्नड हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "hindi-gold-radio-in",
+      "canonicalName": "Hindi Gold Radio",
+      "ta": "ஹிந்தி கோல்டு ரேடியோ",
+      "sa": "हिन्दी गोल्ड् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-mirchi-dubai-ae",
+      "canonicalName": "Radio Mirchi Dubai (directory listing)",
+      "ta": "ரேடியோ மிர்ச்சி துபாய் (அடைவு பதிவு)",
+      "sa": "रेडियो मिर्ची दुबई (निर्देशिका प्रविष्टिः)",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "radio-quarantine-kolkata-in",
+      "canonicalName": "Radio Quarantine Kolkata",
+      "ta": "ரேடியோ குவாரன்டைன் கொல்கத்தா",
+      "sa": "रेडियो क्वारन्टीन् कोलकाता",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "80s80s-michael-jackson-de",
+      "canonicalName": "80s80s Michael Jackson",
+      "ta": "80s80s மைக்கேல் ஜாக்சன்",
+      "sa": "80s80s माइकल् जैक्सन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-michael-jackson-ae",
+      "canonicalName": "Exclusively Michael Jackson",
+      "ta": "எக்ஸ்க்ளூசிவ்லி மைக்கேல் ஜாக்சன்",
+      "sa": "एक्सक्लूसिव्ली माइकल् जैक्सन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-justin-bieber-ae",
+      "canonicalName": "Exclusively Justin Bieber",
+      "ta": "எக்ஸ்க்ளூசிவ்லி ஜஸ்டின் பீபர்",
+      "sa": "एक्सक्लूसिव्ली जस्टिन् बीबर्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-shakira-ae",
+      "canonicalName": "Exclusively Shakira",
+      "ta": "எக்ஸ்க்ளூசிவ்லி ஷகீரா",
+      "sa": "एक्सक्लूसिव्ली शकीरा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-one-direction-ae",
+      "canonicalName": "Exclusively One Direction",
+      "ta": "எக்ஸ்க்ளூசிவ்லி ஒன் டைரெக்ஷன்",
+      "sa": "एक्सक्लूसिव्ली वन् डाइरेक्शन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-adele-ae",
+      "canonicalName": "Exclusively Adele",
+      "ta": "எக்ஸ்க்ளூசிவ்லி அடெல்",
+      "sa": "एक्सक्लूसिव्ली अडेल्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-ed-sheeran-ae",
+      "canonicalName": "Exclusively Ed Sheeran",
+      "ta": "எக்ஸ்க்ளூசிவ்லி எட் ஷீரன்",
+      "sa": "एक्सक्लूसिव्ली एड् शीरन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-queen-ae",
+      "canonicalName": "Exclusively Queen",
+      "ta": "எக்ஸ்க்ளூசிவ்லி க்வீன்",
+      "sa": "एक्सक्लूसिव्ली क्वीन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "exclusively-westlife-ae",
+      "canonicalName": "Exclusively Westlife",
+      "ta": "எக்ஸ்க்ளூசிவ்லி வெஸ்ட்லைஃப்",
+      "sa": "एक्सक्लूसिव्ली वेस्टलाइफ़्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-thenral-world-radio",
+      "canonicalName": "Thenral World Radio",
+      "ta": "தென்றல் வேர்ல்டு ரேடியோ",
+      "sa": "तेन्द्रल् वर्ल्ड् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-agaram-tamil-radio",
+      "canonicalName": "Agaram Tamil Radio",
+      "ta": "அகரம் தமிழ் ரேடியோ",
+      "sa": "अगरम् तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-clubhouse-tamil-90s-2k-vibes",
+      "canonicalName": "Clubhouse Tamil 90s & 2K Vibes",
+      "ta": "கிளப்ஹவுஸ் தமிழ் 90s & 2K வைப்ஸ்",
+      "sa": "क्लबहाउस तमिळ् 90s & 2K वाइब्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-jipmer-radio",
+      "canonicalName": "Jipmer Radio",
+      "ta": "ஜிப்மர் ரேடியோ",
+      "sa": "जिप्मर् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-kodai-aruvi-fm",
+      "canonicalName": "Kodai Aruvi FM",
+      "ta": "கொடை அருவி எஃப்.எம்.",
+      "sa": "कोडै अरुवि एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-saamanthi-fm",
+      "canonicalName": "Saamanthi FM",
+      "ta": "சாமந்தி எஃப்.எம்.",
+      "sa": "सामन्ति एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tamil-mellisai-fm",
+      "canonicalName": "Tamil Mellisai FM",
+      "ta": "தமிழ் மெல்லிசை எஃப்.எம்.",
+      "sa": "तमिळ् मेल्लिसै एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-madhuram-radio",
+      "canonicalName": "Madhuram Radio",
+      "ta": "மதுரம் ரேடியோ",
+      "sa": "मदुरम् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tuticorin-radio",
+      "canonicalName": "Tuticorin Radio",
+      "ta": "தூத்துக்குடி ரேடியோ",
+      "sa": "तूत्तुक्कुडि रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-dindigul-radio",
+      "canonicalName": "Dindigul Radio",
+      "ta": "திண்டுக்கல் ரேடியோ",
+      "sa": "तिण्डुक्कल् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-vaalai-fm",
+      "canonicalName": "Vaalai FM",
+      "ta": "Vaalai FM",
+      "sa": "Vaalai FM",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Vaalai has several possible Tamil consonant/vowel spellings; do not guess."
+    },
+    {
+      "stationId": "stage29-jayam-fm-7-1",
+      "canonicalName": "Jayam FM 7.1",
+      "ta": "ஜெயம் எஃப்.எம். 7.1",
+      "sa": "जयम् एफएम् 7.1",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-retro-tamil-fm",
+      "canonicalName": "Retro Tamil FM",
+      "ta": "ரெட்ரோ தமிழ் எஃப்.எம்.",
+      "sa": "रेट्रो तमिळ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-oli-saaral-fm",
+      "canonicalName": "Oli Saaral FM",
+      "ta": "ஒலி சாரல் எஃப்.எம்.",
+      "sa": "ओलि सारल् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-trt-tamil-oli",
+      "canonicalName": "TRT Tamil Oli",
+      "ta": "TRT தமிழ் ஒலி",
+      "sa": "TRT तमिळ् ओलि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-pasumai-90-4-fm",
+      "canonicalName": "Pasumai FM 90.4",
+      "ta": "பசுமை எஃப்.எம். 90.4",
+      "sa": "पसुमै एफएम् 90.4",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tiruvannamalai-city-fm",
+      "canonicalName": "Tiruvannamalai City FM",
+      "ta": "திருவண்ணாமலை சிட்டி எஃப்.எம்.",
+      "sa": "तिरुवण्णामलै सिटी एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-rockfort-radio",
+      "canonicalName": "Rockfort Radio",
+      "ta": "ராக்ஃபோர்ட் ரேடியோ",
+      "sa": "रॉकफ़ोर्ट् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-i-tamil-media-fm",
+      "canonicalName": "I Tamil Media FM",
+      "ta": "ஐ தமிழ் மீடியா எஃப்.எம்.",
+      "sa": "आई तमिळ् मीडिया एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-covai-city-fm",
+      "canonicalName": "Covai City FM",
+      "ta": "கோவை சிட்டி எஃப்.எம்.",
+      "sa": "कोवै सिटी एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ss-tamil-radio",
+      "canonicalName": "SS Tamil Radio",
+      "ta": "எஸ்.எஸ். தமிழ் ரேடியோ",
+      "sa": "एस्.एस्. तमिळ् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-rj-tamil-fm",
+      "canonicalName": "Rj Tamil FM",
+      "ta": "ஆர்.ஜே. தமிழ் எஃப்.எம்.",
+      "sa": "आर्.जे. तमिळ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-100-love-radio",
+      "canonicalName": "100% Love Radio",
+      "ta": "100% லவ் ரேடியோ",
+      "sa": "100% लव् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-100-new-songs",
+      "canonicalName": "100% New Songs",
+      "ta": "100% நியூ சாங்ஸ்",
+      "sa": "100% न्यू सॉङ्ग्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-100-sad-songs",
+      "canonicalName": "100% Sad Songs",
+      "ta": "100% சாட் சாங்ஸ்",
+      "sa": "100% सैड् सॉङ्ग्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tamil-ragam",
+      "canonicalName": "Tamil Ragam",
+      "ta": "தமிழ் ராகம்",
+      "sa": "तमिळ् रागम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-airtamil-90s",
+      "canonicalName": "AirTamil 90s",
+      "ta": "ஏர்தமிழ் 90s",
+      "sa": "एयर् तमिळ् 90s",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-captain-fm",
+      "canonicalName": "Captain FM",
+      "ta": "கேப்டன் எஃப்.எம்.",
+      "sa": "कैप्टन् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-kaadhal-fm",
+      "canonicalName": "Kaadhal FM",
+      "ta": "காதல் எஃப்.எம்.",
+      "sa": "कादल् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-love-songs-tamil",
+      "canonicalName": "Love Songs Tamil",
+      "ta": "லவ் சாங்ஸ் தமிழ்",
+      "sa": "लव् सॉङ्ग्स् तमिळ्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-love-bites-mohan-songs",
+      "canonicalName": "Love bites Mohan songs",
+      "ta": "லவ் பைட்ஸ் மோகன் சாங்ஸ்",
+      "sa": "लव् बाइट्स् मोहन् सॉङ्ग्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-loveda-fm",
+      "canonicalName": "LoveDa FM",
+      "ta": "லவ்டா எஃப்.எம்.",
+      "sa": "लव्डा एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-sad-songs-fm",
+      "canonicalName": "Sad Songs FM",
+      "ta": "சாட் சாங்ஸ் எஃப்.எம்.",
+      "sa": "सैड् सॉङ्ग्स् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-rocker-radio-tamil-gold-70s-90s",
+      "canonicalName": "Rocker Radio Tamil Gold 70s 90s",
+      "ta": "ராக்கர் ரேடியோ தமிழ் கோல்டு 70s 90s",
+      "sa": "रॉकर् रेडियो तमिळ् गोल्ड् 70s 90s",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-mgr-sivaji-radio",
+      "canonicalName": "MGR & Sivaji Radio",
+      "ta": "எம்.ஜி.ஆர். & சிவாஜி ரேடியோ",
+      "sa": "एम्.जी.आर्. & शिवाजी रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-spb-online-radio",
+      "canonicalName": "SPB Online Radio",
+      "ta": "எஸ்.பி.பி. ஆன்லைன் ரேடியோ",
+      "sa": "एस्.पी.बी. ऑनलाइन रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-harris-jayaraj-radio",
+      "canonicalName": "Harris Jayaraj Radio",
+      "ta": "ஹாரிஸ் ஜெயராஜ் ரேடியோ",
+      "sa": "हैरिस् जयराज् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ks-chitra-radio",
+      "canonicalName": "KS Chitra Radio",
+      "ta": "கே.எஸ். சித்ரா ரேடியோ",
+      "sa": "के.एस्. चित्रा रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-deva-radio",
+      "canonicalName": "Deva Radio",
+      "ta": "தேவா ரேடியோ",
+      "sa": "देवा रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-kj-yesudas-radio",
+      "canonicalName": "K. J. Yesudas Radio",
+      "ta": "கே.ஜே. யேசுதாஸ் ரேடியோ",
+      "sa": "के.जे. येसुदास् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tms-radio",
+      "canonicalName": "TMS Radio",
+      "ta": "டி.எம்.எஸ். ரேடியோ",
+      "sa": "टी.एम्.एस्. रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-s-janaki-radio",
+      "canonicalName": "S. Janaki Radio",
+      "ta": "எஸ். ஜானகி ரேடியோ",
+      "sa": "एस्. जानकी रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-mano-radio",
+      "canonicalName": "Mano Radio",
+      "ta": "மனோ ரேடியோ",
+      "sa": "मनो रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-spb-old-hits-fm",
+      "canonicalName": "SPB Old Hits",
+      "ta": "எஸ்.பி.பி. ஓல்டு ஹிட்ஸ்",
+      "sa": "एस्.पी.बी. ओल्ड् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ilayaraja-voice-fm",
+      "canonicalName": "IlayaRaja Voice",
+      "ta": "இளையராஜா வாய்ஸ்",
+      "sa": "इलैयाराजा वॉइस्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-top-news-thamizh-fm",
+      "canonicalName": "Top News Thamizh FM",
+      "ta": "டாப் நியூஸ் தமிழ் எஃப்.எம்.",
+      "sa": "टॉप् न्यूज़् तमिळ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-santhosh-narayanan-radio",
+      "canonicalName": "Santhosh Narayanan Radio",
+      "ta": "சந்தோஷ் நாராயணன் ரேடியோ",
+      "sa": "सन्तोष् नारायणन् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-arrahman-classic",
+      "canonicalName": "ARRahman Classic",
+      "ta": "ஏ.ஆர். ரஹ்மான் கிளாசிக்",
+      "sa": "ए.आर्. रहमान् क्लासिक्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-makkal-thilagam-mgr",
+      "canonicalName": "Makkal Thilagam MGR",
+      "ta": "மக்கள் திலகம் எம்.ஜி.ஆர்.",
+      "sa": "मक्कळ् तिलकम् एम्.जी.आर्.",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ms-viswanathan-hits",
+      "canonicalName": "MS Viswanathan Hits",
+      "ta": "எம்.எஸ். விஸ்வநாதன் ஹிட்ஸ்",
+      "sa": "एम्.एस्. विश्वनाथन् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-simbu-hits",
+      "canonicalName": "Simbu Hits",
+      "ta": "சிம்பு ஹிட்ஸ்",
+      "sa": "सिम्बु हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-maestro-hits",
+      "canonicalName": "Maestro Hits",
+      "ta": "மேஸ்ட்ரோ ஹிட்ஸ்",
+      "sa": "मेस्ट्रो हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-yuvan-shankar-raja-ysr",
+      "canonicalName": "Yuvan Shankar Raja YSR",
+      "ta": "யுவன் சங்கர் ராஜா YSR",
+      "sa": "युवन् शङ्कर् राजा YSR",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-arrahman-classic-hits",
+      "canonicalName": "ARRahman Classic Hits",
+      "ta": "ஏ.ஆர். ரஹ்மான் கிளாசிக் ஹிட்ஸ்",
+      "sa": "ए.आर्. रहमान् क्लासिक् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-rajini-radio",
+      "canonicalName": "Rajini Radio",
+      "ta": "ரஜினி ரேடியோ",
+      "sa": "रजिनी रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-na-muthukumar-hits",
+      "canonicalName": "Na Muthukumar Hits",
+      "ta": "நா. முத்துக்குமார் ஹிட்ஸ்",
+      "sa": "ना. मुत्तुकुमार् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-imman-radio",
+      "canonicalName": "Imman Radio",
+      "ta": "இமான் ரேடியோ",
+      "sa": "इम्मान् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-thaman-hits",
+      "canonicalName": "Thaman Hits",
+      "ta": "தமன் ஹிட்ஸ்",
+      "sa": "तमन् हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-jp-chandrababu-hits",
+      "canonicalName": "JP Chandrababu Hits",
+      "ta": "ஜே.பி. சந்திரபாபு ஹிட்ஸ்",
+      "sa": "जे.पी. चन्द्रबाबु हिट्स्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-vijay-tamil-radio",
+      "canonicalName": "Vijay FM Radio",
+      "ta": "விஜய் எஃப்.எம். ரேடியோ",
+      "sa": "विजय् एफएम् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-isai-manam",
+      "canonicalName": "Isai Manam",
+      "ta": "இசை மணம்",
+      "sa": "इसै मणम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-tamil-kadavul-murugan-fm",
+      "canonicalName": "Tamil Kadavul Murugan",
+      "ta": "தமிழ்க் கடவுள் முருகன்",
+      "sa": "तमिळ् कडवुळ् मुरुगन्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-shaivam-radio",
+      "canonicalName": "Shaivam Radio",
+      "ta": "சைவம் ரேடியோ",
+      "sa": "शैवम् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ayngaran-radio",
+      "canonicalName": "Ayngaran Radio",
+      "ta": "ஐங்கரன் ரேடியோ",
+      "sa": "ऐङ्गरन् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-aadhi-sivan-fm",
+      "canonicalName": "Aadhi Sivan FM",
+      "ta": "ஆதி சிவன் எஃப்.எம்.",
+      "sa": "आदि शिवन् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-om-sakthi-fm",
+      "canonicalName": "Om Sakthi FM",
+      "ta": "ஓம் சக்தி எஃப்.எம்.",
+      "sa": "ॐ शक्ति एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-ss-devotional-radio",
+      "canonicalName": "SS Devotional Radio",
+      "ta": "எஸ்.எஸ். டிவோஷனல் ரேடியோ",
+      "sa": "एस्.एस्. डिवोशनल् रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-guru-raghavendra-radio",
+      "canonicalName": "Guru Raghavendra Radio",
+      "ta": "குரு ராகவேந்திரா ரேடியோ",
+      "sa": "गुरु राघवेन्द्र रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-vishnu-fm",
+      "canonicalName": "Vishnu FM",
+      "ta": "விஷ்ணு எஃப்.எம்.",
+      "sa": "विष्णु एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-saranam-ayyappa-fm",
+      "canonicalName": "Saranam Ayyappa FM",
+      "ta": "சரணம் ஐயப்பா எஃப்.எம்.",
+      "sa": "शरणम् अय्यप्पा एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-sai-fm-radio",
+      "canonicalName": "Sai Radio",
+      "ta": "சாய் ரேடியோ",
+      "sa": "साई रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-aanmeega-sudar",
+      "canonicalName": "Aanmeega Sudar",
+      "ta": "ஆன்மீகச் சுடர்",
+      "sa": "आन्मीग सुडर्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-sivasubramaniyam-ayyappan-songs-fm",
+      "canonicalName": "Sivasubramaniyam Ayyappan FM",
+      "ta": "சிவசுப்பிரமணியம் ஐயப்பன் எஃப்.எம்.",
+      "sa": "शिवसुब्रमणियम् अय्यप्पन् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-sree-kurumba-fm",
+      "canonicalName": "Sree Kurumba FM",
+      "ta": "Sree Kurumba FM",
+      "sa": "Sree Kurumba FM",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Publisher-preferred spelling of the Kurumba proper name needs confirmation."
+    },
+    {
+      "stationId": "stage29-dharisanam-fm",
+      "canonicalName": "Dharisanam FM",
+      "ta": "தரிசனம் எஃப்.எம்.",
+      "sa": "दरिसनम् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-singampunari-fm",
+      "canonicalName": "Singampunari FM",
+      "ta": "சிங்கம்புணரி எஃப்.எம்.",
+      "sa": "सिङ्गम्पुणरि एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-yazh-news",
+      "canonicalName": "Yazh News",
+      "ta": "யாழ் நியூஸ்",
+      "sa": "याळ् न्यूज़्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-kalai-fm",
+      "canonicalName": "Kalai FM",
+      "ta": "கலை எஃப்.எம்.",
+      "sa": "कलै एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage29-kanal-music",
+      "canonicalName": "Kanal Music",
+      "ta": "Kanal Music",
+      "sa": "Kanal Music",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Kanal can represent distinct Tamil words; do not choose a meaning/spelling without confirmation."
+    },
+    {
+      "stationId": "stage29-kandhakapookkal-radio",
+      "canonicalName": "Kandhakapookkal Radio",
+      "ta": "Kandhakapookkal Radio",
+      "sa": "Kandhakapookkal Radio",
+      "taMode": "english-fallback",
+      "saMode": "english-fallback",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Publisher-preferred compound consonant/vowel spelling needs confirmation."
+    },
+    {
+      "stationId": "stage29-krishna-fm",
+      "canonicalName": "Krishna FM",
+      "ta": "கிருஷ்ணா எஃப்.எம்.",
+      "sa": "कृष्णा एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-vividh-bharati-bengaluru",
+      "canonicalName": "Vividh Bharati Bengaluru",
+      "ta": "விவித் பாரதி பெங்களூரு",
+      "sa": "विविध भारती बेङ्गलूरु",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-bhakti-sangeet",
+      "canonicalName": "Bhakti Sangeet",
+      "ta": "பக்தி சங்கீத்",
+      "sa": "भक्ति सङ्गीत्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-ap9-fm",
+      "canonicalName": "AP9 FM",
+      "ta": "AP9 எஃப்.எம்.",
+      "sa": "AP9 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-air-telugu-online",
+      "canonicalName": "Air Telugu (Mintone)",
+      "ta": "ஏர் தெலுங்கு (மின்டோன்)",
+      "sa": "एयर् तेलुगु (मिन्टोन)",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-fm-rainbow-vijayawada",
+      "canonicalName": "FM Rainbow Vijayawada",
+      "ta": "எஃப்.எம். ரெயின்போ விஜயவாடா",
+      "sa": "एफएम् रेनबो विजयवाडा",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-retro-bollywood-90s",
+      "canonicalName": "Radio Retro Bollywood 90s",
+      "ta": "ரேடியோ ரெட்ரோ பாலிவுட் 90s",
+      "sa": "रेडियो रेट्रो बॉलीवुड् 90s",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-sgpc-gurbani",
+      "canonicalName": "Live Gurbani — Sri Darbar Sahib (SGPC)",
+      "ta": "லைவ் குர்பானி — ஸ்ரீ தர்பார் சாஹிப் (SGPC)",
+      "sa": "लाइव् गुरबाणी — श्री दरबार साहिब (SGPC)",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-ran-fm",
+      "canonicalName": "Ran FM",
+      "ta": "ரன் எஃப்.எம்.",
+      "sa": "रन् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-neth-fm",
+      "canonicalName": "NETH FM",
+      "ta": "நெத் எஃப்.எம்.",
+      "sa": "नेथ् एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-siyatha-fm",
+      "canonicalName": "Siyatha FM",
+      "ta": "சியத எஃப்.எம்.",
+      "sa": "सियत एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-malayalam-bhakthi",
+      "canonicalName": "Malayalam Bhakthi Radio",
+      "ta": "மலையாள பக்தி ரேடியோ",
+      "sa": "मलयाळ भक्ति रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-digital-malayali",
+      "canonicalName": "Radio Digital Malayali",
+      "ta": "ரேடியோ டிஜிட்டல் மலையாளி",
+      "sa": "रेडियो डिजिटल् मलयाळि",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-radio-choklate",
+      "canonicalName": "Radio Choklate 104 FM",
+      "ta": "ரேடியோ சாக்லேட் 104 எஃப்.எம்.",
+      "sa": "रेडियो चॉकलेट् 104 एफएम्",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage32-dnyaneshwari",
+      "canonicalName": "Dnyaneshwari Radio",
+      "ta": "ஞானேஸ்வரி ரேடியோ",
+      "sa": "ज्ञानेश्वरी रेडियो",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    },
+    {
+      "stationId": "stage33-red-fm-calgary",
+      "canonicalName": "RED FM Calgary 106.7",
+      "ta": "ரெட் எஃப்.எம். கால்கரி 106.7",
+      "sa": "रेड् एफएम् कैलगरी 106.7",
+      "taMode": "editorial-local-script",
+      "saMode": "editorial-local-script",
+      "officialTranslationClaimed": false,
+      "reviewNote": "Editorial display transliteration/localization of the canonical name, not a broadcaster-endorsed name. Sanskrit renderings benefit from native linguistic proofreading."
+    }
+  ]
+}

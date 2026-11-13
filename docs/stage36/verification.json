@@ -1,0 +1,109 @@
+{
+  "reviewedOn": "2026-11-13",
+  "branch": "feature/36-station-name-localization-v2",
+  "baseCommit": "4a93371798bf9d353c516fcb436d0f9514e15a4b",
+  "catalogVersion": "2.8.5",
+  "schemaVersion": 2,
+  "totalStations": 240,
+  "streamUrls": 245,
+  "coverage": {
+    "ta": {
+      "dictionaryEntries": 240,
+      "localScript": 224,
+      "englishFallbacks": 16
+    },
+    "sa": {
+      "dictionaryEntries": 240,
+      "localScript": 224,
+      "englishFallbacks": 16
+    }
+  },
+  "environment": {
+    "platform": "linux",
+    "node": "v24.16.0"
+  },
+  "results": [
+    {
+      "command": "npm run validate",
+      "exitCode": 0
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 197,
+      "pass": 197,
+      "fail": 0,
+      "skipped": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    }
+  ],
+  "canonicalDataPreservation": "Regression tests compare every protected v2 source file and v1 file against the baseline; only locale stationNames sections and release-version markers change.",
+  "v1PublicationErrors": [],
+  "publishedFiles": [
+    "index.html",
+    "v1/assets/logos/networks/.gitkeep",
+    "v1/assets/logos/networks/akashvani-radio.png",
+    "v1/assets/logos/networks/big-fm-radio.png",
+    "v1/assets/logos/networks/boom-tamil-radio.png",
+    "v1/assets/logos/networks/hello-fm-radio.png",
+    "v1/assets/logos/networks/mirchi-radio.png",
+    "v1/assets/logos/networks/radio-city-radio.png",
+    "v1/assets/logos/networks/red-fm-radio.png",
+    "v1/assets/logos/networks/shaivam-radio.png",
+    "v1/assets/logos/networks/sooriyan-lk-radio.png",
+    "v1/assets/logos/networks/star-fm-lk-radio.png",
+    "v1/assets/logos/networks/suryan-in-radio.png",
+    "v1/assets/logos/stations/.gitkeep",
+    "v1/categories.json",
+    "v1/discovery-stations.json",
+    "v1/i18n/en.json",
+    "v1/i18n/sa.json",
+    "v1/i18n/ta.json",
+    "v1/index.json",
+    "v1/languages.json",
+    "v1/locations.json",
+    "v1/networks.json",
+    "v1/sources.json",
+    "v1/station-migrations.json",
+    "v1/stations.json",
+    "v2/artists.json",
+    "v2/assets/logos/networks/.gitkeep",
+    "v2/assets/logos/networks/akashvani-radio.png",
+    "v2/assets/logos/networks/big-fm-radio.png",
+    "v2/assets/logos/networks/boom-tamil-radio.png",
+    "v2/assets/logos/networks/hello-fm-radio.png",
+    "v2/assets/logos/networks/mirchi-radio.png",
+    "v2/assets/logos/networks/radio-city-radio.png",
+    "v2/assets/logos/networks/red-fm-radio.png",
+    "v2/assets/logos/networks/shaivam-radio.png",
+    "v2/assets/logos/networks/sooriyan-lk-radio.png",
+    "v2/assets/logos/networks/star-fm-lk-radio.png",
+    "v2/assets/logos/networks/suryan-in-radio.png",
+    "v2/assets/logos/stations/.gitkeep",
+    "v2/broadcasters.json",
+    "v2/browse-index.json",
+    "v2/categories.json",
+    "v2/discovery-stations.json",
+    "v2/i18n/en.json",
+    "v2/i18n/sa.json",
+    "v2/i18n/ta.json",
+    "v2/index.json",
+    "v2/languages.json",
+    "v2/locations.json",
+    "v2/networks.json",
+    "v2/programme-themes.json",
+    "v2/sources.json",
+    "v2/station-migrations.json",
+    "v2/stations.json"
+  ],
+  "networkStreamProbes": 0,
+  "dependencyChanges": false,
+  "clientModified": false
+}

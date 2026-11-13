@@ -6,6 +6,7 @@ import {policyErrors} from './listening-policy.mjs';
 import {discoveryErrors} from './discovery-catalogue.mjs';
 import {metadataErrors,stationGeographyErrors} from './metadata-validation.mjs';
 import {v1BaselineErrors} from './versioned-publication.mjs';
+import {parseLocaleJson,stationNameErrors} from './station-localization.mjs';
 
 const projectRoot = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -18,7 +19,7 @@ export function readCatalogue(root = projectRoot, version = 'v1') {
   const file = name => JSON.parse(readFileSync(path.join(base, name), 'utf8'));
   const index = file('index.json');
   const data = Object.fromEntries(['networks', 'stations', 'locations', 'languages', 'categories', 'sources'].map(name => [name, file(`${name}.json`)]));
-  data.i18n = Object.fromEntries(['en', 'ta', 'sa'].map(locale => [locale, file(`i18n/${locale}.json`)]));
+  data.i18n = Object.fromEntries(['en', 'ta', 'sa'].map(locale => [locale, version==='v2'?parseLocaleJson(readFileSync(path.join(base,`i18n/${locale}.json`),'utf8'),version+'/'+locale):file(`i18n/${locale}.json`)]));
   data.stationMigrations=existsSync(path.join(base,'station-migrations.json'))?file('station-migrations.json'):undefined;
   data.discoveryStations=existsSync(path.join(base,'discovery-stations.json'))?file('discovery-stations.json'):undefined;
   for(const [key,name]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']])
@@ -181,7 +182,9 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
   if(index?.files?.stationMigrations!==undefined && (index.files.stationMigrations!=='station-migrations.json'||!migrations))errors.push('Invalid station migration manifest reference');
   if (!i18n?.en || !i18n?.ta || !i18n?.sa) errors.push('Missing i18n locale');
   else {
-    for (const code of ['en','ta','sa']) checkLocaleShape(i18n.en, i18n[code], code, errors);
+    const labels=dictionary=>isV2?Object.fromEntries(Object.entries(dictionary).filter(([key])=>key!=='stationNames')):dictionary;
+    for (const code of ['en','ta','sa']) checkLocaleShape(labels(i18n.en), labels(i18n[code]), code, errors);
+    if(isV2)errors.push(...stationNameErrors(data));
     for (const category of categories || []) for (const code of ['en','ta','sa']) if (!isText(i18n[code]?.categories?.[category.id])) errors.push(`${code}: missing category ${category.id}`);
   }
   if(isV2)errors.push(...metadataErrors(data,validHttps));

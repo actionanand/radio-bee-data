@@ -1,6 +1,6 @@
 # RadioBee Data
 
-> **Stable API v1:** catalogue **1.9.0**, schema 1, preserved for existing Web/Android clients. **Proposed API v2:** catalogue **2.0.0**, schema 2, with enriched metadata and navigation. Both retain 117 identities: 71 stream-bearing stations, 46 discovery-only stations and 74 stream URLs. V2 is a local review draft, not a deployment announcement; stream candidates do not imply playback approval or permission. See [the dual-version contract](docs/API-V2.md). Historical expansion snapshots below retain their original counts.
+> **Stable API v1:** catalogue **1.9.0**, schema 1, preserved unchanged. **API v2:** catalogue **2.8.5**, schema 2, prepared with station-name localization for all **240** canonical stations and the same **245** stream URLs. Tamil and Sanskrit each have 224 local-script labels and 16 explicit English fallbacks. See [Stage 36 localization and review](docs/STAGE36-STATION-NAME-LOCALIZATION.md). Stream candidates do not imply playback approval or permission. Historical expansion snapshots below retain their original counts.
 
 **Versioned, independent station catalogue for RadioBee** — *Stay tuned. Stay buzzing.*
 
