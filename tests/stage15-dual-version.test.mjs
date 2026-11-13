@@ -12,7 +12,7 @@ import {generateBrowseIndex} from '../scripts/generate-browse-index.mjs';
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const json=name=>JSON.parse(readFileSync(path.join(root,name)));
 const saved=json('docs/stage15/enriched-snapshot.json');
-const expectedPublished=[...json('docs/stage15/published-files.json').files,'v2/artists.json'].sort();
+const expectedPublished=[...json('docs/stage15/published-files.json').files,'v2/artists.json','v2/home-stations.json'].sort();
 function fixture(t){
   const temporary=mkdtempSync(path.join(os.tmpdir(),'radiobee-dual-'));
   t.after(()=>rmSync(temporary,{recursive:true,force:true}));
@@ -33,7 +33,7 @@ test('legacy source and generated v1 are byte-identical to the complete approved
 });
 
 test('every enriched Stage 15 metadata and asset byte survives migration; only release markers change',()=>{
-  assert.deepEqual(fileInventory(path.join(root,'data/v2')),[...Object.keys(saved.files),'artists.json'].sort());
+  assert.deepEqual(fileInventory(path.join(root,'data/v2')),[...Object.keys(saved.files),'artists.json','home-stations.json'].sort());
   const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.

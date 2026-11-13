@@ -25,6 +25,7 @@ export function readCatalogue(root = projectRoot, version = 'v1') {
   data.discoveryStations=existsSync(path.join(base,'discovery-stations.json'))?file('discovery-stations.json'):undefined;
   for(const [key,name]of [['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']])
     if(index.files?.[key]!==undefined && existsSync(path.join(base,name)))data[key]=file(name);
+  if(version==='v2'&&existsSync(path.join(base,'home-stations.json')))data.homeStations=file('home-stations.json');
   return { index, ...data };
 }
 function ids(items, label, errors) {
@@ -63,6 +64,17 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
     }
   }
   const net = ids(networks, 'networks', errors), loc = ids(locations, 'locations', errors), cat = ids(categories, 'categories', errors), src = ids(sources, 'sources', errors), sta = ids(stations, 'stations', errors);
+  // Home is a curated display selection, not a removal from the canonical station catalogue.
+  if(isV2 && data.homeStations!==undefined) {
+    const home=data.homeStations;
+    if(!home || typeof home!=='object' || Array.isArray(home) ||
+      JSON.stringify(Object.keys(home).sort())!==JSON.stringify(['schemaVersion','count','stationIds'].sort()) ||
+      home.schemaVersion!==2 || !Number.isSafeInteger(home.count) || home.count<1 ||
+      !Array.isArray(home.stationIds) || home.stationIds.length!==home.count ||
+      home.stationIds.some(key=>typeof key!=='string'||!sta.has(key)) ||
+      new Set(home.stationIds).size!==home.stationIds.length)
+      errors.push('Invalid v2 home-stations selection');
+  }
   const codes = new Set();
   if (!Array.isArray(languages)) errors.push('languages must be an array');
   else for (const item of languages) {

@@ -11,6 +11,7 @@ const historicalPlaceholders=['assets/logos/networks/.gitkeep','assets/logos/sta
 function publicationFiles(root,version,data) {
   const files=['index.json','stations.json','networks.json','sources.json','locations.json','languages.json','categories.json',...localizationFiles,...historicalPlaceholders];
   for(const [key,file]of [['stationMigrations','station-migrations.json'],['discoveryStations','discovery-stations.json'],...(version==='v2'?[['broadcasters','broadcasters.json'],['programmeThemes','programme-themes.json'],['browseIndex','browse-index.json'],['artists','artists.json']]:[])])if(data.index.files[key])files.push(file);
+  if(version==='v2'&&data.homeStations)files.push('home-stations.json');
   for(const row of [...data.networks,...data.stations,...(data.discoveryStations??[])])if(Object.hasOwn(row,'logoPath'))files.push(inspectLogo(root,row.logoPath,version).path);
   return [...new Set(files)].sort();
 }
