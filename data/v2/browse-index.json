@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.3",
+  "catalogVersion": "2.8.4",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
     "all": 240,
@@ -10716,6 +10716,492 @@
         "counts": {
           "all": 3,
           "streamBearing": 3,
+          "discoveryOnly": 0
+        }
+      }
+    ],
+    "artists": [
+      {
+        "id": "a-r-rahman",
+        "name": "A. R. Rahman",
+        "key": "artist:a-r-rahman",
+        "aliases": [
+          "AR Rahman",
+          "ARR",
+          "Allah Rakha Rahman",
+          "ARRahman"
+        ],
+        "stationIds": [
+          "stage29-arrahman-classic",
+          "stage29-arrahman-classic-hits"
+        ],
+        "counts": {
+          "all": 2,
+          "streamBearing": 2,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "adele",
+        "name": "Adele",
+        "key": "artist:adele",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-adele-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "backstreet-boys",
+        "name": "Backstreet Boys",
+        "key": "artist:backstreet-boys",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-backstreet-boys-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "d-imman",
+        "name": "D. Imman",
+        "key": "artist:d-imman",
+        "aliases": [
+          "Imman"
+        ],
+        "stationIds": [
+          "stage29-imman-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "deva",
+        "name": "Deva",
+        "key": "artist:deva",
+        "aliases": [],
+        "stationIds": [
+          "stage29-deva-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "ed-sheeran",
+        "name": "Ed Sheeran",
+        "key": "artist:ed-sheeran",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-ed-sheeran-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "harris-jayaraj",
+        "name": "Harris Jayaraj",
+        "key": "artist:harris-jayaraj",
+        "aliases": [],
+        "stationIds": [
+          "stage29-harris-jayaraj-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "ilaiyaraaja",
+        "name": "Ilaiyaraaja",
+        "key": "artist:ilaiyaraaja",
+        "aliases": [
+          "Ilayaraja",
+          "IlayaRaja",
+          "Ilaiyaraja"
+        ],
+        "stationIds": [
+          "ilayaraja-radio",
+          "stage29-ilayaraja-voice-fm"
+        ],
+        "counts": {
+          "all": 2,
+          "streamBearing": 2,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "j-p-chandrababu",
+        "name": "J. P. Chandrababu",
+        "key": "artist:j-p-chandrababu",
+        "aliases": [
+          "JP Chandrababu"
+        ],
+        "stationIds": [
+          "stage29-jp-chandrababu-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "justin-bieber",
+        "name": "Justin Bieber",
+        "key": "artist:justin-bieber",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-justin-bieber-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "k-j-yesudas",
+        "name": "K. J. Yesudas",
+        "key": "artist:k-j-yesudas",
+        "aliases": [
+          "KJ Yesudas"
+        ],
+        "stationIds": [
+          "stage29-kj-yesudas-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "k-s-chithra",
+        "name": "K. S. Chithra",
+        "key": "artist:k-s-chithra",
+        "aliases": [
+          "KS Chitra",
+          "K. S. Chitra"
+        ],
+        "stationIds": [
+          "stage29-ks-chitra-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "m-g-ramachandran",
+        "name": "M. G. Ramachandran",
+        "key": "artist:m-g-ramachandran",
+        "aliases": [
+          "MGR",
+          "Makkal Thilagam"
+        ],
+        "stationIds": [
+          "stage29-makkal-thilagam-mgr",
+          "stage29-mgr-sivaji-radio"
+        ],
+        "counts": {
+          "all": 2,
+          "streamBearing": 2,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "m-s-viswanathan",
+        "name": "M. S. Viswanathan",
+        "key": "artist:m-s-viswanathan",
+        "aliases": [
+          "MSV"
+        ],
+        "stationIds": [
+          "stage29-ms-viswanathan-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "mano",
+        "name": "Mano",
+        "key": "artist:mano",
+        "aliases": [],
+        "stationIds": [
+          "stage29-mano-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "michael-jackson",
+        "name": "Michael Jackson",
+        "key": "artist:michael-jackson",
+        "aliases": [
+          "MJ"
+        ],
+        "stationIds": [
+          "80s80s-michael-jackson-de",
+          "exclusively-michael-jackson-ae"
+        ],
+        "counts": {
+          "all": 2,
+          "streamBearing": 2,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "na-muthukumar",
+        "name": "Na. Muthukumar",
+        "key": "artist:na-muthukumar",
+        "aliases": [
+          "Na Muthukumar"
+        ],
+        "stationIds": [
+          "stage29-na-muthukumar-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "one-direction",
+        "name": "One Direction",
+        "key": "artist:one-direction",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-one-direction-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "queen",
+        "name": "Queen",
+        "key": "artist:queen",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-queen-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "rajinikanth",
+        "name": "Rajinikanth",
+        "key": "artist:rajinikanth",
+        "aliases": [
+          "Rajini"
+        ],
+        "stationIds": [
+          "stage29-rajini-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "s-janaki",
+        "name": "S. Janaki",
+        "key": "artist:s-janaki",
+        "aliases": [],
+        "stationIds": [
+          "stage29-s-janaki-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "s-p-balasubrahmanyam",
+        "name": "S. P. Balasubrahmanyam",
+        "key": "artist:s-p-balasubrahmanyam",
+        "aliases": [
+          "SPB",
+          "S. P. B."
+        ],
+        "stationIds": [
+          "stage29-spb-old-hits-fm",
+          "stage29-spb-online-radio"
+        ],
+        "counts": {
+          "all": 2,
+          "streamBearing": 2,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "s-thaman",
+        "name": "S. Thaman",
+        "key": "artist:s-thaman",
+        "aliases": [
+          "Thaman"
+        ],
+        "stationIds": [
+          "stage29-thaman-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "santhosh-narayanan",
+        "name": "Santhosh Narayanan",
+        "key": "artist:santhosh-narayanan",
+        "aliases": [],
+        "stationIds": [
+          "stage29-santhosh-narayanan-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "shakira",
+        "name": "Shakira",
+        "key": "artist:shakira",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-shakira-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "silambarasan",
+        "name": "Silambarasan",
+        "key": "artist:silambarasan",
+        "aliases": [
+          "Simbu",
+          "STR",
+          "Silambarasan TR"
+        ],
+        "stationIds": [
+          "stage29-simbu-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "sivaji-ganesan",
+        "name": "Sivaji Ganesan",
+        "key": "artist:sivaji-ganesan",
+        "aliases": [
+          "Sivaji",
+          "Nadigar Thilagam"
+        ],
+        "stationIds": [
+          "stage29-mgr-sivaji-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "t-m-soundararajan",
+        "name": "T. M. Soundararajan",
+        "key": "artist:t-m-soundararajan",
+        "aliases": [
+          "TMS"
+        ],
+        "stationIds": [
+          "stage29-tms-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "taylor-swift",
+        "name": "Taylor Swift",
+        "key": "artist:taylor-swift",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-taylor-swift-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "westlife",
+        "name": "Westlife",
+        "key": "artist:westlife",
+        "aliases": [],
+        "stationIds": [
+          "exclusively-westlife-ae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "yuvan-shankar-raja",
+        "name": "Yuvan Shankar Raja",
+        "key": "artist:yuvan-shankar-raja",
+        "aliases": [
+          "YSR"
+        ],
+        "stationIds": [
+          "stage29-yuvan-shankar-raja-ysr"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       }

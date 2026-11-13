@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.3",
+  "catalogVersion": "2.8.4",
   "publishedOn": "2026-11-13",
   "defaultLocale": "en",
   "locales": [
@@ -66,7 +66,8 @@
     "discoveryStations": "discovery-stations.json",
     "broadcasters": "broadcasters.json",
     "programmeThemes": "programme-themes.json",
-    "browseIndex": "browse-index.json"
+    "browseIndex": "browse-index.json",
+    "artists": "artists.json"
   },
   "localizationRoot": "i18n/",
   "disclaimer": "Separate playback candidates and metadata-only discovery listings. Availability, technical verification and listening/recording permissions remain distinct; no new playback approval is implied."

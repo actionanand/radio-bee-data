@@ -1,5 +1,5 @@
 // Pure, offline navigation helpers. No playback or permission decisions occur here.
-export const sortKeys = ['name','country','region','district','network','broadcaster','language','genre','availability'];
+export const sortKeys = ['name','country','region','district','network','broadcaster','language','genre','artist','availability'];
 const normalized = value => String(value).normalize('NFKC').toLowerCase();
 const compare = (a,b) => a < b ? -1 : a > b ? 1 : 0;
 const byId = (a,b) => compare(a.id,b.id);
@@ -22,7 +22,7 @@ export function locationChain(station, locations) {
 }
 
 export function selectStations(data, filters={}) {
-  const allowed=['countryCode','regionId','districtId','localityId','language','networkId','broadcasterId','genre','theme','availability','multilingual','sort'];
+  const allowed=['countryCode','regionId','districtId','localityId','language','networkId','broadcasterId','genre','theme','artist','availability','multilingual','sort'];
   if(!filters || typeof filters!=='object' || Array.isArray(filters) || Object.keys(filters).some(k=>!allowed.includes(k))) throw Error('Unknown filter field');
   if(filters.multilingual!==undefined && typeof filters.multilingual!=='boolean') throw Error('multilingual must be boolean');
   for(const key of allowed.filter(k=>!['multilingual'].includes(k))) if(filters[key]!==undefined && (typeof filters[key]!=='string'||!filters[key])) throw Error('Filter values must be nonempty strings');
@@ -39,6 +39,7 @@ export function selectStations(data, filters={}) {
     if(filters.broadcasterId && nets.get(s.networkId)?.broadcasterId!==filters.broadcasterId) return false;
     if(filters.genre && !s.genres.includes(filters.genre)) return false;
     if(filters.theme && !s.programmeThemeIds?.includes(filters.theme)) return false;
+    if(filters.artist && !s.artistIds?.includes(filters.artist)) return false;
     if(filters.multilingual!==undefined && (s.languageProfile?.classification==='multilingual')!==filters.multilingual) return false;
     return !filters.availability || filters.availability==='all' || availabilityClass(s)===filters.availability;
   });
@@ -53,6 +54,7 @@ export function selectStations(data, filters={}) {
       case 'broadcaster': return broadcasters.get(network?.broadcasterId)?.name??null;
       case 'language': return languageNames.get(filters.language??s.languageProfile?.primaryLanguage)??null;
       case 'genre': return filters.genre?genreNames.get(filters.genre):s.genres.map(id=>genreNames.get(id)).filter(Boolean).sort((a,b)=>compare(normalized(a),normalized(b)))[0]??null;
+      case 'artist': return (data.artists??[]).find(a=>a.id===s.artistIds?.[0])?.name??null;
       case 'availability': return availabilityClass(s);
     }
   };
@@ -84,7 +86,8 @@ export function buildBrowseIndex(data) {
       networks:[...data.networks].sort(byId).map(n=>facet(n.id,n.name,'network:'+n.id,stations.filter(s=>s.networkId===n.id),{aliases:n.aliases,countryCodes:n.countryCodes,broadcasterId:n.broadcasterId??null})),
       broadcasters:[...(data.broadcasters??[])].sort(byId).map(b=>facet(b.id,b.name,'broadcaster:'+b.id,stations.filter(s=>networks.get(s.networkId)?.broadcasterId===b.id),{aliases:b.aliases,sourceIds:b.sourceIds,networkIds:data.networks.filter(n=>n.broadcasterId===b.id).map(n=>n.id).sort(compare)})),
       genres:[...data.categories].sort(byId).map(c=>facet(c.id,c.name,'genre:'+c.id,stations.filter(s=>s.genres.includes(c.id)))),
-      themes:[...(data.programmeThemes??[])].sort(byId).map(t=>facet(t.id,t.name,'theme:'+t.id,stations.filter(s=>s.programmeThemeIds?.includes(t.id))))
+      themes:[...(data.programmeThemes??[])].sort(byId).map(t=>facet(t.id,t.name,'theme:'+t.id,stations.filter(s=>s.programmeThemeIds?.includes(t.id)))),
+      artists:[...(data.artists??[])].sort(byId).map(a=>facet(a.id,a.name,'artist:'+a.id,stations.filter(s=>s.artistIds?.includes(a.id)),{aliases:a.aliases}))
     },
     availability:['stream-bearing','discovery-only'].map(id=>facet(id,id,'availability:'+id,stations.filter(s=>availabilityClass(s)===id)))
   };
