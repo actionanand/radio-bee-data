@@ -87,7 +87,7 @@ export function buildBrowseIndex(data) {
       broadcasters:[...(data.broadcasters??[])].sort(byId).map(b=>facet(b.id,b.name,'broadcaster:'+b.id,stations.filter(s=>networks.get(s.networkId)?.broadcasterId===b.id),{aliases:b.aliases,sourceIds:b.sourceIds,networkIds:data.networks.filter(n=>n.broadcasterId===b.id).map(n=>n.id).sort(compare)})),
       genres:[...data.categories].sort(byId).map(c=>facet(c.id,c.name,'genre:'+c.id,stations.filter(s=>s.genres.includes(c.id)))),
       themes:[...(data.programmeThemes??[])].sort(byId).map(t=>facet(t.id,t.name,'theme:'+t.id,stations.filter(s=>s.programmeThemeIds?.includes(t.id)))),
-      artists:[...(data.artists??[])].sort(byId).map(a=>facet(a.id,a.name,'artist:'+a.id,stations.filter(s=>s.artistIds?.includes(a.id)),{aliases:a.aliases}))
+      ...(data.index.files.artists ? {artists:[...(data.artists??[])].sort(byId).map(a=>facet(a.id,a.name,'artist:'+a.id,stations.filter(s=>s.artistIds?.includes(a.id)),{aliases:a.aliases}))} : {})
     },
     availability:['stream-bearing','discovery-only'].map(id=>facet(id,id,'availability:'+id,stations.filter(s=>availabilityClass(s)===id)))
   };

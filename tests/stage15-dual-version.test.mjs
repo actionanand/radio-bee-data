@@ -12,6 +12,7 @@ import {generateBrowseIndex} from '../scripts/generate-browse-index.mjs';
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const json=name=>JSON.parse(readFileSync(path.join(root,name)));
 const saved=json('docs/stage15/enriched-snapshot.json');
+const expectedPublished=[...json('docs/stage15/published-files.json').files,'v2/artists.json'].sort();
 function fixture(t){
   const temporary=mkdtempSync(path.join(os.tmpdir(),'radiobee-dual-'));
   t.after(()=>rmSync(temporary,{recursive:true,force:true}));
@@ -32,7 +33,7 @@ test('legacy source and generated v1 are byte-identical to the complete approved
 });
 
 test('every enriched Stage 15 metadata and asset byte survives migration; only release markers change',()=>{
-  assert.deepEqual(fileInventory(path.join(root,'data/v2')),Object.keys(saved.files).sort());
+  assert.deepEqual(fileInventory(path.join(root,'data/v2')),[...Object.keys(saved.files),'artists.json'].sort());
   const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
@@ -166,7 +167,7 @@ test('unreferenced v2 localization and artwork files never expand the exact prod
   for(const file of extra){const target=path.join(temporary,'data/v2',file);mkdirSync(path.dirname(target),{recursive:true});writeFileSync(target,file.endsWith('.png')?knownLogo:'unreviewed fixture content');}
   const dest=buildStatic(temporary,{requireV2:true,preserveV1:true});
   for(const file of extra)assert.ok(!existsSync(path.join(dest,'v2',file)),file);
-  assert.deepEqual(fileInventory(dest),json('docs/stage15/published-files.json').files);
+  assert.deepEqual(fileInventory(dest),expectedPublished);
   assert.deepEqual(fileInventory(path.join(dest,'v2/i18n')),['en.json','sa.json','ta.json']);
   assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
 });
@@ -178,7 +179,7 @@ test('legacy fixture publication also excludes unreferenced localization and art
   // non-frozen legacy test build must not copy them into the publication.
   const dest=buildStatic(temporary);
   assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
-  assert.deepEqual(fileInventory(dest),json('docs/stage15/published-files.json').files);
+  assert.deepEqual(fileInventory(dest),expectedPublished);
 });
 
 test('a referenced v2 station image resolves under v2 with identical bytes',t=>{
