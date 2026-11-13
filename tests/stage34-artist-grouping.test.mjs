@@ -5,7 +5,7 @@ import {buildBrowseIndex,selectStations} from '../scripts/catalogue-navigation.m
 
 test('Stage 34 groups 35 existing stations into 31 artist identities, without mutating URL inventory',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.5');
+ assert.equal(d.index.catalogVersion,'2.8.6');
  assert.equal(d.index.files.artists,'artists.json');
  assert.equal(d.artists.length,31);
  assert.equal(d.stations.length,240);

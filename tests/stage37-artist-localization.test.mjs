@@ -1,0 +1,21 @@
+import {readFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readCatalogue,validateCatalogue} from '../scripts/validate.mjs';
+import {artistNameErrors} from '../scripts/artist-localization.mjs';
+import {parseLocaleJson} from '../scripts/station-localization.mjs';
+test('all 31 artists have valid Tamil and Devanagari names, preserving canonical aliases',()=>{
+ const data=readCatalogue(undefined,'v2');assert.equal(data.artists.length,31);
+ const baseline=JSON.parse(readFileSync(new URL('../docs/stage37/baseline.json',import.meta.url)));
+ const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
+ assert.equal(hash(data.stations),baseline.stations);assert.equal(hash(data.artists),baseline.artists);
+ for(const locale of ['ta','sa'])assert.equal(hash(data.i18n[locale].stationNames),baseline[locale]);
+ assert.deepEqual(artistNameErrors(data),[]);
+ for(const locale of ['ta','sa'])assert.deepEqual(Object.keys(data.i18n[locale].artistNames).sort(),data.artists.map(a=>a.id).sort());
+ assert.equal(data.stations.length,240);assert.equal(data.stations.flatMap(s=>s.streams).length,245);
+ assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
+});
+for(const [name,change]of Object.entries({missing:n=>delete n.adele,blank:n=>n.adele=' ',unknown:n=>n.unknown='Name'}))test('rejects '+name+' artist translation',()=>{const d=readCatalogue(undefined,'v2');change(d.i18n.ta.artistNames);assert.ok(artistNameErrors(d).length);});
+test('rejects duplicate/escaped duplicate keys in artist dictionaries',()=>{assert.throws(()=>parseLocaleJson('{"artistNames":{"adele":"அடெல்","adel\\u0065":"அடெல்"}}'),/duplicate/);});
+test('old dictionaries remain compatible',()=>{const d=readCatalogue(undefined,'v2');delete d.i18n.ta.artistNames;delete d.i18n.sa.artistNames;assert.ok(artistNameErrors(d).length);d.index.catalogVersion='2.8.5';assert.deepEqual(artistNameErrors(d),[]);});

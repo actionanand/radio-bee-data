@@ -5,7 +5,7 @@ import {readCatalogue, validateCatalogue} from '../scripts/validate.mjs';
 test('v2 manifest includes countries referenced by networks and locations even when there is no playable station',()=>{
   const d=readCatalogue(undefined,'v2');
   const countries=new Set(d.index.countries);
-  assert.equal(d.index.catalogVersion,'2.8.5');
+  assert.equal(d.index.catalogVersion,'2.8.6');
   assert.ok(!d.stations.some(station=>station.countryCode==='NZ'));
   assert.ok(d.networks.some(network=>network.countryCodes.includes('NZ')));
   assert.ok(d.locations.some(location=>location.countryCode==='NZ'));

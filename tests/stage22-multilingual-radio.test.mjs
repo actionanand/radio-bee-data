@@ -19,7 +19,7 @@ const sampleLanguages=[
 ];
 test('Stage 22 keeps dedicated Sanskrit online trial stations and supports accurate filters',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.5');
+ assert.equal(d.index.catalogVersion,'2.8.6');
  assert.equal(d.stations.length,240);
  assert.equal(d.stations.flatMap(s=>s.streams).length,245);
  assert.equal(d.discoveryStations.length,0);
