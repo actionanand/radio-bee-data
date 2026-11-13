@@ -136,3 +136,13 @@ and localization. The migration document retains its independent format version 
 the v2 browse index carries schemaVersion 2. No stream or permission model changed.
 
 See [API v2 integration](API-V2.md) and [Stage 15 evidence and field contract](STAGE15-METADATA-NAVIGATION-API.md).
+
+## Optional station display names (catalogue 2.8.5)
+
+V2 locale dictionaries may include `stationNames`, a flat map from active canonical
+station ID to a nonblank display string. Tamil and Sanskrit values use their target
+script or the exact canonical English fallback. Each locale can omit this section
+or individual entries; consumers then use `station.name`. It is independent of
+UI-label key parity and broadcast-language metadata. The loader rejects duplicate
+JSON keys and the validator checks IDs, Unicode and numerical brand preservation.
+No station schema or v1 payload changes. See [Stage 36](STAGE36-STATION-NAME-LOCALIZATION.md).

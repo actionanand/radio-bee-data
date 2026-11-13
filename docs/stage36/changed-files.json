@@ -1,0 +1,120 @@
+{
+  "branch": "feature/36-station-name-localization-v2",
+  "baseCommit": "4a93371798bf9d353c516fcb436d0f9514e15a4b",
+  "catalogVersion": "2.8.5",
+  "files": [
+    {
+      "status": " M",
+      "path": "README.md"
+    },
+    {
+      "status": " M",
+      "path": "data/v2/browse-index.json"
+    },
+    {
+      "status": " M",
+      "path": "data/v2/i18n/sa.json"
+    },
+    {
+      "status": " M",
+      "path": "data/v2/i18n/ta.json"
+    },
+    {
+      "status": " M",
+      "path": "data/v2/index.json"
+    },
+    {
+      "status": " M",
+      "path": "docs/SCHEMA.md"
+    },
+    {
+      "status": " M",
+      "path": "scripts/validate.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage15-dual-version.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage18-fm-trials.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage19-country-registry.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage21-discovered-streams.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage22-multilingual-radio.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage23-sanskrit-radio-browser.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage24-english-radio.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage25-playable-only-policy.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage26-indian-language-trials.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage27-artist-radio.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage28-mp3-codec.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage29-tamilradios-import.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage33-suryan-chennai-fallback.test.mjs"
+    },
+    {
+      "status": " M",
+      "path": "tests/stage34-artist-grouping.test.mjs"
+    },
+    {
+      "status": "??",
+      "path": "docs/STAGE36-STATION-NAME-LOCALIZATION.md"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage36/baseline.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage36/changed-files.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage36/station-name-review.json"
+    },
+    {
+      "status": "??",
+      "path": "docs/stage36/verification.json"
+    },
+    {
+      "status": "??",
+      "path": "scripts/station-localization.mjs"
+    },
+    {
+      "status": "??",
+      "path": "tests/stage36-station-name-localization.test.mjs"
+    }
+  ],
+  "excluded": "dist/ and reports/ are generated/local-only and not committed; previous helper files remain locally excluded."
+}
