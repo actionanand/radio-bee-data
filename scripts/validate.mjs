@@ -1,3 +1,4 @@
+import {artistNameErrors} from './artist-localization.mjs';
 import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -182,9 +183,9 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
   if(index?.files?.stationMigrations!==undefined && (index.files.stationMigrations!=='station-migrations.json'||!migrations))errors.push('Invalid station migration manifest reference');
   if (!i18n?.en || !i18n?.ta || !i18n?.sa) errors.push('Missing i18n locale');
   else {
-    const labels=dictionary=>isV2?Object.fromEntries(Object.entries(dictionary).filter(([key])=>key!=='stationNames')):dictionary;
+    const labels=dictionary=>isV2?Object.fromEntries(Object.entries(dictionary).filter(([key])=>!['stationNames','artistNames'].includes(key))):dictionary;
     for (const code of ['en','ta','sa']) checkLocaleShape(labels(i18n.en), labels(i18n[code]), code, errors);
-    if(isV2)errors.push(...stationNameErrors(data));
+    if(isV2)errors.push(...stationNameErrors(data),...artistNameErrors(data));
     for (const category of categories || []) for (const code of ['en','ta','sa']) if (!isText(i18n[code]?.categories?.[category.id])) errors.push(`${code}: missing category ${category.id}`);
   }
   if(isV2)errors.push(...metadataErrors(data,validHttps));
