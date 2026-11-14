@@ -20,7 +20,8 @@
     "website",
     "sourceIds",
     "streams",
-    "notes"
+    "notes",
+    "about"
   ],
   "properties": {
     "id": {
@@ -128,6 +129,12 @@
         "string",
         "null"
       ]
+    },
+    "about": {
+      "type": "string",
+      "minLength": 65,
+      "maxLength": 650,
+      "description": "Listener-facing description independent of technical notes."
     },
     "logoPath": {
       "type": "string",

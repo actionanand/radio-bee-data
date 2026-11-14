@@ -2,6 +2,7 @@
   {
     "id": "air-nagercoil",
     "name": "Akashvani Nagercoil",
+    "about": "Akashvani Nagercoil is a public radio service for the Nagercoil area of Tamil Nadu, India. The broadcaster's live-radio directory lists FM Nagercoil Kumari with Tamil and English programming.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -98,6 +99,7 @@
   {
     "id": "air-coimbatore",
     "name": "Akashvani Coimbatore",
+    "about": "Akashvani Coimbatore is a Tamil-language FM station associated with Coimbatore, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -165,6 +167,7 @@
   {
     "id": "air-madurai",
     "name": "Akashvani Madurai",
+    "about": "Akashvani Madurai is a Tamil-language FM station associated with Madurai, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -232,6 +235,7 @@
   {
     "id": "air-tiruchirappalli",
     "name": "Akashvani Tiruchirappalli",
+    "about": "Akashvani Tiruchirappalli is a Tamil-language FM station associated with Tiruchirappalli, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -299,6 +303,7 @@
   {
     "id": "air-tirunelveli",
     "name": "Akashvani Tirunelveli",
+    "about": "Akashvani Tirunelveli is a Tamil-language FM station associated with Tirunelveli, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -366,6 +371,7 @@
   {
     "id": "air-kodaikanal",
     "name": "Akashvani Kodaikanal",
+    "about": "Akashvani Kodaikanal is a Tamil-language FM station associated with Kodaikanal, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -433,6 +439,7 @@
   {
     "id": "air-ooty",
     "name": "Akashvani Ooty",
+    "about": "Akashvani Ooty is a Tamil-language FM station associated with Ooty, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -500,6 +507,7 @@
   {
     "id": "air-puducherry",
     "name": "Akashvani Puducherry",
+    "about": "Akashvani Puducherry is a Tamil-language FM station associated with Puducherry, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-py",
@@ -567,6 +575,7 @@
   {
     "id": "air-karaikal",
     "name": "Akashvani Karaikal",
+    "about": "Akashvani Karaikal is a Tamil-language FM station associated with Karaikal, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-py",
@@ -634,6 +643,7 @@
   {
     "id": "air-kochi",
     "name": "Akashvani Kochi",
+    "about": "Akashvani Kochi is a Malayalam-language FM station associated with Kochi, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -701,6 +711,7 @@
   {
     "id": "air-kozhikode",
     "name": "Akashvani Kozhikode",
+    "about": "Akashvani Kozhikode is a Malayalam-language FM station associated with Kozhikode, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -768,6 +779,7 @@
   {
     "id": "air-thrissur",
     "name": "Akashvani Thrissur",
+    "about": "Akashvani Thrissur is a Malayalam-language FM station associated with Thrissur, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -835,6 +847,7 @@
   {
     "id": "air-kannur",
     "name": "Akashvani Kannur",
+    "about": "Akashvani Kannur is a Malayalam-language FM station associated with Kannur, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -902,6 +915,7 @@
   {
     "id": "air-devikulam",
     "name": "Akashvani Devikulam",
+    "about": "Akashvani Devikulam is a Malayalam-language FM station associated with Devikulam, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -969,6 +983,7 @@
   {
     "id": "air-tamil",
     "name": "Akashvani Tamil Nadu",
+    "about": "Akashvani Tamil Nadu is a Tamil and English-language online radio service associated with Tamil Nadu, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -1040,6 +1055,7 @@
   {
     "id": "air-vividh-bharati",
     "name": "Vividh Bharati",
+    "about": "Vividh Bharati is a Hindi-language online radio service associated with India. Its catalogue programme categories include music and general-interest programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -1107,6 +1123,7 @@
   {
     "id": "air-raagam",
     "name": "Akashvani Raagam",
+    "about": "Akashvani Raagam is a online radio service associated with India. Its catalogue programme categories include classical music.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -1171,6 +1188,7 @@
   {
     "id": "sooriyan-srilanka",
     "name": "Sooriyan FM Sri Lanka",
+    "about": "Sooriyan FM is a Tamil-language station in Sri Lanka and part of Asia Broadcasting Corporation. Its broadcaster describes Tamil entertainment, music and news programming.",
     "networkId": "sooriyan-lk",
     "countryCode": "LK",
     "regionId": null,
@@ -1255,6 +1273,7 @@
   {
     "id": "vasantham-srilanka",
     "name": "Vasantham FM Sri Lanka",
+    "about": "Vasantham FM Sri Lanka is a Tamil-language FM station associated with Sri Lanka. Its catalogue programme categories include music and general-interest programmes.",
     "networkId": "vasantham-lk",
     "countryCode": "LK",
     "regionId": null,
@@ -1322,6 +1341,7 @@
   {
     "id": "shakthi-srilanka",
     "name": "Shakthi FM Sri Lanka",
+    "about": "Shakthi FM is a Sri Lankan Tamil radio station known for Tamil music, presenter-led shows and listener interaction. Its broadcaster lists 103.9 and 104.1 MHz for FM broadcasting.",
     "networkId": "shakthi-lk",
     "countryCode": "LK",
     "regionId": null,
@@ -1408,6 +1428,7 @@
   {
     "id": "air-chennai-rainbow",
     "name": "Akashvani FM Rainbow Chennai",
+    "about": "Akashvani FM Rainbow Chennai is part of India's public-service radio network. FM Rainbow emphasizes contemporary entertainment and popular music, with a Tamil Nadu service listed by Akashvani.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -1476,6 +1497,7 @@
   {
     "id": "luminous-radio-tamil",
     "name": "Luminous Radio Tamil",
+    "about": "Luminous Radio Tamil is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes and community programming.",
     "networkId": "luminous-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -1549,6 +1571,7 @@
   {
     "id": "air-chennai-gold",
     "name": "Akashvani FM Gold Chennai",
+    "about": "Akashvani FM Gold Chennai is a Tamil and English-language FM station associated with Chennai, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -1614,6 +1637,7 @@
   {
     "id": "air-chennai-vividh-tamil",
     "name": "Akashvani Vividh Bharati Tamil Chennai",
+    "about": "Akashvani Vividh Bharati Tamil Chennai is a Tamil and English-language FM station associated with Chennai, India. Its catalogue programme categories include general-interest programmes and news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -1679,6 +1703,7 @@
   {
     "id": "iskcon-nagercoil",
     "name": "ISKCON Nagercoil / Vaani Seva",
+    "about": "ISKCON Nagercoil / Vaani Seva is a online radio service associated with Puliyurkurichi, India. Its catalogue programme categories include devotional programmes and community programming.",
     "networkId": "iskcon-nagercoil",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -1748,6 +1773,7 @@
   {
     "id": "ibc-tamil-uk",
     "name": "IBC Tamil Radio",
+    "about": "IBC Tamil Radio is a London-based broadcaster serving Tamil listeners internationally. Its station describes a mix of Tamil music, news, discussions and community-focused programmes.",
     "networkId": "ibc-tamil",
     "countryCode": "GB",
     "regionId": "gb-eng",
@@ -1819,6 +1845,7 @@
   {
     "id": "beats-radio-us",
     "name": "Beats Radio Tamil",
+    "about": "Beats Radio Tamil is a Tamil-language online radio service associated with the United States. Its catalogue programme categories include music and general-interest programmes.",
     "networkId": "beats-radio",
     "countryCode": "US",
     "regionId": null,
@@ -1886,6 +1913,7 @@
   {
     "id": "american-tamil-radio-us",
     "name": "American Tamil Radio",
+    "about": "American Tamil Radio is a Tamil-language online radio service associated with the United States. Its catalogue categories include music and Tamil community content.",
     "networkId": "american-tamil-media",
     "countryCode": "US",
     "regionId": "us-ca",
@@ -1953,6 +1981,7 @@
   {
     "id": "oli-968-sg",
     "name": "OLI 968",
+    "about": "OLI 968 is a Mediacorp radio service in Singapore featuring Indian-language music, information and entertainment. Tamil-speaking audiences are a central part of its programming.",
     "networkId": "mediacorp",
     "countryCode": "SG",
     "regionId": null,
@@ -2021,6 +2050,7 @@
   {
     "id": "tamil-894-ae",
     "name": "89.4 Tamil FM",
+    "about": "89.4 Tamil FM is a Tamil entertainment service associated with Dubai. The broadcaster describes current and classic Tamil songs, live presenter programmes, interviews and podcasts.",
     "networkId": "tamil-894",
     "countryCode": "AE",
     "regionId": "ae-du",
@@ -2089,6 +2119,7 @@
   {
     "id": "minnal-my",
     "name": "MINNALfm",
+    "about": "MINNALfm is a Tamil-language FM station associated with Malaysia. Its catalogue programme categories include music, news, and community programming.",
     "networkId": "rtm",
     "countryCode": "MY",
     "regionId": null,
@@ -2157,6 +2188,7 @@
   {
     "id": "thaalam-ch",
     "name": "Thaalam Radio Switzerland",
+    "about": "Thaalam Radio Switzerland is a Tamil-language online radio service associated with Zurich, Switzerland. Its catalogue programme categories include music and community programming.",
     "networkId": "thaalam-media",
     "countryCode": "CH",
     "regionId": "ch-zh",
@@ -2224,6 +2256,7 @@
   {
     "id": "akkini-ch",
     "name": "Akkini FM",
+    "about": "Akkini FM is a Tamil-language online radio service associated with Zurich, Switzerland. Its catalogue programme categories include music, news, and community programming.",
     "networkId": "akkini",
     "countryCode": "CH",
     "regionId": "ch-zh",
@@ -2292,6 +2325,7 @@
   {
     "id": "etr-de",
     "name": "European Tamil Radio",
+    "about": "European Tamil Radio is a Tamil-language online radio service associated with North Rhine-Westphalia, Germany. Its catalogue programme categories include music, news, and community programming.",
     "networkId": "european-tamils-union",
     "countryCode": "DE",
     "regionId": "de-nw",
@@ -2360,6 +2394,7 @@
   {
     "id": "tamil-murasam-no",
     "name": "Tamil Murasam Norway",
+    "about": "Tamil Murasam Norway is a Tamil-language online radio service associated with Oslo, Norway. Its catalogue programme categories include news, talk and interviews, and community programming.",
     "networkId": "tamil-murasam",
     "countryCode": "NO",
     "regionId": "no-oslo",
@@ -2428,6 +2463,7 @@
   {
     "id": "shiva-tattvam",
     "name": "Shiva Tattvam",
+    "about": "Shiva Tattvam is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes and talk and interviews.",
     "networkId": "shaivam",
     "countryCode": "IN",
     "regionId": null,
@@ -2498,6 +2534,7 @@
   {
     "id": "thiruneriya-thamizhosai",
     "name": "Thiruneriya Thamizhosai",
+    "about": "Thiruneriya Thamizhosai is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes and music.",
     "networkId": "shaivam",
     "countryCode": "IN",
     "regionId": null,
@@ -2569,6 +2606,7 @@
   {
     "id": "star-fm-srilanka",
     "name": "Star FM Sri Lanka",
+    "about": "Star FM Sri Lanka is a Tamil-language online radio service associated with Sri Lanka. Its catalogue programme categories include music and news.",
     "networkId": "star-fm-lk",
     "countryCode": "LK",
     "regionId": null,
@@ -2633,6 +2671,7 @@
   {
     "id": "boom-tamil",
     "name": "Boom Tamil",
+    "about": "Boom Tamil is a Tamil-language online radio service associated with Ontario, Canada. Its catalogue programme categories include music and news.",
     "networkId": "boom-tamil",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -2700,6 +2739,7 @@
   {
     "id": "tamil-panpalai",
     "name": "Tamil Panpalai",
+    "about": "Tamil Panpalai is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "tamil-panpalai",
     "countryCode": "IN",
     "regionId": null,
@@ -2766,6 +2806,7 @@
   {
     "id": "aural-radio",
     "name": "Aural Radio Kerala",
+    "about": "Aural Radio Kerala is a Tamil, Malayalam, and Hindi-language online radio service associated with Kerala, India. Its catalogue programme categories include music and talk and interviews.",
     "networkId": "aural-radio",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -2835,6 +2876,7 @@
   {
     "id": "ar-radio",
     "name": "AR Radio Kerala",
+    "about": "AR Radio Kerala is a Tamil, Malayalam, and Hindi-language online radio service associated with Thrissur, India. Its catalogue programme categories include music.",
     "networkId": "ar-radio",
     "countryCode": "IN",
     "regionId": "in-kl",
@@ -2904,6 +2946,7 @@
   {
     "id": "hello-chennai",
     "name": "Hello FM Chennai",
+    "about": "Hello FM Chennai is a Tamil-language FM station associated with Chennai, India. Its catalogue programme categories include music. The listed FM frequency is 106.4 MHz.",
     "networkId": "hello-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -2995,6 +3038,7 @@
   {
     "id": "east-fm-ca",
     "name": "EAST FM 102.7",
+    "about": "EAST FM 102.7 is a multilingual FM station associated with Scarborough, Canada. Its catalogue programme categories include music, community programming, and talk and interviews. The listed FM frequency is 102.7 MHz.",
     "networkId": "east-fm",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -3100,6 +3144,7 @@
   {
     "id": "swiss-tamil-radio-ch",
     "name": "Swiss Tamil Radio",
+    "about": "Swiss Tamil Radio is a Tamil-language online radio service associated with Switzerland. Its catalogue programme categories include music, news, and general-interest programmes.",
     "networkId": "swiss-tamil-radio",
     "countryCode": "CH",
     "regionId": null,
@@ -3169,6 +3214,7 @@
   {
     "id": "lotus-fm-za",
     "name": "Lotus FM",
+    "about": "Lotus FM is a multilingual FM station associated with KwaZulu-Natal, South Africa. Its catalogue programme categories include music, talk and interviews, and community programming.",
     "networkId": "sabc",
     "countryCode": "ZA",
     "regionId": "za-kzn",
@@ -3242,6 +3288,7 @@
   {
     "id": "vaagai-tamil-de",
     "name": "Vaagai Tamil FM",
+    "about": "Vaagai Tamil FM is a Tamil-language online radio service associated with Germany. Its catalogue programme categories include music and community programming.",
     "networkId": "vaagai-tamil",
     "countryCode": "DE",
     "regionId": null,
@@ -3306,6 +3353,7 @@
   {
     "id": "a9-radio-ca",
     "name": "A9 Radio",
+    "about": "A9 Radio is a Tamil-language online radio service associated with Toronto, Canada. Its catalogue programme categories include music and general-interest programmes.",
     "networkId": "a9-media",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -3375,6 +3423,7 @@
   {
     "id": "amudham-fm-in",
     "name": "Amudham FM",
+    "about": "Amudham FM is a Tamil-language online radio service associated with Tamil Nadu, India. Its catalogue programme categories include music.",
     "networkId": "amudham",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -3438,6 +3487,7 @@
   {
     "id": "mauradio-mu",
     "name": "mauRadio",
+    "about": "mauRadio is a multilingual online radio service associated with Mauritius. Its catalogue programme categories include music and community programming.",
     "networkId": "mauritius-global-diaspora",
     "countryCode": "MU",
     "regionId": null,
@@ -3508,6 +3558,7 @@
   {
     "id": "theophony-tamil-in",
     "name": "Theophony Tamil Christian Radio",
+    "about": "Theophony Tamil Christian Radio is a Tamil-language online radio service associated with Bengaluru, India. Its catalogue programme categories include devotional programmes.",
     "networkId": "theophony",
     "countryCode": "IN",
     "regionId": "in-ka",
@@ -3578,6 +3629,7 @@
   {
     "id": "jei-fm-my",
     "name": "JEIFM",
+    "about": "JEIFM is a Tamil-language online radio service associated with Malaysia. Its catalogue programme categories include music.",
     "networkId": "jeifm",
     "countryCode": "MY",
     "regionId": null,
@@ -3647,6 +3699,7 @@
   {
     "id": "amen-fm-ca",
     "name": "Amen FM",
+    "about": "Amen FM is a Tamil-language online radio service associated with Oshawa, Canada. Its catalogue programme categories include devotional programmes.",
     "networkId": "amen-fm",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -3713,6 +3766,7 @@
   {
     "id": "live-fm-bh",
     "name": "Live FM 107.2",
+    "about": "Live FM 107.2 is a multilingual FM station associated with Bahrain. Its catalogue programme categories include music and general-interest programmes. The listed FM frequency is 107.2 MHz.",
     "networkId": "live-fm",
     "countryCode": "BH",
     "regionId": null,
@@ -3780,6 +3834,7 @@
   {
     "id": "quran-tamil-kw",
     "name": "Quran in Tamil",
+    "about": "Quran in Tamil is a Arabic and Tamil-language online radio service associated with Kuwait. Its catalogue programme categories include devotional programmes.",
     "networkId": "edc-kuwait",
     "countryCode": "KW",
     "regionId": null,
@@ -3853,6 +3908,7 @@
   {
     "id": "sweety-fm-in",
     "name": "Sweety FM Tamil",
+    "about": "Sweety FM Tamil is a Tamil-language online radio service associated with Arakkonam, India. Its catalogue programme categories include devotional programmes.",
     "networkId": "sweety-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -3922,6 +3978,7 @@
   {
     "id": "hand-of-jesus-tamil-in",
     "name": "Hand of Jesus Tamil",
+    "about": "Hand of Jesus Tamil is a Tamil-language online radio service associated with Coonoor, India. Its catalogue programme categories include devotional programmes.",
     "networkId": "hand-of-jesus",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -3990,6 +4047,7 @@
   {
     "id": "vaanmalar-fm-in",
     "name": "Vaanmalar FM",
+    "about": "Vaanmalar FM is a Tamil-language online radio service associated with Chennai, India. Its catalogue programme categories include devotional programmes.",
     "networkId": "christian-media-india",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -4056,6 +4114,7 @@
   {
     "id": "suno-tamil-qa",
     "name": "Radio Suno Tamil",
+    "about": "Radio Suno Tamil is a Tamil-language online radio service associated with Qatar. Its catalogue programme categories include music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -4119,6 +4178,7 @@
   {
     "id": "tamil-christian-radio-in",
     "name": "Tamil Christian Radio",
+    "about": "Tamil Christian Radio is a Tamil-language online radio service associated with Chennai, India. Its catalogue programme categories include devotional programmes.",
     "networkId": "voice-of-gospel",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -4187,6 +4247,7 @@
   {
     "id": "good-news-tamil-ca",
     "name": "Good News FM Tamil",
+    "about": "Good News FM Tamil is a Tamil-language online radio service associated with Scarborough, Canada. Its catalogue programme categories include devotional programmes.",
     "networkId": "christvision-media",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -4255,6 +4316,7 @@
   {
     "id": "3zzz-au",
     "name": "3ZZZ 92.3FM",
+    "about": "3ZZZ 92.3FM is a multilingual FM station associated with Melbourne, Australia. Its catalogue programme categories include community programming and general-interest programmes. The listed FM frequency is 92.3 MHz.",
     "networkId": "3zzz",
     "countryCode": "AU",
     "regionId": "au-vic",
@@ -4377,6 +4439,7 @@
   {
     "id": "4eb-fm-au",
     "name": "Radio 4EB 98.1 FM",
+    "about": "Radio 4EB 98.1 FM is a Tamil and English-language FM station associated with Brisbane, Australia. Its catalogue programme categories include community programming and general-interest programmes. The listed FM frequency is 98.1 MHz.",
     "networkId": "4eb",
     "countryCode": "AU",
     "regionId": "au-qld",
@@ -4480,6 +4543,7 @@
   {
     "id": "4eb-global-au",
     "name": "Radio 4EB Global",
+    "about": "Radio 4EB Global is a multilingual online radio service associated with Brisbane, Australia. Its catalogue programme categories include community programming and general-interest programmes.",
     "networkId": "4eb",
     "countryCode": "AU",
     "regionId": "au-qld",
@@ -4586,6 +4650,7 @@
   {
     "id": "5ebi-au",
     "name": "5EBI 103.1 FM",
+    "about": "5EBI 103.1 FM is a multilingual FM station associated with Adelaide, Australia. Its catalogue programme categories include community programming and general-interest programmes. The listed FM frequency is 103.1 MHz.",
     "networkId": "5ebi",
     "countryCode": "AU",
     "regionId": "au-sa",
@@ -4683,6 +4748,7 @@
   {
     "id": "namathu-fm-fr",
     "name": "Namathu FM France",
+    "about": "Namathu FM France is a Tamil-language online radio service associated with France. Its catalogue programme categories include music and community programming.",
     "networkId": "namathu-fm",
     "countryCode": "FR",
     "regionId": null,
@@ -4747,6 +4813,7 @@
   {
     "id": "otran-vaanoli-ie",
     "name": "Otran Vaanoli",
+    "about": "Otran Vaanoli is a Tamil-language online radio service associated with Ireland. Its catalogue programme categories include music and community programming.",
     "networkId": "otran-vaanoli",
     "countryCode": "IE",
     "regionId": null,
@@ -4811,6 +4878,7 @@
   {
     "id": "thuthi-fm-no",
     "name": "Thuthi FM",
+    "about": "Thuthi FM is a Tamil-language online radio service associated with Norway. Its catalogue programme categories include devotional programmes.",
     "networkId": "tamil-christian-media",
     "countryCode": "NO",
     "regionId": null,
@@ -4887,6 +4955,7 @@
   {
     "id": "radio-plus-indiz-mu",
     "name": "Radio Plus Indiz",
+    "about": "Radio Plus Indiz is a multilingual online radio service associated with Mauritius. Its catalogue programme categories include music.",
     "networkId": "radio-plus",
     "countryCode": "MU",
     "regionId": null,
@@ -4957,6 +5026,7 @@
   {
     "id": "time-fm-toronto-ca",
     "name": "Time FM Toronto",
+    "about": "Time FM Toronto is a Tamil-language online radio service associated with Toronto, Canada. Its catalogue programme categories include music and community programming.",
     "networkId": "time-fm",
     "countryCode": "CA",
     "regionId": "ca-on",
@@ -5024,6 +5094,7 @@
   {
     "id": "inbathamil-oli-au",
     "name": "Inbathamil Oli",
+    "about": "Inbathamil Oli is a Tamil-language online radio service associated with Sydney, Australia. Its catalogue programme categories include music, talk and interviews, and community programming.",
     "networkId": "inbathamil-oli",
     "countryCode": "AU",
     "regionId": "au-nsw",
@@ -5092,6 +5163,7 @@
   {
     "id": "mirchi-chennai",
     "name": "Radio Mirchi Chennai",
+    "about": "Radio Mirchi Chennai is a Tamil-language FM station associated with Chennai, India. Its catalogue programme categories include music. The listed FM frequency is 98.3 MHz.",
     "networkId": "mirchi",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5163,6 +5235,7 @@
   {
     "id": "suryan-chennai",
     "name": "Suryan FM Chennai",
+    "about": "Suryan FM Chennai is a Tamil-language FM station in Chennai operated by Sun Group. Its network highlights music, entertainment, local stories and Tamil cinema-related content.",
     "networkId": "suryan-in",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5255,6 +5328,7 @@
   {
     "id": "big-chennai",
     "name": "BIG FM Chennai",
+    "about": "BIG FM Chennai is a Tamil-language FM station associated with Chennai, India. Its catalogue programme categories include music. The listed FM frequency is 92.7 MHz.",
     "networkId": "big-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5326,6 +5400,7 @@
   {
     "id": "radio-city-chennai",
     "name": "Radio City Chennai",
+    "about": "Radio City Chennai is a Tamil-language FM station associated with Chennai, India. Its catalogue programme categories include music. The listed FM frequency is 91.1 MHz.",
     "networkId": "radio-city",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5397,6 +5472,7 @@
   {
     "id": "pollachi-fm",
     "name": "Pollachi FM",
+    "about": "Pollachi FM is a Tamil-language online radio service associated with Coimbatore, India. Its catalogue programme categories include music.",
     "networkId": "stage21-pollachi-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5441,6 +5517,7 @@
   {
     "id": "inbam-fm",
     "name": "Inbam FM",
+    "about": "Inbam FM is a Tamil-language online radio service associated with Tamil Nadu, India. Its catalogue programme categories include music.",
     "networkId": "stage21-inbam-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5485,6 +5562,7 @@
   {
     "id": "kodai-city-fm",
     "name": "Kodai City FM",
+    "about": "Kodai City FM is a Tamil-language online radio service associated with Kodaikanal, India. Its catalogue programme categories include music.",
     "networkId": "stage21-kodai-city-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5529,6 +5607,7 @@
   {
     "id": "radio-beat-love",
     "name": "Radio Beat Love",
+    "about": "Radio Beat Love is a Tamil-language online radio service associated with Tamil Nadu, India. Its catalogue programme categories include music and artist-focused music.",
     "networkId": "stage21-radio-beat-love",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5574,6 +5653,7 @@
   {
     "id": "radio-beat-extra",
     "name": "Radio Beat Extra",
+    "about": "Radio Beat Extra is a English-language online radio service associated with Tamil Nadu, India. Its catalogue programme categories include music and artist-focused music.",
     "networkId": "stage21-radio-beat-extra",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5620,6 +5700,7 @@
   {
     "id": "air-dharmapuri",
     "name": "Akashvani Dharmapuri",
+    "about": "Akashvani Dharmapuri is a Tamil-language FM station associated with Dharmapuri, India. Its catalogue programme categories include music.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -5664,6 +5745,7 @@
   {
     "id": "vaanam-fm-hd",
     "name": "Vaanam FM HD",
+    "about": "Vaanam FM HD is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage21-vaanam-fm-hd",
     "countryCode": "IN",
     "regionId": null,
@@ -5708,6 +5790,7 @@
   {
     "id": "tamil-80s-hits",
     "name": "80s Tamil Hits",
+    "about": "80s Tamil Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include music and artist-focused music.",
     "networkId": "stage21-tamil-80s-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -5753,6 +5836,7 @@
   {
     "id": "amr-radio-ca",
     "name": "AMR Radio",
+    "about": "AMR Radio is a Tamil-language online radio service associated with Canada. Its catalogue programme categories include music.",
     "networkId": "stage21-amr-radio-ca",
     "countryCode": "CA",
     "regionId": null,
@@ -5797,6 +5881,7 @@
   {
     "id": "thaalam-in",
     "name": "Thaalam FM India",
+    "about": "Thaalam FM India is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage21-thaalam-in",
     "countryCode": "IN",
     "regionId": null,
@@ -5841,6 +5926,7 @@
   {
     "id": "slbc-tamil-national-service",
     "name": "SLBC Tamil National Service FM",
+    "about": "SLBC Tamil National Service FM is a Tamil-language FM station associated with Sri Lanka. Its catalogue programme categories include music.",
     "networkId": "slbc",
     "countryCode": "LK",
     "regionId": null,
@@ -5885,6 +5971,7 @@
   {
     "id": "ilangai-vaanoli",
     "name": "Ilangai Vaanoli",
+    "about": "Ilangai Vaanoli is a Tamil-language online radio service associated with Sri Lanka. Its catalogue programme categories include music.",
     "networkId": "stage21-ilangai-vaanoli",
     "countryCode": "LK",
     "regionId": null,
@@ -5929,6 +6016,7 @@
   {
     "id": "ilayaraja-radio",
     "name": "Ilaiyaraaja Radio",
+    "about": "Ilaiyaraaja Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music and artist-focused music.",
     "networkId": "stage21-ilayaraja-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -5977,6 +6065,7 @@
   {
     "id": "kumbakonam-city-fm",
     "name": "Kumbakonam City FM",
+    "about": "Kumbakonam City FM is a Tamil-language online radio service associated with Thanjavur, India. Its catalogue programme categories include music.",
     "networkId": "stage21-kumbakonam-city-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -6021,6 +6110,7 @@
   {
     "id": "ada-ceylon-fm",
     "name": "ADA Ceylon FM",
+    "about": "ADA Ceylon FM is a Tamil-language online radio service associated with Sri Lanka. Its catalogue programme categories include music.",
     "networkId": "stage21-ada-ceylon-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -6065,6 +6155,7 @@
   {
     "id": "vellore-city-fm",
     "name": "Vellore City FM",
+    "about": "Vellore City FM is a Tamil-language online radio service associated with Vellore, India. Its catalogue programme categories include music.",
     "networkId": "stage21-vellore-city-fm",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -6109,6 +6200,7 @@
   {
     "id": "raaga-my",
     "name": "RAAGA Malaysia",
+    "about": "RAAGA Malaysia is a Tamil-language FM station associated with Malaysia. Its catalogue programme categories include music and general-interest programmes.",
     "networkId": "astro-audio",
     "countryCode": "MY",
     "regionId": null,
@@ -6175,6 +6267,7 @@
   {
     "id": "divyavani-sanskrit-in",
     "name": "Divyavani Sanskrit Radio",
+    "about": "Divyavani Sanskrit Radio is a Sanskrit-language online radio service associated with India. Its catalogue programme categories include talk and interviews.",
     "networkId": "stage22-divyavani-sanskrit-in",
     "countryCode": "IN",
     "regionId": null,
@@ -6219,6 +6312,7 @@
   {
     "id": "sanskrit-bharati-radio-in",
     "name": "Radio Sanskrit Bharati",
+    "about": "Radio Sanskrit Bharati is a Sanskrit-language online radio service associated with India. Its catalogue programme categories include talk and interviews.",
     "networkId": "stage22-sanskrit-bharati-radio-in",
     "countryCode": "IN",
     "regionId": null,
@@ -6263,6 +6357,7 @@
   {
     "id": "radio-paloma-de",
     "name": "Radio Paloma",
+    "about": "Radio Paloma is a German-language online radio service associated with Germany. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-paloma-de",
     "countryCode": "DE",
     "regionId": null,
@@ -6307,6 +6402,7 @@
   {
     "id": "radio-norge-no",
     "name": "Radio Norge",
+    "about": "Radio Norge is a Norwegian-language FM station associated with Norway. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-norge-no",
     "countryCode": "NO",
     "regionId": null,
@@ -6351,6 +6447,7 @@
   {
     "id": "realradio-ireland-ie",
     "name": "RealRadio Ireland",
+    "about": "RealRadio Ireland is a English-language online radio service associated with Ireland. Its catalogue programme categories include music.",
     "networkId": "stage22-realradio-ireland-ie",
     "countryCode": "IE",
     "regionId": null,
@@ -6395,6 +6492,7 @@
   {
     "id": "nostalgia-fi",
     "name": "Nostalgia Finland",
+    "about": "Nostalgia Finland is a Finnish-language FM station associated with Finland. Its catalogue programme categories include music.",
     "networkId": "stage22-nostalgia-fi",
     "countryCode": "FI",
     "regionId": null,
@@ -6439,6 +6537,7 @@
   {
     "id": "suomipop-fi",
     "name": "SuomiPop",
+    "about": "SuomiPop is a Finnish-language FM station associated with Finland. Its catalogue programme categories include music.",
     "networkId": "stage22-suomipop-fi",
     "countryCode": "FI",
     "regionId": null,
@@ -6483,6 +6582,7 @@
   {
     "id": "radio-r-lt",
     "name": "Radio-R Lithuania",
+    "about": "Radio-R Lithuania is a Russian-language FM station associated with Lithuania. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-r-lt",
     "countryCode": "LT",
     "regionId": null,
@@ -6527,6 +6627,7 @@
   {
     "id": "znad-wilii-lt",
     "name": "Znad Wilii",
+    "about": "Znad Wilii is a Polish-language FM station associated with Lithuania. Its catalogue programme categories include general-interest programmes.",
     "networkId": "stage22-znad-wilii-lt",
     "countryCode": "LT",
     "regionId": null,
@@ -6571,6 +6672,7 @@
   {
     "id": "pop-fm-dk",
     "name": "Pop FM Denmark",
+    "about": "Pop FM Denmark is a Danish-language FM station associated with Denmark. Its catalogue programme categories include music.",
     "networkId": "stage22-pop-fm-dk",
     "countryCode": "DK",
     "regionId": null,
@@ -6615,6 +6717,7 @@
   {
     "id": "myrock-dk",
     "name": "MyRock Denmark",
+    "about": "MyRock Denmark is a Danish-language FM station associated with Denmark. Its catalogue programme categories include music.",
     "networkId": "stage22-myrock-dk",
     "countryCode": "DK",
     "regionId": null,
@@ -6659,6 +6762,7 @@
   {
     "id": "stad-den-haag-nl",
     "name": "Radio Stad Den Haag",
+    "about": "Radio Stad Den Haag is a Dutch-language online radio service associated with the Netherlands. Its catalogue programme categories include music.",
     "networkId": "stage22-stad-den-haag-nl",
     "countryCode": "NL",
     "regionId": null,
@@ -6703,6 +6807,7 @@
   {
     "id": "slam-nl",
     "name": "SLAM! Netherlands",
+    "about": "SLAM! Netherlands is a Dutch-language FM station associated with the Netherlands. Its catalogue programme categories include music.",
     "networkId": "stage22-slam-nl",
     "countryCode": "NL",
     "regionId": null,
@@ -6747,6 +6852,7 @@
   {
     "id": "kiss-kiss-italia-it",
     "name": "Radio Kiss Kiss Italia",
+    "about": "Radio Kiss Kiss Italia is a Italian-language FM station associated with Italy. Its catalogue programme categories include music.",
     "networkId": "stage22-kiss-kiss-italia-it",
     "countryCode": "IT",
     "regionId": null,
@@ -6791,6 +6897,7 @@
   {
     "id": "exa-fm-mexico",
     "name": "Exa FM Mexico",
+    "about": "Exa FM Mexico is a Spanish-language FM station associated with Mexico. Its catalogue programme categories include music.",
     "networkId": "stage22-exa-fm-mexico",
     "countryCode": "MX",
     "regionId": null,
@@ -6835,6 +6942,7 @@
   {
     "id": "sveriges-radio-p1-se",
     "name": "Sveriges Radio P1",
+    "about": "Sveriges Radio P1 is a Swedish-language FM station associated with Sweden. Its catalogue programme categories include talk and interviews.",
     "networkId": "stage22-sveriges-radio-p1-se",
     "countryCode": "SE",
     "regionId": null,
@@ -6879,6 +6987,7 @@
   {
     "id": "pirate-rock-se",
     "name": "Pirate Rock Sweden",
+    "about": "Pirate Rock Sweden is a Swedish-language FM station associated with Sweden. Its catalogue programme categories include music.",
     "networkId": "stage22-pirate-rock-se",
     "countryCode": "SE",
     "regionId": null,
@@ -6923,6 +7032,7 @@
   {
     "id": "radio-dla-doroslych-pl",
     "name": "Radio dla Dorosłych",
+    "about": "Radio dla Dorosłych is a Polish-language online radio service associated with Poland. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-dla-doroslych-pl",
     "countryCode": "PL",
     "regionId": null,
@@ -6967,6 +7077,7 @@
   {
     "id": "radio-max-hr",
     "name": "Radio Max Croatia",
+    "about": "Radio Max Croatia is a Croatian-language FM station associated with Croatia. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-max-hr",
     "countryCode": "HR",
     "regionId": null,
@@ -7011,6 +7122,7 @@
   {
     "id": "nagham-fm-eg",
     "name": "Nagham FM Egypt",
+    "about": "Nagham FM Egypt is a Arabic-language FM station associated with Egypt. Its catalogue programme categories include music.",
     "networkId": "stage22-nagham-fm-eg",
     "countryCode": "EG",
     "regionId": null,
@@ -7055,6 +7167,7 @@
   {
     "id": "radio-roks-ua",
     "name": "Radio ROKS Ukraine",
+    "about": "Radio ROKS Ukraine is a Ukrainian-language FM station associated with Ukraine. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-roks-ua",
     "countryCode": "UA",
     "regionId": null,
@@ -7099,6 +7212,7 @@
   {
     "id": "radio-nrj-ua",
     "name": "Radio NRJ Ukraine",
+    "about": "Radio NRJ Ukraine is a Ukrainian-language FM station associated with Ukraine. Its catalogue programme categories include music.",
     "networkId": "stage22-radio-nrj-ua",
     "countryCode": "UA",
     "regionId": null,
@@ -7143,6 +7257,7 @@
   {
     "id": "radio-jamaica-jm",
     "name": "Radio Jamaica",
+    "about": "Radio Jamaica is a English-language online radio service associated with Jamaica. Its catalogue programme categories include general-interest programmes.",
     "networkId": "stage22-radio-jamaica-jm",
     "countryCode": "JM",
     "regionId": null,
@@ -7187,6 +7302,7 @@
   {
     "id": "telemetro-radio-pa",
     "name": "Telemetro Radio Panama",
+    "about": "Telemetro Radio Panama is a Spanish-language FM station associated with Panama. Its catalogue programme categories include general-interest programmes.",
     "networkId": "stage22-telemetro-radio-pa",
     "countryCode": "PA",
     "regionId": null,
@@ -7231,6 +7347,7 @@
   {
     "id": "77h-fm-br",
     "name": "77H FM Guarujá SP",
+    "about": "77H FM Guarujá SP is a Portuguese-language online radio service associated with Brazil. Its catalogue programme categories include music.",
     "networkId": "stage22-77h-fm-br",
     "countryCode": "BR",
     "regionId": null,
@@ -7275,6 +7392,7 @@
   {
     "id": "jazz-radio-blues-fr",
     "name": "Jazz Radio Blues France",
+    "about": "Jazz Radio Blues France is a French-language online radio service associated with France. Its catalogue programme categories include music.",
     "networkId": "stage22-jazz-radio-blues-fr",
     "countryCode": "FR",
     "regionId": null,
@@ -7319,6 +7437,7 @@
   {
     "id": "mahakatha-radio-in",
     "name": "Mahakatha Radio",
+    "about": "Mahakatha Radio is a English, Hindi, and Sanskrit-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage23-mahakatha-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -7365,6 +7484,7 @@
   {
     "id": "shaiva-lahari-in",
     "name": "Shaiva Lahari",
+    "about": "Shaiva Lahari is a multilingual online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage23-shaiva-lahari",
     "countryCode": "IN",
     "regionId": null,
@@ -7414,6 +7534,7 @@
   {
     "id": "kexp-seattle-us",
     "name": "KEXP 90.3 FM",
+    "about": "KEXP 90.3 FM is a listener-supported nonprofit music station in Seattle, Washington. It champions music discovery across genres and features artist performances and interviews.",
     "networkId": "stage24-kexp",
     "countryCode": "US",
     "regionId": null,
@@ -7458,6 +7579,7 @@
   {
     "id": "wnyc-939-us",
     "name": "WNYC 93.9 FM",
+    "about": "WNYC 93.9 FM is a New York City public radio station operated by New York Public Radio. Its programming brings together journalism, interviews, public affairs and nationally distributed programmes.",
     "networkId": "stage24-wnyc",
     "countryCode": "US",
     "regionId": null,
@@ -7503,6 +7625,7 @@
   {
     "id": "wqxr-1059-us",
     "name": "WQXR 105.9 FM",
+    "about": "WQXR 105.9 FM is a classical music radio station in New York City, part of New York Public Radio. It presents classical recordings and programmes for music lovers.",
     "networkId": "stage24-wqxr",
     "countryCode": "US",
     "regionId": null,
@@ -7547,6 +7670,7 @@
   {
     "id": "exclusively-backstreet-boys-ae",
     "name": "Exclusively Backstreet Boys",
+    "about": "Exclusively Backstreet Boys is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage24-exclusively-backstreet-boys-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -7594,6 +7718,7 @@
   {
     "id": "exclusively-taylor-swift-ae",
     "name": "Exclusively Taylor Swift",
+    "about": "Exclusively Taylor Swift is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage24-exclusively-taylor-swift-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -7641,6 +7766,7 @@
   {
     "id": "hello-telugu-in",
     "name": "Hello Telugu",
+    "about": "Hello Telugu is a Telugu-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-hello-telugu-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7685,6 +7811,7 @@
   {
     "id": "radio-malayalam-in",
     "name": "Radio Malayalam",
+    "about": "Radio Malayalam is a Malayalam-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-radio-malayalam-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7729,6 +7856,7 @@
   {
     "id": "bol-punjabi-radio-in",
     "name": "Bol Punjabi Radio",
+    "about": "Bol Punjabi Radio is a Punjabi-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-bol-punjabi-radio-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7773,6 +7901,7 @@
   {
     "id": "radio-mast-marathi-in",
     "name": "Radio Mast Marathi",
+    "about": "Radio Mast Marathi is a Marathi-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-radio-mast-marathi-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7817,6 +7946,7 @@
   {
     "id": "freefm-uae-sinhala-ae",
     "name": "Free FM — UAE Sinhala Radio",
+    "about": "Free FM — UAE Sinhala Radio is a Sinhala-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include music.",
     "networkId": "stage26-freefm-uae-sinhala-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -7861,6 +7991,7 @@
   {
     "id": "radio-amr-kannada-in",
     "name": "Radio AMR Kannada",
+    "about": "Radio AMR Kannada is a Kannada-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-radio-amr-kannada-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7905,6 +8036,7 @@
   {
     "id": "kannada-hits-in",
     "name": "Kannada Hits",
+    "about": "Kannada Hits is a Kannada-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-kannada-hits-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7949,6 +8081,7 @@
   {
     "id": "hindi-gold-radio-in",
     "name": "Hindi Gold Radio",
+    "about": "Hindi Gold Radio is a Hindi-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-hindi-gold-radio-in",
     "countryCode": "IN",
     "regionId": null,
@@ -7993,6 +8126,7 @@
   {
     "id": "radio-mirchi-dubai-ae",
     "name": "Radio Mirchi Dubai (directory listing)",
+    "about": "Radio Mirchi Dubai (directory listing) is a Hindi-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include music.",
     "networkId": "stage26-radio-mirchi-dubai-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8037,6 +8171,7 @@
   {
     "id": "radio-quarantine-kolkata-in",
     "name": "Radio Quarantine Kolkata",
+    "about": "Radio Quarantine Kolkata is a Bengali-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage26-radio-quarantine-kolkata-in",
     "countryCode": "IN",
     "regionId": null,
@@ -8081,6 +8216,7 @@
   {
     "id": "80s80s-michael-jackson-de",
     "name": "80s80s Michael Jackson",
+    "about": "80s80s Michael Jackson is a English-language online radio service associated with Germany. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-80s80s-michael-jackson-de",
     "countryCode": "DE",
     "regionId": null,
@@ -8128,6 +8264,7 @@
   {
     "id": "exclusively-michael-jackson-ae",
     "name": "Exclusively Michael Jackson",
+    "about": "Exclusively Michael Jackson is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-michael-jackson-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8175,6 +8312,7 @@
   {
     "id": "exclusively-justin-bieber-ae",
     "name": "Exclusively Justin Bieber",
+    "about": "Exclusively Justin Bieber is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-justin-bieber-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8222,6 +8360,7 @@
   {
     "id": "exclusively-shakira-ae",
     "name": "Exclusively Shakira",
+    "about": "Exclusively Shakira is a English and Spanish-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-shakira-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8270,6 +8409,7 @@
   {
     "id": "exclusively-one-direction-ae",
     "name": "Exclusively One Direction",
+    "about": "Exclusively One Direction is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-one-direction-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8317,6 +8457,7 @@
   {
     "id": "exclusively-adele-ae",
     "name": "Exclusively Adele",
+    "about": "Exclusively Adele is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-adele-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8364,6 +8505,7 @@
   {
     "id": "exclusively-ed-sheeran-ae",
     "name": "Exclusively Ed Sheeran",
+    "about": "Exclusively Ed Sheeran is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-ed-sheeran-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8411,6 +8553,7 @@
   {
     "id": "exclusively-queen-ae",
     "name": "Exclusively Queen",
+    "about": "Exclusively Queen is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-queen-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8458,6 +8601,7 @@
   {
     "id": "exclusively-westlife-ae",
     "name": "Exclusively Westlife",
+    "about": "Exclusively Westlife is a English-language online radio service associated with the United Arab Emirates. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage27-exclusively-westlife-ae",
     "countryCode": "AE",
     "regionId": null,
@@ -8505,6 +8649,7 @@
   {
     "id": "stage29-thenral-world-radio",
     "name": "Thenral World Radio",
+    "about": "Thenral World Radio is a Tamil-language online radio service associated with Germany. Its catalogue programme categories include music.",
     "networkId": "stage29-network-thenral-world-radio",
     "countryCode": "DE",
     "regionId": null,
@@ -8549,6 +8694,7 @@
   {
     "id": "stage29-agaram-tamil-radio",
     "name": "Agaram Tamil Radio",
+    "about": "Agaram Tamil Radio is a Tamil-language online radio service associated with Canada. Its catalogue programme categories include music.",
     "networkId": "stage29-network-agaram-tamil-radio",
     "countryCode": "CA",
     "regionId": null,
@@ -8593,6 +8739,7 @@
   {
     "id": "stage29-clubhouse-tamil-90s-2k-vibes",
     "name": "Clubhouse Tamil 90s & 2K Vibes",
+    "about": "Clubhouse Tamil 90s & 2K Vibes is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-clubhouse-tamil-90s-2k-vibes",
     "countryCode": "IN",
     "regionId": null,
@@ -8637,6 +8784,7 @@
   {
     "id": "stage29-jipmer-radio",
     "name": "Jipmer Radio",
+    "about": "Jipmer Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-jipmer-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -8681,6 +8829,7 @@
   {
     "id": "stage29-kodai-aruvi-fm",
     "name": "Kodai Aruvi FM",
+    "about": "Kodai Aruvi FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-kodai-aruvi-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -8725,6 +8874,7 @@
   {
     "id": "stage29-saamanthi-fm",
     "name": "Saamanthi FM",
+    "about": "Saamanthi FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-saamanthi-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -8769,6 +8919,7 @@
   {
     "id": "stage29-tamil-mellisai-fm",
     "name": "Tamil Mellisai FM",
+    "about": "Tamil Mellisai FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-tamil-mellisai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -8813,6 +8964,7 @@
   {
     "id": "stage29-madhuram-radio",
     "name": "Madhuram Radio",
+    "about": "Madhuram Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-madhuram-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -8857,6 +9009,7 @@
   {
     "id": "stage29-tuticorin-radio",
     "name": "Tuticorin Radio",
+    "about": "Tuticorin Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-tuticorin-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -8901,6 +9054,7 @@
   {
     "id": "stage29-dindigul-radio",
     "name": "Dindigul Radio",
+    "about": "Dindigul Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-dindigul-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -8945,6 +9099,7 @@
   {
     "id": "stage29-vaalai-fm",
     "name": "Vaalai FM",
+    "about": "Vaalai FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-vaalai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -8989,6 +9144,7 @@
   {
     "id": "stage29-jayam-fm-7-1",
     "name": "Jayam FM 7.1",
+    "about": "Jayam FM 7.1 is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-jayam-fm-7-1",
     "countryCode": "IN",
     "regionId": null,
@@ -9033,6 +9189,7 @@
   {
     "id": "stage29-retro-tamil-fm",
     "name": "Retro Tamil FM",
+    "about": "Retro Tamil FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-retro-tamil-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9077,6 +9234,7 @@
   {
     "id": "stage29-oli-saaral-fm",
     "name": "Oli Saaral FM",
+    "about": "Oli Saaral FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-oli-saaral-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9121,6 +9279,7 @@
   {
     "id": "stage29-trt-tamil-oli",
     "name": "TRT Tamil Oli",
+    "about": "TRT Tamil Oli is a Tamil-language online radio service associated with France. Its catalogue programme categories include music.",
     "networkId": "stage29-network-trt-tamil-oli",
     "countryCode": "FR",
     "regionId": null,
@@ -9165,6 +9324,7 @@
   {
     "id": "stage29-pasumai-90-4-fm",
     "name": "Pasumai FM 90.4",
+    "about": "Pasumai FM 90.4 is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-pasumai-90-4-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9209,6 +9369,7 @@
   {
     "id": "stage29-tiruvannamalai-city-fm",
     "name": "Tiruvannamalai City FM",
+    "about": "Tiruvannamalai City FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-tiruvannamalai-city-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9253,6 +9414,7 @@
   {
     "id": "stage29-rockfort-radio",
     "name": "Rockfort Radio",
+    "about": "Rockfort Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-rockfort-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -9297,6 +9459,7 @@
   {
     "id": "stage29-i-tamil-media-fm",
     "name": "I Tamil Media FM",
+    "about": "I Tamil Media FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-i-tamil-media-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9341,6 +9504,7 @@
   {
     "id": "stage29-covai-city-fm",
     "name": "Covai City FM",
+    "about": "Covai City FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-covai-city-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9385,6 +9549,7 @@
   {
     "id": "stage29-ss-tamil-radio",
     "name": "SS Tamil Radio",
+    "about": "SS Tamil Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-ss-tamil-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -9429,6 +9594,7 @@
   {
     "id": "stage29-rj-tamil-fm",
     "name": "Rj Tamil FM",
+    "about": "Rj Tamil FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-rj-tamil-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9473,6 +9639,7 @@
   {
     "id": "stage29-100-love-radio",
     "name": "100% Love Radio",
+    "about": "100% Love Radio is an online Tamil music channel presented under a love-song theme. The programme catalogue identifies its focus as music; independent operator and schedule information is limited.",
     "networkId": "stage29-network-100-love-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -9517,6 +9684,7 @@
   {
     "id": "stage29-100-new-songs",
     "name": "100% New Songs",
+    "about": "100% New Songs is an online Tamil music channel whose title emphasizes newer songs. It is included as a music station, with limited independent information on its operator and programme schedule.",
     "networkId": "stage29-network-100-new-songs",
     "countryCode": "IN",
     "regionId": null,
@@ -9561,6 +9729,7 @@
   {
     "id": "stage29-100-sad-songs",
     "name": "100% Sad Songs",
+    "about": "100% Sad Songs is an online Tamil music channel themed around emotional and sad-song listening. The service is listed under music; detailed programme and broadcaster information is not independently available.",
     "networkId": "stage29-network-100-sad-songs",
     "countryCode": "IN",
     "regionId": null,
@@ -9605,6 +9774,7 @@
   {
     "id": "stage29-tamil-ragam",
     "name": "Tamil Ragam",
+    "about": "Tamil Ragam is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-tamil-ragam",
     "countryCode": "IN",
     "regionId": null,
@@ -9649,6 +9819,7 @@
   {
     "id": "stage29-airtamil-90s",
     "name": "AirTamil 90s",
+    "about": "AirTamil 90s is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-airtamil-90s",
     "countryCode": "IN",
     "regionId": null,
@@ -9693,6 +9864,7 @@
   {
     "id": "stage29-captain-fm",
     "name": "Captain FM",
+    "about": "Captain FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-captain-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9737,6 +9909,7 @@
   {
     "id": "stage29-kaadhal-fm",
     "name": "Kaadhal FM",
+    "about": "Kaadhal FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-kaadhal-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9781,6 +9954,7 @@
   {
     "id": "stage29-love-songs-tamil",
     "name": "Love Songs Tamil",
+    "about": "Love Songs Tamil is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-love-songs-tamil",
     "countryCode": "IN",
     "regionId": null,
@@ -9825,6 +9999,7 @@
   {
     "id": "stage29-love-bites-mohan-songs",
     "name": "Love bites Mohan songs",
+    "about": "Love bites Mohan songs is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-love-bites-mohan-songs",
     "countryCode": "IN",
     "regionId": null,
@@ -9869,6 +10044,7 @@
   {
     "id": "stage29-loveda-fm",
     "name": "LoveDa FM",
+    "about": "LoveDa FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-loveda-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9913,6 +10089,7 @@
   {
     "id": "stage29-sad-songs-fm",
     "name": "Sad Songs FM",
+    "about": "Sad Songs FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-sad-songs-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -9957,6 +10134,7 @@
   {
     "id": "stage29-rocker-radio-tamil-gold-70s-90s",
     "name": "Rocker Radio Tamil Gold 70s 90s",
+    "about": "Rocker Radio Tamil Gold 70s 90s is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-rocker-radio-tamil-gold-70s-90s",
     "countryCode": "IN",
     "regionId": null,
@@ -10001,6 +10179,7 @@
   {
     "id": "stage29-mgr-sivaji-radio",
     "name": "MGR & Sivaji Radio",
+    "about": "MGR & Sivaji Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-mgr-sivaji-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10049,6 +10228,7 @@
   {
     "id": "stage29-spb-online-radio",
     "name": "SPB Online Radio",
+    "about": "SPB Online Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-spb-online-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10096,6 +10276,7 @@
   {
     "id": "stage29-harris-jayaraj-radio",
     "name": "Harris Jayaraj Radio",
+    "about": "Harris Jayaraj Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-harris-jayaraj-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10143,6 +10324,7 @@
   {
     "id": "stage29-ks-chitra-radio",
     "name": "KS Chitra Radio",
+    "about": "KS Chitra Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-ks-chitra-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10190,6 +10372,7 @@
   {
     "id": "stage29-deva-radio",
     "name": "Deva Radio",
+    "about": "Deva Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-deva-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10237,6 +10420,7 @@
   {
     "id": "stage29-kj-yesudas-radio",
     "name": "K. J. Yesudas Radio",
+    "about": "K. J. Yesudas Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-kj-yesudas-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10284,6 +10468,7 @@
   {
     "id": "stage29-tms-radio",
     "name": "TMS Radio",
+    "about": "TMS Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-tms-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10331,6 +10516,7 @@
   {
     "id": "stage29-s-janaki-radio",
     "name": "S. Janaki Radio",
+    "about": "S. Janaki Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-s-janaki-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10378,6 +10564,7 @@
   {
     "id": "stage29-mano-radio",
     "name": "Mano Radio",
+    "about": "Mano Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-mano-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10425,6 +10612,7 @@
   {
     "id": "stage29-spb-old-hits-fm",
     "name": "SPB Old Hits",
+    "about": "SPB Old Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-spb-old-hits-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -10472,6 +10660,7 @@
   {
     "id": "stage29-ilayaraja-voice-fm",
     "name": "IlayaRaja Voice",
+    "about": "IlayaRaja Voice is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-ilayaraja-voice-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -10519,6 +10708,7 @@
   {
     "id": "stage29-top-news-thamizh-fm",
     "name": "Top News Thamizh FM",
+    "about": "Top News Thamizh FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include news.",
     "networkId": "stage29-network-top-news-thamizh-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -10563,6 +10753,7 @@
   {
     "id": "stage29-santhosh-narayanan-radio",
     "name": "Santhosh Narayanan Radio",
+    "about": "Santhosh Narayanan Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-santhosh-narayanan-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10610,6 +10801,7 @@
   {
     "id": "stage29-arrahman-classic",
     "name": "ARRahman Classic",
+    "about": "ARRahman Classic is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-arrahman-classic",
     "countryCode": "IN",
     "regionId": null,
@@ -10657,6 +10849,7 @@
   {
     "id": "stage29-makkal-thilagam-mgr",
     "name": "Makkal Thilagam MGR",
+    "about": "Makkal Thilagam MGR is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-makkal-thilagam-mgr",
     "countryCode": "IN",
     "regionId": null,
@@ -10704,6 +10897,7 @@
   {
     "id": "stage29-ms-viswanathan-hits",
     "name": "MS Viswanathan Hits",
+    "about": "MS Viswanathan Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-ms-viswanathan-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -10751,6 +10945,7 @@
   {
     "id": "stage29-simbu-hits",
     "name": "Simbu Hits",
+    "about": "Simbu Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-simbu-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -10798,6 +10993,7 @@
   {
     "id": "stage29-maestro-hits",
     "name": "Maestro Hits",
+    "about": "Maestro Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-maestro-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -10842,6 +11038,7 @@
   {
     "id": "stage29-yuvan-shankar-raja-ysr",
     "name": "Yuvan Shankar Raja YSR",
+    "about": "Yuvan Shankar Raja YSR is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-yuvan-shankar-raja-ysr",
     "countryCode": "IN",
     "regionId": null,
@@ -10889,6 +11086,7 @@
   {
     "id": "stage29-arrahman-classic-hits",
     "name": "ARRahman Classic Hits",
+    "about": "ARRahman Classic Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-arrahman-classic-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -10936,6 +11134,7 @@
   {
     "id": "stage29-rajini-radio",
     "name": "Rajini Radio",
+    "about": "Rajini Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-rajini-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -10983,6 +11182,7 @@
   {
     "id": "stage29-na-muthukumar-hits",
     "name": "Na Muthukumar Hits",
+    "about": "Na Muthukumar Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-na-muthukumar-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -11030,6 +11230,7 @@
   {
     "id": "stage29-imman-radio",
     "name": "Imman Radio",
+    "about": "Imman Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-imman-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11077,6 +11278,7 @@
   {
     "id": "stage29-thaman-hits",
     "name": "Thaman Hits",
+    "about": "Thaman Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-thaman-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -11124,6 +11326,7 @@
   {
     "id": "stage29-jp-chandrababu-hits",
     "name": "JP Chandrababu Hits",
+    "about": "JP Chandrababu Hits is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-jp-chandrababu-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -11171,6 +11374,7 @@
   {
     "id": "stage29-vijay-tamil-radio",
     "name": "Vijay FM Radio",
+    "about": "Vijay FM Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include artist-focused music.",
     "networkId": "stage29-network-vijay-tamil-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11215,6 +11419,7 @@
   {
     "id": "stage29-isai-manam",
     "name": "Isai Manam",
+    "about": "Isai Manam is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-isai-manam",
     "countryCode": "IN",
     "regionId": null,
@@ -11259,6 +11464,7 @@
   {
     "id": "stage29-tamil-kadavul-murugan-fm",
     "name": "Tamil Kadavul Murugan",
+    "about": "Tamil Kadavul Murugan is a Tamil-language online devotional radio listing named for Lord Murugan. It is catalogued for devotional listening; independent broadcaster and schedule information is currently limited.",
     "networkId": "stage29-network-tamil-kadavul-murugan-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11303,6 +11509,7 @@
   {
     "id": "stage29-shaivam-radio",
     "name": "Shaivam Radio",
+    "about": "Shaivam Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-shaivam-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11347,6 +11554,7 @@
   {
     "id": "stage29-ayngaran-radio",
     "name": "Ayngaran Radio",
+    "about": "Ayngaran Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-ayngaran-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11391,6 +11599,7 @@
   {
     "id": "stage29-aadhi-sivan-fm",
     "name": "Aadhi Sivan FM",
+    "about": "Aadhi Sivan FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-aadhi-sivan-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11435,6 +11644,7 @@
   {
     "id": "stage29-om-sakthi-fm",
     "name": "Om Sakthi FM",
+    "about": "Om Sakthi FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-om-sakthi-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11479,6 +11689,7 @@
   {
     "id": "stage29-ss-devotional-radio",
     "name": "SS Devotional Radio",
+    "about": "SS Devotional Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-ss-devotional-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11523,6 +11734,7 @@
   {
     "id": "stage29-guru-raghavendra-radio",
     "name": "Guru Raghavendra Radio",
+    "about": "Guru Raghavendra Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-guru-raghavendra-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11567,6 +11779,7 @@
   {
     "id": "stage29-vishnu-fm",
     "name": "Vishnu FM",
+    "about": "Vishnu FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-vishnu-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11611,6 +11824,7 @@
   {
     "id": "stage29-saranam-ayyappa-fm",
     "name": "Saranam Ayyappa FM",
+    "about": "Saranam Ayyappa FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-saranam-ayyappa-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11655,6 +11869,7 @@
   {
     "id": "stage29-sai-fm-radio",
     "name": "Sai Radio",
+    "about": "Sai Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-sai-fm-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -11699,6 +11914,7 @@
   {
     "id": "stage29-aanmeega-sudar",
     "name": "Aanmeega Sudar",
+    "about": "Aanmeega Sudar is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-aanmeega-sudar",
     "countryCode": "IN",
     "regionId": null,
@@ -11743,6 +11959,7 @@
   {
     "id": "stage29-sivasubramaniyam-ayyappan-songs-fm",
     "name": "Sivasubramaniyam Ayyappan FM",
+    "about": "Sivasubramaniyam Ayyappan FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-sivasubramaniyam-ayyappan-songs-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11787,6 +12004,7 @@
   {
     "id": "stage29-sree-kurumba-fm",
     "name": "Sree Kurumba FM",
+    "about": "Sree Kurumba FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-sree-kurumba-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11831,6 +12049,7 @@
   {
     "id": "stage29-dharisanam-fm",
     "name": "Dharisanam FM",
+    "about": "Dharisanam FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-dharisanam-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11875,6 +12094,7 @@
   {
     "id": "stage29-singampunari-fm",
     "name": "Singampunari FM",
+    "about": "Singampunari FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-singampunari-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -11919,6 +12139,7 @@
   {
     "id": "stage29-yazh-news",
     "name": "Yazh News",
+    "about": "Yazh News is a Tamil-language online radio service associated with Sri Lanka. Its catalogue programme categories include news.",
     "networkId": "stage29-network-yazh-news",
     "countryCode": "LK",
     "regionId": null,
@@ -11963,6 +12184,7 @@
   {
     "id": "stage29-kalai-fm",
     "name": "Kalai FM",
+    "about": "Kalai FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-kalai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -12007,6 +12229,7 @@
   {
     "id": "stage29-kanal-music",
     "name": "Kanal Music",
+    "about": "Kanal Music is a Tamil-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage29-network-kanal-music",
     "countryCode": "IN",
     "regionId": null,
@@ -12051,6 +12274,7 @@
   {
     "id": "stage29-kandhakapookkal-radio",
     "name": "Kandhakapookkal Radio",
+    "about": "Kandhakapookkal Radio is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-kandhakapookkal-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -12095,6 +12319,7 @@
   {
     "id": "stage29-krishna-fm",
     "name": "Krishna FM",
+    "about": "Krishna FM is a Tamil-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage29-network-krishna-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -12139,6 +12364,7 @@
   {
     "id": "stage32-vividh-bharati-bengaluru",
     "name": "Vividh Bharati Bengaluru",
+    "about": "Vividh Bharati Bengaluru is a Kannada-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-vividh-bharati-bengaluru",
     "countryCode": "IN",
     "regionId": null,
@@ -12183,6 +12409,7 @@
   {
     "id": "stage32-bhakti-sangeet",
     "name": "Bhakti Sangeet",
+    "about": "Bhakti Sangeet is a Kannada-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage32-bhakti-sangeet",
     "countryCode": "IN",
     "regionId": null,
@@ -12227,6 +12454,7 @@
   {
     "id": "stage32-ap9-fm",
     "name": "AP9 FM",
+    "about": "AP9 FM is a Telugu-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-ap9-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -12271,6 +12499,7 @@
   {
     "id": "stage32-air-telugu-online",
     "name": "Air Telugu (Mintone)",
+    "about": "Air Telugu (Mintone) is a Telugu-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-air-telugu-online",
     "countryCode": "IN",
     "regionId": null,
@@ -12315,6 +12544,7 @@
   {
     "id": "stage32-fm-rainbow-vijayawada",
     "name": "FM Rainbow Vijayawada",
+    "about": "FM Rainbow Vijayawada is a Telugu-language online radio service associated with India. Its catalogue programme categories include general-interest programmes.",
     "networkId": "stage32-fm-rainbow-vijayawada",
     "countryCode": "IN",
     "regionId": null,
@@ -12359,6 +12589,7 @@
   {
     "id": "stage32-retro-bollywood-90s",
     "name": "Radio Retro Bollywood 90s",
+    "about": "Radio Retro Bollywood 90s is a Hindi-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-retro-bollywood-90s",
     "countryCode": "IN",
     "regionId": null,
@@ -12403,6 +12634,7 @@
   {
     "id": "stage32-sgpc-gurbani",
     "name": "Live Gurbani — Sri Darbar Sahib (SGPC)",
+    "about": "Live Gurbani — Sri Darbar Sahib (SGPC) is a Punjabi-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage32-sgpc-gurbani",
     "countryCode": "IN",
     "regionId": null,
@@ -12447,6 +12679,7 @@
   {
     "id": "stage32-ran-fm",
     "name": "Ran FM",
+    "about": "Ran FM is a Sinhala-language online radio service associated with Sri Lanka. Its catalogue programme categories include music.",
     "networkId": "stage32-ran-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -12491,6 +12724,7 @@
   {
     "id": "stage32-neth-fm",
     "name": "NETH FM",
+    "about": "NETH FM is a Sinhala-language online radio service associated with Sri Lanka. Its catalogue programme categories include general-interest programmes.",
     "networkId": "stage32-neth-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -12535,6 +12769,7 @@
   {
     "id": "stage32-siyatha-fm",
     "name": "Siyatha FM",
+    "about": "Siyatha FM is a Sinhala-language online radio service associated with Sri Lanka. Its catalogue programme categories include music.",
     "networkId": "stage32-siyatha-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -12579,6 +12814,7 @@
   {
     "id": "stage32-malayalam-bhakthi",
     "name": "Malayalam Bhakthi Radio",
+    "about": "Malayalam Bhakthi Radio is a Malayalam-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage32-malayalam-bhakthi",
     "countryCode": "IN",
     "regionId": null,
@@ -12623,6 +12859,7 @@
   {
     "id": "stage32-digital-malayali",
     "name": "Radio Digital Malayali",
+    "about": "Radio Digital Malayali is a Malayalam-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-digital-malayali",
     "countryCode": "IN",
     "regionId": null,
@@ -12667,6 +12904,7 @@
   {
     "id": "stage32-radio-choklate",
     "name": "Radio Choklate 104 FM",
+    "about": "Radio Choklate 104 FM is a Odia-language online radio service associated with India. Its catalogue programme categories include music.",
     "networkId": "stage32-radio-choklate",
     "countryCode": "IN",
     "regionId": null,
@@ -12711,6 +12949,7 @@
   {
     "id": "stage32-dnyaneshwari",
     "name": "Dnyaneshwari Radio",
+    "about": "Dnyaneshwari Radio is a Marathi-language online radio service associated with India. Its catalogue programme categories include devotional programmes.",
     "networkId": "stage32-dnyaneshwari",
     "countryCode": "IN",
     "regionId": null,
@@ -12755,6 +12994,7 @@
   {
     "id": "stage33-red-fm-calgary",
     "name": "RED FM Calgary 106.7",
+    "about": "RED FM Calgary 106.7 is a Hindi and Punjabi-language FM station associated with Calgary, Canada. Its catalogue programme categories include music and talk and interviews. The listed FM frequency is 106.7 MHz.",
     "networkId": "stage33-red-fm-canada",
     "countryCode": "CA",
     "regionId": "ca-ab",

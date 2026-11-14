@@ -1,0 +1,2031 @@
+{
+  "preparedOn": "2026-11-14",
+  "policy": "Only 12 publisher-checked entries have tailored claims. Other entries are conservative identity, geography, language and category summaries from the catalogue. Verify additional broadcaster claims before expanding prose; never infer rights or live programming from stream URLs.",
+  "totalStations": 240,
+  "entries": [
+    {
+      "stationId": "air-nagercoil",
+      "level": "publisher",
+      "supportingUrl": "https://akashvani.gov.in/radio/live.php",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-player-2026",
+        "prasar-terms-2026",
+        "air-nagercoil-radio-browser-user-review-2026"
+      ]
+    },
+    {
+      "stationId": "air-coimbatore",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-madurai",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-tiruchirappalli",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-tirunelveli",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-kodaikanal",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-ooty",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-puducherry",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-karaikal",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-kochi",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-kozhikode",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-thrissur",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-kannur",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-devikulam",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani-network/",
+      "evidenceSourceIds": [
+        "prasar-air-network",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-tamil",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/livestreaming-services/",
+      "evidenceSourceIds": [
+        "prasar-air-live",
+        "air-player-2026",
+        "prasar-terms-2026"
+      ]
+    },
+    {
+      "stationId": "air-vividh-bharati",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/livestreaming-services/",
+      "evidenceSourceIds": [
+        "prasar-air-live",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "air-raagam",
+      "level": "catalogue",
+      "supportingUrl": "https://prasarbharati.gov.in/en/livestreaming-services/",
+      "evidenceSourceIds": [
+        "prasar-air-live",
+        "air-stage6-player"
+      ]
+    },
+    {
+      "stationId": "sooriyan-srilanka",
+      "level": "publisher",
+      "supportingUrl": "https://www.sooriyanfm.lk/about-us.html",
+      "evidenceSourceIds": [
+        "sooriyan-site",
+        "sooriyan-player-2026"
+      ]
+    },
+    {
+      "stationId": "vasantham-srilanka",
+      "level": "catalogue",
+      "supportingUrl": "https://itn.lk/about-itn/",
+      "evidenceSourceIds": [
+        "itn-vasantham-identity",
+        "vasantham-player-2026"
+      ]
+    },
+    {
+      "stationId": "shakthi-srilanka",
+      "level": "publisher",
+      "supportingUrl": "https://shakthifm.com/catch-ups/",
+      "evidenceSourceIds": [
+        "shakthi-site",
+        "shakthi-player-2026",
+        "shakthi-player-stage8"
+      ]
+    },
+    {
+      "stationId": "air-chennai-rainbow",
+      "level": "publisher",
+      "supportingUrl": "https://prasarbharati.gov.in/en/akashvani/",
+      "evidenceSourceIds": [
+        "air-player-2026",
+        "prasar-terms-2026"
+      ]
+    },
+    {
+      "stationId": "luminous-radio-tamil",
+      "level": "catalogue",
+      "supportingUrl": "https://www.luminousradio.com/",
+      "evidenceSourceIds": [
+        "luminous-site",
+        "luminous-tamil-player-2026",
+        "luminous-identity-2026"
+      ]
+    },
+    {
+      "stationId": "air-chennai-gold",
+      "level": "catalogue",
+      "supportingUrl": "https://akashvani.gov.in/radio/live.php",
+      "evidenceSourceIds": [
+        "air-stage4-player"
+      ]
+    },
+    {
+      "stationId": "air-chennai-vividh-tamil",
+      "level": "catalogue",
+      "supportingUrl": "https://akashvani.gov.in/radio/live.php",
+      "evidenceSourceIds": [
+        "air-stage4-player"
+      ]
+    },
+    {
+      "stationId": "iskcon-nagercoil",
+      "level": "catalogue",
+      "supportingUrl": "https://www.iskconnagercoil.com/radio",
+      "evidenceSourceIds": [
+        "iskcon-discovery-player",
+        "iskcon-trial-2026"
+      ]
+    },
+    {
+      "stationId": "ibc-tamil-uk",
+      "level": "publisher",
+      "supportingUrl": "https://radio.ibctamil.com/about",
+      "evidenceSourceIds": [
+        "world-ibc-tamil-uk-2026",
+        "world-ibc-tamil-uk-player",
+        "ibc-world-use-policy"
+      ]
+    },
+    {
+      "stationId": "beats-radio-us",
+      "level": "catalogue",
+      "supportingUrl": "https://www.beats-radio.com/",
+      "evidenceSourceIds": [
+        "world-beats-radio-us-2026",
+        "world-beats-radio-us-player"
+      ]
+    },
+    {
+      "stationId": "american-tamil-radio-us",
+      "level": "publisher",
+      "supportingUrl": "https://www.americantamilradio.com/",
+      "evidenceSourceIds": [
+        "world-american-tamil-radio-us-2026",
+        "world-american-tamil-radio-us-player"
+      ]
+    },
+    {
+      "stationId": "oli-968-sg",
+      "level": "publisher",
+      "supportingUrl": "https://www.melisten.sg/radio/oli-968",
+      "evidenceSourceIds": [
+        "world-oli-968-sg-2026",
+        "world-oli-968-sg-player"
+      ]
+    },
+    {
+      "stationId": "tamil-894-ae",
+      "level": "publisher",
+      "supportingUrl": "https://tamil894fm.com/about-us/",
+      "evidenceSourceIds": [
+        "world-tamil-894-ae-2026",
+        "world-tamil-894-ae-player"
+      ]
+    },
+    {
+      "stationId": "minnal-my",
+      "level": "catalogue",
+      "supportingUrl": "https://radio.rtm.gov.my/station/minnalfm",
+      "evidenceSourceIds": [
+        "world-minnal-my-2026",
+        "world-minnal-my-player"
+      ]
+    },
+    {
+      "stationId": "thaalam-ch",
+      "level": "catalogue",
+      "supportingUrl": "https://www.thaalam.ch/about-us",
+      "evidenceSourceIds": [
+        "world-thaalam-ch-2026",
+        "world-thaalam-ch-player"
+      ]
+    },
+    {
+      "stationId": "akkini-ch",
+      "level": "catalogue",
+      "supportingUrl": "https://akkini.fm/",
+      "evidenceSourceIds": [
+        "world-akkini-ch-2026",
+        "world-akkini-ch-player"
+      ]
+    },
+    {
+      "stationId": "etr-de",
+      "level": "catalogue",
+      "supportingUrl": "https://etr.fm/imprint",
+      "evidenceSourceIds": [
+        "world-etr-de-2026",
+        "world-etr-de-player"
+      ]
+    },
+    {
+      "stationId": "tamil-murasam-no",
+      "level": "catalogue",
+      "supportingUrl": "https://tamilmurasam.com/",
+      "evidenceSourceIds": [
+        "world-tamil-murasam-no-2026",
+        "world-tamil-murasam-no-player"
+      ]
+    },
+    {
+      "stationId": "shiva-tattvam",
+      "level": "catalogue",
+      "supportingUrl": "https://shaivam.org/radio-shiva-tattvam/",
+      "evidenceSourceIds": [
+        "stage12-shiva-tattvam",
+        "stage12-shiva-tattvam-metadata"
+      ]
+    },
+    {
+      "stationId": "thiruneriya-thamizhosai",
+      "level": "catalogue",
+      "supportingUrl": "https://www.shaivam.org/radio-thiruneriya-thamizhosai/",
+      "evidenceSourceIds": [
+        "stage12-thiruneriya-thamizhosai",
+        "stage12-thiruneriya-thamizhosai-metadata"
+      ]
+    },
+    {
+      "stationId": "star-fm-srilanka",
+      "level": "catalogue",
+      "supportingUrl": "https://www.starfm.lk/",
+      "evidenceSourceIds": [
+        "stage12-star-fm-srilanka"
+      ]
+    },
+    {
+      "stationId": "boom-tamil",
+      "level": "catalogue",
+      "supportingUrl": "https://www.boomtamil.com/",
+      "evidenceSourceIds": [
+        "stage12-boom-tamil",
+        "stage12-boom-tamil-metadata"
+      ]
+    },
+    {
+      "stationId": "tamil-panpalai",
+      "level": "catalogue",
+      "supportingUrl": "https://tamilpanpalai.com/",
+      "evidenceSourceIds": [
+        "stage12-tamil-panpalai",
+        "stage12-tamil-panpalai-metadata"
+      ]
+    },
+    {
+      "stationId": "aural-radio",
+      "level": "catalogue",
+      "supportingUrl": "https://www.auralradiokerala.in/",
+      "evidenceSourceIds": [
+        "stage12-aural-radio",
+        "stage12-aural-radio-metadata"
+      ]
+    },
+    {
+      "stationId": "ar-radio",
+      "level": "catalogue",
+      "supportingUrl": "https://arradiokerala.blogspot.com/",
+      "evidenceSourceIds": [
+        "stage12-ar-radio",
+        "stage12-ar-radio-metadata",
+        "stage15-ar-publisher",
+        "stage15-ar-user-report"
+      ]
+    },
+    {
+      "stationId": "hello-chennai",
+      "level": "catalogue",
+      "supportingUrl": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+      "evidenceSourceIds": [
+        "mib-operational-2026-03",
+        "discovery-regional-2026",
+        "stage12-hello-chennai-openstream-community-2026",
+        "stage12-hello-chennai-openstream-feed-2026",
+        "stage18-crabdance-chennai-3"
+      ]
+    },
+    {
+      "stationId": "east-fm-ca",
+      "level": "catalogue",
+      "supportingUrl": "https://eastfm.ca/main/schedule.php",
+      "evidenceSourceIds": [
+        "world-east-fm-ca-2026",
+        "stage13-east-fm-ca-player",
+        "stage15-east-contact",
+        "stage15-east-schedule"
+      ]
+    },
+    {
+      "stationId": "swiss-tamil-radio-ch",
+      "level": "catalogue",
+      "supportingUrl": "https://swisstamilradio.com/",
+      "evidenceSourceIds": [
+        "world-swiss-tamil-radio-ch-2026",
+        "stage13-swiss-tamil-radio-ch-player"
+      ]
+    },
+    {
+      "stationId": "lotus-fm-za",
+      "level": "catalogue",
+      "supportingUrl": "https://www.lotusfm.co.za/lotusfm/shows/in-isai-mazhai/",
+      "evidenceSourceIds": [
+        "world-lotus-fm-za-2026",
+        "stage13-lotus-fm-za-player",
+        "stage15-lotus-profile"
+      ]
+    },
+    {
+      "stationId": "vaagai-tamil-de",
+      "level": "catalogue",
+      "supportingUrl": "https://vtfm.net/",
+      "evidenceSourceIds": [
+        "stage14-vaagai-tamil-de-player"
+      ]
+    },
+    {
+      "stationId": "a9-radio-ca",
+      "level": "catalogue",
+      "supportingUrl": "https://a9radio.com/",
+      "evidenceSourceIds": [
+        "stage14-a9-radio-ca-player",
+        "stage14-a9-radio-ca-player-context-1",
+        "stage14-a9-radio-ca-player-context-2",
+        "stage15-a9-about"
+      ]
+    },
+    {
+      "stationId": "amudham-fm-in",
+      "level": "catalogue",
+      "supportingUrl": "https://www.amudhamfm.com/",
+      "evidenceSourceIds": [
+        "stage14-amudham-fm-in-player"
+      ]
+    },
+    {
+      "stationId": "mauradio-mu",
+      "level": "catalogue",
+      "supportingUrl": "https://mauradio.com/",
+      "evidenceSourceIds": [
+        "stage14-mauradio-mu-player"
+      ]
+    },
+    {
+      "stationId": "theophony-tamil-in",
+      "level": "catalogue",
+      "supportingUrl": "https://theophony.org/tamil-christian-radio/",
+      "evidenceSourceIds": [
+        "stage14-theophony-tamil-in-player",
+        "stage14-theophony-tamil-in-player-context-1",
+        "stage15-bengaluru-admin"
+      ]
+    },
+    {
+      "stationId": "jei-fm-my",
+      "level": "catalogue",
+      "supportingUrl": "https://jeifm.com/",
+      "evidenceSourceIds": [
+        "stage14-jei-fm-my-player",
+        "stage14-jei-fm-my-player-context-1",
+        "stage14-jei-fm-my-player-context-2"
+      ]
+    },
+    {
+      "stationId": "amen-fm-ca",
+      "level": "catalogue",
+      "supportingUrl": "https://www.amenfm.com/",
+      "evidenceSourceIds": [
+        "stage14-amen-fm-ca-player"
+      ]
+    },
+    {
+      "stationId": "live-fm-bh",
+      "level": "catalogue",
+      "supportingUrl": "https://www.livefm.bh/",
+      "evidenceSourceIds": [
+        "stage14-live-fm-bh-player"
+      ]
+    },
+    {
+      "stationId": "quran-tamil-kw",
+      "level": "catalogue",
+      "supportingUrl": "https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/",
+      "evidenceSourceIds": [
+        "stage14-quran-tamil-kw-player",
+        "stage14-quran-tamil-kw-player-context-1",
+        "stage14-quran-tamil-kw-player-context-2"
+      ]
+    },
+    {
+      "stationId": "sweety-fm-in",
+      "level": "catalogue",
+      "supportingUrl": "https://sweetyfm.com/",
+      "evidenceSourceIds": [
+        "stage14-sweety-fm-in-player",
+        "stage15-ranipet-admin"
+      ]
+    },
+    {
+      "stationId": "hand-of-jesus-tamil-in",
+      "level": "catalogue",
+      "supportingUrl": "https://handofjesus.in/radio-tv/radio/tamil/",
+      "evidenceSourceIds": [
+        "stage14-hand-of-jesus-tamil-in-player",
+        "stage14-hand-of-jesus-tamil-in-player-context-1"
+      ]
+    },
+    {
+      "stationId": "vaanmalar-fm-in",
+      "level": "catalogue",
+      "supportingUrl": "https://vaanmalarfm.in/",
+      "evidenceSourceIds": [
+        "stage14-vaanmalar-fm-in-player"
+      ]
+    },
+    {
+      "stationId": "suno-tamil-qa",
+      "level": "catalogue",
+      "supportingUrl": "https://tamil.suno.qa/",
+      "evidenceSourceIds": [
+        "stage14-suno-tamil-qa-player"
+      ]
+    },
+    {
+      "stationId": "tamil-christian-radio-in",
+      "level": "catalogue",
+      "supportingUrl": "https://tamilchristianradio.org/",
+      "evidenceSourceIds": [
+        "stage14-tamil-christian-radio-in-player",
+        "stage14-tamil-christian-radio-in-player-context-1"
+      ]
+    },
+    {
+      "stationId": "good-news-tamil-ca",
+      "level": "catalogue",
+      "supportingUrl": "https://goodnewsfm.org/tamil-radio",
+      "evidenceSourceIds": [
+        "stage14-good-news-tamil-ca-player",
+        "stage14-good-news-tamil-ca-player-context-1"
+      ]
+    },
+    {
+      "stationId": "3zzz-au",
+      "level": "catalogue",
+      "supportingUrl": "https://www.3zzz.com.au/wp-json/metaradio/v1/stationnow/?station=1",
+      "evidenceSourceIds": [
+        "stage14-3zzz-au-player",
+        "stage14-3zzz-au-player-context-1",
+        "stage14-3zzz-au-player-context-2",
+        "stage15-3zzz-shows"
+      ]
+    },
+    {
+      "stationId": "4eb-fm-au",
+      "level": "catalogue",
+      "supportingUrl": "https://www.4eb.org.au/wp-json/metaradio/v1/stationnow/?station=1",
+      "evidenceSourceIds": [
+        "stage14-4eb-fm-au-player",
+        "stage14-4eb-fm-au-player-context-1",
+        "stage15-4eb-tamil"
+      ]
+    },
+    {
+      "stationId": "4eb-global-au",
+      "level": "catalogue",
+      "supportingUrl": "https://www.4eb.org.au/wp-json/metaradio/v1/stationnow/?station=2",
+      "evidenceSourceIds": [
+        "stage14-4eb-global-au-player",
+        "stage14-4eb-global-au-player-context-1",
+        "stage14-4eb-global-au-player-context-2",
+        "stage15-4eb-tamil",
+        "stage15-4eb-global-guide"
+      ]
+    },
+    {
+      "stationId": "5ebi-au",
+      "level": "catalogue",
+      "supportingUrl": "https://www.5ebi.com.au/player",
+      "evidenceSourceIds": [
+        "stage14-5ebi-au-player",
+        "stage14-5ebi-au-player-context-1",
+        "stage15-5ebi-profile"
+      ]
+    },
+    {
+      "stationId": "namathu-fm-fr",
+      "level": "catalogue",
+      "supportingUrl": "https://namathufm.fr/",
+      "evidenceSourceIds": [
+        "stage14-namathu-fm-fr-player"
+      ]
+    },
+    {
+      "stationId": "otran-vaanoli-ie",
+      "level": "catalogue",
+      "supportingUrl": "https://cast.iplayradio.net/public/otranvaanoli/playlist.m3u",
+      "evidenceSourceIds": [
+        "stage14-otran-vaanoli-ie-player"
+      ]
+    },
+    {
+      "stationId": "thuthi-fm-no",
+      "level": "catalogue",
+      "supportingUrl": "https://public.radio.co/api/v2/s790fe269d",
+      "evidenceSourceIds": [
+        "stage14-thuthi-fm-no-player",
+        "stage14-thuthi-fm-no-player-context-1",
+        "stage14-thuthi-fm-no-player-context-2",
+        "stage14-thuthi-fm-no-player-context-3"
+      ]
+    },
+    {
+      "stationId": "radio-plus-indiz-mu",
+      "level": "catalogue",
+      "supportingUrl": "https://live.radioplus.mu/webradio/indiz.html",
+      "evidenceSourceIds": [
+        "stage14-radio-plus-indiz-mu-player",
+        "stage14-radio-plus-indiz-mu-player-context-1"
+      ]
+    },
+    {
+      "stationId": "time-fm-toronto-ca",
+      "level": "catalogue",
+      "supportingUrl": "https://timefm.ca/",
+      "evidenceSourceIds": [
+        "stage14-time-fm-toronto-ca-player",
+        "stage14-time-fm-toronto-ca-player-context-1",
+        "stage15-time-profile"
+      ]
+    },
+    {
+      "stationId": "inbathamil-oli-au",
+      "level": "catalogue",
+      "supportingUrl": "https://fastcast4u.com/player/ozmediae/?c=all",
+      "evidenceSourceIds": [
+        "stage14-inbathamil-oli-au-player",
+        "stage14-inbathamil-oli-au-player-context-1"
+      ]
+    },
+    {
+      "stationId": "mirchi-chennai",
+      "level": "catalogue",
+      "supportingUrl": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+      "evidenceSourceIds": [
+        "mib-operational-2026-03",
+        "mirchi-stage6-website",
+        "discovery-regional-2026",
+        "stage18-crabdance-chennai-1"
+      ]
+    },
+    {
+      "stationId": "suryan-chennai",
+      "level": "publisher",
+      "supportingUrl": "https://www.suryanfm.in/about-us/",
+      "evidenceSourceIds": [
+        "suryan-stage4-cities",
+        "mib-operational-2026-03",
+        "discovery-regional-2026",
+        "suryan-discovery-cities",
+        "stage18-crabdance-chennai-2"
+      ]
+    },
+    {
+      "stationId": "big-chennai",
+      "level": "catalogue",
+      "supportingUrl": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+      "evidenceSourceIds": [
+        "mib-operational-2026-03",
+        "big-fm-stage6-website",
+        "discovery-regional-2026",
+        "stage18-crabdance-chennai-4"
+      ]
+    },
+    {
+      "stationId": "radio-city-chennai",
+      "level": "catalogue",
+      "supportingUrl": "https://mib.gov.in/sites/default/files/2026-03/390_operationalchannels_as-pn-30032026.pdf",
+      "evidenceSourceIds": [
+        "mib-operational-2026-03",
+        "radio-city-stage6-website",
+        "discovery-regional-2026",
+        "stage18-crabdance-chennai-5"
+      ]
+    },
+    {
+      "stationId": "pollachi-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-pollachi-fm"
+      ]
+    },
+    {
+      "stationId": "inbam-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-inbam-fm"
+      ]
+    },
+    {
+      "stationId": "kodai-city-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-kodai-city-fm"
+      ]
+    },
+    {
+      "stationId": "radio-beat-love",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-radio-beat-love"
+      ]
+    },
+    {
+      "stationId": "radio-beat-extra",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-radio-beat-extra",
+        "stage28-radio-beat-extra-english-evidence"
+      ]
+    },
+    {
+      "stationId": "air-dharmapuri",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-air-dharmapuri"
+      ]
+    },
+    {
+      "stationId": "vaanam-fm-hd",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-vaanam-fm-hd"
+      ]
+    },
+    {
+      "stationId": "tamil-80s-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-tamil-80s-hits"
+      ]
+    },
+    {
+      "stationId": "amr-radio-ca",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-amr-radio-ca"
+      ]
+    },
+    {
+      "stationId": "thaalam-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-thaalam-in"
+      ]
+    },
+    {
+      "stationId": "slbc-tamil-national-service",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-slbc-tamil-national-service"
+      ]
+    },
+    {
+      "stationId": "ilangai-vaanoli",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-ilangai-vaanoli"
+      ]
+    },
+    {
+      "stationId": "ilayaraja-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-ilayaraja-radio"
+      ]
+    },
+    {
+      "stationId": "kumbakonam-city-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-kumbakonam-city-fm"
+      ]
+    },
+    {
+      "stationId": "ada-ceylon-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-ada-ceylon-fm"
+      ]
+    },
+    {
+      "stationId": "vellore-city-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage21-page-vellore-city-fm"
+      ]
+    },
+    {
+      "stationId": "raaga-my",
+      "level": "catalogue",
+      "supportingUrl": "https://media2.fishtank.my/media/astroradio/assets/brand-profile/2025/2026/raaga-brand-profile-2026.pdf",
+      "evidenceSourceIds": [
+        "world-raaga-my-2026",
+        "stage21-page-raaga-my"
+      ]
+    },
+    {
+      "stationId": "divyavani-sanskrit-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-divyavani-sanskrit-in"
+      ]
+    },
+    {
+      "stationId": "sanskrit-bharati-radio-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-sanskrit-bharati-radio-in"
+      ]
+    },
+    {
+      "stationId": "radio-paloma-de",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-paloma-de"
+      ]
+    },
+    {
+      "stationId": "radio-norge-no",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-norge-no"
+      ]
+    },
+    {
+      "stationId": "realradio-ireland-ie",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-realradio-ireland-ie"
+      ]
+    },
+    {
+      "stationId": "nostalgia-fi",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-nostalgia-fi"
+      ]
+    },
+    {
+      "stationId": "suomipop-fi",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-suomipop-fi"
+      ]
+    },
+    {
+      "stationId": "radio-r-lt",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-r-lt"
+      ]
+    },
+    {
+      "stationId": "znad-wilii-lt",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-znad-wilii-lt"
+      ]
+    },
+    {
+      "stationId": "pop-fm-dk",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-pop-fm-dk"
+      ]
+    },
+    {
+      "stationId": "myrock-dk",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-myrock-dk"
+      ]
+    },
+    {
+      "stationId": "stad-den-haag-nl",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-stad-den-haag-nl"
+      ]
+    },
+    {
+      "stationId": "slam-nl",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-slam-nl"
+      ]
+    },
+    {
+      "stationId": "kiss-kiss-italia-it",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-kiss-kiss-italia-it"
+      ]
+    },
+    {
+      "stationId": "exa-fm-mexico",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-exa-fm-mexico"
+      ]
+    },
+    {
+      "stationId": "sveriges-radio-p1-se",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-sveriges-radio-p1-se"
+      ]
+    },
+    {
+      "stationId": "pirate-rock-se",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-pirate-rock-se"
+      ]
+    },
+    {
+      "stationId": "radio-dla-doroslych-pl",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-dla-doroslych-pl"
+      ]
+    },
+    {
+      "stationId": "radio-max-hr",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-max-hr"
+      ]
+    },
+    {
+      "stationId": "nagham-fm-eg",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-nagham-fm-eg"
+      ]
+    },
+    {
+      "stationId": "radio-roks-ua",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-roks-ua"
+      ]
+    },
+    {
+      "stationId": "radio-nrj-ua",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-nrj-ua"
+      ]
+    },
+    {
+      "stationId": "radio-jamaica-jm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-radio-jamaica-jm"
+      ]
+    },
+    {
+      "stationId": "telemetro-radio-pa",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-telemetro-radio-pa"
+      ]
+    },
+    {
+      "stationId": "77h-fm-br",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-77h-fm-br"
+      ]
+    },
+    {
+      "stationId": "jazz-radio-blues-fr",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage22-source-jazz-radio-blues-fr"
+      ]
+    },
+    {
+      "stationId": "mahakatha-radio-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage23-source-mahakatha-radio-in"
+      ]
+    },
+    {
+      "stationId": "shaiva-lahari-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage23-source-shaiva-lahari-in"
+      ]
+    },
+    {
+      "stationId": "kexp-seattle-us",
+      "level": "publisher",
+      "supportingUrl": "https://kexp.org/about/",
+      "evidenceSourceIds": [
+        "stage24-source-kexp-seattle-us"
+      ]
+    },
+    {
+      "stationId": "wnyc-939-us",
+      "level": "publisher",
+      "supportingUrl": "https://wnyc.org/about/",
+      "evidenceSourceIds": [
+        "stage24-source-wnyc-939-us"
+      ]
+    },
+    {
+      "stationId": "wqxr-1059-us",
+      "level": "publisher",
+      "supportingUrl": "https://www.wqxr.org/",
+      "evidenceSourceIds": [
+        "stage24-source-wqxr-1059-us"
+      ]
+    },
+    {
+      "stationId": "exclusively-backstreet-boys-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage24-source-exclusively-backstreet-boys-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-taylor-swift-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage24-source-exclusively-taylor-swift-ae"
+      ]
+    },
+    {
+      "stationId": "hello-telugu-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-hello-telugu-in"
+      ]
+    },
+    {
+      "stationId": "radio-malayalam-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-radio-malayalam-in"
+      ]
+    },
+    {
+      "stationId": "bol-punjabi-radio-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-bol-punjabi-radio-in"
+      ]
+    },
+    {
+      "stationId": "radio-mast-marathi-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-radio-mast-marathi-in"
+      ]
+    },
+    {
+      "stationId": "freefm-uae-sinhala-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-freefm-uae-sinhala-ae"
+      ]
+    },
+    {
+      "stationId": "radio-amr-kannada-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-radio-amr-kannada-in"
+      ]
+    },
+    {
+      "stationId": "kannada-hits-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-kannada-hits-in"
+      ]
+    },
+    {
+      "stationId": "hindi-gold-radio-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-hindi-gold-radio-in"
+      ]
+    },
+    {
+      "stationId": "radio-mirchi-dubai-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-radio-mirchi-dubai-ae"
+      ]
+    },
+    {
+      "stationId": "radio-quarantine-kolkata-in",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage26-source-radio-quarantine-kolkata-in"
+      ]
+    },
+    {
+      "stationId": "80s80s-michael-jackson-de",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-80s80s-michael-jackson-de"
+      ]
+    },
+    {
+      "stationId": "exclusively-michael-jackson-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-michael-jackson-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-justin-bieber-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-justin-bieber-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-shakira-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-shakira-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-one-direction-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-one-direction-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-adele-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-adele-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-ed-sheeran-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-ed-sheeran-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-queen-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-queen-ae"
+      ]
+    },
+    {
+      "stationId": "exclusively-westlife-ae",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage27-source-exclusively-westlife-ae"
+      ]
+    },
+    {
+      "stationId": "stage29-thenral-world-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-thenral-world-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-agaram-tamil-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-agaram-tamil-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-clubhouse-tamil-90s-2k-vibes",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-clubhouse-tamil-90s-2k-vibes"
+      ]
+    },
+    {
+      "stationId": "stage29-jipmer-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-jipmer-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-kodai-aruvi-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kodai-aruvi-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-saamanthi-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-saamanthi-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-tamil-mellisai-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tamil-mellisai-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-madhuram-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-madhuram-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-tuticorin-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tuticorin-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-dindigul-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-dindigul-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-vaalai-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-vaalai-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-jayam-fm-7-1",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-jayam-fm-7-1"
+      ]
+    },
+    {
+      "stationId": "stage29-retro-tamil-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-retro-tamil-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-oli-saaral-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-oli-saaral-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-trt-tamil-oli",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-trt-tamil-oli"
+      ]
+    },
+    {
+      "stationId": "stage29-pasumai-90-4-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-pasumai-90-4-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-tiruvannamalai-city-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tiruvannamalai-city-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-rockfort-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-rockfort-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-i-tamil-media-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-i-tamil-media-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-covai-city-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-covai-city-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-ss-tamil-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ss-tamil-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-rj-tamil-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-rj-tamil-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-100-love-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-100-love-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-100-new-songs",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-100-new-songs"
+      ]
+    },
+    {
+      "stationId": "stage29-100-sad-songs",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-100-sad-songs"
+      ]
+    },
+    {
+      "stationId": "stage29-tamil-ragam",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tamil-ragam"
+      ]
+    },
+    {
+      "stationId": "stage29-airtamil-90s",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-airtamil-90s"
+      ]
+    },
+    {
+      "stationId": "stage29-captain-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-captain-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-kaadhal-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kaadhal-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-love-songs-tamil",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-love-songs-tamil"
+      ]
+    },
+    {
+      "stationId": "stage29-love-bites-mohan-songs",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-love-bites-mohan-songs"
+      ]
+    },
+    {
+      "stationId": "stage29-loveda-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-loveda-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-sad-songs-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-sad-songs-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-rocker-radio-tamil-gold-70s-90s",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-rocker-radio-tamil-gold-70s-90s"
+      ]
+    },
+    {
+      "stationId": "stage29-mgr-sivaji-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-mgr-sivaji-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-spb-online-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-spb-online-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-harris-jayaraj-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-harris-jayaraj-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-ks-chitra-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ks-chitra-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-deva-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-deva-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-kj-yesudas-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kj-yesudas-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-tms-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tms-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-s-janaki-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-s-janaki-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-mano-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-mano-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-spb-old-hits-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-spb-old-hits-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-ilayaraja-voice-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ilayaraja-voice-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-top-news-thamizh-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-top-news-thamizh-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-santhosh-narayanan-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-santhosh-narayanan-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-arrahman-classic",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-arrahman-classic"
+      ]
+    },
+    {
+      "stationId": "stage29-makkal-thilagam-mgr",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-makkal-thilagam-mgr"
+      ]
+    },
+    {
+      "stationId": "stage29-ms-viswanathan-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ms-viswanathan-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-simbu-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-simbu-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-maestro-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-maestro-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-yuvan-shankar-raja-ysr",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-yuvan-shankar-raja-ysr"
+      ]
+    },
+    {
+      "stationId": "stage29-arrahman-classic-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-arrahman-classic-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-rajini-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-rajini-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-na-muthukumar-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-na-muthukumar-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-imman-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-imman-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-thaman-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-thaman-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-jp-chandrababu-hits",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-jp-chandrababu-hits"
+      ]
+    },
+    {
+      "stationId": "stage29-vijay-tamil-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-vijay-tamil-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-isai-manam",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-isai-manam"
+      ]
+    },
+    {
+      "stationId": "stage29-tamil-kadavul-murugan-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-tamil-kadavul-murugan-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-shaivam-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-shaivam-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-ayngaran-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ayngaran-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-aadhi-sivan-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-aadhi-sivan-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-om-sakthi-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-om-sakthi-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-ss-devotional-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-ss-devotional-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-guru-raghavendra-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-guru-raghavendra-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-vishnu-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-vishnu-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-saranam-ayyappa-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-saranam-ayyappa-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-sai-fm-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-sai-fm-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-aanmeega-sudar",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-aanmeega-sudar"
+      ]
+    },
+    {
+      "stationId": "stage29-sivasubramaniyam-ayyappan-songs-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-sivasubramaniyam-ayyappan-songs-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-sree-kurumba-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-sree-kurumba-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-dharisanam-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-dharisanam-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-singampunari-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-singampunari-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-yazh-news",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-yazh-news"
+      ]
+    },
+    {
+      "stationId": "stage29-kalai-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kalai-fm"
+      ]
+    },
+    {
+      "stationId": "stage29-kanal-music",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kanal-music"
+      ]
+    },
+    {
+      "stationId": "stage29-kandhakapookkal-radio",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-kandhakapookkal-radio"
+      ]
+    },
+    {
+      "stationId": "stage29-krishna-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage29-source-krishna-fm"
+      ]
+    },
+    {
+      "stationId": "stage32-vividh-bharati-bengaluru",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-vividh-bharati-bengaluru"
+      ]
+    },
+    {
+      "stationId": "stage32-bhakti-sangeet",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-bhakti-sangeet"
+      ]
+    },
+    {
+      "stationId": "stage32-ap9-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-ap9-fm"
+      ]
+    },
+    {
+      "stationId": "stage32-air-telugu-online",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-air-telugu-online"
+      ]
+    },
+    {
+      "stationId": "stage32-fm-rainbow-vijayawada",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-fm-rainbow-vijayawada"
+      ]
+    },
+    {
+      "stationId": "stage32-retro-bollywood-90s",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-retro-bollywood-90s"
+      ]
+    },
+    {
+      "stationId": "stage32-sgpc-gurbani",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-sgpc-gurbani"
+      ]
+    },
+    {
+      "stationId": "stage32-ran-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-ran-fm"
+      ]
+    },
+    {
+      "stationId": "stage32-neth-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-neth-fm"
+      ]
+    },
+    {
+      "stationId": "stage32-siyatha-fm",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-siyatha-fm"
+      ]
+    },
+    {
+      "stationId": "stage32-malayalam-bhakthi",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-malayalam-bhakthi"
+      ]
+    },
+    {
+      "stationId": "stage32-digital-malayali",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-digital-malayali"
+      ]
+    },
+    {
+      "stationId": "stage32-radio-choklate",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-radio-choklate"
+      ]
+    },
+    {
+      "stationId": "stage32-dnyaneshwari",
+      "level": "catalogue",
+      "supportingUrl": null,
+      "evidenceSourceIds": [
+        "stage32-source-dnyaneshwari"
+      ]
+    },
+    {
+      "stationId": "stage33-red-fm-calgary",
+      "level": "catalogue",
+      "supportingUrl": "https://redfm.ca/",
+      "evidenceSourceIds": [
+        "stage33-red-canada-official",
+        "stage33-red-calgary-stream"
+      ]
+    }
+  ]
+}
