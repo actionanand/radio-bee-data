@@ -8,6 +8,7 @@ import {readCatalogue,validateCatalogue,validateRepository} from '../scripts/val
 import {buildStatic} from '../scripts/build-static.mjs';
 import {fileInventory,sha256,v1BaselineErrors} from '../scripts/versioned-publication.mjs';
 import {generateBrowseIndex} from '../scripts/generate-browse-index.mjs';
+import {publicJsonText,publicSnapshot} from '../scripts/publication-profiles.mjs';
 
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const json=name=>JSON.parse(readFileSync(path.join(root,name)));
@@ -22,11 +23,18 @@ function fixture(t){
   return temporary;
 }
 
-test('legacy source and generated v1 are byte-identical to the complete approved master production snapshot',t=>{
+test('legacy v1 source stays frozen while published output contains safe listener notes',t=>{
   const temporary=fixture(t);assert.deepEqual(v1BaselineErrors(temporary),[]);
   assert.deepEqual(validateRepository(temporary),[]);
   buildStatic(temporary,{requireV2:true,preserveV1:true});
-  assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
+  const published=readCatalogue(temporary,'v1');
+  const cleaned=publicSnapshot(published,'v1');
+  const distStations=JSON.parse(readFileSync(path.join(temporary,'dist/v1/stations.json')));
+  const distDiscovery=JSON.parse(readFileSync(path.join(temporary,'dist/v1/discovery-stations.json')));
+  assert.deepEqual(distStations,cleaned.stations);
+  assert.deepEqual(distDiscovery,cleaned.discoveryStations);
+  assert.ok(distStations.every(row=>row.notes===null));
+  assert.ok(distDiscovery.every(row=>typeof row.notes==='string'&&!/stream|verification|licen[cs]e|FFmpeg|URL|rights|TODO/i.test(row.notes)));
   const baseline=json('docs/stage15/v1-production-baseline.json');
   assert.equal(baseline.baseCommit,'d32b32c703256e042aa4b2f17dd5823528a8fa59');assert.equal(Object.keys(baseline.files).length,25);
   const index=JSON.parse(readFileSync(path.join(temporary,'dist/v1/index.json')));assert.equal(index.schemaVersion,1);assert.equal(index.catalogVersion,'1.9.0');
@@ -49,7 +57,11 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
 test('every v2 manifest, locale and artwork reference resolves to an identical self-contained published file',t=>{
   const temporary=fixture(t),dest=buildStatic(temporary,{requireV2:true,preserveV1:true}),d=readCatalogue(temporary,'v2');
   assert.equal(d.index.schemaVersion,2);assert.equal(d.index.catalogVersion,'2.8.6');
-  for(const file of ['index.json',...Object.values(d.index.files),...d.index.locales.map(locale=>d.index.localizationRoot+locale+'.json')])assert.deepEqual(readFileSync(path.join(dest,'v2',file)),readFileSync(path.join(temporary,'data/v2',file)),file);
+  for(const file of ['index.json',...Object.values(d.index.files),...d.index.locales.map(locale=>d.index.localizationRoot+locale+'.json')]) {
+    const raw=readFileSync(path.join(temporary,'data/v2',file));
+    const redacted=file.endsWith('.json')?publicJsonText('v2',file,JSON.parse(raw)):null;
+    assert.deepEqual(readFileSync(path.join(dest,'v2',file)),redacted===null?raw:Buffer.from(redacted),file);
+  }
   for(const row of [...d.networks,...d.stations,...d.discoveryStations])if(row.logoPath)assert.deepEqual(readFileSync(path.join(dest,'v2',row.logoPath)),readFileSync(path.join(temporary,'data/v2',row.logoPath)));
   assert.equal(d.stationMigrations.schemaVersion,1,'migration document retains its independent format version');
   assert.equal(d.browseIndex.schemaVersion,2);
@@ -169,7 +181,7 @@ test('unreferenced v2 localization and artwork files never expand the exact prod
   for(const file of extra)assert.ok(!existsSync(path.join(dest,'v2',file)),file);
   assert.deepEqual(fileInventory(dest),expectedPublished);
   assert.deepEqual(fileInventory(path.join(dest,'v2/i18n')),['en.json','sa.json','ta.json']);
-  assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
+  assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
 });
 
 test('legacy fixture publication also excludes unreferenced localization and artwork',t=>{
@@ -178,7 +190,7 @@ test('legacy fixture publication also excludes unreferenced localization and art
   // The production CLI rejects extra v1 sources via its freeze guard. Even a
   // non-frozen legacy test build must not copy them into the publication.
   const dest=buildStatic(temporary);
-  assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
+  assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
   assert.deepEqual(fileInventory(dest),expectedPublished);
 });
 
@@ -190,7 +202,7 @@ test('a referenced v2 station image resolves under v2 with identical bytes',t=>{
   const published=new URL(logoPath,'https://actionanand.github.io/radio-bee-data/v2/');
   assert.equal(published.pathname,'/radio-bee-data/v2/'+logoPath);
   assert.deepEqual(readFileSync(path.join(dest,'v2',logoPath)),bytes);
-  assert.deepEqual(v1BaselineErrors(temporary,'dist/v1'),[]);
+  assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
 });
 
 test('historical v2 placeholders cannot publish nonempty unreviewed content',t=>{
@@ -226,4 +238,23 @@ for(const {relative,directory=false,inside=false,dangling=false}of linkCases)tes
   assert.throws(()=>buildStatic(temporary,{requireV2:true,preserveV1:true}),/symlink/i);
   assert.equal(readFileSync(path.join(dest,'sentinel'),'utf8'),'keep');
   assert.deepEqual(fileInventory(dest),['sentinel']);
+});
+
+test('published V2 profiles cover every station and redact operational notes',t=>{
+  const temporary=fixture(t),dest=buildStatic(temporary,{requireV2:true,preserveV1:true});
+  const published=JSON.parse(readFileSync(path.join(dest,'v2/stations.json')));
+  const source=readCatalogue(temporary,'v2');
+  assert.equal(published.length,240);
+  assert.deepEqual(published.map(station=>station.id),source.stations.map(station=>station.id));
+  for(const row of published){
+    assert.equal(typeof row.about,'string');
+    assert.ok(row.about.length>=65);
+    assert.equal(row.notes,null);
+    assert.ok(!/FFmpeg|FFprobe|HLS playlist|rights unconfirmed|technical trial|stream URL/i.test(row.about));
+  }
+  const sources=JSON.parse(readFileSync(path.join(dest,'v2/sources.json')));
+  assert.ok(sources.every(row=>row.notes==='Catalogue source reference.'));
+  const links=published.flatMap(row=>row.streams);
+  assert.equal(links.length,245);
+  assert.ok(links.every(row=>typeof row.url==='string'));
 });

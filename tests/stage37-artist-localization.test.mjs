@@ -9,7 +9,8 @@ test('all 31 artists have valid Tamil and Devanagari names, preserving canonical
  const data=readCatalogue(undefined,'v2');assert.equal(data.artists.length,31);
  const baseline=JSON.parse(readFileSync(new URL('../docs/stage37/baseline.json',import.meta.url)));
  const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
- assert.equal(hash(data.stations),baseline.stations);assert.equal(hash(data.artists),baseline.artists);
+ assert.equal(hash(data.stations.map(({about,...rest})=>rest)),baseline.stations);
+ assert.ok(data.stations.every(station=>typeof station.about==='string'&&station.about.length>=65));assert.equal(hash(data.artists),baseline.artists);
  for(const locale of ['ta','sa'])assert.equal(hash(data.i18n[locale].stationNames),baseline[locale]);
  assert.deepEqual(artistNameErrors(data),[]);
  for(const locale of ['ta','sa'])assert.deepEqual(Object.keys(data.i18n[locale].artistNames).sort(),data.artists.map(a=>a.id).sort());

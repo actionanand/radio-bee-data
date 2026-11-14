@@ -146,3 +146,9 @@ or individual entries; consumers then use `station.name`. It is independent of
 UI-label key parity and broadcast-language metadata. The loader rejects duplicate
 JSON keys and the validator checks IDs, Unicode and numerical brand preservation.
 No station schema or v1 payload changes. See [Stage 36](STAGE36-STATION-NAME-LOCALIZATION.md).
+
+## Public station profiles (2026-11-14)
+
+The canonical source records retain internal editorial and stream-review notes for maintainers. The static publication step sanitizes `notes` in v1/v2 station and source records, including nested audit notes. V1 discovery-only entries receive a short, catalogue-derived listener description; its other station records keep `notes: null`. V1 source bytes and schema remain frozen for compatibility. V2 requires a separate `about` field for every active station (240 entries at this change) and never displays the internal `notes` field. Review provenance for About text is documented in `docs/station-about-evidence.json`, which is deliberately not published.
+
+The source repository itself is public: the sanitization protects the **distributed static JSON**, not access to historical source commits. Do not place secrets in the editorial source tree. Streams, language, genre, licensed frequency and station identity fields remain public as required by the client.

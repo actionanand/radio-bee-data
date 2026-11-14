@@ -1,9 +1,10 @@
-import {copyFileSync,constants,existsSync,lstatSync,mkdirSync,rmSync,writeFileSync} from 'node:fs';
+import {copyFileSync,constants,existsSync,lstatSync,mkdirSync,rmSync,writeFileSync,readFileSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {readCatalogue,validateCatalogue} from './validate.mjs';
 import {fileInventory,v1BaselineErrors} from './versioned-publication.mjs';
 import {inspectLogo} from './logo-assets.mjs';
+import {publicJsonText,publicSnapshot} from './publication-profiles.mjs';
 
 const localizationFiles=['i18n/en.json','i18n/ta.json','i18n/sa.json'];
 // Explicit legacy placeholders, retained in both versions; never glob assets/.
@@ -42,11 +43,18 @@ export function buildStatic(root=projectRoot,{requireV2=false,preserveV1=false}=
       // A file-only copy never recreates directory links or preserves special entries.
       if(!lstatSync(source).isFile())throw Error('Publication source is not a regular file: '+source);
       mkdirSync(path.dirname(target),{recursive:true});
-      copyFileSync(source,target,constants.COPYFILE_EXCL);
+      const transformed=file.endsWith('.json')
+        ? publicJsonText(version,file,JSON.parse(readFileSync(source,'utf8')))
+        : null;
+      if(transformed===null)copyFileSync(source,target,constants.COPYFILE_EXCL);
+      else writeFileSync(target,transformed,{flag:'wx'});
     }
   }
   writeFileSync(path.join(dest,'index.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RadioBee data</title><main><h1>RadioBee catalogue</h1><p>Candidate URLs do not establish playback availability or listening, recording or redistribution permission.</p><p><a href="./v1/index.json">Legacy API v1 — catalogue 1.9.0</a></p><p><a href="./v2/index.json">Metadata and navigation API v2 — catalogue 2.0.0</a></p></main></html>\n');
-  if(preserveV1){const errors=v1BaselineErrors(root,'dist/v1');if(errors.length)throw Error(errors.join('\n'));}
+  if(preserveV1){
+    const errors=validateCatalogue(publicSnapshot(readCatalogue(root,'v1'),'v1'),{root,version:'v1'});
+    if(errors.length)throw Error('Sanitized v1 output invalid: '+errors.join('; '));
+  }
   const expected=['index.html',...plans.flatMap(({version,files})=>files.map(file=>version+'/'+file))].sort();
   if(JSON.stringify(fileInventory(dest))!==JSON.stringify(expected))throw Error('Generated publication inventory differs from allowlists');
   console.log('Built '+versions.map(v=>'dist/'+v).join(' and ')+' with static publication allowlists.');
