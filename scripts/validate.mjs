@@ -122,7 +122,7 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
     if (item.listingStatus === 'reviewed' && (!item.sourceIds || !item.sourceIds.length)) fail('reviewed requires source');
     if (item.website !== null && !validHttps(item.website)) fail('invalid website URL');
     if (!isNullableText(item.notes)) fail('invalid notes');
-    if (isV2 && (typeof item.about !== 'string' || item.about.trim().length < 65 || item.about.length > 650)) fail('invalid public About description');
+    if (isV2 && item.about !== undefined && (typeof item.about !== 'string' || item.about.trim().length < 65 || item.about.length > 650)) fail('invalid public About description');
     if (item.frequencyMHz !== null && (!Number.isFinite(item.frequencyMHz) || item.frequencyMHz < 65 || item.frequencyMHz > 110 || item.delivery !== 'fm')) fail('invalid FM frequency');
     const hierarchy = [['regionId','state'],['districtId','district'],['localityId','locality']];
     for (const [key, type] of hierarchy) {
