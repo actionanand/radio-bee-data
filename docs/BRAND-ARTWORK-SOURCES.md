@@ -2,6 +2,8 @@
 
 This release intentionally replaces placeholder radio-device art with **remote station-brand image references**. No third-party image bytes are copied into the GitHub repository. The URLs are used as nominative station identifications; embedding permissions, hotlinking policies, changes to image content and reliability should be checked before a long-term commercial release.
 
+**Visual verification:** On 2026-11-15, the 11 retained URLs returned image bytes from GitHub Actions and their content was inspected; each showed the named radio/network branding. The dropped Hello FM URL failed DNS and was not published.
+
 **Source ranking:** broadcaster-origin image; broadcaster's hosted social/stream profile; reputable radio catalogue showing the named broadcaster. Do not use a logo for another broadcaster, even when the station names sound similar.
 
 | Network ID | Published image URL | Brand identification source |
