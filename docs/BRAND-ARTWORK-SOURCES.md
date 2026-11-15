@@ -131,3 +131,10 @@ Station-specific photos:
 - `stage29-tamil-kadavul-murugan-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/20190821%20Lord%20Murugan%20statue-1.jpg
 
 Wikimedia sources have individual licenses and attribution requirements. The joint MGR/Sivaji image remains subject to its publisher's copyright and hotlink policy; embedding is not a license to redistribute.
+
+
+### Remote image audit corrections
+
+The GitHub Actions live image audit reported HTTP 404 for these publisher-domain favicon candidates. They were removed to avoid showing broken icons: `hello-fm`, `kumari-tamil`, `capital-lk`, `canadian-tamil-radio`, `atbc`, `european-tamils-union`, `tamil-murasam`, `star-fm-lk`, `christian-media-india`, `namathu-fm`, `inbathamil-oli`. The generic provider favicons for `annai-fm` and `tarana` were also removed because they did not faithfully identify a radio brand.
+
+Artist/thematic external links are *not* guaranteed to resolve: they remain candidate references until individually checked. They may fall back at runtime.
