@@ -39,6 +39,9 @@ jobs:
       - run: npm ci
       - run: npm run validate
       - run: npm test
+      - name: Audit remote branded station artwork (PR only)
+        if: github.event_name == 'pull_request'
+        run: node scripts/check-brand-artwork.mjs
       - run: npm run build
       - uses: actions/upload-artifact@v4
         with:

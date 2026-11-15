@@ -13,7 +13,7 @@ import {publicJsonText,publicSnapshot} from '../scripts/publication-profiles.mjs
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const json=name=>JSON.parse(readFileSync(path.join(root,name)));
 const saved=json('docs/stage15/enriched-snapshot.json');
-const expectedPublished=[...json('docs/stage15/published-files.json').files,'v2/artists.json','v2/home-stations.json'].sort();
+const expectedPublished=[...json('docs/stage15/published-files.json').files.filter(file=>!file.startsWith('v2/assets/logos/networks/') || file.endsWith('.gitkeep')),'v2/artists.json','v2/home-stations.json'].sort();
 function fixture(t){
   const temporary=mkdtempSync(path.join(os.tmpdir(),'radiobee-dual-'));
   t.after(()=>rmSync(temporary,{recursive:true,force:true}));
@@ -78,7 +78,8 @@ test('explicit API directory checks reject mixed schema versions and unsafe dire
 });
 
 test('v2 validation resolves artwork from v2 instead of silently reusing healthy v1 assets',t=>{
-  const temporary=fixture(t),data=readCatalogue(temporary,'v2'),network=data.networks.find(n=>n.logoPath);
+  const temporary=fixture(t),data=readCatalogue(temporary,'v2'),network=data.networks.find(n=>n.id==='akashvani');
+  network.logoPath='assets/logos/networks/akashvani-radio.png';
   writeFileSync(path.join(temporary,'data/v2',network.logoPath),'invalid image');
   assert.ok(validateCatalogue(data,{root:temporary,version:'v2'}).some(e=>e.includes('logoPath')));
   assert.deepEqual(validateCatalogue(readCatalogue(temporary),{root:temporary,version:'v1'}),[]);

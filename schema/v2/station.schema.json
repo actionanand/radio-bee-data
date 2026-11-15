@@ -136,6 +136,12 @@
       "maxLength": 650,
       "description": "Listener-facing description independent of technical notes."
     },
+    "logoUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Reviewed public station-brand image URL (original publisher or reputable station directory)."
+    },
     "logoPath": {
       "type": "string",
       "pattern": "^assets/logos/(stations|networks)/[a-z0-9]+(-[a-z0-9]+)*\\.(webp|png)$",
