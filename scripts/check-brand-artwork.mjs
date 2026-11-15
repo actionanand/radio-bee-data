@@ -47,7 +47,7 @@ if(process.env.ARTWORK_PREVIEW === '1'){
       const response=await fetch(network.logoUrl,{headers:{'User-Agent':'Mozilla/5.0'}});
       if(!response.ok)throw new Error(String(response.status));
       const bytes=Buffer.from(await response.arrayBuffer());
-      if(bytes.length<120000)console.log('ARTWORK_PREVIEW '+id+' '+response.headers.get('content-type')+' '+bytes.toString('base64'));
+      if(bytes.length<1500000)console.log('ARTWORK_PREVIEW '+id+' '+response.headers.get('content-type')+' '+bytes.toString('base64'));
     }catch(error){console.error('PREVIEW ERROR '+id+' '+error.message);}
   }
 }
