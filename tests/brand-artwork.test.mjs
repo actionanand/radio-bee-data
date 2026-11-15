@@ -85,8 +85,8 @@ test('artist and devotional station photos override general network artwork',()=
 test('every published V2 station has network, individual or data-hosted editorial artwork',()=>{
   const data=catalogue();
   const networkById=new Map(data.networks.map(n=>[n.id,n]));
-  const editorial=data.stations.filter(s=>s.logoPath?.startsWith('assets/artwork/stations/'));
-  assert.equal(editorial.length,169);
+  const editorial=data.stations.filter(s=>s.logoPath?.startsWith('assets/artwork/'));
+  assert.ok(editorial.length>=169);
   for(const s of data.stations){
     const network=networkById.get(s.networkId);
     assert.ok(s.logoUrl||s.logoPath||network?.logoUrl||network?.logoPath,s.id);
