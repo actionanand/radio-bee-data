@@ -105,4 +105,29 @@ Station-specific photos:
 - `stage29-maestro-hits`: Ilaiyaraaja portrait for Maestro themed radio — https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_(cropped).jpg
 - `stage29-tamil-kadavul-murugan-fm`: Lord Murugan Batu Caves Wikimedia Commons artwork; thematic photo — https://commons.wikimedia.org/wiki/Special:FilePath/20190821_Lord_Murugan_statue-1.jpg
 
-**Outstanding:** The MGR & Sivaji joint photograph has not been added; a verified image depicting both people together must be identified before use. Other artist and devotional stations without a suitable source retain the app fallback. Image licensing and reuse terms depend on individual image sources.
+**MGR & Sivaji joint photograph:** CineUlagam published a photo depicting both actors at the Bakkiyaraj wedding; we link the publisher's image rather than copying it to the repository. Source: https://cineulagam.com/article/mgr-and-sivaji-at-bakkiyaraj-marriage-1655809347 . Other artist and devotional stations without suitable sourced photos keep a station-specific generated image or the app fallback. Other artist and devotional stations without a suitable source retain the app fallback. Image licensing and reuse terms depend on individual image sources.
+
+
+### Additional sourced portraits (link-only)
+
+- `ilayaraja-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `80s80s-michael-jackson-de`: https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg
+- `exclusively-michael-jackson-ae`: https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg
+- `exclusively-queen-ae`: https://commons.wikimedia.org/wiki/Special:FilePath/Queen%20-%20Freddie%20Mercury.jpg
+- `stage29-mgr-sivaji-radio`: https://cdn.ibcstack.com/article/9823579d-1b30-4f21-a5c0-8aa949ce7905/22-62b1a543a3fa2.webp
+- `stage29-spb-online-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG
+- `stage29-harris-jayaraj-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Harris%20Jayaraj%20at%20Gethu%20Audio%20Launch%20(cropped).jpg
+- `stage29-ks-chitra-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/K%20s%20chithra.jpg
+- `stage29-kj-yesudas-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Yesudas%20K.J.jpg
+- `stage29-s-janaki-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/S%20Janaki%20in%20Pune%2C%20India%202007%20cropped.jpg
+- `stage29-spb-old-hits-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG
+- `stage29-ilayaraja-voice-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `stage29-santhosh-narayanan-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Santhosh%20Narayanan%20-%20WIki%20profile.jpg
+- `stage29-arrahman-classic`: https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg
+- `stage29-makkal-thilagam-mgr`: https://commons.wikimedia.org/wiki/Special:FilePath/MGR%20(cropped).jpg
+- `stage29-maestro-hits`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `stage29-arrahman-classic-hits`: https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg
+- `stage29-rajini-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Rajinikanth%20in%202019.jpg
+- `stage29-tamil-kadavul-murugan-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/20190821%20Lord%20Murugan%20statue-1.jpg
+
+Wikimedia sources have individual licenses and attribution requirements. The joint MGR/Sivaji image remains subject to its publisher's copyright and hotlink policy; embedding is not a license to redistribute.
