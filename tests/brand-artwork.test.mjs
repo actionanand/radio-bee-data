@@ -5,9 +5,9 @@ import {readCatalogue,validateCatalogue,validPublicLogoUrl} from '../scripts/val
 
 const catalogue = () => readCatalogue(undefined,'v2');
 
-test('V2 replaces generic network radio pictures with 12 reviewed brand URLs',()=>{
+test('V2 replaces generic network radio pictures with 11 reviewed brand URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,12);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,11);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
@@ -30,7 +30,7 @@ test('Akashvani and Suryan share their respective network brand artwork, and Sri
 
 test('Unverified or unreachable imagery is left unspecified, allowing RadioBee fallback',()=>{
   const data=catalogue();
-  for(const id of ['stage29-network-tamil-kadavul-murugan-fm','stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','shaivam','star-fm-lk','boom-tamil','big-fm']) {
+  for(const id of ['stage29-network-tamil-kadavul-murugan-fm','stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','shaivam','star-fm-lk','boom-tamil','big-fm','hello-fm']) {
     const network=data.networks.find(n=>n.id===id);
     assert.ok(network,id);
     assert.equal(network.logoUrl,undefined,id);
