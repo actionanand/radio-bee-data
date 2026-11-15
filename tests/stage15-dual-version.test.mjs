@@ -41,7 +41,12 @@ test('legacy v1 source stays frozen while published output contains safe listene
 });
 
 test('every enriched Stage 15 metadata and asset byte survives migration; only release markers change',()=>{
-  assert.deepEqual(fileInventory(path.join(root,'data/v2')),[...Object.keys(saved.files),'artists.json','home-stations.json'].sort());
+  // New v2-only, reviewed editorial artwork is additive and does not modify the
+  // frozen Stage 15 asset baseline.
+  const inventory=fileInventory(path.join(root,'data/v2'));
+  assert.deepEqual(inventory.filter(file=>!file.startsWith('assets/artwork/stations/')),
+    [...Object.keys(saved.files),'artists.json','home-stations.json'].sort());
+  assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/stations/')).length,150);
   const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
