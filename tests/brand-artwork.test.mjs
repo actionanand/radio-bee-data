@@ -76,8 +76,8 @@ test('new KEXP and WNYC network artwork is verified and independently identified
 test('artist and devotional station photos override general network artwork',()=>{
   const data=catalogue();
   const map=new Map(data.stations.map(s=>[s.id,s]));
-  assert.match(map.get('80s80s-michael-jackson-de').logoUrl,/Michael_Jackson/);
-  assert.match(map.get('exclusively-michael-jackson-ae').logoUrl,/Michael_Jackson/);
+  assert.match(map.get('80s80s-michael-jackson-de').logoUrl,/Michael(?:_|%20| )Jackson/);
+  assert.match(map.get('exclusively-michael-jackson-ae').logoUrl,/Michael(?:_|%20| )Jackson/);
   assert.match(map.get('stage29-tamil-kadavul-murugan-fm').logoUrl,/Murugan/);
   for(const s of map.values())if(s.logoUrl)assert.ok(validPublicLogoUrl(s.logoUrl),s.id);
 });
