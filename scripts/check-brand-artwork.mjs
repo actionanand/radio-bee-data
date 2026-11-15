@@ -38,3 +38,16 @@ for(const n of withArtwork) {
 }
 console.log(`Image audit: ${results.filter(r=>r.ok).length}/${results.length} accessible from GitHub Actions`);
 if(results.some(r=>!r.ok))process.exitCode=1;
+
+if(process.env.ARTWORK_PREVIEW === '1'){
+  for(const id of ['akashvani','suryan-in','sooriyan-lk']){
+    const network=withArtwork.find(n=>n.id===id);
+    if(!network) continue;
+    try{
+      const response=await fetch(network.logoUrl,{headers:{'User-Agent':'Mozilla/5.0'}});
+      if(!response.ok)throw new Error(String(response.status));
+      const bytes=Buffer.from(await response.arrayBuffer());
+      if(bytes.length<120000)console.log('ARTWORK_PREVIEW '+id+' '+response.headers.get('content-type')+' '+bytes.toString('base64'));
+    }catch(error){console.error('PREVIEW ERROR '+id+' '+error.message);}
+  }
+}
