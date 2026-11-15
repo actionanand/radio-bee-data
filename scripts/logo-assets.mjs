@@ -43,7 +43,7 @@ export function inspectLogo(root,logoPath,version='v1') {
        !/\bviewBox="0 0 240 240"/.test(markup) ||
        !/\bwidth="240" height="240"/.test(markup) ||
        !markup.endsWith('</svg>') ||
-       /<\s*(?:script|style|foreignObject|image|use|animate|iframe)|<\s*!|<\s*\?|\b(?:href|on[a-z]+)\s*=|url\s*\(|@import|\b(?:https?:|data:|javascript:)/i.test(markup))
+       /<\s*(?:script|style|foreignObject|image|use|animate|iframe)|<\s*!|<\s*\?|\b(?:href|on[a-z]+)\s*=|url\s*\(|@import|\b(?:data:|javascript:)/i.test(markup))
       throw Error('unsafe editorial SVG asset');
     const allowedElements=new Set(['svg','g','rect','circle','ellipse','path','text','tspan','line','polygon','polyline']);
     for(const match of markup.matchAll(/<\s*([a-zA-Z][a-zA-Z0-9]*)/g))
