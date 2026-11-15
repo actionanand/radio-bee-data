@@ -32,5 +32,5 @@ The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Mur
 - **WNYC 93.9 FM**: WNYC's wordmark from Wikimedia Commons (original WNYC source, protected as trademark); image URL `https://upload.wikimedia.org/wikipedia/commons/e/ec/WNYC_logo.png`. Evidence: https://commons.wikimedia.org/wiki/File:WNYC_logo.png
 - Unverified stations are tracked in `docs/ARTWORK-MISSING-V2.md`; no speculative images are assigned.
 
-- **WQXR 105.9 FM**: 2021 station logo, derived from WQXR's website and archived on Wikimedia Commons. https://commons.wikimedia.org/wiki/File:WQXR-FM_logo.svg
-- **RAAGA Malaysia**: Astro Radio RAAGA 2018 station logo, Wikimedia Commons identity attributed to Astro Radio. https://commons.wikimedia.org/wiki/File:Raaga_(2018).svg
+- **WQXR 105.9 FM**: station logo displayed on its TuneIn radio profile. https://tunein.com/radio/WQXR-FM-1059-s27729/
+- **RAAGA Malaysia**: Astro Radio RAAGA Astro Radio's RAAGA logo mirrored by the FreemediaMY radio directory. https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY

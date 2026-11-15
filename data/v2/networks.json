@@ -398,7 +398,7 @@
     ],
     "kind": "broadcaster",
     "website": "https://raaga.my/",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Raaga_%282018%29.svg/512px-Raaga_%282018%29.svg.png"
+    "logoUrl": "https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freelisten/logos/local/AstroRadio/raaga.png"
   },
   {
     "id": "thaalam-media",
@@ -1241,7 +1241,7 @@
     ],
     "kind": "online",
     "website": "https://www.wqxr.org/",
-    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/WQXR-FM_logo.svg/512px-WQXR-FM_logo.svg.png"
+    "logoUrl": "https://cdn-profiles.tunein.com/s27729/images/logog.png?t=2"
   },
   {
     "id": "stage24-chennai-live",
