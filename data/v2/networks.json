@@ -163,7 +163,8 @@
     "broadcasterSourceIds": [
       "stage15-itn-organisation"
     ],
-    "broadcasterRelationship": "public-broadcaster"
+    "broadcasterRelationship": "public-broadcaster",
+    "logoUrl": "https://cdn.brandfetch.io/id7dYvpMT-/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1767766219614"
   },
   {
     "id": "slbc",
@@ -387,7 +388,8 @@
       "MY"
     ],
     "kind": "public",
-    "website": "https://radio.rtm.gov.my/station/minnalfm"
+    "website": "https://radio.rtm.gov.my/station/minnalfm",
+    "logoUrl": "https://rtm-images.glueapi.io/720x0/radio-asset/MINNAL_FM.png"
   },
   {
     "id": "astro-audio",
@@ -397,7 +399,8 @@
       "MY"
     ],
     "kind": "broadcaster",
-    "website": "https://raaga.my/"
+    "website": "https://raaga.my/",
+    "logoUrl": "https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freelisten/logos/local/AstroRadio/raaga.png"
   },
   {
     "id": "thaalam-media",
@@ -472,7 +475,8 @@
     "broadcasterSourceIds": [
       "stage15-lotus-profile"
     ],
-    "broadcasterRelationship": "public-broadcaster"
+    "broadcasterRelationship": "public-broadcaster",
+    "logoUrl": "https://admango.cdn.mangomolo.com/analytics/uploads/194/688348f504.png"
   },
   {
     "id": "shaivam",
@@ -707,7 +711,8 @@
     "broadcasterSourceIds": [
       "stage15-4eb-tamil"
     ],
-    "broadcasterRelationship": "publisher-operator"
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://higherlogicdownload.s3.amazonaws.com/CBAA/f91521e2-cb7a-4f99-8ca0-552342c290f7/UploadedImages/Photos/DAB_Logos/4EB_Logo_G.png"
   },
   {
     "id": "5ebi",
@@ -1217,7 +1222,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.kexp.org/"
+    "website": "https://www.kexp.org/",
+    "logoUrl": "https://www.kexp.org/media/filer_public_thumbnails/filer_public/4f/52/4f52b5aa-bd93-4fe7-ab94-2d3258a3804c/kexp_primarylogo_black.png__300x356_q85_crop_subsampling-2_upscale.png"
   },
   {
     "id": "stage24-wnyc",
@@ -1227,7 +1233,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.wnyc.org/"
+    "website": "https://www.wnyc.org/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/WNYC_logo.png"
   },
   {
     "id": "stage24-wqxr",
@@ -1237,7 +1244,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.wqxr.org/"
+    "website": "https://www.wqxr.org/",
+    "logoUrl": "https://cdn-profiles.tunein.com/s27729/images/logog.png?t=2"
   },
   {
     "id": "stage24-chennai-live",

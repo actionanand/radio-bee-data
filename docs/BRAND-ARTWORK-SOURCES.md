@@ -25,3 +25,17 @@ Hello FM is temporarily left without artwork because its previous image hostname
 The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Murugan; 100% Love Radio; 100% New Songs; 100% Sad Songs) keep the standard RadioBee fallback. Remaining unsupported networks also keep fallback.
 
 **Risk and testing:** remote images can disappear, hotlink protection can block them, or the publisher may update its brand. The app only accepts curated HTTPS raster URLs from reviewed hosts; on network/image error it falls back. Confirm on a real device before merge. Do not interpret a public web image as a grant to redistribute it. If redistribution permission is obtained, migrate to locally hosted, optimized WebP files with attribution where required. New logos should receive direct publisher review.
+
+## Incremental expansion — 2026-11-15
+
+- **KEXP 90.3 FM**: KEXP's own official press page provides the primary logo; image URL `https://www.kexp.org/media/filer_public_thumbnails/filer_public/4f/52/4f52b5aa-bd93-4fe7-ab94-2d3258a3804c/kexp_primarylogo_black.png__300x356_q85_crop_subsampling-2_upscale.png`. Official source: https://www.kexp.org/about/press/
+- **WNYC 93.9 FM**: WNYC's wordmark from Wikimedia Commons (original WNYC source, protected as trademark); image URL `https://upload.wikimedia.org/wikipedia/commons/e/ec/WNYC_logo.png`. Evidence: https://commons.wikimedia.org/wiki/File:WNYC_logo.png
+- Unverified stations are tracked in `docs/ARTWORK-MISSING-V2.md`; no speculative images are assigned.
+
+- **WQXR 105.9 FM**: station logo displayed on its TuneIn radio profile. https://tunein.com/radio/WQXR-FM-1059-s27729/
+- **RAAGA Malaysia**: Astro Radio RAAGA Astro Radio's RAAGA logo mirrored by the FreemediaMY radio directory. https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY
+
+- **Vasantham FM Sri Lanka**: distinct Vasantham FM logo from its indexed brand assets and station website; brand reference https://brandfetch.com/vasanthamfm.lk (logo URL `https://cdn.brandfetch.io/id7dYvpMT-/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1767766219614`).
+- **Radio 4EB** (98.1 FM and Global Digital): shared 4EB mark from Community Broadcasting Association of Australia, https://www.cbaa.org.au/community-broadcasting/community-radio-dab-directory .
+- **MINNALfm**: official RTM Klik radio station artwork, https://rtmklik.rtm.gov.my/radio/nasional/32964 .
+- **Lotus FM**: official broadcaster SABC+ station logo image, https://sabc-plus.com/radio/show/238067/Lotus-FM-Stories--GBV-Stories .

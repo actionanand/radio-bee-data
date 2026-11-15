@@ -5,9 +5,9 @@ import {readCatalogue,validateCatalogue,validPublicLogoUrl} from '../scripts/val
 
 const catalogue = () => readCatalogue(undefined,'v2');
 
-test('V2 replaces generic network radio pictures with 11 reviewed brand URLs',()=>{
+test('V2 replaces generic network radio pictures with 19 reviewed brand URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,11);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,19);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
@@ -60,4 +60,12 @@ test('Station schema permits an independently verified override without requirin
     assert.ok(item.properties.logoUrl);
     assert.equal(item.required.includes('logoUrl'),false);
   }
+});
+
+test('new KEXP and WNYC network artwork is verified and independently identified',()=>{
+  const data=catalogue();
+  const n=new Map(data.networks.map(x=>[x.id,x]));
+  assert.match(n.get('stage24-kexp').logoUrl,/^https:\/\/www\.kexp\.org\/.*\.png$/);
+  assert.match(n.get('stage24-wnyc').logoUrl,/^https:\/\/upload\.wikimedia\.org\/.*\.png$/);
+  assert.notEqual(n.get('stage24-kexp').logoUrl,n.get('stage24-wnyc').logoUrl);
 });
