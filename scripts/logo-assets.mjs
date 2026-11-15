@@ -1,7 +1,7 @@
 import {readFileSync,realpathSync,statSync,lstatSync} from 'node:fs';
 import path from 'node:path';
 
-export const logoPathPattern='^(?:assets/logos/(?:stations|networks)/[a-z0-9]+(?:-[a-z0-9]+)*\\.(?:webp|png)|assets/artwork/stations/[a-z0-9]+(?:-[a-z0-9]+)*\\.svg)$';
+export const logoPathPattern='^(?:assets/logos/(?:stations|networks)/[a-z0-9]+(?:-[a-z0-9]+)*\\.(?:webp|png)|assets/artwork/(?:stations|artists|genres)/[a-z0-9]+(?:-[a-z0-9]+)*\\.svg)$';
 export const validLogoPath=value=>typeof value==='string' && new RegExp(logoPathPattern).test(value);
 export function imageDimensions(bytes,extension) {
   if(extension==='.png' && bytes.length>=33 && bytes.subarray(0,8).equals(Buffer.from('89504e470d0a1a0a','hex')) && bytes.toString('ascii',12,16)==='IHDR' && bytes.readUInt32BE(8)===13)
@@ -28,7 +28,7 @@ export function inspectLogo(root,logoPath,version='v1') {
   const relative=path.relative(base,file);
   const folders=relative.split(path.sep);
   const allowed=(folders[0]==='assets' && folders[1]==='logos') ||
-    (folders[0]==='assets' && folders[1]==='artwork' && folders[2]==='stations');
+    (folders[0]==='assets' && folders[1]==='artwork' && ['stations','artists','genres'].includes(folders[2]));
   if(relative.startsWith('..') || path.isAbsolute(relative) || !allowed)throw Error('logoPath escapes allowed image directories');
   const size=statSync(file).size;
   if(!statSync(file).isFile() || size<1 || size>262144)throw Error('logo must be a file of 1–262144 bytes');
