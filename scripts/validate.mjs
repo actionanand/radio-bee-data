@@ -17,7 +17,7 @@ const isNullableText = value => value === null || isText(value);
 const approvedLogoHosts = new Set([
   'i1.sndcdn.com', 'static-media.streema.com', 'onecms-res.cloudinary.com',
   'cdn-profiles.tunein.com', 'www.americantamilradio.com',
-  'images.radiovolna.net', 'static.tuneyou.com', 'exchange4media.gumlet.io',
+  'static.tuneyou.com', 'exchange4media.gumlet.io',
   'djhonz7dexnot.cloudfront.net',
 ]);
 export function validPublicLogoUrl(value) {
