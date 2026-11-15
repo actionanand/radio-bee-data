@@ -1,52 +1,14 @@
-# V2 stations without verified artwork
+# V2 stations without verified or candidate artwork
 
-Generated from the current canonical V2 source catalogue. These stations use RadioBee's built-in fallback. They are **not** proven to lack a logo on the internet; an acceptable current, correctly attributed image has not yet been configured and audited.
+Generated from the current canonical V2 source catalogue. A station is listed only when neither the station nor its network has an image reference. This does not mean there is no suitable image online. Publisher-domain favicons are image **candidates**, not editorially verified radio logos; they may be generic, stale, or low-resolution.
 
-**Total:** 240; **with artwork after this batch:** 39; **still missing artwork:** 201.
+**Total:** 240; **with image references (including favicon candidates):** 83; **still without image references:** 157.
 
 | Station ID | Station name | Network | Publisher / evidence website |
 | --- | --- | --- | --- |
-| `luminous-radio-tamil` | Luminous Radio Tamil | Luminous Radio | [Website](https://www.luminousradio.com/radiochannel/luminous-radio-tamil/) |
-| `iskcon-nagercoil` | ISKCON Nagercoil / Vaani Seva | ISKCON Nagercoil | [Website](https://www.iskconnagercoil.com/radio) |
-| `beats-radio-us` | Beats Radio Tamil | Beats Radio LLC | [Website](https://www.beats-radio.com/) |
-| `thaalam-ch` | Thaalam Radio Switzerland | Thaalam Media | [Website](https://thaalam.ch/) |
-| `akkini-ch` | Akkini FM | Akkini FM | [Website](https://akkini.fm/) |
-| `etr-de` | European Tamil Radio | European Tamils Union e.V. | [Website](https://etr.fm/) |
-| `tamil-murasam-no` | Tamil Murasam Norway | Radio Tamil Murasam | [Website](https://tamilmurasam.com/) |
-| `shiva-tattvam` | Shiva Tattvam | Shaivam.org | [Website](https://shaivam.org/radio-shiva-tattvam/) |
-| `thiruneriya-thamizhosai` | Thiruneriya Thamizhosai | Shaivam.org | [Website](https://www.shaivam.org/radio-thiruneriya-thamizhosai/) |
-| `star-fm-srilanka` | Star FM Sri Lanka | Star FM | [Website](https://www.starfm.lk/) |
-| `boom-tamil` | Boom Tamil | Boom Tamil | [Website](https://www.boomtamil.com/) |
-| `tamil-panpalai` | Tamil Panpalai | Tamil Panpalai | [Website](https://tamilpanpalai.com/) |
-| `aural-radio` | Aural Radio Kerala | Aural Radio | [Website](https://www.auralradiokerala.in/) |
 | `ar-radio` | AR Radio Kerala | AR Radio | [Website](https://arradiokerala.blogspot.com/) |
-| `hello-chennai` | Hello FM Chennai | Hello FM | Not documented |
-| `east-fm-ca` | EAST FM 102.7 | EAST FM | [Website](https://eastfm.ca/main/) |
-| `swiss-tamil-radio-ch` | Swiss Tamil Radio | Swiss Tamil Radio | [Website](https://swisstamilradio.com/) |
-| `vaagai-tamil-de` | Vaagai Tamil FM | Vaagai Tamil FM | [Website](https://vtfm.net/) |
-| `a9-radio-ca` | A9 Radio | A9 Media | [Website](https://a9radio.com/) |
-| `amudham-fm-in` | Amudham FM | Amudham FM | [Website](https://www.amudhamfm.com/) |
-| `mauradio-mu` | mauRadio | Mauritius Global Diaspora | [Website](https://mauradio.com/) |
-| `theophony-tamil-in` | Theophony Tamil Christian Radio | Theophony Ministries | [Website](https://theophony.org/tamil-christian-radio/) |
-| `jei-fm-my` | JEIFM | JEIFM | [Website](https://jeifm.com/) |
-| `amen-fm-ca` | Amen FM | Amen FM | [Website](https://www.amenfm.com/) |
-| `live-fm-bh` | Live FM 107.2 | Live FM Bahrain | [Website](https://www.livefm.bh/) |
 | `quran-tamil-kw` | Quran in Tamil | Electronic Dawah Committee / Al-Najat Charity | [Website](https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/) |
-| `sweety-fm-in` | Sweety FM Tamil | Sweety FM | [Website](https://sweetyfm.com/) |
 | `hand-of-jesus-tamil-in` | Hand of Jesus Tamil | Hand of Jesus Ministries | [Website](https://handofjesus.in/radio-tv/radio/tamil/) |
-| `vaanmalar-fm-in` | Vaanmalar FM | Christian Media Centre India | [Website](https://vaanmalarfm.in/) |
-| `suno-tamil-qa` | Radio Suno Tamil | Olive Suno | [Website](https://tamil.suno.qa/) |
-| `tamil-christian-radio-in` | Tamil Christian Radio | Voice of Gospel | [Website](https://tamilchristianradio.org/) |
-| `good-news-tamil-ca` | Good News FM Tamil | Christvision Media Corporation | [Website](https://goodnewsfm.org/tamil-radio) |
-| `3zzz-au` | 3ZZZ 92.3FM | 3ZZZ | [Website](https://www.3zzz.com.au/) |
-| `5ebi-au` | 5EBI 103.1 FM | Ethnic Broadcasters Inc. | [Website](https://www.5ebi.com.au/) |
-| `namathu-fm-fr` | Namathu FM France | Namathu FM | [Website](https://namathufm.fr/) |
-| `otran-vaanoli-ie` | Otran Vaanoli | Otran Vaanoli | [Website](https://otranvaanoli.com/) |
-| `thuthi-fm-no` | Thuthi FM | Tamil Christian Media | [Website](https://www.thuthi.fm/) |
-| `radio-plus-indiz-mu` | Radio Plus Indiz | Radio Plus Ltd / Defimedia | [Website](https://live.radioplus.mu/webradio/indiz.html) |
-| `time-fm-toronto-ca` | Time FM Toronto | Time FM Media | [Website](https://timefm.ca/) |
-| `inbathamil-oli-au` | Inbathamil Oli | Inbathamil Oli | [Website](https://www.inbathamil.com/) |
-| `big-chennai` | BIG FM Chennai | BIG FM | [Website](https://www.bigfmindia.com/) |
 | `pollachi-fm` | Pollachi FM | Pollachi FM | [Website](https://themelo.in/s/502/pollachi-fm) |
 | `inbam-fm` | Inbam FM | Inbam FM | [Website](https://themelo.in/s/580/inbam-fm) |
 | `kodai-city-fm` | Kodai City FM | Kodai City FM | [Website](https://themelo.in/s/509/kodai-city-fm) |
@@ -56,7 +18,6 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `tamil-80s-hits` | 80s Tamil Hits | 80s Tamil Hits | [Website](https://themelo.in/s/465/80s-tamil-hits) |
 | `amr-radio-ca` | AMR Radio | AMR Radio | [Website](https://themelo.in/s/470/amr-radio) |
 | `thaalam-in` | Thaalam FM India | Thaalam FM India | [Website](https://themelo.in/s/471/thaalam-fm) |
-| `slbc-tamil-national-service` | SLBC Tamil National Service FM | Sri Lanka Broadcasting Corporation | [Website](https://www.radioindialive.com/slbc-tamil-national-service-fm) |
 | `ilangai-vaanoli` | Ilangai Vaanoli | Ilangai Vaanoli | [Website](https://www.radioindialive.com/ilangai-vaanoli-tamil-radio) |
 | `ilayaraja-radio` | Ilaiyaraaja Radio | Ilaiyaraaja Radio | [Website](https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio) |
 | `kumbakonam-city-fm` | Kumbakonam City FM | Kumbakonam City FM | [Website](https://www.radioindialive.com/kumbakonam-city-fm) |
@@ -102,8 +63,6 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `hindi-gold-radio-in` | Hindi Gold Radio | Hindi Gold Radio | Not documented |
 | `radio-mirchi-dubai-ae` | Radio Mirchi Dubai (directory listing) | Radio Mirchi Dubai (directory listing) | Not documented |
 | `radio-quarantine-kolkata-in` | Radio Quarantine Kolkata | Radio Quarantine Kolkata | Not documented |
-| `80s80s-michael-jackson-de` | 80s80s Michael Jackson | 80s80s Michael Jackson | [Website](https://www.80s80s.de/) |
-| `exclusively-michael-jackson-ae` | Exclusively Michael Jackson | Exclusively Michael Jackson | [Website](https://play.exclusive.radio/) |
 | `exclusively-justin-bieber-ae` | Exclusively Justin Bieber | Exclusively Justin Bieber | [Website](https://play.exclusive.radio/) |
 | `exclusively-shakira-ae` | Exclusively Shakira | Exclusively Shakira | [Website](https://play.exclusive.radio/) |
 | `exclusively-one-direction-ae` | Exclusively One Direction | Exclusively One Direction | [Website](https://play.exclusive.radio/) |
@@ -155,14 +114,12 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `stage29-s-janaki-radio` | S. Janaki Radio | S. Janaki Radio | Not documented |
 | `stage29-mano-radio` | Mano Radio | Mano Radio | Not documented |
 | `stage29-spb-old-hits-fm` | SPB Old Hits | SPB Old Hits | Not documented |
-| `stage29-ilayaraja-voice-fm` | IlayaRaja Voice | IlayaRaja Voice | Not documented |
 | `stage29-top-news-thamizh-fm` | Top News Thamizh FM | Top News Thamizh FM | Not documented |
 | `stage29-santhosh-narayanan-radio` | Santhosh Narayanan Radio | Santhosh Narayanan Radio | Not documented |
 | `stage29-arrahman-classic` | ARRahman Classic | ARRahman Classic | Not documented |
 | `stage29-makkal-thilagam-mgr` | Makkal Thilagam MGR | Makkal Thilagam MGR | Not documented |
 | `stage29-ms-viswanathan-hits` | MS Viswanathan Hits | MS Viswanathan Hits | Not documented |
 | `stage29-simbu-hits` | Simbu Hits | Simbu Hits | Not documented |
-| `stage29-maestro-hits` | Maestro Hits | Maestro Hits | Not documented |
 | `stage29-yuvan-shankar-raja-ysr` | Yuvan Shankar Raja YSR | Yuvan Shankar Raja YSR | Not documented |
 | `stage29-arrahman-classic-hits` | ARRahman Classic Hits | ARRahman Classic Hits | Not documented |
 | `stage29-rajini-radio` | Rajini Radio | Rajini Radio | Not documented |
@@ -172,7 +129,6 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `stage29-jp-chandrababu-hits` | JP Chandrababu Hits | JP Chandrababu Hits | Not documented |
 | `stage29-vijay-tamil-radio` | Vijay FM Radio | Vijay FM Radio | Not documented |
 | `stage29-isai-manam` | Isai Manam | Isai Manam | Not documented |
-| `stage29-tamil-kadavul-murugan-fm` | Tamil Kadavul Murugan | Tamil Kadavul Murugan | Not documented |
 | `stage29-shaivam-radio` | Shaivam Radio | Shaivam Radio | Not documented |
 | `stage29-ayngaran-radio` | Ayngaran Radio | Ayngaran Radio | Not documented |
 | `stage29-aadhi-sivan-fm` | Aadhi Sivan FM | Aadhi Sivan FM | Not documented |
