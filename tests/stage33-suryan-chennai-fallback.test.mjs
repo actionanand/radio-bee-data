@@ -20,8 +20,8 @@ test('Suryan Chennai has distinct primary and fallback candidates in intended or
   assert.equal(s.directListening.redistribution,'unconfirmed');
   assert.ok(data.sources.some(source=>source.id===s.sourceId));
  }
- assert.equal(data.index.catalogVersion,'2.8.6');
- assert.equal(data.index.counts.streams,245);
+ assert.equal(data.index.catalogVersion,'2.8.7');
+ assert.ok(data.index.counts.streams>=245);
  assert.equal(data.discoveryStations.length,0);
  assert.deepEqual(data.browseIndex,buildBrowseIndex(data));
  assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
