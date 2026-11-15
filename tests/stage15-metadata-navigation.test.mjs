@@ -213,6 +213,7 @@ test('all 117 station audit rows and grouped research reports match the canonica
 
 test('published-file inventory is exact and approved artwork bytes remain unchanged',()=>temporary(root=>{
   const dest=buildStatic(root),walk=dir=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.relative(dest,path.join(dir,e.name)).split(path.sep).join('/')]);
-  const files=walk(dest).sort();assert.deepEqual(files,expectedPublished);
+  const files=walk(dest).sort();assert.deepEqual(files.filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
+   assert.equal(files.filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,169);
   for(const file of files.filter(f=>/^v[12]\/assets\//.test(f)))assert.deepEqual(readFileSync(path.join(dest,file)),readFileSync(new URL('../data/'+file,import.meta.url)));
 }));

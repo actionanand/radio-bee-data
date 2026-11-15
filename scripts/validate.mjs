@@ -14,22 +14,24 @@ const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const codePattern = /^[a-z]{2,3}$/;
 const isText = value => typeof value === 'string' && value.trim().length > 0;
 const isNullableText = value => value === null || isText(value);
-const approvedLogoHosts = new Set([
-  'i1.sndcdn.com', 'static-media.streema.com', 'onecms-res.cloudinary.com',
-  'cdn-profiles.tunein.com', 'www.americantamilradio.com',
-  'static.tuneyou.com', 'exchange4media.gumlet.io',
-  'djhonz7dexnot.cloudfront.net',
-  'www.kexp.org', 'upload.wikimedia.org', 'raw.githubusercontent.com',
-  'cdn.brandfetch.io', 'higherlogicdownload.s3.amazonaws.com',
-  'rtm-images.glueapi.io', 'admango.cdn.mangomolo.com',
-]);
+// Artwork is optional presentation metadata. Accept public HTTPS publishers and
+// image CDNs without coupling the catalogue to a fixed host or file extension.
+// The app independently filters invalid URLs and falls back on image load errors.
+const blockedImageTlds = new Set(['localhost','local','internal','lan','onion','invalid','test','example']);
 export function validPublicLogoUrl(value) {
-  if (typeof value !== 'string' || value !== value.trim()) return false;
+  if (typeof value !== 'string' || !value || value.length > 4096 ||
+      value !== value.trim() || /[\s\u0000-\u001f\u007f]/u.test(value)) return false;
   try {
     const url = new URL(value);
-    return url.protocol === 'https:' && approvedLogoHosts.has(url.hostname) &&
-      !url.username && !url.password && !url.hash &&
-      /\.(png|jpe?g|webp)$/i.test(url.pathname);
+    const host = url.hostname.toLowerCase().replace(/\.$/, '');
+    const labels = host.split('.');
+    return url.protocol === 'https:' && !url.username && !url.password &&
+      !url.hash && (!url.port || url.port === '443') &&
+      !host.includes(':') && labels.length > 1 &&
+      labels.every(label => label.length > 0) &&
+      !blockedImageTlds.has(labels.at(-1)) &&
+      !host.endsWith('.home.arpa') && !host.endsWith('.localdomain') &&
+      !/^\d+\.\d+\.\d+\.\d+$/.test(host);
   } catch { return false; }
 }
 

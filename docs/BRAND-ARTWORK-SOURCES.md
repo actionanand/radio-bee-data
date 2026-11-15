@@ -39,3 +39,134 @@ The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Mur
 - **Radio 4EB** (98.1 FM and Global Digital): shared 4EB mark from Community Broadcasting Association of Australia, https://www.cbaa.org.au/community-broadcasting/community-radio-dab-directory .
 - **MINNALfm**: official RTM Klik radio station artwork, https://rtmklik.rtm.gov.my/radio/nasional/32964 .
 - **Lotus FM**: official broadcaster SABC+ station logo image, https://sabc-plus.com/radio/show/238067/Lotus-FM-Stories--GBV-Stories .
+
+## Public HTTPS provider icons and station-specific themed artwork (2026-11-15)
+
+RadioBee now supports externally hosted HTTPS images, including images published within radio-bee-data, known radio station directory images, query-based image services, and appropriately identified Wikimedia Commons imagery. No third-party binary images are included in the app or catalogue. External content may be blocked, unavailable, or inaccurate; RadioBee has a runtime fallback.
+
+The new network images below use Google's publicly hosted favicon lookup for the matching publisher domain. These are **publisher-domain icon candidates**, not individually verified full-size logos; a default website favicon may differ from a station's logo. These are not guaranteed to be high resolution. Replace them with station-specific image URLs when better images are located.
+
+| Network ID | Publisher-domain favicon source |
+| --- | --- |
+| `hello-fm` | `hellofm.in` |
+| `big-fm` | `bigfmindia.com` |
+| `slbc` | `slbc.lk` |
+| `asr-digital` | `radio.asrdmm.com` |
+| `annai-fm` | `zeno.fm` |
+| `kumari-tamil` | `radio.kumaritamil.com` |
+| `luminous-radio` | `luminousradio.com` |
+| `capital-lk` | `capitalfm.lk` |
+| `club-fm` | `clubfm.in` |
+| `iskcon-nagercoil` | `iskconnagercoil.com` |
+| `athavan` | `athavanradio.com` |
+| `cmr` | `cmr24.net` |
+| `east-fm` | `eastfm.ca` |
+| `ctbc` | `ctbc.com` |
+| `canadian-tamil-radio` | `ctr24.com` |
+| `beats-radio` | `beats-radio.com` |
+| `atbc` | `atbc.net.au` |
+| `thaalam-media` | `thaalam.ch` |
+| `akkini` | `akkini.fm` |
+| `swiss-tamil-radio` | `swisstamilradio.com` |
+| `european-tamils-union` | `etr.fm` |
+| `tamil-murasam` | `tamilmurasam.com` |
+| `tarana` | `rova.nz` |
+| `shaivam` | `shaivam.org` |
+| `star-fm-lk` | `starfm.lk` |
+| `boom-tamil` | `boomtamil.com` |
+| `tamil-panpalai` | `tamilpanpalai.com` |
+| `aural-radio` | `auralradiokerala.in` |
+| `vaagai-tamil` | `vtfm.net` |
+| `a9-media` | `a9radio.com` |
+| `amudham` | `amudhamfm.com` |
+| `mauritius-global-diaspora` | `mauradio.com` |
+| `theophony` | `theophony.org` |
+| `jeifm` | `jeifm.com` |
+| `amen-fm` | `amenfm.com` |
+| `live-fm` | `livefm.bh` |
+| `sweety-fm` | `sweetyfm.com` |
+| `christian-media-india` | `vaanmalarfm.in` |
+| `olive-suno` | `suno.qa` |
+| `voice-of-gospel` | `tamilchristianradio.org` |
+| `christvision-media` | `goodnewsfm.org` |
+| `3zzz` | `3zzz.com.au` |
+| `5ebi` | `5ebi.com.au` |
+| `namathu-fm` | `namathufm.fr` |
+| `otran-vaanoli` | `otranvaanoli.com` |
+| `tamil-christian-media` | `thuthi.fm` |
+| `radio-plus` | `radioplus.mu` |
+| `time-fm` | `timefm.ca` |
+| `inbathamil-oli` | `inbathamil.com` |
+
+Station-specific photos:
+- `80s80s-michael-jackson-de`: Michael Jackson Wikimedia Commons file; artist photo — https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg
+- `exclusively-michael-jackson-ae`: Michael Jackson Wikimedia Commons file; artist photo — https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg
+- `stage29-ilayaraja-voice-fm`: Ilaiyaraaja Wikimedia Commons artist portrait — https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_(cropped).jpg
+- `stage29-maestro-hits`: Ilaiyaraaja portrait for Maestro themed radio — https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_(cropped).jpg
+- `stage29-tamil-kadavul-murugan-fm`: Lord Murugan Batu Caves Wikimedia Commons artwork; thematic photo — https://commons.wikimedia.org/wiki/Special:FilePath/20190821_Lord_Murugan_statue-1.jpg
+
+**MGR & Sivaji joint photograph:** CineUlagam published a photo depicting both actors at the Bakkiyaraj wedding; we link the publisher's image rather than copying it to the repository. Source: https://cineulagam.com/article/mgr-and-sivaji-at-bakkiyaraj-marriage-1655809347 . Other artist and devotional stations without suitable sourced photos keep a station-specific generated image or the app fallback. Other artist and devotional stations without a suitable source retain the app fallback. Image licensing and reuse terms depend on individual image sources.
+
+
+### Additional sourced portraits (link-only)
+
+- `ilayaraja-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `80s80s-michael-jackson-de`: https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg
+- `exclusively-michael-jackson-ae`: https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg
+- `exclusively-queen-ae`: https://commons.wikimedia.org/wiki/Special:FilePath/Queen%20-%20Freddie%20Mercury.jpg
+- `stage29-mgr-sivaji-radio`: https://cdn.ibcstack.com/article/9823579d-1b30-4f21-a5c0-8aa949ce7905/22-62b1a543a3fa2.webp
+- `stage29-spb-online-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG
+- `stage29-harris-jayaraj-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Harris%20Jayaraj%20at%20Gethu%20Audio%20Launch%20(cropped).jpg
+- `stage29-ks-chitra-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/K%20s%20chithra.jpg
+- `stage29-kj-yesudas-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Yesudas%20K.J.jpg
+- `stage29-s-janaki-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/S%20Janaki%20in%20Pune%2C%20India%202007%20cropped.jpg
+- `stage29-spb-old-hits-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG
+- `stage29-ilayaraja-voice-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `stage29-santhosh-narayanan-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Santhosh%20Narayanan%20-%20WIki%20profile.jpg
+- `stage29-arrahman-classic`: https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg
+- `stage29-makkal-thilagam-mgr`: https://commons.wikimedia.org/wiki/Special:FilePath/MGR%20(cropped).jpg
+- `stage29-maestro-hits`: https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja%20at%20Merku%20Thodarchi%20Malai%20Press%20Meet%20(cropped).jpg
+- `stage29-arrahman-classic-hits`: https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg
+- `stage29-rajini-radio`: https://commons.wikimedia.org/wiki/Special:FilePath/Rajinikanth%20in%202019.jpg
+- `stage29-tamil-kadavul-murugan-fm`: https://commons.wikimedia.org/wiki/Special:FilePath/20190821%20Lord%20Murugan%20statue-1.jpg
+
+Wikimedia sources have individual licenses and attribution requirements. The joint MGR/Sivaji image remains subject to its publisher's copyright and hotlink policy; embedding is not a license to redistribute.
+
+
+### Remote image audit corrections
+
+The GitHub Actions live image audit reported HTTP 404 for these publisher-domain favicon candidates. They were removed to avoid showing broken icons: `hello-fm`, `kumari-tamil`, `capital-lk`, `canadian-tamil-radio`, `atbc`, `european-tamils-union`, `tamil-murasam`, `star-fm-lk`, `christian-media-india`, `namathu-fm`, `inbathamil-oli`. The generic provider favicons for `annai-fm` and `tarana` were also removed because they did not faithfully identify a radio brand.
+
+Artist/thematic external links are *not* guaranteed to resolve: they remain candidate references until individually checked. They may fall back at runtime.
+
+## Image ownership and switching between data-repo files and external URLs
+
+**Single source of truth:** `actionanand/radio-bee-data`, under `data/v2/`. No station, artist, or devotional image files belong in the `radio-bee` app repository. The app implements only generic URL resolution, image loading and a built-in offline-safe fallback.
+
+For a file hosted by RadioBee data, upload a real PNG or WebP at `data/v2/assets/logos/stations/<slug>.png` (or `networks/<slug>.webp`). Keep images <=512×512 and <=256 KiB. Set only `logoPath`, for example:
+
+```json
+"logoPath": "assets/logos/stations/example-radio.webp"
+```
+
+For a third-party image, set only `logoUrl`, for example:
+
+```json
+"logoUrl": "https://publisher.example.org/images/example-radio.png"
+```
+
+To switch **remote → data-hosted**, upload the PNG/WebP to the data repository, remove `logoUrl` from that station or network record and add `logoPath`. To switch **data-hosted → remote**, remove `logoPath` and add `logoUrl`. The data publisher includes referenced local image files in GitHub Pages at `https://actionanand.github.io/radio-bee-data/v2/<logoPath>`. Station-specific artwork overrides network artwork; use a network image for multiple stations only when their actual branding is shared.
+
+Both fields are optional. If both are supplied, remote `logoUrl` takes priority, so prefer using one at a time. All edits should be committed and deployed in `radio-bee-data` only; no `radio-bee` rebuild is required once its universal HTTPS image-support PR is merged and deployed. Query strings, alternative image hosts, and image file extensions are permitted for external HTTPS image URLs; local `logoPath` remains strictly limited to audited in-repository PNG/WebP assets.
+
+A source domain is not evidence of image fidelity. Preserve image attribution and mark generic site favicons as provisional, rather than claiming they are authentic station logos. Images failing to load use RadioBee's standard fallback.
+
+
+## Complete V2 illustration coverage (2026-11-15)
+
+All 240 published V2 stations have image references following the expansion documented in `docs/ARTWORK-MISSING-V2.md`. For 150 stations with no usable station-brand photo or favicon, RadioBee's own themed, station-labeled SVG editorial covers are stored **only in radio-bee-data** under `data/v2/assets/artwork/stations/` and published by the data site. These are not broadcaster-owned logos. They are static restricted SVG (no script, embedded HTML, CSS, event handlers, or remote references), audited by `scripts/logo-assets.mjs`, and can be replaced at any time by a data-hosted PNG/WebP or any public HTTPS image URL without updating the client. If a remote image fails, the app's standard fallback still applies.
+
+
+### Remote photo fallback and audited source URLs
+
+The catalogue now maintains a data-hosted, station-specific editorial cover for each of the 19 external artist or devotional photo references. If a third-party image returns an error (including Wikimedia 429 rate limiting), RadioBee tries that data-hosted cover before its final generic fallback. The Ilaiyaraaja and Murugan URLs use directly identified Wikimedia Commons media objects rather than unvalidated `Special:FilePath` guesses. External photo failures are recorded in CI as warnings; nonfunctioning network image links still fail the artwork audit.

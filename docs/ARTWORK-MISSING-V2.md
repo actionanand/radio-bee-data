@@ -1,218 +1,190 @@
-# V2 stations without verified artwork
+# V2 station artwork inventory — complete coverage
 
-Generated from the current canonical V2 source catalogue. These stations use RadioBee's built-in fallback. They are **not** proven to lack a logo on the internet; an acceptable current, correctly attributed image has not yet been configured and audited.
+**240 / 240 stations now have an image reference.** Image priority is station-specific external `logoUrl`, station-specific data-repo `logoPath`, network logo URL/path, then the built-in RadioBee fallback for failed image loads.
 
-**Total:** 240; **with artwork after this batch:** 39; **still missing artwork:** 201.
+- **169** station-specific original SVG covers reside in `data/v2/assets/artwork/stations/` and are published at `https://actionanand.github.io/radio-bee-data/v2/assets/artwork/stations/<station-id>.svg`. They depict a station name with radio/music/devotional/etc. illustrations and say `RADIOBEE · EDITORIAL COVER`; **they are not official logos**.
+- **19** stations use station-specific third-party photos/illustrations, including Michael Jackson, Ilaiyaraaja, Lord Murugan, and MGR & Sivaji together. Remote sources may fail or change.
+- **54** network records have third-party brand or publisher/favicon image references. A generic publisher-domain favicon is a candidate, not guaranteed to be an official radio logo.
+- Every station without its own image is covered either by its network image or its data-hosted original editorial cover.
 
-| Station ID | Station name | Network | Publisher / evidence website |
-| --- | --- | --- | --- |
-| `luminous-radio-tamil` | Luminous Radio Tamil | Luminous Radio | [Website](https://www.luminousradio.com/radiochannel/luminous-radio-tamil/) |
-| `iskcon-nagercoil` | ISKCON Nagercoil / Vaani Seva | ISKCON Nagercoil | [Website](https://www.iskconnagercoil.com/radio) |
-| `beats-radio-us` | Beats Radio Tamil | Beats Radio LLC | [Website](https://www.beats-radio.com/) |
-| `thaalam-ch` | Thaalam Radio Switzerland | Thaalam Media | [Website](https://thaalam.ch/) |
-| `akkini-ch` | Akkini FM | Akkini FM | [Website](https://akkini.fm/) |
-| `etr-de` | European Tamil Radio | European Tamils Union e.V. | [Website](https://etr.fm/) |
-| `tamil-murasam-no` | Tamil Murasam Norway | Radio Tamil Murasam | [Website](https://tamilmurasam.com/) |
-| `shiva-tattvam` | Shiva Tattvam | Shaivam.org | [Website](https://shaivam.org/radio-shiva-tattvam/) |
-| `thiruneriya-thamizhosai` | Thiruneriya Thamizhosai | Shaivam.org | [Website](https://www.shaivam.org/radio-thiruneriya-thamizhosai/) |
-| `star-fm-srilanka` | Star FM Sri Lanka | Star FM | [Website](https://www.starfm.lk/) |
-| `boom-tamil` | Boom Tamil | Boom Tamil | [Website](https://www.boomtamil.com/) |
-| `tamil-panpalai` | Tamil Panpalai | Tamil Panpalai | [Website](https://tamilpanpalai.com/) |
-| `aural-radio` | Aural Radio Kerala | Aural Radio | [Website](https://www.auralradiokerala.in/) |
-| `ar-radio` | AR Radio Kerala | AR Radio | [Website](https://arradiokerala.blogspot.com/) |
-| `hello-chennai` | Hello FM Chennai | Hello FM | Not documented |
-| `east-fm-ca` | EAST FM 102.7 | EAST FM | [Website](https://eastfm.ca/main/) |
-| `swiss-tamil-radio-ch` | Swiss Tamil Radio | Swiss Tamil Radio | [Website](https://swisstamilradio.com/) |
-| `vaagai-tamil-de` | Vaagai Tamil FM | Vaagai Tamil FM | [Website](https://vtfm.net/) |
-| `a9-radio-ca` | A9 Radio | A9 Media | [Website](https://a9radio.com/) |
-| `amudham-fm-in` | Amudham FM | Amudham FM | [Website](https://www.amudhamfm.com/) |
-| `mauradio-mu` | mauRadio | Mauritius Global Diaspora | [Website](https://mauradio.com/) |
-| `theophony-tamil-in` | Theophony Tamil Christian Radio | Theophony Ministries | [Website](https://theophony.org/tamil-christian-radio/) |
-| `jei-fm-my` | JEIFM | JEIFM | [Website](https://jeifm.com/) |
-| `amen-fm-ca` | Amen FM | Amen FM | [Website](https://www.amenfm.com/) |
-| `live-fm-bh` | Live FM 107.2 | Live FM Bahrain | [Website](https://www.livefm.bh/) |
-| `quran-tamil-kw` | Quran in Tamil | Electronic Dawah Committee / Al-Najat Charity | [Website](https://quran-uni.com/radio/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A8%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%84%D9%8A%D8%A9/) |
-| `sweety-fm-in` | Sweety FM Tamil | Sweety FM | [Website](https://sweetyfm.com/) |
-| `hand-of-jesus-tamil-in` | Hand of Jesus Tamil | Hand of Jesus Ministries | [Website](https://handofjesus.in/radio-tv/radio/tamil/) |
-| `vaanmalar-fm-in` | Vaanmalar FM | Christian Media Centre India | [Website](https://vaanmalarfm.in/) |
-| `suno-tamil-qa` | Radio Suno Tamil | Olive Suno | [Website](https://tamil.suno.qa/) |
-| `tamil-christian-radio-in` | Tamil Christian Radio | Voice of Gospel | [Website](https://tamilchristianradio.org/) |
-| `good-news-tamil-ca` | Good News FM Tamil | Christvision Media Corporation | [Website](https://goodnewsfm.org/tamil-radio) |
-| `3zzz-au` | 3ZZZ 92.3FM | 3ZZZ | [Website](https://www.3zzz.com.au/) |
-| `5ebi-au` | 5EBI 103.1 FM | Ethnic Broadcasters Inc. | [Website](https://www.5ebi.com.au/) |
-| `namathu-fm-fr` | Namathu FM France | Namathu FM | [Website](https://namathufm.fr/) |
-| `otran-vaanoli-ie` | Otran Vaanoli | Otran Vaanoli | [Website](https://otranvaanoli.com/) |
-| `thuthi-fm-no` | Thuthi FM | Tamil Christian Media | [Website](https://www.thuthi.fm/) |
-| `radio-plus-indiz-mu` | Radio Plus Indiz | Radio Plus Ltd / Defimedia | [Website](https://live.radioplus.mu/webradio/indiz.html) |
-| `time-fm-toronto-ca` | Time FM Toronto | Time FM Media | [Website](https://timefm.ca/) |
-| `inbathamil-oli-au` | Inbathamil Oli | Inbathamil Oli | [Website](https://www.inbathamil.com/) |
-| `big-chennai` | BIG FM Chennai | BIG FM | [Website](https://www.bigfmindia.com/) |
-| `pollachi-fm` | Pollachi FM | Pollachi FM | [Website](https://themelo.in/s/502/pollachi-fm) |
-| `inbam-fm` | Inbam FM | Inbam FM | [Website](https://themelo.in/s/580/inbam-fm) |
-| `kodai-city-fm` | Kodai City FM | Kodai City FM | [Website](https://themelo.in/s/509/kodai-city-fm) |
-| `radio-beat-love` | Radio Beat Love | Radio Beat Love | [Website](https://themelo.in/s/479/radio-beat-love) |
-| `radio-beat-extra` | Radio Beat Extra | Radio Beat Extra | [Website](https://themelo.in/s/1639/radio-beat-extra) |
-| `vaanam-fm-hd` | Vaanam FM HD | Vaanam FM HD | [Website](https://themelo.in/s/461/vaanam-fm-hd) |
-| `tamil-80s-hits` | 80s Tamil Hits | 80s Tamil Hits | [Website](https://themelo.in/s/465/80s-tamil-hits) |
-| `amr-radio-ca` | AMR Radio | AMR Radio | [Website](https://themelo.in/s/470/amr-radio) |
-| `thaalam-in` | Thaalam FM India | Thaalam FM India | [Website](https://themelo.in/s/471/thaalam-fm) |
-| `slbc-tamil-national-service` | SLBC Tamil National Service FM | Sri Lanka Broadcasting Corporation | [Website](https://www.radioindialive.com/slbc-tamil-national-service-fm) |
-| `ilangai-vaanoli` | Ilangai Vaanoli | Ilangai Vaanoli | [Website](https://www.radioindialive.com/ilangai-vaanoli-tamil-radio) |
-| `ilayaraja-radio` | Ilaiyaraaja Radio | Ilaiyaraaja Radio | [Website](https://www.radioindialive.com/ilayaraja-radio-online-tamil-radio) |
-| `kumbakonam-city-fm` | Kumbakonam City FM | Kumbakonam City FM | [Website](https://www.radioindialive.com/kumbakonam-city-fm) |
-| `ada-ceylon-fm` | ADA Ceylon FM | ADA Ceylon FM | [Website](https://www.radioindialive.com/ada-ceylon-fm) |
-| `vellore-city-fm` | Vellore City FM | Vellore City FM | [Website](https://www.radioindialive.com/vellore-city-fm) |
-| `divyavani-sanskrit-in` | Divyavani Sanskrit Radio | Divyavani Sanskrit Radio | [Website](https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u) |
-| `sanskrit-bharati-radio-in` | Radio Sanskrit Bharati | Radio Sanskrit Bharati | [Website](https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u) |
-| `radio-paloma-de` | Radio Paloma | Radio Paloma | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-norge-no` | Radio Norge | Radio Norge | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `realradio-ireland-ie` | RealRadio Ireland | RealRadio Ireland | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `nostalgia-fi` | Nostalgia Finland | Nostalgia Finland | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `suomipop-fi` | SuomiPop | SuomiPop | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-r-lt` | Radio-R Lithuania | Radio-R Lithuania | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `znad-wilii-lt` | Znad Wilii | Znad Wilii | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `pop-fm-dk` | Pop FM Denmark | Pop FM Denmark | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `myrock-dk` | MyRock Denmark | MyRock Denmark | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `stad-den-haag-nl` | Radio Stad Den Haag | Radio Stad Den Haag | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `slam-nl` | SLAM! Netherlands | SLAM! Netherlands | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `kiss-kiss-italia-it` | Radio Kiss Kiss Italia | Radio Kiss Kiss Italia | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `exa-fm-mexico` | Exa FM Mexico | Exa FM Mexico | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `sveriges-radio-p1-se` | Sveriges Radio P1 | Sveriges Radio P1 | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `pirate-rock-se` | Pirate Rock Sweden | Pirate Rock Sweden | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-dla-doroslych-pl` | Radio dla Dorosłych | Radio dla Dorosłych | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-max-hr` | Radio Max Croatia | Radio Max Croatia | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `nagham-fm-eg` | Nagham FM Egypt | Nagham FM Egypt | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-roks-ua` | Radio ROKS Ukraine | Radio ROKS Ukraine | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-nrj-ua` | Radio NRJ Ukraine | Radio NRJ Ukraine | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `radio-jamaica-jm` | Radio Jamaica | Radio Jamaica | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `telemetro-radio-pa` | Telemetro Radio Panama | Telemetro Radio Panama | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `77h-fm-br` | 77H FM Guarujá SP | 77H FM Guarujá SP | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `jazz-radio-blues-fr` | Jazz Radio Blues France | Jazz Radio Blues France | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
-| `mahakatha-radio-in` | Mahakatha Radio | Mahakatha Radio | [Website](https://mahakatharadio.com/) |
-| `shaiva-lahari-in` | Shaiva Lahari | Shaiva Lahari | [Website](https://shaivam.org/) |
-| `exclusively-backstreet-boys-ae` | Exclusively Backstreet Boys | Exclusively Backstreet Boys | [Website](https://play.exclusive.radio/) |
-| `exclusively-taylor-swift-ae` | Exclusively Taylor Swift | Exclusively Taylor Swift | [Website](https://play.exclusive.radio/) |
-| `hello-telugu-in` | Hello Telugu | Hello Telugu | Not documented |
-| `radio-malayalam-in` | Radio Malayalam | Radio Malayalam | Not documented |
-| `bol-punjabi-radio-in` | Bol Punjabi Radio | Bol Punjabi Radio | Not documented |
-| `radio-mast-marathi-in` | Radio Mast Marathi | Radio Mast Marathi | Not documented |
-| `freefm-uae-sinhala-ae` | Free FM — UAE Sinhala Radio | Free FM — UAE Sinhala Radio | Not documented |
-| `radio-amr-kannada-in` | Radio AMR Kannada | Radio AMR Kannada | Not documented |
-| `kannada-hits-in` | Kannada Hits | Kannada Hits | Not documented |
-| `hindi-gold-radio-in` | Hindi Gold Radio | Hindi Gold Radio | Not documented |
-| `radio-mirchi-dubai-ae` | Radio Mirchi Dubai (directory listing) | Radio Mirchi Dubai (directory listing) | Not documented |
-| `radio-quarantine-kolkata-in` | Radio Quarantine Kolkata | Radio Quarantine Kolkata | Not documented |
-| `80s80s-michael-jackson-de` | 80s80s Michael Jackson | 80s80s Michael Jackson | [Website](https://www.80s80s.de/) |
-| `exclusively-michael-jackson-ae` | Exclusively Michael Jackson | Exclusively Michael Jackson | [Website](https://play.exclusive.radio/) |
-| `exclusively-justin-bieber-ae` | Exclusively Justin Bieber | Exclusively Justin Bieber | [Website](https://play.exclusive.radio/) |
-| `exclusively-shakira-ae` | Exclusively Shakira | Exclusively Shakira | [Website](https://play.exclusive.radio/) |
-| `exclusively-one-direction-ae` | Exclusively One Direction | Exclusively One Direction | [Website](https://play.exclusive.radio/) |
-| `exclusively-adele-ae` | Exclusively Adele | Exclusively Adele | [Website](https://play.exclusive.radio/) |
-| `exclusively-ed-sheeran-ae` | Exclusively Ed Sheeran | Exclusively Ed Sheeran | [Website](https://play.exclusive.radio/) |
-| `exclusively-queen-ae` | Exclusively Queen | Exclusively Queen | [Website](https://play.exclusive.radio/) |
-| `exclusively-westlife-ae` | Exclusively Westlife | Exclusively Westlife | [Website](https://play.exclusive.radio/) |
-| `stage29-thenral-world-radio` | Thenral World Radio | Thenral World Radio | Not documented |
-| `stage29-agaram-tamil-radio` | Agaram Tamil Radio | Agaram Tamil Radio | Not documented |
-| `stage29-clubhouse-tamil-90s-2k-vibes` | Clubhouse Tamil 90s & 2K Vibes | Clubhouse Tamil 90s & 2K Vibes | Not documented |
-| `stage29-jipmer-radio` | Jipmer Radio | Jipmer Radio | Not documented |
-| `stage29-kodai-aruvi-fm` | Kodai Aruvi FM | Kodai Aruvi FM | Not documented |
-| `stage29-saamanthi-fm` | Saamanthi FM | Saamanthi FM | Not documented |
-| `stage29-tamil-mellisai-fm` | Tamil Mellisai FM | Tamil Mellisai FM | Not documented |
-| `stage29-madhuram-radio` | Madhuram Radio | Madhuram Radio | Not documented |
-| `stage29-tuticorin-radio` | Tuticorin Radio | Tuticorin Radio | Not documented |
-| `stage29-dindigul-radio` | Dindigul Radio | Dindigul Radio | Not documented |
-| `stage29-vaalai-fm` | Vaalai FM | Vaalai FM | Not documented |
-| `stage29-jayam-fm-7-1` | Jayam FM 7.1 | Jayam FM 7.1 | Not documented |
-| `stage29-retro-tamil-fm` | Retro Tamil FM | Retro Tamil FM | Not documented |
-| `stage29-oli-saaral-fm` | Oli Saaral FM | Oli Saaral FM | Not documented |
-| `stage29-trt-tamil-oli` | TRT Tamil Oli | TRT Tamil Oli | Not documented |
-| `stage29-pasumai-90-4-fm` | Pasumai FM 90.4 | Pasumai FM 90.4 | Not documented |
-| `stage29-tiruvannamalai-city-fm` | Tiruvannamalai City FM | Tiruvannamalai City FM | Not documented |
-| `stage29-rockfort-radio` | Rockfort Radio | Rockfort Radio | Not documented |
-| `stage29-i-tamil-media-fm` | I Tamil Media FM | I Tamil Media FM | Not documented |
-| `stage29-covai-city-fm` | Covai City FM | Covai City FM | Not documented |
-| `stage29-ss-tamil-radio` | SS Tamil Radio | SS Tamil Radio | Not documented |
-| `stage29-rj-tamil-fm` | Rj Tamil FM | Rj Tamil FM | Not documented |
-| `stage29-100-love-radio` | 100% Love Radio | 100% Love Radio | Not documented |
-| `stage29-100-new-songs` | 100% New Songs | 100% New Songs | Not documented |
-| `stage29-100-sad-songs` | 100% Sad Songs | 100% Sad Songs | Not documented |
-| `stage29-tamil-ragam` | Tamil Ragam | Tamil Ragam | Not documented |
-| `stage29-airtamil-90s` | AirTamil 90s | AirTamil 90s | Not documented |
-| `stage29-captain-fm` | Captain FM | Captain FM | Not documented |
-| `stage29-kaadhal-fm` | Kaadhal FM | Kaadhal FM | Not documented |
-| `stage29-love-songs-tamil` | Love Songs Tamil | Love Songs Tamil | Not documented |
-| `stage29-love-bites-mohan-songs` | Love bites Mohan songs | Love bites Mohan songs | Not documented |
-| `stage29-loveda-fm` | LoveDa FM | LoveDa FM | Not documented |
-| `stage29-sad-songs-fm` | Sad Songs FM | Sad Songs FM | Not documented |
-| `stage29-rocker-radio-tamil-gold-70s-90s` | Rocker Radio Tamil Gold 70s 90s | Rocker Radio Tamil Gold 70s 90s | Not documented |
-| `stage29-mgr-sivaji-radio` | MGR & Sivaji Radio | MGR & Sivaji Radio | Not documented |
-| `stage29-spb-online-radio` | SPB Online Radio | SPB Online Radio | Not documented |
-| `stage29-harris-jayaraj-radio` | Harris Jayaraj Radio | Harris Jayaraj Radio | Not documented |
-| `stage29-ks-chitra-radio` | KS Chitra Radio | KS Chitra Radio | Not documented |
-| `stage29-deva-radio` | Deva Radio | Deva Radio | Not documented |
-| `stage29-kj-yesudas-radio` | K. J. Yesudas Radio | K. J. Yesudas Radio | Not documented |
-| `stage29-tms-radio` | TMS Radio | TMS Radio | Not documented |
-| `stage29-s-janaki-radio` | S. Janaki Radio | S. Janaki Radio | Not documented |
-| `stage29-mano-radio` | Mano Radio | Mano Radio | Not documented |
-| `stage29-spb-old-hits-fm` | SPB Old Hits | SPB Old Hits | Not documented |
-| `stage29-ilayaraja-voice-fm` | IlayaRaja Voice | IlayaRaja Voice | Not documented |
-| `stage29-top-news-thamizh-fm` | Top News Thamizh FM | Top News Thamizh FM | Not documented |
-| `stage29-santhosh-narayanan-radio` | Santhosh Narayanan Radio | Santhosh Narayanan Radio | Not documented |
-| `stage29-arrahman-classic` | ARRahman Classic | ARRahman Classic | Not documented |
-| `stage29-makkal-thilagam-mgr` | Makkal Thilagam MGR | Makkal Thilagam MGR | Not documented |
-| `stage29-ms-viswanathan-hits` | MS Viswanathan Hits | MS Viswanathan Hits | Not documented |
-| `stage29-simbu-hits` | Simbu Hits | Simbu Hits | Not documented |
-| `stage29-maestro-hits` | Maestro Hits | Maestro Hits | Not documented |
-| `stage29-yuvan-shankar-raja-ysr` | Yuvan Shankar Raja YSR | Yuvan Shankar Raja YSR | Not documented |
-| `stage29-arrahman-classic-hits` | ARRahman Classic Hits | ARRahman Classic Hits | Not documented |
-| `stage29-rajini-radio` | Rajini Radio | Rajini Radio | Not documented |
-| `stage29-na-muthukumar-hits` | Na Muthukumar Hits | Na Muthukumar Hits | Not documented |
-| `stage29-imman-radio` | Imman Radio | Imman Radio | Not documented |
-| `stage29-thaman-hits` | Thaman Hits | Thaman Hits | Not documented |
-| `stage29-jp-chandrababu-hits` | JP Chandrababu Hits | JP Chandrababu Hits | Not documented |
-| `stage29-vijay-tamil-radio` | Vijay FM Radio | Vijay FM Radio | Not documented |
-| `stage29-isai-manam` | Isai Manam | Isai Manam | Not documented |
-| `stage29-tamil-kadavul-murugan-fm` | Tamil Kadavul Murugan | Tamil Kadavul Murugan | Not documented |
-| `stage29-shaivam-radio` | Shaivam Radio | Shaivam Radio | Not documented |
-| `stage29-ayngaran-radio` | Ayngaran Radio | Ayngaran Radio | Not documented |
-| `stage29-aadhi-sivan-fm` | Aadhi Sivan FM | Aadhi Sivan FM | Not documented |
-| `stage29-om-sakthi-fm` | Om Sakthi FM | Om Sakthi FM | Not documented |
-| `stage29-ss-devotional-radio` | SS Devotional Radio | SS Devotional Radio | Not documented |
-| `stage29-guru-raghavendra-radio` | Guru Raghavendra Radio | Guru Raghavendra Radio | Not documented |
-| `stage29-vishnu-fm` | Vishnu FM | Vishnu FM | Not documented |
-| `stage29-saranam-ayyappa-fm` | Saranam Ayyappa FM | Saranam Ayyappa FM | Not documented |
-| `stage29-sai-fm-radio` | Sai Radio | Sai Radio | Not documented |
-| `stage29-aanmeega-sudar` | Aanmeega Sudar | Aanmeega Sudar | Not documented |
-| `stage29-sivasubramaniyam-ayyappan-songs-fm` | Sivasubramaniyam Ayyappan FM | Sivasubramaniyam Ayyappan FM | Not documented |
-| `stage29-sree-kurumba-fm` | Sree Kurumba FM | Sree Kurumba FM | Not documented |
-| `stage29-dharisanam-fm` | Dharisanam FM | Dharisanam FM | Not documented |
-| `stage29-singampunari-fm` | Singampunari FM | Singampunari FM | Not documented |
-| `stage29-yazh-news` | Yazh News | Yazh News | Not documented |
-| `stage29-kalai-fm` | Kalai FM | Kalai FM | Not documented |
-| `stage29-kanal-music` | Kanal Music | Kanal Music | Not documented |
-| `stage29-kandhakapookkal-radio` | Kandhakapookkal Radio | Kandhakapookkal Radio | Not documented |
-| `stage29-krishna-fm` | Krishna FM | Krishna FM | Not documented |
-| `stage32-vividh-bharati-bengaluru` | Vividh Bharati Bengaluru | Vividh Bharati Bengaluru | Not documented |
-| `stage32-bhakti-sangeet` | Bhakti Sangeet | Bhakti Sangeet | Not documented |
-| `stage32-ap9-fm` | AP9 FM | AP9 FM | [Website](https://onlineradiofm.in/stations/ap-9-fm-telugu) |
-| `stage32-air-telugu-online` | Air Telugu (Mintone) | Air Telugu (Mintone) | [Website](https://mintone.app/) |
-| `stage32-fm-rainbow-vijayawada` | FM Rainbow Vijayawada | FM Rainbow Vijayawada | [Website](https://akashvani.gov.in/radio/live.php) |
-| `stage32-retro-bollywood-90s` | Radio Retro Bollywood 90s | Radio Retro Bollywood 90s | [Website](https://radioretrobollywood.com/) |
-| `stage32-sgpc-gurbani` | Live Gurbani — Sri Darbar Sahib (SGPC) | Live Gurbani — Sri Darbar Sahib (SGPC) | [Website](https://www.sgpc.net/) |
-| `stage32-ran-fm` | Ran FM | Ran FM | Not documented |
-| `stage32-neth-fm` | NETH FM | NETH FM | Not documented |
-| `stage32-siyatha-fm` | Siyatha FM | Siyatha FM | Not documented |
-| `stage32-malayalam-bhakthi` | Malayalam Bhakthi Radio | Malayalam Bhakthi Radio | Not documented |
-| `stage32-digital-malayali` | Radio Digital Malayali | Radio Digital Malayali | [Website](https://radio.digitalmalayali.in/) |
-| `stage32-radio-choklate` | Radio Choklate 104 FM | Radio Choklate 104 FM | [Website](https://radiochoklateonline.com/) |
-| `stage32-dnyaneshwari` | Dnyaneshwari Radio | Dnyaneshwari Radio | [Website](https://dnyaneshwari.khandbahale.org/dnyaneshwari-radio/) |
-| `stage33-red-fm-calgary` | RED FM Calgary 106.7 | RED FM Canada | [Website](https://calgary.redfm.ca/) |
+To change an image later, edit only `radio-bee-data/data/v2/stations.json` or `networks.json`: use `logoPath` for local PNG/WebP or editorial SVG, or `logoUrl` for public HTTPS. See `docs/BRAND-ARTWORK-SOURCES.md` for details.
 
-## Featured stations that still lack approved branding
+## Stations using original RadioBee editorial covers
 
-- 100% Love Radio (`stage29-100-love-radio`)
-- 100% New Songs (`stage29-100-new-songs`)
-- 100% Sad Songs (`stage29-100-sad-songs`)
-- Tamil Kadavul Murugan (`stage29-tamil-kadavul-murugan-fm`)
+| Station ID | Station name | Image path |
+| --- | --- | --- |
+| `etr-de` | European Tamil Radio | `assets/artwork/stations/etr-de.svg` |
+| `tamil-murasam-no` | Tamil Murasam Norway | `assets/artwork/stations/tamil-murasam-no.svg` |
+| `star-fm-srilanka` | Star FM Sri Lanka | `assets/artwork/stations/star-fm-srilanka.svg` |
+| `ar-radio` | AR Radio Kerala | `assets/artwork/stations/ar-radio.svg` |
+| `hello-chennai` | Hello FM Chennai | `assets/artwork/stations/hello-chennai.svg` |
+| `quran-tamil-kw` | Quran in Tamil | `assets/artwork/stations/quran-tamil-kw.svg` |
+| `hand-of-jesus-tamil-in` | Hand of Jesus Tamil | `assets/artwork/stations/hand-of-jesus-tamil-in.svg` |
+| `vaanmalar-fm-in` | Vaanmalar FM | `assets/artwork/stations/vaanmalar-fm-in.svg` |
+| `namathu-fm-fr` | Namathu FM France | `assets/artwork/stations/namathu-fm-fr.svg` |
+| `inbathamil-oli-au` | Inbathamil Oli | `assets/artwork/stations/inbathamil-oli-au.svg` |
+| `pollachi-fm` | Pollachi FM | `assets/artwork/stations/pollachi-fm.svg` |
+| `inbam-fm` | Inbam FM | `assets/artwork/stations/inbam-fm.svg` |
+| `kodai-city-fm` | Kodai City FM | `assets/artwork/stations/kodai-city-fm.svg` |
+| `radio-beat-love` | Radio Beat Love | `assets/artwork/stations/radio-beat-love.svg` |
+| `radio-beat-extra` | Radio Beat Extra | `assets/artwork/stations/radio-beat-extra.svg` |
+| `vaanam-fm-hd` | Vaanam FM HD | `assets/artwork/stations/vaanam-fm-hd.svg` |
+| `tamil-80s-hits` | 80s Tamil Hits | `assets/artwork/stations/tamil-80s-hits.svg` |
+| `amr-radio-ca` | AMR Radio | `assets/artwork/stations/amr-radio-ca.svg` |
+| `thaalam-in` | Thaalam FM India | `assets/artwork/stations/thaalam-in.svg` |
+| `ilangai-vaanoli` | Ilangai Vaanoli | `assets/artwork/stations/ilangai-vaanoli.svg` |
+| `kumbakonam-city-fm` | Kumbakonam City FM | `assets/artwork/stations/kumbakonam-city-fm.svg` |
+| `ada-ceylon-fm` | ADA Ceylon FM | `assets/artwork/stations/ada-ceylon-fm.svg` |
+| `vellore-city-fm` | Vellore City FM | `assets/artwork/stations/vellore-city-fm.svg` |
+| `divyavani-sanskrit-in` | Divyavani Sanskrit Radio | `assets/artwork/stations/divyavani-sanskrit-in.svg` |
+| `sanskrit-bharati-radio-in` | Radio Sanskrit Bharati | `assets/artwork/stations/sanskrit-bharati-radio-in.svg` |
+| `radio-paloma-de` | Radio Paloma | `assets/artwork/stations/radio-paloma-de.svg` |
+| `radio-norge-no` | Radio Norge | `assets/artwork/stations/radio-norge-no.svg` |
+| `realradio-ireland-ie` | RealRadio Ireland | `assets/artwork/stations/realradio-ireland-ie.svg` |
+| `nostalgia-fi` | Nostalgia Finland | `assets/artwork/stations/nostalgia-fi.svg` |
+| `suomipop-fi` | SuomiPop | `assets/artwork/stations/suomipop-fi.svg` |
+| `radio-r-lt` | Radio-R Lithuania | `assets/artwork/stations/radio-r-lt.svg` |
+| `znad-wilii-lt` | Znad Wilii | `assets/artwork/stations/znad-wilii-lt.svg` |
+| `pop-fm-dk` | Pop FM Denmark | `assets/artwork/stations/pop-fm-dk.svg` |
+| `myrock-dk` | MyRock Denmark | `assets/artwork/stations/myrock-dk.svg` |
+| `stad-den-haag-nl` | Radio Stad Den Haag | `assets/artwork/stations/stad-den-haag-nl.svg` |
+| `slam-nl` | SLAM! Netherlands | `assets/artwork/stations/slam-nl.svg` |
+| `kiss-kiss-italia-it` | Radio Kiss Kiss Italia | `assets/artwork/stations/kiss-kiss-italia-it.svg` |
+| `exa-fm-mexico` | Exa FM Mexico | `assets/artwork/stations/exa-fm-mexico.svg` |
+| `sveriges-radio-p1-se` | Sveriges Radio P1 | `assets/artwork/stations/sveriges-radio-p1-se.svg` |
+| `pirate-rock-se` | Pirate Rock Sweden | `assets/artwork/stations/pirate-rock-se.svg` |
+| `radio-dla-doroslych-pl` | Radio dla Dorosłych | `assets/artwork/stations/radio-dla-doroslych-pl.svg` |
+| `radio-max-hr` | Radio Max Croatia | `assets/artwork/stations/radio-max-hr.svg` |
+| `nagham-fm-eg` | Nagham FM Egypt | `assets/artwork/stations/nagham-fm-eg.svg` |
+| `radio-roks-ua` | Radio ROKS Ukraine | `assets/artwork/stations/radio-roks-ua.svg` |
+| `radio-nrj-ua` | Radio NRJ Ukraine | `assets/artwork/stations/radio-nrj-ua.svg` |
+| `radio-jamaica-jm` | Radio Jamaica | `assets/artwork/stations/radio-jamaica-jm.svg` |
+| `telemetro-radio-pa` | Telemetro Radio Panama | `assets/artwork/stations/telemetro-radio-pa.svg` |
+| `77h-fm-br` | 77H FM Guarujá SP | `assets/artwork/stations/77h-fm-br.svg` |
+| `jazz-radio-blues-fr` | Jazz Radio Blues France | `assets/artwork/stations/jazz-radio-blues-fr.svg` |
+| `mahakatha-radio-in` | Mahakatha Radio | `assets/artwork/stations/mahakatha-radio-in.svg` |
+| `shaiva-lahari-in` | Shaiva Lahari | `assets/artwork/stations/shaiva-lahari-in.svg` |
+| `exclusively-backstreet-boys-ae` | Exclusively Backstreet Boys | `assets/artwork/stations/exclusively-backstreet-boys-ae.svg` |
+| `exclusively-taylor-swift-ae` | Exclusively Taylor Swift | `assets/artwork/stations/exclusively-taylor-swift-ae.svg` |
+| `hello-telugu-in` | Hello Telugu | `assets/artwork/stations/hello-telugu-in.svg` |
+| `radio-malayalam-in` | Radio Malayalam | `assets/artwork/stations/radio-malayalam-in.svg` |
+| `bol-punjabi-radio-in` | Bol Punjabi Radio | `assets/artwork/stations/bol-punjabi-radio-in.svg` |
+| `radio-mast-marathi-in` | Radio Mast Marathi | `assets/artwork/stations/radio-mast-marathi-in.svg` |
+| `freefm-uae-sinhala-ae` | Free FM — UAE Sinhala Radio | `assets/artwork/stations/freefm-uae-sinhala-ae.svg` |
+| `radio-amr-kannada-in` | Radio AMR Kannada | `assets/artwork/stations/radio-amr-kannada-in.svg` |
+| `kannada-hits-in` | Kannada Hits | `assets/artwork/stations/kannada-hits-in.svg` |
+| `hindi-gold-radio-in` | Hindi Gold Radio | `assets/artwork/stations/hindi-gold-radio-in.svg` |
+| `radio-mirchi-dubai-ae` | Radio Mirchi Dubai (directory listing) | `assets/artwork/stations/radio-mirchi-dubai-ae.svg` |
+| `radio-quarantine-kolkata-in` | Radio Quarantine Kolkata | `assets/artwork/stations/radio-quarantine-kolkata-in.svg` |
+| `exclusively-justin-bieber-ae` | Exclusively Justin Bieber | `assets/artwork/stations/exclusively-justin-bieber-ae.svg` |
+| `exclusively-shakira-ae` | Exclusively Shakira | `assets/artwork/stations/exclusively-shakira-ae.svg` |
+| `exclusively-one-direction-ae` | Exclusively One Direction | `assets/artwork/stations/exclusively-one-direction-ae.svg` |
+| `exclusively-adele-ae` | Exclusively Adele | `assets/artwork/stations/exclusively-adele-ae.svg` |
+| `exclusively-ed-sheeran-ae` | Exclusively Ed Sheeran | `assets/artwork/stations/exclusively-ed-sheeran-ae.svg` |
+| `exclusively-westlife-ae` | Exclusively Westlife | `assets/artwork/stations/exclusively-westlife-ae.svg` |
+| `stage29-thenral-world-radio` | Thenral World Radio | `assets/artwork/stations/stage29-thenral-world-radio.svg` |
+| `stage29-agaram-tamil-radio` | Agaram Tamil Radio | `assets/artwork/stations/stage29-agaram-tamil-radio.svg` |
+| `stage29-clubhouse-tamil-90s-2k-vibes` | Clubhouse Tamil 90s & 2K Vibes | `assets/artwork/stations/stage29-clubhouse-tamil-90s-2k-vibes.svg` |
+| `stage29-jipmer-radio` | Jipmer Radio | `assets/artwork/stations/stage29-jipmer-radio.svg` |
+| `stage29-kodai-aruvi-fm` | Kodai Aruvi FM | `assets/artwork/stations/stage29-kodai-aruvi-fm.svg` |
+| `stage29-saamanthi-fm` | Saamanthi FM | `assets/artwork/stations/stage29-saamanthi-fm.svg` |
+| `stage29-tamil-mellisai-fm` | Tamil Mellisai FM | `assets/artwork/stations/stage29-tamil-mellisai-fm.svg` |
+| `stage29-madhuram-radio` | Madhuram Radio | `assets/artwork/stations/stage29-madhuram-radio.svg` |
+| `stage29-tuticorin-radio` | Tuticorin Radio | `assets/artwork/stations/stage29-tuticorin-radio.svg` |
+| `stage29-dindigul-radio` | Dindigul Radio | `assets/artwork/stations/stage29-dindigul-radio.svg` |
+| `stage29-vaalai-fm` | Vaalai FM | `assets/artwork/stations/stage29-vaalai-fm.svg` |
+| `stage29-jayam-fm-7-1` | Jayam FM 7.1 | `assets/artwork/stations/stage29-jayam-fm-7-1.svg` |
+| `stage29-retro-tamil-fm` | Retro Tamil FM | `assets/artwork/stations/stage29-retro-tamil-fm.svg` |
+| `stage29-oli-saaral-fm` | Oli Saaral FM | `assets/artwork/stations/stage29-oli-saaral-fm.svg` |
+| `stage29-trt-tamil-oli` | TRT Tamil Oli | `assets/artwork/stations/stage29-trt-tamil-oli.svg` |
+| `stage29-pasumai-90-4-fm` | Pasumai FM 90.4 | `assets/artwork/stations/stage29-pasumai-90-4-fm.svg` |
+| `stage29-tiruvannamalai-city-fm` | Tiruvannamalai City FM | `assets/artwork/stations/stage29-tiruvannamalai-city-fm.svg` |
+| `stage29-rockfort-radio` | Rockfort Radio | `assets/artwork/stations/stage29-rockfort-radio.svg` |
+| `stage29-i-tamil-media-fm` | I Tamil Media FM | `assets/artwork/stations/stage29-i-tamil-media-fm.svg` |
+| `stage29-covai-city-fm` | Covai City FM | `assets/artwork/stations/stage29-covai-city-fm.svg` |
+| `stage29-ss-tamil-radio` | SS Tamil Radio | `assets/artwork/stations/stage29-ss-tamil-radio.svg` |
+| `stage29-rj-tamil-fm` | Rj Tamil FM | `assets/artwork/stations/stage29-rj-tamil-fm.svg` |
+| `stage29-100-love-radio` | 100% Love Radio | `assets/artwork/stations/stage29-100-love-radio.svg` |
+| `stage29-100-new-songs` | 100% New Songs | `assets/artwork/stations/stage29-100-new-songs.svg` |
+| `stage29-100-sad-songs` | 100% Sad Songs | `assets/artwork/stations/stage29-100-sad-songs.svg` |
+| `stage29-tamil-ragam` | Tamil Ragam | `assets/artwork/stations/stage29-tamil-ragam.svg` |
+| `stage29-airtamil-90s` | AirTamil 90s | `assets/artwork/stations/stage29-airtamil-90s.svg` |
+| `stage29-captain-fm` | Captain FM | `assets/artwork/stations/stage29-captain-fm.svg` |
+| `stage29-kaadhal-fm` | Kaadhal FM | `assets/artwork/stations/stage29-kaadhal-fm.svg` |
+| `stage29-love-songs-tamil` | Love Songs Tamil | `assets/artwork/stations/stage29-love-songs-tamil.svg` |
+| `stage29-love-bites-mohan-songs` | Love bites Mohan songs | `assets/artwork/stations/stage29-love-bites-mohan-songs.svg` |
+| `stage29-loveda-fm` | LoveDa FM | `assets/artwork/stations/stage29-loveda-fm.svg` |
+| `stage29-sad-songs-fm` | Sad Songs FM | `assets/artwork/stations/stage29-sad-songs-fm.svg` |
+| `stage29-rocker-radio-tamil-gold-70s-90s` | Rocker Radio Tamil Gold 70s 90s | `assets/artwork/stations/stage29-rocker-radio-tamil-gold-70s-90s.svg` |
+| `stage29-deva-radio` | Deva Radio | `assets/artwork/stations/stage29-deva-radio.svg` |
+| `stage29-tms-radio` | TMS Radio | `assets/artwork/stations/stage29-tms-radio.svg` |
+| `stage29-mano-radio` | Mano Radio | `assets/artwork/stations/stage29-mano-radio.svg` |
+| `stage29-top-news-thamizh-fm` | Top News Thamizh FM | `assets/artwork/stations/stage29-top-news-thamizh-fm.svg` |
+| `stage29-ms-viswanathan-hits` | MS Viswanathan Hits | `assets/artwork/stations/stage29-ms-viswanathan-hits.svg` |
+| `stage29-simbu-hits` | Simbu Hits | `assets/artwork/stations/stage29-simbu-hits.svg` |
+| `stage29-yuvan-shankar-raja-ysr` | Yuvan Shankar Raja YSR | `assets/artwork/stations/stage29-yuvan-shankar-raja-ysr.svg` |
+| `stage29-na-muthukumar-hits` | Na Muthukumar Hits | `assets/artwork/stations/stage29-na-muthukumar-hits.svg` |
+| `stage29-imman-radio` | Imman Radio | `assets/artwork/stations/stage29-imman-radio.svg` |
+| `stage29-thaman-hits` | Thaman Hits | `assets/artwork/stations/stage29-thaman-hits.svg` |
+| `stage29-jp-chandrababu-hits` | JP Chandrababu Hits | `assets/artwork/stations/stage29-jp-chandrababu-hits.svg` |
+| `stage29-vijay-tamil-radio` | Vijay FM Radio | `assets/artwork/stations/stage29-vijay-tamil-radio.svg` |
+| `stage29-isai-manam` | Isai Manam | `assets/artwork/stations/stage29-isai-manam.svg` |
+| `stage29-shaivam-radio` | Shaivam Radio | `assets/artwork/stations/stage29-shaivam-radio.svg` |
+| `stage29-ayngaran-radio` | Ayngaran Radio | `assets/artwork/stations/stage29-ayngaran-radio.svg` |
+| `stage29-aadhi-sivan-fm` | Aadhi Sivan FM | `assets/artwork/stations/stage29-aadhi-sivan-fm.svg` |
+| `stage29-om-sakthi-fm` | Om Sakthi FM | `assets/artwork/stations/stage29-om-sakthi-fm.svg` |
+| `stage29-ss-devotional-radio` | SS Devotional Radio | `assets/artwork/stations/stage29-ss-devotional-radio.svg` |
+| `stage29-guru-raghavendra-radio` | Guru Raghavendra Radio | `assets/artwork/stations/stage29-guru-raghavendra-radio.svg` |
+| `stage29-vishnu-fm` | Vishnu FM | `assets/artwork/stations/stage29-vishnu-fm.svg` |
+| `stage29-saranam-ayyappa-fm` | Saranam Ayyappa FM | `assets/artwork/stations/stage29-saranam-ayyappa-fm.svg` |
+| `stage29-sai-fm-radio` | Sai Radio | `assets/artwork/stations/stage29-sai-fm-radio.svg` |
+| `stage29-aanmeega-sudar` | Aanmeega Sudar | `assets/artwork/stations/stage29-aanmeega-sudar.svg` |
+| `stage29-sivasubramaniyam-ayyappan-songs-fm` | Sivasubramaniyam Ayyappan FM | `assets/artwork/stations/stage29-sivasubramaniyam-ayyappan-songs-fm.svg` |
+| `stage29-sree-kurumba-fm` | Sree Kurumba FM | `assets/artwork/stations/stage29-sree-kurumba-fm.svg` |
+| `stage29-dharisanam-fm` | Dharisanam FM | `assets/artwork/stations/stage29-dharisanam-fm.svg` |
+| `stage29-singampunari-fm` | Singampunari FM | `assets/artwork/stations/stage29-singampunari-fm.svg` |
+| `stage29-yazh-news` | Yazh News | `assets/artwork/stations/stage29-yazh-news.svg` |
+| `stage29-kalai-fm` | Kalai FM | `assets/artwork/stations/stage29-kalai-fm.svg` |
+| `stage29-kanal-music` | Kanal Music | `assets/artwork/stations/stage29-kanal-music.svg` |
+| `stage29-kandhakapookkal-radio` | Kandhakapookkal Radio | `assets/artwork/stations/stage29-kandhakapookkal-radio.svg` |
+| `stage29-krishna-fm` | Krishna FM | `assets/artwork/stations/stage29-krishna-fm.svg` |
+| `stage32-vividh-bharati-bengaluru` | Vividh Bharati Bengaluru | `assets/artwork/stations/stage32-vividh-bharati-bengaluru.svg` |
+| `stage32-bhakti-sangeet` | Bhakti Sangeet | `assets/artwork/stations/stage32-bhakti-sangeet.svg` |
+| `stage32-ap9-fm` | AP9 FM | `assets/artwork/stations/stage32-ap9-fm.svg` |
+| `stage32-air-telugu-online` | Air Telugu (Mintone) | `assets/artwork/stations/stage32-air-telugu-online.svg` |
+| `stage32-fm-rainbow-vijayawada` | FM Rainbow Vijayawada | `assets/artwork/stations/stage32-fm-rainbow-vijayawada.svg` |
+| `stage32-retro-bollywood-90s` | Radio Retro Bollywood 90s | `assets/artwork/stations/stage32-retro-bollywood-90s.svg` |
+| `stage32-sgpc-gurbani` | Live Gurbani — Sri Darbar Sahib (SGPC) | `assets/artwork/stations/stage32-sgpc-gurbani.svg` |
+| `stage32-ran-fm` | Ran FM | `assets/artwork/stations/stage32-ran-fm.svg` |
+| `stage32-neth-fm` | NETH FM | `assets/artwork/stations/stage32-neth-fm.svg` |
+| `stage32-siyatha-fm` | Siyatha FM | `assets/artwork/stations/stage32-siyatha-fm.svg` |
+| `stage32-malayalam-bhakthi` | Malayalam Bhakthi Radio | `assets/artwork/stations/stage32-malayalam-bhakthi.svg` |
+| `stage32-digital-malayali` | Radio Digital Malayali | `assets/artwork/stations/stage32-digital-malayali.svg` |
+| `stage32-radio-choklate` | Radio Choklate 104 FM | `assets/artwork/stations/stage32-radio-choklate.svg` |
+| `stage32-dnyaneshwari` | Dnyaneshwari Radio | `assets/artwork/stations/stage32-dnyaneshwari.svg` |
+| `stage33-red-fm-calgary` | RED FM Calgary 106.7 | `assets/artwork/stations/stage33-red-fm-calgary.svg` |
 
-Images must correctly identify the station, use approved HTTPS raster URLs and pass the remote-image audit. Keep fallback when an exact logo is unavailable.
+
+## External image backup covers
+
+The following 19 station entries have an additional data-hosted SVG cover that is used if their external artist/devotional photo fails:
+
+- `ilayaraja-radio` — `assets/artwork/stations/ilayaraja-radio.svg`
+- `80s80s-michael-jackson-de` — `assets/artwork/stations/80s80s-michael-jackson-de.svg`
+- `exclusively-michael-jackson-ae` — `assets/artwork/stations/exclusively-michael-jackson-ae.svg`
+- `exclusively-queen-ae` — `assets/artwork/stations/exclusively-queen-ae.svg`
+- `stage29-mgr-sivaji-radio` — `assets/artwork/stations/stage29-mgr-sivaji-radio.svg`
+- `stage29-spb-online-radio` — `assets/artwork/stations/stage29-spb-online-radio.svg`
+- `stage29-harris-jayaraj-radio` — `assets/artwork/stations/stage29-harris-jayaraj-radio.svg`
+- `stage29-ks-chitra-radio` — `assets/artwork/stations/stage29-ks-chitra-radio.svg`
+- `stage29-kj-yesudas-radio` — `assets/artwork/stations/stage29-kj-yesudas-radio.svg`
+- `stage29-s-janaki-radio` — `assets/artwork/stations/stage29-s-janaki-radio.svg`
+- `stage29-spb-old-hits-fm` — `assets/artwork/stations/stage29-spb-old-hits-fm.svg`
+- `stage29-ilayaraja-voice-fm` — `assets/artwork/stations/stage29-ilayaraja-voice-fm.svg`
+- `stage29-santhosh-narayanan-radio` — `assets/artwork/stations/stage29-santhosh-narayanan-radio.svg`
+- `stage29-arrahman-classic` — `assets/artwork/stations/stage29-arrahman-classic.svg`
+- `stage29-makkal-thilagam-mgr` — `assets/artwork/stations/stage29-makkal-thilagam-mgr.svg`
+- `stage29-maestro-hits` — `assets/artwork/stations/stage29-maestro-hits.svg`
+- `stage29-arrahman-classic-hits` — `assets/artwork/stations/stage29-arrahman-classic-hits.svg`
+- `stage29-rajini-radio` — `assets/artwork/stations/stage29-rajini-radio.svg`
+- `stage29-tamil-kadavul-murugan-fm` — `assets/artwork/stations/stage29-tamil-kadavul-murugan-fm.svg`

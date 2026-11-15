@@ -5,9 +5,9 @@ import {readCatalogue,validateCatalogue,validPublicLogoUrl} from '../scripts/val
 
 const catalogue = () => readCatalogue(undefined,'v2');
 
-test('V2 replaces generic network radio pictures with 19 reviewed brand URLs',()=>{
+test('V2 supports original branded and publisher favicon network URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,19);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,54);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
@@ -30,7 +30,7 @@ test('Akashvani and Suryan share their respective network brand artwork, and Sri
 
 test('Unverified or unreachable imagery is left unspecified, allowing RadioBee fallback',()=>{
   const data=catalogue();
-  for(const id of ['stage29-network-tamil-kadavul-murugan-fm','stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','shaivam','star-fm-lk','boom-tamil','big-fm','hello-fm']) {
+  for(const id of ['stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','hello-fm','star-fm-lk','annai-fm','tarana']) {
     const network=data.networks.find(n=>n.id===id);
     assert.ok(network,id);
     assert.equal(network.logoUrl,undefined,id);
@@ -38,16 +38,19 @@ test('Unverified or unreachable imagery is left unspecified, allowing RadioBee f
   }
 });
 
-test('Reject malformed and off-domain image URLs without touching the canonical data',()=>{
+test('Reject non-public and malformed image URLs without touching the canonical data',()=>{
   for(const url of [
     'http://i1.sndcdn.com/logo.png',
     'https://attacker.example/logo.jpg',
+    'https://localhost/image.png',
+    'https://10.0.0.1/pic.jpg',
     'https://i1.sndcdn.com@evil.example/logo.png',
-    'https://i1.sndcdn.com/x.svg',
+    'https://i1.sndcdn.com:8080/x.svg',
     'https://i1.sndcdn.com/x.jpg#fragment',
     'javascript:alert(1)',
     'https://user:pass@i1.sndcdn.com/x.png',
   ])assert.equal(validPublicLogoUrl(url),false,url);
+  for (const image of ['https://www.google.com/s2/favicons?domain=hello.fm&sz=256', 'https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg']) assert.ok(validPublicLogoUrl(image));
   const data=catalogue();
   data.networks.find(n=>n.id==='akashvani').logoUrl='https://attacker.example/logo.png';
   assert.ok(validateCatalogue(data,{version:'v2'}).some(e=>e.includes('invalid logoUrl')));
@@ -68,4 +71,25 @@ test('new KEXP and WNYC network artwork is verified and independently identified
   assert.match(n.get('stage24-kexp').logoUrl,/^https:\/\/www\.kexp\.org\/.*\.png$/);
   assert.match(n.get('stage24-wnyc').logoUrl,/^https:\/\/upload\.wikimedia\.org\/.*\.png$/);
   assert.notEqual(n.get('stage24-kexp').logoUrl,n.get('stage24-wnyc').logoUrl);
+});
+
+test('artist and devotional station photos override general network artwork',()=>{
+  const data=catalogue();
+  const map=new Map(data.stations.map(s=>[s.id,s]));
+  assert.match(map.get('80s80s-michael-jackson-de').logoUrl,/Michael(?:_|%20| )Jackson/);
+  assert.match(map.get('exclusively-michael-jackson-ae').logoUrl,/Michael(?:_|%20| )Jackson/);
+  assert.match(map.get('stage29-tamil-kadavul-murugan-fm').logoUrl,/Murugan/);
+  for(const s of map.values())if(s.logoUrl)assert.ok(validPublicLogoUrl(s.logoUrl),s.id);
+});
+
+test('every published V2 station has network, individual or data-hosted editorial artwork',()=>{
+  const data=catalogue();
+  const networkById=new Map(data.networks.map(n=>[n.id,n]));
+  const editorial=data.stations.filter(s=>s.logoPath?.startsWith('assets/artwork/stations/'));
+  assert.equal(editorial.length,169);
+  for(const s of data.stations){
+    const network=networkById.get(s.networkId);
+    assert.ok(s.logoUrl||s.logoPath||network?.logoUrl||network?.logoPath,s.id);
+  }
+  assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
 });

@@ -2389,7 +2389,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/etr-de.svg"
   },
   {
     "id": "tamil-murasam-no",
@@ -2458,7 +2459,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/tamil-murasam-no.svg"
   },
   {
     "id": "shiva-tattvam",
@@ -2666,7 +2668,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/star-fm-srilanka.svg"
   },
   {
     "id": "boom-tamil",
@@ -2941,7 +2944,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Publisher-declared Malayalam/Tamil/Hindi rotation. No primary language or live on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/ar-radio.svg"
   },
   {
     "id": "hello-chennai",
@@ -3033,7 +3037,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/hello-chennai.svg"
   },
   {
     "id": "east-fm-ca",
@@ -3903,7 +3908,8 @@
     },
     "programmeThemeIds": [
       "islamic-religious"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/quran-tamil-kw.svg"
   },
   {
     "id": "sweety-fm-in",
@@ -4042,7 +4048,8 @@
     },
     "programmeThemeIds": [
       "christian-devotional"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/hand-of-jesus-tamil-in.svg"
   },
   {
     "id": "vaanmalar-fm-in",
@@ -4109,7 +4116,8 @@
     },
     "programmeThemeIds": [
       "christian-devotional"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/vaanmalar-fm-in.svg"
   },
   {
     "id": "suno-tamil-qa",
@@ -4808,7 +4816,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    }
+    },
+    "logoPath": "assets/artwork/stations/namathu-fm-fr.svg"
   },
   {
     "id": "otran-vaanoli-ie",
@@ -5158,7 +5167,8 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Publisher identifies a dedicated Tamil programme/channel. Coverage remains partial: incidental announcements or unidentified other-language material are not ruled out; this is not real-time language detection."
-    }
+    },
+    "logoPath": "assets/artwork/stations/inbathamil-oli-au.svg"
   },
   {
     "id": "mirchi-chennai",
@@ -5512,7 +5522,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/pollachi-fm.svg"
   },
   {
     "id": "inbam-fm",
@@ -5557,7 +5568,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/inbam-fm.svg"
   },
   {
     "id": "kodai-city-fm",
@@ -5602,7 +5614,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/kodai-city-fm.svg"
   },
   {
     "id": "radio-beat-love",
@@ -5648,7 +5661,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-beat-love.svg"
   },
   {
     "id": "radio-beat-extra",
@@ -5695,7 +5709,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-beat-extra.svg"
   },
   {
     "id": "air-dharmapuri",
@@ -5785,7 +5800,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/vaanam-fm-hd.svg"
   },
   {
     "id": "tamil-80s-hits",
@@ -5831,7 +5847,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/tamil-80s-hits.svg"
   },
   {
     "id": "amr-radio-ca",
@@ -5876,7 +5893,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/amr-radio-ca.svg"
   },
   {
     "id": "thaalam-in",
@@ -5921,7 +5939,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/thaalam-in.svg"
   },
   {
     "id": "slbc-tamil-national-service",
@@ -6011,7 +6030,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/ilangai-vaanoli.svg"
   },
   {
     "id": "ilayaraja-radio",
@@ -6060,7 +6080,9 @@
     ],
     "artistIds": [
       "ilaiyaraaja"
-    ]
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg",
+    "logoPath": "assets/artwork/stations/ilayaraja-radio.svg"
   },
   {
     "id": "kumbakonam-city-fm",
@@ -6105,7 +6127,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/kumbakonam-city-fm.svg"
   },
   {
     "id": "ada-ceylon-fm",
@@ -6150,7 +6173,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/ada-ceylon-fm.svg"
   },
   {
     "id": "vellore-city-fm",
@@ -6195,7 +6219,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/vellore-city-fm.svg"
   },
   {
     "id": "raaga-my",
@@ -6307,7 +6332,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/divyavani-sanskrit-in.svg"
   },
   {
     "id": "sanskrit-bharati-radio-in",
@@ -6352,7 +6378,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/sanskrit-bharati-radio-in.svg"
   },
   {
     "id": "radio-paloma-de",
@@ -6397,7 +6424,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-paloma-de.svg"
   },
   {
     "id": "radio-norge-no",
@@ -6442,7 +6470,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-norge-no.svg"
   },
   {
     "id": "realradio-ireland-ie",
@@ -6487,7 +6516,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/realradio-ireland-ie.svg"
   },
   {
     "id": "nostalgia-fi",
@@ -6532,7 +6562,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/nostalgia-fi.svg"
   },
   {
     "id": "suomipop-fi",
@@ -6577,7 +6608,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/suomipop-fi.svg"
   },
   {
     "id": "radio-r-lt",
@@ -6622,7 +6654,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-r-lt.svg"
   },
   {
     "id": "znad-wilii-lt",
@@ -6667,7 +6700,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/znad-wilii-lt.svg"
   },
   {
     "id": "pop-fm-dk",
@@ -6712,7 +6746,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/pop-fm-dk.svg"
   },
   {
     "id": "myrock-dk",
@@ -6757,7 +6792,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/myrock-dk.svg"
   },
   {
     "id": "stad-den-haag-nl",
@@ -6802,7 +6838,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stad-den-haag-nl.svg"
   },
   {
     "id": "slam-nl",
@@ -6847,7 +6884,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/slam-nl.svg"
   },
   {
     "id": "kiss-kiss-italia-it",
@@ -6892,7 +6930,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/kiss-kiss-italia-it.svg"
   },
   {
     "id": "exa-fm-mexico",
@@ -6937,7 +6976,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exa-fm-mexico.svg"
   },
   {
     "id": "sveriges-radio-p1-se",
@@ -6982,7 +7022,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/sveriges-radio-p1-se.svg"
   },
   {
     "id": "pirate-rock-se",
@@ -7027,7 +7068,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/pirate-rock-se.svg"
   },
   {
     "id": "radio-dla-doroslych-pl",
@@ -7072,7 +7114,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-dla-doroslych-pl.svg"
   },
   {
     "id": "radio-max-hr",
@@ -7117,7 +7160,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-max-hr.svg"
   },
   {
     "id": "nagham-fm-eg",
@@ -7162,7 +7206,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/nagham-fm-eg.svg"
   },
   {
     "id": "radio-roks-ua",
@@ -7207,7 +7252,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-roks-ua.svg"
   },
   {
     "id": "radio-nrj-ua",
@@ -7252,7 +7298,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-nrj-ua.svg"
   },
   {
     "id": "radio-jamaica-jm",
@@ -7297,7 +7344,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-jamaica-jm.svg"
   },
   {
     "id": "telemetro-radio-pa",
@@ -7342,7 +7390,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/telemetro-radio-pa.svg"
   },
   {
     "id": "77h-fm-br",
@@ -7387,7 +7436,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/77h-fm-br.svg"
   },
   {
     "id": "jazz-radio-blues-fr",
@@ -7432,7 +7482,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/jazz-radio-blues-fr.svg"
   },
   {
     "id": "mahakatha-radio-in",
@@ -7479,7 +7530,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/mahakatha-radio-in.svg"
   },
   {
     "id": "shaiva-lahari-in",
@@ -7529,7 +7581,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/shaiva-lahari-in.svg"
   },
   {
     "id": "kexp-seattle-us",
@@ -7713,7 +7766,8 @@
     ],
     "artistIds": [
       "backstreet-boys"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-backstreet-boys-ae.svg"
   },
   {
     "id": "exclusively-taylor-swift-ae",
@@ -7761,7 +7815,8 @@
     ],
     "artistIds": [
       "taylor-swift"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-taylor-swift-ae.svg"
   },
   {
     "id": "hello-telugu-in",
@@ -7806,7 +7861,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/hello-telugu-in.svg"
   },
   {
     "id": "radio-malayalam-in",
@@ -7851,7 +7907,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-malayalam-in.svg"
   },
   {
     "id": "bol-punjabi-radio-in",
@@ -7896,7 +7953,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/bol-punjabi-radio-in.svg"
   },
   {
     "id": "radio-mast-marathi-in",
@@ -7941,7 +7999,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-mast-marathi-in.svg"
   },
   {
     "id": "freefm-uae-sinhala-ae",
@@ -7986,7 +8045,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/freefm-uae-sinhala-ae.svg"
   },
   {
     "id": "radio-amr-kannada-in",
@@ -8031,7 +8091,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-amr-kannada-in.svg"
   },
   {
     "id": "kannada-hits-in",
@@ -8076,7 +8137,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/kannada-hits-in.svg"
   },
   {
     "id": "hindi-gold-radio-in",
@@ -8121,7 +8183,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/hindi-gold-radio-in.svg"
   },
   {
     "id": "radio-mirchi-dubai-ae",
@@ -8166,7 +8229,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-mirchi-dubai-ae.svg"
   },
   {
     "id": "radio-quarantine-kolkata-in",
@@ -8211,7 +8275,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/radio-quarantine-kolkata-in.svg"
   },
   {
     "id": "80s80s-michael-jackson-de",
@@ -8259,7 +8324,9 @@
     ],
     "artistIds": [
       "michael-jackson"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg",
+    "logoPath": "assets/artwork/stations/80s80s-michael-jackson-de.svg"
   },
   {
     "id": "exclusively-michael-jackson-ae",
@@ -8307,7 +8374,9 @@
     ],
     "artistIds": [
       "michael-jackson"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jackson%20in%201988.jpg",
+    "logoPath": "assets/artwork/stations/exclusively-michael-jackson-ae.svg"
   },
   {
     "id": "exclusively-justin-bieber-ae",
@@ -8355,7 +8424,8 @@
     ],
     "artistIds": [
       "justin-bieber"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-justin-bieber-ae.svg"
   },
   {
     "id": "exclusively-shakira-ae",
@@ -8404,7 +8474,8 @@
     ],
     "artistIds": [
       "shakira"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-shakira-ae.svg"
   },
   {
     "id": "exclusively-one-direction-ae",
@@ -8452,7 +8523,8 @@
     ],
     "artistIds": [
       "one-direction"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-one-direction-ae.svg"
   },
   {
     "id": "exclusively-adele-ae",
@@ -8500,7 +8572,8 @@
     ],
     "artistIds": [
       "adele"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-adele-ae.svg"
   },
   {
     "id": "exclusively-ed-sheeran-ae",
@@ -8548,7 +8621,8 @@
     ],
     "artistIds": [
       "ed-sheeran"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-ed-sheeran-ae.svg"
   },
   {
     "id": "exclusively-queen-ae",
@@ -8596,7 +8670,9 @@
     ],
     "artistIds": [
       "queen"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen%20-%20Freddie%20Mercury.jpg",
+    "logoPath": "assets/artwork/stations/exclusively-queen-ae.svg"
   },
   {
     "id": "exclusively-westlife-ae",
@@ -8644,7 +8720,8 @@
     ],
     "artistIds": [
       "westlife"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/exclusively-westlife-ae.svg"
   },
   {
     "id": "stage29-thenral-world-radio",
@@ -8689,7 +8766,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-thenral-world-radio.svg"
   },
   {
     "id": "stage29-agaram-tamil-radio",
@@ -8734,7 +8812,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-agaram-tamil-radio.svg"
   },
   {
     "id": "stage29-clubhouse-tamil-90s-2k-vibes",
@@ -8779,7 +8858,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-clubhouse-tamil-90s-2k-vibes.svg"
   },
   {
     "id": "stage29-jipmer-radio",
@@ -8824,7 +8904,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-jipmer-radio.svg"
   },
   {
     "id": "stage29-kodai-aruvi-fm",
@@ -8869,7 +8950,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-kodai-aruvi-fm.svg"
   },
   {
     "id": "stage29-saamanthi-fm",
@@ -8914,7 +8996,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-saamanthi-fm.svg"
   },
   {
     "id": "stage29-tamil-mellisai-fm",
@@ -8959,7 +9042,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-tamil-mellisai-fm.svg"
   },
   {
     "id": "stage29-madhuram-radio",
@@ -9004,7 +9088,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-madhuram-radio.svg"
   },
   {
     "id": "stage29-tuticorin-radio",
@@ -9049,7 +9134,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-tuticorin-radio.svg"
   },
   {
     "id": "stage29-dindigul-radio",
@@ -9094,7 +9180,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-dindigul-radio.svg"
   },
   {
     "id": "stage29-vaalai-fm",
@@ -9139,7 +9226,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-vaalai-fm.svg"
   },
   {
     "id": "stage29-jayam-fm-7-1",
@@ -9184,7 +9272,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-jayam-fm-7-1.svg"
   },
   {
     "id": "stage29-retro-tamil-fm",
@@ -9229,7 +9318,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-retro-tamil-fm.svg"
   },
   {
     "id": "stage29-oli-saaral-fm",
@@ -9274,7 +9364,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-oli-saaral-fm.svg"
   },
   {
     "id": "stage29-trt-tamil-oli",
@@ -9319,7 +9410,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-trt-tamil-oli.svg"
   },
   {
     "id": "stage29-pasumai-90-4-fm",
@@ -9364,7 +9456,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-pasumai-90-4-fm.svg"
   },
   {
     "id": "stage29-tiruvannamalai-city-fm",
@@ -9409,7 +9502,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-tiruvannamalai-city-fm.svg"
   },
   {
     "id": "stage29-rockfort-radio",
@@ -9454,7 +9548,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-rockfort-radio.svg"
   },
   {
     "id": "stage29-i-tamil-media-fm",
@@ -9499,7 +9594,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-i-tamil-media-fm.svg"
   },
   {
     "id": "stage29-covai-city-fm",
@@ -9544,7 +9640,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-covai-city-fm.svg"
   },
   {
     "id": "stage29-ss-tamil-radio",
@@ -9589,7 +9686,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-ss-tamil-radio.svg"
   },
   {
     "id": "stage29-rj-tamil-fm",
@@ -9634,7 +9732,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-rj-tamil-fm.svg"
   },
   {
     "id": "stage29-100-love-radio",
@@ -9679,7 +9778,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-100-love-radio.svg"
   },
   {
     "id": "stage29-100-new-songs",
@@ -9724,7 +9824,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-100-new-songs.svg"
   },
   {
     "id": "stage29-100-sad-songs",
@@ -9769,7 +9870,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-100-sad-songs.svg"
   },
   {
     "id": "stage29-tamil-ragam",
@@ -9814,7 +9916,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-tamil-ragam.svg"
   },
   {
     "id": "stage29-airtamil-90s",
@@ -9859,7 +9962,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-airtamil-90s.svg"
   },
   {
     "id": "stage29-captain-fm",
@@ -9904,7 +10008,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-captain-fm.svg"
   },
   {
     "id": "stage29-kaadhal-fm",
@@ -9949,7 +10054,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-kaadhal-fm.svg"
   },
   {
     "id": "stage29-love-songs-tamil",
@@ -9994,7 +10100,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-love-songs-tamil.svg"
   },
   {
     "id": "stage29-love-bites-mohan-songs",
@@ -10039,7 +10146,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-love-bites-mohan-songs.svg"
   },
   {
     "id": "stage29-loveda-fm",
@@ -10084,7 +10192,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-loveda-fm.svg"
   },
   {
     "id": "stage29-sad-songs-fm",
@@ -10129,7 +10238,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-sad-songs-fm.svg"
   },
   {
     "id": "stage29-rocker-radio-tamil-gold-70s-90s",
@@ -10174,7 +10284,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-rocker-radio-tamil-gold-70s-90s.svg"
   },
   {
     "id": "stage29-mgr-sivaji-radio",
@@ -10223,7 +10334,9 @@
     "artistIds": [
       "m-g-ramachandran",
       "sivaji-ganesan"
-    ]
+    ],
+    "logoUrl": "https://cdn.ibcstack.com/article/9823579d-1b30-4f21-a5c0-8aa949ce7905/22-62b1a543a3fa2.webp",
+    "logoPath": "assets/artwork/stations/stage29-mgr-sivaji-radio.svg"
   },
   {
     "id": "stage29-spb-online-radio",
@@ -10271,7 +10384,9 @@
     ],
     "artistIds": [
       "s-p-balasubrahmanyam"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG",
+    "logoPath": "assets/artwork/stations/stage29-spb-online-radio.svg"
   },
   {
     "id": "stage29-harris-jayaraj-radio",
@@ -10319,7 +10434,9 @@
     ],
     "artistIds": [
       "harris-jayaraj"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Harris%20Jayaraj%20at%20Gethu%20Audio%20Launch%20(cropped).jpg",
+    "logoPath": "assets/artwork/stations/stage29-harris-jayaraj-radio.svg"
   },
   {
     "id": "stage29-ks-chitra-radio",
@@ -10367,7 +10484,9 @@
     ],
     "artistIds": [
       "k-s-chithra"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/K%20s%20chithra.jpg",
+    "logoPath": "assets/artwork/stations/stage29-ks-chitra-radio.svg"
   },
   {
     "id": "stage29-deva-radio",
@@ -10415,7 +10534,8 @@
     ],
     "artistIds": [
       "deva"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-deva-radio.svg"
   },
   {
     "id": "stage29-kj-yesudas-radio",
@@ -10463,7 +10583,9 @@
     ],
     "artistIds": [
       "k-j-yesudas"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yesudas%20K.J.jpg",
+    "logoPath": "assets/artwork/stations/stage29-kj-yesudas-radio.svg"
   },
   {
     "id": "stage29-tms-radio",
@@ -10511,7 +10633,8 @@
     ],
     "artistIds": [
       "t-m-soundararajan"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-tms-radio.svg"
   },
   {
     "id": "stage29-s-janaki-radio",
@@ -10559,7 +10682,9 @@
     ],
     "artistIds": [
       "s-janaki"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/S%20Janaki%20in%20Pune%2C%20India%202007%20cropped.jpg",
+    "logoPath": "assets/artwork/stations/stage29-s-janaki-radio.svg"
   },
   {
     "id": "stage29-mano-radio",
@@ -10607,7 +10732,8 @@
     ],
     "artistIds": [
       "mano"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-mano-radio.svg"
   },
   {
     "id": "stage29-spb-old-hits-fm",
@@ -10655,7 +10781,9 @@
     ],
     "artistIds": [
       "s-p-balasubrahmanyam"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/S.%20P.%20Balasubrahmanyam%20in%202013%20(cropped).JPG",
+    "logoPath": "assets/artwork/stations/stage29-spb-old-hits-fm.svg"
   },
   {
     "id": "stage29-ilayaraja-voice-fm",
@@ -10703,7 +10831,9 @@
     ],
     "artistIds": [
       "ilaiyaraaja"
-    ]
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg",
+    "logoPath": "assets/artwork/stations/stage29-ilayaraja-voice-fm.svg"
   },
   {
     "id": "stage29-top-news-thamizh-fm",
@@ -10748,7 +10878,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-top-news-thamizh-fm.svg"
   },
   {
     "id": "stage29-santhosh-narayanan-radio",
@@ -10796,7 +10927,9 @@
     ],
     "artistIds": [
       "santhosh-narayanan"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santhosh%20Narayanan%20-%20WIki%20profile.jpg",
+    "logoPath": "assets/artwork/stations/stage29-santhosh-narayanan-radio.svg"
   },
   {
     "id": "stage29-arrahman-classic",
@@ -10844,7 +10977,9 @@
     ],
     "artistIds": [
       "a-r-rahman"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg",
+    "logoPath": "assets/artwork/stations/stage29-arrahman-classic.svg"
   },
   {
     "id": "stage29-makkal-thilagam-mgr",
@@ -10892,7 +11027,9 @@
     ],
     "artistIds": [
       "m-g-ramachandran"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MGR%20(cropped).jpg",
+    "logoPath": "assets/artwork/stations/stage29-makkal-thilagam-mgr.svg"
   },
   {
     "id": "stage29-ms-viswanathan-hits",
@@ -10940,7 +11077,8 @@
     ],
     "artistIds": [
       "m-s-viswanathan"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-ms-viswanathan-hits.svg"
   },
   {
     "id": "stage29-simbu-hits",
@@ -10988,7 +11126,8 @@
     ],
     "artistIds": [
       "silambarasan"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-simbu-hits.svg"
   },
   {
     "id": "stage29-maestro-hits",
@@ -11033,7 +11172,9 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg",
+    "logoPath": "assets/artwork/stations/stage29-maestro-hits.svg"
   },
   {
     "id": "stage29-yuvan-shankar-raja-ysr",
@@ -11081,7 +11222,8 @@
     ],
     "artistIds": [
       "yuvan-shankar-raja"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-yuvan-shankar-raja-ysr.svg"
   },
   {
     "id": "stage29-arrahman-classic-hits",
@@ -11129,7 +11271,9 @@
     ],
     "artistIds": [
       "a-r-rahman"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AR%20Rahman.jpg",
+    "logoPath": "assets/artwork/stations/stage29-arrahman-classic-hits.svg"
   },
   {
     "id": "stage29-rajini-radio",
@@ -11177,7 +11321,9 @@
     ],
     "artistIds": [
       "rajinikanth"
-    ]
+    ],
+    "logoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajinikanth%20in%202019.jpg",
+    "logoPath": "assets/artwork/stations/stage29-rajini-radio.svg"
   },
   {
     "id": "stage29-na-muthukumar-hits",
@@ -11225,7 +11371,8 @@
     ],
     "artistIds": [
       "na-muthukumar"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-na-muthukumar-hits.svg"
   },
   {
     "id": "stage29-imman-radio",
@@ -11273,7 +11420,8 @@
     ],
     "artistIds": [
       "d-imman"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-imman-radio.svg"
   },
   {
     "id": "stage29-thaman-hits",
@@ -11321,7 +11469,8 @@
     ],
     "artistIds": [
       "s-thaman"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-thaman-hits.svg"
   },
   {
     "id": "stage29-jp-chandrababu-hits",
@@ -11369,7 +11518,8 @@
     ],
     "artistIds": [
       "j-p-chandrababu"
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-jp-chandrababu-hits.svg"
   },
   {
     "id": "stage29-vijay-tamil-radio",
@@ -11414,7 +11564,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-vijay-tamil-radio.svg"
   },
   {
     "id": "stage29-isai-manam",
@@ -11459,7 +11610,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-isai-manam.svg"
   },
   {
     "id": "stage29-tamil-kadavul-murugan-fm",
@@ -11504,7 +11656,9 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/20190821_Lord_Murugan_statue-1.jpg/250px-20190821_Lord_Murugan_statue-1.jpg",
+    "logoPath": "assets/artwork/stations/stage29-tamil-kadavul-murugan-fm.svg"
   },
   {
     "id": "stage29-shaivam-radio",
@@ -11549,7 +11703,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-shaivam-radio.svg"
   },
   {
     "id": "stage29-ayngaran-radio",
@@ -11594,7 +11749,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-ayngaran-radio.svg"
   },
   {
     "id": "stage29-aadhi-sivan-fm",
@@ -11639,7 +11795,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-aadhi-sivan-fm.svg"
   },
   {
     "id": "stage29-om-sakthi-fm",
@@ -11684,7 +11841,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-om-sakthi-fm.svg"
   },
   {
     "id": "stage29-ss-devotional-radio",
@@ -11729,7 +11887,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-ss-devotional-radio.svg"
   },
   {
     "id": "stage29-guru-raghavendra-radio",
@@ -11774,7 +11933,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-guru-raghavendra-radio.svg"
   },
   {
     "id": "stage29-vishnu-fm",
@@ -11819,7 +11979,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-vishnu-fm.svg"
   },
   {
     "id": "stage29-saranam-ayyappa-fm",
@@ -11864,7 +12025,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-saranam-ayyappa-fm.svg"
   },
   {
     "id": "stage29-sai-fm-radio",
@@ -11909,7 +12071,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-sai-fm-radio.svg"
   },
   {
     "id": "stage29-aanmeega-sudar",
@@ -11954,7 +12117,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-aanmeega-sudar.svg"
   },
   {
     "id": "stage29-sivasubramaniyam-ayyappan-songs-fm",
@@ -11999,7 +12163,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-sivasubramaniyam-ayyappan-songs-fm.svg"
   },
   {
     "id": "stage29-sree-kurumba-fm",
@@ -12044,7 +12209,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-sree-kurumba-fm.svg"
   },
   {
     "id": "stage29-dharisanam-fm",
@@ -12089,7 +12255,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-dharisanam-fm.svg"
   },
   {
     "id": "stage29-singampunari-fm",
@@ -12134,7 +12301,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-singampunari-fm.svg"
   },
   {
     "id": "stage29-yazh-news",
@@ -12179,7 +12347,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-yazh-news.svg"
   },
   {
     "id": "stage29-kalai-fm",
@@ -12224,7 +12393,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-kalai-fm.svg"
   },
   {
     "id": "stage29-kanal-music",
@@ -12269,7 +12439,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-kanal-music.svg"
   },
   {
     "id": "stage29-kandhakapookkal-radio",
@@ -12314,7 +12485,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-kandhakapookkal-radio.svg"
   },
   {
     "id": "stage29-krishna-fm",
@@ -12359,7 +12531,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage29-krishna-fm.svg"
   },
   {
     "id": "stage32-vividh-bharati-bengaluru",
@@ -12404,7 +12577,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-vividh-bharati-bengaluru.svg"
   },
   {
     "id": "stage32-bhakti-sangeet",
@@ -12449,7 +12623,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-bhakti-sangeet.svg"
   },
   {
     "id": "stage32-ap9-fm",
@@ -12494,7 +12669,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-ap9-fm.svg"
   },
   {
     "id": "stage32-air-telugu-online",
@@ -12539,7 +12715,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-air-telugu-online.svg"
   },
   {
     "id": "stage32-fm-rainbow-vijayawada",
@@ -12584,7 +12761,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-fm-rainbow-vijayawada.svg"
   },
   {
     "id": "stage32-retro-bollywood-90s",
@@ -12629,7 +12807,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-retro-bollywood-90s.svg"
   },
   {
     "id": "stage32-sgpc-gurbani",
@@ -12674,7 +12853,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-sgpc-gurbani.svg"
   },
   {
     "id": "stage32-ran-fm",
@@ -12719,7 +12899,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-ran-fm.svg"
   },
   {
     "id": "stage32-neth-fm",
@@ -12764,7 +12945,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-neth-fm.svg"
   },
   {
     "id": "stage32-siyatha-fm",
@@ -12809,7 +12991,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-siyatha-fm.svg"
   },
   {
     "id": "stage32-malayalam-bhakthi",
@@ -12854,7 +13037,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-malayalam-bhakthi.svg"
   },
   {
     "id": "stage32-digital-malayali",
@@ -12899,7 +13083,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-digital-malayali.svg"
   },
   {
     "id": "stage32-radio-choklate",
@@ -12944,7 +13129,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-radio-choklate.svg"
   },
   {
     "id": "stage32-dnyaneshwari",
@@ -12989,7 +13175,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage32-dnyaneshwari.svg"
   },
   {
     "id": "stage33-red-fm-calgary",
@@ -13039,6 +13226,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/stations/stage33-red-fm-calgary.svg"
   }
 ]
