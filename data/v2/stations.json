@@ -3038,7 +3038,8 @@
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
     },
-    "logoPath": "assets/artwork/stations/hello-chennai.svg"
+    "logoPath": "assets/artwork/stations/hello-chennai.svg",
+    "logoUrl": "https://static-media.streema.com/media/cache/26/3e/263e52f18d89f544c3aad303411a9e71.jpg"
   },
   {
     "id": "east-fm-ca",
