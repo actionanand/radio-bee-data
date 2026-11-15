@@ -2,7 +2,7 @@
 
 **240 / 240 stations now have an image reference.** Image priority is station-specific external `logoUrl`, station-specific data-repo `logoPath`, network logo URL/path, then the built-in RadioBee fallback for failed image loads.
 
-- **150** station-specific original SVG covers reside in `data/v2/assets/artwork/stations/` and are published at `https://actionanand.github.io/radio-bee-data/v2/assets/artwork/stations/<station-id>.svg`. They depict a station name with radio/music/devotional/etc. illustrations and say `RADIOBEE · EDITORIAL COVER`; **they are not official logos**.
+- **169** station-specific original SVG covers reside in `data/v2/assets/artwork/stations/` and are published at `https://actionanand.github.io/radio-bee-data/v2/assets/artwork/stations/<station-id>.svg`. They depict a station name with radio/music/devotional/etc. illustrations and say `RADIOBEE · EDITORIAL COVER`; **they are not official logos**.
 - **19** stations use station-specific third-party photos/illustrations, including Michael Jackson, Ilaiyaraaja, Lord Murugan, and MGR & Sivaji together. Remote sources may fail or change.
 - **54** network records have third-party brand or publisher/favicon image references. A generic publisher-domain favicon is a candidate, not guaranteed to be an official radio logo.
 - Every station without its own image is covered either by its network image or its data-hosted original editorial cover.
@@ -163,3 +163,28 @@ To change an image later, edit only `radio-bee-data/data/v2/stations.json` or `n
 | `stage32-radio-choklate` | Radio Choklate 104 FM | `assets/artwork/stations/stage32-radio-choklate.svg` |
 | `stage32-dnyaneshwari` | Dnyaneshwari Radio | `assets/artwork/stations/stage32-dnyaneshwari.svg` |
 | `stage33-red-fm-calgary` | RED FM Calgary 106.7 | `assets/artwork/stations/stage33-red-fm-calgary.svg` |
+
+
+## External image backup covers
+
+The following 19 station entries have an additional data-hosted SVG cover that is used if their external artist/devotional photo fails:
+
+- `ilayaraja-radio` — `assets/artwork/stations/ilayaraja-radio.svg`
+- `80s80s-michael-jackson-de` — `assets/artwork/stations/80s80s-michael-jackson-de.svg`
+- `exclusively-michael-jackson-ae` — `assets/artwork/stations/exclusively-michael-jackson-ae.svg`
+- `exclusively-queen-ae` — `assets/artwork/stations/exclusively-queen-ae.svg`
+- `stage29-mgr-sivaji-radio` — `assets/artwork/stations/stage29-mgr-sivaji-radio.svg`
+- `stage29-spb-online-radio` — `assets/artwork/stations/stage29-spb-online-radio.svg`
+- `stage29-harris-jayaraj-radio` — `assets/artwork/stations/stage29-harris-jayaraj-radio.svg`
+- `stage29-ks-chitra-radio` — `assets/artwork/stations/stage29-ks-chitra-radio.svg`
+- `stage29-kj-yesudas-radio` — `assets/artwork/stations/stage29-kj-yesudas-radio.svg`
+- `stage29-s-janaki-radio` — `assets/artwork/stations/stage29-s-janaki-radio.svg`
+- `stage29-spb-old-hits-fm` — `assets/artwork/stations/stage29-spb-old-hits-fm.svg`
+- `stage29-ilayaraja-voice-fm` — `assets/artwork/stations/stage29-ilayaraja-voice-fm.svg`
+- `stage29-santhosh-narayanan-radio` — `assets/artwork/stations/stage29-santhosh-narayanan-radio.svg`
+- `stage29-arrahman-classic` — `assets/artwork/stations/stage29-arrahman-classic.svg`
+- `stage29-makkal-thilagam-mgr` — `assets/artwork/stations/stage29-makkal-thilagam-mgr.svg`
+- `stage29-maestro-hits` — `assets/artwork/stations/stage29-maestro-hits.svg`
+- `stage29-arrahman-classic-hits` — `assets/artwork/stations/stage29-arrahman-classic-hits.svg`
+- `stage29-rajini-radio` — `assets/artwork/stations/stage29-rajini-radio.svg`
+- `stage29-tamil-kadavul-murugan-fm` — `assets/artwork/stations/stage29-tamil-kadavul-murugan-fm.svg`
