@@ -160,3 +160,8 @@ To switch **remote → data-hosted**, upload the PNG/WebP to the data repository
 Both fields are optional. If both are supplied, remote `logoUrl` takes priority, so prefer using one at a time. All edits should be committed and deployed in `radio-bee-data` only; no `radio-bee` rebuild is required once its universal HTTPS image-support PR is merged and deployed. Query strings, alternative image hosts, and image file extensions are permitted for external HTTPS image URLs; local `logoPath` remains strictly limited to audited in-repository PNG/WebP assets.
 
 A source domain is not evidence of image fidelity. Preserve image attribution and mark generic site favicons as provisional, rather than claiming they are authentic station logos. Images failing to load use RadioBee's standard fallback.
+
+
+## Complete V2 illustration coverage (2026-11-15)
+
+All 240 published V2 stations have image references following the expansion documented in `docs/ARTWORK-MISSING-V2.md`. For 150 stations with no usable station-brand photo or favicon, RadioBee's own themed, station-labeled SVG editorial covers are stored **only in radio-bee-data** under `data/v2/assets/artwork/stations/` and published by the data site. These are not broadcaster-owned logos. They are static restricted SVG (no script, embedded HTML, CSS, event handlers, or remote references), audited by `scripts/logo-assets.mjs`, and can be replaced at any time by a data-hosted PNG/WebP or any public HTTPS image URL without updating the client. If a remote image fails, the app's standard fallback still applies.
