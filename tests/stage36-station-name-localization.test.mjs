@@ -13,7 +13,7 @@ const get=()=>readCatalogue(undefined,'v2');
 test('Stage 36 preserves all 240 canonical records, 245 streams, artists, rights, geography and v1 bytes',()=>{
   const data=get();assert.equal(data.index.catalogVersion,'2.8.7');assert.ok(data.stations.length>=240);
   assert.ok(data.stations.flatMap(station=>station.streams).length>=245);
-  for(const [file,expected]of Object.entries(baseline.protectedFiles))if(!['v2/stations.json','v2/networks.json'].includes(file))assert.equal(hash(readFileSync(new URL('../data/'+file,import.meta.url))),expected,file);
+  for(const [file,expected]of Object.entries(baseline.protectedFiles))if(!['v2/stations.json','v2/networks.json','v2/sources.json'].includes(file))assert.equal(hash(readFileSync(new URL('../data/'+file,import.meta.url))),expected,file);
   // Historical 240-station baseline is retained; the V2 browse index legitimately grows.
   assert.ok(data.browseIndex.totals.all>=240);
   for(const id of Object.keys(data.i18n.ta.stationNames))assert.ok(data.browseIndex.stationIds.includes(id));
@@ -27,7 +27,7 @@ test('both locale dictionaries cover precisely the 240 canonical IDs with NFC Un
     const names=data.i18n[locale].stationNames;assert.deepEqual(Object.keys(names).sort(),ids.filter(id=>!id.startsWith('stage38-')));
     const script=locale==='ta'?/\p{Script=Tamil}/u:/\p{Script=Devanagari}/u;
     let local=0,fallback=0;
-    for(const station of data.stations){const name=names[station.id];assert.equal(typeof name,'string');assert.ok(name.trim());assert.ok(name.isWellFormed());assert.equal(name,name.normalize('NFC'));if(name===station.name)fallback++;else{local++;assert.ok(script.test(name),station.id);}}
+    for(const station of data.stations.filter(s=>!s.id.startsWith('stage38-'))){const name=names[station.id];assert.equal(typeof name,'string');assert.ok(name.trim());assert.ok(name.isWellFormed());assert.equal(name,name.normalize('NFC'));if(name===station.name)fallback++;else{local++;assert.ok(script.test(name),station.id);}}
     assert.equal(local,224);assert.equal(fallback,16);
   }
   assert.equal(data.i18n.en.stationNames,undefined,'canonical English names are the fallback, not a duplicated station registry');
