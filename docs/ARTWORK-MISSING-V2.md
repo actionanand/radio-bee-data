@@ -1,8 +1,8 @@
-# V2 stations without artwork references
+# V2 station artwork coverage inventory
 
-This live-maintained inventory lists canonical V2 stations with neither station-specific nor network artwork. Missing images show RadioBee fallback. Publisher favicons are candidates; they are not guaranteed to be official logos. A remote photo may also fail to load and then falls back.
+A station is considered covered when it has a station-specific `logoUrl` / `logoPath` or its network has one. External URL links may still fail; the app uses its default RadioBee image on load failure. A network favicon candidate is not necessarily an official station logo.
 
-**Total stations:** 240; **with image references:** 90; **without image references:** 150.
+**Total stations:** 240. **With artwork references:** 90. **Without artwork references:** 150.
 
 | Station ID | Station name | Network | Publisher / evidence website |
 | --- | --- | --- | --- |
