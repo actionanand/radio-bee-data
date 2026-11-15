@@ -14,10 +14,11 @@ This release intentionally replaces placeholder radio-device art with **remote s
 | ibc-tamil | https://cdn-profiles.tunein.com/s55338/images/logog.png?t=159604 | TuneIn IBC Tamil listing |
 | tamil-894 | https://static-media.streema.com/media/cache/7b/64/7b64f6555f853d1aecda2c0c2236fd67.jpg | Streema Dubai Tamil 89.4 FM |
 | american-tamil-media | https://www.americantamilradio.com/assets/img/radiologo.png | American Tamil Radio website |
-| hello-fm | https://images.radiovolna.net/_files/images/stations/421619/2f0fbbda65ea71c33e4ebb352a7123d2.jpg | RadioVolna Hello FM image |
 | mirchi | https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg | TuneYou Radio Mirchi 98.3 listing |
 | radio-city | https://exchange4media.gumlet.io/news-photo/145723-radiocity.jpg | exchange4media Radio City brand news image |
 | red-fm | https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg | Pocket FM RED FM 93.5 programme image |
+
+Hello FM is temporarily left without artwork because its previous image hostname failed DNS during the live audit on 2026-11-15.
 
 The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Murugan; 100% Love Radio; 100% New Songs; 100% Sad Songs) keep the standard RadioBee fallback. Remaining unsupported networks also keep fallback.
 
