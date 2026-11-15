@@ -49,8 +49,7 @@
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=hellofm.in&sz=256"
+    "broadcasterRelationship": "licensed-operator"
   },
   {
     "id": "mirchi",
@@ -198,8 +197,7 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://zeno.fm/radio/annai-fm/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=zeno.fm&sz=256"
+    "website": "https://zeno.fm/radio/annai-fm/"
   },
   {
     "id": "kumari-tamil",
@@ -209,8 +207,7 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://radio.kumaritamil.com/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=radio.kumaritamil.com&sz=256"
+    "website": "https://radio.kumaritamil.com/"
   },
   {
     "id": "luminous-radio",
@@ -231,8 +228,7 @@
       "LK"
     ],
     "kind": "broadcaster",
-    "website": "https://capitalfm.lk/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=capitalfm.lk&sz=256"
+    "website": "https://capitalfm.lk/"
   },
   {
     "id": "club-fm",
@@ -339,8 +335,7 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://ctr24.com/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=ctr24.com&sz=256"
+    "website": "https://ctr24.com/"
   },
   {
     "id": "beats-radio",
@@ -372,8 +367,7 @@
       "AU"
     ],
     "kind": "online",
-    "website": "https://www.atbc.net.au/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=atbc.net.au&sz=256"
+    "website": "https://www.atbc.net.au/"
   },
   {
     "id": "mediacorp",
@@ -460,8 +454,7 @@
       "DE"
     ],
     "kind": "online",
-    "website": "https://etr.fm/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=etr.fm&sz=256"
+    "website": "https://etr.fm/"
   },
   {
     "id": "tamil-murasam",
@@ -471,8 +464,7 @@
       "NO"
     ],
     "kind": "online",
-    "website": "https://tamilmurasam.com/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=tamilmurasam.com&sz=256"
+    "website": "https://tamilmurasam.com/"
   },
   {
     "id": "tarana",
@@ -482,8 +474,7 @@
       "NZ"
     ],
     "kind": "online",
-    "website": "https://www.rova.nz/radio/tarana-tamil",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=rova.nz&sz=256"
+    "website": "https://www.rova.nz/radio/tarana-tamil"
   },
   {
     "id": "sabc",
@@ -520,8 +511,7 @@
       "LK"
     ],
     "kind": "online",
-    "website": "https://www.starfm.lk/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=starfm.lk&sz=256"
+    "website": "https://www.starfm.lk/"
   },
   {
     "id": "boom-tamil",
@@ -693,8 +683,7 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://vaanmalarfm.in/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=vaanmalarfm.in&sz=256"
+    "website": "https://vaanmalarfm.in/"
   },
   {
     "id": "olive-suno",
@@ -775,8 +764,7 @@
       "FR"
     ],
     "kind": "online",
-    "website": "https://namathufm.fr/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=namathufm.fr&sz=256"
+    "website": "https://namathufm.fr/"
   },
   {
     "id": "otran-vaanoli",
@@ -830,8 +818,7 @@
       "AU"
     ],
     "kind": "online",
-    "website": "https://www.inbathamil.com/",
-    "logoUrl": "https://www.google.com/s2/favicons?domain=inbathamil.com&sz=256"
+    "website": "https://www.inbathamil.com/"
   },
   {
     "id": "stage21-pollachi-fm",
