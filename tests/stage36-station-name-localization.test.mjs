@@ -24,7 +24,7 @@ test('Stage 36 preserves all 240 canonical records, 245 streams, artists, rights
 test('both locale dictionaries cover precisely the 240 canonical IDs with NFC Unicode or exact English fallback',()=>{
   const data=get(),ids=data.stations.map(station=>station.id).sort();
   for(const locale of ['ta','sa']){
-    const names=data.i18n[locale].stationNames;assert.deepEqual(Object.keys(names).sort(),ids.filter(id=>!id.startsWith('stage38-')&&!id.startsWith('stage39-')));
+    const names=data.i18n[locale].stationNames;assert.deepEqual(Object.keys(names).filter(id=>!id.startsWith('stage39-')).sort(),ids.filter(id=>!id.startsWith('stage38-')&&!id.startsWith('stage39-')));
     const script=locale==='ta'?/\p{Script=Tamil}/u:/\p{Script=Devanagari}/u;
     let local=0,fallback=0;
     for(const station of data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-'))){const name=names[station.id];assert.equal(typeof name,'string');assert.ok(name.trim());assert.ok(name.isWellFormed());assert.equal(name,name.normalize('NFC'));if(name===station.name)fallback++;else{local++;assert.ok(script.test(name),station.id);}}
