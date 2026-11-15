@@ -2481,5 +2481,98 @@
     ],
     "kind": "online",
     "website": "https://redfm.ca/"
+  },
+  {
+    "id": "al-jazeera-english-audio",
+    "name": "Al Jazeera English (audio)",
+    "aliases": [],
+    "countryCodes": [
+      "QA"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.aljazeera.com/audio/live/"
+  },
+  {
+    "id": "kadak-fm-uae",
+    "name": "Kadak FM (Abu Dhabi Media)",
+    "aliases": [],
+    "countryCodes": [
+      "AE"
+    ],
+    "kind": "broadcaster",
+    "website": "https://www.admn.ae/en/brand/4197620/kadak-fm"
+  },
+  {
+    "id": "radio-sugar",
+    "name": "Radio Sugar",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "mgm-radio",
+    "name": "MGM Community Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://journalism.mgmu.ac.in/radio.html"
+  },
+  {
+    "id": "radio-uday",
+    "name": "Radio Uday",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "gitanjali-radio",
+    "name": "Gitanjali Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": "https://gitanjaliradio.in/"
+  },
+  {
+    "id": "nityananda-janavani",
+    "name": "Nityananda Janavani",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "sakkath-radio",
+    "name": "Sakkath Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "namm-radio",
+    "name": "Namm Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN",
+      "GB",
+      "QA",
+      "US"
+    ],
+    "kind": "online",
+    "website": "https://nammradio.com/"
   }
 ]

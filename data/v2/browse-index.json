@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.6",
+  "catalogVersion": "2.8.7",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 240,
-    "streamBearing": 240,
+    "all": 263,
+    "streamBearing": 263,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -221,6 +221,29 @@
     "stage32-siyatha-fm",
     "stage32-vividh-bharati-bengaluru",
     "stage33-red-fm-calgary",
+    "stage38-air-agra",
+    "stage38-air-alappuzha-fm",
+    "stage38-air-ananthapuri-fm",
+    "stage38-air-bhuj",
+    "stage38-air-jeypore",
+    "stage38-air-kozhikode-real-fm",
+    "stage38-air-siliguri",
+    "stage38-air-surat",
+    "stage38-air-world-service-bangla",
+    "stage38-al-jazeera-english-audio",
+    "stage38-fm-gold-kolkata",
+    "stage38-gitanjali-radio",
+    "stage38-kadak-fm-uae",
+    "stage38-mgm-radio-90-8",
+    "stage38-namm-radio-europe",
+    "stage38-namm-radio-gulf",
+    "stage38-namm-radio-india",
+    "stage38-namm-radio-usa",
+    "stage38-nityananda-janavani",
+    "stage38-radio-sugar-90-8",
+    "stage38-radio-uday-89-6",
+    "stage38-sakkath-radio",
+    "stage38-suno-kannada",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -269,11 +292,12 @@
           "exclusively-westlife-ae",
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
+          "stage38-kadak-fm-uae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -445,11 +469,12 @@
         "key": "country:GB",
         "locationId": "gb",
         "stationIds": [
-          "ibc-tamil-uk"
+          "ibc-tamil-uk",
+          "stage38-namm-radio-europe"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -627,6 +652,23 @@
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
           "stage32-vividh-bharati-bengaluru",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata",
+          "stage38-gitanjali-radio",
+          "stage38-mgm-radio-90-8",
+          "stage38-namm-radio-india",
+          "stage38-nityananda-janavani",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6",
+          "stage38-sakkath-radio",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -640,8 +682,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 150,
-          "streamBearing": 150,
+          "all": 167,
+          "streamBearing": 167,
           "discoveryOnly": 0
         }
       },
@@ -836,11 +878,14 @@
         "key": "country:QA",
         "locationId": "qa",
         "stationIds": [
+          "stage38-al-jazeera-english-audio",
+          "stage38-namm-radio-gulf",
+          "stage38-suno-kannada",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -897,12 +942,13 @@
           "american-tamil-radio-us",
           "beats-radio-us",
           "kexp-seattle-us",
+          "stage38-namm-radio-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 5,
-          "streamBearing": 5,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -944,7 +990,8 @@
           "exclusively-taylor-swift-ae",
           "exclusively-westlife-ae",
           "freefm-uae-sinhala-ae",
-          "radio-mirchi-dubai-ae"
+          "radio-mirchi-dubai-ae",
+          "stage38-kadak-fm-uae"
         ],
         "stationIds": [
           "exclusively-adele-ae",
@@ -959,11 +1006,12 @@
           "exclusively-westlife-ae",
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
+          "stage38-kadak-fm-uae",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -1575,13 +1623,16 @@
         "childIds": [
           "gb-eng"
         ],
-        "directStationIds": [],
+        "directStationIds": [
+          "stage38-namm-radio-europe"
+        ],
         "stationIds": [
-          "ibc-tamil-uk"
+          "ibc-tamil-uk",
+          "stage38-namm-radio-europe"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -1770,6 +1821,23 @@
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
           "stage32-vividh-bharati-bengaluru",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata",
+          "stage38-gitanjali-radio",
+          "stage38-mgm-radio-90-8",
+          "stage38-namm-radio-india",
+          "stage38-nityananda-janavani",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6",
+          "stage38-sakkath-radio",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -1916,6 +1984,23 @@
           "stage32-retro-bollywood-90s",
           "stage32-sgpc-gurbani",
           "stage32-vividh-bharati-bengaluru",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata",
+          "stage38-gitanjali-radio",
+          "stage38-mgm-radio-90-8",
+          "stage38-namm-radio-india",
+          "stage38-nityananda-janavani",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6",
+          "stage38-sakkath-radio",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -1929,8 +2014,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 150,
-          "streamBearing": 150,
+          "all": 167,
+          "streamBearing": 167,
           "discoveryOnly": 0
         }
       },
@@ -4073,14 +4158,20 @@
         "parentId": null,
         "childIds": [],
         "directStationIds": [
+          "stage38-al-jazeera-english-audio",
+          "stage38-namm-radio-gulf",
+          "stage38-suno-kannada",
           "suno-tamil-qa"
         ],
         "stationIds": [
+          "stage38-al-jazeera-english-audio",
+          "stage38-namm-radio-gulf",
+          "stage38-suno-kannada",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -4161,6 +4252,7 @@
         "directStationIds": [
           "beats-radio-us",
           "kexp-seattle-us",
+          "stage38-namm-radio-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
@@ -4168,12 +4260,13 @@
           "american-tamil-radio-us",
           "beats-radio-us",
           "kexp-seattle-us",
+          "stage38-namm-radio-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 5,
-          "streamBearing": 5,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -4292,11 +4385,16 @@
         "nativeName": "বাংলা",
         "stationIds": [
           "east-fm-ca",
-          "radio-quarantine-kolkata-in"
+          "radio-quarantine-kolkata-in",
+          "stage38-air-siliguri",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata",
+          "stage38-gitanjali-radio",
+          "stage38-nityananda-janavani"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -4413,12 +4511,13 @@
           "radio-jamaica-jm",
           "realradio-ireland-ie",
           "shaiva-lahari-in",
+          "stage38-al-jazeera-english-audio",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 30,
-          "streamBearing": 30,
+          "all": 31,
+          "streamBearing": 31,
           "discoveryOnly": 0
         }
       },
@@ -4524,11 +4623,13 @@
         "nativeName": "ગુજરાતી",
         "stationIds": [
           "east-fm-ca",
-          "lotus-fm-za"
+          "lotus-fm-za",
+          "stage38-air-bhuj",
+          "stage38-air-surat"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -4581,11 +4682,13 @@
           "radio-plus-indiz-mu",
           "shaiva-lahari-in",
           "stage32-retro-bollywood-90s",
-          "stage33-red-fm-calgary"
+          "stage33-red-fm-calgary",
+          "stage38-air-agra",
+          "stage38-kadak-fm-uae"
         ],
         "counts": {
-          "all": 16,
-          "streamBearing": 16,
+          "all": 18,
+          "streamBearing": 18,
           "discoveryOnly": 0
         }
       },
@@ -4720,11 +4823,17 @@
           "radio-amr-kannada-in",
           "shaiva-lahari-in",
           "stage32-bhakti-sangeet",
-          "stage32-vividh-bharati-bengaluru"
+          "stage32-vividh-bharati-bengaluru",
+          "stage38-namm-radio-europe",
+          "stage38-namm-radio-gulf",
+          "stage38-namm-radio-india",
+          "stage38-namm-radio-usa",
+          "stage38-sakkath-radio",
+          "stage38-suno-kannada"
         ],
         "counts": {
-          "all": 7,
-          "streamBearing": 7,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       },
@@ -4847,11 +4956,14 @@
           "radio-malayalam-in",
           "shaiva-lahari-in",
           "stage32-digital-malayali",
-          "stage32-malayalam-bhakthi"
+          "stage32-malayalam-bhakthi",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-kozhikode-real-fm"
         ],
         "counts": {
-          "all": 14,
-          "streamBearing": 14,
+          "all": 17,
+          "streamBearing": 17,
           "discoveryOnly": 0
         }
       },
@@ -4864,11 +4976,14 @@
           "mauradio-mu",
           "radio-mast-marathi-in",
           "radio-plus-indiz-mu",
-          "stage32-dnyaneshwari"
+          "stage32-dnyaneshwari",
+          "stage38-mgm-radio-90-8",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 7,
+          "streamBearing": 7,
           "discoveryOnly": 0
         }
       },
@@ -4925,11 +5040,12 @@
         "key": "language:or",
         "nativeName": "ଓଡ଼ିଆ",
         "stationIds": [
-          "stage32-radio-choklate"
+          "stage32-radio-choklate",
+          "stage38-air-jeypore"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -5718,6 +5834,29 @@
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
           "stage33-red-fm-calgary",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-al-jazeera-english-audio",
+          "stage38-fm-gold-kolkata",
+          "stage38-gitanjali-radio",
+          "stage38-kadak-fm-uae",
+          "stage38-mgm-radio-90-8",
+          "stage38-namm-radio-europe",
+          "stage38-namm-radio-gulf",
+          "stage38-namm-radio-india",
+          "stage38-namm-radio-usa",
+          "stage38-nityananda-janavani",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6",
+          "stage38-sakkath-radio",
+          "stage38-suno-kannada",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -5740,8 +5879,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 211,
-          "streamBearing": 211,
+          "all": 234,
+          "streamBearing": 234,
           "discoveryOnly": 0
         }
       }
@@ -5853,11 +5992,21 @@
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
-          "air-vividh-bharati"
+          "air-vividh-bharati",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 21,
-          "streamBearing": 21,
+          "all": 31,
+          "streamBearing": 31,
           "discoveryOnly": 0
         }
       },
@@ -5872,6 +6021,24 @@
         "broadcasterId": null,
         "stationIds": [
           "akkini-ch"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "al-jazeera-english-audio",
+        "name": "Al Jazeera English (audio)",
+        "key": "network:al-jazeera-english-audio",
+        "aliases": [],
+        "countryCodes": [
+          "QA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-al-jazeera-english-audio"
         ],
         "counts": {
           "all": 1,
@@ -6292,6 +6459,24 @@
         }
       },
       {
+        "id": "gitanjali-radio",
+        "name": "Gitanjali Radio",
+        "key": "network:gitanjali-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-gitanjali-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "hand-of-jesus",
         "name": "Hand of Jesus Ministries",
         "key": "network:hand-of-jesus",
@@ -6416,6 +6601,24 @@
         }
       },
       {
+        "id": "kadak-fm-uae",
+        "name": "Kadak FM (Abu Dhabi Media)",
+        "key": "network:kadak-fm-uae",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-kadak-fm-uae"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "kumari-tamil",
         "name": "Kumari Tamil Media",
         "key": "network:kumari-tamil",
@@ -6504,6 +6707,24 @@
         }
       },
       {
+        "id": "mgm-radio",
+        "name": "MGM Community Radio",
+        "key": "network:mgm-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-mgm-radio-90-8"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "mirchi",
         "name": "Radio Mirchi",
         "key": "network:mirchi",
@@ -6542,6 +6763,48 @@
         }
       },
       {
+        "id": "namm-radio",
+        "name": "Namm Radio",
+        "key": "network:namm-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN",
+          "GB",
+          "QA",
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-namm-radio-europe",
+          "stage38-namm-radio-gulf",
+          "stage38-namm-radio-india",
+          "stage38-namm-radio-usa"
+        ],
+        "counts": {
+          "all": 4,
+          "streamBearing": 4,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "nityananda-janavani",
+        "name": "Nityananda Janavani",
+        "key": "network:nityananda-janavani",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-nityananda-janavani"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "olive-suno",
         "name": "Olive Suno",
         "key": "network:olive-suno",
@@ -6551,11 +6814,12 @@
         ],
         "broadcasterId": null,
         "stationIds": [
+          "stage38-suno-kannada",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -6614,6 +6878,42 @@
         }
       },
       {
+        "id": "radio-sugar",
+        "name": "Radio Sugar",
+        "key": "network:radio-sugar",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-radio-sugar-90-8"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "radio-uday",
+        "name": "Radio Uday",
+        "key": "network:radio-uday",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-radio-uday-89-6"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "red-fm",
         "name": "RED FM",
         "key": "network:red-fm",
@@ -6658,6 +6958,24 @@
         "broadcasterId": "sabc",
         "stationIds": [
           "lotus-fm-za"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "sakkath-radio",
+        "name": "Sakkath Radio",
+        "key": "network:sakkath-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage38-sakkath-radio"
         ],
         "counts": {
           "all": 1,
@@ -10171,11 +10489,21 @@
           "air-thrissur",
           "air-tiruchirappalli",
           "air-tirunelveli",
-          "air-vividh-bharati"
+          "air-vividh-bharati",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
+          "stage38-air-world-service-bangla",
+          "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 21,
-          "streamBearing": 21,
+          "all": 31,
+          "streamBearing": 31,
           "discoveryOnly": 0
         }
       },
@@ -10335,14 +10663,19 @@
           "minnal-my",
           "namathu-fm-fr",
           "otran-vaanoli-ie",
+          "stage38-gitanjali-radio",
+          "stage38-mgm-radio-90-8",
+          "stage38-nityananda-janavani",
+          "stage38-radio-sugar-90-8",
+          "stage38-radio-uday-89-6",
           "tamil-murasam-no",
           "thaalam-ch",
           "time-fm-toronto-ca",
           "vaagai-tamil-de"
         ],
         "counts": {
-          "all": 21,
-          "streamBearing": 21,
+          "all": 26,
+          "streamBearing": 26,
           "discoveryOnly": 0
         }
       },
@@ -10431,6 +10764,12 @@
           "sooriyan-srilanka",
           "stage32-fm-rainbow-vijayawada",
           "stage32-neth-fm",
+          "stage38-air-agra",
+          "stage38-air-alappuzha-fm",
+          "stage38-air-bhuj",
+          "stage38-air-jeypore",
+          "stage38-air-siliguri",
+          "stage38-air-surat",
           "swiss-tamil-radio-ch",
           "tamil-894-ae",
           "telemetro-radio-pa",
@@ -10438,8 +10777,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 37,
-          "streamBearing": 37,
+          "all": 43,
+          "streamBearing": 43,
           "discoveryOnly": 0
         }
       },
@@ -10565,6 +10904,16 @@
           "stage32-siyatha-fm",
           "stage32-vividh-bharati-bengaluru",
           "stage33-red-fm-calgary",
+          "stage38-air-ananthapuri-fm",
+          "stage38-air-kozhikode-real-fm",
+          "stage38-fm-gold-kolkata",
+          "stage38-kadak-fm-uae",
+          "stage38-namm-radio-europe",
+          "stage38-namm-radio-gulf",
+          "stage38-namm-radio-india",
+          "stage38-namm-radio-usa",
+          "stage38-sakkath-radio",
+          "stage38-suno-kannada",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -10583,8 +10932,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 133,
-          "streamBearing": 133,
+          "all": 143,
+          "streamBearing": 143,
           "discoveryOnly": 0
         }
       },
@@ -10619,14 +10968,16 @@
           "oli-968-sg",
           "stage29-top-news-thamizh-fm",
           "stage29-yazh-news",
+          "stage38-air-world-service-bangla",
+          "stage38-al-jazeera-english-audio",
           "star-fm-srilanka",
           "swiss-tamil-radio-ch",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 30,
-          "streamBearing": 30,
+          "all": 32,
+          "streamBearing": 32,
           "discoveryOnly": 0
         }
       },
@@ -11426,6 +11777,29 @@
         "stage32-siyatha-fm",
         "stage32-vividh-bharati-bengaluru",
         "stage33-red-fm-calgary",
+        "stage38-air-agra",
+        "stage38-air-alappuzha-fm",
+        "stage38-air-ananthapuri-fm",
+        "stage38-air-bhuj",
+        "stage38-air-jeypore",
+        "stage38-air-kozhikode-real-fm",
+        "stage38-air-siliguri",
+        "stage38-air-surat",
+        "stage38-air-world-service-bangla",
+        "stage38-al-jazeera-english-audio",
+        "stage38-fm-gold-kolkata",
+        "stage38-gitanjali-radio",
+        "stage38-kadak-fm-uae",
+        "stage38-mgm-radio-90-8",
+        "stage38-namm-radio-europe",
+        "stage38-namm-radio-gulf",
+        "stage38-namm-radio-india",
+        "stage38-namm-radio-usa",
+        "stage38-nityananda-janavani",
+        "stage38-radio-sugar-90-8",
+        "stage38-radio-uday-89-6",
+        "stage38-sakkath-radio",
+        "stage38-suno-kannada",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -11455,8 +11829,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 240,
-        "streamBearing": 240,
+        "all": 263,
+        "streamBearing": 263,
         "discoveryOnly": 0
       }
     },

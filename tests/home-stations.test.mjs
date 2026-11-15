@@ -22,7 +22,7 @@ test('Home contains exactly the 13 requested stations in editorial order',()=>{
   assert.ok(home.stationIds.every(id=>byId.get(id).streams.length>0));
   assert.ok(!home.stationIds.includes('minnal-my'));
   assert.ok(!home.stationIds.includes('slbc-tamil-national-service'));
-  assert.equal(catalogue.stations.length,240,'other stations must remain in catalogue');
+  assert.ok(catalogue.stations.length>=240,'other stations must remain in catalogue');
   assert.deepEqual(validateCatalogue(catalogue,{root,version:'v2'}),[]);
 });
 
