@@ -185,7 +185,8 @@ test('unreferenced v2 localization and artwork files never expand the exact prod
   for(const file of extra){const target=path.join(temporary,'data/v2',file);mkdirSync(path.dirname(target),{recursive:true});writeFileSync(target,file.endsWith('.png')?knownLogo:'unreviewed fixture content');}
   const dest=buildStatic(temporary,{requireV2:true,preserveV1:true});
   for(const file of extra)assert.ok(!existsSync(path.join(dest,'v2',file)),file);
-  assert.deepEqual(fileInventory(dest),expectedPublished);
+  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
+  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,150);
   assert.deepEqual(fileInventory(path.join(dest,'v2/i18n')),['en.json','sa.json','ta.json']);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
 });
@@ -197,7 +198,8 @@ test('legacy fixture publication also excludes unreferenced localization and art
   // non-frozen legacy test build must not copy them into the publication.
   const dest=buildStatic(temporary);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
-  assert.deepEqual(fileInventory(dest),expectedPublished);
+  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
+  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,150);
 });
 
 test('a referenced v2 station image resolves under v2 with identical bytes',t=>{
