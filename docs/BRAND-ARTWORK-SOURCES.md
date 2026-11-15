@@ -138,3 +138,25 @@ Wikimedia sources have individual licenses and attribution requirements. The joi
 The GitHub Actions live image audit reported HTTP 404 for these publisher-domain favicon candidates. They were removed to avoid showing broken icons: `hello-fm`, `kumari-tamil`, `capital-lk`, `canadian-tamil-radio`, `atbc`, `european-tamils-union`, `tamil-murasam`, `star-fm-lk`, `christian-media-india`, `namathu-fm`, `inbathamil-oli`. The generic provider favicons for `annai-fm` and `tarana` were also removed because they did not faithfully identify a radio brand.
 
 Artist/thematic external links are *not* guaranteed to resolve: they remain candidate references until individually checked. They may fall back at runtime.
+
+## Image ownership and switching between data-repo files and external URLs
+
+**Single source of truth:** `actionanand/radio-bee-data`, under `data/v2/`. No station, artist, or devotional image files belong in the `radio-bee` app repository. The app implements only generic URL resolution, image loading and a built-in offline-safe fallback.
+
+For a file hosted by RadioBee data, upload a real PNG or WebP at `data/v2/assets/logos/stations/<slug>.png` (or `networks/<slug>.webp`). Keep images <=512×512 and <=256 KiB. Set only `logoPath`, for example:
+
+```json
+"logoPath": "assets/logos/stations/example-radio.webp"
+```
+
+For a third-party image, set only `logoUrl`, for example:
+
+```json
+"logoUrl": "https://publisher.example.org/images/example-radio.png"
+```
+
+To switch **remote → data-hosted**, upload the PNG/WebP to the data repository, remove `logoUrl` from that station or network record and add `logoPath`. To switch **data-hosted → remote**, remove `logoPath` and add `logoUrl`. The data publisher includes referenced local image files in GitHub Pages at `https://actionanand.github.io/radio-bee-data/v2/<logoPath>`. Station-specific artwork overrides network artwork; use a network image for multiple stations only when their actual branding is shared.
+
+Both fields are optional. If both are supplied, remote `logoUrl` takes priority, so prefer using one at a time. All edits should be committed and deployed in `radio-bee-data` only; no `radio-bee` rebuild is required once its universal HTTPS image-support PR is merged and deployed. Query strings, alternative image hosts, and image file extensions are permitted for external HTTPS image URLs; local `logoPath` remains strictly limited to audited in-repository PNG/WebP assets.
+
+A source domain is not evidence of image fidelity. Preserve image attribution and mark generic site favicons as provisional, rather than claiming they are authentic station logos. Images failing to load use RadioBee's standard fallback.
