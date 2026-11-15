@@ -2392,5 +2392,166 @@
     "url": "https://tingfm.com/radio/25900",
     "kind": "directory",
     "notes": "13 Nov 2026: directory lists https://tamil.crabdance.com:8002/2 as Suryan FM 93.5. User reports that it is not playing yet and plans another check after 06:00 IST. Chennai programme identity, codec, TLS validation, client playback and listening/recording/rebroadcast rights are NOT independently verified; treat as primary unverified trial followed by existing listener-confirmed Chennai alternative."
+  },
+  {
+    "id": "stage38-source-al-jazeera-english-audio",
+    "title": "Stage 38 browser-audio capture: Al Jazeera English Audio",
+    "url": "https://liveradios.in/al-jazeera.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-agra",
+    "title": "Stage 38 browser-audio capture: Akashvani Agra",
+    "url": "https://liveradios.in/all-india-radio-agra.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-kadak-fm-uae",
+    "title": "Stage 38 browser-audio capture: Kadak FM UAE",
+    "url": "https://liveradios.in/kadak-fm.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-jeypore",
+    "title": "Stage 38 browser-audio capture: Akashvani Jeypore",
+    "url": "https://liveradios.in/air-jeypore.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-radio-sugar-90-8",
+    "title": "Stage 38 browser-audio capture: Radio Sugar 90.8 FM",
+    "url": "https://liveradios.in/radio-sugar-90-8.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-mgm-radio-90-8",
+    "title": "Stage 38 browser-audio capture: MGM Radio 90.8 FM",
+    "url": "https://liveradios.in/mgm-radio-90-8.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. The FM 24 directory listing reuses the same MGM stream."
+  },
+  {
+    "id": "stage38-source-radio-uday-89-6",
+    "title": "Stage 38 browser-audio capture: Radio Uday 89.6 FM",
+    "url": "https://liveradios.in/radio-uday-89-6-fm.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-alappuzha-fm",
+    "title": "Stage 38 browser-audio capture: Akashvani Alappuzha FM",
+    "url": "https://liveradios.in/air-alappuzha-fm.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-ananthapuri-fm",
+    "title": "Stage 38 browser-audio capture: Akashvani Ananthapuri FM",
+    "url": "https://liveradios.in/ananthapuri-fm-101-9.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-kozhikode-real-fm",
+    "title": "Stage 38 browser-audio capture: Akashvani Kozhikode Real FM",
+    "url": "https://liveradios.in/kozhikode-real-fm-103-6.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. Distinct observed HLS stream from the existing Akashvani Kozhikode."
+  },
+  {
+    "id": "stage38-source-fm-gold-kolkata",
+    "title": "Stage 38 browser-audio capture: Akashvani FM Gold Kolkata",
+    "url": "https://liveradios.in/fm-gold-kolkata.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-gitanjali-radio",
+    "title": "Stage 38 browser-audio capture: Gitanjali Radio 90.4 FM",
+    "url": "https://liveradios.in/gitanjali-radio.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-world-service-bangla",
+    "title": "Stage 38 browser-audio capture: Akashvani World Service Bangla",
+    "url": "https://liveradios.in/air-world-service-bangla.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-siliguri",
+    "title": "Stage 38 browser-audio capture: Akashvani Siliguri",
+    "url": "https://liveradios.in/air-siliguri.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-nityananda-janavani",
+    "title": "Stage 38 browser-audio capture: Nityananda Janavani",
+    "url": "https://liveradios.in/nityananda-janavani.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-bhuj",
+    "title": "Stage 38 browser-audio capture: Akashvani Bhuj",
+    "url": "https://liveradios.in/air-bhuj.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-air-surat",
+    "title": "Stage 38 browser-audio capture: Akashvani Surat",
+    "url": "https://liveradios.in/air-surat.html",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-suno-kannada",
+    "title": "Stage 38 browser-audio capture: Suno Kannada",
+    "url": "https://onlineradiofm.in/stations/suno-kannada",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. The actual stream identifier is SUNO_MELODY; channel identity requires listening review."
+  },
+  {
+    "id": "stage38-source-sakkath-radio",
+    "title": "Stage 38 browser-audio capture: Sakkath Radio Kannada",
+    "url": "https://onlineradiofm.in/stations/sakkath",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-namm-radio-india",
+    "title": "Stage 38 browser-audio capture: Namm Radio India",
+    "url": "https://onlineradiofm.in/stations/namm",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-namm-radio-europe",
+    "title": "Stage 38 browser-audio capture: Namm Radio Europe",
+    "url": "https://onlineradiofm.in/stations/namm-europe",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-namm-radio-gulf",
+    "title": "Stage 38 browser-audio capture: Namm Radio Gulf",
+    "url": "https://onlineradiofm.in/stations/namm-gulf-fm",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage38-source-namm-radio-usa",
+    "title": "Stage 38 browser-audio capture: Namm Radio USA",
+    "url": "https://onlineradiofm.in/stations/namm-us",
+    "kind": "directory",
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
   }
 ]

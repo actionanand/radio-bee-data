@@ -13235,5 +13235,1040 @@
       }
     ],
     "logoPath": "assets/artwork/stations/stage33-red-fm-calgary.svg"
+  },
+  {
+    "id": "stage38-al-jazeera-english-audio",
+    "name": "Al Jazeera English Audio",
+    "about": "Al Jazeera English Audio is a EN-language news radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "al-jazeera-english-audio",
+    "countryCode": "QA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.aljazeera.com/audio/live/",
+    "sourceIds": [
+      "stage38-source-al-jazeera-english-audio"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-al-jazeera-english-audio",
+        "url": "https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/index.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-al-jazeera-english-audio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-al-jazeera-english-audio",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-agra",
+    "name": "Akashvani Agra",
+    "about": "Akashvani Agra is a HI-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-agra"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-agra",
+        "url": "https://d1cvqgmbcpg5yn.cloudfront.net/94e6de05aa9b04b0/94e6de05aa9b04b0.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-agra",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-agra",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-kadak-fm-uae",
+    "name": "Kadak FM UAE",
+    "about": "Kadak FM UAE is a HI-language music radio service listed under AE. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "kadak-fm-uae",
+    "countryCode": "AE",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.admn.ae/en/brand/4197620/kadak-fm",
+    "sourceIds": [
+      "stage38-source-kadak-fm-uae"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-kadak-fm-uae",
+        "url": "https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/kadak/kadak_hls_nd/index_kadakfm_audio_enc_ara.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-kadak-fm-uae",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-kadak-fm-uae",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-jeypore",
+    "name": "Akashvani Jeypore",
+    "about": "Akashvani Jeypore is a OR-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "or"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-jeypore"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-jeypore",
+        "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio112/playlist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-jeypore",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-jeypore",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-radio-sugar-90-8",
+    "name": "Radio Sugar 90.8 FM",
+    "about": "Radio Sugar 90.8 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "radio-sugar",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 90.8,
+    "website": null,
+    "sourceIds": [
+      "stage38-source-radio-sugar-90-8"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-radio-sugar-90-8",
+        "url": "https://streamasiahlscdn.atc-labs.com/radiosugar.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-radio-sugar-90-8",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-radio-sugar-90-8",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-mgm-radio-90-8",
+    "name": "MGM Radio 90.8 FM",
+    "about": "MGM Radio 90.8 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "mgm-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 90.8,
+    "website": "https://journalism.mgmu.ac.in/radio.html",
+    "sourceIds": [
+      "stage38-source-mgm-radio-90-8"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. The FM 24 directory listing reuses the same MGM stream.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-mgm-radio-90-8",
+        "url": "https://dz1aqwz3bmbil.cloudfront.net/mgmradio.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-mgm-radio-90-8",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-mgm-radio-90-8",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-radio-uday-89-6",
+    "name": "Radio Uday 89.6 FM",
+    "about": "Radio Uday 89.6 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "radio-uday",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "mr"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 89.6,
+    "website": null,
+    "sourceIds": [
+      "stage38-source-radio-uday-89-6"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-radio-uday-89-6",
+        "url": "https://streamasiahlscdn.atc-labs.com/radiouday.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-radio-uday-89-6",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-radio-uday-89-6",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-alappuzha-fm",
+    "name": "Akashvani Alappuzha FM",
+    "about": "Akashvani Alappuzha FM is a ML-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-alappuzha-fm"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-alappuzha-fm",
+        "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/playlist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-alappuzha-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-alappuzha-fm",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-ananthapuri-fm",
+    "name": "Akashvani Ananthapuri FM",
+    "about": "Akashvani Ananthapuri FM is a ML-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 101.9,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-ananthapuri-fm"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-ananthapuri-fm",
+        "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/playlist.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-ananthapuri-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-ananthapuri-fm",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-kozhikode-real-fm",
+    "name": "Akashvani Kozhikode Real FM",
+    "about": "Akashvani Kozhikode Real FM is a ML-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 103.6,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-kozhikode-real-fm"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. Distinct observed HLS stream from the existing Akashvani Kozhikode.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-kozhikode-real-fm",
+        "url": "https://d3hrxqn1tritdh.cloudfront.net/b69c296065db7627/b69c296065db7627.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-kozhikode-real-fm",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-kozhikode-real-fm",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-fm-gold-kolkata",
+    "name": "Akashvani FM Gold Kolkata",
+    "about": "Akashvani FM Gold Kolkata is a BN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-fm-gold-kolkata"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-fm-gold-kolkata",
+        "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio057/hlspbaudio057_Auto.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-fm-gold-kolkata",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-fm-gold-kolkata",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-gitanjali-radio",
+    "name": "Gitanjali Radio 90.4 FM",
+    "about": "Gitanjali Radio 90.4 FM is a BN-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "gitanjali-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 90.4,
+    "website": "https://gitanjaliradio.in/",
+    "sourceIds": [
+      "stage38-source-gitanjali-radio"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-gitanjali-radio",
+        "url": "https://streamasiahlscdn.atc-labs.com/gitanjaliradio.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-gitanjali-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-gitanjali-radio",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-world-service-bangla",
+    "name": "Akashvani World Service Bangla",
+    "about": "Akashvani World Service Bangla is a BN-language news radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "news"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-world-service-bangla"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-world-service-bangla",
+        "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio137/hlspbaudio137_Auto.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-world-service-bangla",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-world-service-bangla",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-siliguri",
+    "name": "Akashvani Siliguri",
+    "about": "Akashvani Siliguri is a BN-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-siliguri"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-siliguri",
+        "url": "https://d3hrxqn1tritdh.cloudfront.net/165856ba98ca031a/165856ba98ca031a.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-siliguri",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-siliguri",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-nityananda-janavani",
+    "name": "Nityananda Janavani",
+    "about": "Nityananda Janavani is a BN-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "nityananda-janavani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "bn"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 91.2,
+    "website": null,
+    "sourceIds": [
+      "stage38-source-nityananda-janavani"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-nityananda-janavani",
+        "url": "https://d1osc21vqenkv0.cloudfront.net/radiomant.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-nityananda-janavani",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-nityananda-janavani",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-bhuj",
+    "name": "Akashvani Bhuj",
+    "about": "Akashvani Bhuj is a GU-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "gu"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-bhuj"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-bhuj",
+        "url": "https://d3hrxqn1tritdh.cloudfront.net/39f1810f00b8172a/39f1810f00b8172a.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-bhuj",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-bhuj",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-air-surat",
+    "name": "Akashvani Surat",
+    "about": "Akashvani Surat is a GU-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "akashvani",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "gu"
+    ],
+    "genres": [
+      "general"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://akashvani.gov.in/radio/live.php",
+    "sourceIds": [
+      "stage38-source-air-surat"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-air-surat",
+        "url": "https://d1tmej9eu7kw5c.cloudfront.net/fc6ce69c53a3d739/fc6ce69c53a3d739.m3u8",
+        "format": "hls",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-air-surat",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-air-surat",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-suno-kannada",
+    "name": "Suno Kannada",
+    "about": "Suno Kannada is a KN-language music radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "olive-suno",
+    "countryCode": "QA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://olivesuno.com/",
+    "sourceIds": [
+      "stage38-source-suno-kannada"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established. The actual stream identifier is SUNO_MELODY; channel identity requires listening review.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-suno-kannada",
+        "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_MELODY_S06_SC",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-suno-kannada",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-suno-kannada",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-sakkath-radio",
+    "name": "Sakkath Radio Kannada",
+    "about": "Sakkath Radio Kannada is a KN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "sakkath-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage38-source-sakkath-radio"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-sakkath-radio",
+        "url": "https://stream.zeno.fm/3e6k4ryerd0uv.aac",
+        "format": "aac",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-sakkath-radio",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-sakkath-radio",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-namm-radio-india",
+    "name": "Namm Radio India",
+    "about": "Namm Radio India is a KN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "namm-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://nammradio.com/",
+    "sourceIds": [
+      "stage38-source-namm-radio-india"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-namm-radio-india",
+        "url": "https://stream.zeno.fm/6quh1pfnt1duv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-namm-radio-india",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-namm-radio-india",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-namm-radio-europe",
+    "name": "Namm Radio Europe",
+    "about": "Namm Radio Europe is a KN-language music radio service listed under GB. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "namm-radio",
+    "countryCode": "GB",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://nammradio.com/",
+    "sourceIds": [
+      "stage38-source-namm-radio-europe"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-namm-radio-europe",
+        "url": "https://stream.zeno.fm/zhfktkwb0ueuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-namm-radio-europe",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-namm-radio-europe",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-namm-radio-gulf",
+    "name": "Namm Radio Gulf",
+    "about": "Namm Radio Gulf is a KN-language music radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "namm-radio",
+    "countryCode": "QA",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://nammradio.com/",
+    "sourceIds": [
+      "stage38-source-namm-radio-gulf"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-namm-radio-gulf",
+        "url": "https://stream.zeno.fm/s9vrrmuwm8quv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-namm-radio-gulf",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-namm-radio-gulf",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage38-namm-radio-usa",
+    "name": "Namm Radio USA",
+    "about": "Namm Radio USA is a KN-language music radio service listed under US. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "networkId": "namm-radio",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "kn"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://nammradio.com/",
+    "sourceIds": [
+      "stage38-source-namm-radio-usa"
+    ],
+    "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage38-stream-namm-radio-usa",
+        "url": "https://stream.zeno.fm/kc4wg3ent1duv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage38-source-namm-radio-usa",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-15T13:21:03Z",
+          "sourceId": "stage38-source-namm-radio-usa",
+          "notes": "User browser capture only. Not independently approved for RadioBee playback, third-party listening, recording or redistribution.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
