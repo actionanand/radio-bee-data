@@ -14282,5 +14282,1139 @@
       }
     ],
     "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-vismaya-kerala-malayalam",
+    "name": "Vismaya Kerala Malayalam Radio",
+    "about": "Vismaya Kerala Malayalam Radio is listed in Zeno's Tamil directory and identified in public playlists as a Malayalam radio service. Malayalam programming is indicated by the name and other listings; its live format still needs review.",
+    "networkId": "stage39-network-vismaya-kerala-malayalam",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID euqwg5mdd8zuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-vismaya-kerala-malayalam",
+        "url": "https://stream.zeno.fm/euqwg5mdd8zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-vilathikulam-thendral",
+    "name": "Vilathikulam Thendral",
+    "about": "Vilathikulam Thendral is an online radio stream listed in Zeno's Tamil directory. The station name points to Vilathikulam, but a transmitter or studio location and current schedule are not independently confirmed.",
+    "networkId": "stage39-network-vilathikulam-thendral",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ubw5g9v6hrruv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-vilathikulam-thendral",
+        "url": "https://stream.zeno.fm/ubw5g9v6hrruv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-radio-palakkad",
+    "name": "Radio Palakkad",
+    "about": "Radio Palakkad appears in Zeno's Tamil listings and Malayalam radio directories. Its name refers to Palakkad in Kerala; this candidate is classified as Malayalam pending confirmation of its complete broadcast-language mix.",
+    "networkId": "stage39-network-radio-palakkad",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID qgqrxfte41zuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-radio-palakkad",
+        "url": "https://stream.zeno.fm/qgqrxfte41zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-athavan-radio-uk-zeno",
+    "name": "Athavan Radio UK",
+    "about": "Athavan Radio UK is a UK-associated Tamil online radio station listed by Zeno. This independently identified stream candidate belongs to the existing Athavan network; stable listening and third-party use permissions are unverified.",
+    "networkId": "athavan",
+    "countryCode": "GB",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "general"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID fnkd9mu6g18uv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-athavan-radio-uk-zeno",
+        "url": "https://stream.zeno.fm/fnkd9mu6g18uv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-lata-mangeshkar-zeno",
+    "name": "Lata Mangeshkar Radio",
+    "about": "Lata Mangeshkar Radio is a music stream listed under the singer's name in public Zeno playlists and Tamil-directory recommendations. It is treated as a Hindi-music candidate, not a Tamil-only radio station.",
+    "networkId": "stage39-network-lata-mangeshkar-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "hi"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-merged-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 87xam8pf7tzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-lata-mangeshkar-zeno",
+        "url": "https://stream.zeno.fm/87xam8pf7tzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-merged-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-merged-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-tamil-top-40-zeno",
+    "name": "Tamil Top 40",
+    "about": "Tamil Top 40 is a Tamil music stream named in Zeno's music playlist and listed with US directory metadata. Its chart format, operating location, broadcaster and continuous audio availability remain unconfirmed.",
+    "networkId": "stage39-network-tamil-top-40-zeno",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-music-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 1hwkbanbz3stv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-tamil-top-40-zeno",
+        "url": "https://stream.zeno.fm/1hwkbanbz3stv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-music-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-music-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-paadu-nilavae-tamil-radio",
+    "name": "Paadu Nilavae Tamil Radio",
+    "about": "Paadu Nilavae Tamil Radio is a Tamil-language music stream identified by the Zeno Tamil station directory and a corresponding public playlist. A detailed programme schedule and current uninterrupted playback remain to be verified.",
+    "networkId": "stage39-network-paadu-nilavae-tamil-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ra475wg8ma0uv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-paadu-nilavae-tamil-radio",
+        "url": "https://stream.zeno.fm/ra475wg8ma0uv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-harrish-jayaraj-fm",
+    "name": "Harrish Jayaraj FM",
+    "about": "Harrish Jayaraj FM is listed as a Tamil film-music radio stream associated with composer Harris Jayaraj. Its Zeno stream differs from the existing Harris Jayaraj Radio candidate; their broadcaster identity has not been proven identical.",
+    "networkId": "stage39-network-harrish-jayaraj-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "artist-hits"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID c6wdtuh1yyivv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-harrish-jayaraj-fm",
+        "url": "https://stream.zeno.fm/c6wdtuh1yyivv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-tamil-radio-zeno",
+    "name": "Tamil Radio",
+    "about": "Tamil Radio is a Zeno music-stream listing identified by this exact stream ID. Its name is generic, and a US directory association does not independently establish the broadcaster's operating location or its programme schedule.",
+    "networkId": "stage39-network-tamil-radio-zeno",
+    "countryCode": "US",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-music-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID xrsym56130yvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-tamil-radio-zeno",
+        "url": "https://stream.zeno.fm/xrsym56130yvv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-music-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-music-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-radio-voxa-zeno",
+    "name": "Radio Voxa",
+    "about": "Radio Voxa is a multi-language radio listing found in Zeno's Tamil directory. Available directory descriptions associate it with Malayalam, Tamil and Hindi; the actual on-air mix and the station's operating location need review.",
+    "networkId": "stage39-network-radio-voxa-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml",
+      "ta",
+      "hi"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID zrfx7zy2wwzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-radio-voxa-zeno",
+        "url": "https://stream.zeno.fm/zrfx7zy2wwzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-mazhai-fm-zeno",
+    "name": "Mazhai FM",
+    "about": "Mazhai FM is an online Tamil radio candidate identified in Zeno's Tamil-language station playlist. Its precise broadcaster, geographic service area and programme schedule are not independently established.",
+    "networkId": "stage39-network-mazhai-fm-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID mecddtq0rzzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-mazhai-fm-zeno",
+        "url": "https://stream.zeno.fm/mecddtq0rzzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-jnfm-tamil-classic",
+    "name": "JNFM Tamil Classic",
+    "about": "JNFM Tamil Classic is listed as a Tamil classic-music radio stream in Zeno's Tamil directory. The classic-music description follows its station title; current programming and the broadcaster's identity require confirmation.",
+    "networkId": "stage39-network-jnfm-tamil-classic",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music",
+      "classical"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID fswmh6d7kfhvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-jnfm-tamil-classic",
+        "url": "https://stream.zeno.fm/fswmh6d7kfhvv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-air-tamil-live-music",
+    "name": "Air Tamil Live Music Radio",
+    "about": "Air Tamil Live Music Radio is a Tamil music stream appearing in Zeno's Tamil station listings. It has a distinct stream ID from the existing AirTamil 90s entry, and a shared operator has not been confirmed.",
+    "networkId": "stage39-network-air-tamil-live-music",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID g5m1en1u9vzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-air-tamil-live-music",
+        "url": "https://stream.zeno.fm/g5m1en1u9vzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-thiruvarur-timepass-fm",
+    "name": "Thiruvarur Radio (Timepass FM)",
+    "about": "Thiruvarur Radio (Timepass FM), also named திருவாரூர் வானொலி in public listings, is a Tamil online radio candidate. The geographic term in the station name is not evidence of a physical broadcast location.",
+    "networkId": "stage39-network-thiruvarur-timepass-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID t4c8kx2r54zuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-thiruvarur-timepass-fm",
+        "url": "https://stream.zeno.fm/t4c8kx2r54zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-radio-vilakku",
+    "name": "Radio Vilakku",
+    "about": "Radio Vilakku is a Zeno-listed Tamil radio stream with a matching public playlist entry. Its exact music and spoken-programme mix, broadcaster identity and listening availability need independent review.",
+    "networkId": "stage39-network-radio-vilakku",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 0wuv9kbazc9uv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-radio-vilakku",
+        "url": "https://stream.zeno.fm/0wuv9kbazc9uv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-attur-fm-zeno",
+    "name": "Attur FM",
+    "about": "Attur FM is an online Tamil radio candidate from the Zeno Tamil directory. Although the station name resembles a Tamil Nadu locality, no transmitter frequency or verified station address is claimed.",
+    "networkId": "stage39-network-attur-fm-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID xcvftad5vsbvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-attur-fm-zeno",
+        "url": "https://stream.zeno.fm/xcvftad5vsbvv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-vellur-fm-zeno",
+    "name": "Vellur FM",
+    "about": "Vellur FM is an online Tamil radio stream identified by its Zeno Tamil directory entry. The location suggested by the name, the broadcaster and any terrestrial FM service have not been independently established.",
+    "networkId": "stage39-network-vellur-fm-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID z394fckpzwzu. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-vellur-fm-zeno",
+        "url": "https://stream.zeno.fm/z394fckpzwzu",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-tamil-a1-radio",
+    "name": "Tamil A1 Radio",
+    "about": "Tamil A1 Radio is a Tamil music-stream candidate matched to a Zeno playlist entry. Its published name and URL are included for discovery while current audio availability and third-party playback approval remain unverified.",
+    "networkId": "stage39-network-tamil-a1-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID dsvagw8dc8zuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-tamil-a1-radio",
+        "url": "https://stream.zeno.fm/dsvagw8dc8zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-appuchi-radio",
+    "name": "Appuchi Radio",
+    "about": "Appuchi Radio is a Tamil online station candidate listed in the Zeno Tamil directory and corresponding public stream playlists. Independent details about its broadcaster, shows and geographic association are limited.",
+    "networkId": "stage39-network-appuchi-radio",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID rs12w2pdt7zuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-appuchi-radio",
+        "url": "https://stream.zeno.fm/rs12w2pdt7zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-mallu-vibes",
+    "name": "MALLU VIBES",
+    "about": "MALLU VIBES appears in Zeno's Tamil-directory playlist but is associated with Malayalam-language music by its name and wider radio-directory categorization. It is not treated as a verified Tamil-language service.",
+    "networkId": "stage39-network-mallu-vibes",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ml"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 7z05xdu0etzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-mallu-vibes",
+        "url": "https://stream.zeno.fm/7z05xdu0etzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-mugugan-songs-fm",
+    "name": "Mugugan Songs FM",
+    "about": "Mugugan Songs FM is listed as a Tamil devotional music stream featuring songs dedicated to Murugan. The playlist provides its candidate audio URL; independent confirmation of sustained playback and usage rights is pending.",
+    "networkId": "stage39-network-mugugan-songs-fm",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "devotional"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 6seaxxbyxmrvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-mugugan-songs-fm",
+        "url": "https://stream.zeno.fm/6seaxxbyxmrvv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/hindu-devotional.svg"
+  },
+  {
+    "id": "stage39-dd-radio-zeno",
+    "name": "DD RADIO",
+    "about": "DD RADIO is an online station found in the Zeno Tamil-language directory. Its short name is insufficient to identify an independent broadcaster, and the Tamil-language classification remains provisional.",
+    "networkId": "stage39-network-dd-radio-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ztkubnu4f41tv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-dd-radio-zeno",
+        "url": "https://stream.zeno.fm/ztkubnu4f41tv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-tamil-amudhu-zeno",
+    "name": "Tamil Amudhu",
+    "about": "Tamil Amudhu is a Tamil online radio stream identified in the Zeno Tamil playlist. It should not be confused with Tamil Amuthu Bakthi Radio, which is a separately named devotional station with a different stream.",
+    "networkId": "stage39-network-tamil-amudhu-zeno",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-tamil-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 19arez84vwzuv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-tamil-amudhu-zeno",
+        "url": "https://stream.zeno.fm/19arez84vwzuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-tamil-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-tamil-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
+  },
+  {
+    "id": "stage39-raja-fm-sri-lanka-zeno",
+    "name": "Raja FM",
+    "about": "Raja FM is a Zeno radio stream listed in Sri Lankan and Sinhalese radio playlists. It is not assumed to be the Indian Ilaiyaraaja-themed Raja FM; its individual broadcaster and actual language mix require verification.",
+    "networkId": "stage39-network-raja-fm-sri-lanka-zeno",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage39-zeno-tamil-directory",
+      "stage39-zeno-sinhalese-playlist"
+    ],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ute2b5hbrfvtv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage39-stream-raja-fm-sri-lanka-zeno",
+        "url": "https://stream.zeno.fm/ute2b5hbrfvtv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage39-zeno-sinhalese-playlist",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage39-zeno-sinhalese-playlist",
+          "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   }
 ]
