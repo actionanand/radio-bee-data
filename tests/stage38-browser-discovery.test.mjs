@@ -5,10 +5,10 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 
 test('Stage 38 adds only distinct V2 audio candidates without modifying old programmes',()=>{
   const data=readCatalogue(undefined,'v2');
-  assert.equal(data.index.catalogVersion,'2.8.7');
-  assert.equal(data.stations.length,263);
-  assert.equal(data.stations.flatMap(s=>s.streams).length,268);
-  assert.equal(data.networks.length,246);
+  assert.ok(/^2\.8\.\d+$/.test(data.index.catalogVersion));
+  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')).length,263);
+  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')).flatMap(s=>s.streams).length,268);
+  assert.equal(data.networks.filter(n=>!n.id.startsWith('stage39-')).length,246);
   assert.equal(data.discoveryStations.length,0);
   const added=data.stations.filter(s=>s.id.startsWith('stage38-'));
   assert.equal(added.length,23);
