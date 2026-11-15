@@ -191,6 +191,6 @@ Specific photo sources:
 
 Krishna FM (id `stage29-krishna-fm`) retains its existing neutral, named editorial cover. Only a directory identity and test stream are known; an independent programme schedule proving devotional programming has not been established. Its devotional tag is therefore provisional and must be reviewed, rather than treated as evidence for a Krishna deity photo.
 
-Hello FM Chennai retains its station-specific editorial cover because available operator evidence confirms the 106.4 MHz service but a reliably hotlinkable **official logo file** has not yet been established. Do not misattribute a logo from an unrelated Hello FM brand.
+Hello FM Chennai now has a station-specific brand image from [Streema's Hello FM Chennai 106.4 listing](https://streema.com/radios/Hello_FM), hosted at `https://static-media.streema.com/media/cache/26/3e/263e52f18d89f544c3aad303411a9e71.jpg`. This is a directory-hosted image, not a guaranteed current official logo; its original data-hosted `hello-chennai.svg` remains the runtime fallback.
 
 To swap images later, change `logoUrl` or `logoPath` in this data repository; no app changes are needed.
