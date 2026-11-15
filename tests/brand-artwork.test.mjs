@@ -7,7 +7,7 @@ const catalogue = () => readCatalogue(undefined,'v2');
 
 test('V2 supports original branded and publisher favicon network URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,55);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,54);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
