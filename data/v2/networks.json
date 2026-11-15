@@ -49,8 +49,7 @@
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator",
-    "logoUrl": "https://images.radiovolna.net/_files/images/stations/421619/2f0fbbda65ea71c33e4ebb352a7123d2.jpg"
+    "broadcasterRelationship": "licensed-operator"
   },
   {
     "id": "mirchi",
