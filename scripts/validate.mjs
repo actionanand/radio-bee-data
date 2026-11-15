@@ -20,10 +20,10 @@ const isNullableText = value => value === null || isText(value);
 const blockedImageTlds = new Set(['localhost','local','internal','lan','onion','invalid','test','example']);
 export function validPublicLogoUrl(value) {
   if (typeof value !== 'string' || !value || value.length > 4096 ||
-      value !== value.trim() || /[\\s\\u0000-\\u001f\\u007f]/u.test(value)) return false;
+      value !== value.trim() || /[\s\u0000-\u001f\u007f]/u.test(value)) return false;
   try {
     const url = new URL(value);
-    const host = url.hostname.toLowerCase().replace(/\\.$/, '');
+    const host = url.hostname.toLowerCase().replace(/\.$/, '');
     const labels = host.split('.');
     return url.protocol === 'https:' && !url.username && !url.password &&
       !url.hash && (!url.port || url.port === '443') &&
@@ -31,7 +31,7 @@ export function validPublicLogoUrl(value) {
       labels.every(label => label.length > 0) &&
       !blockedImageTlds.has(labels.at(-1)) &&
       !host.endsWith('.home.arpa') && !host.endsWith('.localdomain') &&
-      !/^\\d+\\.\\d+\\.\\d+\\.\\d+$/.test(host);
+      !/^\d+\.\d+\.\d+\.\d+$/.test(host);
   } catch { return false; }
 }
 
