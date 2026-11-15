@@ -1296,10 +1296,10 @@
   },
   {
     "id": "stage22-source-sanskrit-bharati-radio-in",
-    "title": "Stage 22 stream candidate Radio Sanskrit Bharati",
-    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u",
+    "title": "Radio Sanskrit Bharati — user supplied LiveRadios stream evidence",
+    "url": "https://liveradios.in/radio-sanskrit.html",
     "kind": "directory",
-    "notes": "Candidate station and HTTPS URL found in https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u. Stream: https://stream.zeno.fm/c0adewsyw8quv. Dedicated Sanskrit station name and HTTPS Zeno URL in curated playlist; schedule and sustained language identity not independently decoded. No successful audio decode in this environment; codec, language on-air, reliable playback, licensing and broadcaster permission are NOT confirmed. User review required."
+    "notes": "User-supplied LiveRadios Radio Sanskrit listing (15 November 2026) for the exact HTTPS stream https://stream.zeno.fm/c0adewsyw8quv. The RadioBee V2 station retains its canonical name Radio Sanskrit Bharati and existing station/stream IDs; the directory page uses the shorter title Radio Sanskrit. Previous stream discovery evidence: https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u. The user reports the stream playable. Independent sustained decoding, rights and recording/redistribution permissions are still unconfirmed."
   },
   {
     "id": "stage22-source-radio-paloma-de",
