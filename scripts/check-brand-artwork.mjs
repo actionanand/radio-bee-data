@@ -40,7 +40,7 @@ console.log(`Image audit: ${results.filter(r=>r.ok).length}/${results.length} ac
 if(results.some(r=>!r.ok))process.exitCode=1;
 
 if(process.env.ARTWORK_PREVIEW === '1'){
-  for(const id of ['shakthi-lk','mediacorp','ibc-tamil','tamil-894','american-tamil-media']){
+  for(const id of ['mirchi','radio-city','red-fm']){
     const network=withArtwork.find(n=>n.id===id);
     if(!network) continue;
     try{
