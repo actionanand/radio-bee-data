@@ -165,3 +165,8 @@ A source domain is not evidence of image fidelity. Preserve image attribution an
 ## Complete V2 illustration coverage (2026-11-15)
 
 All 240 published V2 stations have image references following the expansion documented in `docs/ARTWORK-MISSING-V2.md`. For 150 stations with no usable station-brand photo or favicon, RadioBee's own themed, station-labeled SVG editorial covers are stored **only in radio-bee-data** under `data/v2/assets/artwork/stations/` and published by the data site. These are not broadcaster-owned logos. They are static restricted SVG (no script, embedded HTML, CSS, event handlers, or remote references), audited by `scripts/logo-assets.mjs`, and can be replaced at any time by a data-hosted PNG/WebP or any public HTTPS image URL without updating the client. If a remote image fails, the app's standard fallback still applies.
+
+
+### Remote photo fallback and audited source URLs
+
+The catalogue now maintains a data-hosted, station-specific editorial cover for each of the 19 external artist or devotional photo references. If a third-party image returns an error (including Wikimedia 429 rate limiting), RadioBee tries that data-hosted cover before its final generic fallback. The Ilaiyaraaja and Murugan URLs use directly identified Wikimedia Commons media objects rather than unvalidated `Special:FilePath` guesses. External photo failures are recorded in CI as warnings; nonfunctioning network image links still fail the artwork audit.
