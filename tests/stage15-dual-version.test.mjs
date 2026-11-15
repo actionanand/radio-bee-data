@@ -46,7 +46,7 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
   const inventory=fileInventory(path.join(root,'data/v2'));
   assert.deepEqual(inventory.filter(file=>!file.startsWith('assets/artwork/stations/')),
     [...Object.keys(saved.files),'artists.json','home-stations.json'].sort());
-  assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/stations/')).length,150);
+  assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/stations/')).length,169);
   const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
@@ -186,7 +186,7 @@ test('unreferenced v2 localization and artwork files never expand the exact prod
   const dest=buildStatic(temporary,{requireV2:true,preserveV1:true});
   for(const file of extra)assert.ok(!existsSync(path.join(dest,'v2',file)),file);
   assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
-  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,150);
+  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,169);
   assert.deepEqual(fileInventory(path.join(dest,'v2/i18n')),['en.json','sa.json','ta.json']);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
 });
@@ -199,7 +199,7 @@ test('legacy fixture publication also excludes unreferenced localization and art
   const dest=buildStatic(temporary);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
   assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
-  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,150);
+  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,169);
 });
 
 test('a referenced v2 station image resolves under v2 with identical bytes',t=>{
