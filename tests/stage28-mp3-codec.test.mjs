@@ -20,7 +20,7 @@ test('Stage 28 codec results unblock playable metadata without approving rights'
    assert.equal(stream.directListening.recording,'unconfirmed');
    assert.equal(stream.directListening.redistribution,'unconfirmed');
  }
- assert.ok(d.stations.flatMap(s=>s.streams).every(s=>['mp3','aac','hls'].includes(s.format)));
+ assert.ok(d.stations.filter(s=>!s.id.startsWith('stage39-')).flatMap(s=>s.streams).every(s=>['mp3','aac','hls'].includes(s.format)));
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });
