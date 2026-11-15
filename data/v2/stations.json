@@ -13279,7 +13279,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/news.svg"
   },
   {
     "id": "stage38-air-agra",
@@ -13369,7 +13370,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage38-air-jeypore",
@@ -13459,7 +13461,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/community.svg"
   },
   {
     "id": "stage38-mgm-radio-90-8",
@@ -13504,7 +13507,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/community.svg"
   },
   {
     "id": "stage38-radio-uday-89-6",
@@ -13549,7 +13553,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/community.svg"
   },
   {
     "id": "stage38-air-alappuzha-fm",
@@ -13774,7 +13779,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/community.svg"
   },
   {
     "id": "stage38-air-world-service-bangla",
@@ -13909,7 +13915,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/community.svg"
   },
   {
     "id": "stage38-air-bhuj",
@@ -14089,7 +14096,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage38-namm-radio-india",
@@ -14134,7 +14142,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage38-namm-radio-europe",
@@ -14179,7 +14188,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage38-namm-radio-gulf",
@@ -14224,7 +14234,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage38-namm-radio-usa",
@@ -14269,6 +14280,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   }
 ]
