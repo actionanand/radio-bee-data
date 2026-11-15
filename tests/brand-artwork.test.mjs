@@ -81,3 +81,15 @@ test('artist and devotional station photos override general network artwork',()=
   assert.match(map.get('stage29-tamil-kadavul-murugan-fm').logoUrl,/Murugan/);
   for(const s of map.values())if(s.logoUrl)assert.ok(validPublicLogoUrl(s.logoUrl),s.id);
 });
+
+test('every published V2 station has network, individual or data-hosted editorial artwork',()=>{
+  const data=catalogue();
+  const networkById=new Map(data.networks.map(n=>[n.id,n]));
+  const editorial=data.stations.filter(s=>s.logoPath?.startsWith('assets/artwork/stations/'));
+  assert.equal(editorial.length,150);
+  for(const s of data.stations){
+    const network=networkById.get(s.networkId);
+    assert.ok(s.logoUrl||s.logoPath||network?.logoUrl||network?.logoPath,s.id);
+  }
+  assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
+});
