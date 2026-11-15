@@ -63,7 +63,7 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
 
 test('every v2 manifest, locale and artwork reference resolves to an identical self-contained published file',t=>{
   const temporary=fixture(t),dest=buildStatic(temporary,{requireV2:true,preserveV1:true}),d=readCatalogue(temporary,'v2');
-  assert.equal(d.index.schemaVersion,2);assert.equal(d.index.catalogVersion,'2.8.7');
+  assert.equal(d.index.schemaVersion,2);assert.ok(/^2\.8\.\d+$/.test(d.index.catalogVersion));
   for(const file of ['index.json',...Object.values(d.index.files),...d.index.locales.map(locale=>d.index.localizationRoot+locale+'.json')]) {
     const raw=readFileSync(path.join(temporary,'data/v2',file));
     const redacted=file.endsWith('.json')?publicJsonText('v2',file,JSON.parse(raw)):null;

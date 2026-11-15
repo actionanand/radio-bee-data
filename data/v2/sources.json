@@ -2553,5 +2553,40 @@
     "url": "https://onlineradiofm.in/stations/namm-us",
     "kind": "directory",
     "notes": "Playwright captured HTTP 200 audio/HLS media from the linked public station page on 15 November 2026. This is an unverified candidate: broadcaster identity, continuing uptime, codec, Web/Android playback, recording, redistribution and listening permissions are not established."
+  },
+  {
+    "id": "stage39-zeno-tamil-directory",
+    "title": "Zeno.FM — Tamil-language radio directory",
+    "url": "https://zeno.fm/radio/languages/Tamil/",
+    "kind": "directory",
+    "notes": "User-provided discovery directory. Its lists may include stations in other languages; directory presence does not establish stream identity, verified playback, rights, or radio location."
+  },
+  {
+    "id": "stage39-zeno-tamil-playlist",
+    "title": "Community-maintained Zeno Tamil station-and-stream playlist",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/master/zeno.fm/Tamil.m3u",
+    "kind": "third-party",
+    "notes": "Public third-party playlist maps station names to Zeno stream IDs. Used as candidate identity evidence; not an official broadcaster confirmation or proof of current playback or permissions."
+  },
+  {
+    "id": "stage39-zeno-music-playlist",
+    "title": "Community-maintained Zeno Music stream playlist",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/master/zeno.fm/checked/Music.m3u",
+    "kind": "third-party",
+    "notes": "Public checked music playlist matches Zeno stream IDs to directory labels. A previous playlist check is not a current RadioBee playback test."
+  },
+  {
+    "id": "stage39-zeno-sinhalese-playlist",
+    "title": "Community-maintained Zeno Sinhalese radio playlist",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/master/zeno.fm/Sinhalese.m3u",
+    "kind": "third-party",
+    "notes": "Third-party Sinhalese listing associates the Raja FM station label with this stream ID; actual broadcast language and location require independent review."
+  },
+  {
+    "id": "stage39-zeno-merged-playlist",
+    "title": "Community-maintained Zeno language-merged Tamil playlist",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/master/%2Bmerged%2B/t/tamil.m3u",
+    "kind": "third-party",
+    "notes": "Supplementary merged playlist includes mixed-language listings including Lata Mangeshkar; inclusion is not evidence of Tamil-language audio."
   }
 ]

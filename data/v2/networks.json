@@ -2574,5 +2574,235 @@
     ],
     "kind": "online",
     "website": "https://nammradio.com/"
+  },
+  {
+    "id": "stage39-network-vismaya-kerala-malayalam",
+    "name": "Vismaya Kerala Malayalam Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-vilathikulam-thendral",
+    "name": "Vilathikulam Thendral",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-radio-palakkad",
+    "name": "Radio Palakkad",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-lata-mangeshkar-zeno",
+    "name": "Lata Mangeshkar Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-tamil-top-40-zeno",
+    "name": "Tamil Top 40",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-paadu-nilavae-tamil-radio",
+    "name": "Paadu Nilavae Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-harrish-jayaraj-fm",
+    "name": "Harrish Jayaraj FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-tamil-radio-zeno",
+    "name": "Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "US"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-radio-voxa-zeno",
+    "name": "Radio Voxa",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-mazhai-fm-zeno",
+    "name": "Mazhai FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-jnfm-tamil-classic",
+    "name": "JNFM Tamil Classic",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-air-tamil-live-music",
+    "name": "Air Tamil Live Music Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-thiruvarur-timepass-fm",
+    "name": "Thiruvarur Radio (Timepass FM)",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-radio-vilakku",
+    "name": "Radio Vilakku",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-attur-fm-zeno",
+    "name": "Attur FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-vellur-fm-zeno",
+    "name": "Vellur FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-tamil-a1-radio",
+    "name": "Tamil A1 Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-appuchi-radio",
+    "name": "Appuchi Radio",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-mallu-vibes",
+    "name": "MALLU VIBES",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-mugugan-songs-fm",
+    "name": "Mugugan Songs FM",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-dd-radio-zeno",
+    "name": "DD RADIO",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-tamil-amudhu-zeno",
+    "name": "Tamil Amudhu",
+    "aliases": [],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage39-network-raja-fm-sri-lanka-zeno",
+    "name": "Raja FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
   }
 ]
