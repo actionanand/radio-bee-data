@@ -4,7 +4,11 @@
 import {readFileSync} from 'node:fs';
 import {request} from 'node:https';
 const networks=JSON.parse(readFileSync(new URL('../data/v2/networks.json',import.meta.url)));
-const withArtwork=networks.filter(n=>n.logoUrl);
+const stations=JSON.parse(readFileSync(new URL('../data/v2/stations.json',import.meta.url)));
+const withArtwork=[
+  ...networks.filter(n=>n.logoUrl).map(n=>({...n,category:'network'})),
+  ...stations.filter(s=>s.logoUrl).map(s=>({...s,category:'station'})),
+];
 async function probe(url,redirects=0) {
   return new Promise(resolve=>{
     const req=request(url,{
@@ -33,8 +37,8 @@ const results=[];
 for(const n of withArtwork) {
   const result=await probe(n.logoUrl);
   const ok=[200,206].includes(result.status)&&/^image\/(?:png|jpeg|webp|avif)$/.test(result.type)&&result.bytes>0;
-  results.push({network:n.id,ok,...result});
-  console.log(`${ok?'OK':'FAIL'} ${n.id} ${JSON.stringify(result)} ${n.logoUrl}`);
+  results.push({type:n.category,id:n.id,ok,...result});
+  console.log(`${ok?'OK':'FAIL'} ${n.category}/${n.id} ${JSON.stringify(result)} ${n.logoUrl}`);
 }
 console.log(`Image audit: ${results.filter(r=>r.ok).length}/${results.length} accessible from GitHub Actions`);
 if(results.some(r=>!r.ok))process.exitCode=1;
