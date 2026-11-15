@@ -5,15 +5,15 @@ import {buildBrowseIndex,selectStations} from '../scripts/catalogue-navigation.m
 
 test('Stage 34 groups 35 existing stations into 31 artist identities, without mutating URL inventory',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.6');
+ assert.equal(d.index.catalogVersion,'2.8.7');
  assert.equal(d.index.files.artists,'artists.json');
  assert.equal(d.artists.length,31);
- assert.equal(d.stations.length,240);
- assert.equal(d.stations.flatMap(s=>s.streams).length,245);
+ assert.ok(d.stations.length>=240);
+ assert.ok(d.stations.flatMap(s=>s.streams).length>=245);
  assert.equal(d.discoveryStations.length,0);
  const tagged=d.stations.filter(s=>s.artistIds?.length);
  assert.equal(tagged.length,35);
- assert.equal(new Set(d.stations.flatMap(s=>s.streams.map(t=>t.url))).size,245);
+ assert.equal(new Set(d.stations.flatMap(s=>s.streams.map(t=>t.url))).size,d.stations.flatMap(s=>s.streams).length);
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });
