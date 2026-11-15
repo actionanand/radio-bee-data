@@ -31,3 +31,6 @@ The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Mur
 - **KEXP 90.3 FM**: KEXP's own official press page provides the primary logo; image URL `https://www.kexp.org/media/filer_public_thumbnails/filer_public/4f/52/4f52b5aa-bd93-4fe7-ab94-2d3258a3804c/kexp_primarylogo_black.png__300x356_q85_crop_subsampling-2_upscale.png`. Official source: https://www.kexp.org/about/press/
 - **WNYC 93.9 FM**: WNYC's wordmark from Wikimedia Commons (original WNYC source, protected as trademark); image URL `https://upload.wikimedia.org/wikipedia/commons/e/ec/WNYC_logo.png`. Evidence: https://commons.wikimedia.org/wiki/File:WNYC_logo.png
 - Unverified stations are tracked in `docs/ARTWORK-MISSING-V2.md`; no speculative images are assigned.
+
+- **WQXR 105.9 FM**: 2021 station logo, derived from WQXR's website and archived on Wikimedia Commons. https://commons.wikimedia.org/wiki/File:WQXR-FM_logo.svg
+- **RAAGA Malaysia**: Astro Radio RAAGA 2018 station logo, Wikimedia Commons identity attributed to Astro Radio. https://commons.wikimedia.org/wiki/File:Raaga_(2018).svg

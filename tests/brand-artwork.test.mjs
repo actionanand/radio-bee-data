@@ -5,9 +5,9 @@ import {readCatalogue,validateCatalogue,validPublicLogoUrl} from '../scripts/val
 
 const catalogue = () => readCatalogue(undefined,'v2');
 
-test('V2 replaces generic network radio pictures with 13 reviewed brand URLs',()=>{
+test('V2 replaces generic network radio pictures with 15 reviewed brand URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,13);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,15);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);

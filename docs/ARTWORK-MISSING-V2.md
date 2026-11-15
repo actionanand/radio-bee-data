@@ -1,8 +1,8 @@
 # V2 stations without verified artwork
 
-Generated against the current canonical V2 source catalogue. These stations use RadioBee's built-in fallback. They are **not** proven to lack a logo on the internet; an acceptable current, correctly attributed image has not yet been configured and audited. Do not substitute a generic radio illustration or an unrelated station's brand.
+Generated from the current canonical V2 source catalogue. These stations use RadioBee's built-in fallback. They are **not** proven to lack a logo on the internet; an acceptable current, correctly attributed image has not yet been configured and audited.
 
-**Station count:** 240; **with artwork after this batch:** 32; **still missing artwork:** 208.
+**Total:** 240; **with artwork after this batch:** 34; **still missing artwork:** 206.
 
 | Station ID | Station name | Network | Publisher / evidence website |
 | --- | --- | --- | --- |
@@ -67,7 +67,6 @@ Generated against the current canonical V2 source catalogue. These stations use 
 | `kumbakonam-city-fm` | Kumbakonam City FM | Kumbakonam City FM | [Website](https://www.radioindialive.com/kumbakonam-city-fm) |
 | `ada-ceylon-fm` | ADA Ceylon FM | ADA Ceylon FM | [Website](https://www.radioindialive.com/ada-ceylon-fm) |
 | `vellore-city-fm` | Vellore City FM | Vellore City FM | [Website](https://www.radioindialive.com/vellore-city-fm) |
-| `raaga-my` | RAAGA Malaysia | Astro Audio | [Website](https://raaga.my/) |
 | `divyavani-sanskrit-in` | Divyavani Sanskrit Radio | Divyavani Sanskrit Radio | [Website](https://github.com/junguler/m3u-radio-music-playlists/blob/main/live-radio-24/hindu.m3u) |
 | `sanskrit-bharati-radio-in` | Radio Sanskrit Bharati | Radio Sanskrit Bharati | [Website](https://github.com/junguler/m3u-radio-music-playlists/blob/main/my.world_tuner/sanskrit.m3u) |
 | `radio-paloma-de` | Radio Paloma | Radio Paloma | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
@@ -96,7 +95,6 @@ Generated against the current canonical V2 source catalogue. These stations use 
 | `jazz-radio-blues-fr` | Jazz Radio Blues France | Jazz Radio Blues France | [Website](https://github.com/2009skvgamerz/Fmradio/blob/main/fmradio.txt) |
 | `mahakatha-radio-in` | Mahakatha Radio | Mahakatha Radio | [Website](https://mahakatharadio.com/) |
 | `shaiva-lahari-in` | Shaiva Lahari | Shaiva Lahari | [Website](https://shaivam.org/) |
-| `wqxr-1059-us` | WQXR 105.9 FM | WQXR 105.9 FM | [Website](https://www.wqxr.org/) |
 | `exclusively-backstreet-boys-ae` | Exclusively Backstreet Boys | Exclusively Backstreet Boys | [Website](https://play.exclusive.radio/) |
 | `exclusively-taylor-swift-ae` | Exclusively Taylor Swift | Exclusively Taylor Swift | [Website](https://play.exclusive.radio/) |
 | `hello-telugu-in` | Hello Telugu | Hello Telugu | Not documented |
@@ -222,4 +220,4 @@ Generated against the current canonical V2 source catalogue. These stations use 
 - 100% Sad Songs (`stage29-100-sad-songs`)
 - Tamil Kadavul Murugan (`stage29-tamil-kadavul-murugan-fm`)
 
-Review this inventory when adding network logos. Images must correctly identify the station, use approved HTTPS raster URLs, and pass the actual remote-image audit. Missing artwork should fall back rather than misidentify a broadcaster.
+Images must correctly identify the station, use approved HTTPS raster URLs and pass the remote-image audit. Keep the fallback when an exact logo is unavailable.

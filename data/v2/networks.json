@@ -397,7 +397,8 @@
       "MY"
     ],
     "kind": "broadcaster",
-    "website": "https://raaga.my/"
+    "website": "https://raaga.my/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Raaga_%282018%29.svg/512px-Raaga_%282018%29.svg.png"
   },
   {
     "id": "thaalam-media",
@@ -1239,7 +1240,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.wqxr.org/"
+    "website": "https://www.wqxr.org/",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/WQXR-FM_logo.svg/512px-WQXR-FM_logo.svg.png"
   },
   {
     "id": "stage24-chennai-live",
