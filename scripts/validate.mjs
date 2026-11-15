@@ -19,6 +19,7 @@ const approvedLogoHosts = new Set([
   'cdn-profiles.tunein.com', 'www.americantamilradio.com',
   'static.tuneyou.com', 'exchange4media.gumlet.io',
   'djhonz7dexnot.cloudfront.net',
+  'www.kexp.org', 'upload.wikimedia.org',
 ]);
 export function validPublicLogoUrl(value) {
   if (typeof value !== 'string' || value !== value.trim()) return false;

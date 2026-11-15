@@ -25,3 +25,9 @@ Hello FM is temporarily left without artwork because its previous image hostname
 The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Murugan; 100% Love Radio; 100% New Songs; 100% Sad Songs) keep the standard RadioBee fallback. Remaining unsupported networks also keep fallback.
 
 **Risk and testing:** remote images can disappear, hotlink protection can block them, or the publisher may update its brand. The app only accepts curated HTTPS raster URLs from reviewed hosts; on network/image error it falls back. Confirm on a real device before merge. Do not interpret a public web image as a grant to redistribute it. If redistribution permission is obtained, migrate to locally hosted, optimized WebP files with attribution where required. New logos should receive direct publisher review.
+
+## Incremental expansion — 2026-11-15
+
+- **KEXP 90.3 FM**: KEXP's own official press page provides the primary logo; image URL `https://www.kexp.org/media/filer_public_thumbnails/filer_public/4f/52/4f52b5aa-bd93-4fe7-ab94-2d3258a3804c/kexp_primarylogo_black.png__300x356_q85_crop_subsampling-2_upscale.png`. Official source: https://www.kexp.org/about/press/
+- **WNYC 93.9 FM**: WNYC's wordmark from Wikimedia Commons (original WNYC source, protected as trademark); image URL `https://upload.wikimedia.org/wikipedia/commons/e/ec/WNYC_logo.png`. Evidence: https://commons.wikimedia.org/wiki/File:WNYC_logo.png
+- Unverified stations are tracked in `docs/ARTWORK-MISSING-V2.md`; no speculative images are assigned.
