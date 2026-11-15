@@ -20,6 +20,8 @@ const approvedLogoHosts = new Set([
   'static.tuneyou.com', 'exchange4media.gumlet.io',
   'djhonz7dexnot.cloudfront.net',
   'www.kexp.org', 'upload.wikimedia.org', 'raw.githubusercontent.com',
+  'cdn.brandfetch.io', 'higherlogicdownload.s3.amazonaws.com',
+  'rtm-images.glueapi.io', 'admango.cdn.mangomolo.com',
 ]);
 export function validPublicLogoUrl(value) {
   if (typeof value !== 'string' || value !== value.trim()) return false;

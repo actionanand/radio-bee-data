@@ -2,15 +2,13 @@
 
 Generated from the current canonical V2 source catalogue. These stations use RadioBee's built-in fallback. They are **not** proven to lack a logo on the internet; an acceptable current, correctly attributed image has not yet been configured and audited.
 
-**Total:** 240; **with artwork after this batch:** 34; **still missing artwork:** 206.
+**Total:** 240; **with artwork after this batch:** 39; **still missing artwork:** 201.
 
 | Station ID | Station name | Network | Publisher / evidence website |
 | --- | --- | --- | --- |
-| `vasantham-srilanka` | Vasantham FM Sri Lanka | Vasantham FM | [Website](https://www.vasanthamfm.lk/) |
 | `luminous-radio-tamil` | Luminous Radio Tamil | Luminous Radio | [Website](https://www.luminousradio.com/radiochannel/luminous-radio-tamil/) |
 | `iskcon-nagercoil` | ISKCON Nagercoil / Vaani Seva | ISKCON Nagercoil | [Website](https://www.iskconnagercoil.com/radio) |
 | `beats-radio-us` | Beats Radio Tamil | Beats Radio LLC | [Website](https://www.beats-radio.com/) |
-| `minnal-my` | MINNALfm | Radio Televisyen Malaysia | [Website](https://radio.rtm.gov.my/station/minnalfm) |
 | `thaalam-ch` | Thaalam Radio Switzerland | Thaalam Media | [Website](https://thaalam.ch/) |
 | `akkini-ch` | Akkini FM | Akkini FM | [Website](https://akkini.fm/) |
 | `etr-de` | European Tamil Radio | European Tamils Union e.V. | [Website](https://etr.fm/) |
@@ -25,7 +23,6 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `hello-chennai` | Hello FM Chennai | Hello FM | Not documented |
 | `east-fm-ca` | EAST FM 102.7 | EAST FM | [Website](https://eastfm.ca/main/) |
 | `swiss-tamil-radio-ch` | Swiss Tamil Radio | Swiss Tamil Radio | [Website](https://swisstamilradio.com/) |
-| `lotus-fm-za` | Lotus FM | South African Broadcasting Corporation | [Website](https://www.lotusfm.co.za/lotusfm/) |
 | `vaagai-tamil-de` | Vaagai Tamil FM | Vaagai Tamil FM | [Website](https://vtfm.net/) |
 | `a9-radio-ca` | A9 Radio | A9 Media | [Website](https://a9radio.com/) |
 | `amudham-fm-in` | Amudham FM | Amudham FM | [Website](https://www.amudhamfm.com/) |
@@ -42,8 +39,6 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 | `tamil-christian-radio-in` | Tamil Christian Radio | Voice of Gospel | [Website](https://tamilchristianradio.org/) |
 | `good-news-tamil-ca` | Good News FM Tamil | Christvision Media Corporation | [Website](https://goodnewsfm.org/tamil-radio) |
 | `3zzz-au` | 3ZZZ 92.3FM | 3ZZZ | [Website](https://www.3zzz.com.au/) |
-| `4eb-fm-au` | Radio 4EB 98.1 FM | Radio 4EB | [Website](https://www.4eb.org.au/) |
-| `4eb-global-au` | Radio 4EB Global | Radio 4EB | [Website](https://www.4eb.org.au/) |
 | `5ebi-au` | 5EBI 103.1 FM | Ethnic Broadcasters Inc. | [Website](https://www.5ebi.com.au/) |
 | `namathu-fm-fr` | Namathu FM France | Namathu FM | [Website](https://namathufm.fr/) |
 | `otran-vaanoli-ie` | Otran Vaanoli | Otran Vaanoli | [Website](https://otranvaanoli.com/) |
@@ -220,4 +215,4 @@ Generated from the current canonical V2 source catalogue. These stations use Rad
 - 100% Sad Songs (`stage29-100-sad-songs`)
 - Tamil Kadavul Murugan (`stage29-tamil-kadavul-murugan-fm`)
 
-Images must correctly identify the station, use approved HTTPS raster URLs and pass the remote-image audit. Keep the fallback when an exact logo is unavailable.
+Images must correctly identify the station, use approved HTTPS raster URLs and pass the remote-image audit. Keep fallback when an exact logo is unavailable.

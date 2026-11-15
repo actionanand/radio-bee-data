@@ -34,3 +34,8 @@ The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Mur
 
 - **WQXR 105.9 FM**: station logo displayed on its TuneIn radio profile. https://tunein.com/radio/WQXR-FM-1059-s27729/
 - **RAAGA Malaysia**: Astro Radio RAAGA Astro Radio's RAAGA logo mirrored by the FreemediaMY radio directory. https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY
+
+- **Vasantham FM Sri Lanka**: distinct Vasantham FM logo from its indexed brand assets and station website; brand reference https://brandfetch.com/vasanthamfm.lk (logo URL `https://cdn.brandfetch.io/id7dYvpMT-/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1767766219614`).
+- **Radio 4EB** (98.1 FM and Global Digital): shared 4EB mark from Community Broadcasting Association of Australia, https://www.cbaa.org.au/community-broadcasting/community-radio-dab-directory .
+- **MINNALfm**: official RTM Klik radio station artwork, https://rtmklik.rtm.gov.my/radio/nasional/32964 .
+- **Lotus FM**: official broadcaster SABC+ station logo image, https://sabc-plus.com/radio/show/238067/Lotus-FM-Stories--GBV-Stories .

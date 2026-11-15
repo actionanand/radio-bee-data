@@ -163,7 +163,8 @@
     "broadcasterSourceIds": [
       "stage15-itn-organisation"
     ],
-    "broadcasterRelationship": "public-broadcaster"
+    "broadcasterRelationship": "public-broadcaster",
+    "logoUrl": "https://cdn.brandfetch.io/id7dYvpMT-/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1767766219614"
   },
   {
     "id": "slbc",
@@ -387,7 +388,8 @@
       "MY"
     ],
     "kind": "public",
-    "website": "https://radio.rtm.gov.my/station/minnalfm"
+    "website": "https://radio.rtm.gov.my/station/minnalfm",
+    "logoUrl": "https://rtm-images.glueapi.io/720x0/radio-asset/MINNAL_FM.png"
   },
   {
     "id": "astro-audio",
@@ -473,7 +475,8 @@
     "broadcasterSourceIds": [
       "stage15-lotus-profile"
     ],
-    "broadcasterRelationship": "public-broadcaster"
+    "broadcasterRelationship": "public-broadcaster",
+    "logoUrl": "https://admango.cdn.mangomolo.com/analytics/uploads/194/688348f504.png"
   },
   {
     "id": "shaivam",
@@ -708,7 +711,8 @@
     "broadcasterSourceIds": [
       "stage15-4eb-tamil"
     ],
-    "broadcasterRelationship": "publisher-operator"
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://higherlogicdownload.s3.amazonaws.com/CBAA/f91521e2-cb7a-4f99-8ca0-552342c290f7/UploadedImages/Photos/DAB_Logos/4EB_Logo_G.png"
   },
   {
     "id": "5ebi",
