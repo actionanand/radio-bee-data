@@ -7,7 +7,7 @@ const catalogue = () => readCatalogue(undefined,'v2');
 
 test('V2 supports original branded and publisher favicon network URLs',()=>{
   const data=catalogue();
-  assert.ok(data.networks.filter(network=>network.logoUrl).length >= 60);
+  assert.equal(data.networks.filter(network=>network.logoUrl).length,55);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
@@ -30,7 +30,7 @@ test('Akashvani and Suryan share their respective network brand artwork, and Sri
 
 test('Unverified or unreachable imagery is left unspecified, allowing RadioBee fallback',()=>{
   const data=catalogue();
-  for(const id of ['stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs']) {
+  for(const id of ['stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','hello-fm','star-fm-lk','annai-fm','tarana']) {
     const network=data.networks.find(n=>n.id===id);
     assert.ok(network,id);
     assert.equal(network.logoUrl,undefined,id);
