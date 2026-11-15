@@ -14,6 +14,22 @@ const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const codePattern = /^[a-z]{2,3}$/;
 const isText = value => typeof value === 'string' && value.trim().length > 0;
 const isNullableText = value => value === null || isText(value);
+const approvedLogoHosts = new Set([
+  'i1.sndcdn.com', 'static-media.streema.com', 'onecms-res.cloudinary.com',
+  'cdn-profiles.tunein.com', 'www.americantamilradio.com',
+  'images.radiovolna.net', 'static.tuneyou.com', 'exchange4media.gumlet.io',
+  'djhonz7dexnot.cloudfront.net',
+]);
+export function validPublicLogoUrl(value) {
+  if (typeof value !== 'string' || value !== value.trim()) return false;
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && approvedLogoHosts.has(url.hostname) &&
+      !url.username && !url.password && !url.hash &&
+      /\\.(png|jpe?g|webp)$/i.test(url.pathname);
+  } catch { return false; }
+}
+
 export function readCatalogue(root = projectRoot, version = 'v1') {
   if (!['v1','v2'].includes(version)) throw Error('Unsupported API directory');
   const base = path.join(root,'data',version);
@@ -59,6 +75,7 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
   const isV2=index?.schemaVersion===2;
   if(version!==undefined && (!['v1','v2'].includes(version)||index?.schemaVersion!==Number(version.slice(1))))errors.push('API directory/schemaVersion mismatch');
   for(const [kind,items] of [['Network',networks],['Station',stations]])for(const item of items || []) {
+    if(item && Object.hasOwn(item,'logoUrl') && (!isV2 || !validPublicLogoUrl(item.logoUrl))) errors.push(`${kind} ${item.id}: invalid logoUrl`);
     if(item && Object.hasOwn(item,'logoPath')) {
       try {inspectLogo(root,item.logoPath,isV2?'v2':'v1');}catch(error){errors.push(`${kind} ${item.id}: logoPath: ${error.message}`);}
     }

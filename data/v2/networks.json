@@ -11,12 +11,12 @@
     ],
     "kind": "public",
     "website": "https://prasarbharati.gov.in/en/akashvani-network/",
-    "logoPath": "assets/logos/networks/akashvani-radio.png",
     "broadcasterId": "prasar-bharati",
     "broadcasterSourceIds": [
       "stage15-prasar-organisation"
     ],
-    "broadcasterRelationship": "public-broadcaster"
+    "broadcasterRelationship": "public-broadcaster",
+    "logoUrl": "https://i1.sndcdn.com/artworks-000070154341-a8vv1u-t1080x1080.jpg"
   },
   {
     "id": "suryan-in",
@@ -29,12 +29,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.suryanfm.in/",
-    "logoPath": "assets/logos/networks/suryan-in-radio.png",
     "broadcasterId": "sun-tv-network",
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://i1.sndcdn.com/avatars-000025578244-qwg44s-t1080x1080.jpg"
   },
   {
     "id": "hello-fm",
@@ -45,12 +45,12 @@
     ],
     "kind": "broadcaster",
     "website": null,
-    "logoPath": "assets/logos/networks/hello-fm-radio.png",
     "broadcasterId": "malar-publications",
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://images.radiovolna.net/_files/images/stations/421619/2f0fbbda65ea71c33e4ebb352a7123d2.jpg"
   },
   {
     "id": "mirchi",
@@ -63,12 +63,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://mirchi.in/stories",
-    "logoPath": "assets/logos/networks/mirchi-radio.png",
     "broadcasterId": "enil",
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "radio-city",
@@ -79,12 +79,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.radiocity.in/",
-    "logoPath": "assets/logos/networks/radio-city-radio.png",
     "broadcasterId": "music-broadcast-ltd",
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://exchange4media.gumlet.io/news-photo/145723-radiocity.jpg"
   },
   {
     "id": "red-fm",
@@ -95,7 +95,7 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.redfmindia.in/",
-    "logoPath": "assets/logos/networks/red-fm-radio.png"
+    "logoUrl": "https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg"
   },
   {
     "id": "big-fm",
@@ -106,7 +106,6 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.bigfmindia.com/",
-    "logoPath": "assets/logos/networks/big-fm-radio.png",
     "broadcasterId": "reliance-broadcast-network",
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
@@ -131,7 +130,8 @@
       "LK"
     ],
     "kind": "broadcaster",
-    "website": "https://shakthifm.com/"
+    "website": "https://shakthifm.com/",
+    "logoUrl": "https://static-media.streema.com/media/cache/6f/e8/6fe824a5bafdb456311cd0d6e395be16.jpg"
   },
   {
     "id": "sooriyan-lk",
@@ -144,12 +144,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.sooriyanfm.lk/",
-    "logoPath": "assets/logos/networks/sooriyan-lk-radio.png",
     "broadcasterId": "asia-broadcasting-corporation",
     "broadcasterSourceIds": [
       "stage15-sooriyan-organisation"
     ],
-    "broadcasterRelationship": "publisher-operator"
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://i1.sndcdn.com/artworks-000316796985-286oxn-t1080x1080.jpg"
   },
   {
     "id": "vasantham-lk",
@@ -274,7 +274,8 @@
       "GB"
     ],
     "kind": "online",
-    "website": "https://radio.ibctamil.com/"
+    "website": "https://radio.ibctamil.com/",
+    "logoUrl": "https://cdn-profiles.tunein.com/s55338/images/logog.png?t=159604"
   },
   {
     "id": "athavan",
@@ -344,7 +345,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.americantamilradio.com/"
+    "website": "https://www.americantamilradio.com/",
+    "logoUrl": "https://www.americantamilradio.com/assets/img/radiologo.png"
   },
   {
     "id": "atbc",
@@ -364,7 +366,8 @@
       "SG"
     ],
     "kind": "broadcaster",
-    "website": "https://www.melisten.sg/radio/oli-968"
+    "website": "https://www.melisten.sg/radio/oli-968",
+    "logoUrl": "https://onecms-res.cloudinary.com/image/upload/v1678108773/mediacorp/mel/image/2023-03/oli-968_0.png"
   },
   {
     "id": "tamil-894",
@@ -374,7 +377,8 @@
       "AE"
     ],
     "kind": "broadcaster",
-    "website": "https://tamil894fm.com/"
+    "website": "https://tamil894fm.com/",
+    "logoUrl": "https://static-media.streema.com/media/cache/7b/64/7b64f6555f853d1aecda2c0c2236fd67.jpg"
   },
   {
     "id": "rtm",
@@ -479,8 +483,7 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://shaivam.org/",
-    "logoPath": "assets/logos/networks/shaivam-radio.png"
+    "website": "https://shaivam.org/"
   },
   {
     "id": "star-fm-lk",
@@ -490,8 +493,7 @@
       "LK"
     ],
     "kind": "online",
-    "website": "https://www.starfm.lk/",
-    "logoPath": "assets/logos/networks/star-fm-lk-radio.png"
+    "website": "https://www.starfm.lk/"
   },
   {
     "id": "boom-tamil",
@@ -501,8 +503,7 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://www.boomtamil.com/",
-    "logoPath": "assets/logos/networks/boom-tamil-radio.png"
+    "website": "https://www.boomtamil.com/"
   },
   {
     "id": "tamil-panpalai",
