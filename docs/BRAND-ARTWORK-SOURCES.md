@@ -39,3 +39,70 @@ The four Featured Radios without verifiable publisher artwork (Tamil Kadavul Mur
 - **Radio 4EB** (98.1 FM and Global Digital): shared 4EB mark from Community Broadcasting Association of Australia, https://www.cbaa.org.au/community-broadcasting/community-radio-dab-directory .
 - **MINNALfm**: official RTM Klik radio station artwork, https://rtmklik.rtm.gov.my/radio/nasional/32964 .
 - **Lotus FM**: official broadcaster SABC+ station logo image, https://sabc-plus.com/radio/show/238067/Lotus-FM-Stories--GBV-Stories .
+
+## Public HTTPS provider icons and station-specific themed artwork (2026-11-15)
+
+RadioBee now supports externally hosted HTTPS images, including images published within radio-bee-data, known radio station directory images, query-based image services, and appropriately identified Wikimedia Commons imagery. No third-party binary images are included in the app or catalogue. External content may be blocked, unavailable, or inaccurate; RadioBee has a runtime fallback.
+
+The new network images below use Google's publicly hosted favicon lookup for the matching publisher domain. These are **publisher-domain icon candidates**, not individually verified full-size logos; a default website favicon may differ from a station's logo. These are not guaranteed to be high resolution. Replace them with station-specific image URLs when better images are located.
+
+| Network ID | Publisher-domain favicon source |
+| --- | --- |
+| `hello-fm` | `hellofm.in` |
+| `big-fm` | `bigfmindia.com` |
+| `slbc` | `slbc.lk` |
+| `asr-digital` | `radio.asrdmm.com` |
+| `annai-fm` | `zeno.fm` |
+| `kumari-tamil` | `radio.kumaritamil.com` |
+| `luminous-radio` | `luminousradio.com` |
+| `capital-lk` | `capitalfm.lk` |
+| `club-fm` | `clubfm.in` |
+| `iskcon-nagercoil` | `iskconnagercoil.com` |
+| `athavan` | `athavanradio.com` |
+| `cmr` | `cmr24.net` |
+| `east-fm` | `eastfm.ca` |
+| `ctbc` | `ctbc.com` |
+| `canadian-tamil-radio` | `ctr24.com` |
+| `beats-radio` | `beats-radio.com` |
+| `atbc` | `atbc.net.au` |
+| `thaalam-media` | `thaalam.ch` |
+| `akkini` | `akkini.fm` |
+| `swiss-tamil-radio` | `swisstamilradio.com` |
+| `european-tamils-union` | `etr.fm` |
+| `tamil-murasam` | `tamilmurasam.com` |
+| `tarana` | `rova.nz` |
+| `shaivam` | `shaivam.org` |
+| `star-fm-lk` | `starfm.lk` |
+| `boom-tamil` | `boomtamil.com` |
+| `tamil-panpalai` | `tamilpanpalai.com` |
+| `aural-radio` | `auralradiokerala.in` |
+| `vaagai-tamil` | `vtfm.net` |
+| `a9-media` | `a9radio.com` |
+| `amudham` | `amudhamfm.com` |
+| `mauritius-global-diaspora` | `mauradio.com` |
+| `theophony` | `theophony.org` |
+| `jeifm` | `jeifm.com` |
+| `amen-fm` | `amenfm.com` |
+| `live-fm` | `livefm.bh` |
+| `sweety-fm` | `sweetyfm.com` |
+| `christian-media-india` | `vaanmalarfm.in` |
+| `olive-suno` | `suno.qa` |
+| `voice-of-gospel` | `tamilchristianradio.org` |
+| `christvision-media` | `goodnewsfm.org` |
+| `3zzz` | `3zzz.com.au` |
+| `5ebi` | `5ebi.com.au` |
+| `namathu-fm` | `namathufm.fr` |
+| `otran-vaanoli` | `otranvaanoli.com` |
+| `tamil-christian-media` | `thuthi.fm` |
+| `radio-plus` | `radioplus.mu` |
+| `time-fm` | `timefm.ca` |
+| `inbathamil-oli` | `inbathamil.com` |
+
+Station-specific photos:
+- `80s80s-michael-jackson-de`: Michael Jackson Wikimedia Commons file; artist photo — https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg
+- `exclusively-michael-jackson-ae`: Michael Jackson Wikimedia Commons file; artist photo — https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_in_1988.jpg
+- `stage29-ilayaraja-voice-fm`: Ilaiyaraaja Wikimedia Commons artist portrait — https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_(cropped).jpg
+- `stage29-maestro-hits`: Ilaiyaraaja portrait for Maestro themed radio — https://commons.wikimedia.org/wiki/Special:FilePath/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet_(cropped).jpg
+- `stage29-tamil-kadavul-murugan-fm`: Lord Murugan Batu Caves Wikimedia Commons artwork; thematic photo — https://commons.wikimedia.org/wiki/Special:FilePath/20190821_Lord_Murugan_statue-1.jpg
+
+**Outstanding:** The MGR & Sivaji joint photograph has not been added; a verified image depicting both people together must be identified before use. Other artist and devotional stations without a suitable source retain the app fallback. Image licensing and reuse terms depend on individual image sources.
