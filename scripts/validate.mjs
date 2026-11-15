@@ -26,7 +26,7 @@ export function validPublicLogoUrl(value) {
     const url = new URL(value);
     return url.protocol === 'https:' && approvedLogoHosts.has(url.hostname) &&
       !url.username && !url.password && !url.hash &&
-      /\\.(png|jpe?g|webp)$/i.test(url.pathname);
+      /\.(png|jpe?g|webp)$/i.test(url.pathname);
   } catch { return false; }
 }
 
