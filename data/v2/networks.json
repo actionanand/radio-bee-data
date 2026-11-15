@@ -49,7 +49,8 @@
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=hellofm.in&sz=256"
   },
   {
     "id": "mirchi",
@@ -109,7 +110,8 @@
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=bigfmindia.com&sz=256"
   },
   {
     "id": "fever-fm",
@@ -174,7 +176,8 @@
       "LK"
     ],
     "kind": "public",
-    "website": "https://slbc.lk/"
+    "website": "https://slbc.lk/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=slbc.lk&sz=256"
   },
   {
     "id": "asr-digital",
@@ -184,7 +187,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://radio.asrdmm.com/"
+    "website": "https://radio.asrdmm.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=radio.asrdmm.com&sz=256"
   },
   {
     "id": "annai-fm",
@@ -194,7 +198,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://zeno.fm/radio/annai-fm/"
+    "website": "https://zeno.fm/radio/annai-fm/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=zeno.fm&sz=256"
   },
   {
     "id": "kumari-tamil",
@@ -204,7 +209,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://radio.kumaritamil.com/"
+    "website": "https://radio.kumaritamil.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=radio.kumaritamil.com&sz=256"
   },
   {
     "id": "luminous-radio",
@@ -214,7 +220,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://www.luminousradio.com/"
+    "website": "https://www.luminousradio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=luminousradio.com&sz=256"
   },
   {
     "id": "capital-lk",
@@ -224,7 +231,8 @@
       "LK"
     ],
     "kind": "broadcaster",
-    "website": "https://capitalfm.lk/"
+    "website": "https://capitalfm.lk/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=capitalfm.lk&sz=256"
   },
   {
     "id": "club-fm",
@@ -234,7 +242,8 @@
       "IN"
     ],
     "kind": "broadcaster",
-    "website": "https://www.clubfm.in/"
+    "website": "https://www.clubfm.in/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=clubfm.in&sz=256"
   },
   {
     "id": "tamilosai-fm",
@@ -264,7 +273,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://www.iskconnagercoil.com/"
+    "website": "https://www.iskconnagercoil.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=iskconnagercoil.com&sz=256"
   },
   {
     "id": "ibc-tamil",
@@ -285,7 +295,8 @@
       "GB"
     ],
     "kind": "online",
-    "website": "https://athavanradio.com/uk/"
+    "website": "https://athavanradio.com/uk/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=athavanradio.com&sz=256"
   },
   {
     "id": "cmr",
@@ -295,7 +306,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://cmr24.net/about-us/"
+    "website": "https://cmr24.net/about-us/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=cmr24.net&sz=256"
   },
   {
     "id": "east-fm",
@@ -305,7 +317,8 @@
       "CA"
     ],
     "kind": "broadcaster",
-    "website": "https://eastfm.ca/main/"
+    "website": "https://eastfm.ca/main/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=eastfm.ca&sz=256"
   },
   {
     "id": "ctbc",
@@ -315,7 +328,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://www.ctbc.com/"
+    "website": "https://www.ctbc.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ctbc.com&sz=256"
   },
   {
     "id": "canadian-tamil-radio",
@@ -325,7 +339,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://ctr24.com/"
+    "website": "https://ctr24.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ctr24.com&sz=256"
   },
   {
     "id": "beats-radio",
@@ -335,7 +350,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://www.beats-radio.com/"
+    "website": "https://www.beats-radio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=beats-radio.com&sz=256"
   },
   {
     "id": "american-tamil-media",
@@ -356,7 +372,8 @@
       "AU"
     ],
     "kind": "online",
-    "website": "https://www.atbc.net.au/"
+    "website": "https://www.atbc.net.au/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=atbc.net.au&sz=256"
   },
   {
     "id": "mediacorp",
@@ -410,7 +427,8 @@
       "CH"
     ],
     "kind": "online",
-    "website": "https://thaalam.ch/"
+    "website": "https://thaalam.ch/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=thaalam.ch&sz=256"
   },
   {
     "id": "akkini",
@@ -420,7 +438,8 @@
       "CH"
     ],
     "kind": "online",
-    "website": "https://akkini.fm/"
+    "website": "https://akkini.fm/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=akkini.fm&sz=256"
   },
   {
     "id": "swiss-tamil-radio",
@@ -430,7 +449,8 @@
       "CH"
     ],
     "kind": "online",
-    "website": "https://swisstamilradio.com/"
+    "website": "https://swisstamilradio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=swisstamilradio.com&sz=256"
   },
   {
     "id": "european-tamils-union",
@@ -440,7 +460,8 @@
       "DE"
     ],
     "kind": "online",
-    "website": "https://etr.fm/"
+    "website": "https://etr.fm/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=etr.fm&sz=256"
   },
   {
     "id": "tamil-murasam",
@@ -450,7 +471,8 @@
       "NO"
     ],
     "kind": "online",
-    "website": "https://tamilmurasam.com/"
+    "website": "https://tamilmurasam.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tamilmurasam.com&sz=256"
   },
   {
     "id": "tarana",
@@ -460,7 +482,8 @@
       "NZ"
     ],
     "kind": "online",
-    "website": "https://www.rova.nz/radio/tarana-tamil"
+    "website": "https://www.rova.nz/radio/tarana-tamil",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rova.nz&sz=256"
   },
   {
     "id": "sabc",
@@ -486,7 +509,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://shaivam.org/"
+    "website": "https://shaivam.org/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=shaivam.org&sz=256"
   },
   {
     "id": "star-fm-lk",
@@ -496,7 +520,8 @@
       "LK"
     ],
     "kind": "online",
-    "website": "https://www.starfm.lk/"
+    "website": "https://www.starfm.lk/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=starfm.lk&sz=256"
   },
   {
     "id": "boom-tamil",
@@ -506,7 +531,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://www.boomtamil.com/"
+    "website": "https://www.boomtamil.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=boomtamil.com&sz=256"
   },
   {
     "id": "tamil-panpalai",
@@ -516,7 +542,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://tamilpanpalai.com/"
+    "website": "https://tamilpanpalai.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tamilpanpalai.com&sz=256"
   },
   {
     "id": "aural-radio",
@@ -526,7 +553,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://www.auralradiokerala.in/"
+    "website": "https://www.auralradiokerala.in/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=auralradiokerala.in&sz=256"
   },
   {
     "id": "ar-radio",
@@ -546,7 +574,8 @@
       "DE"
     ],
     "kind": "online",
-    "website": "https://vtfm.net/"
+    "website": "https://vtfm.net/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vtfm.net&sz=256"
   },
   {
     "id": "a9-media",
@@ -556,7 +585,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://a9radio.com/"
+    "website": "https://a9radio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=a9radio.com&sz=256"
   },
   {
     "id": "amudham",
@@ -566,7 +596,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://www.amudhamfm.com/"
+    "website": "https://www.amudhamfm.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=amudhamfm.com&sz=256"
   },
   {
     "id": "mauritius-global-diaspora",
@@ -576,7 +607,8 @@
       "MU"
     ],
     "kind": "online",
-    "website": "https://mauradio.com/"
+    "website": "https://mauradio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mauradio.com&sz=256"
   },
   {
     "id": "theophony",
@@ -586,7 +618,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://theophony.org/tamil-christian-radio/"
+    "website": "https://theophony.org/tamil-christian-radio/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=theophony.org&sz=256"
   },
   {
     "id": "jeifm",
@@ -596,7 +629,8 @@
       "MY"
     ],
     "kind": "online",
-    "website": "https://jeifm.com/"
+    "website": "https://jeifm.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=jeifm.com&sz=256"
   },
   {
     "id": "amen-fm",
@@ -606,7 +640,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://www.amenfm.com/"
+    "website": "https://www.amenfm.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=amenfm.com&sz=256"
   },
   {
     "id": "live-fm",
@@ -616,7 +651,8 @@
       "BH"
     ],
     "kind": "broadcaster",
-    "website": "https://www.livefm.bh/"
+    "website": "https://www.livefm.bh/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=livefm.bh&sz=256"
   },
   {
     "id": "edc-kuwait",
@@ -636,7 +672,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://sweetyfm.com/"
+    "website": "https://sweetyfm.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=sweetyfm.com&sz=256"
   },
   {
     "id": "hand-of-jesus",
@@ -656,7 +693,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://vaanmalarfm.in/"
+    "website": "https://vaanmalarfm.in/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vaanmalarfm.in&sz=256"
   },
   {
     "id": "olive-suno",
@@ -666,7 +704,8 @@
       "QA"
     ],
     "kind": "online",
-    "website": "https://tamil.suno.qa/"
+    "website": "https://tamil.suno.qa/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=suno.qa&sz=256"
   },
   {
     "id": "voice-of-gospel",
@@ -676,7 +715,8 @@
       "IN"
     ],
     "kind": "online",
-    "website": "https://tamilchristianradio.org/"
+    "website": "https://tamilchristianradio.org/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tamilchristianradio.org&sz=256"
   },
   {
     "id": "christvision-media",
@@ -686,7 +726,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://goodnewsfm.org/tamil-radio"
+    "website": "https://goodnewsfm.org/tamil-radio",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=goodnewsfm.org&sz=256"
   },
   {
     "id": "3zzz",
@@ -696,7 +737,8 @@
       "AU"
     ],
     "kind": "broadcaster",
-    "website": "https://www.3zzz.com.au/"
+    "website": "https://www.3zzz.com.au/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=3zzz.com.au&sz=256"
   },
   {
     "id": "4eb",
@@ -722,7 +764,8 @@
       "AU"
     ],
     "kind": "broadcaster",
-    "website": "https://www.5ebi.com.au/"
+    "website": "https://www.5ebi.com.au/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=5ebi.com.au&sz=256"
   },
   {
     "id": "namathu-fm",
@@ -732,7 +775,8 @@
       "FR"
     ],
     "kind": "online",
-    "website": "https://namathufm.fr/"
+    "website": "https://namathufm.fr/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=namathufm.fr&sz=256"
   },
   {
     "id": "otran-vaanoli",
@@ -742,7 +786,8 @@
       "IE"
     ],
     "kind": "online",
-    "website": "https://otranvaanoli.com/"
+    "website": "https://otranvaanoli.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=otranvaanoli.com&sz=256"
   },
   {
     "id": "tamil-christian-media",
@@ -752,7 +797,8 @@
       "NO"
     ],
     "kind": "online",
-    "website": "https://www.thuthi.fm/"
+    "website": "https://www.thuthi.fm/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=thuthi.fm&sz=256"
   },
   {
     "id": "radio-plus",
@@ -762,7 +808,8 @@
       "MU"
     ],
     "kind": "online",
-    "website": "https://live.radioplus.mu/webradio/indiz.html"
+    "website": "https://live.radioplus.mu/webradio/indiz.html",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=radioplus.mu&sz=256"
   },
   {
     "id": "time-fm",
@@ -772,7 +819,8 @@
       "CA"
     ],
     "kind": "online",
-    "website": "https://timefm.ca/"
+    "website": "https://timefm.ca/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=timefm.ca&sz=256"
   },
   {
     "id": "inbathamil-oli",
@@ -782,7 +830,8 @@
       "AU"
     ],
     "kind": "online",
-    "website": "https://www.inbathamil.com/"
+    "website": "https://www.inbathamil.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=inbathamil.com&sz=256"
   },
   {
     "id": "stage21-pollachi-fm",
