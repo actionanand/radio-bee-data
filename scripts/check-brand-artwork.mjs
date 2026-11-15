@@ -41,5 +41,11 @@ for(const n of withArtwork) {
   console.log(`${ok?'OK':'FAIL'} ${n.category}/${n.id} ${JSON.stringify(result)} ${n.logoUrl}`);
 }
 console.log(`Image audit: ${results.filter(r=>r.ok).length}/${results.length} accessible from GitHub Actions`);
-if(results.some(r=>!r.ok))process.exitCode=1;
+// Station-specific remote photos may be blocked by hotlink protections or
+// Wikimedia rate limits. Each has an independently validated data-hosted SVG
+// fallback. Publisher network images remain a strict release gate.
+const brokenNetworks=results.filter(r=>!r.ok&&r.type==='network');
+const brokenStations=results.filter(r=>!r.ok&&r.type==='station');
+console.log('Station photo audit warnings:',brokenStations.length,'(data-hosted fallback available)');
+if(brokenNetworks.length)process.exitCode=1;
 
