@@ -44,9 +44,11 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
   // New v2-only, reviewed editorial artwork is additive and does not modify the
   // frozen Stage 15 asset baseline.
   const inventory=fileInventory(path.join(root,'data/v2'));
-  assert.deepEqual(inventory.filter(file=>!file.startsWith('assets/artwork/stations/')),
+  assert.deepEqual(inventory.filter(file=>!file.startsWith('assets/artwork/')),
     [...Object.keys(saved.files),'artists.json','home-stations.json'].sort());
   assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/stations/')).length,169);
+  assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/artists/')).length,31);
+  assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/genres/')).length,12);
   const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
@@ -185,8 +187,10 @@ test('unreferenced v2 localization and artwork files never expand the exact prod
   for(const file of extra){const target=path.join(temporary,'data/v2',file);mkdirSync(path.dirname(target),{recursive:true});writeFileSync(target,file.endsWith('.png')?knownLogo:'unreviewed fixture content');}
   const dest=buildStatic(temporary,{requireV2:true,preserveV1:true});
   for(const file of extra)assert.ok(!existsSync(path.join(dest,'v2',file)),file);
-  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
-  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,169);
+  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/')),expectedPublished);
+  const records=readCatalogue(root,'v2');
+  const referenced=[...new Set([...records.stations,...records.networks].map(record=>record.logoPath).filter(path=>path?.startsWith('assets/artwork/')))].sort();
+  assert.deepEqual(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/')).map(file=>file.slice(3)).sort(),referenced);
   assert.deepEqual(fileInventory(path.join(dest,'v2/i18n')),['en.json','sa.json','ta.json']);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
 });
@@ -198,8 +202,10 @@ test('legacy fixture publication also excludes unreferenced localization and art
   // non-frozen legacy test build must not copy them into the publication.
   const dest=buildStatic(temporary);
   assert.ok(JSON.parse(readFileSync(path.join(dest,'v1/stations.json'))).every(row=>row.notes===null));
-  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/stations/')),expectedPublished);
-  assert.equal(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/stations/')).length,169);
+  assert.deepEqual(fileInventory(dest).filter(file=>!file.startsWith('v2/assets/artwork/')),expectedPublished);
+  const records=readCatalogue(root,'v2');
+  const referenced=[...new Set([...records.stations,...records.networks].map(record=>record.logoPath).filter(path=>path?.startsWith('assets/artwork/')))].sort();
+  assert.deepEqual(fileInventory(dest).filter(file=>file.startsWith('v2/assets/artwork/')).map(file=>file.slice(3)).sort(),referenced);
 });
 
 test('a referenced v2 station image resolves under v2 with identical bytes',t=>{
