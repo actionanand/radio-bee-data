@@ -5,10 +5,10 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 
 test('Stage 42: imported stations have URLs; 89 previously unknown codecs now carry audio type evidence',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.11');
+ assert.equal(d.index.catalogVersion,'2.8.13');
  assert.equal(d.stations.length,398);
  assert.equal(d.networks.length,372);
- assert.equal(d.broadcasters.length,11);
+ assert.equal(d.broadcasters.length,12);
  assert.equal(d.stations.flatMap(s=>s.streams).length,403);
  const streams=d.stations.flatMap(s=>s.streams);
  assert.ok(streams.every(s=>typeof s.url==='string'&&s.url.startsWith('https://')));
@@ -28,9 +28,9 @@ test('Stage 42: Mirchi and RED are separate, linked to documented broadcaster an
  assert.equal(mirchi.networkId,'mirchi');
  assert.equal(red.networkId,'stage42-red-fm-delhi');
  assert.equal(d.networks.find(n=>n.id===mirchi.networkId)?.broadcasterId,'enil');
- assert.equal(d.networks.find(n=>n.id===red.networkId)?.broadcasterId,'south-asia-fm-ltd');
+ assert.equal(d.networks.find(n=>n.id===red.networkId)?.broadcasterId,'sun-group');
  assert.ok(d.broadcasters.some(b=>b.id==='south-asia-fm-ltd'));
- assert.equal(d.networks.find(n=>n.id==='red-fm')?.broadcasterId,undefined);
+ assert.equal(d.networks.find(n=>n.id==='red-fm')?.broadcasterId,'sun-group');
  for(const s of [mirchi,red]){
   assert.equal(s.streams[0].verificationStatus,'unverified');
   assert.equal(s.streams[0].rightsStatus,'unconfirmed');
@@ -39,11 +39,15 @@ test('Stage 42: Mirchi and RED are separate, linked to documented broadcaster an
   assert.ok(d.browseIndex.facets.networks.find(f=>f.id===s.networkId).stationIds.includes(s.id));
  }
  assert.ok(d.browseIndex.facets.broadcasters.find(f=>f.id==='enil').stationIds.includes(mirchi.id));
- assert.ok(d.browseIndex.facets.broadcasters.find(f=>f.id==='south-asia-fm-ltd').stationIds.includes(red.id));
+ assert.ok(d.browseIndex.facets.broadcasters.find(f=>f.id==='sun-group').stationIds.includes(red.id));
  const oldMirchi=d.stations.find(s=>s.id==='mirchi-chennai');
  const oldSuryan=d.stations.find(s=>s.id==='suryan-chennai');
  const oldBig=d.stations.find(s=>s.id==='big-chennai');
  assert.ok(oldMirchi&&oldSuryan&&oldBig);
+ assert.equal(d.networks.find(n=>n.id==='suryan-in').broadcasterId,'sun-group');
+ assert.ok(d.browseIndex.facets.broadcasters.find(f=>f.id==='sun-group').stationIds.includes(oldSuryan.id));
+ assert.ok(d.sources.some(s=>s.id==='stage42-mib-red-delhi-2026'));
+ assert.ok(d.broadcasters.some(b=>b.id==='south-asia-fm-ltd'));
  assert.equal(d.homeStations.count,16);
 });
 

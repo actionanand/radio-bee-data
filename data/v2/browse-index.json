@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.11",
+  "catalogVersion": "2.8.13",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
     "all": 398,
@@ -6877,6 +6877,8 @@
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-vividh-bharati-bengaluru",
           "stage38-air-agra",
           "stage38-air-alappuzha-fm",
           "stage38-air-ananthapuri-fm",
@@ -6889,8 +6891,8 @@
           "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 33,
+          "streamBearing": 33,
           "discoveryOnly": 0
         }
       },
@@ -7816,7 +7818,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": null,
+        "broadcasterId": "sun-group",
         "stationIds": [],
         "counts": {
           "all": 0,
@@ -10762,12 +10764,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage32-fm-rainbow-vijayawada"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -10906,12 +10906,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage32-vividh-bharati-bengaluru"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11751,7 +11749,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": null,
+        "broadcasterId": "enil",
         "stationIds": [
           "stage41-filmy-mirchi"
         ],
@@ -12273,7 +12271,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": null,
+        "broadcasterId": "enil",
         "stationIds": [
           "stage41-mirchi-90s-radio"
         ],
@@ -13173,7 +13171,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": null,
+        "broadcasterId": "enil",
         "stationIds": [
           "stage41-yo-punjabi-mirchi"
         ],
@@ -13194,7 +13192,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": "south-asia-fm-ltd",
+        "broadcasterId": "sun-group",
         "stationIds": [
           "stage42-red-fm-93-5-delhi"
         ],
@@ -13232,7 +13230,7 @@
         "countryCodes": [
           "IN"
         ],
-        "broadcasterId": "sun-tv-network",
+        "broadcasterId": "sun-group",
         "stationIds": [
           "suryan-chennai"
         ],
@@ -13546,16 +13544,22 @@
           "stage15-mib-licensees"
         ],
         "networkIds": [
-          "mirchi"
+          "mirchi",
+          "stage41-network-filmy-mirchi",
+          "stage41-network-mirchi-90s-radio",
+          "stage41-network-yo-punjabi-mirchi"
         ],
         "stationIds": [
           "mirchi-chennai",
+          "stage41-filmy-mirchi",
+          "stage41-mirchi-90s-radio",
           "stage41-mirchi-kochi",
+          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -13659,6 +13663,8 @@
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-vividh-bharati-bengaluru",
           "stage38-air-agra",
           "stage38-air-alappuzha-fm",
           "stage38-air-ananthapuri-fm",
@@ -13671,8 +13677,8 @@
           "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 33,
+          "streamBearing": 33,
           "discoveryOnly": 0
         }
       },
@@ -13730,15 +13736,36 @@
         "sourceIds": [
           "stage42-mib-red-delhi-2026"
         ],
+        "networkIds": [],
+        "stationIds": [],
+        "counts": {
+          "all": 0,
+          "streamBearing": 0,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "sun-group",
+        "name": "Sun Group",
+        "key": "broadcaster:sun-group",
+        "aliases": [
+          "Sun Network"
+        ],
+        "sourceIds": [
+          "sun-group-radio-official-2026"
+        ],
         "networkIds": [
-          "stage42-red-fm-delhi"
+          "red-fm",
+          "stage42-red-fm-delhi",
+          "suryan-in"
         ],
         "stationIds": [
-          "stage42-red-fm-93-5-delhi"
+          "stage42-red-fm-93-5-delhi",
+          "suryan-chennai"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -13752,15 +13779,11 @@
         "sourceIds": [
           "stage15-mib-licensees"
         ],
-        "networkIds": [
-          "suryan-in"
-        ],
-        "stationIds": [
-          "suryan-chennai"
-        ],
+        "networkIds": [],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       }

@@ -3037,9 +3037,7 @@
       ],
       "reviewedOn": "2026-11-10",
       "notes": "Documented language tags retained from prior reviewed metadata; a single known tag does not establish exclusive or complete language coverage. No real-time on-air language inferred."
-    },
-    "logoPath": "assets/artwork/stations/hello-chennai.svg",
-    "logoUrl": "https://static-media.streema.com/media/cache/26/3e/263e52f18d89f544c3aad303411a9e71.jpg"
+    }
   },
   {
     "id": "east-fm-ca",
@@ -8231,8 +8229,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/stations/radio-mirchi-dubai-ae.svg"
+    ]
   },
   {
     "id": "radio-quarantine-kolkata-in",
@@ -12545,7 +12542,7 @@
     "id": "stage32-vividh-bharati-bengaluru",
     "name": "Vividh Bharati Bengaluru",
     "about": "Vividh Bharati Bengaluru is a Kannada-language online radio service associated with India. Its catalogue programme categories include music.",
-    "networkId": "stage32-vividh-bharati-bengaluru",
+    "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
     "districtId": null,
@@ -12584,8 +12581,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/stations/stage32-vividh-bharati-bengaluru.svg"
+    ]
   },
   {
     "id": "stage32-bhakti-sangeet",
@@ -12729,7 +12725,7 @@
     "id": "stage32-fm-rainbow-vijayawada",
     "name": "FM Rainbow Vijayawada",
     "about": "FM Rainbow Vijayawada is a Telugu-language online radio service associated with India. Its catalogue programme categories include general-interest programmes.",
-    "networkId": "stage32-fm-rainbow-vijayawada",
+    "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
     "districtId": null,
@@ -12768,8 +12764,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/stations/stage32-fm-rainbow-vijayawada.svg"
+    ]
   },
   {
     "id": "stage32-retro-bollywood-90s",
@@ -14142,8 +14137,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage38-namm-radio-europe",
@@ -14188,8 +14182,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage38-namm-radio-gulf",
@@ -14234,8 +14227,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage38-namm-radio-usa",
@@ -14280,8 +14272,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage39-vismaya-kerala-malayalam",
@@ -14469,8 +14460,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage39-lata-mangeshkar-zeno",
@@ -17551,8 +17541,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-olive-retro",
@@ -17597,8 +17586,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-lyca-radio-1458-am",
@@ -17689,8 +17677,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-antara",
@@ -17965,8 +17952,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-sports-flashes",
@@ -18241,8 +18227,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-hot-now-punjabi-radio",
@@ -18932,8 +18917,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-suno-melody",
@@ -18978,8 +18962,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-suno",
@@ -19024,8 +19007,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-club-fm",
@@ -19071,8 +19053,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-malayalam-98-6-fm",
@@ -19209,8 +19190,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-kerala",
@@ -20498,8 +20478,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage42-red-fm-93-5-delhi",
@@ -20544,7 +20523,6 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   }
 ]

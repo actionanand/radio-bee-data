@@ -7,7 +7,7 @@ const catalogue = () => readCatalogue(undefined,'v2');
 
 test('V2 supports original branded and publisher favicon network URLs',()=>{
   const data=catalogue();
-  assert.equal(data.networks.filter(network=>network.logoUrl).length,54);
+  assert.ok(data.networks.filter(network=>network.logoUrl).length>=61);
   assert.equal(data.networks.filter(network=>network.logoPath).length,0);
   for(const network of data.networks.filter(network=>network.logoUrl))
     assert.ok(validPublicLogoUrl(network.logoUrl),network.id);
@@ -30,12 +30,26 @@ test('Akashvani and Suryan share their respective network brand artwork, and Sri
 
 test('Unverified or unreachable imagery is left unspecified, allowing RadioBee fallback',()=>{
   const data=catalogue();
-  for(const id of ['stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','hello-fm','star-fm-lk','annai-fm','tarana']) {
+  for(const id of ['stage29-network-100-love-radio','stage29-network-100-new-songs','stage29-network-100-sad-songs','star-fm-lk','annai-fm','tarana']) {
     const network=data.networks.find(n=>n.id===id);
     assert.ok(network,id);
     assert.equal(network.logoUrl,undefined,id);
     assert.equal(network.logoPath,undefined,id);
   }
+});
+
+test('network brand is shared and owned-network stations do not override it',()=>{
+ const data=catalogue();
+ const networks=new Map(data.networks.map(n=>[n.id,n]));
+ const air=data.stations.filter(s=>s.networkId==='akashvani');
+ assert.equal(air.length,33);
+ for(const s of air)assert.ok(!s.logoPath&&!s.logoUrl,s.id);
+ const branded=data.stations.filter(s=>networks.get(s.networkId)?.logoUrl);
+ assert.ok(branded.length>=103);
+ for(const s of branded)assert.ok(!s.logoPath&&!s.logoUrl,s.id);
+ assert.equal(networks.get('stage42-red-fm-delhi').logoUrl,networks.get('red-fm').logoUrl);
+ assert.equal(networks.get('stage41-network-filmy-mirchi').logoUrl,networks.get('mirchi').logoUrl);
+ assert.equal(networks.get('hello-fm').logoUrl,'https://static-media.streema.com/media/cache/26/3e/263e52f18d89f544c3aad303411a9e71.jpg');
 });
 
 test('Reject non-public and malformed image URLs without touching the canonical data',()=>{

@@ -29,11 +29,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.suryanfm.in/",
-    "broadcasterId": "sun-tv-network",
+    "broadcasterId": "sun-group",
     "broadcasterSourceIds": [
-      "stage15-mib-licensees"
+      "stage15-mib-licensees",
+      "sun-group-radio-official-2026"
     ],
-    "broadcasterRelationship": "licensed-operator",
+    "broadcasterRelationship": "publisher-operator",
     "logoUrl": "https://i1.sndcdn.com/avatars-000025578244-qwg44s-t1080x1080.jpg"
   },
   {
@@ -49,7 +50,8 @@
     "broadcasterSourceIds": [
       "stage15-mib-licensees"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "licensed-operator",
+    "logoUrl": "https://static-media.streema.com/media/cache/26/3e/263e52f18d89f544c3aad303411a9e71.jpg"
   },
   {
     "id": "mirchi",
@@ -94,7 +96,12 @@
     ],
     "kind": "broadcaster",
     "website": "https://www.redfmindia.in/",
-    "logoUrl": "https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg"
+    "logoUrl": "https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg",
+    "broadcasterId": "sun-group",
+    "broadcasterSourceIds": [
+      "sun-group-radio-official-2026"
+    ],
+    "broadcasterRelationship": "publisher-operator"
   },
   {
     "id": "big-fm",
@@ -1420,7 +1427,8 @@
       "AE"
     ],
     "kind": "online",
-    "website": null
+    "website": null,
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage26-radio-quarantine-kolkata-in",
@@ -2573,7 +2581,8 @@
       "US"
     ],
     "kind": "online",
-    "website": "https://nammradio.com/"
+    "website": "https://nammradio.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=nammradio.com&sz=256"
   },
   {
     "id": "stage39-network-vismaya-kerala-malayalam",
@@ -3263,7 +3272,13 @@
       "IN"
     ],
     "kind": "online",
-    "website": null
+    "website": null,
+    "broadcasterId": "enil",
+    "broadcasterSourceIds": [
+      "enil-mirchi-digital-2022"
+    ],
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-network-lyca-radio-1458-am",
@@ -3333,7 +3348,13 @@
       "IN"
     ],
     "kind": "online",
-    "website": null
+    "website": null,
+    "broadcasterId": "enil",
+    "broadcasterSourceIds": [
+      "enil-mirchi-digital-2022"
+    ],
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-network-radio-sports-flashes",
@@ -3393,7 +3414,13 @@
       "IN"
     ],
     "kind": "online",
-    "website": null
+    "website": null,
+    "broadcasterId": "enil",
+    "broadcasterSourceIds": [
+      "enil-mirchi-digital-2022"
+    ],
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-network-hot-now-punjabi-radio",
@@ -3837,10 +3864,12 @@
     ],
     "kind": "broadcaster",
     "website": null,
-    "broadcasterId": "south-asia-fm-ltd",
+    "broadcasterId": "sun-group",
     "broadcasterSourceIds": [
-      "stage42-mib-red-delhi-2026"
+      "stage42-mib-red-delhi-2026",
+      "sun-group-radio-official-2026"
     ],
-    "broadcasterRelationship": "licensed-operator"
+    "broadcasterRelationship": "publisher-operator",
+    "logoUrl": "https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg"
   }
 ]
