@@ -3393,5 +3393,19 @@
     "url": "https://www.mib.gov.in/sites/default/files/2026-09/pvt-fm-operational-details-as-on-03.09.2026.pdf",
     "kind": "government-register",
     "notes": "Government register identifies South Asia FM Ltd. as licensee/operator of RED FM 93.5 Delhi. This operator link is specific to the Delhi station; RED branded programmes in other cities may have other regional licensees."
+  },
+  {
+    "id": "sun-group-radio-official-2026",
+    "title": "Sun Group official radio brands: Suryan FM, RED FM and Magic FM",
+    "url": "https://www.sun.in/radio.aspx",
+    "type": "broadcaster",
+    "notes": "Official Sun Group page describes Suryan FM and RED FM as group brands; distinct FM licensee entities are documented in government registers."
+  },
+  {
+    "id": "enil-mirchi-digital-2022",
+    "title": "ENIL investor presentation: Mirchi online radio portfolio",
+    "url": "https://nsearchives.nseindia.com/corporate/ENIL_08082022234103_ENILInvestorupdateQ1FY23.pdf",
+    "type": "broadcaster",
+    "notes": "Investor update identifies Filmy Mirchi, Mirchi 90s and Mirchi Punjabi format stations in ENIL's Mirchi online radio portfolio."
   }
 ]
