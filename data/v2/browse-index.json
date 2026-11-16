@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.10",
+  "catalogVersion": "2.8.11",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 396,
-    "streamBearing": 396,
+    "all": 398,
+    "streamBearing": 398,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -377,6 +377,8 @@
     "stage41-thimiru-fm",
     "stage41-vaigai-fm",
     "stage41-yo-punjabi-mirchi",
+    "stage42-mirchi-98-3-online",
+    "stage42-red-fm-93-5-delhi",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -932,6 +934,8 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage41-yo-punjabi-mirchi",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -945,8 +949,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 267,
-          "streamBearing": 267,
+          "all": 269,
+          "streamBearing": 269,
           "discoveryOnly": 0
         }
       },
@@ -2269,6 +2273,8 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage41-yo-punjabi-mirchi",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -2532,6 +2538,8 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage41-yo-punjabi-mirchi",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -2545,8 +2553,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 267,
-          "streamBearing": 267,
+          "all": 269,
+          "streamBearing": 269,
           "discoveryOnly": 0
         }
       },
@@ -5295,11 +5303,13 @@
           "stage41-radio-nashaa-fm",
           "stage41-radio-olive",
           "stage41-radio-olive-retro",
-          "stage41-radio-sports-flashes"
+          "stage41-radio-sports-flashes",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi"
         ],
         "counts": {
-          "all": 34,
-          "streamBearing": 34,
+          "all": 36,
+          "streamBearing": 36,
           "discoveryOnly": 0
         }
       },
@@ -6729,6 +6739,8 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage41-yo-punjabi-mirchi",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -6751,8 +6763,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 366,
-          "streamBearing": 366,
+          "all": 368,
+          "streamBearing": 368,
           "discoveryOnly": 0
         }
       }
@@ -7613,11 +7625,12 @@
         "broadcasterId": "enil",
         "stationIds": [
           "mirchi-chennai",
-          "stage41-mirchi-kochi"
+          "stage41-mirchi-kochi",
+          "stage42-mirchi-98-3-online"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -13171,6 +13184,27 @@
         }
       },
       {
+        "id": "stage42-red-fm-delhi",
+        "name": "93.5 RED FM Delhi",
+        "key": "network:stage42-red-fm-delhi",
+        "aliases": [
+          "RED FM Delhi",
+          "RED FM 93.5"
+        ],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": "south-asia-fm-ltd",
+        "stationIds": [
+          "stage42-red-fm-93-5-delhi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -13516,11 +13550,12 @@
         ],
         "stationIds": [
           "mirchi-chennai",
-          "stage41-mirchi-kochi"
+          "stage41-mirchi-kochi",
+          "stage42-mirchi-98-3-online"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -13678,6 +13713,28 @@
         ],
         "stationIds": [
           "lotus-fm-za"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "south-asia-fm-ltd",
+        "name": "South Asia FM Limited",
+        "key": "broadcaster:south-asia-fm-ltd",
+        "aliases": [
+          "South Asia FM Ltd."
+        ],
+        "sourceIds": [
+          "stage42-mib-red-delhi-2026"
+        ],
+        "networkIds": [
+          "stage42-red-fm-delhi"
+        ],
+        "stationIds": [
+          "stage42-red-fm-93-5-delhi"
         ],
         "counts": {
           "all": 1,
@@ -14183,6 +14240,8 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage41-yo-punjabi-mirchi",
+          "stage42-mirchi-98-3-online",
+          "stage42-red-fm-93-5-delhi",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -14201,8 +14260,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 266,
-          "streamBearing": 266,
+          "all": 268,
+          "streamBearing": 268,
           "discoveryOnly": 0
         }
       },
@@ -15205,6 +15264,8 @@
         "stage41-thimiru-fm",
         "stage41-vaigai-fm",
         "stage41-yo-punjabi-mirchi",
+        "stage42-mirchi-98-3-online",
+        "stage42-red-fm-93-5-delhi",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -15234,8 +15295,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 396,
-        "streamBearing": 396,
+        "all": 398,
+        "streamBearing": 398,
         "discoveryOnly": 0
       }
     },

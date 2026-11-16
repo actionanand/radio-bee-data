@@ -3824,5 +3824,23 @@
     ],
     "kind": "online",
     "website": null
+  },
+  {
+    "id": "stage42-red-fm-delhi",
+    "name": "93.5 RED FM Delhi",
+    "aliases": [
+      "RED FM Delhi",
+      "RED FM 93.5"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "broadcaster",
+    "website": null,
+    "broadcasterId": "south-asia-fm-ltd",
+    "broadcasterSourceIds": [
+      "stage42-mib-red-delhi-2026"
+    ],
+    "broadcasterRelationship": "licensed-operator"
   }
 ]

@@ -3372,5 +3372,26 @@
     "url": "https://liveradios.in/radio-sindhi.html",
     "kind": "directory",
     "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage42-source-mirchi-98-3-online",
+    "title": "OnlineRadioFM stream listing — Radio Mirchi 98.3 FM (online listing)",
+    "url": "https://onlineradiofm.in/stations/mirchi",
+    "kind": "directory",
+    "notes": "Player's inline FILE URL extracted from the user-provided OnlineRadioFM page on 2026-11-16. An independent Zeno probe returned HTTP 401; current third-party playback and recording rights are not confirmed."
+  },
+  {
+    "id": "stage42-source-red-fm-93-5-delhi",
+    "title": "OnlineRadioFM stream listing — 93.5 RED FM Delhi (online listing)",
+    "url": "https://onlineradiofm.in/stations/red",
+    "kind": "directory",
+    "notes": "Player's inline FILE URL extracted from the user-provided OnlineRadioFM page on 2026-11-16. An independent Zeno probe returned HTTP 401; current third-party playback and recording rights are not confirmed."
+  },
+  {
+    "id": "stage42-mib-red-delhi-2026",
+    "title": "Ministry of Information & Broadcasting — Operational Private FM channels as of September 2026",
+    "url": "https://www.mib.gov.in/sites/default/files/2026-09/pvt-fm-operational-details-as-on-03.09.2026.pdf",
+    "kind": "government-register",
+    "notes": "Government register identifies South Asia FM Ltd. as licensee/operator of RED FM 93.5 Delhi. This operator link is specific to the Delhi station; RED branded programmes in other cities may have other regional licensees."
   }
 ]
