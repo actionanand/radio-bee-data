@@ -3386,5 +3386,12 @@
     "url": "https://onlineradiofm.in/stations/red",
     "kind": "directory",
     "notes": "Player's inline FILE URL extracted from the user-provided OnlineRadioFM page on 2026-11-16. An independent Zeno probe returned HTTP 401; current third-party playback and recording rights are not confirmed."
+  },
+  {
+    "id": "stage42-mib-red-delhi-2026",
+    "title": "Ministry of Information & Broadcasting — Operational Private FM channels as of September 2026",
+    "url": "https://www.mib.gov.in/sites/default/files/2026-09/pvt-fm-operational-details-as-on-03.09.2026.pdf",
+    "kind": "government-register",
+    "notes": "Government register identifies South Asia FM Ltd. as licensee/operator of RED FM 93.5 Delhi. This operator link is specific to the Delhi station; RED branded programmes in other cities may have other regional licensees."
   }
 ]
