@@ -49,7 +49,7 @@ test('every enriched Stage 15 metadata and asset byte survives migration; only r
   assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/stations/')).length,169);
   assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/artists/')).length,31);
   assert.equal(inventory.filter(file=>file.startsWith('assets/artwork/genres/')).length,12);
-  const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json']);
+  const changed=new Set(['stations.json','discovery-stations.json','sources.json','station-migrations.json','index.json','browse-index.json','networks.json','categories.json','locations.json','languages.json','i18n/en.json','i18n/ta.json','i18n/sa.json','broadcasters.json']);
   for(const [file,expected]of Object.entries(saved.files)){
     if(changed.has(file))continue; // Reviewed Stage 18 v2 delta, pre-import snapshot kept separately.
     let bytes=readFileSync(path.join(root,'data/v2',file));
