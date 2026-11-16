@@ -20473,12 +20473,12 @@
     "delivery": "online",
     "coverage": "global",
     "listingStatus": "candidate",
-    "frequencyMHz": 98.3,
+    "frequencyMHz": null,
     "website": null,
     "sourceIds": [
       "stage42-source-mirchi-98-3-online"
     ],
-    "notes": "User-supplied station page exposes this exact Zeno stream URL. Direct network test on 2026-11-16 returned HTTP 401 (not demonstrated playable in that environment); an MP3 format label is tentative, based on common Zeno stream behaviour, and not a completed codec verification. Third-party direct listening and recording permissions are not confirmed.",
+    "notes": "User-supplied station page exposes this exact Zeno stream URL. Direct network test on 2026-11-16 returned HTTP 401 (not demonstrated playable in that environment); an MP3 format label is tentative, based on common Zeno stream behaviour, and not a completed codec verification. Third-party direct listening and recording permissions are not confirmed. Frequency is retained in the brand name only; this online listing is not independently confirmed to relay the Delhi terrestrial service.",
     "aliases": [],
     "streams": [
       {
@@ -20519,12 +20519,12 @@
     "delivery": "online",
     "coverage": "global",
     "listingStatus": "candidate",
-    "frequencyMHz": 93.5,
+    "frequencyMHz": null,
     "website": null,
     "sourceIds": [
       "stage42-source-red-fm-93-5-delhi"
     ],
-    "notes": "User-supplied station page exposes this exact Zeno stream URL. Direct network test on 2026-11-16 returned HTTP 401 (not demonstrated playable in that environment); an MP3 format label is tentative, based on common Zeno stream behaviour, and not a completed codec verification. Third-party direct listening and recording permissions are not confirmed.",
+    "notes": "User-supplied station page exposes this exact Zeno stream URL. Direct network test on 2026-11-16 returned HTTP 401 (not demonstrated playable in that environment); an MP3 format label is tentative, based on common Zeno stream behaviour, and not a completed codec verification. Third-party direct listening and recording permissions are not confirmed. Frequency is retained in the brand name only; this online listing is not independently confirmed to relay the Delhi terrestrial service.",
     "aliases": [],
     "streams": [
       {
