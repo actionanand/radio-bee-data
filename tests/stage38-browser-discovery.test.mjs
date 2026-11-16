@@ -6,9 +6,9 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 test('Stage 38 adds only distinct V2 audio candidates without modifying old programmes',()=>{
   const data=readCatalogue(undefined,'v2');
   assert.ok(/^2\.8\.\d+$/.test(data.index.catalogVersion));
-  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')).length,263);
-  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')).flatMap(s=>s.streams).length,268);
-  assert.equal(data.networks.filter(n=>!n.id.startsWith('stage39-')&&!n.id.startsWith('stage40-')).length,246);
+  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')).length,263);
+  assert.equal(data.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')).flatMap(s=>s.streams).length,268);
+  assert.equal(data.networks.filter(n=>!n.id.startsWith('stage39-')&&!n.id.startsWith('stage40-')&&!n.id.startsWith('stage41-')).length,246);
   assert.equal(data.discoveryStations.length,0);
   const added=data.stations.filter(s=>s.id.startsWith('stage38-'));
   assert.equal(added.length,23);
