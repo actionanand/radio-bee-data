@@ -12495,7 +12495,7 @@
   {
     "id": "stage29-krishna-fm",
     "name": "Krishna FM",
-    "about": "Krishna FM is a Tamil-language online radio listing. Its current devotional classification comes from unverified directory metadata; the station's programme focus and broadcaster identity require independent review before devotional artwork is assigned.",
+    "about": "Krishna FM is a Tamil-language radio station featuring devotional music.",
     "networkId": "stage29-network-krishna-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -13234,7 +13234,7 @@
   {
     "id": "stage38-al-jazeera-english-audio",
     "name": "Al Jazeera English Audio",
-    "about": "Al Jazeera English Audio is a EN-language news radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Al Jazeera English Audio is a English-language radio station featuring news.",
     "networkId": "al-jazeera-english-audio",
     "countryCode": "QA",
     "regionId": null,
@@ -13280,7 +13280,7 @@
   {
     "id": "stage38-air-agra",
     "name": "Akashvani Agra",
-    "about": "Akashvani Agra is a HI-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Agra is a Hindi-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13325,7 +13325,7 @@
   {
     "id": "stage38-kadak-fm-uae",
     "name": "Kadak FM UAE",
-    "about": "Kadak FM UAE is a HI-language music radio service listed under AE. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Kadak FM UAE is a Hindi-language radio station featuring music.",
     "networkId": "kadak-fm-uae",
     "countryCode": "AE",
     "regionId": null,
@@ -13371,7 +13371,7 @@
   {
     "id": "stage38-air-jeypore",
     "name": "Akashvani Jeypore",
-    "about": "Akashvani Jeypore is a OR-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Jeypore is a Odia-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13416,7 +13416,7 @@
   {
     "id": "stage38-radio-sugar-90-8",
     "name": "Radio Sugar 90.8 FM",
-    "about": "Radio Sugar 90.8 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Radio Sugar 90.8 FM is a Marathi-language radio station featuring community programmes.",
     "networkId": "radio-sugar",
     "countryCode": "IN",
     "regionId": null,
@@ -13462,7 +13462,7 @@
   {
     "id": "stage38-mgm-radio-90-8",
     "name": "MGM Radio 90.8 FM",
-    "about": "MGM Radio 90.8 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "MGM Radio 90.8 FM is a Marathi-language radio station featuring community programmes.",
     "networkId": "mgm-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -13508,7 +13508,7 @@
   {
     "id": "stage38-radio-uday-89-6",
     "name": "Radio Uday 89.6 FM",
-    "about": "Radio Uday 89.6 FM is a MR-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Radio Uday 89.6 FM is a Marathi-language radio station featuring community programmes.",
     "networkId": "radio-uday",
     "countryCode": "IN",
     "regionId": null,
@@ -13554,7 +13554,7 @@
   {
     "id": "stage38-air-alappuzha-fm",
     "name": "Akashvani Alappuzha FM",
-    "about": "Akashvani Alappuzha FM is a ML-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Alappuzha FM is a Malayalam-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13599,7 +13599,7 @@
   {
     "id": "stage38-air-ananthapuri-fm",
     "name": "Akashvani Ananthapuri FM",
-    "about": "Akashvani Ananthapuri FM is a ML-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Ananthapuri FM is a Malayalam-language radio station featuring music.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13644,7 +13644,7 @@
   {
     "id": "stage38-air-kozhikode-real-fm",
     "name": "Akashvani Kozhikode Real FM",
-    "about": "Akashvani Kozhikode Real FM is a ML-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Kozhikode Real FM is a Malayalam-language radio station featuring music.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13689,7 +13689,7 @@
   {
     "id": "stage38-fm-gold-kolkata",
     "name": "Akashvani FM Gold Kolkata",
-    "about": "Akashvani FM Gold Kolkata is a BN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani FM Gold Kolkata is a Bengali-language radio station featuring music.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13734,7 +13734,7 @@
   {
     "id": "stage38-gitanjali-radio",
     "name": "Gitanjali Radio 90.4 FM",
-    "about": "Gitanjali Radio 90.4 FM is a BN-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Gitanjali Radio 90.4 FM is a Bengali-language radio station featuring community programmes.",
     "networkId": "gitanjali-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -13780,7 +13780,7 @@
   {
     "id": "stage38-air-world-service-bangla",
     "name": "Akashvani World Service Bangla",
-    "about": "Akashvani World Service Bangla is a BN-language news radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani World Service Bangla is a Bengali-language radio station featuring news.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13825,7 +13825,7 @@
   {
     "id": "stage38-air-siliguri",
     "name": "Akashvani Siliguri",
-    "about": "Akashvani Siliguri is a BN-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Siliguri is a Bengali-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13870,7 +13870,7 @@
   {
     "id": "stage38-nityananda-janavani",
     "name": "Nityananda Janavani",
-    "about": "Nityananda Janavani is a BN-language community radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Nityananda Janavani is a Bengali-language radio station featuring community programmes.",
     "networkId": "nityananda-janavani",
     "countryCode": "IN",
     "regionId": null,
@@ -13916,7 +13916,7 @@
   {
     "id": "stage38-air-bhuj",
     "name": "Akashvani Bhuj",
-    "about": "Akashvani Bhuj is a GU-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Bhuj is a Gujarati-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -13961,7 +13961,7 @@
   {
     "id": "stage38-air-surat",
     "name": "Akashvani Surat",
-    "about": "Akashvani Surat is a GU-language general radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Akashvani Surat is a Gujarati-language radio station featuring varied programmes.",
     "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
@@ -14006,7 +14006,7 @@
   {
     "id": "stage38-suno-kannada",
     "name": "Suno Kannada",
-    "about": "Suno Kannada is a KN-language music radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Suno Kannada is a Kannada-language radio station featuring music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -14051,7 +14051,7 @@
   {
     "id": "stage38-sakkath-radio",
     "name": "Sakkath Radio Kannada",
-    "about": "Sakkath Radio Kannada is a KN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Sakkath Radio Kannada is a Kannada-language radio station featuring music.",
     "networkId": "sakkath-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -14097,7 +14097,7 @@
   {
     "id": "stage38-namm-radio-india",
     "name": "Namm Radio India",
-    "about": "Namm Radio India is a KN-language music radio service listed under IN. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Namm Radio India is a Kannada-language radio station featuring music.",
     "networkId": "namm-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -14142,7 +14142,7 @@
   {
     "id": "stage38-namm-radio-europe",
     "name": "Namm Radio Europe",
-    "about": "Namm Radio Europe is a KN-language music radio service listed under GB. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Namm Radio Europe is a Kannada-language radio station featuring music.",
     "networkId": "namm-radio",
     "countryCode": "GB",
     "regionId": null,
@@ -14187,7 +14187,7 @@
   {
     "id": "stage38-namm-radio-gulf",
     "name": "Namm Radio Gulf",
-    "about": "Namm Radio Gulf is a KN-language music radio service listed under QA. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Namm Radio Gulf is a Kannada-language radio station featuring music.",
     "networkId": "namm-radio",
     "countryCode": "QA",
     "regionId": null,
@@ -14232,7 +14232,7 @@
   {
     "id": "stage38-namm-radio-usa",
     "name": "Namm Radio USA",
-    "about": "Namm Radio USA is a KN-language music radio service listed under US. An HTTPS audio-stream candidate was observed on 15 November 2026. The station's actual on-air languages, continuity, geographic reach and third-party app listening permissions still need independent verification.",
+    "about": "Namm Radio USA is a Kannada-language radio station featuring music.",
     "networkId": "namm-radio",
     "countryCode": "US",
     "regionId": null,
@@ -14277,7 +14277,7 @@
   {
     "id": "stage39-vismaya-kerala-malayalam",
     "name": "Vismaya Kerala Malayalam Radio",
-    "about": "Vismaya Kerala Malayalam Radio is listed in Zeno's Tamil directory and identified in public playlists as a Malayalam radio service. Malayalam programming is indicated by the name and other listings; its live format still needs review.",
+    "about": "Vismaya Kerala Malayalam Radio is a Malayalam-language radio station featuring music.",
     "networkId": "stage39-network-vismaya-kerala-malayalam",
     "countryCode": "IN",
     "regionId": null,
@@ -14324,7 +14324,7 @@
   {
     "id": "stage39-vilathikulam-thendral",
     "name": "Vilathikulam Thendral",
-    "about": "Vilathikulam Thendral is an online radio stream listed in Zeno's Tamil directory. The station name points to Vilathikulam, but a transmitter or studio location and current schedule are not independently confirmed.",
+    "about": "Vilathikulam Thendral is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-vilathikulam-thendral",
     "countryCode": "IN",
     "regionId": null,
@@ -14371,7 +14371,7 @@
   {
     "id": "stage39-radio-palakkad",
     "name": "Radio Palakkad",
-    "about": "Radio Palakkad appears in Zeno's Tamil listings and Malayalam radio directories. Its name refers to Palakkad in Kerala; this candidate is classified as Malayalam pending confirmation of its complete broadcast-language mix.",
+    "about": "Radio Palakkad appears in Zeno's Tamil listings and Malayalam radio directories.",
     "networkId": "stage39-network-radio-palakkad",
     "countryCode": "IN",
     "regionId": null,
@@ -14418,7 +14418,7 @@
   {
     "id": "stage39-athavan-radio-uk-zeno",
     "name": "Athavan Radio UK",
-    "about": "Athavan Radio UK is a UK-associated Tamil online radio station listed by Zeno. This independently identified stream candidate belongs to the existing Athavan network; stable listening and third-party use permissions are unverified.",
+    "about": "Athavan Radio UK is a UK-associated Tamil online radio station listed by Zeno.",
     "networkId": "athavan",
     "countryCode": "GB",
     "regionId": null,
@@ -14465,7 +14465,7 @@
   {
     "id": "stage39-lata-mangeshkar-zeno",
     "name": "Lata Mangeshkar Radio",
-    "about": "Lata Mangeshkar Radio is a music stream listed under the singer's name in public Zeno playlists and Tamil-directory recommendations. It is treated as a Hindi-music candidate, not a Tamil-only radio station.",
+    "about": "Lata Mangeshkar Radio is a Hindi-language radio station featuring music.",
     "networkId": "stage39-network-lata-mangeshkar-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -14513,7 +14513,7 @@
   {
     "id": "stage39-tamil-top-40-zeno",
     "name": "Tamil Top 40",
-    "about": "Tamil Top 40 is a Tamil music stream named in Zeno's music playlist and listed with US directory metadata. Its chart format, operating location, broadcaster and continuous audio availability remain unconfirmed.",
+    "about": "Tamil Top 40 is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-tamil-top-40-zeno",
     "countryCode": "US",
     "regionId": null,
@@ -14560,7 +14560,7 @@
   {
     "id": "stage39-paadu-nilavae-tamil-radio",
     "name": "Paadu Nilavae Tamil Radio",
-    "about": "Paadu Nilavae Tamil Radio is a Tamil-language music stream identified by the Zeno Tamil station directory and a corresponding public playlist. A detailed programme schedule and current uninterrupted playback remain to be verified.",
+    "about": "Paadu Nilavae Tamil Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-paadu-nilavae-tamil-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -14607,7 +14607,7 @@
   {
     "id": "stage39-harrish-jayaraj-fm",
     "name": "Harrish Jayaraj FM",
-    "about": "Harrish Jayaraj FM is listed as a Tamil film-music radio stream associated with composer Harris Jayaraj. Its Zeno stream differs from the existing Harris Jayaraj Radio candidate; their broadcaster identity has not been proven identical.",
+    "about": "Harrish Jayaraj FM is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-harrish-jayaraj-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -14655,7 +14655,7 @@
   {
     "id": "stage39-tamil-radio-zeno",
     "name": "Tamil Radio",
-    "about": "Tamil Radio is a Zeno music-stream listing identified by this exact stream ID. Its name is generic, and a US directory association does not independently establish the broadcaster's operating location or its programme schedule.",
+    "about": "Tamil Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-tamil-radio-zeno",
     "countryCode": "US",
     "regionId": null,
@@ -14702,7 +14702,7 @@
   {
     "id": "stage39-radio-voxa-zeno",
     "name": "Radio Voxa",
-    "about": "Radio Voxa is a multi-language radio listing found in Zeno's Tamil directory. Available directory descriptions associate it with Malayalam, Tamil and Hindi; the actual on-air mix and the station's operating location need review.",
+    "about": "Radio Voxa is a Malayalam and Tamil and Hindi-language radio station featuring music.",
     "networkId": "stage39-network-radio-voxa-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -14751,7 +14751,7 @@
   {
     "id": "stage39-mazhai-fm-zeno",
     "name": "Mazhai FM",
-    "about": "Mazhai FM is an online Tamil radio candidate identified in Zeno's Tamil-language station playlist. Its precise broadcaster, geographic service area and programme schedule are not independently established.",
+    "about": "Its precise broadcaster, geographic service area and programme schedule are not independently established.",
     "networkId": "stage39-network-mazhai-fm-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -14846,7 +14846,7 @@
   {
     "id": "stage39-air-tamil-live-music",
     "name": "Air Tamil Live Music Radio",
-    "about": "Air Tamil Live Music Radio is a Tamil music stream appearing in Zeno's Tamil station listings. It has a distinct stream ID from the existing AirTamil 90s entry, and a shared operator has not been confirmed.",
+    "about": "Air Tamil Live Music Radio is a Tamil music stream appearing in Zeno's Tamil station listings.",
     "networkId": "stage39-network-air-tamil-live-music",
     "countryCode": "IN",
     "regionId": null,
@@ -14893,7 +14893,7 @@
   {
     "id": "stage39-thiruvarur-timepass-fm",
     "name": "Thiruvarur Radio (Timepass FM)",
-    "about": "Thiruvarur Radio (Timepass FM), also named திருவாரூர் வானொலி in public listings, is a Tamil online radio candidate. The geographic term in the station name is not evidence of a physical broadcast location.",
+    "about": "Thiruvarur Radio (Timepass FM) is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-thiruvarur-timepass-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -14940,7 +14940,7 @@
   {
     "id": "stage39-radio-vilakku",
     "name": "Radio Vilakku",
-    "about": "Radio Vilakku is a Zeno-listed Tamil radio stream with a matching public playlist entry. Its exact music and spoken-programme mix, broadcaster identity and listening availability need independent review.",
+    "about": "Radio Vilakku is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-radio-vilakku",
     "countryCode": "IN",
     "regionId": null,
@@ -14987,7 +14987,7 @@
   {
     "id": "stage39-attur-fm-zeno",
     "name": "Attur FM",
-    "about": "Attur FM is an online Tamil radio candidate from the Zeno Tamil directory. Although the station name resembles a Tamil Nadu locality, no transmitter frequency or verified station address is claimed.",
+    "about": "Although the station name resembles a Tamil Nadu locality, no transmitter frequency or verified station address is claimed.",
     "networkId": "stage39-network-attur-fm-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -15034,7 +15034,7 @@
   {
     "id": "stage39-vellur-fm-zeno",
     "name": "Vellur FM",
-    "about": "Vellur FM is an online Tamil radio stream identified by its Zeno Tamil directory entry. The location suggested by the name, the broadcaster and any terrestrial FM service have not been independently established.",
+    "about": "The location suggested by the name, the broadcaster and any terrestrial FM service have not been independently established.",
     "networkId": "stage39-network-vellur-fm-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -15081,7 +15081,7 @@
   {
     "id": "stage39-tamil-a1-radio",
     "name": "Tamil A1 Radio",
-    "about": "Tamil A1 Radio is a Tamil music-stream candidate matched to a Zeno playlist entry. Its published name and URL are included for discovery while current audio availability and third-party playback approval remain unverified.",
+    "about": "Tamil A1 Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-tamil-a1-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -15128,7 +15128,7 @@
   {
     "id": "stage39-appuchi-radio",
     "name": "Appuchi Radio",
-    "about": "Appuchi Radio is a Tamil online station candidate listed in the Zeno Tamil directory and corresponding public stream playlists. Independent details about its broadcaster, shows and geographic association are limited.",
+    "about": "Independent details about its broadcaster, shows and geographic association are limited.",
     "networkId": "stage39-network-appuchi-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -15222,7 +15222,7 @@
   {
     "id": "stage39-mugugan-songs-fm",
     "name": "Mugugan Songs FM",
-    "about": "Mugugan Songs FM is listed as a Tamil devotional music stream featuring songs dedicated to Murugan. The playlist provides its candidate audio URL; independent confirmation of sustained playback and usage rights is pending.",
+    "about": "Mugugan Songs FM is a Tamil devotional music station featuring songs dedicated to Lord Murugan.",
     "networkId": "stage39-network-mugugan-songs-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15272,7 +15272,7 @@
   {
     "id": "stage39-dd-radio-zeno",
     "name": "DD RADIO",
-    "about": "DD RADIO is an online station found in the Zeno Tamil-language directory. Its short name is insufficient to identify an independent broadcaster, and the Tamil-language classification remains provisional.",
+    "about": "DD RADIO is a Tamil-language radio station featuring music.",
     "networkId": "stage39-network-dd-radio-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -15319,7 +15319,7 @@
   {
     "id": "stage39-tamil-amudhu-zeno",
     "name": "Tamil Amudhu",
-    "about": "Tamil Amudhu is a Tamil online radio stream identified in the Zeno Tamil playlist. It should not be confused with Tamil Amuthu Bakthi Radio, which is a separately named devotional station with a different stream.",
+    "about": "It should not be confused with Tamil Amuthu Bakthi Radio, which is a separately named devotional station with a different stream.",
     "networkId": "stage39-network-tamil-amudhu-zeno",
     "countryCode": "IN",
     "regionId": null,
@@ -15428,7 +15428,7 @@
   {
     "id": "stage40-air-tamil-90s-songs",
     "name": "Air Tamil 90S Songs",
-    "about": "Air Tamil 90S Songs is a Tamil-language online music service listed in a public radio directory under its own Zeno stream ID. It is retained as a distinct programme from the existing AirTamil 90s entry; its broadcaster and live playback remain unverified.",
+    "about": "Air Tamil 90S Songs is a Tamil-language radio station featuring music.",
     "networkId": "stage40-network-air-tamil-90s-songs",
     "countryCode": "IN",
     "regionId": null,
@@ -15474,7 +15474,7 @@
   {
     "id": "stage41-aaruthal-fm",
     "name": "Aaruthal FM",
-    "about": "Aaruthal FM is a Tamil-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Aaruthal FM is a Tamil-language radio station featuring devotional music.",
     "networkId": "stage41-network-aaruthal-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15520,7 +15520,7 @@
   {
     "id": "stage41-radio-gilli",
     "name": "Radio Gilli",
-    "about": "Radio Gilli is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Gilli is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-radio-gilli",
     "countryCode": "IN",
     "regionId": null,
@@ -15566,7 +15566,7 @@
   {
     "id": "stage41-tamil-sun-fm",
     "name": "Tamil Sun FM",
-    "about": "Tamil Sun FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Tamil Sun FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-tamil-sun-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15612,7 +15612,7 @@
   {
     "id": "stage41-sahara-fm",
     "name": "Sahara FM",
-    "about": "Sahara FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Sahara FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-sahara-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15658,7 +15658,7 @@
   {
     "id": "stage41-muthamil-fm-88-9-hd3",
     "name": "Muthamil FM 88.9 HD3",
-    "about": "Muthamil FM 88.9 HD3 is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Muthamil FM 88.9 HD3 is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-muthamil-fm-88-9-hd3",
     "countryCode": "US",
     "regionId": null,
@@ -15704,7 +15704,7 @@
   {
     "id": "stage41-vaigai-fm",
     "name": "Vaigai FM",
-    "about": "Vaigai FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Vaigai FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-vaigai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15750,7 +15750,7 @@
   {
     "id": "stage41-capital-fm",
     "name": "Capital FM",
-    "about": "Capital FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Capital FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-capital-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -15796,7 +15796,7 @@
   {
     "id": "stage41-radio-paramakurichi",
     "name": "Radio Paramakurichi",
-    "about": "Radio Paramakurichi is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Paramakurichi is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-radio-paramakurichi",
     "countryCode": "IN",
     "regionId": null,
@@ -15842,7 +15842,7 @@
   {
     "id": "stage41-old-hits",
     "name": "Old Hits Tamil Radio",
-    "about": "Old Hits Tamil Radio is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Old Hits Tamil Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-old-hits",
     "countryCode": "IN",
     "regionId": null,
@@ -15888,7 +15888,7 @@
   {
     "id": "stage41-canadian-tamil-radio-ctr",
     "name": "Canadian Tamil Radio (CTR)",
-    "about": "Canadian Tamil Radio (CTR) is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Canadian Tamil Radio (CTR) is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-canadian-tamil-radio-ctr",
     "countryCode": "CA",
     "regionId": null,
@@ -15934,7 +15934,7 @@
   {
     "id": "stage41-arni-city-fm",
     "name": "Arni City FM",
-    "about": "Arni City FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Arni City FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-arni-city-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -15980,7 +15980,7 @@
   {
     "id": "stage41-covai-fm",
     "name": "Covai FM",
-    "about": "Covai FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Covai FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-covai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16026,7 +16026,7 @@
   {
     "id": "stage41-thenkasi-fm-radio",
     "name": "Thenkasi FM Radio",
-    "about": "Thenkasi FM Radio is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Thenkasi FM Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-thenkasi-fm-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -16072,7 +16072,7 @@
   {
     "id": "stage41-erode-city-fm",
     "name": "Erode City FM",
-    "about": "Erode City FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Erode City FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-erode-city-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16118,7 +16118,7 @@
   {
     "id": "stage41-iyalisai-bhakti-radio",
     "name": "Iyalisai Bhakti Radio",
-    "about": "Iyalisai Bhakti Radio is a Tamil-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Iyalisai Bhakti Radio is a Tamil-language radio station featuring devotional music.",
     "networkId": "stage41-network-iyalisai-bhakti-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -16164,7 +16164,7 @@
   {
     "id": "stage41-lakshmi-fm",
     "name": "Lakshmi FM",
-    "about": "Lakshmi FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Lakshmi FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-lakshmi-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16210,7 +16210,7 @@
   {
     "id": "stage41-gingee-fm",
     "name": "Gingee FM (செஞ்சி)",
-    "about": "Gingee FM (செஞ்சி) is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Gingee FM (செஞ்சி) is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-gingee-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16257,7 +16257,7 @@
   {
     "id": "stage41-ajith-fm",
     "name": "Ajith FM",
-    "about": "Ajith FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Ajith FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-ajith-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16303,7 +16303,7 @@
   {
     "id": "stage41-tamil-amuthu-madurai-radio",
     "name": "Tamil Amuthu Madurai Radio",
-    "about": "Tamil Amuthu Madurai Radio is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Tamil Amuthu Madurai Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-tamil-amuthu-madurai-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -16349,7 +16349,7 @@
   {
     "id": "stage41-kodaisaral-fm",
     "name": "Kodaisaral FM",
-    "about": "Kodaisaral FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Kodaisaral FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-kodaisaral-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16395,7 +16395,7 @@
   {
     "id": "stage41-alaikal-fm",
     "name": "Alaikal FM",
-    "about": "Alaikal FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Alaikal FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-alaikal-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16441,7 +16441,7 @@
   {
     "id": "stage41-saaral-fm",
     "name": "Saaral FM",
-    "about": "Saaral FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Saaral FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-saaral-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16487,7 +16487,7 @@
   {
     "id": "stage41-chillax-fm",
     "name": "Chillax FM",
-    "about": "Chillax FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Chillax FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-chillax-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16533,7 +16533,7 @@
   {
     "id": "stage41-british-indian-tamil-radio",
     "name": "British Indian Tamil Radio",
-    "about": "British Indian Tamil Radio is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "British Indian Tamil Radio is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-british-indian-tamil-radio",
     "countryCode": "GB",
     "regionId": null,
@@ -16579,7 +16579,7 @@
   {
     "id": "stage41-isai-oli-fm",
     "name": "Isai Oli FM",
-    "about": "Isai Oli FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Isai Oli FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-isai-oli-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16627,7 +16627,7 @@
   {
     "id": "stage41-erode-jai-fm",
     "name": "Erode Jai FM",
-    "about": "Erode Jai FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Erode Jai FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-erode-jai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16673,7 +16673,7 @@
   {
     "id": "stage41-lbc-tamil",
     "name": "LBC Tamil",
-    "about": "LBC Tamil is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "LBC Tamil is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-lbc-tamil",
     "countryCode": "GB",
     "regionId": null,
@@ -16719,7 +16719,7 @@
   {
     "id": "stage41-sharmitha-fm",
     "name": "Sharmitha FM",
-    "about": "Sharmitha FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Sharmitha FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-sharmitha-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16765,7 +16765,7 @@
   {
     "id": "stage41-imai-fm",
     "name": "Imai FM",
-    "about": "Imai FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Imai FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-imai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16811,7 +16811,7 @@
   {
     "id": "stage41-ilamai-fm",
     "name": "Ilamai FM",
-    "about": "Ilamai FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Ilamai FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-ilamai-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16857,7 +16857,7 @@
   {
     "id": "stage41-ss-radio-madurai",
     "name": "SS Radio Madurai",
-    "about": "SS Radio Madurai is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "SS Radio Madurai is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-ss-radio-madurai",
     "countryCode": "IN",
     "regionId": null,
@@ -16903,7 +16903,7 @@
   {
     "id": "stage41-pattampoochi-fm",
     "name": "Pattampoochi FM",
-    "about": "Pattampoochi FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Pattampoochi FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-pattampoochi-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16949,7 +16949,7 @@
   {
     "id": "stage41-madurai-voice-fm",
     "name": "Madurai Voice FM",
-    "about": "Madurai Voice FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Madurai Voice FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-madurai-voice-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -16995,7 +16995,7 @@
   {
     "id": "stage41-hello-tamizha-fm",
     "name": "Hello Tamizha FM",
-    "about": "Hello Tamizha FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Hello Tamizha FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-hello-tamizha-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -17041,7 +17041,7 @@
   {
     "id": "stage41-thimiru-fm",
     "name": "Thimiru FM",
-    "about": "Thimiru FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Thimiru FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-thimiru-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -17087,7 +17087,7 @@
   {
     "id": "stage41-ftc-fm",
     "name": "FTC FM",
-    "about": "FTC FM is a Tamil-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "FTC FM is a Tamil-language radio station featuring music.",
     "networkId": "stage41-network-ftc-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -17133,7 +17133,7 @@
   {
     "id": "stage41-tamil-amuthu-bakthi-radio",
     "name": "Tamil Amuthu Bakthi Radio",
-    "about": "Tamil Amuthu Bakthi Radio is a Tamil-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Tamil Amuthu Bakthi Radio is a Tamil-language radio station featuring devotional music.",
     "networkId": "stage41-network-tamil-amuthu-bakthi-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -17179,7 +17179,7 @@
   {
     "id": "stage41-sun-fm",
     "name": "Sun FM Sri Lanka",
-    "about": "Sun FM Sri Lanka is a English-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Sun FM Sri Lanka is a English-language radio station featuring music.",
     "networkId": "stage41-network-sun-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -17225,7 +17225,7 @@
   {
     "id": "stage41-bbc-world-service",
     "name": "BBC World Service",
-    "about": "BBC World Service is a English-language news and current affairs station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "BBC World Service is a English-language radio station featuring news.",
     "networkId": "stage41-network-bbc-world-service",
     "countryCode": "GB",
     "regionId": null,
@@ -17271,7 +17271,7 @@
   {
     "id": "stage41-radio-sri-lanka",
     "name": "Radio Sri Lanka",
-    "about": "Radio Sri Lanka is a English-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Sri Lanka is a English-language radio station featuring music.",
     "networkId": "stage41-network-radio-sri-lanka",
     "countryCode": "LK",
     "regionId": null,
@@ -17317,7 +17317,7 @@
   {
     "id": "stage41-fox-fm",
     "name": "Fox FM Sri Lanka",
-    "about": "Fox FM Sri Lanka is a English-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Fox FM Sri Lanka is a English-language radio station featuring music.",
     "networkId": "stage41-network-fox-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -17363,7 +17363,7 @@
   {
     "id": "stage41-radio-x",
     "name": "Radio X UK",
-    "about": "Radio X UK is a English-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio X UK is a English-language radio station featuring music.",
     "networkId": "stage41-network-radio-x",
     "countryCode": "GB",
     "regionId": null,
@@ -17409,7 +17409,7 @@
   {
     "id": "stage41-e-fm",
     "name": "E FM Sri Lanka",
-    "about": "E FM Sri Lanka is a English-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "E FM Sri Lanka is a English-language radio station featuring music.",
     "networkId": "stage41-network-e-fm",
     "countryCode": "LK",
     "regionId": null,
@@ -17455,7 +17455,7 @@
   {
     "id": "stage41-sadhguru-radio",
     "name": "Sadhguru Radio",
-    "about": "Sadhguru Radio is a English-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Sadhguru Radio is a English-language radio station featuring devotional music.",
     "networkId": "stage41-network-sadhguru-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -17501,7 +17501,7 @@
   {
     "id": "stage41-mirchi-90s-radio",
     "name": "Mirchi 90s Radio",
-    "about": "Mirchi 90s Radio is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Mirchi 90s Radio is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-mirchi-90s-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -17546,7 +17546,7 @@
   {
     "id": "stage41-radio-olive-retro",
     "name": "Radio Olive Retro",
-    "about": "Radio Olive Retro is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Olive Retro is a Hindi-language radio station featuring music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -17591,7 +17591,7 @@
   {
     "id": "stage41-lyca-radio-1458-am",
     "name": "Lyca Radio 1458 AM",
-    "about": "Lyca Radio 1458 AM is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Lyca Radio 1458 AM is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-lyca-radio-1458-am",
     "countryCode": "GB",
     "regionId": null,
@@ -17637,7 +17637,7 @@
   {
     "id": "stage41-radio-olive",
     "name": "Radio Olive",
-    "about": "Radio Olive is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Olive is a Hindi-language radio station featuring music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -17682,7 +17682,7 @@
   {
     "id": "stage41-radio-antara",
     "name": "Radio Antara",
-    "about": "Radio Antara is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Antara is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-radio-antara",
     "countryCode": "IN",
     "regionId": null,
@@ -17728,7 +17728,7 @@
   {
     "id": "stage41-big-fm-106-2",
     "name": "Big FM 106.2 Dubai",
-    "about": "Big FM 106.2 Dubai is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Big FM 106.2 Dubai is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-big-fm-106-2",
     "countryCode": "AE",
     "regionId": null,
@@ -17774,7 +17774,7 @@
   {
     "id": "stage41-radio-nashaa-fm",
     "name": "Radio Nashaa FM",
-    "about": "Radio Nashaa FM is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Nashaa FM is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-radio-nashaa-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -17820,7 +17820,7 @@
   {
     "id": "stage41-radio-namkin",
     "name": "Radio Namkin",
-    "about": "Radio Namkin is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Namkin is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-radio-namkin",
     "countryCode": "IN",
     "regionId": null,
@@ -17866,7 +17866,7 @@
   {
     "id": "stage41-radio-badal",
     "name": "Radio Badal",
-    "about": "Radio Badal is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Badal is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-radio-badal",
     "countryCode": "IN",
     "regionId": null,
@@ -17912,7 +17912,7 @@
   {
     "id": "stage41-filmy-mirchi",
     "name": "Filmy Mirchi",
-    "about": "Filmy Mirchi is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Filmy Mirchi is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-filmy-mirchi",
     "countryCode": "IN",
     "regionId": null,
@@ -17957,7 +17957,7 @@
   {
     "id": "stage41-radio-sports-flashes",
     "name": "Radio Sports Flashes",
-    "about": "Radio Sports Flashes is a Hindi-language news and current affairs station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Sports Flashes is a Hindi-language radio station featuring news.",
     "networkId": "stage41-network-radio-sports-flashes",
     "countryCode": "IN",
     "regionId": null,
@@ -18003,7 +18003,7 @@
   {
     "id": "stage41-best-of-ghazals",
     "name": "Best of Ghazals",
-    "about": "Best of Ghazals is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Best of Ghazals is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-best-of-ghazals",
     "countryCode": "IN",
     "regionId": null,
@@ -18049,7 +18049,7 @@
   {
     "id": "stage41-non-stop-hindi",
     "name": "Non Stop Hindi Radio",
-    "about": "Non Stop Hindi Radio is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Non Stop Hindi Radio is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-non-stop-hindi",
     "countryCode": "IN",
     "regionId": null,
@@ -18095,7 +18095,7 @@
   {
     "id": "stage41-oho-radio",
     "name": "Oho Radio",
-    "about": "Oho Radio is a Hindi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Oho Radio is a Hindi-language radio station featuring music.",
     "networkId": "stage41-network-oho-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18141,7 +18141,7 @@
   {
     "id": "stage41-rang-fm",
     "name": "Rang FM",
-    "about": "Rang FM is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Rang FM is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-rang-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -18187,7 +18187,7 @@
   {
     "id": "stage41-yo-punjabi-mirchi",
     "name": "Yo Punjabi Mirchi",
-    "about": "Yo Punjabi Mirchi is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Yo Punjabi Mirchi is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-yo-punjabi-mirchi",
     "countryCode": "IN",
     "regionId": null,
@@ -18232,7 +18232,7 @@
   {
     "id": "stage41-hot-now-punjabi-radio",
     "name": "Hot Now Punjabi Radio",
-    "about": "Hot Now Punjabi Radio is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Hot Now Punjabi Radio is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-hot-now-punjabi-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18278,7 +18278,7 @@
   {
     "id": "stage41-spice-radio-1200-am",
     "name": "Spice Radio 1200 AM",
-    "about": "Spice Radio 1200 AM is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Spice Radio 1200 AM is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-spice-radio-1200-am",
     "countryCode": "CA",
     "regionId": null,
@@ -18324,7 +18324,7 @@
   {
     "id": "stage41-gurbani-kirtan",
     "name": "Gurbani Kirtan",
-    "about": "Gurbani Kirtan is a Punjabi-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Gurbani Kirtan is a Punjabi-language radio station featuring devotional music.",
     "networkId": "stage41-network-gurbani-kirtan",
     "countryCode": "IN",
     "regionId": null,
@@ -18370,7 +18370,7 @@
   {
     "id": "stage41-dhol-radio",
     "name": "Dhol Radio",
-    "about": "Dhol Radio is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Dhol Radio is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-dhol-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18416,7 +18416,7 @@
   {
     "id": "stage41-punjabi-radio-usa",
     "name": "Punjabi Radio USA",
-    "about": "Punjabi Radio USA is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Punjabi Radio USA is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-punjabi-radio-usa",
     "countryCode": "US",
     "regionId": null,
@@ -18462,7 +18462,7 @@
   {
     "id": "stage41-indi-radio",
     "name": "Indi Radio",
-    "about": "Indi Radio is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Indi Radio is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-indi-radio",
     "countryCode": "CA",
     "regionId": null,
@@ -18508,7 +18508,7 @@
   {
     "id": "stage41-my-punjabi-radio",
     "name": "My Punjabi Radio",
-    "about": "My Punjabi Radio is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "My Punjabi Radio is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-my-punjabi-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18554,7 +18554,7 @@
   {
     "id": "stage41-radio-humsafar-1350-am",
     "name": "Radio Humsafar 1350 AM",
-    "about": "Radio Humsafar 1350 AM is a Punjabi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Humsafar 1350 AM is a Punjabi-language radio station featuring music.",
     "networkId": "stage41-network-radio-humsafar-1350-am",
     "countryCode": "CA",
     "regionId": null,
@@ -18600,7 +18600,7 @@
   {
     "id": "stage41-just-odisha-radio",
     "name": "Just Odisha Radio",
-    "about": "Just Odisha Radio is a Odia-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Just Odisha Radio is a Odia-language radio station featuring music.",
     "networkId": "stage41-network-just-odisha-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18646,7 +18646,7 @@
   {
     "id": "stage41-radio-jajabara",
     "name": "Radio Jajabara",
-    "about": "Radio Jajabara is a Odia-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Jajabara is a Odia-language radio station featuring music.",
     "networkId": "stage41-network-radio-jajabara",
     "countryCode": "IN",
     "regionId": null,
@@ -18692,7 +18692,7 @@
   {
     "id": "stage41-phule-krishi-vahini",
     "name": "Phule Krishi Vahini",
-    "about": "Phule Krishi Vahini is a Marathi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Phule Krishi Vahini is a Marathi-language radio station featuring music.",
     "networkId": "stage41-network-phule-krishi-vahini",
     "countryCode": "IN",
     "regionId": null,
@@ -18738,7 +18738,7 @@
   {
     "id": "stage41-shripad-radio",
     "name": "Shripad Radio",
-    "about": "Shripad Radio is a Marathi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Shripad Radio is a Marathi-language radio station featuring music.",
     "networkId": "stage41-network-shripad-radio",
     "countryCode": "IN",
     "regionId": null,
@@ -18784,7 +18784,7 @@
   {
     "id": "stage41-smile-fm-90-8",
     "name": "Smile FM 90.8",
-    "about": "Smile FM 90.8 is a Marathi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Smile FM 90.8 is a Marathi-language radio station featuring music.",
     "networkId": "stage41-network-smile-fm-90-8",
     "countryCode": "IN",
     "regionId": null,
@@ -18830,7 +18830,7 @@
   {
     "id": "stage41-bhaktisudha",
     "name": "Bhaktisudha",
-    "about": "Bhaktisudha is a Marathi-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Bhaktisudha is a Marathi-language radio station featuring devotional music.",
     "networkId": "stage41-network-bhaktisudha",
     "countryCode": "IN",
     "regionId": null,
@@ -18876,7 +18876,7 @@
   {
     "id": "stage41-mirchi-kochi",
     "name": "Radio Mirchi Kochi",
-    "about": "Radio Mirchi Kochi is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Mirchi Kochi is a Malayalam-language radio station featuring music.",
     "networkId": "mirchi",
     "countryCode": "IN",
     "regionId": null,
@@ -18922,7 +18922,7 @@
   {
     "id": "stage41-radio-suno-melody",
     "name": "Radio Suno Melody",
-    "about": "Radio Suno Melody is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Suno Melody is a Malayalam-language radio station featuring music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -18967,7 +18967,7 @@
   {
     "id": "stage41-radio-suno",
     "name": "Radio Suno 91.7 FM",
-    "about": "Radio Suno 91.7 FM is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Suno 91.7 FM is a Malayalam-language radio station featuring music.",
     "networkId": "olive-suno",
     "countryCode": "QA",
     "regionId": null,
@@ -19012,7 +19012,7 @@
   {
     "id": "stage41-club-fm",
     "name": "Club FM",
-    "about": "Club FM is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Club FM is a Malayalam-language radio station featuring music.",
     "networkId": "club-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -19058,7 +19058,7 @@
   {
     "id": "stage41-radio-malayalam-98-6-fm",
     "name": "Radio Malayalam 98.6 FM",
-    "about": "Radio Malayalam 98.6 FM is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Malayalam 98.6 FM is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-malayalam-98-6-fm",
     "countryCode": "QA",
     "regionId": null,
@@ -19104,7 +19104,7 @@
   {
     "id": "stage41-radio-talky",
     "name": "Radio Talky",
-    "about": "Radio Talky is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Talky is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-talky",
     "countryCode": "IN",
     "regionId": null,
@@ -19150,7 +19150,7 @@
   {
     "id": "stage41-radio-city-malayalam",
     "name": "Radio City Malayalam",
-    "about": "Radio City Malayalam is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio City Malayalam is a Malayalam-language radio station featuring music.",
     "networkId": "radio-city",
     "countryCode": "IN",
     "regionId": null,
@@ -19195,7 +19195,7 @@
   {
     "id": "stage41-radio-kerala",
     "name": "Radio Kerala",
-    "about": "Radio Kerala is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Kerala is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-kerala",
     "countryCode": "IN",
     "regionId": null,
@@ -19241,7 +19241,7 @@
   {
     "id": "stage41-radio-beats",
     "name": "Radio Beats",
-    "about": "Radio Beats is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Beats is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-beats",
     "countryCode": "IN",
     "regionId": null,
@@ -19287,7 +19287,7 @@
   {
     "id": "stage41-gramaphone-fm",
     "name": "Gramaphone FM",
-    "about": "Gramaphone FM is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Gramaphone FM is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-gramaphone-fm",
     "countryCode": "IN",
     "regionId": null,
@@ -19333,7 +19333,7 @@
   {
     "id": "stage41-radio-mango",
     "name": "Radio Mango",
-    "about": "Radio Mango is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Mango is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-mango",
     "countryCode": "IN",
     "regionId": null,
@@ -19380,7 +19380,7 @@
   {
     "id": "stage41-ahalia-fm-90-4",
     "name": "Ahalia FM 90.4",
-    "about": "Ahalia FM 90.4 is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Ahalia FM 90.4 is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-ahalia-fm-90-4",
     "countryCode": "IN",
     "regionId": null,
@@ -19426,7 +19426,7 @@
   {
     "id": "stage41-radio-neythal",
     "name": "Radio Neythal",
-    "about": "Radio Neythal is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Neythal is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-neythal",
     "countryCode": "IN",
     "regionId": null,
@@ -19472,7 +19472,7 @@
   {
     "id": "stage41-radio-benziger",
     "name": "Radio Benziger",
-    "about": "Radio Benziger is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Benziger is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-benziger",
     "countryCode": "IN",
     "regionId": null,
@@ -19518,7 +19518,7 @@
   {
     "id": "stage41-radio-malayalam-usa",
     "name": "Radio Malayalam USA",
-    "about": "Radio Malayalam USA is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Malayalam USA is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-radio-malayalam-usa",
     "countryCode": "US",
     "regionId": null,
@@ -19564,7 +19564,7 @@
   {
     "id": "stage41-ashraya-fm-90",
     "name": "Ashraya FM 90",
-    "about": "Ashraya FM 90 is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Ashraya FM 90 is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-ashraya-fm-90",
     "countryCode": "IN",
     "regionId": null,
@@ -19610,7 +19610,7 @@
   {
     "id": "stage41-paattu-petti",
     "name": "Paattu Petti",
-    "about": "Paattu Petti is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Paattu Petti is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-paattu-petti",
     "countryCode": "IN",
     "regionId": null,
@@ -19656,7 +19656,7 @@
   {
     "id": "stage41-dubai-1-fm",
     "name": "Dubai 1 FM",
-    "about": "Dubai 1 FM is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Dubai 1 FM is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-dubai-1-fm",
     "countryCode": "AE",
     "regionId": null,
@@ -19702,7 +19702,7 @@
   {
     "id": "stage41-hello-radio-90-8",
     "name": "Hello Radio 90.8",
-    "about": "Hello Radio 90.8 is a Malayalam-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Hello Radio 90.8 is a Malayalam-language radio station featuring music.",
     "networkId": "stage41-network-hello-radio-90-8",
     "countryCode": "IN",
     "regionId": null,
@@ -19748,7 +19748,7 @@
   {
     "id": "stage41-abc-radio-fm-89-2",
     "name": "ABC Radio FM 89.2",
-    "about": "ABC Radio FM 89.2 is a Bengali-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "ABC Radio FM 89.2 is a Bengali-language radio station featuring music.",
     "networkId": "stage41-network-abc-radio-fm-89-2",
     "countryCode": "BD",
     "regionId": null,
@@ -19794,7 +19794,7 @@
   {
     "id": "stage41-radio-bhumi",
     "name": "Radio Bhumi",
-    "about": "Radio Bhumi is a Bengali-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Bhumi is a Bengali-language radio station featuring music.",
     "networkId": "stage41-network-radio-bhumi",
     "countryCode": "BD",
     "regionId": null,
@@ -19840,7 +19840,7 @@
   {
     "id": "stage41-geet-radio-bengali",
     "name": "Geet Radio Bengali",
-    "about": "Geet Radio Bengali is a Bengali-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Geet Radio Bengali is a Bengali-language radio station featuring music.",
     "networkId": "stage41-network-geet-radio-bengali",
     "countryCode": "BD",
     "regionId": null,
@@ -19886,7 +19886,7 @@
   {
     "id": "stage41-goldy-sarvaani",
     "name": "Goldy Sarvaani",
-    "about": "Goldy Sarvaani is a Gujarati-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Goldy Sarvaani is a Gujarati-language radio station featuring music.",
     "networkId": "stage41-network-goldy-sarvaani",
     "countryCode": "IN",
     "regionId": null,
@@ -19932,7 +19932,7 @@
   {
     "id": "stage41-goldy-aaradhna",
     "name": "Goldy Aaradhna",
-    "about": "Goldy Aaradhna is a Gujarati-language devotional music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Goldy Aaradhna is a Gujarati-language radio station featuring devotional music.",
     "networkId": "stage41-network-goldy-aaradhna",
     "countryCode": "IN",
     "regionId": null,
@@ -19978,7 +19978,7 @@
   {
     "id": "stage41-goldy-cool",
     "name": "Goldy Cool",
-    "about": "Goldy Cool is a Gujarati-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Goldy Cool is a Gujarati-language radio station featuring music.",
     "networkId": "stage41-network-goldy-cool",
     "countryCode": "IN",
     "regionId": null,
@@ -20024,7 +20024,7 @@
   {
     "id": "stage41-goldy-garba",
     "name": "Goldy Garba",
-    "about": "Goldy Garba is a Gujarati-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Goldy Garba is a Gujarati-language radio station featuring music.",
     "networkId": "stage41-network-goldy-garba",
     "countryCode": "IN",
     "regionId": null,
@@ -20070,7 +20070,7 @@
   {
     "id": "stage41-radio-utsav",
     "name": "Radio Utsav",
-    "about": "Radio Utsav is a Gujarati-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Utsav is a Gujarati-language radio station featuring music.",
     "networkId": "stage41-network-radio-utsav",
     "countryCode": "GB",
     "regionId": null,
@@ -20116,7 +20116,7 @@
   {
     "id": "stage41-sheetal-sangeet",
     "name": "Sheetal Sangeet",
-    "about": "Sheetal Sangeet is a Gujarati-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Sheetal Sangeet is a Gujarati-language radio station featuring music.",
     "networkId": "stage41-network-sheetal-sangeet",
     "countryCode": "IN",
     "regionId": null,
@@ -20162,7 +20162,7 @@
   {
     "id": "stage41-radio-kasoot",
     "name": "Radio Kasoot (Haryanvi)",
-    "about": "Radio Kasoot (Haryanvi) is a Haryanvi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Kasoot (Haryanvi) is a radio station featuring music.",
     "networkId": "stage41-network-radio-kasoot",
     "countryCode": "IN",
     "regionId": null,
@@ -20208,7 +20208,7 @@
   {
     "id": "stage41-golden-goa",
     "name": "Golden Goa Radio",
-    "about": "Golden Goa Radio is a Konkani-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Golden Goa Radio is a Konkani-language radio station featuring music.",
     "networkId": "stage41-network-golden-goa",
     "countryCode": "IN",
     "regionId": null,
@@ -20254,7 +20254,7 @@
   {
     "id": "stage41-k-radio-konkani",
     "name": "K Radio Konkani",
-    "about": "K Radio Konkani is a Konkani-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "K Radio Konkani is a Konkani-language radio station featuring music.",
     "networkId": "stage41-network-k-radio-konkani",
     "countryCode": "IN",
     "regionId": null,
@@ -20300,7 +20300,7 @@
   {
     "id": "stage41-konkani-forever-uk",
     "name": "Konkani Forever UK",
-    "about": "Konkani Forever UK is a Konkani-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Konkani Forever UK is a Konkani-language radio station featuring music.",
     "networkId": "stage41-network-konkani-forever-uk",
     "countryCode": "GB",
     "regionId": null,
@@ -20346,7 +20346,7 @@
   {
     "id": "stage41-hd-radio-bhojpuri",
     "name": "HD Radio Bhojpuri",
-    "about": "HD Radio Bhojpuri is a Bhojpuri-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "HD Radio Bhojpuri is a Bhojpuri-language radio station featuring music.",
     "networkId": "stage41-network-hd-radio-bhojpuri",
     "countryCode": "IN",
     "regionId": null,
@@ -20392,7 +20392,7 @@
   {
     "id": "stage41-radio-sindhi",
     "name": "Radio Sindhi",
-    "about": "Radio Sindhi is a Sindhi-language music station listing with an online audio stream candidate. The referenced directory page supplied player configuration or a corroborating public playlist on 16 November 2026. Its broadcaster details, ongoing availability, actual on-air content and third-party listening permissions require independent checks.",
+    "about": "Radio Sindhi is a Sindhi-language radio station featuring music.",
     "networkId": "stage41-network-radio-sindhi",
     "countryCode": "IN",
     "regionId": null,
@@ -20438,7 +20438,7 @@
   {
     "id": "stage42-mirchi-98-3-online",
     "name": "Radio Mirchi 98.3 FM (online listing)",
-    "about": "Radio Mirchi 98.3 FM is an Indian broadcast brand and this OnlineRadioFM listing provides a distinct Zeno stream. Its broadcaster operating region, programme feed and current in-app audio availability remain unconfirmed. This candidate does not replace the existing Radio Mirchi Chennai or Kochi stations.",
+    "about": "Radio Mirchi 98.3 FM (online listing) is a Hindi-language radio station featuring music.",
     "networkId": "mirchi",
     "countryCode": "IN",
     "regionId": null,
@@ -20483,7 +20483,7 @@
   {
     "id": "stage42-red-fm-93-5-delhi",
     "name": "93.5 RED FM Delhi (online listing)",
-    "about": "93.5 RED FM Delhi is an Indian radio service with an OnlineRadioFM directory page and a distinct Zeno stream candidate. The Delhi frequency has a government-documented permission holder, South Asia FM Limited. The association of the directory's stream with the specific broadcast feed and live playback are still unverified.",
+    "about": "93.5 RED FM Delhi (online listing) is a Hindi-language radio station featuring music.",
     "networkId": "stage42-red-fm-delhi",
     "countryCode": "IN",
     "regionId": null,
