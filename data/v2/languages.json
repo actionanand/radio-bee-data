@@ -328,5 +328,20 @@
     "code": "or",
     "name": "Odia",
     "nativeName": "ଓଡ଼ିଆ"
+  },
+  {
+    "code": "bgc",
+    "name": "Haryanvi",
+    "nativeName": "हरियाणवी"
+  },
+  {
+    "code": "kok",
+    "name": "Konkani",
+    "nativeName": "कोंकणी"
+  },
+  {
+    "code": "sd",
+    "name": "Sindhi",
+    "nativeName": "سنڌي"
   }
 ]
