@@ -2609,5 +2609,768 @@
     "url": "https://github.com/Srivyaa/RadioStations/blob/main/data/music.json",
     "kind": "directory",
     "notes": "Directory snapshot identifies Air Tamil 90S Songs with direct Zeno stream mw96g2eafwzuv, Tamil language, India and historical MP3 codec. Historical check was October 2025, not a recent playback test. Different stream from existing AirTamil 90s; independent broadcaster ownership unconfirmed."
+  },
+  {
+    "id": "stage41-source-malayalam-playlist",
+    "title": "Public Malayalam station stream playlist for alternative endpoint corroboration",
+    "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/main/zeno.fm/Malayalam.m3u",
+    "kind": "third-party",
+    "notes": "Public language playlist provides named alternative media URLs for selected Malayalam stations where the directory's embedded player URLs overlap unrelated brands; not proof of broadcaster approval or current playback."
+  },
+  {
+    "id": "stage41-source-aaruthal-fm",
+    "title": "Stage 41 player capture: Aaruthal FM",
+    "url": "https://liveradios.in/aaruthal-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-gilli",
+    "title": "Stage 41 player capture: Radio Gilli",
+    "url": "https://liveradios.in/radio-gilli.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-tamil-sun-fm",
+    "title": "Stage 41 player capture: Tamil Sun FM",
+    "url": "https://liveradios.in/tamil-sun-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-sahara-fm",
+    "title": "Stage 41 player capture: Sahara FM",
+    "url": "https://liveradios.in/sahara-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-muthamil-fm-88-9-hd3",
+    "title": "Stage 41 player capture: Muthamil FM 88.9 HD3",
+    "url": "https://liveradios.in/muthamil-fm-88-9-hd3.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-vaigai-fm",
+    "title": "Stage 41 player capture: Vaigai FM",
+    "url": "https://liveradios.in/vaigai-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-capital-fm",
+    "title": "Stage 41 player capture: Capital FM",
+    "url": "https://liveradios.in/capital-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-paramakurichi",
+    "title": "Stage 41 player capture: Radio Paramakurichi",
+    "url": "https://liveradios.in/radio-paramakurichi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-old-hits",
+    "title": "Stage 41 player capture: Old Hits Tamil Radio",
+    "url": "https://liveradios.in/old-hits.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-canadian-tamil-radio-ctr",
+    "title": "Stage 41 player capture: Canadian Tamil Radio (CTR)",
+    "url": "https://liveradios.in/canadian-tamil-radio-ctr.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-arni-city-fm",
+    "title": "Stage 41 player capture: Arni City FM",
+    "url": "https://liveradios.in/arni-city-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-covai-fm",
+    "title": "Stage 41 player capture: Covai FM",
+    "url": "https://liveradios.in/covai-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-thenkasi-fm-radio",
+    "title": "Stage 41 player capture: Thenkasi FM Radio",
+    "url": "https://liveradios.in/thenkasi-fm-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-erode-city-fm",
+    "title": "Stage 41 player capture: Erode City FM",
+    "url": "https://liveradios.in/erode-city-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-iyalisai-bhakti-radio",
+    "title": "Stage 41 player capture: Iyalisai Bhakti Radio",
+    "url": "https://liveradios.in/iyalisai-bhakti-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-lakshmi-fm",
+    "title": "Stage 41 player capture: Lakshmi FM",
+    "url": "https://liveradios.in/lakshmi-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-gingee-fm",
+    "title": "Stage 41 player capture: Gingee FM (செஞ்சி)",
+    "url": "https://liveradios.in/gingee-fm-%E0%AE%9A%E0%AF%86%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ajith-fm",
+    "title": "Stage 41 player capture: Ajith FM",
+    "url": "https://liveradios.in/ajith-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-tamil-amuthu-madurai-radio",
+    "title": "Stage 41 player capture: Tamil Amuthu Madurai Radio",
+    "url": "https://liveradios.in/tamil-amuthu-madurai-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-kodaisaral-fm",
+    "title": "Stage 41 player capture: Kodaisaral FM",
+    "url": "https://liveradios.in/kodaisaral-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-alaikal-fm",
+    "title": "Stage 41 player capture: Alaikal FM",
+    "url": "https://liveradios.in/alaikal-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-saaral-fm",
+    "title": "Stage 41 player capture: Saaral FM",
+    "url": "https://liveradios.in/saaral-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-chillax-fm",
+    "title": "Stage 41 player capture: Chillax FM",
+    "url": "https://liveradios.in/chillax-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-british-indian-tamil-radio",
+    "title": "Stage 41 player capture: British Indian Tamil Radio",
+    "url": "https://liveradios.in/british-indian-tamil-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-isai-oli-fm",
+    "title": "Stage 41 player capture: Isai Oli FM",
+    "url": "https://liveradios.in/isai-oli-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-erode-jai-fm",
+    "title": "Stage 41 player capture: Erode Jai FM",
+    "url": "https://liveradios.in/erode-jai-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-lbc-tamil",
+    "title": "Stage 41 player capture: LBC Tamil",
+    "url": "https://liveradios.in/lbc-tamil.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-sharmitha-fm",
+    "title": "Stage 41 player capture: Sharmitha FM",
+    "url": "https://liveradios.in/sharmitha-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-imai-fm",
+    "title": "Stage 41 player capture: Imai FM",
+    "url": "https://liveradios.in/imai-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ilamai-fm",
+    "title": "Stage 41 player capture: Ilamai FM",
+    "url": "https://liveradios.in/ilamai-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ss-radio-madurai",
+    "title": "Stage 41 player capture: SS Radio Madurai",
+    "url": "https://liveradios.in/ss-radio-madurai.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-pattampoochi-fm",
+    "title": "Stage 41 player capture: Pattampoochi FM",
+    "url": "https://liveradios.in/pattampoochi-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-madurai-voice-fm",
+    "title": "Stage 41 player capture: Madurai Voice FM",
+    "url": "https://liveradios.in/madurai-voice-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-hello-tamizha-fm",
+    "title": "Stage 41 player capture: Hello Tamizha FM",
+    "url": "https://liveradios.in/hello-tamizha-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-thimiru-fm",
+    "title": "Stage 41 player capture: Thimiru FM",
+    "url": "https://liveradios.in/thimiru-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ftc-fm",
+    "title": "Stage 41 player capture: FTC FM",
+    "url": "https://liveradios.in/ftc-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-tamil-amuthu-bakthi-radio",
+    "title": "Stage 41 player capture: Tamil Amuthu Bakthi Radio",
+    "url": "https://liveradios.in/tamil-amuthu-bakthi-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-sun-fm",
+    "title": "Stage 41 player capture: Sun FM Sri Lanka",
+    "url": "https://liveradios.in/sun-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-bbc-world-service",
+    "title": "Stage 41 player capture: BBC World Service",
+    "url": "https://liveradios.in/bbc-world-service.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-sri-lanka",
+    "title": "Stage 41 player capture: Radio Sri Lanka",
+    "url": "https://liveradios.in/radio-sri-lanka.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-fox-fm",
+    "title": "Stage 41 player capture: Fox FM Sri Lanka",
+    "url": "https://liveradios.in/fox-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-x",
+    "title": "Stage 41 player capture: Radio X UK",
+    "url": "https://liveradios.in/radio-x.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-e-fm",
+    "title": "Stage 41 player capture: E FM Sri Lanka",
+    "url": "https://liveradios.in/e-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-sadhguru-radio",
+    "title": "Stage 41 player capture: Sadhguru Radio",
+    "url": "https://liveradios.in/sadhguru-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-mirchi-90s-radio",
+    "title": "Stage 41 player capture: Mirchi 90s Radio",
+    "url": "https://liveradios.in/mirchi-90s-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-olive-retro",
+    "title": "Stage 41 player capture: Radio Olive Retro",
+    "url": "https://liveradios.in/radio-olive-retro.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-lyca-radio-1458-am",
+    "title": "Stage 41 player capture: Lyca Radio 1458 AM",
+    "url": "https://liveradios.in/lyca-radio-1458-am.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-olive",
+    "title": "Stage 41 player capture: Radio Olive",
+    "url": "https://liveradios.in/radio-olive.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-antara",
+    "title": "Stage 41 player capture: Radio Antara",
+    "url": "https://liveradios.in/radio-antara.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-big-fm-106-2",
+    "title": "Stage 41 player capture: Big FM 106.2 Dubai",
+    "url": "https://liveradios.in/big-fm-106-2.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-nashaa-fm",
+    "title": "Stage 41 player capture: Radio Nashaa FM",
+    "url": "https://liveradios.in/radio-nashaa-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-namkin",
+    "title": "Stage 41 player capture: Radio Namkin",
+    "url": "https://liveradios.in/radio-namkin.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-badal",
+    "title": "Stage 41 player capture: Radio Badal",
+    "url": "https://liveradios.in/radio-badal.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-filmy-mirchi",
+    "title": "Stage 41 player capture: Filmy Mirchi",
+    "url": "https://liveradios.in/filmy-mirchi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-sports-flashes",
+    "title": "Stage 41 player capture: Radio Sports Flashes",
+    "url": "https://liveradios.in/radio-sports-flashes.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-best-of-ghazals",
+    "title": "Stage 41 player capture: Best of Ghazals",
+    "url": "https://liveradios.in/best-of-ghazals.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-non-stop-hindi",
+    "title": "Stage 41 player capture: Non Stop Hindi Radio",
+    "url": "https://liveradios.in/non-stop-hindi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-oho-radio",
+    "title": "Stage 41 player capture: Oho Radio",
+    "url": "https://liveradios.in/oho-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-rang-fm",
+    "title": "Stage 41 player capture: Rang FM",
+    "url": "https://liveradios.in/rang-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-yo-punjabi-mirchi",
+    "title": "Stage 41 player capture: Yo Punjabi Mirchi",
+    "url": "https://liveradios.in/yo-punjabi-mirchi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-hot-now-punjabi-radio",
+    "title": "Stage 41 player capture: Hot Now Punjabi Radio",
+    "url": "https://liveradios.in/hot-now-punjabi-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-spice-radio-1200-am",
+    "title": "Stage 41 player capture: Spice Radio 1200 AM",
+    "url": "https://liveradios.in/spice-radio-1200-am.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-gurbani-kirtan",
+    "title": "Stage 41 player capture: Gurbani Kirtan",
+    "url": "https://liveradios.in/gurbani-kirtan.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-dhol-radio",
+    "title": "Stage 41 player capture: Dhol Radio",
+    "url": "https://liveradios.in/dhol-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-punjabi-radio-usa",
+    "title": "Stage 41 player capture: Punjabi Radio USA",
+    "url": "https://liveradios.in/punjabi-radio-usa.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-indi-radio",
+    "title": "Stage 41 player capture: Indi Radio",
+    "url": "https://liveradios.in/indi-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-my-punjabi-radio",
+    "title": "Stage 41 player capture: My Punjabi Radio",
+    "url": "https://liveradios.in/my-punjabi-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-humsafar-1350-am",
+    "title": "Stage 41 player capture: Radio Humsafar 1350 AM",
+    "url": "https://liveradios.in/radio-humsafar-1350-am.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-just-odisha-radio",
+    "title": "Stage 41 player capture: Just Odisha Radio",
+    "url": "https://liveradios.in/just-odisha-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-jajabara",
+    "title": "Stage 41 player capture: Radio Jajabara",
+    "url": "https://liveradios.in/radio-jajabara.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-phule-krishi-vahini",
+    "title": "Stage 41 player capture: Phule Krishi Vahini",
+    "url": "https://liveradios.in/phule-krishi-vahini.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-shripad-radio",
+    "title": "Stage 41 player capture: Shripad Radio",
+    "url": "https://liveradios.in/shripad-radio.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-smile-fm-90-8",
+    "title": "Stage 41 player capture: Smile FM 90.8",
+    "url": "https://liveradios.in/smile-fm-90-8.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-bhaktisudha",
+    "title": "Stage 41 player capture: Bhaktisudha",
+    "url": "https://liveradios.in/bhaktisudha.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-mirchi-kochi",
+    "title": "Stage 41 player capture: Radio Mirchi Kochi",
+    "url": "https://liveradios.in/mirchi-kochi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-suno-melody",
+    "title": "Stage 41 player capture: Radio Suno Melody",
+    "url": "https://liveradios.in/radio-suno-melody.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-suno",
+    "title": "Stage 41 player capture: Radio Suno 91.7 FM",
+    "url": "https://liveradios.in/radio-suno.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-club-fm",
+    "title": "Stage 41 player capture: Club FM",
+    "url": "https://liveradios.in/club-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-malayalam-98-6-fm",
+    "title": "Stage 41 player capture: Radio Malayalam 98.6 FM",
+    "url": "https://liveradios.in/radio-malayalam-98-6-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-talky",
+    "title": "Stage 41 player capture: Radio Talky",
+    "url": "https://liveradios.in/radio-talky.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-city-malayalam",
+    "title": "Stage 41 player capture: Radio City Malayalam",
+    "url": "https://liveradios.in/radio-city-malayalam.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-kerala",
+    "title": "Stage 41 player capture: Radio Kerala",
+    "url": "https://liveradios.in/radio-kerala.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-beats",
+    "title": "Stage 41 player capture: Radio Beats",
+    "url": "https://liveradios.in/radio-beats.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-gramaphone-fm",
+    "title": "Stage 41 player capture: Gramaphone FM",
+    "url": "https://liveradios.in/gramaphone-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-mango",
+    "title": "Stage 41 player capture: Radio Mango",
+    "url": "https://liveradios.in/radio-mango.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ahalia-fm-90-4",
+    "title": "Stage 41 player capture: Ahalia FM 90.4",
+    "url": "https://liveradios.in/ahalia-fm-90-4.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-neythal",
+    "title": "Stage 41 player capture: Radio Neythal",
+    "url": "https://liveradios.in/radio-neythal.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-benziger",
+    "title": "Stage 41 player capture: Radio Benziger",
+    "url": "https://liveradios.in/radio-benziger.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-malayalam-usa",
+    "title": "Stage 41 player capture: Radio Malayalam USA",
+    "url": "https://liveradios.in/radio-malayalam-usa.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-ashraya-fm-90",
+    "title": "Stage 41 player capture: Ashraya FM 90",
+    "url": "https://liveradios.in/ashraya-fm-90.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-paattu-petti",
+    "title": "Stage 41 player capture: Paattu Petti",
+    "url": "https://liveradios.in/paattu-petti.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-dubai-1-fm",
+    "title": "Stage 41 player capture: Dubai 1 FM",
+    "url": "https://liveradios.in/dubai-1-fm.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-hello-radio-90-8",
+    "title": "Stage 41 player capture: Hello Radio 90.8",
+    "url": "https://liveradios.in/hello-radio-90-8.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-abc-radio-fm-89-2",
+    "title": "Stage 41 player capture: ABC Radio FM 89.2",
+    "url": "https://liveradios.in/abc-radio-fm-89-2.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-bhumi",
+    "title": "Stage 41 player capture: Radio Bhumi",
+    "url": "https://liveradios.in/radio-bhumi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-geet-radio-bengali",
+    "title": "Stage 41 player capture: Geet Radio Bengali",
+    "url": "https://liveradios.in/geet-radio-bengali.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-goldy-sarvaani",
+    "title": "Stage 41 player capture: Goldy Sarvaani",
+    "url": "https://liveradios.in/goldy-sarvaani.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-goldy-aaradhna",
+    "title": "Stage 41 player capture: Goldy Aaradhna",
+    "url": "https://liveradios.in/goldy-aaradhna.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-goldy-cool",
+    "title": "Stage 41 player capture: Goldy Cool",
+    "url": "https://liveradios.in/goldy-cool.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-goldy-garba",
+    "title": "Stage 41 player capture: Goldy Garba",
+    "url": "https://liveradios.in/goldy-garba.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-utsav",
+    "title": "Stage 41 player capture: Radio Utsav",
+    "url": "https://liveradios.in/radio-utsav.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-sheetal-sangeet",
+    "title": "Stage 41 player capture: Sheetal Sangeet",
+    "url": "https://liveradios.in/sheetal-sangeet.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-kasoot",
+    "title": "Stage 41 player capture: Radio Kasoot (Haryanvi)",
+    "url": "https://liveradios.in/radio-kasoot.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-golden-goa",
+    "title": "Stage 41 player capture: Golden Goa Radio",
+    "url": "https://liveradios.in/golden-goa.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-k-radio-konkani",
+    "title": "Stage 41 player capture: K Radio Konkani",
+    "url": "https://liveradios.in/k-radio-konkani.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-konkani-forever-uk",
+    "title": "Stage 41 player capture: Konkani Forever UK",
+    "url": "https://liveradios.in/konkani-forever-uk.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-hd-radio-bhojpuri",
+    "title": "Stage 41 player capture: HD Radio Bhojpuri",
+    "url": "https://liveradios.in/hd-radio-bhojpuri.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
+  },
+  {
+    "id": "stage41-source-radio-sindhi",
+    "title": "Stage 41 player capture: Radio Sindhi",
+    "url": "https://liveradios.in/radio-sindhi.html",
+    "kind": "directory",
+    "notes": "Source-page-specific player URL collected on 16 November 2026 from liveradios-page-specific-js. Candidate station identity and endpoint provenance only. This is not a current successful audio-decode, verified availability, rights grant, permission for in-app listening, recording or redistribution. HTTPS proxy endpoints with an HTTP upstream need additional playback review."
   }
 ]
