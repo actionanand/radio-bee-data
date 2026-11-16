@@ -54,10 +54,10 @@ test('Stage 40 preserves unique Sri Lankan Raja FM and exposes all sourced langu
 
 test('Stage 40 catalogue, Home selection, and derived browse index remain consistent',()=>{
   const d=readCatalogue(undefined,'v2');
-  assert.equal(d.index.catalogVersion,'2.8.9');
-  assert.equal(d.stations.length,288);
-  assert.equal(d.networks.length,270);
-  assert.equal(d.stations.flatMap(s=>s.streams).length,293);
+  assert.match(d.index.catalogVersion,/^2\.8\.\d+$/);
+  assert.equal(d.stations.filter(s=>!s.id.startsWith('stage41-')).length,288);
+  assert.equal(d.networks.filter(n=>!n.id.startsWith('stage41-')).length,270);
+  assert.equal(d.stations.filter(s=>!s.id.startsWith('stage41-')).flatMap(s=>s.streams).length,293);
   assert.equal(d.homeStations.count,d.homeStations.stationIds.length);
   assert.equal(new Set(d.homeStations.stationIds).size,d.homeStations.count);
   const ids=d.stations.flatMap(s=>s.streams.map(x=>x.url));

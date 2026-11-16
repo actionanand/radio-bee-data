@@ -1,0 +1,1756 @@
+{
+  "auditedOn": "2026-11-16",
+  "method": "live source-page deferred Playerjs config or inline player variable",
+  "entries": [
+    {
+      "lang": "ta",
+      "slug": "thr-raaga",
+      "page": "https://liveradios.in/thr-raaga.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://listen.openstream.co/7044/audio",
+        "https://stream.rcs.revma.com/a1ad6xtbv4uvv",
+        "https://astro3.rastream.com/raaga"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ilangai-vaanoli",
+      "page": "https://liveradios.in/ilangai-vaanoli.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://220.247.234.207:8000/cirstream",
+        "https://stream.zeno.fm/c524y0kx8vzuv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "aaruthal-fm",
+      "page": "https://liveradios.in/aaruthal-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova71.instainternet.com/proxy/aaruthalfm?mp=/stream",
+        "https://c22.radioboss.fm:8532/jehovahrapha"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "radio-gilli",
+      "page": "https://liveradios.in/radio-gilli.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream1.rcast.net/73058",
+        "https://stream1.rcast.net/73058",
+        "https://stream8.rcast.net/66462",
+        "http://centova.aarenworld.com/proxy/894tamilfm/stream",
+        "https://eu9.fastcast4u.com/proxy/etamil?mp=/;"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "thamil-thai-fm",
+      "page": "https://liveradios.in/thamil-thai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://neramfm.com:8008/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "tamil-sun-fm",
+      "page": "https://liveradios.in/tamil-sun-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://usa2.fastcast4u.com/proxy/tamilsun?mp=/;"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "isaiyoli-radio",
+      "page": "https://liveradios.in/isaiyoli-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova71.instainternet.com/proxy/isaiolifmadmin?mp=/stream&1691245966241"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "namathu-fm",
+      "page": "https://liveradios.in/namathu-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://s3.voscast.com:10527/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "sahara-fm",
+      "page": "https://liveradios.in/sahara-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://server.unicast2u.com/radio/8030/stream",
+        "https://azuracast.vibesounds.in:8000/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "mirchi-tamil-hits",
+      "page": "https://liveradios.in/mirchi-tamil-hits.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "http://stream.rcast.net/72516"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "muthamil-fm-88-9-hd3",
+      "page": "https://liveradios.in/muthamil-fm-88-9-hd3.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://ec4.yesstreaming.net:1990/stream",
+        "https://ice66.securenetsystems.net/MUTHAMIL",
+        "https://stream.tamilfmradios.com/?url=http://ice66.securenetsystems.net/MUTHAMIL",
+        "https://radio.massstream.net:7003/;Muthamil.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "vaigai-fm",
+      "page": "https://liveradios.in/vaigai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://vaigaifm.radioca.st/stream",
+        "https://centova1.dribbcast.com/proxy/vaigaifm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "capital-fm",
+      "page": "https://liveradios.in/capital-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://api.tamilfmradios.com/?id=capitalfmlive",
+        "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "radio-paramakurichi",
+      "page": "https://liveradios.in/radio-paramakurichi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://vpmurugun.radioca.st/autodj"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "old-hits",
+      "page": "https://liveradios.in/old-hits.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://a9oldhits-a9media.radioca.st/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "thaalam-fm",
+      "page": "https://liveradios.in/thaalam-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://ec4.yesstreaming.net:1990/stream",
+        "https://eu10.fastcast4u.com/zqbppyqa",
+        "https://ice66.securenetsystems.net/MUTHAMIL",
+        "https://stream.tamilfmradios.com/?url=http://ice66.securenetsystems.net/MUTHAMIL",
+        "https://radio.massstream.net:7003/;Muthamil.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "canadian-tamil-radio-ctr",
+      "page": "https://liveradios.in/canadian-tamil-radio-ctr.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://ctr24-backend.vercel.app/api/stream/live",
+        "https://stream.tamilfmradios.com/?url=http://198.27.66.225:8498/stream",
+        "https://stream.tamilfmradios.com/?url=http://ctbcfmradio.primcast.com:4086/;"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "arni-city-fm",
+      "page": "https://liveradios.in/arni-city-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://usa9.fastcast4u.com/proxy/arnifm?mp=/1"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "covai-fm",
+      "page": "https://liveradios.in/covai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/kzd2e3tx24zuv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "thenkasi-fm-radio",
+      "page": "https://liveradios.in/thenkasi-fm-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova1.dribbcast.com/proxy/tenkasithendralfm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "erode-city-fm",
+      "page": "https://liveradios.in/erode-city-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/9fp1383f0d0uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "iyalisai-bhakti-radio",
+      "page": "https://liveradios.in/iyalisai-bhakti-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://mhariraa.radioca.st/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "dindigul-radio",
+      "page": "https://liveradios.in/dindigul-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast6.asurahosting.com/proxy/dglradio/stream",
+        "http://spserver.sscast2u.in/dindigulcityfm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "lakshmi-fm",
+      "page": "https://liveradios.in/lakshmi-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova1.dribbcast.com/proxy/lakshmifm?mp=/stream",
+        "https://centova57.instainternet.com/proxy/lakshmifm?mp=/stream",
+        "https://eu3.fastcast4u.com/proxy/skajanee?mp=/;"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "gingee-fm-செஞ்சி",
+      "page": "https://liveradios.in/gingee-fm-%E0%AE%9A%E0%AF%86%E0%AE%9E%E0%AF%8D%E0%AE%9A%E0%AE%BF.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://gingeefm-prabak78.radioca.st/stream?type=http&nocache=3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "retro-fm",
+      "page": "https://liveradios.in/retro-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast6.asurahosting.com/proxy/retrotamil/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ajith-fm",
+      "page": "https://liveradios.in/ajith-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/ntkhu40k17zuv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "tamil-amuthu-madurai-radio",
+      "page": "https://liveradios.in/tamil-amuthu-madurai-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/utmhndkgtp8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "rj-tamil-pudhugai-fm",
+      "page": "https://liveradios.in/rj-tamil-pudhugai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast6.asurahosting.com/proxy/rjtamil/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "kodaisaral-fm",
+      "page": "https://liveradios.in/kodaisaral-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova1.dribbcast.com/proxy/kodaisaralfm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ss-tamil-radio-sivagangai",
+      "page": "https://liveradios.in/ss-tamil-radio-sivagangai.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast6.asurahosting.com/proxy/sstamilradio/stream?n=e65242363afe40d9f404"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "alaikal-fm",
+      "page": "https://liveradios.in/alaikal-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova71.instainternet.com/proxy/alaikalmedia?mp=/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "saaral-fm",
+      "page": "https://liveradios.in/saaral-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://saaralfm-adithyamedia.radioca.st/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "chillax-fm",
+      "page": "https://liveradios.in/chillax-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/ohhsihm2byluv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "british-indian-tamil-radio",
+      "page": "https://liveradios.in/british-indian-tamil-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://hello.citrus3.com:2020/stream/britishindiantamilradio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "isai-oli-fm",
+      "page": "https://liveradios.in/isai-oli-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova71.instainternet.com/proxy/isaiolifmadmin?mp=/stream",
+        "https://ec3.yesstreaming.net:4150/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "erode-jai-fm",
+      "page": "https://liveradios.in/erode-jai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://erodejaifm-prabak78.radioca.st/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "lbc-tamil",
+      "page": "https://liveradios.in/lbc-tamil.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/chtp0cche12vv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "sharmitha-fm",
+      "page": "https://liveradios.in/sharmitha-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast6.asurahosting.com/proxy/sharmithafm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "imai-fm",
+      "page": "https://liveradios.in/imai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://centova71.instainternet.com/proxy/imaifmradio?mp=/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ilamai-fm",
+      "page": "https://liveradios.in/ilamai-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/0e1hpuh2t9duv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ss-radio-madurai",
+      "page": "https://liveradios.in/ss-radio-madurai.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/3dact43wqg0uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "pattampoochi-fm",
+      "page": "https://liveradios.in/pattampoochi-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://c26.radioboss.fm:8630/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "madurai-voice-fm",
+      "page": "https://liveradios.in/madurai-voice-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://maduraivoicefm-prabak78.radioca.st/stream",
+        "https://stream.tamilfmradios.com/?url=http://perseverance.shoutca.st:8151/stream",
+        "https://stream.tamilfmradios.com/?url=http://perseverance.shoutca.st:8151/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "hello-tamizha-fm",
+      "page": "https://liveradios.in/hello-tamizha-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://perseverance.shoutca.st:8127/stream",
+        "https://stream.tamilfmradios.com/?url=http://perseverance.shoutca.st:8127/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "thimiru-fm",
+      "page": "https://liveradios.in/thimiru-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/90tz6xmnsuhvv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta",
+      "slug": "ftc-fm",
+      "page": "https://liveradios.in/ftc-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://usa3.fastcast4u.com/proxy/dhayanib?mp=/1"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ta-devotional",
+      "slug": "tamil-amuthu-bakthi-radio",
+      "page": "https://liveradios.in/tamil-amuthu-bakthi-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/bpc3ucypmm0uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "sun-fm",
+      "page": "https://liveradios.in/sun-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.lotustechnologieslk.net:2020/stream/sunfmgarden"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "bbc-world-service",
+      "page": "https://liveradios.in/bbc-world-service.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "aajtak-news-radio",
+      "page": "https://liveradios.in/aajtak-news-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_180p/chunks.m3u8",
+        "https://lmil.pc.cdn.bitgravity.com/lmil/live/aajtak_150k/chunklist_ao.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "radio-sri-lanka",
+      "page": "https://liveradios.in/radio-sri-lanka.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://220.247.227.20:8000/RSLstream",
+        "https://stream.tamilfmradios.com/?url=http://220.247.227.20:8000/RSLstream",
+        "https://l3.itworkscdn.net/pulse95live/pulse96/icecast.audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "fox-fm",
+      "page": "https://liveradios.in/fox-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cp11.serverse.com/proxy/foxfm/stream/;stream.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "radio-x",
+      "page": "https://liveradios.in/radio-x.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://media-ssl.musicradio.com/RadioXLondon"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "e-fm",
+      "page": "https://liveradios.in/e-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://a3.asurahosting.com/listen/efm/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "al-jazeera",
+      "page": "https://liveradios.in/al-jazeera.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/index.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "en",
+      "slug": "sadhguru-radio",
+      "page": "https://liveradios.in/sadhguru-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streaming.radio.co/s445d7b4c0/listen"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "city-91.1-fm",
+      "page": "https://onlineradiofm.in/stations/city-91.1-fm",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://radios.crabdance.com:8002/5"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "red",
+      "page": "https://onlineradiofm.in/stations/red",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/9phrkb1e3v8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-mirchi",
+      "page": "https://liveradios.in/radio-mirchi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://eu8.fastcast4u.com/proxy/clyedupq?mp=%2F1",
+        "https://listen.openstream.co/4603/audio",
+        "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
+        "https://sp14.instainternet.com/8174/stream",
+        "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
+        "https://s3.radio.co/se787a5a6f/listen",
+        "https://streams.radio.co/s8d06d0298/listen"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "all-india-radio-agra",
+      "page": "https://liveradios.in/all-india-radio-agra.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/94e6de05aa9b04b0/94e6de05aa9b04b0.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio059/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "ishq-fm-104-8",
+      "page": "https://liveradios.in/ishq-fm-104-8.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://bhs.edge.mystreaming.net/uber/lrbollywood/icecast.audio",
+        "https://bhs.edge.mystreaming.net/uber/lrbollywood/icecast.audio",
+        "http://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "mirchi-90s-radio",
+      "page": "https://liveradios.in/mirchi-90s-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://bhs.edge.mystreaming.netuber/bollywood1990s/icecast.audio",
+        "https://stream.zeno.fm/fdgs82xkzhhvv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "kadak-fm",
+      "page": "https://liveradios.in/kadak-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://admn-radio-cdn-lb.starzplayarabia.com/out/v1/admn_radio_enc/kadak/kadak_hls_nd/index_kadakfm_audio_enc_ara.m3u8",
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/DUB_HIN_GSTAAC.m3u8",
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/DUB_HIN_GSTAAC.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-olive-retro",
+      "page": "https://liveradios.in/radio-olive-retro.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_OLIVE_RETRO_S03_SC"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "suno-1024",
+      "page": "https://liveradios.in/suno-1024.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://eu8.fastcast4u.com/proxy/clyedupq/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "mirchi-love",
+      "page": "https://liveradios.in/mirchi-love.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://bhs.edge.mystreaming.net/uber/lrbollywood/icecast.audio",
+        "https://bhs.edge.mystreaming.net/uber/lrbollywood/icecast.audio",
+        "https://bhs.edge.mystreaming.net/uber/lrbollywood/icecast.audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "lyca-radio-1458-am",
+      "page": "https://liveradios.in/lyca-radio-1458-am.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://ads-direct.sharp-stream.com/1458.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-olive",
+      "page": "https://liveradios.in/radio-olive.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "mera-sangeet-usa",
+      "page": "https://liveradios.in/mera-sangeet-usa.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "http://playerservices.streamtheworld.com/api/livestream-redirect/MS_EAST_S01_SC"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-antara",
+      "page": "https://liveradios.in/radio-antara.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/fdgk7y2hr0hvv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "big-fm-106-2",
+      "page": "https://liveradios.in/big-fm-106-2.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://listen.openstream.co/6983/audio",
+        "https://funasia.streamguys1.com/live4",
+        "https://funasia.streamguys1.com/bigdallas",
+        "https://listen.openstream.co/4232/audio",
+        "https://funasia.streamguys1.com/live4",
+        "https://funasia.streamguys1.com/live9"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-nashaa-fm",
+      "page": "https://liveradios.in/radio-nashaa-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/rqqps6cbe3quv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-namkin",
+      "page": "https://liveradios.in/radio-namkin.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/yg1qhsbaqv5tv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "fm-24-90-8-fm",
+      "page": "https://liveradios.in/fm-24-90-8-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://d2datcy6bwvx8n.cloudfront.net/24network.m3u8",
+        "https://dz1aqwz3bmbil.cloudfront.net/mgmradio.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-badal",
+      "page": "https://liveradios.in/radio-badal.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://listen.openstream.co/6654/;stream.mp3",
+        "https://listen.openstream.co/6654/audio",
+        "https://node-35.zeno.fm/nhrtcxg09u8uv?zs=bIck31gpTGSL0AfbmXkB8Q&rj-tok=AAABgZ4nRGsAaXYBoaKPsoxQcw&rj-ttl=5"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "filmy-mirchi",
+      "page": "https://liveradios.in/filmy-mirchi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streaming.webhostnepal.com/8020/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "radio-sports-flashes",
+      "page": "https://liveradios.in/radio-sports-flashes.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://s3.voscast.com:11173/1",
+        "https://s3.voscast.com:11173/1",
+        "https://funasia.streamguys1.com/live13"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "best-of-ghazals",
+      "page": "https://liveradios.in/best-of-ghazals.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/yo0kzyzedittv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "non-stop-hindi",
+      "page": "https://liveradios.in/non-stop-hindi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://s5.voscast.com:8217/stream",
+        "https://free.rcast.net/14972",
+        "https://stream.tamilfmradios.com/?url=http://198.178.123.14:8216/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "hi",
+      "slug": "oho-radio",
+      "page": "https://liveradios.in/oho-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://mehramedia.com:9300/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "rang-fm",
+      "page": "https://liveradios.in/rang-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/0qvzkvpgewzuv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "yo-punjabi-mirchi",
+      "page": "https://liveradios.in/yo-punjabi-mirchi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "http://playerservices.streamtheworld.com/api/livestream-redirect/YPB_PUJ_PSTaac.aac",
+        "https://s2.radio.co/sbb640c97c/listen"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "hot-now-punjabi-radio",
+      "page": "https://liveradios.in/hot-now-punjabi-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://das-edge11-live365-dal03.cdnstream.com/a53279",
+        "https://s8.voscast.com:7021/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "spice-radio-1200-am",
+      "page": "https://liveradios.in/spice-radio-1200-am.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://134.209.0.236:8000/CJRJ"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "gurbani-kirtan",
+      "page": "https://liveradios.in/gurbani-kirtan.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://gurbanikirtan.radioca.st/start.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "dhol-radio",
+      "page": "https://liveradios.in/dhol-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.dholradio.in/radio",
+        "https://radio.dholradio.co/radio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "punjabi-radio-usa",
+      "page": "https://liveradios.in/punjabi-radio-usa.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://s5.voscast.com:9281/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "indi-radio",
+      "page": "https://liveradios.in/indi-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://canada.startradio.in:8010/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "my-punjabi-radio",
+      "page": "https://liveradios.in/my-punjabi-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.mypunjabiradio.com/listen/my_punjabi_radio/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "pa",
+      "slug": "radio-humsafar-1350-am",
+      "page": "https://liveradios.in/radio-humsafar-1350-am.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://ice66.securenetsystems.net/CIRF"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "radio-choklate",
+      "page": "https://liveradios.in/radio-choklate.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/1t5ceyhcxbruv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "sarthak-fm",
+      "page": "https://liveradios.in/sarthak-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/1t5ceyhcxbruv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "sidharth-fm-91-9",
+      "page": "https://liveradios.in/sidharth-fm-91-9.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/1t5ceyhcxbruv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "air-jeypore",
+      "page": "https://liveradios.in/air-jeypore.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio112/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "just-odisha-radio",
+      "page": "https://liveradios.in/just-odisha-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast3.my-control-panel.com/proxy/justodis/stream",
+        "https://stream.zeno.fm/06k46a9mk98uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "or",
+      "slug": "radio-jajabara",
+      "page": "https://liveradios.in/radio-jajabara.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://castradio.nrglifetech.in/listen/radiojajabara/radiohd.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "phule-krishi-vahini",
+      "page": "https://liveradios.in/phule-krishi-vahini.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://digitalradio.co.in:8020/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "shripad-radio",
+      "page": "https://liveradios.in/shripad-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://custom-azura1.asurahosting.com/listen/shripadradio/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "smile-fm-90-8",
+      "page": "https://liveradios.in/smile-fm-90-8.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://198.245.61.103:8113/stream?type=http&nocache=2",
+        "https://stream.tamilfmradios.com/?url=http://198.245.61.103:8113/stream?type=http&nocache=2"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "radio-sugar-90-8",
+      "page": "https://liveradios.in/radio-sugar-90-8.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streamasiahlscdn.atc-labs.com/radiosugar.m3u8",
+        "https://stream.tamilfmradios.com/?url=http://91.121.86.167:8157/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "bhakthi-geet-marathi",
+      "page": "https://liveradios.in/bhakthi-geet-marathi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.radiojar.com/cfqyfcspcv8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "bhaktisudha",
+      "page": "https://liveradios.in/bhaktisudha.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://n0a.radiojar.com/cfqyfcspcv8uv",
+        "https://n0a.radiojar.com/cfqyfcspcv8uv",
+        "https://n0a.radiojar.com/cfqyfcspcv8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "mgm-radio-90-8",
+      "page": "https://liveradios.in/mgm-radio-90-8.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://dz1aqwz3bmbil.cloudfront.net/mgmradio.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "mirchi-mumbai-marathi",
+      "page": "https://liveradios.in/mirchi-mumbai-marathi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://listen.openstream.co/4603/audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "mr",
+      "slug": "radio-uday-89-6-fm",
+      "page": "https://liveradios.in/radio-uday-89-6-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streamasiahlscdn.atc-labs.com/radiouday.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "te",
+      "slug": "mirchi",
+      "page": "https://onlineradiofm.in/stations/mirchi",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/wgaznsmt92quv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "mirchi-kochi",
+      "page": "https://liveradios.in/mirchi-kochi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.aiir.com/dbv0rxpwp6ytv",
+        "http://listen.openstream.co/4626/audio",
+        "https://sp14.instainternet.com/8050/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-suno-melody",
+      "page": "https://liveradios.in/radio-suno-melody.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.tamilfmradios.com/?id=melodyradio",
+        "https://stream.zeno.fm/pbqv4u9k0k0uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-suno",
+      "page": "https://liveradios.in/radio-suno.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917_SC"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "club-fm",
+      "page": "https://liveradios.in/club-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.tamilfmradios.com/?id=radiomango",
+        "https://eu10.fastcast4u.com/clubfmuae",
+        "https://ice31.securenetsystems.net/RADIOKERAL",
+        "https://listen.openstream.co/4626/audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-malayalam-98-6-fm",
+      "page": "https://liveradios.in/radio-malayalam-98-6-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.qfmradio.qa/986fm",
+        "https://stream.tamilfmradios.com/?url=http://vokcast.bluecast.in:8227/986fm",
+        "https://stream.zeno.fm/512rbf1e3qzuv",
+        "https://stream.tamilfmradios.com/?url=http://vokcast.bluecast.in:8227/986fm"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-talky",
+      "page": "https://liveradios.in/radio-talky.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://media.streambrothers.com/stream/8066",
+        "https://stream.zeno.fm/wyqezxthwlfvv",
+        "https://media.streambrothers.com/stream/8066",
+        "https://media.streambrothers.com:8172/stream",
+        "https://cast1.my-control-panel.com/proxy/radiotalky/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-city-malayalam",
+      "page": "https://liveradios.in/radio-city-malayalam.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://69.162.124.24:8888/Malayalam",
+        "https://eu10.fastcast4u.com:14910/;"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-kerala",
+      "page": "https://liveradios.in/radio-kerala.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streaming.radiokerala.in/listen/radio_kerala/radio.mp3",
+        "https://eu4.fastcast4u.com/proxy/radiokerala?mp=/1"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-malayalam",
+      "page": "https://liveradios.in/radio-malayalam.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radiomalayalamfm.com/radio/8000/radio.mp3",
+        "https://radiomalayalamfm.com/radio/8000/radiodj.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-beats",
+      "page": "https://liveradios.in/radio-beats.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://listen.openstream.co/6761/audio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "gramaphone-fm",
+      "page": "https://liveradios.in/gramaphone-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://usa15.fastcast4u.com/proxy/radiomall/stream",
+        "https://stream.zeno.fm/gm3g9amzm0hvv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-mango",
+      "page": "https://liveradios.in/radio-mango.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.tamilfmradios.com/?id=radiomango",
+        "https://listen.openstream.co/4635/audio",
+        "https://ice31.securenetsystems.net/RADIOKERAL"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "ahalia-fm-90-4",
+      "page": "https://liveradios.in/ahalia-fm-90-4.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://cast1.my-control-panel.com/proxy/ahaliafm/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "akashvani-kozhikode",
+      "page": "https://liveradios.in/akashvani-kozhikode.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/8321393de70015fc/8321393de70015fc.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio082/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-neythal",
+      "page": "https://liveradios.in/radio-neythal.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://s2.myradiostream.com/5538/listen.mp3",
+        "https://s2.myradiostream.com/5538/listen.mp3",
+        "https://s31.myradiostream.com:64420/listen.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "air-alappuzha-fm",
+      "page": "https://liveradios.in/air-alappuzha-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio230/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio004/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "akashvani-kochi-fm-102-3",
+      "page": "https://liveradios.in/akashvani-kochi-fm-102-3.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/70400e7510e87cdf/70400e7510e87cdf.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio045/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "akashvani-thrissur-101-1",
+      "page": "https://liveradios.in/akashvani-thrissur-101-1.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/f70fdeca437dc326/f70fdeca437dc326.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio036/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "akashvani-kannur",
+      "page": "https://liveradios.in/akashvani-kannur.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/b82c91a395fc4a7d/b82c91a395fc4a7d.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio173/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio082/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "ananthapuri-fm-101-9",
+      "page": "https://liveradios.in/ananthapuri-fm-101-9.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio229/playlist.m3u8",
+        "https://stream.tamilfmradios.com/?url=http://59.90.28.91:88/broadwavehigh.mp3?src=1",
+        "https://stream.tamilfmradios.com/?url=http://59.90.28.91:88/broadwavehigh.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-benziger",
+      "page": "https://liveradios.in/radio-benziger.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://icecast.octosignals.com/benziger",
+        "https://radio.radiobenziger.com/stream?type=http&nocache=1169",
+        "https://stream.tamilfmradios.com/?url=http://streamasiacdn.atc-labs.com/rdsaanthwanam.aac"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "kozhikode-real-fm-103-6",
+      "page": "https://liveradios.in/kozhikode-real-fm-103-6.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/b69c296065db7627/b69c296065db7627.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio083/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-malayalam-usa",
+      "page": "https://liveradios.in/radio-malayalam-usa.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://usa3.fastcast4u.com/proxy/lkuriako?mp=/1",
+        "https://a5.asurahosting.com/radio/7770/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "ashraya-fm-90",
+      "page": "https://liveradios.in/ashraya-fm-90.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://fm.ashrayafm90.com/ashrayafm"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "paattu-petti",
+      "page": "https://liveradios.in/paattu-petti.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streamer.radio.co/s8d5f06a3d/listen"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "dubai-1-fm",
+      "page": "https://liveradios.in/dubai-1-fm.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/apakpmfxcccvv",
+        "https://c34.radioboss.fm:8911/stream"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "hello-radio-90-8",
+      "page": "https://liveradios.in/hello-radio-90-8.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.helloradio.in/radio"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "ml",
+      "slug": "radio-kerala-2",
+      "page": "https://liveradios.in/radio-kerala-2.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streaming.radiokerala.in/listen/radio_kerala/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "abc-radio-fm-89-2",
+      "page": "https://liveradios.in/abc-radio-fm-89-2.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/0zha3rfq02quv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "fm-gold-kolkata",
+      "page": "https://liveradios.in/fm-gold-kolkata.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio057/hlspbaudio057_Auto.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "radio-bhumi",
+      "page": "https://liveradios.in/radio-bhumi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/ybf1umk1k18uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "gitanjali-radio",
+      "page": "https://liveradios.in/gitanjali-radio.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://streamasiahlscdn.atc-labs.com/gitanjaliradio.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "air-world-service-bangla",
+      "page": "https://liveradios.in/air-world-service-bangla.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio137/hlspbaudio137_Auto.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio244/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio231/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio134/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "air-siliguri",
+      "page": "https://liveradios.in/air-siliguri.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/165856ba98ca031a/165856ba98ca031a.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio164/playlist.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio134/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "nityananda-janavani",
+      "page": "https://liveradios.in/nityananda-janavani.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://d1osc21vqenkv0.cloudfront.net/radiomant.m3u8",
+        "http://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3563475_SC"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bn",
+      "slug": "geet-radio-bengali",
+      "page": "https://liveradios.in/geet-radio-bengali.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://server.geetradio.com/listen/bangla/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "air-bhuj",
+      "page": "https://liveradios.in/air-bhuj.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/39f1810f00b8172a/39f1810f00b8172a.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio195/playlist.m3u8",
+        "https://stream.tamilfmradios.com/?url=http://117.254.199.9:8081/source",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio135/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "goldy-sarvaani",
+      "page": "https://liveradios.in/goldy-sarvaani.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/8ze2dk37bm8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "goldy-aaradhna",
+      "page": "https://liveradios.in/goldy-aaradhna.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/4kywc9r2cm8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "goldy-cool",
+      "page": "https://liveradios.in/goldy-cool.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/hhfmh86tfm8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "goldy-garba",
+      "page": "https://liveradios.in/goldy-garba.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/by0808wa6p8uv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "radio-utsav",
+      "page": "https://liveradios.in/radio-utsav.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://icecast.maxxwave.co.uk/utsav"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "air-surat",
+      "page": "https://liveradios.in/air-surat.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.wavespb.com/live/fc6ce69c53a3d739/fc6ce69c53a3d739.m3u8",
+        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio186/playlist.m3u8"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "gu",
+      "slug": "sheetal-sangeet",
+      "page": "https://liveradios.in/sheetal-sangeet.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://az13.yesstreaming.net:8200/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "suno-kannada",
+      "page": "https://onlineradiofm.in/stations/suno-kannada",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_SUNO_MELODY_S06_SC"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "sakkath",
+      "page": "https://onlineradiofm.in/stations/sakkath",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/3e6k4ryerd0uv.aac"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "namm-europe",
+      "page": "https://onlineradiofm.in/stations/namm-europe",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/zhfktkwb0ueuv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "namm-gulf-fm",
+      "page": "https://onlineradiofm.in/stations/namm-gulf-fm",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://node-32.zeno.fm/s9vrrmuwm8quv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "namm-us",
+      "page": "https://onlineradiofm.in/stations/namm-us",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/kc4wg3ent1duv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kn",
+      "slug": "namm",
+      "page": "https://onlineradiofm.in/stations/namm",
+      "method": "onlineradiofm-inline",
+      "urls": [
+        "https://stream.zeno.fm/6quh1pfnt1duv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "sa",
+      "slug": "radio-sanskrit",
+      "page": "https://liveradios.in/radio-sanskrit.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.zeno.fm/c0adewsyw8quv"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "har",
+      "slug": "radio-kasoot",
+      "page": "https://liveradios.in/radio-kasoot.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://azuracast.radiokasoot.com/radio/8000/listen"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kok",
+      "slug": "golden-goa",
+      "page": "https://liveradios.in/golden-goa.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.rixcast.com/radio/8000/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kok",
+      "slug": "k-radio-konkani",
+      "page": "https://liveradios.in/k-radio-konkani.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.rixcast.com/radio/8010/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "kok",
+      "slug": "konkani-forever-uk",
+      "page": "https://liveradios.in/konkani-forever-uk.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://radio.rixcast.com/radio/8020/radio.mp3"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "bho",
+      "slug": "hd-radio-bhojpuri",
+      "page": "https://liveradios.in/hd-radio-bhojpuri.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://85.25.185.202:8004/autodj"
+      ],
+      "reason": ""
+    },
+    {
+      "lang": "sd",
+      "slug": "radio-sindhi",
+      "page": "https://liveradios.in/radio-sindhi.html",
+      "method": "liveradios-page-specific-js",
+      "urls": [
+        "https://stream.tamilfmradios.com/?url=http://178.128.82.71:8006/stream",
+        "https://stream.tamilfmradios.com/?url=http://178.128.82.71:8006/stream"
+      ],
+      "reason": ""
+    }
+  ]
+}

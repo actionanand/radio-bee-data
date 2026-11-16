@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.9",
+  "catalogVersion": "2.8.10",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 288,
-    "streamBearing": 288,
+    "all": 396,
+    "streamBearing": 396,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -269,6 +269,114 @@
     "stage39-vilathikulam-thendral",
     "stage39-vismaya-kerala-malayalam",
     "stage40-air-tamil-90s-songs",
+    "stage41-aaruthal-fm",
+    "stage41-abc-radio-fm-89-2",
+    "stage41-ahalia-fm-90-4",
+    "stage41-ajith-fm",
+    "stage41-alaikal-fm",
+    "stage41-arni-city-fm",
+    "stage41-ashraya-fm-90",
+    "stage41-bbc-world-service",
+    "stage41-best-of-ghazals",
+    "stage41-bhaktisudha",
+    "stage41-big-fm-106-2",
+    "stage41-british-indian-tamil-radio",
+    "stage41-canadian-tamil-radio-ctr",
+    "stage41-capital-fm",
+    "stage41-chillax-fm",
+    "stage41-club-fm",
+    "stage41-covai-fm",
+    "stage41-dhol-radio",
+    "stage41-dubai-1-fm",
+    "stage41-e-fm",
+    "stage41-erode-city-fm",
+    "stage41-erode-jai-fm",
+    "stage41-filmy-mirchi",
+    "stage41-fox-fm",
+    "stage41-ftc-fm",
+    "stage41-geet-radio-bengali",
+    "stage41-gingee-fm",
+    "stage41-golden-goa",
+    "stage41-goldy-aaradhna",
+    "stage41-goldy-cool",
+    "stage41-goldy-garba",
+    "stage41-goldy-sarvaani",
+    "stage41-gramaphone-fm",
+    "stage41-gurbani-kirtan",
+    "stage41-hd-radio-bhojpuri",
+    "stage41-hello-radio-90-8",
+    "stage41-hello-tamizha-fm",
+    "stage41-hot-now-punjabi-radio",
+    "stage41-ilamai-fm",
+    "stage41-imai-fm",
+    "stage41-indi-radio",
+    "stage41-isai-oli-fm",
+    "stage41-iyalisai-bhakti-radio",
+    "stage41-just-odisha-radio",
+    "stage41-k-radio-konkani",
+    "stage41-kodaisaral-fm",
+    "stage41-konkani-forever-uk",
+    "stage41-lakshmi-fm",
+    "stage41-lbc-tamil",
+    "stage41-lyca-radio-1458-am",
+    "stage41-madurai-voice-fm",
+    "stage41-mirchi-90s-radio",
+    "stage41-mirchi-kochi",
+    "stage41-muthamil-fm-88-9-hd3",
+    "stage41-my-punjabi-radio",
+    "stage41-non-stop-hindi",
+    "stage41-oho-radio",
+    "stage41-old-hits",
+    "stage41-paattu-petti",
+    "stage41-pattampoochi-fm",
+    "stage41-phule-krishi-vahini",
+    "stage41-punjabi-radio-usa",
+    "stage41-radio-antara",
+    "stage41-radio-badal",
+    "stage41-radio-beats",
+    "stage41-radio-benziger",
+    "stage41-radio-bhumi",
+    "stage41-radio-city-malayalam",
+    "stage41-radio-gilli",
+    "stage41-radio-humsafar-1350-am",
+    "stage41-radio-jajabara",
+    "stage41-radio-kasoot",
+    "stage41-radio-kerala",
+    "stage41-radio-malayalam-98-6-fm",
+    "stage41-radio-malayalam-usa",
+    "stage41-radio-mango",
+    "stage41-radio-namkin",
+    "stage41-radio-nashaa-fm",
+    "stage41-radio-neythal",
+    "stage41-radio-olive",
+    "stage41-radio-olive-retro",
+    "stage41-radio-paramakurichi",
+    "stage41-radio-sindhi",
+    "stage41-radio-sports-flashes",
+    "stage41-radio-sri-lanka",
+    "stage41-radio-suno",
+    "stage41-radio-suno-melody",
+    "stage41-radio-talky",
+    "stage41-radio-utsav",
+    "stage41-radio-x",
+    "stage41-rang-fm",
+    "stage41-saaral-fm",
+    "stage41-sadhguru-radio",
+    "stage41-sahara-fm",
+    "stage41-sharmitha-fm",
+    "stage41-sheetal-sangeet",
+    "stage41-shripad-radio",
+    "stage41-smile-fm-90-8",
+    "stage41-spice-radio-1200-am",
+    "stage41-ss-radio-madurai",
+    "stage41-sun-fm",
+    "stage41-tamil-amuthu-bakthi-radio",
+    "stage41-tamil-amuthu-madurai-radio",
+    "stage41-tamil-sun-fm",
+    "stage41-thenkasi-fm-radio",
+    "stage41-thimiru-fm",
+    "stage41-vaigai-fm",
+    "stage41-yo-punjabi-mirchi",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -318,11 +426,13 @@
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
           "stage38-kadak-fm-uae",
+          "stage41-big-fm-106-2",
+          "stage41-dubai-1-fm",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 14,
-          "streamBearing": 14,
+          "all": 16,
+          "streamBearing": 16,
           "discoveryOnly": 0
         }
       },
@@ -341,6 +451,22 @@
         "counts": {
           "all": 5,
           "streamBearing": 5,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "BD",
+        "name": "Bangladesh",
+        "key": "country:BD",
+        "locationId": "bd",
+        "stationIds": [
+          "stage41-abc-radio-fm-89-2",
+          "stage41-geet-radio-bengali",
+          "stage41-radio-bhumi"
+        ],
+        "counts": {
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -386,11 +512,15 @@
           "good-news-tamil-ca",
           "stage29-agaram-tamil-radio",
           "stage33-red-fm-calgary",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-indi-radio",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-spice-radio-1200-am",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 9,
-          "streamBearing": 9,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       },
@@ -496,11 +626,18 @@
         "stationIds": [
           "ibc-tamil-uk",
           "stage38-namm-radio-europe",
-          "stage39-athavan-radio-uk-zeno"
+          "stage39-athavan-radio-uk-zeno",
+          "stage41-bbc-world-service",
+          "stage41-british-indian-tamil-radio",
+          "stage41-konkani-forever-uk",
+          "stage41-lbc-tamil",
+          "stage41-lyca-radio-1458-am",
+          "stage41-radio-utsav",
+          "stage41-radio-x"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -716,6 +853,85 @@
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
+          "stage41-aaruthal-fm",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-ashraya-fm-90",
+          "stage41-best-of-ghazals",
+          "stage41-bhaktisudha",
+          "stage41-chillax-fm",
+          "stage41-club-fm",
+          "stage41-covai-fm",
+          "stage41-dhol-radio",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-filmy-mirchi",
+          "stage41-ftc-fm",
+          "stage41-gingee-fm",
+          "stage41-golden-goa",
+          "stage41-goldy-aaradhna",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-gramaphone-fm",
+          "stage41-gurbani-kirtan",
+          "stage41-hd-radio-bhojpuri",
+          "stage41-hello-radio-90-8",
+          "stage41-hello-tamizha-fm",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-isai-oli-fm",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-just-odisha-radio",
+          "stage41-k-radio-konkani",
+          "stage41-kodaisaral-fm",
+          "stage41-lakshmi-fm",
+          "stage41-madurai-voice-fm",
+          "stage41-mirchi-90s-radio",
+          "stage41-mirchi-kochi",
+          "stage41-my-punjabi-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-old-hits",
+          "stage41-paattu-petti",
+          "stage41-pattampoochi-fm",
+          "stage41-phule-krishi-vahini",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-gilli",
+          "stage41-radio-jajabara",
+          "stage41-radio-kasoot",
+          "stage41-radio-kerala",
+          "stage41-radio-mango",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-neythal",
+          "stage41-radio-paramakurichi",
+          "stage41-radio-sindhi",
+          "stage41-radio-sports-flashes",
+          "stage41-radio-talky",
+          "stage41-rang-fm",
+          "stage41-saaral-fm",
+          "stage41-sadhguru-radio",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-sheetal-sangeet",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8",
+          "stage41-ss-radio-madurai",
+          "stage41-tamil-amuthu-bakthi-radio",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
+          "stage41-yo-punjabi-mirchi",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -729,8 +945,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 188,
-          "streamBearing": 188,
+          "all": 267,
+          "streamBearing": 267,
           "discoveryOnly": 0
         }
       },
@@ -792,12 +1008,17 @@
           "stage32-ran-fm",
           "stage32-siyatha-fm",
           "stage39-raja-fm-sri-lanka-zeno",
+          "stage41-capital-fm",
+          "stage41-e-fm",
+          "stage41-fox-fm",
+          "stage41-radio-sri-lanka",
+          "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 12,
-          "streamBearing": 12,
+          "all": 17,
+          "streamBearing": 17,
           "discoveryOnly": 0
         }
       },
@@ -929,11 +1150,16 @@
           "stage38-al-jazeera-english-audio",
           "stage38-namm-radio-gulf",
           "stage38-suno-kannada",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 9,
+          "streamBearing": 9,
           "discoveryOnly": 0
         }
       },
@@ -993,12 +1219,15 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-malayalam-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -1041,7 +1270,9 @@
           "exclusively-westlife-ae",
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
-          "stage38-kadak-fm-uae"
+          "stage38-kadak-fm-uae",
+          "stage41-big-fm-106-2",
+          "stage41-dubai-1-fm"
         ],
         "stationIds": [
           "exclusively-adele-ae",
@@ -1057,11 +1288,13 @@
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
           "stage38-kadak-fm-uae",
+          "stage41-big-fm-106-2",
+          "stage41-dubai-1-fm",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 14,
-          "streamBearing": 14,
+          "all": 16,
+          "streamBearing": 16,
           "discoveryOnly": 0
         }
       },
@@ -1276,6 +1509,30 @@
         }
       },
       {
+        "id": "bd",
+        "name": "Bangladesh",
+        "key": "location:bd",
+        "type": "country",
+        "countryCode": "BD",
+        "parentId": null,
+        "childIds": [],
+        "directStationIds": [
+          "stage41-abc-radio-fm-89-2",
+          "stage41-geet-radio-bengali",
+          "stage41-radio-bhumi"
+        ],
+        "stationIds": [
+          "stage41-abc-radio-fm-89-2",
+          "stage41-geet-radio-bengali",
+          "stage41-radio-bhumi"
+        ],
+        "counts": {
+          "all": 3,
+          "streamBearing": 3,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "bh",
         "name": "Bahrain",
         "key": "location:bh",
@@ -1328,7 +1585,11 @@
         ],
         "directStationIds": [
           "amr-radio-ca",
-          "stage29-agaram-tamil-radio"
+          "stage29-agaram-tamil-radio",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-indi-radio",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-spice-radio-1200-am"
         ],
         "stationIds": [
           "a9-radio-ca",
@@ -1339,11 +1600,15 @@
           "good-news-tamil-ca",
           "stage29-agaram-tamil-radio",
           "stage33-red-fm-calgary",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-indi-radio",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-spice-radio-1200-am",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 9,
-          "streamBearing": 9,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       },
@@ -1675,16 +1940,30 @@
         ],
         "directStationIds": [
           "stage38-namm-radio-europe",
-          "stage39-athavan-radio-uk-zeno"
+          "stage39-athavan-radio-uk-zeno",
+          "stage41-bbc-world-service",
+          "stage41-british-indian-tamil-radio",
+          "stage41-konkani-forever-uk",
+          "stage41-lbc-tamil",
+          "stage41-lyca-radio-1458-am",
+          "stage41-radio-utsav",
+          "stage41-radio-x"
         ],
         "stationIds": [
           "ibc-tamil-uk",
           "stage38-namm-radio-europe",
-          "stage39-athavan-radio-uk-zeno"
+          "stage39-athavan-radio-uk-zeno",
+          "stage41-bbc-world-service",
+          "stage41-british-indian-tamil-radio",
+          "stage41-konkani-forever-uk",
+          "stage41-lbc-tamil",
+          "stage41-lyca-radio-1458-am",
+          "stage41-radio-utsav",
+          "stage41-radio-x"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -1911,6 +2190,85 @@
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
+          "stage41-aaruthal-fm",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-ashraya-fm-90",
+          "stage41-best-of-ghazals",
+          "stage41-bhaktisudha",
+          "stage41-chillax-fm",
+          "stage41-club-fm",
+          "stage41-covai-fm",
+          "stage41-dhol-radio",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-filmy-mirchi",
+          "stage41-ftc-fm",
+          "stage41-gingee-fm",
+          "stage41-golden-goa",
+          "stage41-goldy-aaradhna",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-gramaphone-fm",
+          "stage41-gurbani-kirtan",
+          "stage41-hd-radio-bhojpuri",
+          "stage41-hello-radio-90-8",
+          "stage41-hello-tamizha-fm",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-isai-oli-fm",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-just-odisha-radio",
+          "stage41-k-radio-konkani",
+          "stage41-kodaisaral-fm",
+          "stage41-lakshmi-fm",
+          "stage41-madurai-voice-fm",
+          "stage41-mirchi-90s-radio",
+          "stage41-mirchi-kochi",
+          "stage41-my-punjabi-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-old-hits",
+          "stage41-paattu-petti",
+          "stage41-pattampoochi-fm",
+          "stage41-phule-krishi-vahini",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-gilli",
+          "stage41-radio-jajabara",
+          "stage41-radio-kasoot",
+          "stage41-radio-kerala",
+          "stage41-radio-mango",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-neythal",
+          "stage41-radio-paramakurichi",
+          "stage41-radio-sindhi",
+          "stage41-radio-sports-flashes",
+          "stage41-radio-talky",
+          "stage41-rang-fm",
+          "stage41-saaral-fm",
+          "stage41-sadhguru-radio",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-sheetal-sangeet",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8",
+          "stage41-ss-radio-madurai",
+          "stage41-tamil-amuthu-bakthi-radio",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
+          "stage41-yo-punjabi-mirchi",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -2095,6 +2453,85 @@
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
+          "stage41-aaruthal-fm",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-ashraya-fm-90",
+          "stage41-best-of-ghazals",
+          "stage41-bhaktisudha",
+          "stage41-chillax-fm",
+          "stage41-club-fm",
+          "stage41-covai-fm",
+          "stage41-dhol-radio",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-filmy-mirchi",
+          "stage41-ftc-fm",
+          "stage41-gingee-fm",
+          "stage41-golden-goa",
+          "stage41-goldy-aaradhna",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-gramaphone-fm",
+          "stage41-gurbani-kirtan",
+          "stage41-hd-radio-bhojpuri",
+          "stage41-hello-radio-90-8",
+          "stage41-hello-tamizha-fm",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-isai-oli-fm",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-just-odisha-radio",
+          "stage41-k-radio-konkani",
+          "stage41-kodaisaral-fm",
+          "stage41-lakshmi-fm",
+          "stage41-madurai-voice-fm",
+          "stage41-mirchi-90s-radio",
+          "stage41-mirchi-kochi",
+          "stage41-my-punjabi-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-old-hits",
+          "stage41-paattu-petti",
+          "stage41-pattampoochi-fm",
+          "stage41-phule-krishi-vahini",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-gilli",
+          "stage41-radio-jajabara",
+          "stage41-radio-kasoot",
+          "stage41-radio-kerala",
+          "stage41-radio-mango",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-neythal",
+          "stage41-radio-paramakurichi",
+          "stage41-radio-sindhi",
+          "stage41-radio-sports-flashes",
+          "stage41-radio-talky",
+          "stage41-rang-fm",
+          "stage41-saaral-fm",
+          "stage41-sadhguru-radio",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-sheetal-sangeet",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8",
+          "stage41-ss-radio-madurai",
+          "stage41-tamil-amuthu-bakthi-radio",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
+          "stage41-yo-punjabi-mirchi",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -2108,8 +2545,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 188,
-          "streamBearing": 188,
+          "all": 267,
+          "streamBearing": 267,
           "discoveryOnly": 0
         }
       },
@@ -3734,6 +4171,11 @@
           "stage32-ran-fm",
           "stage32-siyatha-fm",
           "stage39-raja-fm-sri-lanka-zeno",
+          "stage41-capital-fm",
+          "stage41-e-fm",
+          "stage41-fox-fm",
+          "stage41-radio-sri-lanka",
+          "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
@@ -3748,12 +4190,17 @@
           "stage32-ran-fm",
           "stage32-siyatha-fm",
           "stage39-raja-fm-sri-lanka-zeno",
+          "stage41-capital-fm",
+          "stage41-e-fm",
+          "stage41-fox-fm",
+          "stage41-radio-sri-lanka",
+          "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 12,
-          "streamBearing": 12,
+          "all": 17,
+          "streamBearing": 17,
           "discoveryOnly": 0
         }
       },
@@ -4257,17 +4704,27 @@
           "stage38-al-jazeera-english-audio",
           "stage38-namm-radio-gulf",
           "stage38-suno-kannada",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
           "suno-tamil-qa"
         ],
         "stationIds": [
           "stage38-al-jazeera-english-audio",
           "stage38-namm-radio-gulf",
           "stage38-suno-kannada",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 9,
+          "streamBearing": 9,
           "discoveryOnly": 0
         }
       },
@@ -4351,6 +4808,9 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-malayalam-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
@@ -4361,12 +4821,15 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-malayalam-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 8,
-          "streamBearing": 8,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -4464,17 +4927,32 @@
         }
       },
       {
+        "id": "bgc",
+        "name": "Haryanvi",
+        "key": "language:bgc",
+        "nativeName": "हरियाणवी",
+        "stationIds": [
+          "stage41-radio-kasoot"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "bho",
         "name": "Bhojpuri",
         "key": "language:bho",
         "nativeName": "भोजपुरी",
         "stationIds": [
           "mauradio-mu",
-          "radio-plus-indiz-mu"
+          "radio-plus-indiz-mu",
+          "stage41-hd-radio-bhojpuri"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -4490,11 +4968,14 @@
           "stage38-air-world-service-bangla",
           "stage38-fm-gold-kolkata",
           "stage38-gitanjali-radio",
-          "stage38-nityananda-janavani"
+          "stage38-nityananda-janavani",
+          "stage41-abc-radio-fm-89-2",
+          "stage41-geet-radio-bengali",
+          "stage41-radio-bhumi"
         ],
         "counts": {
-          "all": 7,
-          "streamBearing": 7,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -4613,12 +5094,19 @@
           "shaiva-lahari-in",
           "stage38-al-jazeera-english-audio",
           "stage39-raja-fm-sri-lanka-zeno",
+          "stage41-bbc-world-service",
+          "stage41-e-fm",
+          "stage41-fox-fm",
+          "stage41-radio-sri-lanka",
+          "stage41-radio-x",
+          "stage41-sadhguru-radio",
+          "stage41-sun-fm",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 32,
-          "streamBearing": 32,
+          "all": 39,
+          "streamBearing": 39,
           "discoveryOnly": 0
         }
       },
@@ -4726,11 +5214,17 @@
           "east-fm-ca",
           "lotus-fm-za",
           "stage38-air-bhuj",
-          "stage38-air-surat"
+          "stage38-air-surat",
+          "stage41-goldy-aaradhna",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-radio-utsav",
+          "stage41-sheetal-sangeet"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -4787,11 +5281,25 @@
           "stage38-air-agra",
           "stage38-kadak-fm-uae",
           "stage39-lata-mangeshkar-zeno",
-          "stage39-radio-voxa-zeno"
+          "stage39-radio-voxa-zeno",
+          "stage41-best-of-ghazals",
+          "stage41-big-fm-106-2",
+          "stage41-filmy-mirchi",
+          "stage41-lyca-radio-1458-am",
+          "stage41-mirchi-90s-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-sports-flashes"
         ],
         "counts": {
-          "all": 20,
-          "streamBearing": 20,
+          "all": 34,
+          "streamBearing": 34,
           "discoveryOnly": 0
         }
       },
@@ -4955,6 +5463,22 @@
         }
       },
       {
+        "id": "kok",
+        "name": "Konkani",
+        "key": "language:kok",
+        "nativeName": "कोंकणी",
+        "stationIds": [
+          "stage41-golden-goa",
+          "stage41-k-radio-konkani",
+          "stage41-konkani-forever-uk"
+        ],
+        "counts": {
+          "all": 3,
+          "streamBearing": 3,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "lo",
         "name": "Lao",
         "key": "language:lo",
@@ -5066,11 +5590,30 @@
           "stage39-mallu-vibes",
           "stage39-radio-palakkad",
           "stage39-radio-voxa-zeno",
-          "stage39-vismaya-kerala-malayalam"
+          "stage39-vismaya-kerala-malayalam",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ashraya-fm-90",
+          "stage41-club-fm",
+          "stage41-dubai-1-fm",
+          "stage41-gramaphone-fm",
+          "stage41-hello-radio-90-8",
+          "stage41-mirchi-kochi",
+          "stage41-paattu-petti",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-kerala",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-malayalam-usa",
+          "stage41-radio-mango",
+          "stage41-radio-neythal",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
+          "stage41-radio-talky"
         ],
         "counts": {
-          "all": 21,
-          "streamBearing": 21,
+          "all": 40,
+          "streamBearing": 40,
           "discoveryOnly": 0
         }
       },
@@ -5086,11 +5629,15 @@
           "stage32-dnyaneshwari",
           "stage38-mgm-radio-90-8",
           "stage38-radio-sugar-90-8",
-          "stage38-radio-uday-89-6"
+          "stage38-radio-uday-89-6",
+          "stage41-bhaktisudha",
+          "stage41-phule-krishi-vahini",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8"
         ],
         "counts": {
-          "all": 7,
-          "streamBearing": 7,
+          "all": 11,
+          "streamBearing": 11,
           "discoveryOnly": 0
         }
       },
@@ -5148,11 +5695,13 @@
         "nativeName": "ଓଡ଼ିଆ",
         "stationIds": [
           "stage32-radio-choklate",
-          "stage38-air-jeypore"
+          "stage38-air-jeypore",
+          "stage41-just-odisha-radio",
+          "stage41-radio-jajabara"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 4,
+          "streamBearing": 4,
           "discoveryOnly": 0
         }
       },
@@ -5166,11 +5715,21 @@
           "bol-punjabi-radio-in",
           "east-fm-ca",
           "stage32-sgpc-gurbani",
-          "stage33-red-fm-calgary"
+          "stage33-red-fm-calgary",
+          "stage41-dhol-radio",
+          "stage41-gurbani-kirtan",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-indi-radio",
+          "stage41-my-punjabi-radio",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-rang-fm",
+          "stage41-spice-radio-1200-am",
+          "stage41-yo-punjabi-mirchi"
         ],
         "counts": {
-          "all": 5,
-          "streamBearing": 5,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -5263,6 +5822,20 @@
         "counts": {
           "all": 4,
           "streamBearing": 4,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "sd",
+        "name": "Sindhi",
+        "key": "language:sd",
+        "nativeName": "سنڌي",
+        "stationIds": [
+          "stage41-radio-sindhi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -5544,6 +6117,43 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage40-air-tamil-90s-songs",
+          "stage41-aaruthal-fm",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-british-indian-tamil-radio",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-capital-fm",
+          "stage41-chillax-fm",
+          "stage41-covai-fm",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-ftc-fm",
+          "stage41-gingee-fm",
+          "stage41-hello-tamizha-fm",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-isai-oli-fm",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-kodaisaral-fm",
+          "stage41-lakshmi-fm",
+          "stage41-lbc-tamil",
+          "stage41-madurai-voice-fm",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-old-hits",
+          "stage41-pattampoochi-fm",
+          "stage41-radio-gilli",
+          "stage41-radio-paramakurichi",
+          "stage41-saaral-fm",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-ss-radio-madurai",
+          "stage41-tamil-amuthu-bakthi-radio",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
@@ -5567,8 +6177,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 185,
-          "streamBearing": 185,
+          "all": 222,
+          "streamBearing": 222,
           "discoveryOnly": 0
         }
       },
@@ -6011,6 +6621,114 @@
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
+          "stage41-aaruthal-fm",
+          "stage41-abc-radio-fm-89-2",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-ashraya-fm-90",
+          "stage41-bbc-world-service",
+          "stage41-best-of-ghazals",
+          "stage41-bhaktisudha",
+          "stage41-big-fm-106-2",
+          "stage41-british-indian-tamil-radio",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-capital-fm",
+          "stage41-chillax-fm",
+          "stage41-club-fm",
+          "stage41-covai-fm",
+          "stage41-dhol-radio",
+          "stage41-dubai-1-fm",
+          "stage41-e-fm",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-filmy-mirchi",
+          "stage41-fox-fm",
+          "stage41-ftc-fm",
+          "stage41-geet-radio-bengali",
+          "stage41-gingee-fm",
+          "stage41-golden-goa",
+          "stage41-goldy-aaradhna",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-gramaphone-fm",
+          "stage41-gurbani-kirtan",
+          "stage41-hd-radio-bhojpuri",
+          "stage41-hello-radio-90-8",
+          "stage41-hello-tamizha-fm",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-indi-radio",
+          "stage41-isai-oli-fm",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-just-odisha-radio",
+          "stage41-k-radio-konkani",
+          "stage41-kodaisaral-fm",
+          "stage41-konkani-forever-uk",
+          "stage41-lakshmi-fm",
+          "stage41-lbc-tamil",
+          "stage41-lyca-radio-1458-am",
+          "stage41-madurai-voice-fm",
+          "stage41-mirchi-90s-radio",
+          "stage41-mirchi-kochi",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-my-punjabi-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-old-hits",
+          "stage41-paattu-petti",
+          "stage41-pattampoochi-fm",
+          "stage41-phule-krishi-vahini",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-bhumi",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-gilli",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-radio-jajabara",
+          "stage41-radio-kasoot",
+          "stage41-radio-kerala",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-malayalam-usa",
+          "stage41-radio-mango",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-neythal",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-paramakurichi",
+          "stage41-radio-sindhi",
+          "stage41-radio-sports-flashes",
+          "stage41-radio-sri-lanka",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
+          "stage41-radio-talky",
+          "stage41-radio-utsav",
+          "stage41-radio-x",
+          "stage41-rang-fm",
+          "stage41-saaral-fm",
+          "stage41-sadhguru-radio",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-sheetal-sangeet",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8",
+          "stage41-spice-radio-1200-am",
+          "stage41-ss-radio-madurai",
+          "stage41-sun-fm",
+          "stage41-tamil-amuthu-bakthi-radio",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
+          "stage41-yo-punjabi-mirchi",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -6033,8 +6751,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 258,
-          "streamBearing": 258,
+          "all": 366,
+          "streamBearing": 366,
           "discoveryOnly": 0
         }
       }
@@ -6505,10 +7223,12 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [],
+        "stationIds": [
+          "stage41-club-fm"
+        ],
         "counts": {
-          "all": 0,
-          "streamBearing": 0,
+          "all": 1,
+          "streamBearing": 1,
           "discoveryOnly": 0
         }
       },
@@ -6892,11 +7612,12 @@
         ],
         "broadcasterId": "enil",
         "stationIds": [
-          "mirchi-chennai"
+          "mirchi-chennai",
+          "stage41-mirchi-kochi"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -6971,11 +7692,15 @@
         "broadcasterId": null,
         "stationIds": [
           "stage38-suno-kannada",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
           "suno-tamil-qa"
         ],
         "counts": {
-          "all": 2,
-          "streamBearing": 2,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -7007,11 +7732,12 @@
         ],
         "broadcasterId": "music-broadcast-ltd",
         "stationIds": [
-          "radio-city-chennai"
+          "radio-city-chennai",
+          "stage41-radio-city-malayalam"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -10627,6 +11353,1824 @@
         }
       },
       {
+        "id": "stage41-network-aaruthal-fm",
+        "name": "Aaruthal FM",
+        "key": "network:stage41-network-aaruthal-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-aaruthal-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-abc-radio-fm-89-2",
+        "name": "ABC Radio FM 89.2",
+        "key": "network:stage41-network-abc-radio-fm-89-2",
+        "aliases": [],
+        "countryCodes": [
+          "BD"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-abc-radio-fm-89-2"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ahalia-fm-90-4",
+        "name": "Ahalia FM 90.4",
+        "key": "network:stage41-network-ahalia-fm-90-4",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ahalia-fm-90-4"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ajith-fm",
+        "name": "Ajith FM",
+        "key": "network:stage41-network-ajith-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ajith-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-alaikal-fm",
+        "name": "Alaikal FM",
+        "key": "network:stage41-network-alaikal-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-alaikal-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-arni-city-fm",
+        "name": "Arni City FM",
+        "key": "network:stage41-network-arni-city-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-arni-city-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ashraya-fm-90",
+        "name": "Ashraya FM 90",
+        "key": "network:stage41-network-ashraya-fm-90",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ashraya-fm-90"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-bbc-world-service",
+        "name": "BBC World Service",
+        "key": "network:stage41-network-bbc-world-service",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-bbc-world-service"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-best-of-ghazals",
+        "name": "Best of Ghazals",
+        "key": "network:stage41-network-best-of-ghazals",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-best-of-ghazals"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-bhaktisudha",
+        "name": "Bhaktisudha",
+        "key": "network:stage41-network-bhaktisudha",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-bhaktisudha"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-big-fm-106-2",
+        "name": "Big FM 106.2 Dubai",
+        "key": "network:stage41-network-big-fm-106-2",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-big-fm-106-2"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-british-indian-tamil-radio",
+        "name": "British Indian Tamil Radio",
+        "key": "network:stage41-network-british-indian-tamil-radio",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-british-indian-tamil-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-canadian-tamil-radio-ctr",
+        "name": "Canadian Tamil Radio (CTR)",
+        "key": "network:stage41-network-canadian-tamil-radio-ctr",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-canadian-tamil-radio-ctr"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-capital-fm",
+        "name": "Capital FM",
+        "key": "network:stage41-network-capital-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-capital-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-chillax-fm",
+        "name": "Chillax FM",
+        "key": "network:stage41-network-chillax-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-chillax-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-covai-fm",
+        "name": "Covai FM",
+        "key": "network:stage41-network-covai-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-covai-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-dhol-radio",
+        "name": "Dhol Radio",
+        "key": "network:stage41-network-dhol-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-dhol-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-dubai-1-fm",
+        "name": "Dubai 1 FM",
+        "key": "network:stage41-network-dubai-1-fm",
+        "aliases": [],
+        "countryCodes": [
+          "AE"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-dubai-1-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-e-fm",
+        "name": "E FM Sri Lanka",
+        "key": "network:stage41-network-e-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-e-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-erode-city-fm",
+        "name": "Erode City FM",
+        "key": "network:stage41-network-erode-city-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-erode-city-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-erode-jai-fm",
+        "name": "Erode Jai FM",
+        "key": "network:stage41-network-erode-jai-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-erode-jai-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-filmy-mirchi",
+        "name": "Filmy Mirchi",
+        "key": "network:stage41-network-filmy-mirchi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-filmy-mirchi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-fox-fm",
+        "name": "Fox FM Sri Lanka",
+        "key": "network:stage41-network-fox-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-fox-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ftc-fm",
+        "name": "FTC FM",
+        "key": "network:stage41-network-ftc-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ftc-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-geet-radio-bengali",
+        "name": "Geet Radio Bengali",
+        "key": "network:stage41-network-geet-radio-bengali",
+        "aliases": [],
+        "countryCodes": [
+          "BD"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-geet-radio-bengali"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-gingee-fm",
+        "name": "Gingee FM (செஞ்சி)",
+        "key": "network:stage41-network-gingee-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-gingee-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-golden-goa",
+        "name": "Golden Goa Radio",
+        "key": "network:stage41-network-golden-goa",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-golden-goa"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-goldy-aaradhna",
+        "name": "Goldy Aaradhna",
+        "key": "network:stage41-network-goldy-aaradhna",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-goldy-aaradhna"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-goldy-cool",
+        "name": "Goldy Cool",
+        "key": "network:stage41-network-goldy-cool",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-goldy-cool"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-goldy-garba",
+        "name": "Goldy Garba",
+        "key": "network:stage41-network-goldy-garba",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-goldy-garba"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-goldy-sarvaani",
+        "name": "Goldy Sarvaani",
+        "key": "network:stage41-network-goldy-sarvaani",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-goldy-sarvaani"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-gramaphone-fm",
+        "name": "Gramaphone FM",
+        "key": "network:stage41-network-gramaphone-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-gramaphone-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-gurbani-kirtan",
+        "name": "Gurbani Kirtan",
+        "key": "network:stage41-network-gurbani-kirtan",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-gurbani-kirtan"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-hd-radio-bhojpuri",
+        "name": "HD Radio Bhojpuri",
+        "key": "network:stage41-network-hd-radio-bhojpuri",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-hd-radio-bhojpuri"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-hello-radio-90-8",
+        "name": "Hello Radio 90.8",
+        "key": "network:stage41-network-hello-radio-90-8",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-hello-radio-90-8"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-hello-tamizha-fm",
+        "name": "Hello Tamizha FM",
+        "key": "network:stage41-network-hello-tamizha-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-hello-tamizha-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-hot-now-punjabi-radio",
+        "name": "Hot Now Punjabi Radio",
+        "key": "network:stage41-network-hot-now-punjabi-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-hot-now-punjabi-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ilamai-fm",
+        "name": "Ilamai FM",
+        "key": "network:stage41-network-ilamai-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ilamai-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-imai-fm",
+        "name": "Imai FM",
+        "key": "network:stage41-network-imai-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-imai-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-indi-radio",
+        "name": "Indi Radio",
+        "key": "network:stage41-network-indi-radio",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-indi-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-isai-oli-fm",
+        "name": "Isai Oli FM",
+        "key": "network:stage41-network-isai-oli-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-isai-oli-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-iyalisai-bhakti-radio",
+        "name": "Iyalisai Bhakti Radio",
+        "key": "network:stage41-network-iyalisai-bhakti-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-iyalisai-bhakti-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-just-odisha-radio",
+        "name": "Just Odisha Radio",
+        "key": "network:stage41-network-just-odisha-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-just-odisha-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-k-radio-konkani",
+        "name": "K Radio Konkani",
+        "key": "network:stage41-network-k-radio-konkani",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-k-radio-konkani"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-kodaisaral-fm",
+        "name": "Kodaisaral FM",
+        "key": "network:stage41-network-kodaisaral-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-kodaisaral-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-konkani-forever-uk",
+        "name": "Konkani Forever UK",
+        "key": "network:stage41-network-konkani-forever-uk",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-konkani-forever-uk"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-lakshmi-fm",
+        "name": "Lakshmi FM",
+        "key": "network:stage41-network-lakshmi-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-lakshmi-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-lbc-tamil",
+        "name": "LBC Tamil",
+        "key": "network:stage41-network-lbc-tamil",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-lbc-tamil"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-lyca-radio-1458-am",
+        "name": "Lyca Radio 1458 AM",
+        "key": "network:stage41-network-lyca-radio-1458-am",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-lyca-radio-1458-am"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-madurai-voice-fm",
+        "name": "Madurai Voice FM",
+        "key": "network:stage41-network-madurai-voice-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-madurai-voice-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-mirchi-90s-radio",
+        "name": "Mirchi 90s Radio",
+        "key": "network:stage41-network-mirchi-90s-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-mirchi-90s-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-muthamil-fm-88-9-hd3",
+        "name": "Muthamil FM 88.9 HD3",
+        "key": "network:stage41-network-muthamil-fm-88-9-hd3",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-muthamil-fm-88-9-hd3"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-my-punjabi-radio",
+        "name": "My Punjabi Radio",
+        "key": "network:stage41-network-my-punjabi-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-my-punjabi-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-non-stop-hindi",
+        "name": "Non Stop Hindi Radio",
+        "key": "network:stage41-network-non-stop-hindi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-non-stop-hindi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-oho-radio",
+        "name": "Oho Radio",
+        "key": "network:stage41-network-oho-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-oho-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-old-hits",
+        "name": "Old Hits Tamil Radio",
+        "key": "network:stage41-network-old-hits",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-old-hits"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-paattu-petti",
+        "name": "Paattu Petti",
+        "key": "network:stage41-network-paattu-petti",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-paattu-petti"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-pattampoochi-fm",
+        "name": "Pattampoochi FM",
+        "key": "network:stage41-network-pattampoochi-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-pattampoochi-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-phule-krishi-vahini",
+        "name": "Phule Krishi Vahini",
+        "key": "network:stage41-network-phule-krishi-vahini",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-phule-krishi-vahini"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-punjabi-radio-usa",
+        "name": "Punjabi Radio USA",
+        "key": "network:stage41-network-punjabi-radio-usa",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-punjabi-radio-usa"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-antara",
+        "name": "Radio Antara",
+        "key": "network:stage41-network-radio-antara",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-antara"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-badal",
+        "name": "Radio Badal",
+        "key": "network:stage41-network-radio-badal",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-badal"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-beats",
+        "name": "Radio Beats",
+        "key": "network:stage41-network-radio-beats",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-beats"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-benziger",
+        "name": "Radio Benziger",
+        "key": "network:stage41-network-radio-benziger",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-benziger"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-bhumi",
+        "name": "Radio Bhumi",
+        "key": "network:stage41-network-radio-bhumi",
+        "aliases": [],
+        "countryCodes": [
+          "BD"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-bhumi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-gilli",
+        "name": "Radio Gilli",
+        "key": "network:stage41-network-radio-gilli",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-gilli"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-humsafar-1350-am",
+        "name": "Radio Humsafar 1350 AM",
+        "key": "network:stage41-network-radio-humsafar-1350-am",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-humsafar-1350-am"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-jajabara",
+        "name": "Radio Jajabara",
+        "key": "network:stage41-network-radio-jajabara",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-jajabara"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-kasoot",
+        "name": "Radio Kasoot (Haryanvi)",
+        "key": "network:stage41-network-radio-kasoot",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-kasoot"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-kerala",
+        "name": "Radio Kerala",
+        "key": "network:stage41-network-radio-kerala",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-kerala"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-malayalam-98-6-fm",
+        "name": "Radio Malayalam 98.6 FM",
+        "key": "network:stage41-network-radio-malayalam-98-6-fm",
+        "aliases": [],
+        "countryCodes": [
+          "QA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-malayalam-98-6-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-malayalam-usa",
+        "name": "Radio Malayalam USA",
+        "key": "network:stage41-network-radio-malayalam-usa",
+        "aliases": [],
+        "countryCodes": [
+          "US"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-malayalam-usa"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-mango",
+        "name": "Radio Mango",
+        "key": "network:stage41-network-radio-mango",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-mango"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-namkin",
+        "name": "Radio Namkin",
+        "key": "network:stage41-network-radio-namkin",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-namkin"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-nashaa-fm",
+        "name": "Radio Nashaa FM",
+        "key": "network:stage41-network-radio-nashaa-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-nashaa-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-neythal",
+        "name": "Radio Neythal",
+        "key": "network:stage41-network-radio-neythal",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-neythal"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-paramakurichi",
+        "name": "Radio Paramakurichi",
+        "key": "network:stage41-network-radio-paramakurichi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-paramakurichi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-sindhi",
+        "name": "Radio Sindhi",
+        "key": "network:stage41-network-radio-sindhi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-sindhi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-sports-flashes",
+        "name": "Radio Sports Flashes",
+        "key": "network:stage41-network-radio-sports-flashes",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-sports-flashes"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-sri-lanka",
+        "name": "Radio Sri Lanka",
+        "key": "network:stage41-network-radio-sri-lanka",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-sri-lanka"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-talky",
+        "name": "Radio Talky",
+        "key": "network:stage41-network-radio-talky",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-talky"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-utsav",
+        "name": "Radio Utsav",
+        "key": "network:stage41-network-radio-utsav",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-utsav"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-radio-x",
+        "name": "Radio X UK",
+        "key": "network:stage41-network-radio-x",
+        "aliases": [],
+        "countryCodes": [
+          "GB"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-radio-x"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-rang-fm",
+        "name": "Rang FM",
+        "key": "network:stage41-network-rang-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-rang-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-saaral-fm",
+        "name": "Saaral FM",
+        "key": "network:stage41-network-saaral-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-saaral-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-sadhguru-radio",
+        "name": "Sadhguru Radio",
+        "key": "network:stage41-network-sadhguru-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-sadhguru-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-sahara-fm",
+        "name": "Sahara FM",
+        "key": "network:stage41-network-sahara-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-sahara-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-sharmitha-fm",
+        "name": "Sharmitha FM",
+        "key": "network:stage41-network-sharmitha-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-sharmitha-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-sheetal-sangeet",
+        "name": "Sheetal Sangeet",
+        "key": "network:stage41-network-sheetal-sangeet",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-sheetal-sangeet"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-shripad-radio",
+        "name": "Shripad Radio",
+        "key": "network:stage41-network-shripad-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-shripad-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-smile-fm-90-8",
+        "name": "Smile FM 90.8",
+        "key": "network:stage41-network-smile-fm-90-8",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-smile-fm-90-8"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-spice-radio-1200-am",
+        "name": "Spice Radio 1200 AM",
+        "key": "network:stage41-network-spice-radio-1200-am",
+        "aliases": [],
+        "countryCodes": [
+          "CA"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-spice-radio-1200-am"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-ss-radio-madurai",
+        "name": "SS Radio Madurai",
+        "key": "network:stage41-network-ss-radio-madurai",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-ss-radio-madurai"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-sun-fm",
+        "name": "Sun FM Sri Lanka",
+        "key": "network:stage41-network-sun-fm",
+        "aliases": [],
+        "countryCodes": [
+          "LK"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-sun-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-tamil-amuthu-bakthi-radio",
+        "name": "Tamil Amuthu Bakthi Radio",
+        "key": "network:stage41-network-tamil-amuthu-bakthi-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-tamil-amuthu-bakthi-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-tamil-amuthu-madurai-radio",
+        "name": "Tamil Amuthu Madurai Radio",
+        "key": "network:stage41-network-tamil-amuthu-madurai-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-tamil-amuthu-madurai-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-tamil-sun-fm",
+        "name": "Tamil Sun FM",
+        "key": "network:stage41-network-tamil-sun-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-tamil-sun-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-thenkasi-fm-radio",
+        "name": "Thenkasi FM Radio",
+        "key": "network:stage41-network-thenkasi-fm-radio",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-thenkasi-fm-radio"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-thimiru-fm",
+        "name": "Thimiru FM",
+        "key": "network:stage41-network-thimiru-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-thimiru-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-vaigai-fm",
+        "name": "Vaigai FM",
+        "key": "network:stage41-network-vaigai-fm",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-vaigai-fm"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
+        "id": "stage41-network-yo-punjabi-mirchi",
+        "name": "Yo Punjabi Mirchi",
+        "key": "network:stage41-network-yo-punjabi-mirchi",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage41-yo-punjabi-mirchi"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -10971,11 +13515,12 @@
           "mirchi"
         ],
         "stationIds": [
-          "mirchi-chennai"
+          "mirchi-chennai",
+          "stage41-mirchi-kochi"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -11035,11 +13580,12 @@
           "radio-city"
         ],
         "stationIds": [
-          "radio-city-chennai"
+          "radio-city-chennai",
+          "stage41-radio-city-malayalam"
         ],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -11306,6 +13852,13 @@
           "stage32-malayalam-bhakthi",
           "stage32-sgpc-gurbani",
           "stage39-mugugan-songs-fm",
+          "stage41-aaruthal-fm",
+          "stage41-bhaktisudha",
+          "stage41-goldy-aaradhna",
+          "stage41-gurbani-kirtan",
+          "stage41-iyalisai-bhakti-radio",
+          "stage41-sadhguru-radio",
+          "stage41-tamil-amuthu-bakthi-radio",
           "sweety-fm-in",
           "tamil-christian-radio-in",
           "theophony-tamil-in",
@@ -11314,8 +13867,8 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 37,
-          "streamBearing": 37,
+          "all": 44,
+          "streamBearing": 44,
           "discoveryOnly": 0
         }
       },
@@ -11531,6 +14084,105 @@
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
+          "stage41-abc-radio-fm-89-2",
+          "stage41-ahalia-fm-90-4",
+          "stage41-ajith-fm",
+          "stage41-alaikal-fm",
+          "stage41-arni-city-fm",
+          "stage41-ashraya-fm-90",
+          "stage41-best-of-ghazals",
+          "stage41-big-fm-106-2",
+          "stage41-british-indian-tamil-radio",
+          "stage41-canadian-tamil-radio-ctr",
+          "stage41-capital-fm",
+          "stage41-chillax-fm",
+          "stage41-club-fm",
+          "stage41-covai-fm",
+          "stage41-dhol-radio",
+          "stage41-dubai-1-fm",
+          "stage41-e-fm",
+          "stage41-erode-city-fm",
+          "stage41-erode-jai-fm",
+          "stage41-filmy-mirchi",
+          "stage41-fox-fm",
+          "stage41-ftc-fm",
+          "stage41-geet-radio-bengali",
+          "stage41-gingee-fm",
+          "stage41-golden-goa",
+          "stage41-goldy-cool",
+          "stage41-goldy-garba",
+          "stage41-goldy-sarvaani",
+          "stage41-gramaphone-fm",
+          "stage41-hd-radio-bhojpuri",
+          "stage41-hello-radio-90-8",
+          "stage41-hello-tamizha-fm",
+          "stage41-hot-now-punjabi-radio",
+          "stage41-ilamai-fm",
+          "stage41-imai-fm",
+          "stage41-indi-radio",
+          "stage41-isai-oli-fm",
+          "stage41-just-odisha-radio",
+          "stage41-k-radio-konkani",
+          "stage41-kodaisaral-fm",
+          "stage41-konkani-forever-uk",
+          "stage41-lakshmi-fm",
+          "stage41-lbc-tamil",
+          "stage41-lyca-radio-1458-am",
+          "stage41-madurai-voice-fm",
+          "stage41-mirchi-90s-radio",
+          "stage41-mirchi-kochi",
+          "stage41-muthamil-fm-88-9-hd3",
+          "stage41-my-punjabi-radio",
+          "stage41-non-stop-hindi",
+          "stage41-oho-radio",
+          "stage41-old-hits",
+          "stage41-paattu-petti",
+          "stage41-pattampoochi-fm",
+          "stage41-phule-krishi-vahini",
+          "stage41-punjabi-radio-usa",
+          "stage41-radio-antara",
+          "stage41-radio-badal",
+          "stage41-radio-beats",
+          "stage41-radio-benziger",
+          "stage41-radio-bhumi",
+          "stage41-radio-city-malayalam",
+          "stage41-radio-gilli",
+          "stage41-radio-humsafar-1350-am",
+          "stage41-radio-jajabara",
+          "stage41-radio-kasoot",
+          "stage41-radio-kerala",
+          "stage41-radio-malayalam-98-6-fm",
+          "stage41-radio-malayalam-usa",
+          "stage41-radio-mango",
+          "stage41-radio-namkin",
+          "stage41-radio-nashaa-fm",
+          "stage41-radio-neythal",
+          "stage41-radio-olive",
+          "stage41-radio-olive-retro",
+          "stage41-radio-paramakurichi",
+          "stage41-radio-sindhi",
+          "stage41-radio-sri-lanka",
+          "stage41-radio-suno",
+          "stage41-radio-suno-melody",
+          "stage41-radio-talky",
+          "stage41-radio-utsav",
+          "stage41-radio-x",
+          "stage41-rang-fm",
+          "stage41-saaral-fm",
+          "stage41-sahara-fm",
+          "stage41-sharmitha-fm",
+          "stage41-sheetal-sangeet",
+          "stage41-shripad-radio",
+          "stage41-smile-fm-90-8",
+          "stage41-spice-radio-1200-am",
+          "stage41-ss-radio-madurai",
+          "stage41-sun-fm",
+          "stage41-tamil-amuthu-madurai-radio",
+          "stage41-tamil-sun-fm",
+          "stage41-thenkasi-fm-radio",
+          "stage41-thimiru-fm",
+          "stage41-vaigai-fm",
+          "stage41-yo-punjabi-mirchi",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -11549,8 +14201,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 167,
-          "streamBearing": 167,
+          "all": 266,
+          "streamBearing": 266,
           "discoveryOnly": 0
         }
       },
@@ -11587,14 +14239,16 @@
           "stage29-yazh-news",
           "stage38-air-world-service-bangla",
           "stage38-al-jazeera-english-audio",
+          "stage41-bbc-world-service",
+          "stage41-radio-sports-flashes",
           "star-fm-srilanka",
           "swiss-tamil-radio-ch",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 32,
-          "streamBearing": 32,
+          "all": 34,
+          "streamBearing": 34,
           "discoveryOnly": 0
         }
       },
@@ -12443,6 +15097,114 @@
         "stage39-vilathikulam-thendral",
         "stage39-vismaya-kerala-malayalam",
         "stage40-air-tamil-90s-songs",
+        "stage41-aaruthal-fm",
+        "stage41-abc-radio-fm-89-2",
+        "stage41-ahalia-fm-90-4",
+        "stage41-ajith-fm",
+        "stage41-alaikal-fm",
+        "stage41-arni-city-fm",
+        "stage41-ashraya-fm-90",
+        "stage41-bbc-world-service",
+        "stage41-best-of-ghazals",
+        "stage41-bhaktisudha",
+        "stage41-big-fm-106-2",
+        "stage41-british-indian-tamil-radio",
+        "stage41-canadian-tamil-radio-ctr",
+        "stage41-capital-fm",
+        "stage41-chillax-fm",
+        "stage41-club-fm",
+        "stage41-covai-fm",
+        "stage41-dhol-radio",
+        "stage41-dubai-1-fm",
+        "stage41-e-fm",
+        "stage41-erode-city-fm",
+        "stage41-erode-jai-fm",
+        "stage41-filmy-mirchi",
+        "stage41-fox-fm",
+        "stage41-ftc-fm",
+        "stage41-geet-radio-bengali",
+        "stage41-gingee-fm",
+        "stage41-golden-goa",
+        "stage41-goldy-aaradhna",
+        "stage41-goldy-cool",
+        "stage41-goldy-garba",
+        "stage41-goldy-sarvaani",
+        "stage41-gramaphone-fm",
+        "stage41-gurbani-kirtan",
+        "stage41-hd-radio-bhojpuri",
+        "stage41-hello-radio-90-8",
+        "stage41-hello-tamizha-fm",
+        "stage41-hot-now-punjabi-radio",
+        "stage41-ilamai-fm",
+        "stage41-imai-fm",
+        "stage41-indi-radio",
+        "stage41-isai-oli-fm",
+        "stage41-iyalisai-bhakti-radio",
+        "stage41-just-odisha-radio",
+        "stage41-k-radio-konkani",
+        "stage41-kodaisaral-fm",
+        "stage41-konkani-forever-uk",
+        "stage41-lakshmi-fm",
+        "stage41-lbc-tamil",
+        "stage41-lyca-radio-1458-am",
+        "stage41-madurai-voice-fm",
+        "stage41-mirchi-90s-radio",
+        "stage41-mirchi-kochi",
+        "stage41-muthamil-fm-88-9-hd3",
+        "stage41-my-punjabi-radio",
+        "stage41-non-stop-hindi",
+        "stage41-oho-radio",
+        "stage41-old-hits",
+        "stage41-paattu-petti",
+        "stage41-pattampoochi-fm",
+        "stage41-phule-krishi-vahini",
+        "stage41-punjabi-radio-usa",
+        "stage41-radio-antara",
+        "stage41-radio-badal",
+        "stage41-radio-beats",
+        "stage41-radio-benziger",
+        "stage41-radio-bhumi",
+        "stage41-radio-city-malayalam",
+        "stage41-radio-gilli",
+        "stage41-radio-humsafar-1350-am",
+        "stage41-radio-jajabara",
+        "stage41-radio-kasoot",
+        "stage41-radio-kerala",
+        "stage41-radio-malayalam-98-6-fm",
+        "stage41-radio-malayalam-usa",
+        "stage41-radio-mango",
+        "stage41-radio-namkin",
+        "stage41-radio-nashaa-fm",
+        "stage41-radio-neythal",
+        "stage41-radio-olive",
+        "stage41-radio-olive-retro",
+        "stage41-radio-paramakurichi",
+        "stage41-radio-sindhi",
+        "stage41-radio-sports-flashes",
+        "stage41-radio-sri-lanka",
+        "stage41-radio-suno",
+        "stage41-radio-suno-melody",
+        "stage41-radio-talky",
+        "stage41-radio-utsav",
+        "stage41-radio-x",
+        "stage41-rang-fm",
+        "stage41-saaral-fm",
+        "stage41-sadhguru-radio",
+        "stage41-sahara-fm",
+        "stage41-sharmitha-fm",
+        "stage41-sheetal-sangeet",
+        "stage41-shripad-radio",
+        "stage41-smile-fm-90-8",
+        "stage41-spice-radio-1200-am",
+        "stage41-ss-radio-madurai",
+        "stage41-sun-fm",
+        "stage41-tamil-amuthu-bakthi-radio",
+        "stage41-tamil-amuthu-madurai-radio",
+        "stage41-tamil-sun-fm",
+        "stage41-thenkasi-fm-radio",
+        "stage41-thimiru-fm",
+        "stage41-vaigai-fm",
+        "stage41-yo-punjabi-mirchi",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -12472,8 +15234,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 288,
-        "streamBearing": 288,
+        "all": 396,
+        "streamBearing": 396,
         "discoveryOnly": 0
       }
     },

@@ -1027,5 +1027,12 @@
     "type": "locality",
     "parentId": "ca-ab",
     "countryCode": "CA"
+  },
+  {
+    "id": "bd",
+    "name": "Bangladesh",
+    "type": "country",
+    "parentId": null,
+    "countryCode": "BD"
   }
 ]
