@@ -1,24 +1,10 @@
 import test from 'node:test';
-
-test('temporary stream page-inspection audit; not intended for publication', async () => {
-  const pages = [
-    'https://liveradios.in/thr-raaga.html',
-    'https://liveradios.in/radio-gilli.html',
-    'https://liveradios.in/tamil-amuthu-bakthi-radio.html',
-    'https://liveradios.in/goldy-garba.html',
-    'https://onlineradiofm.in/stations/mirchi',
-    'https://liveradios.in/radio-kasoot.html'
-  ];
-  const results = await Promise.all(pages.map(async url => {
-    try {
-      const r = await fetch(url,{signal:AbortSignal.timeout(15000),headers:{'User-Agent':'Mozilla/5.0 (compatible; RadioBee-Research/1.0)','Accept':'text/html,application/xhtml+xml'}});
-      const raw = await r.text();
-      const html=raw.replaceAll('\\/','/').replaceAll('&amp;','&');
-      const match=(pattern)=>[...html.matchAll(pattern)].slice(0,20).map(m=>html.slice(Math.max(0,m.index-90),Math.min(html.length,m.index+180)).replace(/\s+/g,' '));
-      return {url,status:r.status,redirect:r.url,size:raw.length,preview:html.slice(0,120).replace(/\s+/g,' '),
-       zeno:match(/(?:zeno\.fm|zenolive\.com|radioca\.st|icecast|\.m3u8|\.mp3|data-stream|streamUrl|audio_url|file\s*:)/gi),
-       players:match(/(?:<audio\b|<source\b|<iframe\b|jPlayer|player-container|stream-url|radio_player)/gi)};
-    } catch(e){return {url,error:String(e).slice(0,250)}}
-  }));
-  for(const row of results)console.log('STREAM_AUDIT_JSON '+JSON.stringify(row));
+test('temporary page HTML analysis',async ()=>{
+ const pages=['https://liveradios.in/thr-raaga.html','https://liveradios.in/tamil-amuthu-bakthi-radio.html','https://onlineradiofm.in/stations/mirchi'];
+ for(const url of pages){
+ try{let response=await fetch(url,{signal:AbortSignal.timeout(15000)});let html=await response.text();const parts=[];
+ const patterns=[/https?:\\?\/\\?\/[^\s'"<>]{8,180}/gi,/src\s*=\s*["'][^"']{4,200}["']/gi,/(?:iframe|player|embed|stream|radio-url|data-url|track|audio|sound|zeno|radioca)\S{0,90}/gi];
+ for(let j=0;j<patterns.length;j++){let matches=[...html.matchAll(patterns[j])].map(m=>m[0]);parts.push({type:j,count:matches.length,first:matches.slice(0,j===0?100:65)});}
+ console.log("PAGE_HTML_DETAILS "+JSON.stringify({url,status:response.status,htmlSize:html.length,title:html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1],details:parts}));
+ }catch(e){console.log("PAGE_HTML_DETAILS "+JSON.stringify({url,error:String(e)}))}}
 });
