@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.11",
+  "catalogVersion": "2.8.12",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
     "all": 398,
@@ -6877,6 +6877,8 @@
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-vividh-bharati-bengaluru",
           "stage38-air-agra",
           "stage38-air-alappuzha-fm",
           "stage38-air-ananthapuri-fm",
@@ -6889,8 +6891,8 @@
           "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 33,
+          "streamBearing": 33,
           "discoveryOnly": 0
         }
       },
@@ -10762,12 +10764,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage32-fm-rainbow-vijayawada"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -10906,12 +10906,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage32-vividh-bharati-bengaluru"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -13659,6 +13657,8 @@
           "air-tiruchirappalli",
           "air-tirunelveli",
           "air-vividh-bharati",
+          "stage32-fm-rainbow-vijayawada",
+          "stage32-vividh-bharati-bengaluru",
           "stage38-air-agra",
           "stage38-air-alappuzha-fm",
           "stage38-air-ananthapuri-fm",
@@ -13671,8 +13671,8 @@
           "stage38-fm-gold-kolkata"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 33,
+          "streamBearing": 33,
           "discoveryOnly": 0
         }
       },
