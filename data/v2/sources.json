@@ -3398,14 +3398,14 @@
     "id": "sun-group-radio-official-2026",
     "title": "Sun Group official radio brands: Suryan FM, RED FM and Magic FM",
     "url": "https://www.sun.in/radio.aspx",
-    "type": "broadcaster",
-    "notes": "Official Sun Group page describes Suryan FM and RED FM as group brands; distinct FM licensee entities are documented in government registers."
+    "notes": "Official Sun Group page describes Suryan FM and RED FM as group brands; distinct FM licensee entities are documented in government registers.",
+    "kind": "official"
   },
   {
     "id": "enil-mirchi-digital-2022",
     "title": "ENIL investor presentation: Mirchi online radio portfolio",
     "url": "https://nsearchives.nseindia.com/corporate/ENIL_08082022234103_ENILInvestorupdateQ1FY23.pdf",
-    "type": "broadcaster",
-    "notes": "Investor update identifies Filmy Mirchi, Mirchi 90s and Mirchi Punjabi format stations in ENIL's Mirchi online radio portfolio."
+    "notes": "Investor update identifies Filmy Mirchi, Mirchi 90s and Mirchi Punjabi format stations in ENIL's Mirchi online radio portfolio.",
+    "kind": "official"
   }
 ]
