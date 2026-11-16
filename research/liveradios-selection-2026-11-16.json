@@ -737,24 +737,6 @@
       "notes": ""
     },
     {
-      "id": "stage41-all-india-radio-agra",
-      "slug": "all-india-radio-agra",
-      "lang": "hi",
-      "country": "IN",
-      "name": "All India Radio Agra",
-      "genre": "music",
-      "url": "https://radio.wavespb.com/live/94e6de05aa9b04b0/94e6de05aa9b04b0.m3u8",
-      "page": "https://liveradios.in/all-india-radio-agra.html",
-      "sourceMethod": "liveradios-page-specific-js",
-      "alternateUrls": [
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio059/playlist.m3u8"
-      ],
-      "validation": "unverified",
-      "confidence": "page-player",
-      "sourceUrl": "",
-      "notes": ""
-    },
-    {
       "id": "stage41-mirchi-90s-radio",
       "slug": "mirchi-90s-radio",
       "lang": "hi",
@@ -1230,7 +1212,7 @@
       "slug": "smile-fm-90-8",
       "lang": "mr",
       "country": "IN",
-      "name": "Smile FM 90 8",
+      "name": "Smile FM 90.8",
       "genre": "music",
       "url": "https://stream.tamilfmradios.com/?url=http://198.245.61.103:8113/stream?type=http&nocache=2",
       "page": "https://liveradios.in/smile-fm-90-8.html",
@@ -1281,7 +1263,7 @@
       "id": "stage41-radio-suno-melody",
       "slug": "radio-suno-melody",
       "lang": "ml",
-      "country": "IN",
+      "country": "QA",
       "name": "Radio Suno Melody",
       "genre": "music",
       "url": "https://stream.zeno.fm/pbqv4u9k0k0uv",
@@ -1299,8 +1281,8 @@
       "id": "stage41-radio-suno",
       "slug": "radio-suno",
       "lang": "ml",
-      "country": "IN",
-      "name": "Radio Suno",
+      "country": "QA",
+      "name": "Radio Suno 91.7 FM",
       "genre": "music",
       "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917_SC",
       "page": "https://liveradios.in/radio-suno.html",
@@ -1467,7 +1449,7 @@
       "slug": "ahalia-fm-90-4",
       "lang": "ml",
       "country": "IN",
-      "name": "Ahalia FM 90 4",
+      "name": "Ahalia FM 90.4",
       "genre": "music",
       "url": "https://cast1.my-control-panel.com/proxy/ahaliafm/stream",
       "page": "https://liveradios.in/ahalia-fm-90-4.html",
@@ -1509,24 +1491,6 @@
       "alternateUrls": [
         "https://radio.radiobenziger.com/stream?type=http&nocache=1169",
         "https://stream.tamilfmradios.com/?url=http://streamasiacdn.atc-labs.com/rdsaanthwanam.aac"
-      ],
-      "validation": "unverified",
-      "confidence": "page-player",
-      "sourceUrl": "",
-      "notes": ""
-    },
-    {
-      "id": "stage41-kozhikode-real-fm-103-6",
-      "slug": "kozhikode-real-fm-103-6",
-      "lang": "ml",
-      "country": "IN",
-      "name": "Kozhikode Real FM 103.6",
-      "genre": "music",
-      "url": "https://radio.wavespb.com/live/b69c296065db7627/b69c296065db7627.m3u8",
-      "page": "https://liveradios.in/kozhikode-real-fm-103-6.html",
-      "sourceMethod": "liveradios-page-specific-js",
-      "alternateUrls": [
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio083/playlist.m3u8"
       ],
       "validation": "unverified",
       "confidence": "page-player",
@@ -1606,7 +1570,7 @@
       "slug": "hello-radio-90-8",
       "lang": "ml",
       "country": "IN",
-      "name": "Hello Radio 90 8",
+      "name": "Hello Radio 90.8",
       "genre": "music",
       "url": "https://radio.helloradio.in/radio",
       "page": "https://liveradios.in/hello-radio-90-8.html",
@@ -1650,25 +1614,6 @@
       "notes": ""
     },
     {
-      "id": "stage41-air-siliguri",
-      "slug": "air-siliguri",
-      "lang": "bn",
-      "country": "IN",
-      "name": "Akashvani Siliguri",
-      "genre": "music",
-      "url": "https://radio.wavespb.com/live/165856ba98ca031a/165856ba98ca031a.m3u8",
-      "page": "https://liveradios.in/air-siliguri.html",
-      "sourceMethod": "liveradios-page-specific-js",
-      "alternateUrls": [
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio164/playlist.m3u8",
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio134/playlist.m3u8"
-      ],
-      "validation": "unverified",
-      "confidence": "page-player",
-      "sourceUrl": "",
-      "notes": ""
-    },
-    {
       "id": "stage41-geet-radio-bengali",
       "slug": "geet-radio-bengali",
       "lang": "bn",
@@ -1679,26 +1624,6 @@
       "page": "https://liveradios.in/geet-radio-bengali.html",
       "sourceMethod": "liveradios-page-specific-js",
       "alternateUrls": [],
-      "validation": "unverified",
-      "confidence": "page-player",
-      "sourceUrl": "",
-      "notes": ""
-    },
-    {
-      "id": "stage41-air-bhuj",
-      "slug": "air-bhuj",
-      "lang": "gu",
-      "country": "IN",
-      "name": "Akashvani Bhuj",
-      "genre": "music",
-      "url": "https://radio.wavespb.com/live/39f1810f00b8172a/39f1810f00b8172a.m3u8",
-      "page": "https://liveradios.in/air-bhuj.html",
-      "sourceMethod": "liveradios-page-specific-js",
-      "alternateUrls": [
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio195/playlist.m3u8",
-        "https://stream.tamilfmradios.com/?url=http://117.254.199.9:8081/source",
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio135/playlist.m3u8"
-      ],
       "validation": "unverified",
       "confidence": "page-player",
       "sourceUrl": "",
@@ -1779,24 +1704,6 @@
       "page": "https://liveradios.in/radio-utsav.html",
       "sourceMethod": "liveradios-page-specific-js",
       "alternateUrls": [],
-      "validation": "unverified",
-      "confidence": "page-player",
-      "sourceUrl": "",
-      "notes": ""
-    },
-    {
-      "id": "stage41-air-surat",
-      "slug": "air-surat",
-      "lang": "gu",
-      "country": "IN",
-      "name": "Akashvani Surat",
-      "genre": "music",
-      "url": "https://radio.wavespb.com/live/fc6ce69c53a3d739/fc6ce69c53a3d739.m3u8",
-      "page": "https://liveradios.in/air-surat.html",
-      "sourceMethod": "liveradios-page-specific-js",
-      "alternateUrls": [
-        "https://air.pc.cdn.bitgravity.com/air/live/pbaudio186/playlist.m3u8"
-      ],
       "validation": "unverified",
       "confidence": "page-player",
       "sourceUrl": "",
@@ -1965,6 +1872,11 @@
     "ta:thaalam-fm",
     "ta:thamil-thai-fm",
     "ta:thr-raaga",
-    "te:mirchi"
+    "te:mirchi",
+    "hi:all-india-radio-agra",
+    "ml:kozhikode-real-fm-103-6",
+    "bn:air-siliguri",
+    "gu:air-bhuj",
+    "gu:air-surat"
   ]
 }
