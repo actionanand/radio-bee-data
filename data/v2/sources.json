@@ -2588,5 +2588,26 @@
     "url": "https://github.com/junguler/m3u-radio-music-playlists/blob/master/%2Bmerged%2B/t/tamil.m3u",
     "kind": "third-party",
     "notes": "Supplementary merged playlist includes mixed-language listings including Lata Mangeshkar; inclusion is not evidence of Tamil-language audio."
+  },
+  {
+    "id": "stage40-source-mugugan-zeno",
+    "title": "Zeno.FM — Mugugan Songs FM publisher listing",
+    "url": "https://zeno.fm/radio/mugugan-songs-fm/",
+    "kind": "publisher-metadata",
+    "notes": "Zeno station page labels this service Mugugan Songs FM and describes Murugan devotional Tamil songs. This is a separate broadcaster listing from Tamil Kadavul Murugan. Does not establish independent audio playback or third-party use rights."
+  },
+  {
+    "id": "stage40-source-raja-fm-zeno",
+    "title": "Zeno.FM — Raja FM Sri Lanka publisher listing",
+    "url": "https://zeno.fm/radio/raja-fm-radio/",
+    "kind": "publisher-metadata",
+    "notes": "The Sri Lankan Raja FM publisher page lists Sinhalese, Tamil and English (UK) languages. This is not the India-based Ilaiyaraaja fan station under a different Zeno page. No verified schedule, playback or permissions are implied."
+  },
+  {
+    "id": "stage40-source-air-tamil-90s",
+    "title": "RadioStations directory snapshot — Air Tamil 90S Songs",
+    "url": "https://github.com/Srivyaa/RadioStations/blob/main/data/music.json",
+    "kind": "directory",
+    "notes": "Directory snapshot identifies Air Tamil 90S Songs with direct Zeno stream mw96g2eafwzuv, Tamil language, India and historical MP3 codec. Historical check was October 2025, not a recent playback test. Different stream from existing AirTamil 90s; independent broadcaster ownership unconfirmed."
   }
 ]

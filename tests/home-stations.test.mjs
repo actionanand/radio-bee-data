@@ -7,14 +7,14 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
-const wanted=["stage29-tamil-kadavul-murugan-fm","air-nagercoil","suryan-chennai","air-chennai-rainbow","sooriyan-srilanka","shakthi-srilanka","oli-968-sg","ibc-tamil-uk","tamil-894-ae","american-tamil-radio-us","stage29-100-love-radio","stage29-100-new-songs","stage29-100-sad-songs"];
-const names=["Tamil Kadavul Murugan","Akashvani Nagercoil","Suryan FM Chennai","Akashvani FM Rainbow Chennai","Sooriyan FM Sri Lanka","Shakthi FM Sri Lanka","OLI 968","IBC Tamil Radio","89.4 Tamil FM","American Tamil Radio","100% Love Radio","100% New Songs","100% Sad Songs"];
+const wanted=["stage29-tamil-kadavul-murugan-fm","air-nagercoil","suryan-chennai","air-chennai-rainbow","sooriyan-srilanka","shakthi-srilanka","oli-968-sg","ibc-tamil-uk","tamil-894-ae","american-tamil-radio-us","stage29-100-love-radio","stage29-100-new-songs","stage29-100-sad-songs","stage39-mugugan-songs-fm","stage40-air-tamil-90s-songs","stage39-raja-fm-sri-lanka-zeno"];
+const names=["Tamil Kadavul Murugan","Akashvani Nagercoil","Suryan FM Chennai","Akashvani FM Rainbow Chennai","Sooriyan FM Sri Lanka","Shakthi FM Sri Lanka","OLI 968","IBC Tamil Radio","89.4 Tamil FM","American Tamil Radio","100% Love Radio","100% New Songs","100% Sad Songs","Mugugan Songs FM","Air Tamil 90S Songs","Raja FM"];
 
-test('Home contains exactly the 13 requested stations in editorial order',()=>{
+test('Home retains the original 13 stations and appends three distinct requested radios',()=>{
   const catalogue=readCatalogue(root,'v2');
   const home=catalogue.homeStations;
   assert.equal(home.schemaVersion,2);
-  assert.equal(home.count,13);
+  assert.equal(home.count,16);
   assert.deepEqual(home.stationIds,wanted);
   assert.equal(home.stationIds[0],'stage29-tamil-kadavul-murugan-fm');
   const byId=new Map(catalogue.stations.map(s=>[s.id,s]));

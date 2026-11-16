@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.8",
+  "catalogVersion": "2.8.9",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 287,
-    "streamBearing": 287,
+    "all": 288,
+    "streamBearing": 288,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -268,6 +268,7 @@
     "stage39-vellur-fm-zeno",
     "stage39-vilathikulam-thendral",
     "stage39-vismaya-kerala-malayalam",
+    "stage40-air-tamil-90s-songs",
     "star-fm-srilanka",
     "suno-tamil-qa",
     "suomipop-fi",
@@ -714,6 +715,7 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
+          "stage40-air-tamil-90s-songs",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -727,8 +729,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 187,
-          "streamBearing": 187,
+          "all": 188,
+          "streamBearing": 188,
           "discoveryOnly": 0
         }
       },
@@ -1908,6 +1910,7 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
+          "stage40-air-tamil-90s-songs",
           "tamil-80s-hits",
           "tamil-panpalai",
           "thaalam-in",
@@ -2091,6 +2094,7 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
+          "stage40-air-tamil-90s-songs",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -2104,8 +2108,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 187,
-          "streamBearing": 187,
+          "all": 188,
+          "streamBearing": 188,
           "discoveryOnly": 0
         }
       },
@@ -4608,12 +4612,13 @@
           "realradio-ireland-ie",
           "shaiva-lahari-in",
           "stage38-al-jazeera-english-audio",
+          "stage39-raja-fm-sri-lanka-zeno",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 31,
-          "streamBearing": 31,
+          "all": 32,
+          "streamBearing": 32,
           "discoveryOnly": 0
         }
       },
@@ -5530,6 +5535,7 @@
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
+          "stage39-raja-fm-sri-lanka-zeno",
           "stage39-tamil-a1-radio",
           "stage39-tamil-amudhu-zeno",
           "stage39-tamil-radio-zeno",
@@ -5537,6 +5543,7 @@
           "stage39-thiruvarur-timepass-fm",
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
+          "stage40-air-tamil-90s-songs",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suryan-chennai",
@@ -5560,8 +5567,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 183,
-          "streamBearing": 183,
+          "all": 185,
+          "streamBearing": 185,
           "discoveryOnly": 0
         }
       },
@@ -5729,11 +5736,12 @@
           "mauradio-mu",
           "quran-tamil-kw",
           "radio-plus-indiz-mu",
+          "stage39-raja-fm-sri-lanka-zeno",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 18,
-          "streamBearing": 18,
+          "all": 19,
+          "streamBearing": 19,
           "discoveryOnly": 0
         }
       },
@@ -5994,7 +6002,6 @@
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-raja-fm-sri-lanka-zeno",
           "stage39-tamil-a1-radio",
           "stage39-tamil-amudhu-zeno",
           "stage39-tamil-radio-zeno",
@@ -6003,6 +6010,7 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
+          "stage40-air-tamil-90s-songs",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -10601,6 +10609,24 @@
         }
       },
       {
+        "id": "stage40-network-air-tamil-90s-songs",
+        "name": "Air Tamil 90S Songs",
+        "key": "network:stage40-network-air-tamil-90s-songs",
+        "aliases": [],
+        "countryCodes": [
+          "IN"
+        ],
+        "broadcasterId": null,
+        "stationIds": [
+          "stage40-air-tamil-90s-songs"
+        ],
+        "counts": {
+          "all": 1,
+          "streamBearing": 1,
+          "discoveryOnly": 0
+        }
+      },
+      {
         "id": "star-fm-lk",
         "name": "Star FM",
         "key": "network:star-fm-lk",
@@ -11504,6 +11530,7 @@
           "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
+          "stage40-air-tamil-90s-songs",
           "star-fm-srilanka",
           "suno-tamil-qa",
           "suomipop-fi",
@@ -11522,8 +11549,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 166,
-          "streamBearing": 166,
+          "all": 167,
+          "streamBearing": 167,
           "discoveryOnly": 0
         }
       },
@@ -11584,14 +11611,15 @@
           "sanskrit-bharati-radio-in",
           "shiva-tattvam",
           "stage33-red-fm-calgary",
+          "stage39-raja-fm-sri-lanka-zeno",
           "sveriges-radio-p1-se",
           "tamil-894-ae",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 12,
-          "streamBearing": 12,
+          "all": 13,
+          "streamBearing": 13,
           "discoveryOnly": 0
         }
       }
@@ -12414,6 +12442,7 @@
         "stage39-vellur-fm-zeno",
         "stage39-vilathikulam-thendral",
         "stage39-vismaya-kerala-malayalam",
+        "stage40-air-tamil-90s-songs",
         "star-fm-srilanka",
         "suno-tamil-qa",
         "suomipop-fi",
@@ -12443,8 +12472,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 287,
-        "streamBearing": 287,
+        "all": 288,
+        "streamBearing": 288,
         "discoveryOnly": 0
       }
     },
