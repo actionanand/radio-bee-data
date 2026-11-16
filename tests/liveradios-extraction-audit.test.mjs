@@ -6,17 +6,17 @@ async function extract(row){
   const html=await fetchText(row.url);
   let file="", bundleUrl="", method="", reason="";
   if(row.url.includes('onlineradiofm.in')){
-   file=html.match(/var\\s+FILE\\s*=\\s*["']([^"']+)["']/i)?.[1]??'';
+   file=html.match(/var\s+FILE\s*=\s*["']([^"']+)["']/i)?.[1]??'';
    method=file?'onlineradiofm-inline':'';
   }else{
-   bundleUrl=[...html.matchAll(/<script[^>]+src=["'](https:\/\/liveradios\\.in\/wp-content\/cache\/autoptimize\/js\/[^"']+)["']/gi)].at(-1)?.[1]??'';
+   bundleUrl=[...html.matchAll(/<script[^>]+src=["'](https:\/\/liveradios\.in\/wp-content\/cache\/autoptimize\/js\/[^"']+)["']/gi)].at(-1)?.[1]??'';
    if(bundleUrl){const js=await fetchText(bundleUrl,18000);
-    file=js.match(/new\\s+Playerjs\\s*\\(\\s*\\{\\s*id\\s*:\\s*["']radio-playerjs["']\\s*,\\s*file\\s*:\\s*["']([^"']+)["']/i)?.[1]??'';
+    file=js.match(/new\s+Playerjs\s*\(\s*\{\s*id\s*:\s*["']radio-playerjs["']\s*,\s*file\s*:\s*["']([^"']+)["']/i)?.[1]??'';
     method=file?'liveradios-page-specific-js':'';
    }
   }
   if(!file)reason=bundleUrl?'missing Playerjs file configuration':'player not found';
-  const urls=file.split(/\\s+or\\s+/i).map(x=>x.trim()).filter(Boolean);
+  const urls=file.split(/\s+or\s+/i).map(x=>x.trim()).filter(Boolean);
   return {lang:row.lang,slug:row.slug,page:row.url,method,urls,reason};
  }catch(e){return {lang:row.lang,slug:row.slug,page:row.url,error:String(e).slice(0,160)}}
 }
