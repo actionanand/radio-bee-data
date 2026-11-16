@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "count": 13,
+  "count": 16,
   "stationIds": [
     "stage29-tamil-kadavul-murugan-fm",
     "air-nagercoil",
@@ -14,6 +14,9 @@
     "american-tamil-radio-us",
     "stage29-100-love-radio",
     "stage29-100-new-songs",
-    "stage29-100-sad-songs"
+    "stage29-100-sad-songs",
+    "stage39-mugugan-songs-fm",
+    "stage40-air-tamil-90s-songs",
+    "stage39-raja-fm-sri-lanka-zeno"
   ]
 }
