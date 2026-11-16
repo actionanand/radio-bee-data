@@ -8232,7 +8232,7 @@
         }
       }
     ],
-    "logoPath": "assets/artwork/stations/radio-mirchi-dubai-ae.svg"
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "radio-quarantine-kolkata-in",
@@ -12545,7 +12545,7 @@
     "id": "stage32-vividh-bharati-bengaluru",
     "name": "Vividh Bharati Bengaluru",
     "about": "Vividh Bharati Bengaluru is a Kannada-language online radio service associated with India. Its catalogue programme categories include music.",
-    "networkId": "stage32-vividh-bharati-bengaluru",
+    "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
     "districtId": null,
@@ -12584,8 +12584,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/stations/stage32-vividh-bharati-bengaluru.svg"
+    ]
   },
   {
     "id": "stage32-bhakti-sangeet",
@@ -12729,7 +12728,7 @@
     "id": "stage32-fm-rainbow-vijayawada",
     "name": "FM Rainbow Vijayawada",
     "about": "FM Rainbow Vijayawada is a Telugu-language online radio service associated with India. Its catalogue programme categories include general-interest programmes.",
-    "networkId": "stage32-fm-rainbow-vijayawada",
+    "networkId": "akashvani",
     "countryCode": "IN",
     "regionId": null,
     "districtId": null,
@@ -12768,8 +12767,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/stations/stage32-fm-rainbow-vijayawada.svg"
+    ]
   },
   {
     "id": "stage32-retro-bollywood-90s",
@@ -17552,7 +17550,7 @@
         }
       }
     ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-radio-olive-retro",
@@ -17966,7 +17964,7 @@
         }
       }
     ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-radio-sports-flashes",
@@ -18242,7 +18240,7 @@
         }
       }
     ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    "logoUrl": "https://static.tuneyou.com/images/logos/500_500/46/12946/RadioMirchi98.3FM.jpg"
   },
   {
     "id": "stage41-hot-now-punjabi-radio",
@@ -18932,8 +18930,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-suno-melody",
@@ -19209,8 +19206,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage41-radio-kerala",
@@ -20498,8 +20494,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ],
-    "logoPath": "assets/artwork/genres/music.svg"
+    ]
   },
   {
     "id": "stage42-red-fm-93-5-delhi",
