@@ -124,5 +124,18 @@
     ],
     "reviewedOn": "2026-11-10",
     "notes": "Documented broadcaster/operator relationship for the linked network; no corporate parent chain, source authentication or playback/recording permission implied. Register-based operators reflect the February 2026 official evidence."
+  },
+  {
+    "id": "south-asia-fm-ltd",
+    "name": "South Asia FM Limited",
+    "aliases": [
+      "South Asia FM Ltd."
+    ],
+    "website": null,
+    "sourceIds": [
+      "stage42-mib-red-delhi-2026"
+    ],
+    "reviewedOn": "2026-11-16",
+    "notes": "Government's 03 September 2026 operational private FM list assigns the Delhi 93.5 RED FM channel to South Asia FM Ltd. This does not establish corporate ownership of other RED FM city stations or permission to relay its online stream."
   }
 ]
