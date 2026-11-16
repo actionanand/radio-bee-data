@@ -8,16 +8,16 @@ const selected=JSON.parse(readFileSync(new URL('../research/liveradios-selection
 
 test('Stage 41 imports 108 distinct V2 streams with source provenance, no playback approval',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.10');
+ assert.match(d.index.catalogVersion,/^2\.8\.\d+$/);
  const imported=d.stations.filter(s=>s.id.startsWith('stage41-'));
  assert.equal(imported.length,108);
  assert.equal(selected.length,108);
- assert.equal(d.stations.length,396);
- assert.equal(d.networks.length,371);
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')).length,396);
+ assert.equal(d.networks.filter(n=>!n.id.startsWith('stage42-')).length,371);
  assert.equal(d.locations.length,148);
- assert.equal(d.stations.flatMap(s=>s.streams).length,401);
- assert.equal(d.index.counts.stations,396);
- assert.equal(d.index.counts.streams,401);
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')).flatMap(s=>s.streams).length,401);
+ assert.ok(d.index.counts.stations>=396);
+ assert.ok(d.index.counts.streams>=401);
  const byId=new Map(imported.map(s=>[s.id,s]));
  const references=new Map(d.sources.map(s=>[s.id,s]));
  for(const item of selected){
