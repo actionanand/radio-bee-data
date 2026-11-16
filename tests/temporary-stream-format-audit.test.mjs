@@ -1,35 +1,24 @@
 import test from 'node:test';
-import {readFileSync} from 'node:fs';
-const records=JSON.parse(readFileSync(new URL('../data/v2/stations.json',import.meta.url)));
-const rows=records.flatMap(s=>s.streams.filter(t=>t.format==='unknown').map(t=>({id:s.id,name:s.name,url:t.url})));
-const pages=['https://onlineradiofm.in/stations/mirchi','https://onlineradiofm.in/stations/red'];
-function classify(bytes,ct){
- const hex=Buffer.from(bytes).subarray(0,24).toString('hex');
- const head=Buffer.from(bytes).subarray(0,100).toString('utf8').trim();
- if(head.startsWith('#EXTM3U')||/mpegurl|m3u8/.test(ct))return ['hls',hex];
- if(hex.startsWith('494433')||(/^ff[ef][0-9a-f]/.test(hex)&&!/^fff[19]/.test(hex))||/audio\/mpeg|audio\/mp3/.test(ct))return ['mp3',hex];
- if(/^fff[19]/.test(hex)||/audio\/aac|audio\/aacp/.test(ct))return ['aac',hex];
- if(/audio\//.test(ct))return ['audio-unclassified',hex];
- return ['unknown',hex];
-}
-async function check(row){
- const ctrl=new AbortController(), timer=setTimeout(()=>ctrl.abort(),8500);
- try{
-  const res=await fetch(row.url,{signal:ctrl.signal,headers:{'User-Agent':'Mozilla/5.0 (RadioBee-audit)','Accept':'audio/*,application/vnd.apple.mpegurl,*/*','Range':'bytes=0-32767'}});
-  const ct=(res.headers.get('content-type')??'').toLowerCase();
-  let bytes=new Uint8Array();if(res.body){const reader=res.body.getReader();const x=await reader.read();bytes=x.value??bytes;void reader.cancel();}
-  const [format,hex]=classify(bytes,ct);
-  return {id:row.id,name:row.name,status:res.status,ct,format,hex,final:new URL(res.url).hostname,error:''};
- }catch(e){return {id:row.id,name:row.name,error:String(e).slice(0,85),format:'unknown'}}
- finally{clearTimeout(timer);ctrl.abort()}
-}
-test('temporary stream format and new Mirchi RED page audit',async()=>{
- await Promise.all(pages.map(async url=>{
-   try{const res=await fetch(url,{signal:AbortSignal.timeout(12000)}),html=await res.text(),m=html.match(/var\s+FILE\s*=\s*["']([^"']+)["']/i);console.log('MIRCHI_RED_PAGE '+JSON.stringify({url,status:res.status,stream:m?.[1]??null,title:html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1]??null}));}
-   catch(e){console.log('MIRCHI_RED_PAGE '+JSON.stringify({url,error:String(e)}))}
- }));
- let i=0,results=Array(rows.length);
- await Promise.all(Array.from({length:12},async()=>{while(i<rows.length){const n=i++;results[n]=await check(rows[n]);}}));
- for(const x of results)console.log('STREAM_FORMAT_AUDIT '+JSON.stringify(x));
- console.log('FORMAT_AUDIT_SUMMARY '+JSON.stringify({total:results.length,counts:results.reduce((a,x)=>(a[x.format]=(a[x.format]||0)+1,a),{})}));
-});
+const candidates=[
+ ['radio-mirchi-98-3','https://stream.zeno.fm/wgaznsmt92quv'],
+ ['red-fm-93-5','https://stream.zeno.fm/9phrkb1e3v8uv'],
+ ['mugugan-songs','https://stream.zeno.fm/6seaxxbyxmrvv'],
+ ['raja-fm-lk','https://stream.zeno.fm/ute2b5hbrfvtv'],
+ ['tamil-a1','https://stream.zeno.fm/dsvagw8dc8zuv'],
+ ['tamil-amudhu','https://stream.zeno.fm/19arez84vwzuv'],
+ ['erode-city','https://stream.zeno.fm/9fp1383f0d0uv'],
+ ['vellur','https://stream.zeno.fm/z394fckpzwzu'],
+ ['just-odisha-alt','https://stream.zeno.fm/06k46a9mk98uv'],
+ ['radio-talky-alt','https://stream.zeno.fm/wyqezxthwlfvv'],
+ ['muthamil-alt','https://radio.massstream.net:7003/;Muthamil.mp3'],
+ ['sun-tamil','https://usa2.fastcast4u.com/proxy/tamilsun?mp=/;'],
+ ['sahara-alt','https://azuracast.vibesounds.in:8000/radio.mp3'],
+ ['radio-sri-lanka-raw','http://220.247.227.20:8000/RSLstream'],
+ ['yo-punjabi-alt','http://playerservices.streamtheworld.com/api/livestream-redirect/YPB_PUJ_PSTaac.aac'],
+ ['hot-now-alt','https://s8.voscast.com:7021/stream'],
+ ['radio-benziger-alt','https://radio.radiobenziger.com/stream?type=http&nocache=1169'],
+ ['radio-kerala-2','https://streaming.radiokerala.in/listen/radio_kerala/radio.mp3']
+];
+function classify(ct,h){const a=h.toLowerCase();if(/mpegurl/.test(ct)||a.startsWith('234558544d3355'))return 'hls';if(/audio\/mpeg|audio\/mp3/.test(ct)||a.startsWith('494433')||a.startsWith('fffb'))return 'mp3';if(/audio\/aac/.test(ct)||a.startsWith('fff1')||a.startsWith('fff9'))return 'aac';return 'unknown'}
+async function probe([id,url]){const ctrl=new AbortController(),tid=setTimeout(()=>ctrl.abort(),12500);try{let res=await fetch(url,{signal:ctrl.signal,headers:{'Accept':'audio/*,application/vnd.apple.mpegurl,*/*','User-Agent':'Mozilla/5.0','Range':'bytes=0-8192'}});let bytes=new Uint8Array();if(res.body){let reader=res.body.getReader();let chunk=await reader.read();bytes=chunk.value??bytes;await reader.cancel().catch(()=>{})}let ct=res.headers.get('content-type')||'';return {id,url,status:res.status,ct,format:res.ok?classify(ct,Buffer.from(bytes).subarray(0,12).toString('hex')):'unknown',final:res.url.slice(0,170)}}catch(e){return {id,url,error:String(e)}}finally{clearTimeout(tid);ctrl.abort()}}
+test('temporary target and alternative URL probes',async()=>{const results=await Promise.all(candidates.map(probe));for(let r of results)console.log('TARGET_RECHECK '+JSON.stringify(r))});
