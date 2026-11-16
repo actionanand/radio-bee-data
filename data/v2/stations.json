@@ -15248,13 +15248,16 @@
     "coverage": "global",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://zeno.fm/radio/mugugan-songs-fm/",
     "sourceIds": [
       "stage39-zeno-tamil-directory",
-      "stage39-zeno-tamil-playlist"
+      "stage39-zeno-tamil-playlist",
+      "stage40-source-mugugan-zeno"
     ],
-    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 6seaxxbyxmrvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
-    "aliases": [],
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID 6seaxxbyxmrvv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established. This is an independent station entry from Tamil Kadavul Murugan (stage29-tamil-kadavul-murugan-fm); keep both distinct records and stream URLs.",
+    "aliases": [
+      "Murugan Songs FM"
+    ],
     "streams": [
       {
         "id": "stage39-stream-mugugan-songs-fm",
@@ -15373,28 +15376,32 @@
   {
     "id": "stage39-raja-fm-sri-lanka-zeno",
     "name": "Raja FM",
-    "about": "Raja FM is a Zeno radio stream listed in Sri Lankan and Sinhalese radio playlists. It is not assumed to be the Indian Ilaiyaraaja-themed Raja FM; its individual broadcaster and actual language mix require verification.",
+    "about": "Raja FM (රජ FM) is a Sri Lankan online radio service whose Zeno station page lists Sinhala, Tamil and English. The page describes a mix of classic and current music and entertainment programmes. It is distinct from the Indian Ilaiyaraaja-focused Raja FM.",
     "networkId": "stage39-network-raja-fm-sri-lanka-zeno",
     "countryCode": "LK",
     "regionId": null,
     "districtId": null,
     "localityId": null,
     "broadcastLanguages": [
-      "si"
+      "si",
+      "ta",
+      "en"
     ],
     "genres": [
-      "music"
+      "music",
+      "talk"
     ],
     "delivery": "online",
     "coverage": "global",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": null,
+    "website": "https://zeno.fm/radio/raja-fm-radio/",
     "sourceIds": [
       "stage39-zeno-tamil-directory",
-      "stage39-zeno-sinhalese-playlist"
+      "stage39-zeno-sinhalese-playlist",
+      "stage40-source-raja-fm-zeno"
     ],
-    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ute2b5hbrfvtv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established.",
+    "notes": "Source: Zeno Tamil-language directory and linked public playlist evidence; station ID ute2b5hbrfvtv. Language and country associations are provisional where broadcaster records are absent. Neither continuous media playback nor RadioBee third-party listening, recording or redistribution permission has been established. Publisher Zeno page additionally lists Tamil and English. Distinct from the Indian Raja FM at https://zeno.fm/radio/raja-fm/.",
     "aliases": [],
     "streams": [
       {
@@ -15410,6 +15417,63 @@
           "reviewedAt": "2026-11-16T00:00:00Z",
           "sourceId": "stage39-zeno-sinhalese-playlist",
           "notes": "Public playlist maps a station name to this endpoint. No current audio decode or sustained Web/Android playback test, broadcaster identity verification or third-party use permission has been established.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ],
+    "logoPath": "assets/artwork/genres/music.svg",
+    "languageProfile": {
+      "classification": "multilingual",
+      "programmingPattern": "unknown",
+      "coverage": "partial",
+      "primaryLanguage": null,
+      "sourceIds": [
+        "stage40-source-raja-fm-zeno"
+      ],
+      "reviewedOn": "2026-11-16",
+      "notes": "Publisher Zeno page lists Sinhalese, Tamil and English (UK) categories. Precise airtime, content balance and schedule are not independently verified."
+    }
+  },
+  {
+    "id": "stage40-air-tamil-90s-songs",
+    "name": "Air Tamil 90S Songs",
+    "about": "Air Tamil 90S Songs is a Tamil-language online music service listed in a public radio directory under its own Zeno stream ID. It is retained as a distinct programme from the existing AirTamil 90s entry; its broadcaster and live playback remain unverified.",
+    "networkId": "stage40-network-air-tamil-90s-songs",
+    "countryCode": "IN",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage40-source-air-tamil-90s"
+    ],
+    "notes": "User confirmed this should be a separate station from AirTamil 90s. Directory snapshot supplies the Zeno stream and historical MP3 codec evidence, not a live playback check. No third-party streaming, recording or redistribution permission confirmed.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage40-stream-air-tamil-90s-songs",
+        "url": "https://stream.zeno.fm/mw96g2eafwzuv",
+        "format": "mp3",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage40-source-air-tamil-90s",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-16T00:00:00Z",
+          "sourceId": "stage40-source-air-tamil-90s",
+          "notes": "Only historical third-party playlist and MP3 codec metadata available; no fresh audio decoding, sustained playback or permission review was completed.",
           "recording": "unconfirmed",
           "redistribution": "unconfirmed"
         }
