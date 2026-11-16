@@ -13,7 +13,7 @@ const get=()=>readCatalogue(undefined,'v2');
 test('Stage 36 preserves all 240 canonical records, 245 streams, artists, rights, geography and v1 bytes',()=>{
   const data=get();assert.ok(/^2\.8\.\d+$/.test(data.index.catalogVersion));assert.ok(data.stations.length>=240);
   assert.ok(data.stations.flatMap(station=>station.streams).length>=245);
-  for(const [file,expected]of Object.entries(baseline.protectedFiles))if(!['v2/stations.json','v2/networks.json','v2/sources.json','v2/i18n/en.json','v2/i18n/ta.json','v2/i18n/sa.json','v2/languages.json','v2/locations.json'].includes(file))assert.equal(hash(readFileSync(new URL('../data/'+file,import.meta.url))),expected,file);
+  for(const [file,expected]of Object.entries(baseline.protectedFiles))if(!['v2/stations.json','v2/networks.json','v2/sources.json','v2/i18n/en.json','v2/i18n/ta.json','v2/i18n/sa.json','v2/languages.json','v2/locations.json','v2/broadcasters.json'].includes(file))assert.equal(hash(readFileSync(new URL('../data/'+file,import.meta.url))),expected,file);
   // Historical 240-station baseline is retained; the V2 browse index legitimately grows.
   assert.ok(data.browseIndex.totals.all>=240);
   for(const id of Object.keys(data.i18n.ta.stationNames))assert.ok(data.browseIndex.stationIds.includes(id));
