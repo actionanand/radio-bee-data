@@ -1,10 +1,8 @@
 import test from 'node:test';
-test('temporary page HTML analysis',async ()=>{
- const pages=['https://liveradios.in/thr-raaga.html','https://liveradios.in/tamil-amuthu-bakthi-radio.html','https://onlineradiofm.in/stations/mirchi'];
- for(const url of pages){
- try{let response=await fetch(url,{signal:AbortSignal.timeout(15000)});let html=await response.text();const parts=[];
- const patterns=[/https?:\\?\/\\?\/[^\s'"<>]{8,180}/gi,/src\s*=\s*["'][^"']{4,200}["']/gi,/(?:iframe|player|embed|stream|radio-url|data-url|track|audio|sound|zeno|radioca)\S{0,90}/gi];
- for(let j=0;j<patterns.length;j++){let matches=[...html.matchAll(patterns[j])].map(m=>m[0]);parts.push({type:j,count:matches.length,first:matches.slice(0,j===0?100:65)});}
- console.log("PAGE_HTML_DETAILS "+JSON.stringify({url,status:response.status,htmlSize:html.length,title:html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1],details:parts}));
- }catch(e){console.log("PAGE_HTML_DETAILS "+JSON.stringify({url,error:String(e)}))}}
+test('temporary player snippet investigation',async()=>{
+ for(const url of ['https://liveradios.in/thr-raaga.html','https://liveradios.in/tamil-amuthu-bakthi-radio.html']){
+  const r=await fetch(url,{signal:AbortSignal.timeout(15000)});const html=await r.text();
+  const i=html.indexOf('playerjs'); const x=html.indexOf('player-sec-right'); const j=html.lastIndexOf('</body>');
+  console.log('PLAYER_SNIPPET '+JSON.stringify({url,size:html.length,aroundPlayer:html.slice(Math.max(0,i-650),i+2000),aroundRight:html.slice(Math.max(0,x-400),x+1500),lastHtml:html.slice(j-4800,j+15)}));
+ }
 });
