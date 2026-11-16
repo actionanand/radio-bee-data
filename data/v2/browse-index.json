@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.13",
+  "catalogVersion": "2.8.14",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 398,
-    "streamBearing": 398,
+    "all": 373,
+    "streamBearing": 373,
     "discoveryOnly": 0
   },
   "stationIds": [
@@ -254,18 +254,13 @@
     "stage39-lata-mangeshkar-zeno",
     "stage39-mallu-vibes",
     "stage39-mazhai-fm-zeno",
-    "stage39-mugugan-songs-fm",
     "stage39-paadu-nilavae-tamil-radio",
     "stage39-radio-palakkad",
     "stage39-radio-vilakku",
     "stage39-radio-voxa-zeno",
-    "stage39-raja-fm-sri-lanka-zeno",
-    "stage39-tamil-a1-radio",
-    "stage39-tamil-amudhu-zeno",
     "stage39-tamil-radio-zeno",
     "stage39-tamil-top-40-zeno",
     "stage39-thiruvarur-timepass-fm",
-    "stage39-vellur-fm-zeno",
     "stage39-vilathikulam-thendral",
     "stage39-vismaya-kerala-malayalam",
     "stage40-air-tamil-90s-songs",
@@ -282,14 +277,11 @@
     "stage41-big-fm-106-2",
     "stage41-british-indian-tamil-radio",
     "stage41-canadian-tamil-radio-ctr",
-    "stage41-capital-fm",
     "stage41-chillax-fm",
     "stage41-club-fm",
     "stage41-covai-fm",
     "stage41-dhol-radio",
-    "stage41-dubai-1-fm",
     "stage41-e-fm",
-    "stage41-erode-city-fm",
     "stage41-erode-jai-fm",
     "stage41-filmy-mirchi",
     "stage41-fox-fm",
@@ -303,16 +295,11 @@
     "stage41-goldy-sarvaani",
     "stage41-gramaphone-fm",
     "stage41-gurbani-kirtan",
-    "stage41-hd-radio-bhojpuri",
     "stage41-hello-radio-90-8",
-    "stage41-hello-tamizha-fm",
-    "stage41-hot-now-punjabi-radio",
     "stage41-ilamai-fm",
     "stage41-imai-fm",
     "stage41-indi-radio",
     "stage41-isai-oli-fm",
-    "stage41-iyalisai-bhakti-radio",
-    "stage41-just-odisha-radio",
     "stage41-k-radio-konkani",
     "stage41-kodaisaral-fm",
     "stage41-konkani-forever-uk",
@@ -322,19 +309,15 @@
     "stage41-madurai-voice-fm",
     "stage41-mirchi-90s-radio",
     "stage41-mirchi-kochi",
-    "stage41-muthamil-fm-88-9-hd3",
     "stage41-my-punjabi-radio",
     "stage41-non-stop-hindi",
-    "stage41-oho-radio",
     "stage41-old-hits",
-    "stage41-paattu-petti",
     "stage41-pattampoochi-fm",
     "stage41-phule-krishi-vahini",
     "stage41-punjabi-radio-usa",
     "stage41-radio-antara",
     "stage41-radio-badal",
     "stage41-radio-beats",
-    "stage41-radio-benziger",
     "stage41-radio-bhumi",
     "stage41-radio-city-malayalam",
     "stage41-radio-gilli",
@@ -351,32 +334,24 @@
     "stage41-radio-olive",
     "stage41-radio-olive-retro",
     "stage41-radio-paramakurichi",
-    "stage41-radio-sindhi",
     "stage41-radio-sports-flashes",
-    "stage41-radio-sri-lanka",
     "stage41-radio-suno",
     "stage41-radio-suno-melody",
-    "stage41-radio-talky",
     "stage41-radio-utsav",
     "stage41-radio-x",
     "stage41-rang-fm",
     "stage41-saaral-fm",
     "stage41-sadhguru-radio",
-    "stage41-sahara-fm",
     "stage41-sharmitha-fm",
     "stage41-sheetal-sangeet",
     "stage41-shripad-radio",
-    "stage41-smile-fm-90-8",
-    "stage41-spice-radio-1200-am",
     "stage41-ss-radio-madurai",
     "stage41-sun-fm",
     "stage41-tamil-amuthu-bakthi-radio",
     "stage41-tamil-amuthu-madurai-radio",
-    "stage41-tamil-sun-fm",
     "stage41-thenkasi-fm-radio",
     "stage41-thimiru-fm",
     "stage41-vaigai-fm",
-    "stage41-yo-punjabi-mirchi",
     "stage42-mirchi-98-3-online",
     "stage42-red-fm-93-5-delhi",
     "star-fm-srilanka",
@@ -429,12 +404,11 @@
           "radio-mirchi-dubai-ae",
           "stage38-kadak-fm-uae",
           "stage41-big-fm-106-2",
-          "stage41-dubai-1-fm",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 16,
-          "streamBearing": 16,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -517,12 +491,11 @@
           "stage41-canadian-tamil-radio-ctr",
           "stage41-indi-radio",
           "stage41-radio-humsafar-1350-am",
-          "stage41-spice-radio-1200-am",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       },
@@ -843,15 +816,11 @@
           "stage39-lata-mangeshkar-zeno",
           "stage39-mallu-vibes",
           "stage39-mazhai-fm-zeno",
-          "stage39-mugugan-songs-fm",
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
@@ -867,7 +836,6 @@
           "stage41-club-fm",
           "stage41-covai-fm",
           "stage41-dhol-radio",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-filmy-mirchi",
           "stage41-ftc-fm",
@@ -879,15 +847,10 @@
           "stage41-goldy-sarvaani",
           "stage41-gramaphone-fm",
           "stage41-gurbani-kirtan",
-          "stage41-hd-radio-bhojpuri",
           "stage41-hello-radio-90-8",
-          "stage41-hello-tamizha-fm",
-          "stage41-hot-now-punjabi-radio",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-isai-oli-fm",
-          "stage41-iyalisai-bhakti-radio",
-          "stage41-just-odisha-radio",
           "stage41-k-radio-konkani",
           "stage41-kodaisaral-fm",
           "stage41-lakshmi-fm",
@@ -896,15 +859,12 @@
           "stage41-mirchi-kochi",
           "stage41-my-punjabi-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-old-hits",
-          "stage41-paattu-petti",
           "stage41-pattampoochi-fm",
           "stage41-phule-krishi-vahini",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-city-malayalam",
           "stage41-radio-gilli",
           "stage41-radio-jajabara",
@@ -915,25 +875,19 @@
           "stage41-radio-nashaa-fm",
           "stage41-radio-neythal",
           "stage41-radio-paramakurichi",
-          "stage41-radio-sindhi",
           "stage41-radio-sports-flashes",
-          "stage41-radio-talky",
           "stage41-rang-fm",
           "stage41-saaral-fm",
           "stage41-sadhguru-radio",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-sheetal-sangeet",
           "stage41-shripad-radio",
-          "stage41-smile-fm-90-8",
           "stage41-ss-radio-madurai",
           "stage41-tamil-amuthu-bakthi-radio",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
           "suryan-chennai",
@@ -949,8 +903,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 269,
-          "streamBearing": 269,
+          "all": 250,
+          "streamBearing": 250,
           "discoveryOnly": 0
         }
       },
@@ -1011,18 +965,15 @@
           "stage32-neth-fm",
           "stage32-ran-fm",
           "stage32-siyatha-fm",
-          "stage39-raja-fm-sri-lanka-zeno",
-          "stage41-capital-fm",
           "stage41-e-fm",
           "stage41-fox-fm",
-          "stage41-radio-sri-lanka",
           "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 17,
-          "streamBearing": 17,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -1223,15 +1174,14 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-punjabi-radio-usa",
           "stage41-radio-malayalam-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 11,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -1275,8 +1225,7 @@
           "freefm-uae-sinhala-ae",
           "radio-mirchi-dubai-ae",
           "stage38-kadak-fm-uae",
-          "stage41-big-fm-106-2",
-          "stage41-dubai-1-fm"
+          "stage41-big-fm-106-2"
         ],
         "stationIds": [
           "exclusively-adele-ae",
@@ -1293,12 +1242,11 @@
           "radio-mirchi-dubai-ae",
           "stage38-kadak-fm-uae",
           "stage41-big-fm-106-2",
-          "stage41-dubai-1-fm",
           "tamil-894-ae"
         ],
         "counts": {
-          "all": 16,
-          "streamBearing": 16,
+          "all": 15,
+          "streamBearing": 15,
           "discoveryOnly": 0
         }
       },
@@ -1592,8 +1540,7 @@
           "stage29-agaram-tamil-radio",
           "stage41-canadian-tamil-radio-ctr",
           "stage41-indi-radio",
-          "stage41-radio-humsafar-1350-am",
-          "stage41-spice-radio-1200-am"
+          "stage41-radio-humsafar-1350-am"
         ],
         "stationIds": [
           "a9-radio-ca",
@@ -1607,12 +1554,11 @@
           "stage41-canadian-tamil-radio-ctr",
           "stage41-indi-radio",
           "stage41-radio-humsafar-1350-am",
-          "stage41-spice-radio-1200-am",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       },
@@ -2182,15 +2128,11 @@
           "stage39-lata-mangeshkar-zeno",
           "stage39-mallu-vibes",
           "stage39-mazhai-fm-zeno",
-          "stage39-mugugan-songs-fm",
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
@@ -2206,7 +2148,6 @@
           "stage41-club-fm",
           "stage41-covai-fm",
           "stage41-dhol-radio",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-filmy-mirchi",
           "stage41-ftc-fm",
@@ -2218,15 +2159,10 @@
           "stage41-goldy-sarvaani",
           "stage41-gramaphone-fm",
           "stage41-gurbani-kirtan",
-          "stage41-hd-radio-bhojpuri",
           "stage41-hello-radio-90-8",
-          "stage41-hello-tamizha-fm",
-          "stage41-hot-now-punjabi-radio",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-isai-oli-fm",
-          "stage41-iyalisai-bhakti-radio",
-          "stage41-just-odisha-radio",
           "stage41-k-radio-konkani",
           "stage41-kodaisaral-fm",
           "stage41-lakshmi-fm",
@@ -2235,15 +2171,12 @@
           "stage41-mirchi-kochi",
           "stage41-my-punjabi-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-old-hits",
-          "stage41-paattu-petti",
           "stage41-pattampoochi-fm",
           "stage41-phule-krishi-vahini",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-city-malayalam",
           "stage41-radio-gilli",
           "stage41-radio-jajabara",
@@ -2254,25 +2187,19 @@
           "stage41-radio-nashaa-fm",
           "stage41-radio-neythal",
           "stage41-radio-paramakurichi",
-          "stage41-radio-sindhi",
           "stage41-radio-sports-flashes",
-          "stage41-radio-talky",
           "stage41-rang-fm",
           "stage41-saaral-fm",
           "stage41-sadhguru-radio",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-sheetal-sangeet",
           "stage41-shripad-radio",
-          "stage41-smile-fm-90-8",
           "stage41-ss-radio-madurai",
           "stage41-tamil-amuthu-bakthi-radio",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
           "tamil-80s-hits",
@@ -2447,15 +2374,11 @@
           "stage39-lata-mangeshkar-zeno",
           "stage39-mallu-vibes",
           "stage39-mazhai-fm-zeno",
-          "stage39-mugugan-songs-fm",
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
@@ -2471,7 +2394,6 @@
           "stage41-club-fm",
           "stage41-covai-fm",
           "stage41-dhol-radio",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-filmy-mirchi",
           "stage41-ftc-fm",
@@ -2483,15 +2405,10 @@
           "stage41-goldy-sarvaani",
           "stage41-gramaphone-fm",
           "stage41-gurbani-kirtan",
-          "stage41-hd-radio-bhojpuri",
           "stage41-hello-radio-90-8",
-          "stage41-hello-tamizha-fm",
-          "stage41-hot-now-punjabi-radio",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-isai-oli-fm",
-          "stage41-iyalisai-bhakti-radio",
-          "stage41-just-odisha-radio",
           "stage41-k-radio-konkani",
           "stage41-kodaisaral-fm",
           "stage41-lakshmi-fm",
@@ -2500,15 +2417,12 @@
           "stage41-mirchi-kochi",
           "stage41-my-punjabi-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-old-hits",
-          "stage41-paattu-petti",
           "stage41-pattampoochi-fm",
           "stage41-phule-krishi-vahini",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-city-malayalam",
           "stage41-radio-gilli",
           "stage41-radio-jajabara",
@@ -2519,25 +2433,19 @@
           "stage41-radio-nashaa-fm",
           "stage41-radio-neythal",
           "stage41-radio-paramakurichi",
-          "stage41-radio-sindhi",
           "stage41-radio-sports-flashes",
-          "stage41-radio-talky",
           "stage41-rang-fm",
           "stage41-saaral-fm",
           "stage41-sadhguru-radio",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-sheetal-sangeet",
           "stage41-shripad-radio",
-          "stage41-smile-fm-90-8",
           "stage41-ss-radio-madurai",
           "stage41-tamil-amuthu-bakthi-radio",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
           "suryan-chennai",
@@ -2553,8 +2461,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 269,
-          "streamBearing": 269,
+          "all": 250,
+          "streamBearing": 250,
           "discoveryOnly": 0
         }
       },
@@ -4178,11 +4086,8 @@
           "stage32-neth-fm",
           "stage32-ran-fm",
           "stage32-siyatha-fm",
-          "stage39-raja-fm-sri-lanka-zeno",
-          "stage41-capital-fm",
           "stage41-e-fm",
           "stage41-fox-fm",
-          "stage41-radio-sri-lanka",
           "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
@@ -4197,18 +4102,15 @@
           "stage32-neth-fm",
           "stage32-ran-fm",
           "stage32-siyatha-fm",
-          "stage39-raja-fm-sri-lanka-zeno",
-          "stage41-capital-fm",
           "stage41-e-fm",
           "stage41-fox-fm",
-          "stage41-radio-sri-lanka",
           "stage41-sun-fm",
           "star-fm-srilanka",
           "vasantham-srilanka"
         ],
         "counts": {
-          "all": 17,
-          "streamBearing": 17,
+          "all": 14,
+          "streamBearing": 14,
           "discoveryOnly": 0
         }
       },
@@ -4816,7 +4718,6 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-punjabi-radio-usa",
           "stage41-radio-malayalam-usa",
           "wnyc-939-us",
@@ -4829,15 +4730,14 @@
           "stage38-namm-radio-usa",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-punjabi-radio-usa",
           "stage41-radio-malayalam-usa",
           "wnyc-939-us",
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 11,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -4955,12 +4855,11 @@
         "nativeName": "भोजपुरी",
         "stationIds": [
           "mauradio-mu",
-          "radio-plus-indiz-mu",
-          "stage41-hd-radio-bhojpuri"
+          "radio-plus-indiz-mu"
         ],
         "counts": {
-          "all": 3,
-          "streamBearing": 3,
+          "all": 2,
+          "streamBearing": 2,
           "discoveryOnly": 0
         }
       },
@@ -5101,11 +5000,9 @@
           "realradio-ireland-ie",
           "shaiva-lahari-in",
           "stage38-al-jazeera-english-audio",
-          "stage39-raja-fm-sri-lanka-zeno",
           "stage41-bbc-world-service",
           "stage41-e-fm",
           "stage41-fox-fm",
-          "stage41-radio-sri-lanka",
           "stage41-radio-x",
           "stage41-sadhguru-radio",
           "stage41-sun-fm",
@@ -5113,8 +5010,8 @@
           "wqxr-1059-us"
         ],
         "counts": {
-          "all": 39,
-          "streamBearing": 39,
+          "all": 37,
+          "streamBearing": 37,
           "discoveryOnly": 0
         }
       },
@@ -5296,7 +5193,6 @@
           "stage41-lyca-radio-1458-am",
           "stage41-mirchi-90s-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-namkin",
@@ -5308,8 +5204,8 @@
           "stage42-red-fm-93-5-delhi"
         ],
         "counts": {
-          "all": 36,
-          "streamBearing": 36,
+          "all": 35,
+          "streamBearing": 35,
           "discoveryOnly": 0
         }
       },
@@ -5604,13 +5500,10 @@
           "stage41-ahalia-fm-90-4",
           "stage41-ashraya-fm-90",
           "stage41-club-fm",
-          "stage41-dubai-1-fm",
           "stage41-gramaphone-fm",
           "stage41-hello-radio-90-8",
           "stage41-mirchi-kochi",
-          "stage41-paattu-petti",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-city-malayalam",
           "stage41-radio-kerala",
           "stage41-radio-malayalam-98-6-fm",
@@ -5618,12 +5511,11 @@
           "stage41-radio-mango",
           "stage41-radio-neythal",
           "stage41-radio-suno",
-          "stage41-radio-suno-melody",
-          "stage41-radio-talky"
+          "stage41-radio-suno-melody"
         ],
         "counts": {
-          "all": 40,
-          "streamBearing": 40,
+          "all": 36,
+          "streamBearing": 36,
           "discoveryOnly": 0
         }
       },
@@ -5642,12 +5534,11 @@
           "stage38-radio-uday-89-6",
           "stage41-bhaktisudha",
           "stage41-phule-krishi-vahini",
-          "stage41-shripad-radio",
-          "stage41-smile-fm-90-8"
+          "stage41-shripad-radio"
         ],
         "counts": {
-          "all": 11,
-          "streamBearing": 11,
+          "all": 10,
+          "streamBearing": 10,
           "discoveryOnly": 0
         }
       },
@@ -5706,12 +5597,11 @@
         "stationIds": [
           "stage32-radio-choklate",
           "stage38-air-jeypore",
-          "stage41-just-odisha-radio",
           "stage41-radio-jajabara"
         ],
         "counts": {
-          "all": 4,
-          "streamBearing": 4,
+          "all": 3,
+          "streamBearing": 3,
           "discoveryOnly": 0
         }
       },
@@ -5728,18 +5618,15 @@
           "stage33-red-fm-calgary",
           "stage41-dhol-radio",
           "stage41-gurbani-kirtan",
-          "stage41-hot-now-punjabi-radio",
           "stage41-indi-radio",
           "stage41-my-punjabi-radio",
           "stage41-punjabi-radio-usa",
           "stage41-radio-humsafar-1350-am",
-          "stage41-rang-fm",
-          "stage41-spice-radio-1200-am",
-          "stage41-yo-punjabi-mirchi"
+          "stage41-rang-fm"
         ],
         "counts": {
-          "all": 15,
-          "streamBearing": 15,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       },
@@ -5840,12 +5727,10 @@
         "name": "Sindhi",
         "key": "language:sd",
         "nativeName": "سنڌي",
-        "stationIds": [
-          "stage41-radio-sindhi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -5860,12 +5745,11 @@
           "freefm-uae-sinhala-ae",
           "stage32-neth-fm",
           "stage32-ran-fm",
-          "stage32-siyatha-fm",
-          "stage39-raja-fm-sri-lanka-zeno"
+          "stage32-siyatha-fm"
         ],
         "counts": {
-          "all": 7,
-          "streamBearing": 7,
+          "all": 6,
+          "streamBearing": 6,
           "discoveryOnly": 0
         }
       },
@@ -6114,17 +5998,12 @@
           "stage39-harrish-jayaraj-fm",
           "stage39-jnfm-tamil-classic",
           "stage39-mazhai-fm-zeno",
-          "stage39-mugugan-songs-fm",
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-raja-fm-sri-lanka-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage40-air-tamil-90s-songs",
           "stage41-aaruthal-fm",
@@ -6133,34 +6012,27 @@
           "stage41-arni-city-fm",
           "stage41-british-indian-tamil-radio",
           "stage41-canadian-tamil-radio-ctr",
-          "stage41-capital-fm",
           "stage41-chillax-fm",
           "stage41-covai-fm",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-ftc-fm",
           "stage41-gingee-fm",
-          "stage41-hello-tamizha-fm",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-isai-oli-fm",
-          "stage41-iyalisai-bhakti-radio",
           "stage41-kodaisaral-fm",
           "stage41-lakshmi-fm",
           "stage41-lbc-tamil",
           "stage41-madurai-voice-fm",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-old-hits",
           "stage41-pattampoochi-fm",
           "stage41-radio-gilli",
           "stage41-radio-paramakurichi",
           "stage41-saaral-fm",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-ss-radio-madurai",
           "stage41-tamil-amuthu-bakthi-radio",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
@@ -6187,8 +6059,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 222,
-          "streamBearing": 222,
+          "all": 210,
+          "streamBearing": 210,
           "discoveryOnly": 0
         }
       },
@@ -6356,12 +6228,11 @@
           "mauradio-mu",
           "quran-tamil-kw",
           "radio-plus-indiz-mu",
-          "stage39-raja-fm-sri-lanka-zeno",
           "time-fm-toronto-ca"
         ],
         "counts": {
-          "all": 19,
-          "streamBearing": 19,
+          "all": 18,
+          "streamBearing": 18,
           "discoveryOnly": 0
         }
       },
@@ -6617,17 +6488,13 @@
           "stage39-lata-mangeshkar-zeno",
           "stage39-mallu-vibes",
           "stage39-mazhai-fm-zeno",
-          "stage39-mugugan-songs-fm",
           "stage39-paadu-nilavae-tamil-radio",
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
@@ -6644,14 +6511,11 @@
           "stage41-big-fm-106-2",
           "stage41-british-indian-tamil-radio",
           "stage41-canadian-tamil-radio-ctr",
-          "stage41-capital-fm",
           "stage41-chillax-fm",
           "stage41-club-fm",
           "stage41-covai-fm",
           "stage41-dhol-radio",
-          "stage41-dubai-1-fm",
           "stage41-e-fm",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-filmy-mirchi",
           "stage41-fox-fm",
@@ -6665,16 +6529,11 @@
           "stage41-goldy-sarvaani",
           "stage41-gramaphone-fm",
           "stage41-gurbani-kirtan",
-          "stage41-hd-radio-bhojpuri",
           "stage41-hello-radio-90-8",
-          "stage41-hello-tamizha-fm",
-          "stage41-hot-now-punjabi-radio",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-indi-radio",
           "stage41-isai-oli-fm",
-          "stage41-iyalisai-bhakti-radio",
-          "stage41-just-odisha-radio",
           "stage41-k-radio-konkani",
           "stage41-kodaisaral-fm",
           "stage41-konkani-forever-uk",
@@ -6684,19 +6543,15 @@
           "stage41-madurai-voice-fm",
           "stage41-mirchi-90s-radio",
           "stage41-mirchi-kochi",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-my-punjabi-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-old-hits",
-          "stage41-paattu-petti",
           "stage41-pattampoochi-fm",
           "stage41-phule-krishi-vahini",
           "stage41-punjabi-radio-usa",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-bhumi",
           "stage41-radio-city-malayalam",
           "stage41-radio-gilli",
@@ -6713,32 +6568,24 @@
           "stage41-radio-olive",
           "stage41-radio-olive-retro",
           "stage41-radio-paramakurichi",
-          "stage41-radio-sindhi",
           "stage41-radio-sports-flashes",
-          "stage41-radio-sri-lanka",
           "stage41-radio-suno",
           "stage41-radio-suno-melody",
-          "stage41-radio-talky",
           "stage41-radio-utsav",
           "stage41-radio-x",
           "stage41-rang-fm",
           "stage41-saaral-fm",
           "stage41-sadhguru-radio",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-sheetal-sangeet",
           "stage41-shripad-radio",
-          "stage41-smile-fm-90-8",
-          "stage41-spice-radio-1200-am",
           "stage41-ss-radio-madurai",
           "stage41-sun-fm",
           "stage41-tamil-amuthu-bakthi-radio",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
           "star-fm-srilanka",
@@ -6763,8 +6610,8 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 368,
-          "streamBearing": 368,
+          "all": 344,
+          "streamBearing": 344,
           "discoveryOnly": 0
         }
       }
@@ -11102,12 +10949,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage39-mugugan-songs-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11192,12 +11037,10 @@
           "LK"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage39-raja-fm-sri-lanka-zeno"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11210,12 +11053,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage39-tamil-a1-radio"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11228,12 +11069,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage39-tamil-amudhu-zeno"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11300,12 +11139,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage39-vellur-fm-zeno"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11606,12 +11443,10 @@
           "LK"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-capital-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11678,12 +11513,10 @@
           "AE"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-dubai-1-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11714,12 +11547,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-erode-city-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -11966,12 +11797,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-hd-radio-bhojpuri"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12002,12 +11831,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-hello-tamizha-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12020,12 +11847,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-hot-now-punjabi-radio"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12110,12 +11935,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-iyalisai-bhakti-radio"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12128,12 +11951,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-just-odisha-radio"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12290,12 +12111,10 @@
           "US"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-muthamil-fm-88-9-hd3"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12344,12 +12163,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-oho-radio"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12380,12 +12197,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-paattu-petti"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12506,12 +12321,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-radio-benziger"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12758,12 +12571,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-radio-sindhi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12794,12 +12605,10 @@
           "LK"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-radio-sri-lanka"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12812,12 +12621,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-radio-talky"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12920,12 +12727,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-sahara-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -12992,12 +12797,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-smile-fm-90-8"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -13010,12 +12813,10 @@
           "CA"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-spice-radio-1200-am"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -13100,12 +12901,10 @@
           "IN"
         ],
         "broadcasterId": null,
-        "stationIds": [
-          "stage41-tamil-sun-fm"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -13172,12 +12971,10 @@
           "IN"
         ],
         "broadcasterId": "enil",
-        "stationIds": [
-          "stage41-yo-punjabi-mirchi"
-        ],
+        "stationIds": [],
         "counts": {
-          "all": 1,
-          "streamBearing": 1,
+          "all": 0,
+          "streamBearing": 0,
           "discoveryOnly": 0
         }
       },
@@ -13554,12 +13351,11 @@
           "stage41-filmy-mirchi",
           "stage41-mirchi-90s-radio",
           "stage41-mirchi-kochi",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online"
         ],
         "counts": {
-          "all": 6,
-          "streamBearing": 6,
+          "all": 5,
+          "streamBearing": 5,
           "discoveryOnly": 0
         }
       },
@@ -13931,12 +13727,10 @@
           "stage32-dnyaneshwari",
           "stage32-malayalam-bhakthi",
           "stage32-sgpc-gurbani",
-          "stage39-mugugan-songs-fm",
           "stage41-aaruthal-fm",
           "stage41-bhaktisudha",
           "stage41-goldy-aaradhna",
           "stage41-gurbani-kirtan",
-          "stage41-iyalisai-bhakti-radio",
           "stage41-sadhguru-radio",
           "stage41-tamil-amuthu-bakthi-radio",
           "sweety-fm-in",
@@ -13947,8 +13741,8 @@
           "vaanmalar-fm-in"
         ],
         "counts": {
-          "all": 44,
-          "streamBearing": 44,
+          "all": 42,
+          "streamBearing": 42,
           "discoveryOnly": 0
         }
       },
@@ -14154,13 +13948,9 @@
           "stage39-radio-palakkad",
           "stage39-radio-vilakku",
           "stage39-radio-voxa-zeno",
-          "stage39-raja-fm-sri-lanka-zeno",
-          "stage39-tamil-a1-radio",
-          "stage39-tamil-amudhu-zeno",
           "stage39-tamil-radio-zeno",
           "stage39-tamil-top-40-zeno",
           "stage39-thiruvarur-timepass-fm",
-          "stage39-vellur-fm-zeno",
           "stage39-vilathikulam-thendral",
           "stage39-vismaya-kerala-malayalam",
           "stage40-air-tamil-90s-songs",
@@ -14174,14 +13964,11 @@
           "stage41-big-fm-106-2",
           "stage41-british-indian-tamil-radio",
           "stage41-canadian-tamil-radio-ctr",
-          "stage41-capital-fm",
           "stage41-chillax-fm",
           "stage41-club-fm",
           "stage41-covai-fm",
           "stage41-dhol-radio",
-          "stage41-dubai-1-fm",
           "stage41-e-fm",
-          "stage41-erode-city-fm",
           "stage41-erode-jai-fm",
           "stage41-filmy-mirchi",
           "stage41-fox-fm",
@@ -14193,15 +13980,11 @@
           "stage41-goldy-garba",
           "stage41-goldy-sarvaani",
           "stage41-gramaphone-fm",
-          "stage41-hd-radio-bhojpuri",
           "stage41-hello-radio-90-8",
-          "stage41-hello-tamizha-fm",
-          "stage41-hot-now-punjabi-radio",
           "stage41-ilamai-fm",
           "stage41-imai-fm",
           "stage41-indi-radio",
           "stage41-isai-oli-fm",
-          "stage41-just-odisha-radio",
           "stage41-k-radio-konkani",
           "stage41-kodaisaral-fm",
           "stage41-konkani-forever-uk",
@@ -14211,19 +13994,15 @@
           "stage41-madurai-voice-fm",
           "stage41-mirchi-90s-radio",
           "stage41-mirchi-kochi",
-          "stage41-muthamil-fm-88-9-hd3",
           "stage41-my-punjabi-radio",
           "stage41-non-stop-hindi",
-          "stage41-oho-radio",
           "stage41-old-hits",
-          "stage41-paattu-petti",
           "stage41-pattampoochi-fm",
           "stage41-phule-krishi-vahini",
           "stage41-punjabi-radio-usa",
           "stage41-radio-antara",
           "stage41-radio-badal",
           "stage41-radio-beats",
-          "stage41-radio-benziger",
           "stage41-radio-bhumi",
           "stage41-radio-city-malayalam",
           "stage41-radio-gilli",
@@ -14240,29 +14019,21 @@
           "stage41-radio-olive",
           "stage41-radio-olive-retro",
           "stage41-radio-paramakurichi",
-          "stage41-radio-sindhi",
-          "stage41-radio-sri-lanka",
           "stage41-radio-suno",
           "stage41-radio-suno-melody",
-          "stage41-radio-talky",
           "stage41-radio-utsav",
           "stage41-radio-x",
           "stage41-rang-fm",
           "stage41-saaral-fm",
-          "stage41-sahara-fm",
           "stage41-sharmitha-fm",
           "stage41-sheetal-sangeet",
           "stage41-shripad-radio",
-          "stage41-smile-fm-90-8",
-          "stage41-spice-radio-1200-am",
           "stage41-ss-radio-madurai",
           "stage41-sun-fm",
           "stage41-tamil-amuthu-madurai-radio",
-          "stage41-tamil-sun-fm",
           "stage41-thenkasi-fm-radio",
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
-          "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
           "star-fm-srilanka",
@@ -14283,8 +14054,8 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 268,
-          "streamBearing": 268,
+          "all": 245,
+          "streamBearing": 245,
           "discoveryOnly": 0
         }
       },
@@ -14347,15 +14118,14 @@
           "sanskrit-bharati-radio-in",
           "shiva-tattvam",
           "stage33-red-fm-calgary",
-          "stage39-raja-fm-sri-lanka-zeno",
           "sveriges-radio-p1-se",
           "tamil-894-ae",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 13,
-          "streamBearing": 13,
+          "all": 12,
+          "streamBearing": 12,
           "discoveryOnly": 0
         }
       }
@@ -15164,18 +14934,13 @@
         "stage39-lata-mangeshkar-zeno",
         "stage39-mallu-vibes",
         "stage39-mazhai-fm-zeno",
-        "stage39-mugugan-songs-fm",
         "stage39-paadu-nilavae-tamil-radio",
         "stage39-radio-palakkad",
         "stage39-radio-vilakku",
         "stage39-radio-voxa-zeno",
-        "stage39-raja-fm-sri-lanka-zeno",
-        "stage39-tamil-a1-radio",
-        "stage39-tamil-amudhu-zeno",
         "stage39-tamil-radio-zeno",
         "stage39-tamil-top-40-zeno",
         "stage39-thiruvarur-timepass-fm",
-        "stage39-vellur-fm-zeno",
         "stage39-vilathikulam-thendral",
         "stage39-vismaya-kerala-malayalam",
         "stage40-air-tamil-90s-songs",
@@ -15192,14 +14957,11 @@
         "stage41-big-fm-106-2",
         "stage41-british-indian-tamil-radio",
         "stage41-canadian-tamil-radio-ctr",
-        "stage41-capital-fm",
         "stage41-chillax-fm",
         "stage41-club-fm",
         "stage41-covai-fm",
         "stage41-dhol-radio",
-        "stage41-dubai-1-fm",
         "stage41-e-fm",
-        "stage41-erode-city-fm",
         "stage41-erode-jai-fm",
         "stage41-filmy-mirchi",
         "stage41-fox-fm",
@@ -15213,16 +14975,11 @@
         "stage41-goldy-sarvaani",
         "stage41-gramaphone-fm",
         "stage41-gurbani-kirtan",
-        "stage41-hd-radio-bhojpuri",
         "stage41-hello-radio-90-8",
-        "stage41-hello-tamizha-fm",
-        "stage41-hot-now-punjabi-radio",
         "stage41-ilamai-fm",
         "stage41-imai-fm",
         "stage41-indi-radio",
         "stage41-isai-oli-fm",
-        "stage41-iyalisai-bhakti-radio",
-        "stage41-just-odisha-radio",
         "stage41-k-radio-konkani",
         "stage41-kodaisaral-fm",
         "stage41-konkani-forever-uk",
@@ -15232,19 +14989,15 @@
         "stage41-madurai-voice-fm",
         "stage41-mirchi-90s-radio",
         "stage41-mirchi-kochi",
-        "stage41-muthamil-fm-88-9-hd3",
         "stage41-my-punjabi-radio",
         "stage41-non-stop-hindi",
-        "stage41-oho-radio",
         "stage41-old-hits",
-        "stage41-paattu-petti",
         "stage41-pattampoochi-fm",
         "stage41-phule-krishi-vahini",
         "stage41-punjabi-radio-usa",
         "stage41-radio-antara",
         "stage41-radio-badal",
         "stage41-radio-beats",
-        "stage41-radio-benziger",
         "stage41-radio-bhumi",
         "stage41-radio-city-malayalam",
         "stage41-radio-gilli",
@@ -15261,32 +15014,24 @@
         "stage41-radio-olive",
         "stage41-radio-olive-retro",
         "stage41-radio-paramakurichi",
-        "stage41-radio-sindhi",
         "stage41-radio-sports-flashes",
-        "stage41-radio-sri-lanka",
         "stage41-radio-suno",
         "stage41-radio-suno-melody",
-        "stage41-radio-talky",
         "stage41-radio-utsav",
         "stage41-radio-x",
         "stage41-rang-fm",
         "stage41-saaral-fm",
         "stage41-sadhguru-radio",
-        "stage41-sahara-fm",
         "stage41-sharmitha-fm",
         "stage41-sheetal-sangeet",
         "stage41-shripad-radio",
-        "stage41-smile-fm-90-8",
-        "stage41-spice-radio-1200-am",
         "stage41-ss-radio-madurai",
         "stage41-sun-fm",
         "stage41-tamil-amuthu-bakthi-radio",
         "stage41-tamil-amuthu-madurai-radio",
-        "stage41-tamil-sun-fm",
         "stage41-thenkasi-fm-radio",
         "stage41-thimiru-fm",
         "stage41-vaigai-fm",
-        "stage41-yo-punjabi-mirchi",
         "stage42-mirchi-98-3-online",
         "stage42-red-fm-93-5-delhi",
         "star-fm-srilanka",
@@ -15318,8 +15063,8 @@
         "znad-wilii-lt"
       ],
       "counts": {
-        "all": 398,
-        "streamBearing": 398,
+        "all": 373,
+        "streamBearing": 373,
         "discoveryOnly": 0
       }
     },
