@@ -77,5 +77,19 @@
     "lk-np": "Northern Province",
     "lk-ep": "Eastern Province",
     "lk-cp": "Central Province"
+  },
+  "stationNames": {},
+  "stationDescriptions": {
+    "hiru-fm-lk": "Hiru FM is a Sinhala-language radio station in Sri Lanka, bringing together Sinhala music, lively presenters, news and entertainment. The service is part of the Asia Broadcasting Corporation family of radio stations.",
+    "gold-fm-lk": "Gold FM is Sri Lanka's English-language oldies station, celebrating familiar songs and classic hits from the 1960s, 1970s and 1980s. The station belongs to the Asia Broadcasting Corporation radio family.",
+    "shaa-fm-lk": "Shaa FM is a Sinhala-language radio station from Sri Lanka, known for upbeat Sinhala songs, lively music programmes and presenters. It is one of the radio services operated by Asia Broadcasting Corporation.",
+    "lankasri-fm": "Lankasri FM serves Tamil-speaking listeners in the United Kingdom and across the worldwide Tamil community. Its programming brings together Tamil songs, entertainment and news of interest to the diaspora.",
+    "ilc-tamil-radio": "ILC Tamil Radio is a Tamil-language community-oriented radio service associated with the United Kingdom. Its programming focuses on Tamil voices, discussion, news and cultural connections for listeners at home and abroad.",
+    "asal-tamil-fm": "Asal Tamil FM is an online Tamil music station offering a selection of Tamil film songs and familiar favourites. Its programming celebrates the sounds of Tamil cinema for listeners beyond regional borders.",
+    "yarl-fm-lk": "Yarl FM is associated with the Tamil-speaking community of northern Sri Lanka. The station is listed for Tamil programming and music, with a focus on listeners who value the language and culture of the Jaffna region.",
+    "siragukal-fm": "Siragukal FM is a Tamil-language radio service listed at 89.6 FM, with a focus on local listening and Tamil programming. The station's precise broadcasting location and programme schedule still need independent confirmation.",
+    "bee-fm-lk": "Bee FM is an online radio station associated with Sri Lanka, featuring youthful music and entertainment for Sinhala-speaking audiences. Its programmes are presented as a lively choice for listeners discovering music online.",
+    "num-tamil-radio-nz": "Num Tamil Radio is a Tamil-language radio service listed in Auckland, New Zealand, on 88.3 FM. It connects local Tamil-speaking listeners through Tamil music and community-focused programming.",
+    "stage41-sun-fm": "Sun FM is an English-language radio station in Sri Lanka, featuring current hits, DJ-led shows and popular music. It is part of Asia Broadcasting Corporation's group of radio stations."
   }
 }
