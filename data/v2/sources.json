@@ -3407,5 +3407,82 @@
     "url": "https://www.enil.co.in/details-of-the-business.php",
     "notes": "Official ENIL confirms Mirchi as a radio and digital brand. Specific online Mirchi programme names are supported by earlier ENIL online radio materials.",
     "kind": "official"
+  },
+  {
+    "id": "stage43-abc-radio-official",
+    "title": "Asia Broadcasting Corporation — official radio portfolio",
+    "url": "https://www.asiabroadcasting.lk/about_us.php",
+    "kind": "official",
+    "notes": "Official broadcaster confirms Hiru FM, Gold FM, Shaa FM, Sun FM and Sooriyan FM as independent stations in its radio group. Does not grant playback or recording rights."
+  },
+  {
+    "id": "stage43-source-hiru-fm-lk",
+    "title": "Hiru FM — station identity and user-supplied stream candidate",
+    "url": "https://www.hirufm.lk/about-us.html",
+    "kind": "official",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-gold-fm-lk",
+    "title": "Gold FM Sri Lanka — station identity and user-supplied stream candidate",
+    "url": "https://www.goldfm.lk/aboutus.php",
+    "kind": "official",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-shaa-fm-lk",
+    "title": "Shaa FM — station identity and user-supplied stream candidate",
+    "url": "https://www.shaafm.lk/about-us.html",
+    "kind": "official",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-lankasri-fm",
+    "title": "Lankasri FM — station identity and user-supplied stream candidate",
+    "url": "https://lankasri.fm/",
+    "kind": "official",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-ilc-tamil-radio",
+    "title": "ILC Tamil Radio — station identity and user-supplied stream candidate",
+    "url": "https://radioindia.org/ilc-tamil/",
+    "kind": "directory",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-asal-tamil-fm",
+    "title": "Asal Tamil FM — station identity and user-supplied stream candidate",
+    "url": "https://www.asalfm.net/",
+    "kind": "official",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-yarl-fm-lk",
+    "title": "Yarl FM — station identity and user-supplied stream candidate",
+    "url": "https://gist.github.com/palaniraja/5607053",
+    "kind": "directory",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-siragukal-fm",
+    "title": "Siragukal FM — station identity and user-supplied stream candidate",
+    "url": null,
+    "kind": "user-provided",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-bee-fm-lk",
+    "title": "Bee FM — station identity and user-supplied stream candidate",
+    "url": "https://mytuner-radio.com/radio/bee-fm-481770/",
+    "kind": "directory",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
+  },
+  {
+    "id": "stage43-source-num-tamil-radio-nz",
+    "title": "Num Tamil Radio — station identity and user-supplied stream candidate",
+    "url": "https://onlineradiofm.in/stations/num-tamil",
+    "kind": "directory",
+    "notes": "Station identity and language reviewed against the linked source where available. Stream URL supplied by RadioBee contributor on 2026-11-18. Audio decoding, endpoint lifetime, rights, use in a third-party application and recording remain unconfirmed. HTTP and intermediary session links require extra compatibility review."
   }
 ]
