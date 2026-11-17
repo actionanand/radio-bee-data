@@ -1,4 +1,5 @@
 import {artistNameErrors} from './artist-localization.mjs';
+import {allowedV2StreamUrl} from './stream-urls.mjs';
 import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -164,7 +165,7 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
       for(const message of policyErrors(stream,src))fail(`stream ${stream.id}: ${message}`);
       if (!isText(stream.id) || !idPattern.test(stream.id) || streamIds.has(stream.id)) fail('invalid/duplicate stream ID');
       streamIds.add(stream.id);
-      if (!validHttps(stream.url)) fail(`stream ${stream.id}: invalid HTTPS URL`);
+      if (!(isV2 ? allowedV2StreamUrl(stream.url, validHttps) : validHttps(stream.url))) fail(`stream ${stream.id}: invalid stream URL`);
       if (!['mp3','aac','hls','unknown'].includes(stream.format)) fail(`stream ${stream.id}: invalid format`);
       if (!['unverified','verified','unavailable'].includes(stream.verificationStatus)) fail(`stream ${stream.id}: invalid status`);
       if (!['unconfirmed','permission-granted'].includes(stream.rightsStatus)) fail(`stream ${stream.id}: invalid rights status`);
