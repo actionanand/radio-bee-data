@@ -17,7 +17,7 @@ test('Stage 36 preserves all 240 canonical records, 245 streams, artists, rights
   // Historical 240-station baseline is retained; the V2 browse index legitimately grows.
   assert.ok(data.browseIndex.totals.all>=240);
   for(const id of Object.keys(data.i18n.ta.stationNames))assert.ok(data.browseIndex.stationIds.includes(id));
-  for(const locale of ['ta','sa']){const {stationNames,artistNames,...previous}=data.i18n[locale];assert.ok(stationNames);const historical=structuredClone(previous);delete historical.countries.BD;assert.equal(hash(JSON.stringify(historical)),baseline.previousLocaleHashes[locale]);}
+  for(const locale of ['ta','sa']){const {stationNames,artistNames,networkNames,broadcasterNames,programmeThemeNames,...previous}=data.i18n[locale];assert.ok(stationNames);const historical=structuredClone(previous);delete historical.countries.BD;assert.equal(hash(JSON.stringify(historical)),baseline.previousLocaleHashes[locale]);}
   assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
 });
 
