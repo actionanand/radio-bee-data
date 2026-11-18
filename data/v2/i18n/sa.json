@@ -343,7 +343,14 @@
     "stage39-dd-radio-zeno": "DD रेडियो",
     "stage39-tamil-amudhu-zeno": "तमिळ् अमुदु",
     "stage39-raja-fm-sri-lanka-zeno": "राजा एफएम्",
-    "stage40-air-tamil-90s-songs": "एयर् तमिळ् 90S सॉङ्ग्स्"
+    "stage40-air-tamil-90s-songs": "एयर् तमिळ् 90S सॉङ्ग्स्",
+    "stage43-hiru-fm-lk": "हिरु एफ्.एम्.",
+    "stage43-gold-fm-lk": "गोल्ड् एफ्.एम्. श्रीलङ्का",
+    "stage43-shaa-fm-lk": "शा एफ्.एम्.",
+    "stage43-asal-tamil-fm-gb": "असल् तमिल् एफ्.एम्.",
+    "stage43-yarl-fm-lk": "याल् एफ्.एम्.",
+    "stage43-bee-fm-lk": "बी एफ्.एम्.",
+    "stage43-num-tamil-radio-nz": "नम् तमिल् रेडियो"
   },
   "artistNames": {
     "a-r-rahman": "ए. आर. रहमान",
@@ -750,7 +757,17 @@
     "stage41-network-konkani-forever-uk": "Konkani Forever UK",
     "stage41-network-hd-radio-bhojpuri": "HD Radio Bhojpuri",
     "stage41-network-radio-sindhi": "रेडियो सिन्धी",
-    "stage42-red-fm-delhi": "93.5 रेड् एफ्.एम्. दिल्ली"
+    "stage42-red-fm-delhi": "93.5 रेड् एफ्.एम्. दिल्ली",
+    "stage43-network-hiru-fm-lk": "हिरु एफ्.एम्.",
+    "stage43-network-gold-fm-lk": "गोल्ड् एफ्.एम्. श्रीलङ्का",
+    "stage43-network-shaa-fm-lk": "शा एफ्.एम्.",
+    "stage43-network-asal-tamil-fm-gb": "असल् तमिल् एफ्.एम्.",
+    "stage43-network-yarl-fm-lk": "याल् एफ्.एम्.",
+    "stage43-network-bee-fm-lk": "बी एफ्.एम्.",
+    "stage43-network-num-tamil-radio-nz": "नम् तमिल् रेडियो",
+    "stage43-network-lankasri-fm-gb": "लङ्काश्री एफ्.एम्.",
+    "stage43-network-ilc-tamil-gb": "आई.एल्.सी. तमिल् रेडियो",
+    "stage43-network-siragugal-fm-in": "सिरगुगल् एफ्.एम्. 89.6"
   },
   "broadcasterNames": {
     "prasar-bharati": "प्रसारभारती",
@@ -771,5 +788,10 @@
     "hindu-devotional": "हिन्दूभक्तिकार्यक्रमाः",
     "islamic-religious": "इस्लामीयधार्मिककार्यक्रमाः",
     "tamil-devotional-music": "तमिल् भक्तिसङ्गीतम्"
+  },
+  "discoveryNames": {
+    "stage43-lankasri-fm-gb": "लङ्काश्री एफ्.एम्.",
+    "stage43-ilc-tamil-gb": "आई.एल्.सी. तमिल् रेडियो",
+    "stage43-siragugal-fm-in": "सिरगुगल् एफ्.एम्. 89.6"
   }
 }
