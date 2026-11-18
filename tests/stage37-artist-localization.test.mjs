@@ -17,7 +17,7 @@ test('all 31 artists have valid Tamil and Devanagari names, preserving canonical
      : rest;
  })),baseline.stations);
  assert.ok(data.stations.every(station=>typeof station.about==='string'&&station.about.length>=65));assert.equal(hash(data.artists),baseline.artists);
- for(const locale of ['ta','sa'])assert.equal(hash(Object.fromEntries(Object.entries(data.i18n[locale].stationNames).filter(([id])=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')))),baseline[locale]);
+ for(const locale of ['ta','sa'])assert.equal(hash(Object.fromEntries(Object.entries(data.i18n[locale].stationNames).filter(([id])=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')&&!id.startsWith('stage43-')))),baseline[locale]);
  assert.deepEqual(artistNameErrors(data),[]);
  for(const locale of ['ta','sa'])assert.deepEqual(Object.keys(data.i18n[locale].artistNames).sort(),data.artists.map(a=>a.id).sort());
  assert.ok(data.stations.length>=240);assert.ok(data.stations.flatMap(s=>s.streams).length>=245);
