@@ -10,7 +10,7 @@ test('Stage 34 groups 35 existing stations into 31 artist identities, without mu
  assert.equal(d.artists.length,31);
  assert.ok(d.stations.length>=240);
  assert.ok(d.stations.flatMap(s=>s.streams).length>=245);
- assert.equal(d.discoveryStations.length,0);
+ assert.equal(d.discoveryStations.filter(s=>!s.id.startsWith('stage43-')).length,0);
  const tagged=d.stations.filter(s=>s.artistIds?.length);
  assert.equal(tagged.length,35);
  assert.equal(new Set(d.stations.flatMap(s=>s.streams.map(t=>t.url))).size,d.stations.flatMap(s=>s.streams).length);

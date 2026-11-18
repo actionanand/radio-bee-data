@@ -6,7 +6,7 @@ test('v2 manifest includes countries referenced by networks and locations even w
   const d=readCatalogue(undefined,'v2');
   const countries=new Set(d.index.countries);
   assert.ok(/^2\.8\.\d+$/.test(d.index.catalogVersion));
-  assert.ok(!d.stations.some(station=>station.countryCode==='NZ'));
+  assert.ok(!d.stations.filter(s=>!s.id.startsWith('stage43-')).some(station=>station.countryCode==='NZ'));
   assert.ok(d.networks.some(network=>network.countryCodes.includes('NZ')));
   assert.ok(d.locations.some(location=>location.countryCode==='NZ'));
   for(const network of d.networks)
@@ -28,8 +28,8 @@ test('v2 validator rejects a country registry omission even when no station is p
 test('country registry fix does not republish no-stream FM listings',()=>{
   const d=readCatalogue(undefined,'v2');
   assert.ok(d.stations.length>=240);
-  assert.equal(d.discoveryStations.length,0);
-  assert.equal(d.stations.filter(station=>!station.id.startsWith('stage38-')&&station.delivery==='fm').length,57);
+  assert.equal(d.discoveryStations.filter(s=>!s.id.startsWith('stage43-')).length,0);
+  assert.equal(d.stations.filter(station=>!station.id.startsWith('stage38-')&&!station.id.startsWith('stage43-')&&station.delivery==='fm').length,57);
   assert.ok(d.stations.every(station=>station.streams.length>0));
   assert.ok(d.index.counts.streams>=245);
 });

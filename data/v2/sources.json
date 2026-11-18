@@ -3407,5 +3407,75 @@
     "url": "https://www.enil.co.in/details-of-the-business.php",
     "notes": "Official ENIL confirms Mirchi as a radio and digital brand. Specific online Mirchi programme names are supported by earlier ENIL online radio materials.",
     "kind": "official"
+  },
+  {
+    "id": "stage43-source-hiru-fm-lk",
+    "title": "2026-11-18 request and source review: Hiru FM",
+    "url": "https://www.hirufm.lk/listenlive.php",
+    "kind": "directory",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. "
+  },
+  {
+    "id": "stage43-source-gold-fm-lk",
+    "title": "2026-11-18 request and source review: Gold FM Sri Lanka",
+    "url": "https://www.goldfm.lk/onair.html",
+    "kind": "directory",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. "
+  },
+  {
+    "id": "stage43-source-shaa-fm-lk",
+    "title": "2026-11-18 request and source review: Shaa FM",
+    "url": "https://www.shaafm.lk/listenlive.php",
+    "kind": "directory",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. "
+  },
+  {
+    "id": "stage43-source-asal-tamil-fm-gb",
+    "title": "2026-11-18 request and source review: Asal Tamil FM",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved.  No independent official publisher profile has been confirmed."
+  },
+  {
+    "id": "stage43-source-yarl-fm-lk",
+    "title": "2026-11-18 request and source review: Yarl FM",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. "
+  },
+  {
+    "id": "stage43-source-bee-fm-lk",
+    "title": "2026-11-18 request and source review: Bee FM",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved.  No independent official publisher profile has been confirmed."
+  },
+  {
+    "id": "stage43-source-num-tamil-radio-nz",
+    "title": "2026-11-18 request and source review: Num Tamil Radio",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTPS candidate on 18 November 2026. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. "
+  },
+  {
+    "id": "stage43-source-lankasri-fm-gb",
+    "title": "2026-11-18 request and source review: Lankasri FM",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTP-only stream on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. Provided media endpoint: http://media2.lankasri.fm/;stream.mp3; NOT approved or published as a direct stream because HTTPS is required. No independent official publisher profile has been confirmed."
+  },
+  {
+    "id": "stage43-source-ilc-tamil-gb",
+    "title": "2026-11-18 request and source review: ILC Tamil Radio",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTP-only stream on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. Provided media endpoint: http://s2.voscast.com:9370/;; NOT approved or published as a direct stream because HTTPS is required. No independent official publisher profile has been confirmed."
+  },
+  {
+    "id": "stage43-source-siragugal-fm-in",
+    "title": "2026-11-18 user-supplied listing: Siragukal FM 89.6",
+    "url": null,
+    "kind": "research",
+    "notes": "User-submitted station identity and HTTP-only stream on 18 November 2026. Referenced linked programme/source page. Stream compatibility, uptime, playback rights, recording and redistribution have not been independently approved. Provided media endpoint: http://117.241.19.61:88/broadwave.mp3; NOT approved or published as a direct stream because HTTPS is required. No independent official publisher profile has been confirmed."
   }
 ]

@@ -9,7 +9,7 @@ test('all 31 artists have valid Tamil and Devanagari names, preserving canonical
  const data=readCatalogue(undefined,'v2');assert.equal(data.artists.length,31);
  const baseline=JSON.parse(readFileSync(new URL('../docs/stage37/baseline.json',import.meta.url)));
  const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
- assert.equal(hash(data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-')).map(({about,logoUrl,logoPath,...rest})=> {
+ assert.equal(hash(data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-')&&!s.id.startsWith('stage43-')).map(({about,logoUrl,logoPath,...rest})=> {
    // Restore only the historical network identifier for the immutable Stage 37
    // checksum comparison; canonical v2 now groups both under Akashvani.
    return ['stage32-vividh-bharati-bengaluru','stage32-fm-rainbow-vijayawada'].includes(rest.id)
@@ -17,7 +17,7 @@ test('all 31 artists have valid Tamil and Devanagari names, preserving canonical
      : rest;
  })),baseline.stations);
  assert.ok(data.stations.every(station=>typeof station.about==='string'&&station.about.length>=65));assert.equal(hash(data.artists),baseline.artists);
- for(const locale of ['ta','sa'])assert.equal(hash(Object.fromEntries(Object.entries(data.i18n[locale].stationNames).filter(([id])=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')))),baseline[locale]);
+ for(const locale of ['ta','sa'])assert.equal(hash(Object.fromEntries(Object.entries(data.i18n[locale].stationNames).filter(([id])=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')&&!id.startsWith('stage43-')))),baseline[locale]);
  assert.deepEqual(artistNameErrors(data),[]);
  for(const locale of ['ta','sa'])assert.deepEqual(Object.keys(data.i18n[locale].artistNames).sort(),data.artists.map(a=>a.id).sort());
  assert.ok(data.stations.length>=240);assert.ok(data.stations.flatMap(s=>s.streams).length>=245);

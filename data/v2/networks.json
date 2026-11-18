@@ -3871,5 +3871,107 @@
     ],
     "broadcasterRelationship": "publisher-operator",
     "logoUrl": "https://djhonz7dexnot.cloudfront.net/66d76b302bbb6373116e9ea4957bd02a1daa8b7b.jpg"
+  },
+  {
+    "id": "stage43-network-hiru-fm-lk",
+    "name": "Hiru FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": "https://www.hirufm.lk/listenlive.php"
+  },
+  {
+    "id": "stage43-network-gold-fm-lk",
+    "name": "Gold FM Sri Lanka",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": "https://www.goldfm.lk/onair.html"
+  },
+  {
+    "id": "stage43-network-shaa-fm-lk",
+    "name": "Shaa FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": "https://www.shaafm.lk/listenlive.php"
+  },
+  {
+    "id": "stage43-network-asal-tamil-fm-gb",
+    "name": "Asal Tamil FM",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage43-network-yarl-fm-lk",
+    "name": "Yarl FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage43-network-bee-fm-lk",
+    "name": "Bee FM",
+    "aliases": [],
+    "countryCodes": [
+      "LK"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage43-network-num-tamil-radio-nz",
+    "name": "Num Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "NZ"
+    ],
+    "kind": "public",
+    "website": null
+  },
+  {
+    "id": "stage43-network-lankasri-fm-gb",
+    "name": "Lankasri FM",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage43-network-ilc-tamil-gb",
+    "name": "ILC Tamil Radio",
+    "aliases": [],
+    "countryCodes": [
+      "GB"
+    ],
+    "kind": "online",
+    "website": null
+  },
+  {
+    "id": "stage43-network-siragugal-fm-in",
+    "name": "Siragukal FM 89.6",
+    "aliases": [
+      "Siragugal FM 89.6"
+    ],
+    "countryCodes": [
+      "IN"
+    ],
+    "kind": "public",
+    "website": null
   }
 ]

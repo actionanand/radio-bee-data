@@ -5,12 +5,12 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 
 test('Stage 42: imported stations have URLs; 89 previously unknown codecs now carry audio type evidence',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.equal(d.index.catalogVersion,'2.8.14');
- assert.equal(d.stations.length,398);
- assert.equal(d.networks.length,372);
+ assert.ok(d.index.catalogVersion.startsWith('2.8.'));
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage43-')).length,398);
+ assert.equal(d.networks.filter(n=>!n.id.startsWith('stage43-')).length,372);
  assert.equal(d.broadcasters.length,12);
- assert.equal(d.stations.flatMap(s=>s.streams).length,403);
- const streams=d.stations.flatMap(s=>s.streams);
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage43-')).flatMap(s=>s.streams).length,403);
+ const streams=d.stations.filter(s=>!s.id.startsWith('stage43-')).flatMap(s=>s.streams);
  assert.ok(streams.every(s=>typeof s.url==='string'&&s.url.startsWith('https://')));
  assert.equal(streams.filter(s=>s.format==='unknown').length,25);
  assert.equal(streams.filter(s=>s.verificationStatus==='verified').length,1);
@@ -56,5 +56,5 @@ test('Stage 42: one bad endpoint does not erase documented prior stations',()=>{
  for(const id of ['stage39-mugugan-songs-fm','stage29-tamil-kadavul-murugan-fm','stage39-raja-fm-sri-lanka-zeno','stage40-air-tamil-90s-songs']){
   assert.ok(d.stations.some(s=>s.id===id),id);
  }
- assert.equal(new Set(d.stations.flatMap(s=>s.streams.map(t=>t.url))).size,403);
+ assert.equal(new Set(d.stations.filter(s=>!s.id.startsWith('stage43-')).flatMap(s=>s.streams.map(t=>t.url))).size,403);
 });

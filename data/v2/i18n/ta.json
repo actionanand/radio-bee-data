@@ -343,7 +343,15 @@
     "stage39-dd-radio-zeno": "DD வானொலி",
     "stage39-tamil-amudhu-zeno": "தமிழ் அமுது",
     "stage39-raja-fm-sri-lanka-zeno": "ராஜா எஃப்.எம்.",
-    "stage40-air-tamil-90s-songs": "ஏர் தமிழ் 90S பாடல்கள்"
+    "stage40-air-tamil-90s-songs": "ஏர் தமிழ் 90S பாடல்கள்",
+    "stage43-hiru-fm-lk": "ஹிரு எஃப்.எம்.",
+    "stage43-gold-fm-lk": "கோல்டு எஃப்.எம். இலங்கை",
+    "stage43-shaa-fm-lk": "ஷா எஃப்.எம்.",
+    "stage43-asal-tamil-fm-gb": "அசல் தமிழ் எஃப்.எம்.",
+    "stage43-yarl-fm-lk": "யாழ் எஃப்.எம்.",
+    "stage43-bee-fm-lk": "பீ எஃப்.எம்.",
+    "stage43-num-tamil-radio-nz": "நம் தமிழ் வானொலி",
+    "stage41-sun-fm": "சன் எஃப்.எம். இலங்கை"
   },
   "artistNames": {
     "a-r-rahman": "ஏ. ஆர். ரஹ்மான்",
@@ -750,7 +758,17 @@
     "stage41-network-konkani-forever-uk": "Konkani Forever UK",
     "stage41-network-hd-radio-bhojpuri": "HD Radio Bhojpuri",
     "stage41-network-radio-sindhi": "ரேடியோ சிந்தி",
-    "stage42-red-fm-delhi": "93.5 ரெட் எஃப்.எம். டெல்லி"
+    "stage42-red-fm-delhi": "93.5 ரெட் எஃப்.எம். டெல்லி",
+    "stage43-network-hiru-fm-lk": "ஹிரு எஃப்.எம்.",
+    "stage43-network-gold-fm-lk": "கோல்டு எஃப்.எம். இலங்கை",
+    "stage43-network-shaa-fm-lk": "ஷா எஃப்.எம்.",
+    "stage43-network-asal-tamil-fm-gb": "அசல் தமிழ் எஃப்.எம்.",
+    "stage43-network-yarl-fm-lk": "யாழ் எஃப்.எம்.",
+    "stage43-network-bee-fm-lk": "பீ எஃப்.எம்.",
+    "stage43-network-num-tamil-radio-nz": "நம் தமிழ் வானொலி",
+    "stage43-network-lankasri-fm-gb": "லங்காசிறி எஃப்.எம்.",
+    "stage43-network-ilc-tamil-gb": "ஐ.எல்.சி. தமிழ் வானொலி",
+    "stage43-network-siragugal-fm-in": "சிறகுகள் எஃப்.எம். 89.6"
   },
   "broadcasterNames": {
     "prasar-bharati": "பிரசார் பாரதி",
@@ -771,5 +789,10 @@
     "hindu-devotional": "இந்து பக்தி நிகழ்ச்சிகள்",
     "islamic-religious": "இஸ்லாமிய சமய நிகழ்ச்சிகள்",
     "tamil-devotional-music": "தமிழ் பக்தி இசை"
+  },
+  "discoveryNames": {
+    "stage43-lankasri-fm-gb": "லங்காசிறி எஃப்.எம்.",
+    "stage43-ilc-tamil-gb": "ஐ.எல்.சி. தமிழ் வானொலி",
+    "stage43-siragugal-fm-in": "சிறகுகள் எஃப்.எம். 89.6"
   }
 }

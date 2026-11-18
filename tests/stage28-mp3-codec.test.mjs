@@ -8,7 +8,7 @@ test('Stage 28 codec results unblock playable metadata without approving rights'
  assert.ok(/^2\.8\.\d+$/.test(d.index.catalogVersion));
  assert.ok(d.stations.length>=240);
  assert.ok(d.stations.flatMap(s=>s.streams).length>=245);
- assert.equal(d.discoveryStations.length,0);
+ assert.equal(d.discoveryStations.filter(s=>!s.id.startsWith('stage43-')).length,0);
  const map=new Map(d.stations.map(s=>[s.id,s]));
  for(const {id,url} of expected){
    const station=map.get(id);assert.ok(station,id);
@@ -20,7 +20,7 @@ test('Stage 28 codec results unblock playable metadata without approving rights'
    assert.equal(stream.directListening.recording,'unconfirmed');
    assert.equal(stream.directListening.redistribution,'unconfirmed');
  }
- assert.ok(d.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage41-')).flatMap(s=>s.streams).every(s=>['mp3','aac','hls'].includes(s.format)));
+ assert.ok(d.stations.filter(s=>!s.id.startsWith('stage39-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage43-')).flatMap(s=>s.streams).every(s=>['mp3','aac','hls'].includes(s.format)));
  assert.deepEqual(d.browseIndex,buildBrowseIndex(d));
  assert.deepEqual(validateCatalogue(d,{version:'v2'}),[]);
 });
