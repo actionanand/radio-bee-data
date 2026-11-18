@@ -20568,7 +20568,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-gold-fm-lk",
@@ -20613,7 +20614,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-shaa-fm-lk",
@@ -20658,7 +20660,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-asal-tamil-fm-gb",
@@ -20703,12 +20706,13 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-yarl-fm-lk",
     "name": "Yarl FM",
-    "about": "Yarl FM is listed as a Tamil-language radio service associated with Sri Lanka. The supplied stream uses a session-based third-party relay and needs stable-stream verification.",
+    "about": "Yarl FM is listed as a Tamil-language radio service associated with Sri Lanka. It offers Tamil music and programming for listeners interested in Tamil-language broadcasting.",
     "networkId": "stage43-network-yarl-fm-lk",
     "countryCode": "LK",
     "regionId": null,
@@ -20748,7 +20752,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-bee-fm-lk",
@@ -20791,7 +20796,8 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   },
   {
     "id": "stage43-num-tamil-radio-nz",
@@ -20836,6 +20842,7 @@
           "redistribution": "unconfirmed"
         }
       }
-    ]
+    ],
+    "logoPath": "assets/artwork/genres/music.svg"
   }
 ]
