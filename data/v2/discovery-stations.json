@@ -57,7 +57,7 @@
   },
   {
     "id": "stage43-siragugal-fm-in",
-    "name": "Siragugal FM 89.6",
+    "name": "Siragukal FM 89.6",
     "networkId": "stage43-network-siragugal-fm-in",
     "countryCode": "IN",
     "regionId": "in-tn",
@@ -78,7 +78,9 @@
       "stage43-source-siragugal-fm-in"
     ],
     "notes": "Siragugal FM 89.6 was provided with an HTTP-only audio link. The FM frequency is user-supplied; operator identity, exact location and live stream have not been independently verified. Supplied stream: http://117.241.19.61:88/broadwave.mp3. It is intentionally not published as a playable HTTPS candidate.",
-    "aliases": [],
+    "aliases": [
+      "Siragugal FM 89.6"
+    ],
     "availability": "no-direct-stream",
     "reviewedOn": "2026-11-18",
     "websiteKind": null
