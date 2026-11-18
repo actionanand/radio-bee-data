@@ -460,7 +460,7 @@
     "stage43-network-num-tamil-radio-nz": "Num Tamil Radio",
     "stage43-network-lankasri-fm-gb": "Lankasri FM",
     "stage43-network-ilc-tamil-gb": "ILC Tamil Radio",
-    "stage43-network-siragugal-fm-in": "Siragugal FM 89.6"
+    "stage43-network-siragugal-fm-in": "Siragukal FM 89.6"
   },
   "broadcasterNames": {
     "prasar-bharati": "Prasar Bharati",
@@ -485,6 +485,6 @@
   "discoveryNames": {
     "stage43-lankasri-fm-gb": "Lankasri FM",
     "stage43-ilc-tamil-gb": "ILC Tamil Radio",
-    "stage43-siragugal-fm-in": "Siragugal FM 89.6"
+    "stage43-siragugal-fm-in": "Siragukal FM 89.6"
   }
 }
