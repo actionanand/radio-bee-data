@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "stage43-lankasri-fm-gb",
+    "name": "Lankasri FM",
+    "networkId": "stage43-network-lankasri-fm-gb",
+    "countryCode": "GB",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://lankasri.fm/",
+    "sourceIds": [
+      "stage43-source-lankasri-fm-gb"
+    ],
+    "notes": "Lankasri FM is a Tamil-language radio service serving a global audience from the United Kingdom. Only an insecure HTTP stream was supplied. Supplied HTTP stream: http://media2.lankasri.fm/;stream.mp3. Insecure media is intentionally not published as a playable HTTPS candidate.",
+    "aliases": [],
+    "availability": "no-direct-stream",
+    "reviewedOn": "2026-11-18",
+    "websiteKind": "official"
+  },
+  {
+    "id": "stage43-ilc-tamil-gb",
+    "name": "ILC Tamil Radio",
+    "networkId": "stage43-network-ilc-tamil-gb",
+    "countryCode": "GB",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "talk"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage43-source-ilc-tamil-gb"
+    ],
+    "notes": "ILC Tamil Radio is a Tamil-language programme service associated with the United Kingdom. The supplied audio stream uses HTTP and is not suitable for HTTPS playback. Supplied HTTP stream: http://s2.voscast.com:9370/;. Insecure media is intentionally not published as a playable HTTPS candidate.",
+    "aliases": [],
+    "availability": "no-direct-stream",
+    "reviewedOn": "2026-11-18",
+    "websiteKind": null
+  },
+  {
+    "id": "stage43-siragugal-fm-in",
+    "name": "Siragugal FM 89.6",
+    "networkId": "stage43-network-siragugal-fm-in",
+    "countryCode": "IN",
+    "regionId": "in-tn",
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "community"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 89.6,
+    "website": null,
+    "sourceIds": [
+      "stage43-source-siragugal-fm-in"
+    ],
+    "notes": "Siragugal CRS 89.6 MHz is a community radio station operated by Wings Trust in Karur, Tamil Nadu, India. The provided internet stream is HTTP only. Supplied HTTP stream: http://117.241.19.61:88/broadwave.mp3. Insecure media is intentionally not published as a playable HTTPS candidate.",
+    "aliases": [],
+    "availability": "no-direct-stream",
+    "reviewedOn": "2026-11-18",
+    "websiteKind": null
+  }
+]
