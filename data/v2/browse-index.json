@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2.8.15",
+  "catalogVersion": "2.8.16",
   "countScope": "Unique station IDs in stations.json plus discovery-stations.json; stream-bearing does not mean verified, playable or permission-approved.",
   "totals": {
-    "all": 408,
+    "all": 405,
     "streamBearing": 405,
-    "discoveryOnly": 3
+    "discoveryOnly": 0
   },
   "stationIds": [
     "3zzz-au",
@@ -383,11 +383,8 @@
     "stage43-bee-fm-lk",
     "stage43-gold-fm-lk",
     "stage43-hiru-fm-lk",
-    "stage43-ilc-tamil-gb",
-    "stage43-lankasri-fm-gb",
     "stage43-num-tamil-radio-nz",
     "stage43-shaa-fm-lk",
-    "stage43-siragugal-fm-in",
     "stage43-yarl-fm-lk",
     "star-fm-srilanka",
     "suno-tamil-qa",
@@ -646,14 +643,12 @@
           "stage41-lyca-radio-1458-am",
           "stage41-radio-utsav",
           "stage41-radio-x",
-          "stage43-asal-tamil-fm-gb",
-          "stage43-ilc-tamil-gb",
-          "stage43-lankasri-fm-gb"
+          "stage43-asal-tamil-fm-gb"
         ],
         "counts": {
-          "all": 13,
+          "all": 11,
           "streamBearing": 11,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -949,7 +944,6 @@
           "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
-          "stage43-siragugal-fm-in",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -963,9 +957,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 270,
+          "all": 269,
           "streamBearing": 269,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -1985,9 +1979,7 @@
           "stage41-lyca-radio-1458-am",
           "stage41-radio-utsav",
           "stage41-radio-x",
-          "stage43-asal-tamil-fm-gb",
-          "stage43-ilc-tamil-gb",
-          "stage43-lankasri-fm-gb"
+          "stage43-asal-tamil-fm-gb"
         ],
         "stationIds": [
           "ibc-tamil-uk",
@@ -2000,14 +1992,12 @@
           "stage41-lyca-radio-1458-am",
           "stage41-radio-utsav",
           "stage41-radio-x",
-          "stage43-asal-tamil-fm-gb",
-          "stage43-ilc-tamil-gb",
-          "stage43-lankasri-fm-gb"
+          "stage43-asal-tamil-fm-gb"
         ],
         "counts": {
-          "all": 13,
+          "all": 11,
           "streamBearing": 11,
-          "discoveryOnly": 2
+          "discoveryOnly": 0
         }
       },
       {
@@ -2579,7 +2569,6 @@
           "stage41-yo-punjabi-mirchi",
           "stage42-mirchi-98-3-online",
           "stage42-red-fm-93-5-delhi",
-          "stage43-siragugal-fm-in",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-80s-hits",
@@ -2593,9 +2582,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 270,
+          "all": 269,
           "streamBearing": 269,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -3373,8 +3362,7 @@
           "amudham-fm-in",
           "inbam-fm",
           "radio-beat-extra",
-          "radio-beat-love",
-          "stage43-siragugal-fm-in"
+          "radio-beat-love"
         ],
         "stationIds": [
           "air-chennai-gold",
@@ -3402,7 +3390,6 @@
           "radio-beat-extra",
           "radio-beat-love",
           "radio-city-chennai",
-          "stage43-siragugal-fm-in",
           "suryan-chennai",
           "sweety-fm-in",
           "tamil-christian-radio-in",
@@ -3410,9 +3397,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 31,
+          "all": 30,
           "streamBearing": 30,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -6224,10 +6211,7 @@
           "stage41-thimiru-fm",
           "stage41-vaigai-fm",
           "stage43-asal-tamil-fm-gb",
-          "stage43-ilc-tamil-gb",
-          "stage43-lankasri-fm-gb",
           "stage43-num-tamil-radio-nz",
-          "stage43-siragugal-fm-in",
           "stage43-yarl-fm-lk",
           "star-fm-srilanka",
           "suno-tamil-qa",
@@ -6252,9 +6236,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 228,
+          "all": 225,
           "streamBearing": 225,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       },
       {
@@ -6810,11 +6794,8 @@
           "stage43-bee-fm-lk",
           "stage43-gold-fm-lk",
           "stage43-hiru-fm-lk",
-          "stage43-ilc-tamil-gb",
-          "stage43-lankasri-fm-gb",
           "stage43-num-tamil-radio-nz",
           "stage43-shaa-fm-lk",
-          "stage43-siragugal-fm-in",
           "stage43-yarl-fm-lk",
           "star-fm-srilanka",
           "suno-tamil-qa",
@@ -6838,9 +6819,9 @@
           "znad-wilii-lt"
         ],
         "counts": {
-          "all": 378,
+          "all": 375,
           "streamBearing": 375,
-          "discoveryOnly": 3
+          "discoveryOnly": 0
         }
       }
     ],
@@ -13350,42 +13331,6 @@
         }
       },
       {
-        "id": "stage43-network-ilc-tamil-gb",
-        "name": "ILC Tamil Radio",
-        "key": "network:stage43-network-ilc-tamil-gb",
-        "aliases": [],
-        "countryCodes": [
-          "GB"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage43-ilc-tamil-gb"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
-        "id": "stage43-network-lankasri-fm-gb",
-        "name": "Lankasri FM",
-        "key": "network:stage43-network-lankasri-fm-gb",
-        "aliases": [],
-        "countryCodes": [
-          "GB"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage43-lankasri-fm-gb"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
-        }
-      },
-      {
         "id": "stage43-network-num-tamil-radio-nz",
         "name": "Num Tamil Radio",
         "key": "network:stage43-network-num-tamil-radio-nz",
@@ -13419,26 +13364,6 @@
           "all": 1,
           "streamBearing": 1,
           "discoveryOnly": 0
-        }
-      },
-      {
-        "id": "stage43-network-siragugal-fm-in",
-        "name": "Siragukal FM 89.6",
-        "key": "network:stage43-network-siragugal-fm-in",
-        "aliases": [
-          "Siragugal FM 89.6"
-        ],
-        "countryCodes": [
-          "IN"
-        ],
-        "broadcasterId": null,
-        "stationIds": [
-          "stage43-siragugal-fm-in"
-        ],
-        "counts": {
-          "all": 1,
-          "streamBearing": 0,
-          "discoveryOnly": 1
         }
       },
       {
@@ -14142,16 +14067,15 @@
           "stage38-nityananda-janavani",
           "stage38-radio-sugar-90-8",
           "stage38-radio-uday-89-6",
-          "stage43-siragugal-fm-in",
           "tamil-murasam-no",
           "thaalam-ch",
           "time-fm-toronto-ca",
           "vaagai-tamil-de"
         ],
         "counts": {
-          "all": 27,
+          "all": 26,
           "streamBearing": 26,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -14527,7 +14451,6 @@
           "stage43-bee-fm-lk",
           "stage43-gold-fm-lk",
           "stage43-hiru-fm-lk",
-          "stage43-lankasri-fm-gb",
           "stage43-num-tamil-radio-nz",
           "stage43-shaa-fm-lk",
           "stage43-yarl-fm-lk",
@@ -14549,9 +14472,9 @@
           "vellore-city-fm"
         ],
         "counts": {
-          "all": 276,
+          "all": 275,
           "streamBearing": 275,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       },
       {
@@ -14614,16 +14537,15 @@
           "shiva-tattvam",
           "stage33-red-fm-calgary",
           "stage39-raja-fm-sri-lanka-zeno",
-          "stage43-ilc-tamil-gb",
           "sveriges-radio-p1-se",
           "tamil-894-ae",
           "tamil-murasam-no",
           "wnyc-939-us"
         ],
         "counts": {
-          "all": 14,
+          "all": 13,
           "streamBearing": 13,
-          "discoveryOnly": 1
+          "discoveryOnly": 0
         }
       }
     ],
@@ -15601,15 +15523,11 @@
       "id": "discovery-only",
       "name": "discovery-only",
       "key": "availability:discovery-only",
-      "stationIds": [
-        "stage43-ilc-tamil-gb",
-        "stage43-lankasri-fm-gb",
-        "stage43-siragugal-fm-in"
-      ],
+      "stationIds": [],
       "counts": {
-        "all": 3,
+        "all": 0,
         "streamBearing": 0,
-        "discoveryOnly": 3
+        "discoveryOnly": 0
       }
     }
   ]

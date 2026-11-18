@@ -765,10 +765,7 @@
     "stage43-network-asal-tamil-fm-gb": "அசல் தமிழ் எஃப்.எம்.",
     "stage43-network-yarl-fm-lk": "யாழ் எஃப்.எம்.",
     "stage43-network-bee-fm-lk": "பீ எஃப்.எம்.",
-    "stage43-network-num-tamil-radio-nz": "நம் தமிழ் வானொலி",
-    "stage43-network-lankasri-fm-gb": "லங்காசிறி எஃப்.எம்.",
-    "stage43-network-ilc-tamil-gb": "ஐ.எல்.சி. தமிழ் வானொலி",
-    "stage43-network-siragugal-fm-in": "சிறகுகள் எஃப்.எம். 89.6"
+    "stage43-network-num-tamil-radio-nz": "நம் தமிழ் வானொலி"
   },
   "broadcasterNames": {
     "prasar-bharati": "பிரசார் பாரதி",
@@ -789,10 +786,5 @@
     "hindu-devotional": "இந்து பக்தி நிகழ்ச்சிகள்",
     "islamic-religious": "இஸ்லாமிய சமய நிகழ்ச்சிகள்",
     "tamil-devotional-music": "தமிழ் பக்தி இசை"
-  },
-  "discoveryNames": {
-    "stage43-lankasri-fm-gb": "லங்காசிறி எஃப்.எம்.",
-    "stage43-ilc-tamil-gb": "ஐ.எல்.சி. தமிழ் வானொலி",
-    "stage43-siragugal-fm-in": "சிறகுகள் எஃப்.எம். 89.6"
   }
 }
