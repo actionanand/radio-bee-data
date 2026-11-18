@@ -17,15 +17,15 @@
     "coverage": "global",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": "https://lankasri.fm/",
+    "website": null,
     "sourceIds": [
       "stage43-source-lankasri-fm-gb"
     ],
-    "notes": "Lankasri FM is a Tamil-language radio service serving a global audience from the United Kingdom. Only an insecure HTTP stream was supplied. Supplied HTTP stream: http://media2.lankasri.fm/;stream.mp3. Insecure media is intentionally not published as a playable HTTPS candidate.",
+    "notes": "Lankasri FM is a Tamil-language radio service serving a global audience from the United Kingdom. Only an insecure HTTP stream was supplied. Supplied HTTP stream: http://media2.lankasri.fm/;stream.mp3. Insecure media is intentionally not published as a playable HTTPS candidate. Country attribution is provisional.",
     "aliases": [],
     "availability": "no-direct-stream",
     "reviewedOn": "2026-11-18",
-    "websiteKind": "official"
+    "websiteKind": null
   },
   {
     "id": "stage43-ilc-tamil-gb",
@@ -77,7 +77,7 @@
     "sourceIds": [
       "stage43-source-siragugal-fm-in"
     ],
-    "notes": "Siragugal CRS 89.6 MHz is a community radio station operated by Wings Trust in Karur, Tamil Nadu, India. The provided internet stream is HTTP only. Supplied HTTP stream: http://117.241.19.61:88/broadwave.mp3. Insecure media is intentionally not published as a playable HTTPS candidate.",
+    "notes": "Siragugal FM 89.6 was provided with an HTTP-only audio link. The FM frequency is user-supplied; operator identity, exact location and live stream have not been independently verified. Supplied stream: http://117.241.19.61:88/broadwave.mp3. It is intentionally not published as a playable HTTPS candidate.",
     "aliases": [],
     "availability": "no-direct-stream",
     "reviewedOn": "2026-11-18",
