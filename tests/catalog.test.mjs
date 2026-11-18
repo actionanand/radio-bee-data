@@ -38,6 +38,7 @@ test('locale key parity is enforced', () => {
   assert.ok(validateCatalogue(d).some(x=>x.includes('ta: missing catalog.networks')));
 });
 test('v2 network, broadcaster and theme names have full English Tamil Sanskrit parity', () => {
+  const data = readCatalogue(undefined, 'v2');
   for (const [section, rows] of [
     ['networkNames', data.networks],
     ['broadcasterNames', data.broadcasters],
@@ -49,7 +50,7 @@ test('v2 network, broadcaster and theme names have full English Tamil Sanskrit p
       assert.deepEqual(new Set(Object.keys(actual)), ids, `${locale} ${section} IDs`);
     }
     for (const row of rows) assert.equal(data.i18n.en[section][row.id], row.name);
-    const corrupted = cloned();
+    const corrupted = structuredClone(data);
     delete corrupted.i18n.ta[section][rows[0].id];
     assert.ok(validateCatalogue(corrupted).some(error => error.includes(`ta: missing ${section}.${rows[0].id}`)));
   }
