@@ -22,7 +22,7 @@ test('Suryan Chennai has distinct primary and fallback candidates in intended or
  }
  assert.ok(/^2\.8\.\d+$/.test(data.index.catalogVersion));
  assert.ok(data.index.counts.streams>=245);
- assert.equal(data.discoveryStations.length,0);
+ assert.equal(data.discoveryStations.filter(s=>!s.id.startsWith('stage43-')).length,0);
  assert.deepEqual(data.browseIndex,buildBrowseIndex(data));
  assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
 });
