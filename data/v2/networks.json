@@ -3941,37 +3941,5 @@
     ],
     "kind": "public",
     "website": null
-  },
-  {
-    "id": "stage43-network-lankasri-fm-gb",
-    "name": "Lankasri FM",
-    "aliases": [],
-    "countryCodes": [
-      "GB"
-    ],
-    "kind": "online",
-    "website": null
-  },
-  {
-    "id": "stage43-network-ilc-tamil-gb",
-    "name": "ILC Tamil Radio",
-    "aliases": [],
-    "countryCodes": [
-      "GB"
-    ],
-    "kind": "online",
-    "website": null
-  },
-  {
-    "id": "stage43-network-siragugal-fm-in",
-    "name": "Siragukal FM 89.6",
-    "aliases": [
-      "Siragugal FM 89.6"
-    ],
-    "countryCodes": [
-      "IN"
-    ],
-    "kind": "public",
-    "website": null
   }
 ]
