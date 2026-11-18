@@ -20679,11 +20679,11 @@
     "coverage": "global",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": "https://www.asalfm.net/",
+    "website": null,
     "sourceIds": [
       "stage43-source-asal-tamil-fm-gb"
     ],
-    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established.  Country and language attribution are provisional until a reliable official station profile is available.",
     "aliases": [],
     "streams": [
       {
@@ -20759,9 +20759,7 @@
     "regionId": null,
     "districtId": null,
     "localityId": null,
-    "broadcastLanguages": [
-      "si"
-    ],
+    "broadcastLanguages": [],
     "genres": [
       "music"
     ],
@@ -20769,11 +20767,11 @@
     "coverage": "global",
     "listingStatus": "candidate",
     "frequencyMHz": null,
-    "website": "https://zeno.fm/beefmlive/",
+    "website": null,
     "sourceIds": [
       "stage43-source-bee-fm-lk"
     ],
-    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established.  Country and language attribution are provisional until a reliable official station profile is available.",
     "aliases": [],
     "streams": [
       {
