@@ -17,17 +17,17 @@ test('Stage 36 preserves all 240 canonical records, 245 streams, artists, rights
   // Historical 240-station baseline is retained; the V2 browse index legitimately grows.
   assert.ok(data.browseIndex.totals.all>=240);
   for(const id of Object.keys(data.i18n.ta.stationNames))assert.ok(data.browseIndex.stationIds.includes(id));
-  for(const locale of ['ta','sa']){const {stationNames,artistNames,networkNames,broadcasterNames,programmeThemeNames,...previous}=data.i18n[locale];assert.ok(stationNames);const historical=structuredClone(previous);delete historical.countries.BD;assert.equal(hash(JSON.stringify(historical)),baseline.previousLocaleHashes[locale]);}
+  for(const locale of ['ta','sa']){const {stationNames,artistNames,networkNames,broadcasterNames,programmeThemeNames,discoveryNames,...previous}=data.i18n[locale];assert.ok(stationNames);const historical=structuredClone(previous);delete historical.countries.BD;assert.equal(hash(JSON.stringify(historical)),baseline.previousLocaleHashes[locale]);}
   assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
 });
 
 test('both locale dictionaries cover precisely the 240 canonical IDs with NFC Unicode or exact English fallback',()=>{
   const data=get(),ids=data.stations.map(station=>station.id).sort();
   for(const locale of ['ta','sa']){
-    const names=data.i18n[locale].stationNames;assert.deepEqual(Object.keys(names).filter(id=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')).sort(),ids.filter(id=>!id.startsWith('stage38-')&&!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')));
+    const names=data.i18n[locale].stationNames;assert.deepEqual(Object.keys(names).filter(id=>!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')&&!id.startsWith('stage43-')).sort(),ids.filter(id=>!id.startsWith('stage38-')&&!id.startsWith('stage39-')&&!id.startsWith('stage40-')&&!id.startsWith('stage41-')&&!id.startsWith('stage42-')&&!id.startsWith('stage43-')));
     const script=locale==='ta'?/\p{Script=Tamil}/u:/\p{Script=Devanagari}/u;
     let local=0,fallback=0;
-    for(const station of data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-'))){const name=names[station.id];assert.equal(typeof name,'string');assert.ok(name.trim());assert.ok(name.isWellFormed());assert.equal(name,name.normalize('NFC'));if(name===station.name)fallback++;else{local++;assert.ok(script.test(name),station.id);}}
+    for(const station of data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-')&&!s.id.startsWith('stage43-'))){const name=names[station.id];assert.equal(typeof name,'string');assert.ok(name.trim());assert.ok(name.isWellFormed());assert.equal(name,name.normalize('NFC'));if(name===station.name)fallback++;else{local++;assert.ok(script.test(name),station.id);}}
     assert.equal(local,224);assert.equal(fallback,16);
   }
   assert.equal(data.i18n.en.stationNames,undefined,'canonical English names are the fallback, not a duplicated station registry');
