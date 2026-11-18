@@ -5919,13 +5919,12 @@
           "stage32-ran-fm",
           "stage32-siyatha-fm",
           "stage39-raja-fm-sri-lanka-zeno",
-          "stage43-bee-fm-lk",
           "stage43-hiru-fm-lk",
           "stage43-shaa-fm-lk"
         ],
         "counts": {
-          "all": 10,
-          "streamBearing": 10,
+          "all": 9,
+          "streamBearing": 9,
           "discoveryOnly": 0
         }
       },
