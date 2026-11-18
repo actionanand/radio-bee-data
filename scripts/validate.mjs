@@ -240,9 +240,9 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
               errors.push(`${code}: invalid or missing ${section}.${row.id}`);
             if (code === 'en' && value !== row.name)
               errors.push(`en: ${section}.${row.id} must retain canonical name`);
-            if (code === 'ta' && value !== row.name && !/\\p{Script=Tamil}/u.test(value))
+            if (code === 'ta' && value !== row.name && !/\p{Script=Tamil}/u.test(value))
               errors.push(`ta: ${section}.${row.id} must use Tamil script or exact brand fallback`);
-            if (code === 'sa' && value !== row.name && !/\\p{Script=Devanagari}/u.test(value))
+            if (code === 'sa' && value !== row.name && !/\p{Script=Devanagari}/u.test(value))
               errors.push(`sa: ${section}.${row.id} must use Devanagari or exact brand fallback`);
           }
           for (const key of Object.keys(names))
