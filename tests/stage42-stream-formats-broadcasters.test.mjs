@@ -5,7 +5,7 @@ import {buildBrowseIndex} from '../scripts/catalogue-navigation.mjs';
 
 test('Stage 42: imported stations have URLs; 89 previously unknown codecs now carry audio type evidence',()=>{
  const d=readCatalogue(undefined,'v2');
- assert.match(d.index.catalogVersion,/^2\\.8\\.\\d+$/);
+ assert.ok(d.index.catalogVersion.startsWith('2.8.'));
  assert.equal(d.stations.filter(s=>!s.id.startsWith('stage43-')).length,398);
  assert.equal(d.networks.filter(n=>!n.id.startsWith('stage43-')).length,372);
  assert.equal(d.broadcasters.length,12);
