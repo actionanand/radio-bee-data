@@ -37,6 +37,23 @@ test('locale key parity is enforced', () => {
   const d=cloned(); delete d.i18n.ta.catalog.networks;
   assert.ok(validateCatalogue(d).some(x=>x.includes('ta: missing catalog.networks')));
 });
+test('v2 network, broadcaster and theme names have full English Tamil Sanskrit parity', () => {
+  for (const [section, rows] of [
+    ['networkNames', data.networks],
+    ['broadcasterNames', data.broadcasters],
+    ['programmeThemeNames', data.programmeThemes],
+  ]) {
+    const ids = new Set(rows.map(row => row.id));
+    for (const locale of ['en', 'ta', 'sa']) {
+      const actual = data.i18n[locale][section];
+      assert.deepEqual(new Set(Object.keys(actual)), ids, `${locale} ${section} IDs`);
+    }
+    for (const row of rows) assert.equal(data.i18n.en[section][row.id], row.name);
+    const corrupted = cloned();
+    delete corrupted.i18n.ta[section][rows[0].id];
+    assert.ok(validateCatalogue(corrupted).some(error => error.includes(`ta: missing ${section}.${rows[0].id}`)));
+  }
+});
 test('manifest counts cannot become stale', () => {
   const d=cloned(); d.index.counts.stations-=1;
   assert.ok(validateCatalogue(d).some(x=>x.includes('index count stations')));
