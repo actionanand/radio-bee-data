@@ -13423,9 +13423,11 @@
       },
       {
         "id": "stage43-network-siragugal-fm-in",
-        "name": "Siragugal FM 89.6",
+        "name": "Siragukal FM 89.6",
         "key": "network:stage43-network-siragugal-fm-in",
-        "aliases": [],
+        "aliases": [
+          "Siragugal FM 89.6"
+        ],
         "countryCodes": [
           "IN"
         ],
