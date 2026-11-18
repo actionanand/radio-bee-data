@@ -12,10 +12,10 @@ test('Stage 41 imports 108 distinct V2 streams with source provenance, no playba
  const imported=d.stations.filter(s=>s.id.startsWith('stage41-'));
  assert.equal(imported.length,108);
  assert.equal(selected.length,108);
- assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')).length,396);
- assert.equal(d.networks.filter(n=>!n.id.startsWith('stage42-')).length,371);
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')&&!s.id.startsWith('stage43-')).length,396);
+ assert.equal(d.networks.filter(n=>!n.id.startsWith('stage42-')&&!n.id.startsWith('stage43-')).length,371);
  assert.equal(d.locations.length,148);
- assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')).flatMap(s=>s.streams).length,401);
+ assert.equal(d.stations.filter(s=>!s.id.startsWith('stage42-')&&!s.id.startsWith('stage43-')).flatMap(s=>s.streams).length,401);
  assert.ok(d.index.counts.stations>=396);
  assert.ok(d.index.counts.streams>=401);
  const byId=new Map(imported.map(s=>[s.id,s]));
