@@ -9,7 +9,7 @@ test('all 31 artists have valid Tamil and Devanagari names, preserving canonical
  const data=readCatalogue(undefined,'v2');assert.equal(data.artists.length,31);
  const baseline=JSON.parse(readFileSync(new URL('../docs/stage37/baseline.json',import.meta.url)));
  const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
- assert.equal(hash(data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-')).map(({about,logoUrl,logoPath,...rest})=> {
+ assert.equal(hash(data.stations.filter(s=>!s.id.startsWith('stage38-')&&!s.id.startsWith('stage39-')&&!s.id.startsWith('stage40-')&&!s.id.startsWith('stage41-')&&!s.id.startsWith('stage42-')&&!s.id.startsWith('stage43-')).map(({about,logoUrl,logoPath,...rest})=> {
    // Restore only the historical network identifier for the immutable Stage 37
    // checksum comparison; canonical v2 now groups both under Akashvani.
    return ['stage32-vividh-bharati-bengaluru','stage32-fm-rainbow-vijayawada'].includes(rest.id)
