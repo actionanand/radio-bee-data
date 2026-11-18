@@ -220,7 +220,36 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
   else {
     const labels=dictionary=>isV2?Object.fromEntries(Object.entries(dictionary).filter(([key])=>!['stationNames','artistNames'].includes(key))):dictionary;
     for (const code of ['en','ta','sa']) checkLocaleShape(labels(i18n.en), labels(i18n[code]), code, errors);
-    if(isV2)errors.push(...stationNameErrors(data),...artistNameErrors(data));
+    if(isV2) {
+      errors.push(...stationNameErrors(data),...artistNameErrors(data));
+      for (const [section, rows] of [
+        ['networkNames', networks ?? []],
+        ['broadcasterNames', data.broadcasters ?? []],
+        ['programmeThemeNames', data.programmeThemes ?? []],
+      ]) {
+        const expected = new Set(rows.map(row => row.id));
+        for (const code of ['en','ta','sa']) {
+          const names = i18n[code]?.[section];
+          if (!names || typeof names !== 'object' || Array.isArray(names)) {
+            errors.push(`${code}: missing ${section} dictionary`);
+            continue;
+          }
+          for (const row of rows) {
+            const value = names[row.id];
+            if (!isText(value) || value !== value.normalize('NFC') || !value.isWellFormed())
+              errors.push(`${code}: invalid or missing ${section}.${row.id}`);
+            if (code === 'en' && value !== row.name)
+              errors.push(`en: ${section}.${row.id} must retain canonical name`);
+            if (code === 'ta' && value !== row.name && !/\\p{Script=Tamil}/u.test(value))
+              errors.push(`ta: ${section}.${row.id} must use Tamil script or exact brand fallback`);
+            if (code === 'sa' && value !== row.name && !/\\p{Script=Devanagari}/u.test(value))
+              errors.push(`sa: ${section}.${row.id} must use Devanagari or exact brand fallback`);
+          }
+          for (const key of Object.keys(names))
+            if (!expected.has(key)) errors.push(`${code}: unknown ${section}.${key}`);
+        }
+      }
+    }
     for (const category of categories || []) for (const code of ['en','ta','sa']) if (!isText(i18n[code]?.categories?.[category.id])) errors.push(`${code}: missing category ${category.id}`);
   }
   if(isV2)errors.push(...metadataErrors(data,validHttps));
