@@ -20524,5 +20524,320 @@
         }
       }
     ]
+  },
+  {
+    "id": "stage43-hiru-fm-lk",
+    "name": "Hiru FM",
+    "about": "Hiru FM is a Sinhala-language radio service in Sri Lanka offering popular songs, entertainment and hosted programming. The listing links to its broadcaster's live player.",
+    "networkId": "stage43-network-hiru-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.hirufm.lk/listenlive.php",
+    "sourceIds": [
+      "stage43-source-hiru-fm-lk"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-hiru-fm-lk",
+        "url": "https://radio.lotustechnologieslk.net:2020/stream/hirufmgarden",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-hiru-fm-lk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-hiru-fm-lk",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-gold-fm-lk",
+    "name": "Gold FM Sri Lanka",
+    "about": "Gold FM is an English-language Sri Lankan music station associated with classic and oldies programming. Its live player is published on the station website.",
+    "networkId": "stage43-network-gold-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "en"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.goldfm.lk/onair.html",
+    "sourceIds": [
+      "stage43-source-gold-fm-lk"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-gold-fm-lk",
+        "url": "https://radio.lotustechnologieslk.net:8000/;",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-gold-fm-lk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-gold-fm-lk",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-shaa-fm-lk",
+    "name": "Shaa FM",
+    "about": "Shaa FM is a Sinhala-language Sri Lankan radio station carrying music and entertainment programming. This entry links to the stream supplied alongside its live page.",
+    "networkId": "stage43-network-shaa-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.shaafm.lk/listenlive.php",
+    "sourceIds": [
+      "stage43-source-shaa-fm-lk"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-shaa-fm-lk",
+        "url": "https://radio.lotustechnologieslk.net:2020/stream/shaafmgarden",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-shaa-fm-lk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-shaa-fm-lk",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-asal-tamil-fm-gb",
+    "name": "Asal Tamil FM",
+    "about": "Asal Tamil FM is an online Tamil-language music service associated with London, United Kingdom, offering Tamil songs and music programming.",
+    "networkId": "stage43-network-asal-tamil-fm-gb",
+    "countryCode": "GB",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://www.asalfm.net/",
+    "sourceIds": [
+      "stage43-source-asal-tamil-fm-gb"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-asal-tamil-fm-gb",
+        "url": "https://stream.zeno.fm/swa83te314zuv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-asal-tamil-fm-gb",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-asal-tamil-fm-gb",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-yarl-fm-lk",
+    "name": "Yarl FM",
+    "about": "Yarl FM is listed as a Tamil-language radio service associated with Sri Lanka. The supplied stream uses a session-based third-party relay and needs stable-stream verification.",
+    "networkId": "stage43-network-yarl-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": null,
+    "sourceIds": [
+      "stage43-source-yarl-fm-lk"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. Third-party session relay may expire; stable endpoint required. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-yarl-fm-lk",
+        "url": "https://stg.lay.breezybamboo.com/session/2sc/0hl/icj/zoa/e.mytuner-radio.com/tyo/qwhvi331tyxywywt3cyrzv0yrmgnnr0mvjmssyrqsjyw7ncs3fv3nywl6ywlfy7nsynafy73iyck6oyeinfci3yceeyfyeqsy7nqycvlqyevtyin43gvycyzyky2yz99qs7xfcy37y7n4yz99yzkymwyzykyl",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-yarl-fm-lk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-yarl-fm-lk",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-bee-fm-lk",
+    "name": "Bee FM",
+    "about": "Bee FM is a Sinhala-language internet radio service associated with Sri Lanka, featuring music and entertainment. The supplied link points to a Zeno streaming endpoint.",
+    "networkId": "stage43-network-bee-fm-lk",
+    "countryCode": "LK",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "si"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "online",
+    "coverage": "global",
+    "listingStatus": "candidate",
+    "frequencyMHz": null,
+    "website": "https://zeno.fm/beefmlive/",
+    "sourceIds": [
+      "stage43-source-bee-fm-lk"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. ",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-bee-fm-lk",
+        "url": "https://stream.zeno.fm/xwueh52exy8uv",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-bee-fm-lk",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-bee-fm-lk",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage43-num-tamil-radio-nz",
+    "name": "Num Tamil Radio",
+    "about": "Num Tamil Radio is a Tamil-language station listed in Auckland, New Zealand, with a reported frequency of 88.3 FM and an online music stream.",
+    "networkId": "stage43-network-num-tamil-radio-nz",
+    "countryCode": "NZ",
+    "regionId": null,
+    "districtId": null,
+    "localityId": null,
+    "broadcastLanguages": [
+      "ta"
+    ],
+    "genres": [
+      "music"
+    ],
+    "delivery": "fm",
+    "coverage": "local",
+    "listingStatus": "candidate",
+    "frequencyMHz": 88.3,
+    "website": null,
+    "sourceIds": [
+      "stage43-source-num-tamil-radio-nz"
+    ],
+    "notes": "User-provided HTTPS candidate on 2026-11-18. No independent audio decode, long-term availability, or third-party listening/recording rights were established. The reported FM frequency is descriptive, not independently licensed/verified for this online stream.",
+    "aliases": [],
+    "streams": [
+      {
+        "id": "stage43-stream-num-tamil-radio-nz",
+        "url": "https://usa15.fastcast4u.com/proxy/tammus00?mp=/;",
+        "format": "unknown",
+        "verificationStatus": "unverified",
+        "lastVerifiedAt": null,
+        "sourceId": "stage43-source-num-tamil-radio-nz",
+        "rightsStatus": "unconfirmed",
+        "directListening": {
+          "status": "needs-review",
+          "reviewedAt": "2026-11-18T00:00:00Z",
+          "sourceId": "stage43-source-num-tamil-radio-nz",
+          "notes": "Unverified user-supplied stream candidate; playback, browser/Android decoding and permission for third-party app use remain under review.",
+          "recording": "unconfirmed",
+          "redistribution": "unconfirmed"
+        }
+      }
+    ]
   }
 ]
