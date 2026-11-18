@@ -20,10 +20,10 @@ const unavailable = [
 
 test('Stage 43 publishes each HTTPS station exactly once and preserves its requested URL', () => {
   const data=readCatalogue(undefined,'v2');
-  assert.equal(data.index.catalogVersion,'2.8.15');
+  assert.equal(data.index.catalogVersion,'2.8.16');
   assert.deepEqual(validateCatalogue(data,{version:'v2'}),[]);
   assert.equal(data.stations.length,405);
-  assert.equal(data.discoveryStations.length,3);
+  assert.equal(data.discoveryStations.length,0);
   assert.equal(data.stations.filter(s=>s.name==='Sun FM Sri Lanka').length,1);
   assert.equal(data.stations.find(s=>s.id==='stage41-sun-fm').streams[0].url,'https://radio.lotustechnologieslk.net:2020/stream/sunfmgarden');
   for (const [slug,url] of requested) {
@@ -38,29 +38,33 @@ test('Stage 43 publishes each HTTPS station exactly once and preserves its reque
   }
 });
 
-test('HTTP-only stations appear as honest metadata-only discoveries', () => {
+test('HTTP-only discoveries and their orphaned metadata are absent from V2', () => {
   const data=readCatalogue(undefined,'v2');
-  for(const [slug,http]of unavailable){
+  assert.equal(data.discoveryStations.length,0);
+  assert.equal(data.browseIndex.totals.all,405);
+  assert.equal(data.browseIndex.totals.discoveryOnly,0);
+  for (const [slug,http] of unavailable) {
     const id='stage43-'+slug;
     assert.ok(!data.stations.some(s=>s.id===id));
-    const d=data.discoveryStations.find(s=>s.id===id);
-    assert.ok(d);
-    assert.equal(d.availability,'no-direct-stream');
-    assert.equal(d.streams,undefined);
-    assert.ok(d.notes.includes(http));
+    assert.ok(!data.discoveryStations.some(s=>s.id===id));
+    assert.ok(!data.networks.some(n=>n.id==='stage43-network-'+slug));
+    assert.ok(!data.sources.some(source=>source.id==='stage43-source-'+slug));
+    assert.ok(!data.browseIndex.stationIds.includes(id));
+    for(const locale of ['en','ta','sa']) {
+      assert.equal(data.i18n[locale].networkNames['stage43-network-'+slug],undefined);
+      assert.equal(data.i18n[locale].discoveryNames?.[id],undefined);
+    }
   }
   assert.ok(data.stations.every(s=>s.streams.every(x=>x.url.startsWith('https://'))));
   assert.deepEqual(data.browseIndex,buildBrowseIndex(data),'navigation index must match canonical station membership');
 });
 
-test('all new network and discovery names are available in all UI locales',()=>{
+test('remaining stream-bearing station and network names are available in all UI locales',()=>{
   const data=readCatalogue(undefined,'v2');
   for(const locale of ['en','ta','sa']){
     const dict=data.i18n[locale];
-    for(const [slug] of [...requested,...unavailable])
+    for(const [slug] of requested
       assert.ok(dict.networkNames['stage43-network-'+slug]);
-    for(const [slug] of unavailable)
-      assert.ok(dict.discoveryNames['stage43-'+slug]);
     if(locale!=='en')for(const [slug]of requested)
       assert.ok(dict.stationNames['stage43-'+slug]);
   }
