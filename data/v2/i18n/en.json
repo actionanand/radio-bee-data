@@ -457,10 +457,7 @@
     "stage43-network-asal-tamil-fm-gb": "Asal Tamil FM",
     "stage43-network-yarl-fm-lk": "Yarl FM",
     "stage43-network-bee-fm-lk": "Bee FM",
-    "stage43-network-num-tamil-radio-nz": "Num Tamil Radio",
-    "stage43-network-lankasri-fm-gb": "Lankasri FM",
-    "stage43-network-ilc-tamil-gb": "ILC Tamil Radio",
-    "stage43-network-siragugal-fm-in": "Siragukal FM 89.6"
+    "stage43-network-num-tamil-radio-nz": "Num Tamil Radio"
   },
   "broadcasterNames": {
     "prasar-bharati": "Prasar Bharati",
@@ -481,10 +478,5 @@
     "hindu-devotional": "Hindu devotional programming",
     "islamic-religious": "Islamic religious programming",
     "tamil-devotional-music": "Tamil devotional music"
-  },
-  "discoveryNames": {
-    "stage43-lankasri-fm-gb": "Lankasri FM",
-    "stage43-ilc-tamil-gb": "ILC Tamil Radio",
-    "stage43-siragugal-fm-in": "Siragukal FM 89.6"
   }
 }
