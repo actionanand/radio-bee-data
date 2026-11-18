@@ -220,8 +220,10 @@ export function validateCatalogue(data,{root=projectRoot,version}={}) {
   else {
     const labels=dictionary=>isV2?Object.fromEntries(Object.entries(dictionary).filter(([key])=>!['stationNames','artistNames'].includes(key))):dictionary;
     for (const code of ['en','ta','sa']) checkLocaleShape(labels(i18n.en), labels(i18n[code]), code, errors);
-    if(isV2) {
-      errors.push(...stationNameErrors(data),...artistNameErrors(data));
+    if(isV2) errors.push(...stationNameErrors(data),...artistNameErrors(data));
+    // Historical V2 snapshots predate entity-name dictionaries; enforce coverage from v2.8.14 onward.
+    const [, localeMinor = 0, localePatch = 0] = (index?.catalogVersion ?? '2.0.0').split('.').map(Number);
+    if(isV2 && (localeMinor > 8 || (localeMinor === 8 && localePatch >= 14))) {
       for (const [section, rows] of [
         ['networkNames', networks ?? []],
         ['broadcasterNames', data.broadcasters ?? []],
