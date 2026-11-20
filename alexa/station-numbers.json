@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "locale": "en-IN",
+  "supportedBroadcastLanguages": [
+    "ta",
+    "en"
+  ],
+  "channels": [
+    {
+      "number": 1,
+      "stationId": "stage29-tamil-kadavul-murugan-fm",
+      "spokenNames": [
+        "tamil kadavul murugan fm",
+        "murugan fm one",
+        "murugan radio"
+      ]
+    },
+    {
+      "number": 2,
+      "stationId": "stage39-mugugan-songs-fm",
+      "spokenNames": [
+        "murugan songs fm",
+        "murugan songs radio",
+        "murugan fm two",
+        "mugugan songs fm"
+      ]
+    },
+    {
+      "number": 3,
+      "stationId": "air-nagercoil",
+      "spokenNames": [
+        "air nagercoil",
+        "akashvani nagercoil",
+        "all india radio nagercoil"
+      ]
+    },
+    {
+      "number": 4,
+      "stationId": "suryan-chennai",
+      "spokenNames": [
+        "suryan fm chennai",
+        "suryan chennai",
+        "suryan radio chennai"
+      ]
+    },
+    {
+      "number": 5,
+      "stationId": "sooriyan-srilanka",
+      "spokenNames": [
+        "sooriyan fm sri lanka",
+        "sooriyan radio sri lanka"
+      ]
+    },
+    {
+      "number": 6,
+      "stationId": "air-chennai-rainbow",
+      "spokenNames": [
+        "air rainbow chennai",
+        "akashvani rainbow chennai"
+      ]
+    },
+    {
+      "number": 7,
+      "stationId": "shakthi-srilanka",
+      "spokenNames": [
+        "shakthi fm sri lanka",
+        "shakthi fm"
+      ]
+    },
+    {
+      "number": 8,
+      "stationId": "oli-968-sg",
+      "spokenNames": [
+        "oli nine six eight",
+        "oli 968 singapore"
+      ]
+    },
+    {
+      "number": 9,
+      "stationId": "ibc-tamil-uk",
+      "spokenNames": [
+        "ibc tamil",
+        "ibc tamil radio"
+      ]
+    },
+    {
+      "number": 10,
+      "stationId": "tamil-894-ae",
+      "spokenNames": [
+        "89.4 tamil fm",
+        "tamil fm dubai"
+      ]
+    },
+    {
+      "number": 11,
+      "stationId": "american-tamil-radio-us",
+      "spokenNames": [
+        "american tamil radio"
+      ]
+    },
+    {
+      "number": 12,
+      "stationId": "stage29-100-love-radio",
+      "spokenNames": [
+        "hundred percent love radio",
+        "100 percent love radio"
+      ]
+    },
+    {
+      "number": 13,
+      "stationId": "stage29-100-new-songs",
+      "spokenNames": [
+        "hundred percent new songs",
+        "100 percent new songs"
+      ]
+    },
+    {
+      "number": 14,
+      "stationId": "stage29-100-sad-songs",
+      "spokenNames": [
+        "hundred percent sad songs",
+        "100 percent sad songs"
+      ]
+    },
+    {
+      "number": 15,
+      "stationId": "stage40-air-tamil-90s-songs",
+      "spokenNames": [
+        "air tamil nineties songs",
+        "air tamil 90s songs"
+      ]
+    },
+    {
+      "number": 16,
+      "stationId": "stage41-sun-fm",
+      "spokenNames": [
+        "sun fm sri lanka",
+        "english sun fm sri lanka"
+      ]
+    },
+    {
+      "number": 17,
+      "stationId": "air-madurai",
+      "spokenNames": [
+        "air madurai",
+        "akashvani madurai"
+      ]
+    },
+    {
+      "number": 18,
+      "stationId": "air-coimbatore",
+      "spokenNames": [
+        "air coimbatore",
+        "akashvani coimbatore"
+      ]
+    },
+    {
+      "number": 19,
+      "stationId": "air-tamil",
+      "spokenNames": [
+        "akashvani tamil nadu",
+        "air tamil nadu"
+      ]
+    },
+    {
+      "number": 20,
+      "stationId": "air-chennai-gold",
+      "spokenNames": [
+        "air fm gold chennai",
+        "akashvani fm gold chennai"
+      ]
+    },
+    {
+      "number": 21,
+      "stationId": "stage43-gold-fm-lk",
+      "spokenNames": [
+        "gold fm sri lanka",
+        "english gold fm"
+      ]
+    }
+  ]
+}
