@@ -63,7 +63,7 @@ test('remaining stream-bearing station and network names are available in all UI
   const data=readCatalogue(undefined,'v2');
   for(const locale of ['en','ta','sa']){
     const dict=data.i18n[locale];
-    for(const [slug] of requested
+    for(const [slug] of requested)
       assert.ok(dict.networkNames['stage43-network-'+slug]);
     if(locale!=='en')for(const [slug]of requested)
       assert.ok(dict.stationNames['stage43-'+slug]);

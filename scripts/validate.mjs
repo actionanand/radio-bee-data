@@ -1,4 +1,5 @@
 import {artistNameErrors} from './artist-localization.mjs';
+import {validateAlexaRegistry} from './alexa-registry.mjs';
 import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -274,6 +275,7 @@ export function validateRepository(root=projectRoot) {
   const errors=[];
   for(const version of ['v1','v2'])try{errors.push(...validateCatalogue(readCatalogue(root,version),{root,version}).map(e=>version+': '+e));}catch(error){errors.push(version+': '+error.message);}
   errors.push(...v1BaselineErrors(root));
+  try {errors.push(...validateAlexaRegistry(root,readCatalogue(root,'v2')));}catch(error){errors.push('Alexa catalogue validation: '+error.message);}
   return errors;
 }
 
@@ -282,5 +284,5 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   try { errors = validateRepository(); }
   catch (error) { console.error(`Cannot read catalogue: ${error.message}`); process.exit(1); }
   if (errors.length) { console.error(`Catalogue invalid: ${errors.length} error(s)`); for (const error of errors) console.error(`- ${error}`); process.exitCode=1; }
-  else console.log('Catalogues valid: v1 baseline preserved; v2 references, metadata, streams, counts, browse index and en/ta/sa locale parity.');
+  else console.log('Catalogues valid: v1 baseline preserved; v2 references, metadata, streams, counts, browse index, Alexa channel registry and en/ta/sa locale parity.');
 }

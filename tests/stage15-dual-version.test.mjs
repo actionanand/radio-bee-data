@@ -13,11 +13,12 @@ import {publicJsonText,publicSnapshot} from '../scripts/publication-profiles.mjs
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
 const json=name=>JSON.parse(readFileSync(path.join(root,name)));
 const saved=json('docs/stage15/enriched-snapshot.json');
-const expectedPublished=[...json('docs/stage15/published-files.json').files.filter(file=>!file.startsWith('v2/assets/logos/networks/') || file.endsWith('.gitkeep')),'v2/artists.json','v2/home-stations.json'].sort();
+const expectedPublished=[...json('docs/stage15/published-files.json').files.filter(file=>!file.startsWith('v2/assets/logos/networks/') || file.endsWith('.gitkeep')),'v2/artists.json','v2/home-stations.json','alexa/station-numbers.json'].sort();
 function fixture(t){
   const temporary=mkdtempSync(path.join(os.tmpdir(),'radiobee-dual-'));
   t.after(()=>rmSync(temporary,{recursive:true,force:true}));
   cpSync(path.join(root,'data'),path.join(temporary,'data'),{recursive:true});
+  cpSync(path.join(root,'alexa'),path.join(temporary,'alexa'),{recursive:true});
   mkdirSync(path.join(temporary,'docs/stage15'),{recursive:true});
   cpSync(path.join(root,'docs/stage15/v1-production-baseline.json'),path.join(temporary,'docs/stage15/v1-production-baseline.json'));
   return temporary;

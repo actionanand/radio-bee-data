@@ -14,7 +14,7 @@ import {buildStatic} from '../scripts/build-static.mjs';
 const json=file=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url)));
 const baseline=json('docs/stage15/baseline.json'),audit=json('docs/stage15/metadata-audit.json');
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
-const expectedPublished=[...json('docs/stage15/published-files.json').files.filter(file=>!file.startsWith('v2/assets/logos/networks/') || file.endsWith('.gitkeep')),'v2/artists.json','v2/home-stations.json'].sort();
+const expectedPublished=[...json('docs/stage15/published-files.json').files.filter(file=>!file.startsWith('v2/assets/logos/networks/') || file.endsWith('.gitkeep')),'v2/artists.json','v2/home-stations.json','alexa/station-numbers.json'].sort();
 const ids=rows=>rows.map(s=>s.id);
 // Frozen Stage 15 baseline; changes after Stage 15 are covered by their own tests.
 const get=()=>JSON.parse(readFileSync(new URL('../docs/stage18/pre-import-v2-snapshot.json',import.meta.url),'utf8'));
@@ -23,7 +23,7 @@ const validUrl=url=>typeof url==='string'&&url.startsWith('https://');
 const metadata=data=>metadataErrors(data,validUrl);
 const temporary=action=>{
   const root=mkdtempSync(path.join(os.tmpdir(),'radio-stage15-'));
-  try {cpSync(new URL('../data',import.meta.url),path.join(root,'data'),{recursive:true});return action(root);}finally{rmSync(root,{recursive:true,force:true});}
+  try {cpSync(new URL('../data',import.meta.url),path.join(root,'data'),{recursive:true});cpSync(new URL('../alexa',import.meta.url),path.join(root,'alexa'),{recursive:true});return action(root);}finally{rmSync(root,{recursive:true,force:true});}
 };
 
 test('Stage 15 preserves all baseline identities, stream objects, networks, migrations and historical evidence',()=>{
