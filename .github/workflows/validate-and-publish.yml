@@ -5,6 +5,7 @@ on:
     branches: [main, master]
     paths:
       - 'data/**'
+      - 'alexa/**'
       - 'scripts/**'
       - 'tests/**'
       - 'package.json'
