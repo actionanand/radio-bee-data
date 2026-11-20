@@ -4,6 +4,7 @@ import path from 'node:path';
 import {readCatalogue,validateCatalogue} from './validate.mjs';
 import {fileInventory,v1BaselineErrors} from './versioned-publication.mjs';
 import {inspectLogo} from './logo-assets.mjs';
+import {alexaRegistryFile,validateAlexaRegistry} from './alexa-registry.mjs';
 import {publicJsonText,publicSnapshot} from './publication-profiles.mjs';
 
 const localizationFiles=['i18n/en.json','i18n/ta.json','i18n/sa.json'];
@@ -25,6 +26,7 @@ export function buildStatic(root=projectRoot,{requireV2=false,preserveV1=false}=
   // Reject links (including dangling links) anywhere before reading JSON through them.
   const snapshots=versions.map(version=>({version,sourceFiles:fileInventory(path.join(root,'data',version)),data:readCatalogue(root,version)}));
   const errors=snapshots.flatMap(({version,data})=>validateCatalogue(data,{root,version}).map(error=>version+': '+error));
+  if(versions.includes('v2'))errors.push(...validateAlexaRegistry(root,snapshots.find(row=>row.version==='v2').data).map(e=>'alexa: '+e));
   if(preserveV1)errors.push(...v1BaselineErrors(root));
   if(errors.length)throw Error('Cannot publish invalid catalogue:\n'+errors.join('\n'));
   const plans=snapshots.map(({version,data,sourceFiles})=>{
@@ -50,12 +52,19 @@ export function buildStatic(root=projectRoot,{requireV2=false,preserveV1=false}=
       else writeFileSync(target,transformed,{flag:'wx'});
     }
   }
+  // Publish the small, validated Alexa number mapping alongside the V2 catalogue.
+  if(versions.includes('v2')){
+    const source=path.join(root,alexaRegistryFile),target=path.join(dest,alexaRegistryFile);
+    if(!lstatSync(source).isFile())throw Error('Alexa channel registry must be a regular file');
+    mkdirSync(path.dirname(target),{recursive:true});
+    copyFileSync(source,target,constants.COPYFILE_EXCL);
+  }
   writeFileSync(path.join(dest,'index.html'),'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RadioBee data</title><main><h1>RadioBee catalogue</h1><p>Candidate URLs do not establish playback availability or listening, recording or redistribution permission.</p><p><a href="./v1/index.json">Legacy API v1 — catalogue 1.9.0</a></p><p><a href="./v2/index.json">Metadata and navigation API v2 — catalogue 2.0.0</a></p></main></html>\n');
   if(preserveV1){
     const errors=validateCatalogue(publicSnapshot(readCatalogue(root,'v1'),'v1'),{root,version:'v1'});
     if(errors.length)throw Error('Sanitized v1 output invalid: '+errors.join('; '));
   }
-  const expected=['index.html',...plans.flatMap(({version,files})=>files.map(file=>version+'/'+file))].sort();
+  const expected=['index.html',...(versions.includes('v2')?[alexaRegistryFile]:[]),...plans.flatMap(({version,files})=>files.map(file=>version+'/'+file))].sort();
   if(JSON.stringify(fileInventory(dest))!==JSON.stringify(expected))throw Error('Generated publication inventory differs from allowlists');
   console.log('Built '+versions.map(v=>'dist/'+v).join(' and ')+' with static publication allowlists.');
   return dest;
